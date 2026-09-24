@@ -1,0 +1,104 @@
+/* ─────────────────────────────────────────────────────────────────────────────────────────────
+   Responsive layer
+   The design is desktop-first: its layouts are inline styles, and some pages switch layout from
+   JavaScript. Everything here only applies below the stated widths, so desktop is unchanged.
+
+   1. Footer link grid — every page.
+   2. `.rc-page` — pages whose static grids the design never collapses
+      (Centre, Drug, Province, TherapistProfile, Therapists, TherapistsCity, TherapistsProvince,
+       plus Home, City, BlogPost, JoinDirectory, Promote, which only respond to width in some sections).
+   Hooks (`data-cols`, `data-rc-wrap`, `data-rc-lg`, `data-rc-gap`, `data-rc-dyn`) are added by the views
+   to the elements they target; grids driven by JavaScript at runtime are left alone.
+   ───────────────────────────────────────────────────────────────────────────────────────────── */
+
+/* 1 ▸ footer */
+@media (max-width: 1000px) {
+  footer [data-cols="1.3fr 1fr 1fr 1fr"],
+  footer [data-cols="1.8fr repeat(3,1fr)"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 40px 32px !important; }
+  footer [data-cols="1.3fr 1fr 1fr 1fr"]>:first-child,
+  footer [data-cols="1.8fr repeat(3,1fr)"]>:first-child { grid-column: 1 / -1; }
+}
+@media (max-width: 560px) {
+  footer [data-cols="1.3fr 1fr 1fr 1fr"],
+  footer [data-cols="1.8fr repeat(3,1fr)"] { grid-template-columns: minmax(0, 1fr) !important; }
+}
+
+/* 2 ▸ tablet and below */
+@media (max-width: 1000px) {
+  .rc-page [data-cols] > * { min-width: 0; }
+  .rc-page img { max-width: 100%; }
+  .rc-page [data-cols="1fr 1fr"][data-rc-gap] { grid-template-columns: minmax(0, 1fr) !important; }
+  .rc-page [data-cols=".8fr 1.2fr"],
+  .rc-page [data-cols="1.1fr .9fr"],
+  .rc-page [data-cols="1.15fr .85fr"],
+  .rc-page [data-cols="1.2fr .8fr"],
+  .rc-page [data-cols="1fr 1.6fr"],
+  .rc-page [data-cols="1.4fr 1fr"],
+  .rc-page [data-cols=".9fr 1.1fr"],
+  .rc-page [data-cols="1.05fr .95fr"],
+  .rc-page [data-cols="1fr 1.1fr"],
+  .rc-page [data-cols="320px 1fr"],
+  .rc-page [data-cols="300px 1fr"],
+  .rc-page [data-cols="200px minmax(0,1fr)"],
+  .rc-page [data-cols="minmax(0,1fr) minmax(300px,380px)"] { grid-template-columns: minmax(0, 1fr) !important; }
+  .rc-page [data-cols="1fr 1fr 1fr"],
+  .rc-page [data-cols="repeat(3,1fr)"],
+  .rc-page [data-cols="repeat(3,minmax(0,1fr))"],
+  .rc-page [data-cols="repeat(4,1fr)"],
+  .rc-page [data-cols="repeat(4,minmax(0,1fr))"],
+  .rc-page [data-cols="repeat(5,1fr)"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .rc-page [data-cols="1fr 1fr 1fr auto"],
+  .rc-page [data-cols="1fr 1fr auto"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+}
+
+/* 2 ▸ phone */
+@media (max-width: 640px) {
+  .rc-page [data-rc-wrap] { padding-left: 20px !important; padding-right: 20px !important; }
+  .rc-page [data-rc-lg] { font-size: clamp(28px, 8.4vw, 36px) !important; }
+  /* multi-column grids stack, except small fixed-width rows (avatar + text, icon + label…) and stat tiles */
+  .rc-page [data-cols]:not([data-cols="14px 1fr 34px"]):not([data-cols="1fr auto"]):not([data-cols="30px 1fr auto"]):not([data-cols="44px 1fr"]):not([data-cols="56px 1fr auto"]):not([data-cols="72px minmax(0,1fr)"]):not([data-cols="76px 1fr"]):not([data-cols="auto 1fr"]):not([data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"]):not([data-cols="repeat(2,1fr)"]):not([data-cols="1.6fr repeat(5,1fr)"]):not([data-cols="2fr 1fr 1fr"]):not([data-cols="repeat(4,1fr)"]):not([data-cols="repeat(4,minmax(0,1fr))"]):not([data-cols="repeat(5,1fr)"]):not([data-cols="repeat(auto-fill,minmax(320px,1fr))"]):not([data-cols="repeat(auto-fill,minmax(170px,1fr))"]):not([data-cols="repeat(auto-fill,minmax(150px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(240px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(160px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(140px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(200px,1fr))"]):not([data-cols="1fr 1fr"]) { grid-template-columns: minmax(0, 1fr) !important; }
+  .rc-page [data-rc-dyn] { grid-template-columns: minmax(0, 1fr) !important; }
+  .rc-page [data-cols="repeat(4,1fr)"],
+  .rc-page [data-cols="repeat(4,minmax(0,1fr))"],
+  .rc-page [data-cols="repeat(5,1fr)"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fill,minmax(320px,1fr))"] { grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fill,minmax(170px,1fr))"] { grid-template-columns: repeat(auto-fill, minmax(min(170px, 100%), 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fill,minmax(150px,1fr))"] { grid-template-columns: repeat(auto-fill, minmax(min(150px, 100%), 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fit,minmax(240px,1fr))"] { grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fit,minmax(160px,1fr))"] { grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fit,minmax(140px,1fr))"] { grid-template-columns: repeat(auto-fit, minmax(min(140px, 100%), 1fr)) !important; }
+  .rc-page [data-cols="repeat(auto-fit,minmax(200px,1fr))"] { grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr)) !important; }
+  /* JoinDirectory: the "reach" band has wide number + label pairs, so it stacks instead of going 2-up */
+  .rc-page[data-sc-name="JoinDirectory"] [data-cols="repeat(4,minmax(0,1fr))"][data-rc-wrap] { grid-template-columns: minmax(0, 1fr) !important; }
+  /* ranking table (City): keep the columns readable and let the table scroll sideways inside its card */
+  .rc-page :has(> [data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"]) { overflow-x: auto; }
+  .rc-page [data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"] { min-width: 620px; }
+  /* photo mosaic (Centre): big photo on top, four thumbnails in a 2 x 2 grid underneath */
+  .rc-page [data-cols="2fr 1fr 1fr"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; grid-template-rows: none !important; height: auto !important; }
+  .rc-page [data-cols="2fr 1fr 1fr"] > * { height: 120px !important; }
+  .rc-page [data-cols="2fr 1fr 1fr"] > :first-child { grid-column: 1 / -1; grid-row: auto !important; height: 240px !important; }
+}
+@media (max-width: 560px) {
+  .rc-page [data-cols="1fr 1fr"] { grid-template-columns: minmax(0, 1fr) !important; }
+}
+
+/* 3 ▸ site header, small phones — the logo + "Find a Rehab" + menu button row needs ~400px, so tighten it below that */
+@media (max-width: 420px) {
+  [data-sc-name="SiteHeader"] :is([style*="height:76px"], [style*="height: 76px"]) { padding-left: 14px !important; padding-right: 14px !important; gap: 10px !important; }
+  [data-sc-name="SiteHeader"] :is([style*="height:76px"], [style*="height: 76px"]) > a:nth-child(2) { padding-left: 14px !important; padding-right: 14px !important; }
+}
+@media (max-width: 350px) {
+  [data-sc-name="SiteHeader"] :is([style*="height:76px"], [style*="height: 76px"]) > a:first-child img { height: 34px !important; }
+  [data-sc-name="SiteHeader"] :is([style*="height:76px"], [style*="height: 76px"]) > a:nth-child(2) { padding-left: 10px !important; padding-right: 10px !important; font-size: 13px !important; }
+}
+
+/* 4 ▸ two leftovers on the smallest phones */
+@media (max-width: 420px) {
+  [data-screen-label="Topic Hubs"] a:is([style*="white-space:nowrap"], [style*="white-space: nowrap"]) { white-space: normal !important; }
+  .rc-page[data-sc-name="Promote"] [data-cols="repeat(4,1fr)"] { grid-template-columns: minmax(0, 1fr) !important; }
+}
+
+/* 5 ▸ safety net for 320px-wide screens: never allow sideways scrolling (`clip` keeps the sticky header working) */
+@media (max-width: 340px) {
+  #dc-root { overflow-x: clip; }
+}

@@ -1,0 +1,20 @@
+/* Page shell — same document scaffolding the design was built on. */
+html,body{height:100%;margin:0}
+#dc-root,#dc-root>.sc-host{height:100%}
+
+/* A page is hidden for the split second between server HTML and hydration, so the
+   JS-measured responsive layout never flashes the wrong breakpoint. (see <noscript> in layout.tsx) */
+.sc-host.dc-pending{visibility:hidden}
+
+@media print {
+  @page { margin: 0.5cm; }
+  figure, table { break-inside: avoid; }
+  #dc-root, #dc-root > .sc-host { height: auto; }
+  *, *::before, *::after {
+    print-color-adjust: exact; -webkit-print-color-adjust: exact;
+    backdrop-filter: none !important; -webkit-backdrop-filter: none !important;
+    animation-delay: -99s !important; animation-duration: .001s !important;
+    animation-iteration-count: 1 !important; animation-fill-mode: both !important;
+    animation-play-state: running !important; transition-duration: 0s !important;
+  }
+}
