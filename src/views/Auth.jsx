@@ -1058,11 +1058,11 @@ function template(v) {
                       </span>
                       <span style={{ fontSize: '14px', lineHeight: '1.5', color: '#3b4d63' }}>
                         I agree to the{' '}
-                        <$A href="https://addictionrehabcenters.ca/terms-of-use/" style={{ fontWeight: '600' }}>
+                        <$A href="/terms-of-use" style={{ fontWeight: '600' }}>
                           Terms of Use
                         </$A>{' '}
                         and{' '}
-                        <$A href="https://addictionrehabcenters.ca/privacy-policy/" style={{ fontWeight: '600' }}>
+                        <$A href="/privacy-policy" style={{ fontWeight: '600' }}>
                           Privacy Policy
                         </$A>
                         .
@@ -1219,10 +1219,10 @@ function template(v) {
             }}
           >
             <span>© 2025 Addiction Rehab Centres Canada</span>
-            <$A className="scp0" href="https://addictionrehabcenters.ca/privacy-policy/" style={{ color: '#6b7f95' }}>
+            <$A className="scp0" href="/privacy-policy" style={{ color: '#6b7f95' }}>
               Privacy
             </$A>
-            <$A className="scp0" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#6b7f95' }}>
+            <$A className="scp0" href="/terms-of-use" style={{ color: '#6b7f95' }}>
               Terms
             </$A>
             <$A className="scp0" href="tel:+18558854747" style={{ color: '#6b7f95' }}>

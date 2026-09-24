@@ -131,7 +131,7 @@ class Component extends DCLogic {
   }
 
   renderVals() {
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, shown, tab, hovNav, mob, mobSec, w, pos, hov } = this.state;
     const active = this.props.active,
       layout = this.props.layout || 'columns',
@@ -1017,7 +1017,7 @@ function template(v) {
               </nav>
               <$A
                 className="scp1 scpy"
-                href="https://addictionrehabcenters.ca/rehab/search/"
+                href="/rehab/search"
                 style={{
                   flexShrink: '0',
                   font: '600 14.5px Jost,sans-serif',
@@ -1043,7 +1043,7 @@ function template(v) {
             <>
               <$A
                 className="scp1 scpy"
-                href="https://addictionrehabcenters.ca/rehab/search/"
+                href="/rehab/search"
                 style={{
                   marginLeft: 'auto',
                   font: '600 14px Jost,sans-serif',
@@ -1457,7 +1457,7 @@ function template(v) {
                         {featSearch ? (
                           <>
                             <form
-                              action="https://addictionrehabcenters.ca/rehab/search/"
+                              action="/rehab/search"
                               method="get"
                               style={{
                                 display: 'flex',
@@ -1633,7 +1633,7 @@ function template(v) {
                 }}
               >
                 <form
-                  action="https://addictionrehabcenters.ca/rehab/search/"
+                  action="/rehab/search"
                   method="get"
                   style={{
                     display: 'flex',

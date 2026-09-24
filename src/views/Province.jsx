@@ -39,7 +39,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const R = React.createElement;
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, tab } = this.state;
     const ic = {
       pin: this.icon([
@@ -991,11 +991,11 @@ function template(v) {
                 marginBottom: '36px',
               }}
             >
-              <$A className="scp0" href="https://addictionrehabcenters.ca/" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/" style={{ color: '#6b7f95' }}>
                 Home
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
-              <$A className="scp0" href="https://addictionrehabcenters.ca/rehab/" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/rehab" style={{ color: '#6b7f95' }}>
                 Rehabs By Provinces
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
@@ -1898,7 +1898,7 @@ function template(v) {
                 Alcohol Rehab Alberta
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                <$A href="https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/">Alcohol Rehab</$A>{' '}
+                <$A href="/alcohol-drug-rehab-centres-in-alberta">Alcohol Rehab</$A>{' '}
                 Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These
                 centres offer a range of services, including detox, individual and group therapy, and aftercare support.
                 Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health
@@ -1942,7 +1942,7 @@ function template(v) {
               <h3 id="detox-near-me" style={{ fontSize: '26px', marginTop: '10px' }}>
                 <$A
                   className="scp0"
-                  href="https://addictionrehabcenters.ca/detox-centres-in-canada/"
+                  href="/detox-centres-in-canada"
                   style={{ color: '#10233a' }}
                 >
                   Detox Centres Near Me
@@ -1993,8 +1993,8 @@ function template(v) {
                   </li>
                   <li>Health Canada — Get help with substance use</li>
                   <li>
-                    <$A href="https://addictionrehabcenters.ca/detox-centres-in-canada/">Detox Centres in Canada</$A> ·{' '}
-                    <$A href="https://addictionrehabcenters.ca/how-to-choose-a-drug-rehab-program-that-works-for-you/">
+                    <$A href="/detox-centres-in-canada">Detox Centres in Canada</$A> ·{' '}
+                    <$A href="/how-to-choose-a-drug-rehab-program-that-works-for-you">
                       How to choose a drug rehab program
                     </$A>
                   </li>
@@ -2133,7 +2133,7 @@ function template(v) {
                 <h2 style={{ fontSize: '32px', marginTop: '8px' }}>Rehabs in Other Provinces</h2>
               </div>
               <$A
-                href="https://addictionrehabcenters.ca/rehab/"
+                href="/rehab"
                 style={{ font: '600 15px Jost,sans-serif', display: 'flex', alignItems: 'center', gap: '8px' }}
               >
                 All locations{' '}
@@ -2207,7 +2207,7 @@ function template(v) {
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
               <$A
-                href="https://addictionrehabcenters.ca/"
+                href="/"
                 style={{
                   display: 'inline-block',
                   background: '#fff',
@@ -2320,17 +2320,17 @@ function template(v) {
               <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/privacy-policy/"
+                  href="/privacy-policy"
                   style={{ color: '#b7c7d8' }}
                 >
                   Privacy Policy
                 </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#b7c7d8' }}>
+                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
                   Terms of Use
                 </$A>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/promote-your-centre/"
+                  href="/promote"
                   style={{ color: '#b7c7d8' }}
                 >
                   Promote Your Centre

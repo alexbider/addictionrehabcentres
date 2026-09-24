@@ -119,7 +119,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const R = React.createElement;
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, tab } = this.state;
     const ic = {
       pin: this.icon([
@@ -1140,7 +1140,7 @@ function template(v) {
                 {'Find The Best Alcohol & Drug Addiction Centres in Canada'}
               </h2>
               <form
-                action="https://addictionrehabcenters.ca/rehab/search/"
+                action="/rehab/search"
                 style={{
                   marginTop: '6px',
                   background: '#fff',
@@ -1552,7 +1552,7 @@ function template(v) {
                 </div>
                 <$A
                   className="scp1e scpy"
-                  href="https://addictionrehabcenters.ca/rehab/search/"
+                  href="/rehab/search"
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -2553,7 +2553,7 @@ function template(v) {
                 </div>
                 <$A
                   className="scp1 scpy"
-                  href="https://addictionrehabcenters.ca/rehab/"
+                  href="/rehab"
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -2771,7 +2771,7 @@ function template(v) {
                     <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>{$i(p?.body)}</p>
                     <$A
                       className="scp7"
-                      href="https://addictionrehabcenters.ca/rehab/"
+                      href="/rehab"
                       style={{
                         alignSelf: 'flex-start',
                         font: '600 15px Jost,sans-serif',
@@ -2817,11 +2817,11 @@ function template(v) {
                 Drug Addiction
               </span>
               <h2 style={{ fontSize: '38px', lineHeight: '1.12' }} data-rc-lg="1">
-                Find The Best <$A href="https://addictionrehabcenters.ca/ontario-rehabs/">Ontario Rehab Centres</$A>:
+                Find The Best <$A href="/ontario-rehabs">Ontario Rehab Centres</$A>:
                 Drug Rehab Ontario
               </h2>
               <p style={{ fontSize: '17px', lineHeight: '1.7', color: '#3b4d63' }}>
-                <$A href="https://addictionrehabcenters.ca/">Drug Addiction Canada</$A> is the country's reliable source
+                <$A href="/">Drug Addiction Canada</$A> is the country's reliable source
                 of information and advice regarding drug and alcohol addiction. It caters to services that help patients
                 overcome their addiction in the safe and most effective way possible.
               </p>
@@ -2829,15 +2829,15 @@ function template(v) {
                 Our primary goal is to provide you with the best advice so that you and your family will have a
                 fulfilling life that's free from drugs and alcohol. Today, many addicts and families deal with the
                 traumatic effects of drug and{' '}
-                <$A href="https://addictionrehabcenters.ca/addiction-by-alcohol/">alcohol addiction</$A> and as a result
+                <$A href="/alcohol">alcohol addiction</$A> and as a result
                 they all tend to lose their hope. Significantly, there are many elements that affect hopelessness. For
                 example, an addict may have tried a{' '}
-                <$A href="https://addictionrehabcenters.ca/about-us/">rehab treatment</$A> once or even more but have
+                <$A href="/about-us">rehab treatment</$A> once or even more but have
                 returned to the same vice right after the completion of their rehab treatment.
               </p>
               <$A
                 className="scp1"
-                href="https://addictionrehabcenters.ca/contact/"
+                href="/contact"
                 style={{
                   alignSelf: 'flex-start',
                   font: '600 16px Jost,sans-serif',
@@ -2855,7 +2855,7 @@ function template(v) {
               style={{ border: '1px solid #e3ecf4', borderRadius: '24px', overflow: 'hidden', background: '#f7fafd' }}
             >
               <$A
-                href="https://addictionrehabcenters.ca/inspire-change-wellness-center/"
+                href="/inspire-change-wellness-center"
                 style={{
                   position: 'relative',
                   display: 'block',
@@ -2942,14 +2942,14 @@ function template(v) {
               </$A>
               <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <$A
-                  href="https://addictionrehabcenters.ca/listing-category/british-columbia-rehabs/"
+                  href="/listing-category/british-columbia-rehabs"
                   style={{ font: '600 12px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase' }}
                 >
                   British Columbia Rehabs
                 </$A>
                 <h3 style={{ fontSize: '24px' }}>
                   <$A
-                    href="https://addictionrehabcenters.ca/inspire-change-wellness-center/"
+                    href="/inspire-change-wellness-center"
                     style={{ color: '#10233a' }}
                   >
                     Inspire Change Wellness Center
@@ -3016,7 +3016,7 @@ function template(v) {
                 </span>
                 <p style={{ font: '500 26px/1.4 Jost,sans-serif', color: '#10233a', margin: '0', textWrap: 'pretty' }}>
                   At{' '}
-                  <$A href="https://addictionrehabcenters.ca/" style={{ color: '#0890E8' }}>
+                  <$A href="/" style={{ color: '#0890E8' }}>
                     <strong>Drug Addiction Canada</strong>
                   </$A>
                   , we make sure that every patient will get the chance to enjoy a normal and fuller life once more – a
@@ -3094,7 +3094,7 @@ function template(v) {
                 <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: '8px' }}>
                   <$A
                     className="scp1f"
-                    href="https://addictionrehabcenters.ca/am-i-an-addict/"
+                    href="/am-i-an-addict"
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -3128,7 +3128,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp1f"
-                    href="https://addictionrehabcenters.ca/am-i-an-alcoholic/"
+                    href="/am-i-an-alcoholic"
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -3162,7 +3162,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp1f"
-                    href="https://addictionrehabcenters.ca/how-to-choose-a-drug-rehab-program-that-works-for-you/"
+                    href="/how-to-choose-a-drug-rehab-program-that-works-for-you"
                     style={{
                       display: 'flex',
                       alignItems: 'center',
@@ -3601,8 +3601,8 @@ function template(v) {
               <p style={{ fontSize: '17px', lineHeight: '1.7', color: '#3b4d63' }}>
                 When someone undergoes a detox procedure this simply means that he is undergoing a procedure wherein he
                 is safely and effectively removed from drug and{' '}
-                <$A href="https://addictionrehabcenters.ca/addiction-by-alcohol/">alcohol addiction</$A>.{' '}
-                <$A href="https://addictionrehabcenters.ca/detox-centres-in-canada/">Detox programs</$A> in the country
+                <$A href="/alcohol">alcohol addiction</$A>.{' '}
+                <$A href="/detox-centres-in-canada">Detox programs</$A> in the country
                 come in two ways: the regular or standard detox and the medical detox.
               </p>
             </div>
@@ -3637,9 +3637,9 @@ function template(v) {
                   <h3 style={{ fontSize: '20px', marginBottom: '6px' }}>Medical Detox</h3>
                   <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#3b4d63' }}>
                     This particular type of{' '}
-                    <$A href="https://addictionrehabcenters.ca/detox-centres-in-canada/">detox</$A> entails getting off
+                    <$A href="/detox-centres-in-canada">detox</$A> entails getting off
                     someone from certain medications such as pain killers,{' '}
-                    <$A href="https://addictionrehabcenters.ca/benzodiazepine-addiction/">benzodiazepine</$A>, etc.
+                    <$A href="/drug">benzodiazepine</$A>, etc.
                     Severe cases of alcoholism also need medical attention to help an alcoholic quit drinking.
                   </p>
                 </div>
@@ -3675,9 +3675,9 @@ function template(v) {
                   <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#3b4d63' }}>
                     This type of detox procedure is for patients that do not necessarily require medical attention so as
                     to remove drugs within their system. A person who is addicted to{' '}
-                    <$A href="https://addictionrehabcenters.ca/marijuana-addiction/">marijuana</$A>,{' '}
-                    <$A href="https://addictionrehabcenters.ca/cocaine-addiction/">cocaine</$A>,{' '}
-                    <$A href="https://addictionrehabcenters.ca/meth-addiction/">methamphetamine</$A>, club drugs and
+                    <$A href="/marijuana-addiction">marijuana</$A>,{' '}
+                    <$A href="/cocaine-addiction">cocaine</$A>,{' '}
+                    <$A href="/meth-addiction">methamphetamine</$A>, club drugs and
                     others needs this type of detox.
                   </p>
                 </div>
@@ -3770,14 +3770,14 @@ function template(v) {
                 <p style={{ fontSize: '18px', lineHeight: '1.75', color: '#3b4d63', margin: '0', textWrap: 'pretty' }}>
                   <strong style={{ color: '#10233a' }}>Alcohol Rehab Toronto</strong>: There is actually hope for those
                   who are seeking an effective and realistic way of{' '}
-                  <$A href="https://addictionrehabcenters.ca/faqs/">treating addiction</$A>. There is actually a precise
+                  <$A href="/faqs">treating addiction</$A>. There is actually a precise
                   program where various kinds of therapies are encapsulated to suit every patient's need.
                 </p>
                 <p style={{ fontSize: '18px', lineHeight: '1.75', color: '#3b4d63', margin: '0', textWrap: 'pretty' }}>
                   However, it is important to talk to a trusted authority first before getting into a particular
                   treatment program. To get that hope, it is important to talk to us and we will lead you in the right
                   direction based on what you specifically need – a life free from drugs and{' '}
-                  <$A href="https://addictionrehabcenters.ca/addiction-by-alcohol/">alcohol</$A>.
+                  <$A href="/alcohol">alcohol</$A>.
                 </p>
                 <div
                   style={{
@@ -3927,7 +3927,7 @@ function template(v) {
                     `position:relative;font:600 ${ctaH2 ?? ''}/1.12 Jost,sans-serif;color:#fff;margin:0;text-wrap:balance`,
                   )}
                 >
-                  <$A href="https://addictionrehabcenters.ca/contact/" style={{ color: '#fff' }}>
+                  <$A href="/contact" style={{ color: '#fff' }}>
                     {'Discover All Addiction Rehabs & Treatments: Detox Centre Toronto'}
                   </$A>
                 </h2>
@@ -4090,7 +4090,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp1i scpy"
-                    href="https://addictionrehabcenters.ca/rehab/search/"
+                    href="/rehab/search"
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
@@ -4345,7 +4345,7 @@ function template(v) {
                 <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
                   <$A
                     className="scp12"
-                    href="https://addictionrehabcenters.ca/privacy-policy/"
+                    href="/privacy-policy"
                     style={{
                       padding: '6px 12px',
                       borderRadius: '999px',
@@ -4357,7 +4357,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp12"
-                    href="https://addictionrehabcenters.ca/terms-of-use/"
+                    href="/terms-of-use"
                     style={{
                       padding: '6px 12px',
                       borderRadius: '999px',
@@ -4369,7 +4369,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp12"
-                    href="https://addictionrehabcenters.ca/promote-your-centre/"
+                    href="/promote"
                     style={{
                       padding: '6px 12px',
                       borderRadius: '999px',

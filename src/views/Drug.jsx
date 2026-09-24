@@ -39,7 +39,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const R = React.createElement;
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, tab } = this.state;
     const ic = {
       pin: this.icon([
@@ -745,7 +745,7 @@ function template(v) {
                 flexWrap: 'wrap',
               }}
             >
-              <$A className="scp0" href="https://addictionrehabcenters.ca/" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/" style={{ color: '#6b7f95' }}>
                 Home
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
@@ -794,8 +794,8 @@ function template(v) {
                   {$i(drug)} Dependence and Treatment: What is {$i(drug)}?
                 </h2>
                 <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }}>
-                  <$A href="https://addictionrehabcenters.ca/benzodiazepine-addiction/">Benzodiazepine</$A> is a{' '}
-                  <$A href="https://addictionrehabcenters.ca/prescription-drugs-addiction/">prescription medicine</$A>{' '}
+                  <$A href="/drug">Benzodiazepine</$A> is a{' '}
+                  <$A href="/prescription-drugs-addiction">prescription medicine</$A>{' '}
                   that can cause addiction. A person can become addicted to this kind of drug in two ways: either he
                   gets addicted to it due to its recreational use or he develops benzodiazepine addiction or dependence
                   as a prescribed medicine. In Canada, benzodiazepine addiction is a common problem. It has been
@@ -823,7 +823,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp2"
-                    href="https://addictionrehabcenters.ca/rehab/"
+                    href="/rehab"
                     style={{
                       font: '600 16px Jost,sans-serif',
                       color: '#10233a',
@@ -1458,7 +1458,7 @@ function template(v) {
               </h2>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
                 Quebec is one of the{' '}
-                <$A href="https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/">
+                <$A href="/30-days-treatment-by-canadian-provinces">
                   provinces in Canada
                 </$A>{' '}
                 that comes with a large number of addictions that are associated with the use of benzodiazepine. Quebec
@@ -1572,7 +1572,7 @@ function template(v) {
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
                 As of the present days, there are many rehabilitation centers that are scattered in Canada and the all
                 offer ways to help a patient recover from his{' '}
-                <$A href="https://addictionrehabcenters.ca/drug-rehabilitation-in-canada/">addiction</$A>. These
+                <$A href="/drug-rehabilitation-in-canada">addiction</$A>. These
                 rehabilitation centers often come with various types of programs and procedures to meet the respective
                 need and requirement of every patient. In addition, these centers are also staffed with professionals
                 who work in a dedicated and persistent manner to help every patient recover and get back to his normal
@@ -1582,7 +1582,7 @@ function template(v) {
                 There are several places wherein you can find help and assistance in relation to benzodiazepine
                 addiction. In fact, there are different settings for drug rehabilitation centers and these usually
                 include outpatient, residential, and others. We at{' '}
-                <$A href="https://addictionrehabcenters.ca/">
+                <$A href="/">
                   <strong>Addiction Rehab Centres Canada</strong>
                 </$A>{' '}
                 offers safe and effective programs that can help our patients overcome their addiction. We also offer
@@ -1668,7 +1668,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scpv"
-                    href="https://addictionrehabcenters.ca/contact/"
+                    href="/contact"
                     style={{
                       font: '600 15px Jost,sans-serif',
                       color: '#fff',
@@ -1716,11 +1716,11 @@ function template(v) {
                   <li>Health Canada — Benzodiazepines: risks, dependence and safe tapering guidance</li>
                   <li>CAMH — Benzodiazepines: information for patients and families</li>
                   <li>
-                    <$A href="https://addictionrehabcenters.ca/prescription-drugs-addiction/">
+                    <$A href="/prescription-drugs-addiction">
                       Prescription Drugs Addiction
                     </$A>{' '}
-                    · <$A href="https://addictionrehabcenters.ca/medical-detox-in-canada/">Medical Detox in Canada</$A>{' '}
-                    · <$A href="https://addictionrehabcenters.ca/tranquilisers-addiction/">Tranquilisers Addiction</$A>
+                    · <$A href="/medical-detox-in-canada">Medical Detox in Canada</$A>{' '}
+                    · <$A href="/tranquilisers-addiction">Tranquilisers Addiction</$A>
                   </li>
                 </ul>
               </div>
@@ -2282,7 +2282,7 @@ function template(v) {
                 <h2 style={{ fontSize: '32px', marginTop: '8px' }}>Drug Rehab Centres By Provinces</h2>
               </div>
               <$A
-                href="https://addictionrehabcenters.ca/rehab/"
+                href="/rehab"
                 style={{ font: '600 15px Jost,sans-serif', display: 'flex', alignItems: 'center', gap: '8px' }}
               >
                 All locations{' '}
@@ -2393,7 +2393,7 @@ function template(v) {
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
               <$A
-                href="https://addictionrehabcenters.ca/"
+                href="/"
                 style={{
                   display: 'inline-block',
                   background: '#fff',
@@ -2506,17 +2506,17 @@ function template(v) {
               <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/privacy-policy/"
+                  href="/privacy-policy"
                   style={{ color: '#b7c7d8' }}
                 >
                   Privacy Policy
                 </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#b7c7d8' }}>
+                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
                   Terms of Use
                 </$A>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/promote-your-centre/"
+                  href="/promote"
                   style={{ color: '#b7c7d8' }}
                 >
                   Promote Your Centre

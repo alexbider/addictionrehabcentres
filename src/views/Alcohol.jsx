@@ -48,7 +48,7 @@ class Component extends DCLogic {
     );
   }
   renderVals() {
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, who, sent, faq, active, w } = this.state;
     const narrow = w < 1100,
       mid = w < 900,
@@ -676,7 +676,7 @@ function template(v) {
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '2px' }}>
                 <$A
                   className="scp1"
-                  href="https://addictionrehabcenters.ca/rehab/"
+                  href="/rehab"
                   style={{
                     font: '600 17px Jost,sans-serif',
                     color: '#fff',
@@ -1110,26 +1110,26 @@ function template(v) {
                     Quebec, Saskatchewan and Alberta
                   </h2>
                   <p style={{ fontSize: '15.5px', lineHeight: '1.65', color: '#b7c7d8' }}>
-                    <$A href="https://addictionrehabcenters.ca/quebec-drug-rehab-centers/" style={{ color: '#7cc4f5' }}>
+                    <$A href="/quebec-drug-rehab-centers" style={{ color: '#7cc4f5' }}>
                       Quebec
                     </$A>
                     ,{' '}
                     <$A
-                      href="https://addictionrehabcenters.ca/saskatchewan-drug-rehab-treatment/"
+                      href="/saskatchewan-drug-rehab-treatment"
                       style={{ color: '#7cc4f5' }}
                     >
                       Saskatchewan
                     </$A>{' '}
                     and{' '}
                     <$A
-                      href="https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/"
+                      href="/alcohol-drug-rehab-centres-in-alberta"
                       style={{ color: '#7cc4f5' }}
                     >
                       Alberta
                     </$A>{' '}
                     are the{' '}
                     <$A
-                      href="https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/"
+                      href="/30-days-treatment-by-canadian-provinces"
                       style={{ color: '#7cc4f5' }}
                     >
                       provinces in Canada
@@ -1285,7 +1285,7 @@ function template(v) {
                 </div>
                 <$A
                   className="scp7"
-                  href="https://addictionrehabcenters.ca/am-i-an-alcoholic/"
+                  href="/am-i-an-alcoholic"
                   style={{
                     alignSelf: 'flex-start',
                     display: 'inline-flex',
@@ -1322,12 +1322,12 @@ function template(v) {
                     <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>
                       In Canada, there are numerous places where one can get the kind of treatment needed for a
                       particular type of addiction such as alcohol addiction. Settings for{' '}
-                      <$A href="https://addictionrehabcenters.ca/alcohol-addiction-treatment/">
+                      <$A href="/alcohol-addiction-treatment">
                         alcohol addiction treatment and rehabilitation
                       </$A>{' '}
                       usually come with different settings and these include{' '}
-                      <$A href="https://addictionrehabcenters.ca/outpatient-drug-rehab-centers/">outpatient</$A>,{' '}
-                      <$A href="https://addictionrehabcenters.ca/residential-drug-rehabs-in-canada/">residential</$A>{' '}
+                      <$A href="/outpatient-drug-rehab-centers">outpatient</$A>,{' '}
+                      <$A href="/residential-drug-rehabs-in-canada">residential</$A>{' '}
                       and others. Contacting a professional addiction counsellor will give you an idea if detox is
                       something that you need to fight off addiction.
                     </p>
@@ -1341,7 +1341,7 @@ function template(v) {
                       every patient. Apart from our holistic approach, we also come with programs that focus on much
                       more than just treating one's addiction. In fact, we also offer a good number of treatment
                       programs that will help sustain{' '}
-                      <$A href="https://addictionrehabcenters.ca/long-term-drug-rehab-canada/">long-term</$A> success in
+                      <$A href="/long-term-drug-rehab-canada">long-term</$A> success in
                       the recovery process of every patient.
                     </p>
                   </div>
@@ -1799,8 +1799,8 @@ function template(v) {
                     </button>
                     <p style={{ fontSize: '12px', color: '#6b7f95', lineHeight: '1.5', textAlign: 'center' }}>
                       Confidential — we never leave details in a voicemail.{' '}
-                      <$A href="https://addictionrehabcenters.ca/terms-of-use/">Terms</$A> ·{' '}
-                      <$A href="https://addictionrehabcenters.ca/privacy-policy/">Privacy</$A>
+                      <$A href="/terms-of-use">Terms</$A> ·{' '}
+                      <$A href="/privacy-policy">Privacy</$A>
                     </p>
                   </form>
                 </>
@@ -1990,12 +1990,12 @@ function template(v) {
               <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/privacy-policy/"
+                  href="/privacy-policy"
                   style={{ color: '#b7c7d8' }}
                 >
                   Privacy Policy
                 </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#b7c7d8' }}>
+                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
                   Terms of Use
                 </$A>
                 <$A className="scpe" href="/promote" style={{ color: '#b7c7d8' }}>

@@ -48,7 +48,7 @@ class Component extends DCLogic {
     );
   }
   renderVals() {
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, who, sent, active, w } = this.state;
     const narrow = w < 1100,
       mid = w < 900,
@@ -502,7 +502,7 @@ function template(v) {
               <h1 style={$css(`font-size:${h1Size ?? ''};line-height:1.04;color:#10233a`)}>Intervention</h1>
               <p style={{ fontSize: '19px', lineHeight: '1.6', color: '#516378' }}>
                 One of the tragic realities of{' '}
-                <$A href="https://addictionrehabcenters.ca/understanding-addiction-to-drugs/">drug addiction</$A> is
+                <$A href="/understanding-addiction-to-drugs">drug addiction</$A> is
                 that addicts are often the last to know that they have a problem. And by then, it may be too late. The
                 loved ones of addicts are frequently terrified about what will happen next, and rightly so.
               </p>
@@ -513,7 +513,7 @@ function template(v) {
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '2px' }}>
                 <$A
                   className="scp1"
-                  href="https://addictionrehabcenters.ca/rehab/"
+                  href="/rehab"
                   style={{
                     font: '600 17px Jost,sans-serif',
                     color: '#fff',
@@ -1480,8 +1480,8 @@ function template(v) {
                     </button>
                     <p style={{ fontSize: '12px', color: '#6b7f95', lineHeight: '1.5', textAlign: 'center' }}>
                       Confidential — we never leave details in a voicemail.{' '}
-                      <$A href="https://addictionrehabcenters.ca/terms-of-use/">Terms</$A> ·{' '}
-                      <$A href="https://addictionrehabcenters.ca/privacy-policy/">Privacy</$A>
+                      <$A href="/terms-of-use">Terms</$A> ·{' '}
+                      <$A href="/privacy-policy">Privacy</$A>
                     </p>
                   </form>
                 </>
@@ -1671,12 +1671,12 @@ function template(v) {
               <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/privacy-policy/"
+                  href="/privacy-policy"
                   style={{ color: '#b7c7d8' }}
                 >
                   Privacy Policy
                 </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#b7c7d8' }}>
+                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
                   Terms of Use
                 </$A>
                 <$A className="scpe" href="/promote" style={{ color: '#b7c7d8' }}>

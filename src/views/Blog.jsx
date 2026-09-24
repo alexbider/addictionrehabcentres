@@ -43,7 +43,7 @@ class Component extends DCLogic {
   }
 
   renderVals() {
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, cat, query, sort, subscribed } = this.state;
     const ic = {
       pin: this.icon([
@@ -1473,7 +1473,7 @@ function template(v) {
               </div>
               <$A
                 className="scpe"
-                href="https://addictionrehabcenters.ca/rehab/search/"
+                href="/rehab/search"
                 style={{
                   font: '600 15px Jost,sans-serif',
                   color: '#7cc4f5',
@@ -1660,12 +1660,12 @@ function template(v) {
               <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/privacy-policy/"
+                  href="/privacy-policy"
                   style={{ color: '#b7c7d8' }}
                 >
                   Privacy Policy
                 </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#b7c7d8' }}>
+                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
                   Terms of Use
                 </$A>
                 <$A className="scpe" href="/promote" style={{ color: '#b7c7d8' }}>

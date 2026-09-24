@@ -59,7 +59,7 @@ class Component extends DCLogic {
   }
 
   renderVals() {
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { vw, query, focus, step, sel, plan, method, auth, terms, tried2, tried4, form } = this.state;
     const wide = vw >= 1000,
       mid = vw >= 700;
@@ -1758,7 +1758,7 @@ function template(v) {
                       </span>
                       <span style={{ fontSize: '14.5px', lineHeight: '1.5', color: '#3b4d63' }}>
                         I agree to the{' '}
-                        <$A href="https://addictionrehabcenters.ca/terms-of-use/" style={{ fontWeight: '600' }}>
+                        <$A href="/terms-of-use" style={{ fontWeight: '600' }}>
                           Terms of Use
                         </$A>{' '}
                         and authorize a {$i(asPrice)}
@@ -2280,7 +2280,7 @@ function template(v) {
                 <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
                   <$A
                     className="scp12"
-                    href="https://addictionrehabcenters.ca/privacy-policy/"
+                    href="/privacy-policy"
                     style={{
                       padding: '6px 12px',
                       borderRadius: '999px',
@@ -2292,7 +2292,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp12"
-                    href="https://addictionrehabcenters.ca/terms-of-use/"
+                    href="/terms-of-use"
                     style={{
                       padding: '6px 12px',
                       borderRadius: '999px',
@@ -2304,7 +2304,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp12"
-                    href="https://addictionrehabcenters.ca/promote-your-centre/"
+                    href="/promote"
                     style={{
                       padding: '6px 12px',
                       borderRadius: '999px',

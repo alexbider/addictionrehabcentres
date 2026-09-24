@@ -47,7 +47,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const R = React.createElement;
-    const B = 'https://addictionrehabcenters.ca/';
+    const B = '/';
     const { menu, tab } = this.state;
     const ic = {
       pin: this.icon([
@@ -1253,11 +1253,11 @@ function template(v) {
                 flexWrap: 'wrap',
               }}
             >
-              <$A className="scp0" href="https://addictionrehabcenters.ca/" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/" style={{ color: '#6b7f95' }}>
                 Home
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
-              <$A className="scp0" href="https://addictionrehabcenters.ca/rehab/" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/rehab" style={{ color: '#6b7f95' }}>
                 Rehabs By Provinces
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
@@ -2363,9 +2363,9 @@ function template(v) {
                   <li>CAMH (Centre for Addiction and Mental Health), Toronto — addiction services and access</li>
                   <li>ConnexOntario — 24/7 provincial mental health and addiction navigation</li>
                   <li>
-                    <$A href="https://addictionrehabcenters.ca/detox-centres-in-canada/">Detox Centres in Canada</$A> ·{' '}
-                    <$A href="https://addictionrehabcenters.ca/aa-support-group/">AA Support Groups</$A> ·{' '}
-                    <$A href="https://addictionrehabcenters.ca/ontario-rehabs/">All Ontario Rehabs</$A>
+                    <$A href="/detox-centres-in-canada">Detox Centres in Canada</$A> ·{' '}
+                    <$A href="/aa-support-group">AA Support Groups</$A> ·{' '}
+                    <$A href="/ontario-rehabs">All Ontario Rehabs</$A>
                   </li>
                 </ul>
               </div>
@@ -2595,7 +2595,7 @@ function template(v) {
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
               <$A
-                href="https://addictionrehabcenters.ca/"
+                href="/"
                 style={{
                   display: 'inline-block',
                   background: '#fff',
@@ -2708,17 +2708,17 @@ function template(v) {
               <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/privacy-policy/"
+                  href="/privacy-policy"
                   style={{ color: '#b7c7d8' }}
                 >
                   Privacy Policy
                 </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/terms-of-use/" style={{ color: '#b7c7d8' }}>
+                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
                   Terms of Use
                 </$A>
                 <$A
                   className="scpe"
-                  href="https://addictionrehabcenters.ca/promote-your-centre/"
+                  href="/promote"
                   style={{ color: '#b7c7d8' }}
                 >
                   Promote Your Centre
