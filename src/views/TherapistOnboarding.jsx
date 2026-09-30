@@ -2712,5 +2712,5 @@ export const defaults = {};
 const View = createDC('TherapistOnboarding', Component, template);
 export default View;
 export function Root(props) {
-  return <DCRoot View={View} defaults={defaults} css={css} {...props} />;
+  return <DCRoot View={View} defaults={defaults} css={css} responsive {...props} />;
 }

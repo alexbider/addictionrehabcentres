@@ -1242,5 +1242,5 @@ export const defaults = {};
 const View = createDC('Auth', Component, template);
 export default View;
 export function Root(props) {
-  return <DCRoot View={View} defaults={defaults} css={css} {...props} />;
+  return <DCRoot View={View} defaults={defaults} css={css} responsive {...props} />;
 }

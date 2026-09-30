@@ -1106,7 +1106,7 @@ function template(v) {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                       {$list(allResults).map((r, $index) => (
                         <Fragment key={$index}>
-                          <div
+                          <div data-rc-result="1"
                             style={$css(
                               `display:flex;align-items:center;gap:14px;padding:12px 12px 12px 14px;border-radius:18px;border:1px solid ${r?.rowBorder ?? ''};background:${r?.rowBg ?? ''};transition:border-color .15s ease,background .15s ease`,
                             )}
@@ -2326,5 +2326,5 @@ export const defaults = {};
 const View = createDC('ClaimListing', Component, template);
 export default View;
 export function Root(props) {
-  return <DCRoot View={View} defaults={defaults} css={css} {...props} />;
+  return <DCRoot View={View} defaults={defaults} css={css} responsive {...props} />;
 }

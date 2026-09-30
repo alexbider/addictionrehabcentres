@@ -1949,6 +1949,7 @@ function template(v) {
                 color: '#fff',
               }}
               data-cols="1fr auto"
+              data-rc-stack="1"
             >
               <div>
                 <h3 style={{ fontSize: '24px', color: '#fff' }}>Not sure which {$i(city)} centre is right for you?</h3>

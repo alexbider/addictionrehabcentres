@@ -936,7 +936,7 @@ class Component extends DCLogic {
         }),
       ),
       centreCards,
-      slideCol: this.state.vw < 680 ? '85%' : 'calc((100% - 48px)/3)',
+      slideCol: this.state.vw < 680 ? '85%' : this.state.vw < 1000 ? 'calc((100% - 24px)/2)' : 'calc((100% - 48px)/3)',
       callText: this.state.vw >= 1180 || this.state.vw < 680 ? 'Call now' : 'Call',
       viewText: this.state.vw >= 1180 || this.state.vw < 680 ? 'View centre' : 'View',
       ...adVals,

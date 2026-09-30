@@ -1570,6 +1570,7 @@ function template(v) {
                 alignItems: 'stretch',
               }}
               data-cols="repeat(4,minmax(0,1fr))"
+              data-rc-1col="1"
             >
               {$list(thTrust).map((t, $index) => (
                 <Fragment key={$index}>

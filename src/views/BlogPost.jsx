@@ -1508,9 +1508,10 @@ function template(v) {
                         marginTop: '10px',
                       }}
                     />
+<span style={{ minWidth: '0' }}>
                     Acute alcohol withdrawal typically lasts <strong style={{ color: '#10233a' }}>5 to 7 days</strong>;
-                    symptoms usually peak between 24 and 72 hours.
-                  </li>
+                    symptoms usually peak between 24 and 72 hours.</span>
+</li>
                   <li style={{ display: 'flex', gap: '10px' }}>
                     <span
                       style={{
@@ -2339,7 +2340,7 @@ function template(v) {
           style={{ background: '#fff', borderTop: '1px solid #e9eff5', overflow: 'hidden' }}
         >
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '80px 32px 64px' }} data-rc-wrap="1">
-            <div
+            <div data-rc-headrow="1"
               style={{
                 display: 'flex',
                 alignItems: 'end',
@@ -2453,6 +2454,7 @@ function template(v) {
             </div>
             <div
               ref={sliderRef}
+              data-rc-slider="1"
               onScroll={onSlideScroll}
               style={{
                 display: 'grid',

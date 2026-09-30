@@ -1065,7 +1065,7 @@ function template(v) {
                 Cancel any time · Live within 48 hours of credential check · No setup fee
               </p>
             </div>
-            <div style={{ position: 'relative', height: '620px' }}>
+            <div data-rc-mock="1" style={{ position: 'relative', height: '620px' }}>
               <div
                 style={{
                   position: 'absolute',
@@ -1369,7 +1369,7 @@ function template(v) {
           >
             {$list(reach).map((rc, $index) => (
               <Fragment key={$index}>
-                <div
+                <div data-rc-reach="1"
                   style={{
                     display: 'flex',
                     gap: '14px',
@@ -1574,7 +1574,7 @@ function template(v) {
                 </div>
               </div>
             </div>
-            <div
+            <div data-rc-radial="1"
               style={{
                 position: 'relative',
                 flex: '1 1 560px',
@@ -1615,7 +1615,7 @@ function template(v) {
                   </Fragment>
                 ))}
               </svg>
-              <div
+              <div data-rc-core="1"
                 style={{
                   position: 'absolute',
                   left: '50%',
@@ -1656,7 +1656,7 @@ function template(v) {
               </div>
               {$list(spokes).map((sp, $index) => (
                 <Fragment key={$index}>
-                  <div
+                  <div data-rc-node="1"
                     className="scp1o"
                     style={$css(
                       `position:absolute;left:${sp?.px ?? ''};top:${sp?.py ?? ''};transform:translate(-50%,-50%);width:26%;min-width:140px;background:rgba(16,35,58,.85);backdrop-filter:blur(8px);border:1px solid ${sp?.border ?? ''};border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,background .2s`,
@@ -1940,7 +1940,7 @@ function template(v) {
                 ))}
               </div>
             </div>
-            <div
+            <div data-rc-anatomy="1"
               style={{
                 position: 'relative',
                 background: '#f7fafd',

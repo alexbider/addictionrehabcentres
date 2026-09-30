@@ -1059,7 +1059,7 @@ function template(v) {
                 Sponsored placements are clearly identified and never influence organic rankings.
               </p>
             </div>
-            <div style={{ position: 'relative', height: '460px' }}>
+            <div data-rc-mock="1" style={{ position: 'relative', height: '460px' }}>
               <div
                 style={{
                   position: 'absolute',
@@ -1407,7 +1407,7 @@ function template(v) {
                 </div>
               </div>
             </div>
-            <div
+            <div data-rc-radial="1"
               style={{
                 position: 'relative',
                 flex: '1 1 560px',
@@ -1448,7 +1448,7 @@ function template(v) {
                   </Fragment>
                 ))}
               </svg>
-              <div
+              <div data-rc-core="1"
                 style={{
                   position: 'absolute',
                   left: '50%',
@@ -1489,7 +1489,7 @@ function template(v) {
               </div>
               {$list(spokes).map((sp, $index) => (
                 <Fragment key={$index}>
-                  <div
+                  <div data-rc-node="1"
                     className="scp1o"
                     style={$css(
                       `position:absolute;left:${sp?.px ?? ''};top:${sp?.py ?? ''};transform:translate(-50%,-50%);width:24%;min-width:130px;background:rgba(16,35,58,.85);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.16);border-radius:16px;padding:12px 14px;display:flex;flex-direction:column;gap:6px;transition:border-color .2s,background .2s`,
@@ -1670,6 +1670,7 @@ function template(v) {
                 gap: '14px',
               }}
               data-cols="repeat(4,minmax(0,1fr))"
+              data-rc-bento="1"
             >
               {$list(placementCards).map((pc, $index) => (
                 <Fragment key={$index}>

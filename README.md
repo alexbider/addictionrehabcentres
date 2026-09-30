@@ -53,7 +53,10 @@ The site header is `src/views/SiteHeader.jsx`, used by every page.
 * The design left some layouts fixed-width. `src/app/responsive.css` adds media-query rules (≤1000px, ≤640px, ≤420px)
   that stack grids, tighten padding and scale big headings. Desktop is untouched. Hooks (`data-cols`, `data-rc-*`)
   on the markup mark what each rule targets.
-* Checked at 1440, 768, 390, 360 and 320px: no sideways scrolling on any page.
+* Second pass (all pages): sliders, pricing/comparison tables, hero mock-ups, the radial "where you appear" diagram,
+  CTA banners and search-result rows now adapt at <=1000 / <=640 / <=520px (see sections 8a-8m in `responsive.css`).
+  Wide tables scroll sideways inside their card instead of squashing.
+* Checked at 1440, 1024, 768, 600, 390, 360 and 320px: no sideways scrolling on any page.
 
 ## Things to know
 

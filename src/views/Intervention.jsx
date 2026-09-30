@@ -1701,5 +1701,5 @@ export const defaults = { showToc: true };
 const View = createDC('Intervention', Component, template);
 export default View;
 export function Root(props) {
-  return <DCRoot View={View} defaults={defaults} css={css} {...props} />;
+  return <DCRoot View={View} defaults={defaults} css={css} responsive {...props} />;
 }

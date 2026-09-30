@@ -56,7 +56,7 @@
   .rc-page [data-rc-wrap] { padding-left: 20px !important; padding-right: 20px !important; }
   .rc-page [data-rc-lg] { font-size: clamp(28px, 8.4vw, 36px) !important; }
   /* multi-column grids stack, except small fixed-width rows (avatar + text, icon + label…) and stat tiles */
-  .rc-page [data-cols]:not([data-cols="14px 1fr 34px"]):not([data-cols="1fr auto"]):not([data-cols="30px 1fr auto"]):not([data-cols="44px 1fr"]):not([data-cols="56px 1fr auto"]):not([data-cols="72px minmax(0,1fr)"]):not([data-cols="76px 1fr"]):not([data-cols="auto 1fr"]):not([data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"]):not([data-cols="repeat(2,1fr)"]):not([data-cols="1.6fr repeat(5,1fr)"]):not([data-cols="2fr 1fr 1fr"]):not([data-cols="repeat(4,1fr)"]):not([data-cols="repeat(4,minmax(0,1fr))"]):not([data-cols="repeat(5,1fr)"]):not([data-cols="repeat(auto-fill,minmax(320px,1fr))"]):not([data-cols="repeat(auto-fill,minmax(170px,1fr))"]):not([data-cols="repeat(auto-fill,minmax(150px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(240px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(160px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(140px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(200px,1fr))"]):not([data-cols="1fr 1fr"]) { grid-template-columns: minmax(0, 1fr) !important; }
+  .rc-page [data-cols]:not([data-cols="14px 1fr 34px"]):not([data-cols="1fr auto"]):not([data-cols="30px 1fr auto"]):not([data-cols="44px 1fr"]):not([data-cols="56px 1fr auto"]):not([data-cols="72px minmax(0,1fr)"]):not([data-cols="76px 1fr"]):not([data-cols="auto 1fr"]):not([data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"]):not([data-cols="repeat(2,1fr)"]):not([data-cols="1.6fr repeat(5,1fr)"]):not([data-cols="2fr 1fr 1fr"]):not([data-cols="repeat(4,1fr)"]):not([data-cols="repeat(4,minmax(0,1fr))"]):not([data-cols="repeat(5,1fr)"]):not([data-cols="repeat(auto-fill,minmax(320px,1fr))"]):not([data-cols="repeat(auto-fill,minmax(170px,1fr))"]):not([data-cols="repeat(auto-fill,minmax(150px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(240px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(160px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(140px,1fr))"]):not([data-cols="repeat(auto-fit,minmax(200px,1fr))"]):not([data-cols="1fr 1fr"]):not([data-cols="1.8fr repeat(3,1fr)"]) { grid-template-columns: minmax(0, 1fr) !important; }
   .rc-page [data-rc-dyn] { grid-template-columns: minmax(0, 1fr) !important; }
   .rc-page [data-cols="repeat(4,1fr)"],
   .rc-page [data-cols="repeat(4,minmax(0,1fr))"],
@@ -71,7 +71,7 @@
   /* JoinDirectory: the "reach" band has wide number + label pairs, so it stacks instead of going 2-up */
   .rc-page[data-sc-name="JoinDirectory"] [data-cols="repeat(4,minmax(0,1fr))"][data-rc-wrap] { grid-template-columns: minmax(0, 1fr) !important; }
   /* ranking table (City): keep the columns readable and let the table scroll sideways inside its card */
-  .rc-page :has(> [data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"]) { overflow-x: auto; }
+  .rc-page :has(> [data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"]) { overflow-x: auto !important; }
   .rc-page [data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"] { min-width: 620px; }
   /* photo mosaic (Centre): big photo on top, four thumbnails in a 2 x 2 grid underneath */
   .rc-page [data-cols="2fr 1fr 1fr"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; grid-template-rows: none !important; height: auto !important; }
@@ -113,7 +113,7 @@
 /* 7 ▸ Home page */
 @media (max-width: 1000px) {
   /* sticky photos only make sense next to their text; when stacked they would sit on top of it */
-  .rc-page[data-sc-name="Home"] [data-screen-label] :is([style*="position:sticky"], [style*="position: sticky"]) { position: static !important; }
+  .rc-page[data-sc-name="Home"] [data-screen-label] :is([style*="position:sticky"], [style*="position: sticky"]) { position: relative !important; top: auto !important; }
   /* "Our programs" cards: photo and text stack instead of sharing two cramped columns */
   .rc-page[data-sc-name="Home"] [data-rc-card] { grid-template-columns: minmax(0, 1fr) !important; gap: 28px !important; padding: 28px !important; }
 }
@@ -127,4 +127,91 @@
   .rc-page[data-sc-name="Home"] [data-rc-divider] { display: none !important; }
   .rc-page[data-sc-name="Home"] [data-rc-chips] { flex: 1 1 100% !important; }
   .rc-page[data-sc-name="Home"] [data-rc-chips] ~ a { flex: 1 1 100%; justify-content: center; }
+}
+
+/* 8 ▸ shared building blocks (hooks added by the views) */
+/* 8a  card sliders (Drug, Centre, BlogPost): 3 per view on desktop, 2 on tablet, a peek of the next card on phones */
+@media (max-width: 1000px) {
+  .rc-page [data-rc-slider] { grid-auto-columns: calc((100% - 24px) / 2) !important; }
+}
+@media (max-width: 680px) {
+  .rc-page [data-rc-slider] { grid-auto-columns: 85% !important; }
+}
+/* 8b  section heading + controls row: heading gets its own line, controls wrap underneath */
+@media (max-width: 640px) {
+  .rc-page [data-rc-headrow] { flex-wrap: wrap !important; align-items: flex-start !important; gap: 18px !important; }
+  .rc-page [data-rc-headrow] > :first-child { flex: 1 1 100%; min-width: 0; }
+}
+/* 8c  call-to-action banners (heading + button): stack on phones */
+@media (max-width: 640px) {
+  .rc-page [data-rc-stack] { grid-template-columns: minmax(0, 1fr) !important; padding: 26px 22px !important; gap: 20px !important; }
+  .rc-page [data-rc-stack] > :last-child { justify-self: start; }
+}
+/* 8d  data tables built from CSS grid (Centre pricing): keep the columns, scroll sideways inside the card */
+@media (max-width: 720px) {
+  .rc-page :has(> [data-rc-table]) { overflow-x: auto !important; padding-left: 16px !important; padding-right: 16px !important; -webkit-overflow-scrolling: touch; }
+  .rc-page [data-rc-table] { min-width: 600px; }
+}
+/* 8e  icon + text tiles: one per row on small phones */
+@media (max-width: 560px) {
+  .rc-page [data-rc-1col] { grid-template-columns: minmax(0, 1fr) !important; }
+}
+/* 8f  hero "product mock-ups" (JoinDirectory, Promote): floating, overlapping cards become a simple stack */
+@media (max-width: 1000px) {
+  .rc-page [data-rc-mock] { height: auto !important; display: flex !important; flex-direction: column; gap: 16px; max-width: 520px; width: 100%; margin: 0 auto; }
+  .rc-page [data-rc-mock] > * { position: static !important; width: 100% !important; max-width: 100% !important; transform: none !important; animation: none !important; }
+}
+/* 8g  radial "where you appear" diagram: on phones the centre badge sits on top of a 2-column grid of the same cards */
+@media (max-width: 640px) {
+  .rc-page [data-rc-radial] { min-width: 0 !important; flex: 1 1 100% !important; aspect-ratio: auto !important; display: grid !important; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+  .rc-page [data-rc-radial] > svg { display: none !important; }
+  .rc-page [data-rc-radial] [data-rc-core] { position: static !important; transform: none !important; grid-column: 1 / -1; width: 150px !important; margin: 4px auto 14px; box-shadow: 0 0 0 10px rgba(8,144,232,.15), 0 0 0 20px rgba(8,144,232,.07) !important; }
+  .rc-page [data-rc-radial] [data-rc-node] { position: static !important; transform: none !important; width: auto !important; min-width: 0 !important; }
+}
+@media (max-width: 380px) {
+  .rc-page [data-rc-radial] { grid-template-columns: minmax(0, 1fr); }
+}
+/* 8h  number + caption rows */
+@media (max-width: 1000px) {
+  .rc-page [data-rc-reach] { flex-wrap: wrap; row-gap: 4px; }
+  .rc-page [data-rc-reach] > :first-child { min-width: 0 !important; }
+}
+@media (max-width: 640px) {
+  .rc-page [data-rc-reach] > :last-child { flex: 1 1 100%; }
+}
+
+/* 8i  comparison tables (JoinDirectory, Promote): rows keep their columns, the card scrolls sideways */
+@media (max-width: 860px) {
+  .rc-page :has(> [data-cols="1.8fr repeat(3,1fr)"]),
+  .rc-page :has(> [data-cols="1.6fr repeat(5,1fr)"]) { overflow-x: auto !important; -webkit-overflow-scrolling: touch; }
+  .rc-page [data-cols="1.8fr repeat(3,1fr)"] { min-width: 640px; }
+  .rc-page [data-cols="1.6fr repeat(5,1fr)"] { min-width: 720px; }
+}
+/* 8j  "choose what to sponsor" bento grid (Promote): cards were placed on fixed grid lines, so let them flow */
+@media (max-width: 1000px) {
+  .rc-page [data-rc-bento] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  .rc-page [data-rc-bento] > * { grid-column: auto !important; grid-row: auto !important; }
+}
+@media (max-width: 480px) {
+  .rc-page [data-rc-bento] { grid-template-columns: minmax(0, 1fr) !important; }
+}
+/* 8k  profile anatomy mock-up (JoinDirectory) */
+@media (max-width: 640px) {
+  .rc-page [data-rc-anatomy] { padding: 14px !important; border-radius: 22px !important; }
+  .rc-page [data-rc-anatomy] * { min-width: 0; }
+  .rc-page [data-rc-anatomy] [style*="grid-template-columns:96px 1fr"],
+  .rc-page [data-rc-anatomy] [style*="grid-template-columns: 96px 1fr"] { grid-template-columns: 72px minmax(0, 1fr) !important; gap: 14px !important; padding: 16px !important; }
+  .rc-page [data-rc-anatomy] :is([style*="width:96px"], [style*="width: 96px"]) { width: 72px !important; height: 72px !important; }
+  .rc-page [data-rc-anatomy] :is([style*="white-space:nowrap"], [style*="white-space: nowrap"]) { white-space: normal !important; }
+}
+/* 8l  heading rows: controls wrap instead of overflowing on very small phones */
+@media (max-width: 640px) {
+  .rc-page [data-rc-headrow] > :last-child { flex-wrap: wrap; max-width: 100%; }
+}
+
+/* 8m  directory search results (ClaimListing / ClaimTherapist): name gets the width, action drops underneath */
+@media (max-width: 520px) {
+  .rc-page [data-rc-result] { flex-wrap: wrap !important; row-gap: 10px !important; }
+  .rc-page [data-rc-result] > :nth-child(2) { flex: 1 1 calc(100% - 70px) !important; }
+  .rc-page [data-rc-result] > :nth-child(n+3) { flex: 1 1 100% !important; justify-content: center; }
 }

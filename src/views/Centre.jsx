@@ -2243,7 +2243,7 @@ function template(v) {
                   style={$css(
                     `display:grid;grid-template-columns:${priceCols ?? ''};gap:0;background:#fff;border:1px solid #e3ecf4;border-radius:16px;overflow:hidden`,
                   )}
-                  data-rc-dyn="1"
+                  data-rc-table="1"
                 >
                   {$list(priceHead).map((c, $index) => (
                     <Fragment key={$index}>
@@ -3354,7 +3354,7 @@ function template(v) {
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5', overflow: 'hidden' }}
         >
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px 72px' }} data-rc-wrap="1">
-            <div
+            <div data-rc-headrow="1"
               style={{
                 display: 'flex',
                 alignItems: 'end',
@@ -3453,6 +3453,7 @@ function template(v) {
             </div>
             <div
               ref={sliderRef}
+              data-rc-slider="1"
               onScroll={onSlideScroll}
               style={{
                 display: 'grid',
