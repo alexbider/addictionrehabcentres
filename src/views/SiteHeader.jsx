@@ -874,6 +874,7 @@ function template(v) {
       >
         <div style={{ background: 'linear-gradient(90deg,#0a5d96 0%,#0890E8 100%)', color: '#fff' }}>
           <div
+            data-rc-topbar="1"
             style={{
               maxWidth: '1280px',
               margin: '0 auto',
@@ -888,6 +889,7 @@ function template(v) {
             data-rc-wrap="1"
           >
             <span
+              data-rc-topmsg="1"
               style={{
                 display: 'flex',
                 alignItems: 'center',

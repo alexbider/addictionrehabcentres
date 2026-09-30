@@ -102,3 +102,29 @@
 @media (max-width: 340px) {
   #dc-root { overflow-x: clip; }
 }
+
+/* 6 ▸ top bar ("You're not alone…"): let the message wrap instead of being cut off on phones */
+@media (max-width: 560px) {
+  [data-rc-topbar] { height: auto !important; min-height: 38px; padding: 6px 16px !important; gap: 12px !important; }
+  [data-rc-topmsg] { white-space: normal !important; line-height: 1.25 !important; font-size: 12.5px !important; align-items: flex-start !important; }
+  [data-rc-topmsg] > :first-child { margin-top: 1px; }
+}
+
+/* 7 ▸ Home page */
+@media (max-width: 1000px) {
+  /* sticky photos only make sense next to their text; when stacked they would sit on top of it */
+  .rc-page[data-sc-name="Home"] [data-screen-label] :is([style*="position:sticky"], [style*="position: sticky"]) { position: static !important; }
+  /* "Our programs" cards: photo and text stack instead of sharing two cramped columns */
+  .rc-page[data-sc-name="Home"] [data-rc-card] { grid-template-columns: minmax(0, 1fr) !important; gap: 28px !important; padding: 28px !important; }
+}
+@media (max-width: 640px) {
+  .rc-page[data-sc-name="Home"] [data-rc-card] { padding: 20px !important; gap: 22px !important; border-radius: 22px !important; }
+  .rc-page[data-sc-name="Home"] [data-rc-card] h2 { font-size: 26px !important; }
+  /* heading on its own line, slider controls underneath */
+  .rc-page[data-sc-name="Home"] [data-rc-headrow] { flex-wrap: wrap !important; align-items: flex-start !important; gap: 18px !important; }
+  .rc-page[data-sc-name="Home"] [data-rc-headrow] > :first-child { flex: 1 1 100%; }
+  /* "Popular cities": label on top, chips wrap below, button full width */
+  .rc-page[data-sc-name="Home"] [data-rc-divider] { display: none !important; }
+  .rc-page[data-sc-name="Home"] [data-rc-chips] { flex: 1 1 100% !important; }
+  .rc-page[data-sc-name="Home"] [data-rc-chips] ~ a { flex: 1 1 100%; justify-content: center; }
+}

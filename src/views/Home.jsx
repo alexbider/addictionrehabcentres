@@ -1984,6 +1984,7 @@ function template(v) {
         <section data-screen-label="Featured Residential Centers" style={{ background: '#fff', overflow: 'hidden' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px 72px' }} data-rc-wrap="1">
             <div
+              data-rc-headrow="1"
               style={{
                 display: 'flex',
                 alignItems: 'end',
@@ -2524,8 +2525,9 @@ function template(v) {
                   </span>
                   Popular cities
                 </span>
-                <span style={{ width: '1px', height: '24px', background: '#e6eef6' }} />
+                <span data-rc-divider="1" style={{ width: '1px', height: '24px', background: '#e6eef6' }} />
                 <div
+                  data-rc-chips="1"
                   style={{
                     flex: '1',
                     minWidth: '0',
@@ -2725,6 +2727,7 @@ function template(v) {
             {$list(programs).map((p, $index) => (
               <Fragment key={$index}>
                 <div
+                  data-rc-card="1"
                   style={$css(
                     `display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;background:#fff;border:1px solid #e3ecf4;border-radius:28px;padding:40px;direction:${p?.dir ?? ''}`,
                   )}
