@@ -1,0 +1,880 @@
+{
+ "schema": "arc-content/1",
+ "slug": "home-detox-in-canada",
+ "status": "REMAINING",
+ "page_type": "treatment-support",
+ "wp_type": "page",
+ "template": "Drug (L1 layout)",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "D1-D6,G1",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/home-detox-in-canada/",
+  "path": "/home-detox-in-canada/",
+  "wp_items": [
+   {
+    "id": 10971,
+    "type": "page",
+    "title": "Home Detox in Canada",
+    "date": "2022-02-03T13:58:03",
+    "modified": "2025-09-09T08:10:23",
+    "status": "publish",
+    "yoast_title": "Home Detox in Canada | Home Detox Treatment Programs",
+    "words_rest": 549
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/home-detox-in-canada/",
+ "seo": {
+  "meta_title": "Home Detox in Canada | Home Detox Treatment Programs",
+  "meta_description": "Browse the best Home Detox and Rehabilitation centre in Canada and variety of Home Detox treatment programs. Call us today for more information 1-855-885-4747.",
+  "canonical_source": "https://addictionrehabcenters.ca/home-detox-in-canada/",
+  "og": {
+   "title": "Home Detox in Canada | Home Detox Treatment Programs",
+   "description": "Browse the best Home Detox and Rehabilitation centre in Canada and variety of Home Detox treatment programs. Call us today for more information 1-855-885-4747.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/home-detox-in-canada/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/home-detox-in-canada/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Home Detox in Canada",
+      "datePublished": "2022-02-03T13:58:03+00:00",
+      "dateModified": "2025-09-09T08:10:23+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/home-detox-in-canada/"
+      },
+      "wordCount": 799,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/home-detox-in-canada/",
+      "url": "https://addictionrehabcenters.ca/home-detox-in-canada/",
+      "name": "Home Detox in Canada | Home Detox Treatment Programs",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-03T13:58:03+00:00",
+      "dateModified": "2025-09-09T08:10:23+00:00",
+      "description": "Browse the best Home Detox and Rehabilitation centre in Canada and variety of Home Detox treatment programs. Call us today for more information 1-855-885-4747.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/home-detox-in-canada/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/home-detox-in-canada/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/home-detox-in-canada/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Home Detox in Canada"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Home Detox in Canada",
+ "title_bar_h1": "Home Detox in Canada",
+ "word_count": 515,
+ "features": [
+  "form"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Home Detox in Canada"
+  ],
+  [
+   "h2",
+   "The Scary Truth about Home Detox in Canada are All in Your Mind"
+  ],
+  [
+   "h2",
+   "Home Detox in Canada Overview"
+  ],
+  [
+   "h2",
+   "How do you qualify for home detox in Canada?"
+  ],
+  [
+   "h2",
+   "What are Home Detox Kits?"
+  ],
+  [
+   "h3",
+   "Let Us Help You"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-In-Canada.jpg",
+   "local_path": "images/home-detox-in-canada/Home-Detox-In-Canada.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/contact-addictions-rehab.jpg",
+   "local_path": "images/_shared/contact-addictions-rehab.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 600,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview.jpg",
+   "local_path": "images/home-detox-in-canada/Detox-in-Canada-Overview.jpg",
+   "alt": "Detox in Canada Overview",
+   "width": 585,
+   "height": 553,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox.jpg",
+   "local_path": "images/home-detox-in-canada/qualify-for-home-detox.jpg",
+   "alt": "qualify for home detox",
+   "width": 585,
+   "height": 423,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits.jpg",
+   "local_path": "images/home-detox-in-canada/Home-Detox-Kits.jpg",
+   "alt": "Home Detox Kits",
+   "width": 567,
+   "height": 551,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/contact/",
+   "text": "Contact Us Today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Home Detox in Canada",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "The Scary Truth about Home Detox in Canada are All in Your Mind",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.",
+       "html": "Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Home Detox in Canada Overview",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.",
+       "html": "There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview.jpg",
+       "alt": "Detox in Canada Overview",
+       "width": "585",
+       "height": "553"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox.jpg",
+       "alt": "qualify for home detox",
+       "width": "585",
+       "height": "423"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "How do you qualify for home detox in Canada?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.",
+       "html": "A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits.jpg",
+       "alt": "Home Detox Kits",
+       "width": "567",
+       "height": "551"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "What are Home Detox Kits?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.",
+       "html": "Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.",
+       "html": "Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      },
+      {
+       "type": "p",
+       "text": "A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. Addiction Rehab Centres Canada helps you find home detox in Canada as a possible option for your first steps to a healthier life.",
+       "html": "A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find home detox in Canada as a possible option for your first steps to a healthier life.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Let Us Help You",
+       "blocks": [
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Home Detox in Canada",
+   "html": "<strong>Home Detox in Canada</strong>",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "The Scary Truth about Home Detox in Canada are All in Your Mind",
+   "html": "<strong>The Scary Truth about Home Detox in Canada are All in Your Mind</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.",
+   "html": "Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Home Detox in Canada Overview",
+   "html": "<strong>Home Detox in Canada Overview</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.",
+   "html": "There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview.jpg",
+   "alt": "Detox in Canada Overview",
+   "width": "585",
+   "height": "553"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox.jpg",
+   "alt": "qualify for home detox",
+   "width": "585",
+   "height": "423"
+  },
+  {
+   "type": "h2",
+   "text": "How do you qualify for home detox in Canada?",
+   "html": "<strong>How do you qualify for home detox in Canada?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.",
+   "html": "A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits.jpg",
+   "alt": "Home Detox Kits",
+   "width": "567",
+   "height": "551"
+  },
+  {
+   "type": "h2",
+   "text": "What are Home Detox Kits?",
+   "html": "<strong>What are Home Detox Kits?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.",
+   "html": "Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.",
+   "html": "Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Contact Us Today",
+   "href": "/contact/",
+   "new_href": "/contact/"
+  },
+  {
+   "type": "p",
+   "text": "A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. Addiction Rehab Centres Canada helps you find home detox in Canada as a possible option for your first steps to a healthier life.",
+   "html": "A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find home detox in Canada as a possible option for your first steps to a healthier life.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+   "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Let Us Help You",
+   "html": "Let Us Help You",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1644417731313",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Home Detox in Canada",
+       "html": "<strong>Home Detox in Canada</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-In-Canada.jpg?id=12176"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12",
+      "innerContentIntro"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "The Scary Truth about Home Detox in Canada are All in Your Mind",
+       "html": "<strong>The Scary Truth about Home Detox in Canada are All in Your Mind</strong>",
+       "id": ""
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.",
+       "html": "Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Home Detox in Canada Overview",
+       "html": "<strong>Home Detox in Canada Overview</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.",
+       "html": "There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview.jpg",
+       "alt": "Detox in Canada Overview",
+       "width": "585",
+       "height": "553"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox.jpg",
+       "alt": "qualify for home detox",
+       "width": "585",
+       "height": "423"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "How do you qualify for home detox in Canada?",
+       "html": "<strong>How do you qualify for home detox in Canada?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.",
+       "html": "A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "cta-banner",
+   "classes": [
+    "newHomeBanner",
+    "bottomHomeBanner",
+    "innerBottomBanner",
+    "vc_row-no-padding",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits.jpg",
+       "alt": "Home Detox Kits",
+       "width": "567",
+       "height": "551"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "What are Home Detox Kits?",
+       "html": "<strong>What are Home Detox Kits?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.",
+       "html": "Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.",
+       "html": "Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "help-block",
+   "classes": [
+    "innerBlueContent"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. Addiction Rehab Centres Canada helps you find home detox in Canada as a possible option for your first steps to a healthier life.",
+       "html": "A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find home detox in Canada as a possible option for your first steps to a healthier life.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [
+    "bottomWidget"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Let Us Help You",
+       "html": "Let Us Help You",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Home Detox in Canada",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-In-Canada.jpg?id=12176"
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1644417731313 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>Home Detox in Canada</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element innerContentIntro\">\n<div class=\"wpb_wrapper\">\n<h2><strong>The Scary Truth about Home Detox in Canada are All in Your Mind</strong></h2>\n</div>\n</div>\n</div></div></div><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Detox programs are the initial and first step towards achieving treatment and healing from substance abuse and addiction. Home detox in Canada is one of the options that an individual may choose if circumstances would not allow the person to attend residential detox programs. Once the detox program is completed, only then can a client admit them to the main rehab program. It is mandatory and necessary for addicts to be clean and sober for a specified period of time before undergoing the main treatment.</p>\n<h2><strong>Home Detox in Canada Overview</strong></h2>\n<p>There are various provinces in Canada where you can find facilities offering detox at home services. Take note that clients must basically get an affirmation and permission from a professional addiction therapist before they can undergo detoxification at home. Home detox in Canada is offered to clients that cannot attend residential detox programs but getting an okay from the professionals will be a case to case basis.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"Detox in Canada Overview\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"553\" loading=\"lazy\" sizes=\"(max-width: 585px) 100vw, 585px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview.jpg 585w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Detox-in-Canada-Overview-300x284.jpg 300w\" width=\"585\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"qualify for home detox\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"423\" loading=\"lazy\" sizes=\"(max-width: 585px) 100vw, 585px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox.jpg 585w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/qualify-for-home-detox-300x217.jpg 300w\" width=\"585\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>How do you qualify for home detox in Canada?</strong></h2>\n<p>A professional therapist or certified addiction specialist will first do an assessment which may entail various factors to consider. For instance, an approval for home detoxification would highly depend if the process is safe especially if you do it at home and not in a rehab facility. It would also highly depend on the severity or seriousness of the problem, evaluating if the home detox process could be a viable option for the client. The addiction treatment professional will provide the proper directions on the home detox program, particularly in safely and effectively doing the process.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid newHomeBanner bottomHomeBanner innerBottomBanner vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\" data-vc-stretch-content=\"true\"><div class=\"homeImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"Home Detox Kits\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"551\" loading=\"lazy\" sizes=\"(max-width: 567px) 100vw, 567px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits.jpg 567w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Home-Detox-Kits-300x292.jpg 300w\" width=\"567\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"newHomeBannerContent wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>What are Home Detox Kits?</strong></h2>\n<p>Home detox in Canada is a treatment option where a client could purchase home detox kits from alcohol and drug rehab programs. These kits are vital for the addict to successfully go through and complete the detoxification process. Medical professionals coordinate with the client in cases that a patient could not attend a typical residential rehab facility. Home detoxification is allowed but only under the supervision of a medical professional or addiction therapist.</p>\n<p>Home detox kits offer useful information regarding successful withdrawal process tips and techniques. It would also show the different detox methods as well as the ways on how the client can stay comfortable and continue on with the process even with the initial manifestation and hump of the substance withdrawal. Home detox in Canada is vital so that individuals can initially and properly prepare for the main treatment program.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid bannerBtn\" data-wpel-link=\"internal\" href=\"/contact/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Contact Us Today</span>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerBlueContent\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>A lot of Canadians are grappling with the inevitable effects of substance abuse and addiction. There is no excuse not to attend a detoxification process through typical residential rehab programs. <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find home detox in Canada as a possible option for your first steps to a healthier life.</p>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element callSpecialist\">\n<div class=\"wpb_wrapper\">\n<p>Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a></p>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row wpb_row vc_row-fluid bottomWidget\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_widgetised_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"widget eltdf-sidearea widget_text\" id=\"text-9\"> <div class=\"textwidget\">\n</div>\n</div><div class=\"widget eltdf-sidearea widget_text\" id=\"text-13\"> <div class=\"textwidget\"><div class=\"eltdf-container eltdf-default-page-template wp7\">\n<div class=\"eltdf-container-inner clearfix\">\n<div class=\"eltdf-grid-row\">\n<div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid vc_custom_1644327284934 vc_row-has-fill vc_row-o-equal-height vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"true\" data-vc-stretch-content=\"true\" style=\"position: relative; left: -140.25px; box-sizing: border-box; width: 1511px;\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner\">\n<div class=\"wpb_wrapper\">\n<h3 class=\"eltdf-widget-title\" style=\"text-align: center;color: #fff;font-size: 16px;/* margin-bottom: 16px !important; *//* background: #27AAE1; */color: #fff;padding: 14px;/* text-align: left; */margin-top: 0;\">Let Us Help You</h3>\n<div class=\"wpcf7 no-js\" data-wpcf7-id=\"12092\" dir=\"ltr\" id=\"wpcf7-f12092-p10971-o1\" lang=\"en-US\">\n<div class=\"screen-reader-response\"><p aria-atomic=\"true\" aria-live=\"polite\" role=\"status\"></p> <ul></ul></div>\n<form action=\"/home-detox-in-canada/#wpcf7-f12092-p10971-o1\" aria-label=\"Contact form\" class=\"wpcf7-form init\" data-status=\"init\" method=\"post\" novalidate=\"novalidate\">\n<fieldset class=\"hidden-fields-container\"><input name=\"_wpcf7\" type=\"hidden\" value=\"12092\"/><input name=\"_wpcf7_version\" type=\"hidden\" value=\"6.1.6\"/><input name=\"_wpcf7_locale\" type=\"hidden\" value=\"en_US\"/><input name=\"_wpcf7_unit_tag\" type=\"hidden\" value=\"wpcf7-f12092-p10971-o1\"/><input name=\"_wpcf7_container_post\" type=\"hidden\" value=\"10971\"/><input name=\"_wpcf7_posted_data_hash\" type=\"hidden\" value=\"\"/>\n</fieldset>\n<p class=\"marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"your-name\" placeholder=\"Your Name*\" size=\"40\" type=\"text\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"email-address\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" maxlength=\"400\" name=\"email-address\" placeholder=\"E-mail Address*\" size=\"40\" type=\"email\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"phone-number\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" maxlength=\"400\" name=\"phone-number\" placeholder=\"Phone Number*\" size=\"40\" type=\"tel\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"type-of-addiction\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"type-of-addiction\" placeholder=\"Type Of Addiction*\" size=\"40\" type=\"text\" value=\"\"/></span>\n</p>\n<p class=\"checkbox-text marbot5\">Is this for yourself or a loved one?\n</p>\n<p class=\"checkbox-text marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"person\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first\"><input name=\"person[]\" type=\"checkbox\" value=\"Yourself\"/><span class=\"wpcf7-list-item-label\">Yourself</span></span><span class=\"wpcf7-list-item last\"><input name=\"person[]\" type=\"checkbox\" value=\"Loved One\"/><span class=\"wpcf7-list-item-label\">Loved One</span></span></span></span>\n</p>\n<p><span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required\" cols=\"40\" maxlength=\"2000\" name=\"your-message\" placeholder=\"Your Questions / Comments*\" rows=\"10\"></textarea></span><button class=\"wpcf7-form-control wpcf7-submit submit-btn eltdf-btn eltdf-btn-medium eltdf-btn-solid\" type=\"submit\"><span class=\"eltdf-btn-text\">Submit</span></button>\n</p><div aria-hidden=\"true\" class=\"wpcf7-response-output\"></div>\n</form>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"vc_row-full-width vc_clearfix\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

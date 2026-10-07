@@ -1,0 +1,1772 @@
+{
+ "schema": "arc-content/1",
+ "slug": "understanding-hydrocodone",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/understanding-hydrocodone/",
+  "path": "/understanding-hydrocodone/",
+  "wp_items": [
+   {
+    "id": 16143,
+    "type": "post",
+    "title": "Understanding Hydrocodone",
+    "date": "2023-05-24T14:29:01",
+    "modified": "2026-08-19T10:23:10",
+    "status": "publish",
+    "yoast_title": "Understanding Hydrocodone - Addiction Rehab Centers",
+    "words_rest": 2075
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/understanding-hydrocodone/",
+ "seo": {
+  "meta_title": "Understanding Hydrocodone - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/understanding-hydrocodone/",
+  "og": {
+   "title": "Understanding Hydrocodone - Addiction Rehab Centers",
+   "description": "Hydrocodone (most commonly known by its brand name Vicodin), is in a class of drugs called narcotic analgesics. Hydrocodone is prescribed as a painkiller that can be effective in treating mild-severe pain. However, it can also be habit-forming and extremely […]",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/"
+      },
+      "author": {
+       "name": "Thomas",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/93e24e7c6da293a6a7223f5ea44daf11"
+      },
+      "headline": "Understanding Hydrocodone",
+      "datePublished": "2023-05-24T14:29:01+00:00",
+      "dateModified": "2026-08-19T10:23:10+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/"
+      },
+      "wordCount": 2099,
+      "commentCount": 0,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+      "keywords": [
+       "Understanding Hydrocodone"
+      ],
+      "articleSection": [
+       "Drugs"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "CommentAction",
+        "name": "Comment",
+        "target": [
+         "https://addictionrehabcenters.ca/understanding-hydrocodone/#respond"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/",
+      "url": "https://addictionrehabcenters.ca/understanding-hydrocodone/",
+      "name": "Understanding Hydrocodone - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+      "datePublished": "2023-05-24T14:29:01+00:00",
+      "dateModified": "2026-08-19T10:23:10+00:00",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/understanding-hydrocodone/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+      "width": 1920,
+      "height": 1081,
+      "caption": "understanding hydrocodone"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/understanding-hydrocodone/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Understanding Hydrocodone"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/93e24e7c6da293a6a7223f5ea44daf11",
+      "name": "Thomas",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/thomas-100x100.jpg",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/thomas-100x100.jpg",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/thomas-100x100.jpg",
+       "caption": "Thomas"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Understanding Hydrocodone",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 2083,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Understanding Hydrocodone"
+  ],
+  [
+   "h2",
+   "Understanding Hydrocodone"
+  ],
+  [
+   "h3",
+   "History of Hydrocodone"
+  ],
+  [
+   "h3",
+   "Hydrocodone Signs and Symptoms of Abuse"
+  ],
+  [
+   "h3",
+   "Hydrocodone Abuse & Overdose Potential"
+  ],
+  [
+   "h3",
+   "Hydrocodone Timeline and Withdrawal Symptoms"
+  ],
+  [
+   "h3",
+   "Hydrocodone and Mental Health"
+  ],
+  [
+   "h3",
+   "Hydrocodone Harm Reduction"
+  ],
+  [
+   "h3",
+   "Effective Hydrocodone Addiction Treatment Options"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+   "local_path": "images/understanding-hydrocodone/understanding-hydrocodone.webp",
+   "alt": "understanding hydrocodone",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone.webp",
+   "local_path": "images/understanding-hydrocodone/history-of-hydrocodone.webp",
+   "alt": "history of hydrocodone",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing.webp",
+   "local_path": "images/understanding-hydrocodone/shallow-breathing.webp",
+   "alt": "shallow breathing",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction.webp",
+   "local_path": "images/understanding-hydrocodone/hydrocodone-harm-reduction.webp",
+   "alt": "hydrocodone harm reduction",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2023/00/",
+   "text": "May 24, 2023",
+   "kind": "taxonomy-dropped",
+   "new": "/2023/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/drugs/",
+   "text": "Drugs",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment",
+   "text": "tramadol addiction",
+   "kind": "internal",
+   "new": "/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada",
+   "text": "oxycodone addiction and withdrawal",
+   "kind": "internal",
+   "new": "/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/",
+   "text": "heroin",
+   "kind": "internal",
+   "new": "/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/",
+   "text": "gabapentin withdrawal and its risks in Canada",
+   "kind": "internal",
+   "new": "/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/understanding-hydrocodone/#respond",
+   "text": "0 Comments",
+   "kind": "internal",
+   "new": "/understanding-hydrocodone/#respond",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+     "alt": "understanding hydrocodone",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "May 24, 2023",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Drugs",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Understanding Hydrocodone",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hydrocodone (most commonly known by its brand name Vicodin), is in a class of drugs called narcotic analgesics. Hydrocodone is prescribed as a painkiller that can be effective in treating mild-severe pain. However, it can also be habit-forming and extremely addictive.",
+     "html": "Hydrocodone (most commonly known by its brand name Vicodin), is in a class of drugs called narcotic analgesics. Hydrocodone is prescribed as a painkiller that can be effective in treating mild-severe pain. However, it can also be habit-forming and extremely addictive.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Other brand name versions of hydrocodone include Norco and Lortab, and each concoction contains hydrocodone as well as some other non-opioid pain reliever like acetaminophen (which is commonly found in Tylenol).",
+     "html": "Other brand name versions of hydrocodone include Norco and Lortab, and each concoction contains hydrocodone as well as some other non-opioid pain reliever like acetaminophen (which is commonly found in Tylenol).",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Understanding Hydrocodone",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Hydrocodone is a semi-synthetic opioid that doctors may decide to prescribe as a treatment for short-term pain following some kind of surgery or injury.",
+       "html": "Hydrocodone is a semi-synthetic opioid that doctors may decide to prescribe as a treatment for short-term pain following some kind of surgery or injury.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Hydrocodone addiction can start with using your prescription as recommended – however, if you are in chronic pain or even when your pain starts to alleviate, many users continue to use (or take larger doses) of hydrocodone because of the euphoric effects it has or due to fear of the pain returning.",
+       "html": "Hydrocodone addiction can start with using your prescription as recommended – however, if you are in chronic pain or even when your pain starts to alleviate, many users continue to use (or take larger doses) of hydrocodone because of the euphoric effects it has or due to fear of the pain returning.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Hydrocodone works similarly to other pain medications, by binding itself to pain receptors in our bodies (located in the spinal cord and brain), to weaken or block the pain signals we experience when injured. Respectively, these same receptors are responsible for the feel-good sensations/euphoria typically felt when drugs like opioids are introduced to our system.",
+       "html": "Hydrocodone works similarly to other pain medications, by binding itself to pain receptors in our bodies (located in the spinal cord and brain), to weaken or block the pain signals we experience when injured. Respectively, these same receptors are responsible for the feel-good sensations/euphoria typically felt when drugs like opioids are introduced to our system.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Essentially, hydrocodone prevents pain signals from being sent and where those pain signals are typically sent, there is now a euphoric message being sent. You can understand then, how this kind of feeling may become addictive, especially when stopping the use of Vicodin may make the user go back to experiencing the pain they initially sought treatment for.",
+       "html": "Essentially, hydrocodone prevents pain signals from being sent and where those pain signals are typically sent, there is now a euphoric message being sent. You can understand then, how this kind of feeling may become addictive, especially when stopping the use of Vicodin may make the user go back to experiencing the pain they initially sought treatment for.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "However, the addictive properties of hydrocodone cannot be denied. In fact, in as little as 5 days of prescribed use of hydrocodone, the risk of developing an addiction increases significantly. Other prescription opioids carry the same quiet risk, including tramadol addiction, which usually begins with a routine painkiller prescription and can be even trickier to stop because tramadol also affects serotonin. The opioid in OxyContin and Percocet works much the same way, and our full guide to oxycodone addiction and withdrawal walks through the signs, timeline, and treatment in Canada.",
+       "html": "However, the addictive properties of hydrocodone cannot be denied. In fact, in as little as 5 days of prescribed use of hydrocodone, the risk of developing an addiction increases significantly. Other prescription opioids carry the same quiet risk, including <a data-wpel-link=\"internal\" href=\"/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/\" style=\"color:#1b6ec2;text-decoration:underline;\">tramadol addiction</a>, which usually begins with a routine painkiller prescription and can be even trickier to stop because tramadol also affects serotonin. The opioid in OxyContin and Percocet works much the same way, and our full guide to <a data-wpel-link=\"internal\" href=\"/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">oxycodone addiction and withdrawal</a> walks through the signs, timeline, and treatment in Canada.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment",
+         "text": "tramadol addiction"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada",
+         "text": "oxycodone addiction and withdrawal"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "History of Hydrocodone",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Hydrocodone was created in the early 1920s by a German pharmaceutical company. Later that decade, US officials were investigating different substitutes for cough medicines that contained opiates, due to their high addiction potential.",
+         "html": "Hydrocodone was created in the early 1920s by a German pharmaceutical company. Later that decade, US officials were investigating different substitutes for cough medicines that contained opiates, due to their high addiction potential.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Researchers ended up testing hundreds of different substance combinations in order to identify a suitable alternative to opiate-containing cough medicines. Hydrocodone covered quite a few of those bases, including the ability to manage pain, suppress a cough and produce feelings of euphoria.",
+         "html": "Researchers ended up testing hundreds of different substance combinations in order to identify a suitable alternative to opiate-containing cough medicines. Hydrocodone covered quite a few of those bases, including the ability to manage pain, suppress a cough and produce feelings of euphoria.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Although there was speculation that hydrocodone could carry a high risk of addiction, the FDA approved it anyway. It wasn’t until more than 30 years later, in the early 1960s, that research was done and reports were published proving that hydrocodone has a very high risk for addiction and dependence.",
+         "html": "Although there was speculation that hydrocodone could carry a high risk of addiction, the FDA approved it anyway. It wasn’t until more than 30 years later, in the early 1960s, that research was done and reports were published proving that hydrocodone has a very high risk for addiction and dependence.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone.webp",
+         "alt": "history of hydrocodone",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Hydrocodone Signs and Symptoms of Abuse",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "The short-term effects of hydrocodone usually involve modifying the pain signals in the central nervous system through interactions with our body’s opioid receptors. The effects of hydrocodone are fairly similar to the effects of both morphine and heroin – the use often gives a sense of calm and euphoria.",
+         "html": "The short-term effects of hydrocodone usually involve modifying the pain signals in the central nervous system through interactions with our body’s opioid receptors. The effects of hydrocodone are fairly similar to the effects of both morphine and <a data-wpel-link=\"internal\" href=\"/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">heroin</a> – the use often gives a sense of calm and euphoria.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/",
+           "text": "heroin"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "The main “desirable” effects of hydrocodone use can include:",
+         "html": "<strong>The main “desirable” effects of hydrocodone use can include: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Feelings of numbness",
+           "html": "Feelings of numbness",
+           "links": []
+          },
+          {
+           "text": "An increased sense of wellbeing",
+           "html": "An increased sense of wellbeing",
+           "links": []
+          },
+          {
+           "text": "Feeling sleepy, drowsy or lethargic",
+           "html": "Feeling sleepy, drowsy or lethargic",
+           "links": []
+          },
+          {
+           "text": "A decrease in anxiety, stress, and worry",
+           "html": "A decrease in anxiety, stress, and worry",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Some physical symptoms of hydrocodone use can include lightheadedness, nausea/vomiting, blood clotting issues, rash, constipation, dry throat, itching, and dizziness.",
+         "html": "Some physical symptoms of hydrocodone use can include lightheadedness, nausea/vomiting, blood clotting issues, rash, constipation, dry throat, itching, and dizziness.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Because hydrocodone can bring a pleasurable high that not only blocks pain but also interacts with our brain’s reward center, the risk of abuse is exceptionally high.",
+         "html": "Because hydrocodone can bring a pleasurable high that not only blocks pain but also interacts with our brain’s reward center, the risk of abuse is exceptionally high.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "However, dependency and abuse of hydrocodone can have rather uncomfortable side effects on your body, mind, and lifestyle.",
+         "html": "However, dependency and abuse of hydrocodone can have rather uncomfortable side effects on your body, mind, and lifestyle.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "The immediate/dangerous side effects of hydrocodone abuse can include:",
+         "html": "<strong>The immediate/dangerous side effects of hydrocodone abuse can include: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Blurry vision, dry mouth",
+           "html": "Blurry vision, dry mouth",
+           "links": []
+          },
+          {
+           "text": "Nausea, vomiting",
+           "html": "Nausea, vomiting",
+           "links": []
+          },
+          {
+           "text": "Lightheadedness, loss of consciousness",
+           "html": "Lightheadedness, loss of consciousness",
+           "links": []
+          },
+          {
+           "text": "Warm, itchy skin",
+           "html": "Warm, itchy skin",
+           "links": []
+          },
+          {
+           "text": "Diarrhea or constipation",
+           "html": "Diarrhea or constipation",
+           "links": []
+          },
+          {
+           "text": "Confusion and/or slurred speech",
+           "html": "Confusion and/or slurred speech",
+           "links": []
+          },
+          {
+           "text": "Reduced heart rate",
+           "html": "Reduced heart rate",
+           "links": []
+          },
+          {
+           "text": "Seizures",
+           "html": "Seizures",
+           "links": []
+          },
+          {
+           "text": "Coma",
+           "html": "Coma",
+           "links": []
+          },
+          {
+           "text": "Death",
+           "html": "Death",
+           "links": []
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Hydrocodone Abuse & Overdose Potential",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "A 2009 study conducted by the American Association of Poison Control Centers shows that nearly 30,000 people have sought treatment for hydrocodone abuse/addiction. That same year, the National Survey on Drug Use & Health conducted another survey that showed over 23 million people over the age of 12 have abused hydrocodone in their lives.",
+         "html": "A 2009 study conducted by the<em> American Association of Poison Control Centers</em> shows that nearly 30,000 people have sought treatment for hydrocodone abuse/addiction. That same year, the <em>National Survey on Drug Use &amp; Health</em> conducted another survey that showed over 23 million people over the age of 12 have abused hydrocodone in their lives.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "With medications like Vicodin being at the top of the most prescribed painkillers list, it’s entirely possible that even someone with a legitimate prescription can develop a hydrocodone dependence or addiction.",
+         "html": "With medications like Vicodin being at the top of the most prescribed painkillers list, it’s entirely possible that even someone with a legitimate prescription can develop a hydrocodone dependence or addiction.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Hydrocodone addiction can occur in as little as 2-4 weeks after beginning your prescription. Because of our tolerance levels, users may feel the need to take more to achieve the same feelings as they had at the beginning of their use.",
+         "html": "Hydrocodone addiction can occur in as little as 2-4 weeks after beginning your prescription. Because of our tolerance levels, users may feel the need to take more to achieve the same feelings as they had at the beginning of their use.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Understanding what a hydrocodone addiction looks like can save a life.",
+         "html": "Understanding what a hydrocodone addiction looks like can save a life.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Maybe someone you know has a prescription and you think they may be abusing it. Or maybe you yourself are having a hard time making it the recommended time between doses and you suspect you might be developing a hydrocodone dependence.",
+         "html": "Maybe someone you know has a prescription and you think they may be abusing it. Or maybe you yourself are having a hard time making it the recommended time between doses and you suspect you might be developing a hydrocodone dependence.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "People who have become dependent on their hydrocodone medication will often exhibit symptoms such as doctor shopping (to fill more prescriptions) and continued use of the drug despite the negative consequences involved in their life.",
+         "html": "People who have become dependent on their hydrocodone medication will often exhibit symptoms such as doctor shopping (to fill more prescriptions) and continued use of the drug despite the negative consequences involved in their life.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "A person who is becoming addicted to hydrocodone will likely be defensive about their use, maybe even delusional, convincing themselves that this isn’t a problem. Oftentimes users feel confident that they aren’t addicted to it or begin lying to others about how much they have taken or how long it was since their last dose.",
+         "html": "A person who is becoming addicted to hydrocodone will likely be defensive about their use, maybe even delusional, convincing themselves that this isn’t a problem. Oftentimes users feel confident that they aren’t addicted to it or begin lying to others about how much they have taken or how long it was since their last dose.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "A hydrocodone overdose will present with the following symptoms:",
+         "html": "<strong>A hydrocodone overdose will present with the following symptoms:</strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Shallow breathing, slow breathing",
+           "html": "Shallow breathing, slow breathing",
+           "links": []
+          },
+          {
+           "text": "Extreme fatigue",
+           "html": "Extreme fatigue",
+           "links": []
+          },
+          {
+           "text": "Vomiting",
+           "html": "Vomiting",
+           "links": []
+          },
+          {
+           "text": "Small, pinpoint pupils",
+           "html": "Small, pinpoint pupils",
+           "links": []
+          },
+          {
+           "text": "Loss of consciousness",
+           "html": "Loss of consciousness",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "If you suspect someone you know is experiencing a hydrocodone overdose, contact emergency services immediately or take them to the nearest hospital urgently.",
+         "html": "If you suspect someone you know is experiencing a hydrocodone overdose, contact emergency services immediately or take them to the nearest hospital urgently.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing.webp",
+         "alt": "shallow breathing",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Hydrocodone Timeline and Withdrawal Symptoms",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Most products containing hydrocodone are fast-acting, with their effects lasting between 4-6 hours after administration.",
+         "html": "Most products containing hydrocodone are fast-acting, with their effects lasting between 4-6 hours after administration.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Withdrawal symptoms will set in between 6-12 hours after your last dose. Symptoms usually peak around 72 hours but can last for about 5-7 days.",
+         "html": "Withdrawal symptoms will set in between 6-12 hours after your last dose. Symptoms usually peak around 72 hours but can last for about 5-7 days.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "In fact, it’s entirely possible to feel some withdrawal symptoms even a few weeks after the last time you used it, and some of the cravings and emotional changes can last even longer.",
+         "html": "In fact, it’s entirely possible to feel some withdrawal symptoms even a few weeks after the last time you used it, and some of the cravings and emotional changes can last even longer.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Underlying medical or mental health issues can also influence how intense your withdrawal symptoms are as well as how long they last.",
+         "html": "Underlying medical or mental health issues can also influence how intense your withdrawal symptoms are as well as how long they last.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "The most common hydrocodone withdrawal symptoms are:",
+         "html": "<strong>The most common hydrocodone withdrawal symptoms are: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Nausea and vomiting",
+           "html": "Nausea and vomiting",
+           "links": []
+          },
+          {
+           "text": "Intense sweating",
+           "html": "Intense sweating",
+           "links": []
+          },
+          {
+           "text": "Cramping and/or diarrhea",
+           "html": "Cramping and/or diarrhea",
+           "links": []
+          },
+          {
+           "text": "Tremors",
+           "html": "Tremors",
+           "links": []
+          },
+          {
+           "text": "Watery eyes, runny nose",
+           "html": "Watery eyes, runny nose",
+           "links": []
+          },
+          {
+           "text": "Mood swings/agitation",
+           "html": "Mood swings/agitation",
+           "links": []
+          },
+          {
+           "text": "Fever",
+           "html": "Fever",
+           "links": []
+          },
+          {
+           "text": "Anxiety",
+           "html": "Anxiety",
+           "links": []
+          },
+          {
+           "text": "Severe muscle and joint pain",
+           "html": "Severe muscle and joint pain",
+           "links": []
+          },
+          {
+           "text": "Hallucinations",
+           "html": "Hallucinations",
+           "links": []
+          },
+          {
+           "text": "Insomnia, trouble sleeping",
+           "html": "Insomnia, trouble sleeping",
+           "links": []
+          },
+          {
+           "text": "Shivering",
+           "html": "Shivering",
+           "links": []
+          },
+          {
+           "text": "Irregular or increased heart rate",
+           "html": "Irregular or increased heart rate",
+           "links": []
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Hydrocodone and Mental Health",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Prolonged/chronic use of hydrocodone not only takes a toll on your body but can also completely change the way your brain functions and have long-term effects on your mood and thought patterns.",
+         "html": "Prolonged/chronic use of hydrocodone not only takes a toll on your body but can also completely change the way your brain functions and have long-term effects on your mood and thought patterns.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "People who have chronically abused hydrocodone can suffer from liver disease and kidney disease and are at heightened risk of suffering from depression, insomnia and/or anxiety disorders.",
+         "html": "People who have chronically abused hydrocodone can suffer from liver disease and kidney disease and are at heightened risk of suffering from depression, insomnia and/or anxiety disorders.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Hydrocodone is not just habit-forming and physically addictive, but it can also be extremely psychologically addictive as well. When a patient has been prescribed any painkiller medication, there is always a chance for psychological dependence because the receptors in our body that control pain signals also control pleasure signals.",
+         "html": "Hydrocodone is not just habit-forming and physically addictive, but it can also be extremely psychologically addictive as well. When a patient has been prescribed any painkiller medication, there is always a chance for psychological dependence because the receptors in our body that control pain signals also control pleasure signals.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "When you abuse a painkiller prescription, you’re not only teaching your body to block pain signals, you’re also teaching your body to replace pain signals with pleasure signals – and if you had the choice between pain and pleasure, I am sure everyone would choose pleasure.",
+         "html": "When you abuse a painkiller prescription, you’re not only teaching your body to block pain signals, you’re also teaching your body to replace pain signals with pleasure signals – and if you had the choice between pain and pleasure, I am sure everyone would choose pleasure.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "This is how psychological dependence works – you no longer count on your brain to give you pleasure signals because you’ve been force-starting those signals with the abuse of a foreign substance. Eventually, your brain forgets how to do that, and you can’t achieve the same sense of happiness while sober. This is what can make painkiller withdrawal so difficult.",
+         "html": "This is how psychological dependence works – you no longer count on your brain to give you pleasure signals because you’ve been force-starting those signals with the abuse of a foreign substance. Eventually, your brain forgets how to do that, and you can’t achieve the same sense of happiness while sober. This is what can make painkiller withdrawal so difficult.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Hydrocodone Harm Reduction",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "The best way to prevent an addiction to hydrocodone is to take the prescription exactly as the doctor has instructed and to tell your doctor immediately if your pain starts to lessen and you suspect you don’t need as high of a dose or to continue the use of hydrocodone.",
+         "html": "The best way to prevent an addiction to hydrocodone is to take the prescription exactly as the doctor has instructed and to tell your doctor immediately if your pain starts to lessen and you suspect you don’t need as high of a dose or to continue the use of hydrocodone.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Even if your prescription hasn’t run out – if you feel like you can go without your prescription, do not continue to use it until the bottle is empty. The less time you use hydrocodone, the better chance you have of being able to quit using it without any problems.",
+         "html": "Even if your prescription hasn’t run out – if you feel like you can go without your prescription, do not continue to use it until the bottle is empty. The less time you use hydrocodone, the better chance you have of being able to quit using it without any problems.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "If you feel as though you are struggling to make it between doses and are experiencing cravings – consult with your doctor immediately.",
+         "html": "If you feel as though you are struggling to make it between doses and are experiencing cravings – consult with your doctor immediately.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Another incredibly important thing to remember is that a hydrocodone overdose is entirely possible, even if you are using a prescription. High doses of hydrocodone can affect each person differently depending on their body type, tolerance level and the strength of their prescription.",
+         "html": "Another incredibly important thing to remember is that a hydrocodone overdose is entirely possible, even if you are using a prescription. High doses of hydrocodone can affect each person differently depending on their body type, tolerance level and the strength of their prescription.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "A very common way to overdose is taking doses too close together or trying to make up for a missed dose. You might feel the need to take a little more of the medication if your pain level is higher that day, but any adjustment in your dosage is considered dangerous and abusing your prescription will inevitably lead to abuse, dependence, and addiction.",
+         "html": "A very common way to overdose is taking doses too close together or trying to make up for a missed dose. You might feel the need to take a little more of the medication if your pain level is higher that day, but any adjustment in your dosage is considered dangerous and abusing your prescription will inevitably lead to abuse, dependence, and addiction.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Long-term effects of abusing prescription painkillers can include serious medical issues such as breathing problems, slowed/erratic heart rate, coma and in some cases, death.",
+         "html": "Long-term effects of abusing prescription painkillers can include serious medical issues such as breathing problems, slowed/erratic heart rate, coma and in some cases, death.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Do not attempt to use hydrocodone in combination with any other substance, as this can pose potentially life-threatening risks. For example, both alcohol and benzodiazepines such as sleeping pills decrease respiration just the same as hydrocodone does…taking these drugs in combination can slow your breathing enough to result in loss of consciousness, coma or even death. The nerve-pain medication gabapentin carries a similar warning, and mixing it with opioids has been linked to a substantially higher risk of fatal overdose, as our guide to gabapentin withdrawal and its risks in Canada explains.",
+         "html": "<strong>Do not attempt to use hydrocodone in combination with any other substance, as this can pose potentially life-threatening risks.</strong> For example, both alcohol and benzodiazepines such as sleeping pills decrease respiration just the same as hydrocodone does…taking these drugs in combination can slow your breathing enough to result in loss of consciousness, coma or even death. The nerve-pain medication gabapentin carries a similar warning, and mixing it with opioids has been linked to a substantially higher risk of fatal overdose, as our guide to <a data-wpel-link=\"internal\" href=\"/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">gabapentin withdrawal and its risks in Canada</a> explains.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/",
+           "text": "gabapentin withdrawal and its risks in Canada"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction.webp",
+         "alt": "hydrocodone harm reduction",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Effective Hydrocodone Addiction Treatment Options",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "If you or someone you know is struggling with a hydrocodone addiction, there are many different treatment options you can consider. But how do you know when it’s time to get help?",
+         "html": "If you or someone you know is struggling with a hydrocodone addiction, there are many different treatment options you can consider. But how do you know when it’s time to get help?",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "A person who is showing at least 2 of these symptoms within a one-year timespan is considered to have a hydrocodone addiction or use disorder:",
+         "html": "<strong>A person who is showing at least 2 of these symptoms within a one-year timespan is considered to have a hydrocodone addiction or use disorder: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "The user takes larger doses/more doses over a greater period of time than prescribed.",
+           "html": "The user takes larger doses/more doses over a greater period of time than prescribed.",
+           "links": []
+          },
+          {
+           "text": "The user has continued use, despite a desire to cut down or stop their use.",
+           "html": "The user has continued use, despite a desire to cut down or stop their use.",
+           "links": []
+          },
+          {
+           "text": "The user experiences strong urges and cravings for hydrocodone.",
+           "html": "The user experiences strong urges and cravings for hydrocodone.",
+           "links": []
+          },
+          {
+           "text": "The user suffers in their professional life due to their hydrocodone use but still doesn’t quit.",
+           "html": "The user suffers in their professional life due to their hydrocodone use but still doesn’t quit.",
+           "links": []
+          },
+          {
+           "text": "Continuing hydrocodone use even though it’s causing social or relationship issues.",
+           "html": "Continuing hydrocodone use even though it’s causing social or relationship issues.",
+           "links": []
+          },
+          {
+           "text": "The user ignores important aspects of their life (work, family, school, hobbies) because of their hydrocodone use.",
+           "html": "The user ignores important aspects of their life (work, family, school, hobbies) because of their hydrocodone use.",
+           "links": []
+          },
+          {
+           "text": "Doctor shopping or trying to secure more of the prescription than originally given by a doctor.",
+           "html": "Doctor shopping or trying to secure more of the prescription than originally given by a doctor.",
+           "links": []
+          },
+          {
+           "text": "Continued use of hydrocodone even after getting into dangerous situations while intoxicated such as driving while drugged or if they continue to use after an overdose scare.",
+           "html": "Continued use of hydrocodone even after getting into dangerous situations while intoxicated such as driving while drugged or if they continue to use after an overdose scare.",
+           "links": []
+          },
+          {
+           "text": "The user continues to use hydrocodone despite negative health or psychological effects.",
+           "html": "The user continues to use hydrocodone despite negative health or psychological effects.",
+           "links": []
+          },
+          {
+           "text": "The user’s tolerance to hydrocodone grows significantly.",
+           "html": "The user’s tolerance to hydrocodone grows significantly.",
+           "links": []
+          },
+          {
+           "text": "Withdrawal symptoms set in when the person stops their hydrocodone use or misses a dose.",
+           "html": "Withdrawal symptoms set in when the person stops their hydrocodone use or misses a dose.",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Finding a medical detox center can be a great start. Hydrocodone withdrawal can be extremely uncomfortable and painful, and attempting to stop use without medical assistance could lead to relapse. Some medical detoxification programs are able to administer some kind of medication to ease the patient’s withdrawal discomfort.",
+         "html": "Finding a medical detox center can be a great start. Hydrocodone withdrawal can be extremely uncomfortable and painful, and attempting to stop use without medical assistance could lead to relapse. Some medical detoxification programs are able to administer some kind of medication to ease the patient’s withdrawal discomfort.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Along with that, once you enter a treatment program, there can also be a medication regimen implemented there to assist you in managing your pain through non-addictive pain relievers.",
+         "html": "Along with that, once you enter a treatment program, there can also be a medication regimen implemented there to assist you in managing your pain through non-addictive pain relievers.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Both inpatient and outpatient treatment programs will be focused primarily on overcoming the addiction itself, but that’s not all – a really important part of any treatment plan is counselling and behavioural therapy sessions that can help you understand your addiction and implement healthier habits into your life moving forward.",
+         "html": "Both inpatient and outpatient treatment programs will be focused primarily on overcoming the addiction itself, but that’s not all – a really important part of any treatment plan is counselling and behavioural therapy sessions that can help you understand your addiction and implement healthier habits into your life moving forward.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Inpatient treatment options can be all-encompassing – giving you support through your addiction with 12-step programs and counselling, but also offering cognitive behavioural therapy as well as individual counselling to help you build and maintain healthier coping mechanisms.",
+         "html": "Inpatient treatment options can be all-encompassing – giving you support through your addiction with 12-step programs and counselling, but also offering cognitive behavioural therapy as well as individual counselling to help you build and maintain healthier coping mechanisms.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "link",
+         "text": "0 Comments",
+         "href": "https://addictionrehabcenters.ca/understanding-hydrocodone/#respond",
+         "new_href": "/understanding-hydrocodone/#respond"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+   "alt": "understanding hydrocodone",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "May 24, 2023",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Drugs",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Understanding Hydrocodone",
+   "html": "Understanding Hydrocodone",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone (most commonly known by its brand name Vicodin), is in a class of drugs called narcotic analgesics. Hydrocodone is prescribed as a painkiller that can be effective in treating mild-severe pain. However, it can also be habit-forming and extremely addictive.",
+   "html": "Hydrocodone (most commonly known by its brand name Vicodin), is in a class of drugs called narcotic analgesics. Hydrocodone is prescribed as a painkiller that can be effective in treating mild-severe pain. However, it can also be habit-forming and extremely addictive.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Other brand name versions of hydrocodone include Norco and Lortab, and each concoction contains hydrocodone as well as some other non-opioid pain reliever like acetaminophen (which is commonly found in Tylenol).",
+   "html": "Other brand name versions of hydrocodone include Norco and Lortab, and each concoction contains hydrocodone as well as some other non-opioid pain reliever like acetaminophen (which is commonly found in Tylenol).",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Understanding Hydrocodone",
+   "html": "<span lang=\"EN\">Understanding Hydrocodone </span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone is a semi-synthetic opioid that doctors may decide to prescribe as a treatment for short-term pain following some kind of surgery or injury.",
+   "html": "Hydrocodone is a semi-synthetic opioid that doctors may decide to prescribe as a treatment for short-term pain following some kind of surgery or injury.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone addiction can start with using your prescription as recommended – however, if you are in chronic pain or even when your pain starts to alleviate, many users continue to use (or take larger doses) of hydrocodone because of the euphoric effects it has or due to fear of the pain returning.",
+   "html": "Hydrocodone addiction can start with using your prescription as recommended – however, if you are in chronic pain or even when your pain starts to alleviate, many users continue to use (or take larger doses) of hydrocodone because of the euphoric effects it has or due to fear of the pain returning.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone works similarly to other pain medications, by binding itself to pain receptors in our bodies (located in the spinal cord and brain), to weaken or block the pain signals we experience when injured. Respectively, these same receptors are responsible for the feel-good sensations/euphoria typically felt when drugs like opioids are introduced to our system.",
+   "html": "Hydrocodone works similarly to other pain medications, by binding itself to pain receptors in our bodies (located in the spinal cord and brain), to weaken or block the pain signals we experience when injured. Respectively, these same receptors are responsible for the feel-good sensations/euphoria typically felt when drugs like opioids are introduced to our system.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Essentially, hydrocodone prevents pain signals from being sent and where those pain signals are typically sent, there is now a euphoric message being sent. You can understand then, how this kind of feeling may become addictive, especially when stopping the use of Vicodin may make the user go back to experiencing the pain they initially sought treatment for.",
+   "html": "Essentially, hydrocodone prevents pain signals from being sent and where those pain signals are typically sent, there is now a euphoric message being sent. You can understand then, how this kind of feeling may become addictive, especially when stopping the use of Vicodin may make the user go back to experiencing the pain they initially sought treatment for.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "However, the addictive properties of hydrocodone cannot be denied. In fact, in as little as 5 days of prescribed use of hydrocodone, the risk of developing an addiction increases significantly. Other prescription opioids carry the same quiet risk, including tramadol addiction, which usually begins with a routine painkiller prescription and can be even trickier to stop because tramadol also affects serotonin. The opioid in OxyContin and Percocet works much the same way, and our full guide to oxycodone addiction and withdrawal walks through the signs, timeline, and treatment in Canada.",
+   "html": "However, the addictive properties of hydrocodone cannot be denied. In fact, in as little as 5 days of prescribed use of hydrocodone, the risk of developing an addiction increases significantly. Other prescription opioids carry the same quiet risk, including <a data-wpel-link=\"internal\" href=\"/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/\" style=\"color:#1b6ec2;text-decoration:underline;\">tramadol addiction</a>, which usually begins with a routine painkiller prescription and can be even trickier to stop because tramadol also affects serotonin. The opioid in OxyContin and Percocet works much the same way, and our full guide to <a data-wpel-link=\"internal\" href=\"/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">oxycodone addiction and withdrawal</a> walks through the signs, timeline, and treatment in Canada.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment",
+     "text": "tramadol addiction"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada",
+     "text": "oxycodone addiction and withdrawal"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "History of Hydrocodone",
+   "html": "History of Hydrocodone",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone was created in the early 1920s by a German pharmaceutical company. Later that decade, US officials were investigating different substitutes for cough medicines that contained opiates, due to their high addiction potential.",
+   "html": "Hydrocodone was created in the early 1920s by a German pharmaceutical company. Later that decade, US officials were investigating different substitutes for cough medicines that contained opiates, due to their high addiction potential.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Researchers ended up testing hundreds of different substance combinations in order to identify a suitable alternative to opiate-containing cough medicines. Hydrocodone covered quite a few of those bases, including the ability to manage pain, suppress a cough and produce feelings of euphoria.",
+   "html": "Researchers ended up testing hundreds of different substance combinations in order to identify a suitable alternative to opiate-containing cough medicines. Hydrocodone covered quite a few of those bases, including the ability to manage pain, suppress a cough and produce feelings of euphoria.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Although there was speculation that hydrocodone could carry a high risk of addiction, the FDA approved it anyway. It wasn’t until more than 30 years later, in the early 1960s, that research was done and reports were published proving that hydrocodone has a very high risk for addiction and dependence.",
+   "html": "Although there was speculation that hydrocodone could carry a high risk of addiction, the FDA approved it anyway. It wasn’t until more than 30 years later, in the early 1960s, that research was done and reports were published proving that hydrocodone has a very high risk for addiction and dependence.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone.webp",
+   "alt": "history of hydrocodone",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Hydrocodone Signs and Symptoms of Abuse",
+   "html": "Hydrocodone Signs and Symptoms of Abuse",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The short-term effects of hydrocodone usually involve modifying the pain signals in the central nervous system through interactions with our body’s opioid receptors. The effects of hydrocodone are fairly similar to the effects of both morphine and heroin – the use often gives a sense of calm and euphoria.",
+   "html": "The short-term effects of hydrocodone usually involve modifying the pain signals in the central nervous system through interactions with our body’s opioid receptors. The effects of hydrocodone are fairly similar to the effects of both morphine and <a data-wpel-link=\"internal\" href=\"/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">heroin</a> – the use often gives a sense of calm and euphoria.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/",
+     "text": "heroin"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The main “desirable” effects of hydrocodone use can include:",
+   "html": "<strong>The main “desirable” effects of hydrocodone use can include: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Feelings of numbness",
+     "html": "Feelings of numbness",
+     "links": []
+    },
+    {
+     "text": "An increased sense of wellbeing",
+     "html": "An increased sense of wellbeing",
+     "links": []
+    },
+    {
+     "text": "Feeling sleepy, drowsy or lethargic",
+     "html": "Feeling sleepy, drowsy or lethargic",
+     "links": []
+    },
+    {
+     "text": "A decrease in anxiety, stress, and worry",
+     "html": "A decrease in anxiety, stress, and worry",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Some physical symptoms of hydrocodone use can include lightheadedness, nausea/vomiting, blood clotting issues, rash, constipation, dry throat, itching, and dizziness.",
+   "html": "Some physical symptoms of hydrocodone use can include lightheadedness, nausea/vomiting, blood clotting issues, rash, constipation, dry throat, itching, and dizziness.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Because hydrocodone can bring a pleasurable high that not only blocks pain but also interacts with our brain’s reward center, the risk of abuse is exceptionally high.",
+   "html": "Because hydrocodone can bring a pleasurable high that not only blocks pain but also interacts with our brain’s reward center, the risk of abuse is exceptionally high.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "However, dependency and abuse of hydrocodone can have rather uncomfortable side effects on your body, mind, and lifestyle.",
+   "html": "However, dependency and abuse of hydrocodone can have rather uncomfortable side effects on your body, mind, and lifestyle.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The immediate/dangerous side effects of hydrocodone abuse can include:",
+   "html": "<strong>The immediate/dangerous side effects of hydrocodone abuse can include: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Blurry vision, dry mouth",
+     "html": "Blurry vision, dry mouth",
+     "links": []
+    },
+    {
+     "text": "Nausea, vomiting",
+     "html": "Nausea, vomiting",
+     "links": []
+    },
+    {
+     "text": "Lightheadedness, loss of consciousness",
+     "html": "Lightheadedness, loss of consciousness",
+     "links": []
+    },
+    {
+     "text": "Warm, itchy skin",
+     "html": "Warm, itchy skin",
+     "links": []
+    },
+    {
+     "text": "Diarrhea or constipation",
+     "html": "Diarrhea or constipation",
+     "links": []
+    },
+    {
+     "text": "Confusion and/or slurred speech",
+     "html": "Confusion and/or slurred speech",
+     "links": []
+    },
+    {
+     "text": "Reduced heart rate",
+     "html": "Reduced heart rate",
+     "links": []
+    },
+    {
+     "text": "Seizures",
+     "html": "Seizures",
+     "links": []
+    },
+    {
+     "text": "Coma",
+     "html": "Coma",
+     "links": []
+    },
+    {
+     "text": "Death",
+     "html": "Death",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Hydrocodone Abuse & Overdose Potential",
+   "html": "Hydrocodone Abuse &amp; Overdose Potential",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A 2009 study conducted by the American Association of Poison Control Centers shows that nearly 30,000 people have sought treatment for hydrocodone abuse/addiction. That same year, the National Survey on Drug Use & Health conducted another survey that showed over 23 million people over the age of 12 have abused hydrocodone in their lives.",
+   "html": "A 2009 study conducted by the<em> American Association of Poison Control Centers</em> shows that nearly 30,000 people have sought treatment for hydrocodone abuse/addiction. That same year, the <em>National Survey on Drug Use &amp; Health</em> conducted another survey that showed over 23 million people over the age of 12 have abused hydrocodone in their lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "With medications like Vicodin being at the top of the most prescribed painkillers list, it’s entirely possible that even someone with a legitimate prescription can develop a hydrocodone dependence or addiction.",
+   "html": "With medications like Vicodin being at the top of the most prescribed painkillers list, it’s entirely possible that even someone with a legitimate prescription can develop a hydrocodone dependence or addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone addiction can occur in as little as 2-4 weeks after beginning your prescription. Because of our tolerance levels, users may feel the need to take more to achieve the same feelings as they had at the beginning of their use.",
+   "html": "Hydrocodone addiction can occur in as little as 2-4 weeks after beginning your prescription. Because of our tolerance levels, users may feel the need to take more to achieve the same feelings as they had at the beginning of their use.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Understanding what a hydrocodone addiction looks like can save a life.",
+   "html": "Understanding what a hydrocodone addiction looks like can save a life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Maybe someone you know has a prescription and you think they may be abusing it. Or maybe you yourself are having a hard time making it the recommended time between doses and you suspect you might be developing a hydrocodone dependence.",
+   "html": "Maybe someone you know has a prescription and you think they may be abusing it. Or maybe you yourself are having a hard time making it the recommended time between doses and you suspect you might be developing a hydrocodone dependence.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "People who have become dependent on their hydrocodone medication will often exhibit symptoms such as doctor shopping (to fill more prescriptions) and continued use of the drug despite the negative consequences involved in their life.",
+   "html": "People who have become dependent on their hydrocodone medication will often exhibit symptoms such as doctor shopping (to fill more prescriptions) and continued use of the drug despite the negative consequences involved in their life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A person who is becoming addicted to hydrocodone will likely be defensive about their use, maybe even delusional, convincing themselves that this isn’t a problem. Oftentimes users feel confident that they aren’t addicted to it or begin lying to others about how much they have taken or how long it was since their last dose.",
+   "html": "A person who is becoming addicted to hydrocodone will likely be defensive about their use, maybe even delusional, convincing themselves that this isn’t a problem. Oftentimes users feel confident that they aren’t addicted to it or begin lying to others about how much they have taken or how long it was since their last dose.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A hydrocodone overdose will present with the following symptoms:",
+   "html": "<strong>A hydrocodone overdose will present with the following symptoms:</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Shallow breathing, slow breathing",
+     "html": "Shallow breathing, slow breathing",
+     "links": []
+    },
+    {
+     "text": "Extreme fatigue",
+     "html": "Extreme fatigue",
+     "links": []
+    },
+    {
+     "text": "Vomiting",
+     "html": "Vomiting",
+     "links": []
+    },
+    {
+     "text": "Small, pinpoint pupils",
+     "html": "Small, pinpoint pupils",
+     "links": []
+    },
+    {
+     "text": "Loss of consciousness",
+     "html": "Loss of consciousness",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "If you suspect someone you know is experiencing a hydrocodone overdose, contact emergency services immediately or take them to the nearest hospital urgently.",
+   "html": "If you suspect someone you know is experiencing a hydrocodone overdose, contact emergency services immediately or take them to the nearest hospital urgently.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing.webp",
+   "alt": "shallow breathing",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Hydrocodone Timeline and Withdrawal Symptoms",
+   "html": "Hydrocodone Timeline and Withdrawal Symptoms",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Most products containing hydrocodone are fast-acting, with their effects lasting between 4-6 hours after administration.",
+   "html": "Most products containing hydrocodone are fast-acting, with their effects lasting between 4-6 hours after administration.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Withdrawal symptoms will set in between 6-12 hours after your last dose. Symptoms usually peak around 72 hours but can last for about 5-7 days.",
+   "html": "Withdrawal symptoms will set in between 6-12 hours after your last dose. Symptoms usually peak around 72 hours but can last for about 5-7 days.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "In fact, it’s entirely possible to feel some withdrawal symptoms even a few weeks after the last time you used it, and some of the cravings and emotional changes can last even longer.",
+   "html": "In fact, it’s entirely possible to feel some withdrawal symptoms even a few weeks after the last time you used it, and some of the cravings and emotional changes can last even longer.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Underlying medical or mental health issues can also influence how intense your withdrawal symptoms are as well as how long they last.",
+   "html": "Underlying medical or mental health issues can also influence how intense your withdrawal symptoms are as well as how long they last.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The most common hydrocodone withdrawal symptoms are:",
+   "html": "<strong>The most common hydrocodone withdrawal symptoms are: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Nausea and vomiting",
+     "html": "Nausea and vomiting",
+     "links": []
+    },
+    {
+     "text": "Intense sweating",
+     "html": "Intense sweating",
+     "links": []
+    },
+    {
+     "text": "Cramping and/or diarrhea",
+     "html": "Cramping and/or diarrhea",
+     "links": []
+    },
+    {
+     "text": "Tremors",
+     "html": "Tremors",
+     "links": []
+    },
+    {
+     "text": "Watery eyes, runny nose",
+     "html": "Watery eyes, runny nose",
+     "links": []
+    },
+    {
+     "text": "Mood swings/agitation",
+     "html": "Mood swings/agitation",
+     "links": []
+    },
+    {
+     "text": "Fever",
+     "html": "Fever",
+     "links": []
+    },
+    {
+     "text": "Anxiety",
+     "html": "Anxiety",
+     "links": []
+    },
+    {
+     "text": "Severe muscle and joint pain",
+     "html": "Severe muscle and joint pain",
+     "links": []
+    },
+    {
+     "text": "Hallucinations",
+     "html": "Hallucinations",
+     "links": []
+    },
+    {
+     "text": "Insomnia, trouble sleeping",
+     "html": "Insomnia, trouble sleeping",
+     "links": []
+    },
+    {
+     "text": "Shivering",
+     "html": "Shivering",
+     "links": []
+    },
+    {
+     "text": "Irregular or increased heart rate",
+     "html": "Irregular or increased heart rate",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Hydrocodone and Mental Health",
+   "html": "Hydrocodone and Mental Health",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Prolonged/chronic use of hydrocodone not only takes a toll on your body but can also completely change the way your brain functions and have long-term effects on your mood and thought patterns.",
+   "html": "Prolonged/chronic use of hydrocodone not only takes a toll on your body but can also completely change the way your brain functions and have long-term effects on your mood and thought patterns.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "People who have chronically abused hydrocodone can suffer from liver disease and kidney disease and are at heightened risk of suffering from depression, insomnia and/or anxiety disorders.",
+   "html": "People who have chronically abused hydrocodone can suffer from liver disease and kidney disease and are at heightened risk of suffering from depression, insomnia and/or anxiety disorders.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Hydrocodone is not just habit-forming and physically addictive, but it can also be extremely psychologically addictive as well. When a patient has been prescribed any painkiller medication, there is always a chance for psychological dependence because the receptors in our body that control pain signals also control pleasure signals.",
+   "html": "Hydrocodone is not just habit-forming and physically addictive, but it can also be extremely psychologically addictive as well. When a patient has been prescribed any painkiller medication, there is always a chance for psychological dependence because the receptors in our body that control pain signals also control pleasure signals.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "When you abuse a painkiller prescription, you’re not only teaching your body to block pain signals, you’re also teaching your body to replace pain signals with pleasure signals – and if you had the choice between pain and pleasure, I am sure everyone would choose pleasure.",
+   "html": "When you abuse a painkiller prescription, you’re not only teaching your body to block pain signals, you’re also teaching your body to replace pain signals with pleasure signals – and if you had the choice between pain and pleasure, I am sure everyone would choose pleasure.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This is how psychological dependence works – you no longer count on your brain to give you pleasure signals because you’ve been force-starting those signals with the abuse of a foreign substance. Eventually, your brain forgets how to do that, and you can’t achieve the same sense of happiness while sober. This is what can make painkiller withdrawal so difficult.",
+   "html": "This is how psychological dependence works – you no longer count on your brain to give you pleasure signals because you’ve been force-starting those signals with the abuse of a foreign substance. Eventually, your brain forgets how to do that, and you can’t achieve the same sense of happiness while sober. This is what can make painkiller withdrawal so difficult.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Hydrocodone Harm Reduction",
+   "html": "Hydrocodone Harm Reduction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The best way to prevent an addiction to hydrocodone is to take the prescription exactly as the doctor has instructed and to tell your doctor immediately if your pain starts to lessen and you suspect you don’t need as high of a dose or to continue the use of hydrocodone.",
+   "html": "The best way to prevent an addiction to hydrocodone is to take the prescription exactly as the doctor has instructed and to tell your doctor immediately if your pain starts to lessen and you suspect you don’t need as high of a dose or to continue the use of hydrocodone.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Even if your prescription hasn’t run out – if you feel like you can go without your prescription, do not continue to use it until the bottle is empty. The less time you use hydrocodone, the better chance you have of being able to quit using it without any problems.",
+   "html": "Even if your prescription hasn’t run out – if you feel like you can go without your prescription, do not continue to use it until the bottle is empty. The less time you use hydrocodone, the better chance you have of being able to quit using it without any problems.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you feel as though you are struggling to make it between doses and are experiencing cravings – consult with your doctor immediately.",
+   "html": "If you feel as though you are struggling to make it between doses and are experiencing cravings – consult with your doctor immediately.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Another incredibly important thing to remember is that a hydrocodone overdose is entirely possible, even if you are using a prescription. High doses of hydrocodone can affect each person differently depending on their body type, tolerance level and the strength of their prescription.",
+   "html": "Another incredibly important thing to remember is that a hydrocodone overdose is entirely possible, even if you are using a prescription. High doses of hydrocodone can affect each person differently depending on their body type, tolerance level and the strength of their prescription.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A very common way to overdose is taking doses too close together or trying to make up for a missed dose. You might feel the need to take a little more of the medication if your pain level is higher that day, but any adjustment in your dosage is considered dangerous and abusing your prescription will inevitably lead to abuse, dependence, and addiction.",
+   "html": "A very common way to overdose is taking doses too close together or trying to make up for a missed dose. You might feel the need to take a little more of the medication if your pain level is higher that day, but any adjustment in your dosage is considered dangerous and abusing your prescription will inevitably lead to abuse, dependence, and addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Long-term effects of abusing prescription painkillers can include serious medical issues such as breathing problems, slowed/erratic heart rate, coma and in some cases, death.",
+   "html": "Long-term effects of abusing prescription painkillers can include serious medical issues such as breathing problems, slowed/erratic heart rate, coma and in some cases, death.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Do not attempt to use hydrocodone in combination with any other substance, as this can pose potentially life-threatening risks. For example, both alcohol and benzodiazepines such as sleeping pills decrease respiration just the same as hydrocodone does…taking these drugs in combination can slow your breathing enough to result in loss of consciousness, coma or even death. The nerve-pain medication gabapentin carries a similar warning, and mixing it with opioids has been linked to a substantially higher risk of fatal overdose, as our guide to gabapentin withdrawal and its risks in Canada explains.",
+   "html": "<strong>Do not attempt to use hydrocodone in combination with any other substance, as this can pose potentially life-threatening risks.</strong> For example, both alcohol and benzodiazepines such as sleeping pills decrease respiration just the same as hydrocodone does…taking these drugs in combination can slow your breathing enough to result in loss of consciousness, coma or even death. The nerve-pain medication gabapentin carries a similar warning, and mixing it with opioids has been linked to a substantially higher risk of fatal overdose, as our guide to <a data-wpel-link=\"internal\" href=\"/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">gabapentin withdrawal and its risks in Canada</a> explains.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/",
+     "text": "gabapentin withdrawal and its risks in Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction.webp",
+   "alt": "hydrocodone harm reduction",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Effective Hydrocodone Addiction Treatment Options",
+   "html": "Effective Hydrocodone Addiction Treatment Options",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "If you or someone you know is struggling with a hydrocodone addiction, there are many different treatment options you can consider. But how do you know when it’s time to get help?",
+   "html": "If you or someone you know is struggling with a hydrocodone addiction, there are many different treatment options you can consider. But how do you know when it’s time to get help?",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A person who is showing at least 2 of these symptoms within a one-year timespan is considered to have a hydrocodone addiction or use disorder:",
+   "html": "<strong>A person who is showing at least 2 of these symptoms within a one-year timespan is considered to have a hydrocodone addiction or use disorder: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "The user takes larger doses/more doses over a greater period of time than prescribed.",
+     "html": "The user takes larger doses/more doses over a greater period of time than prescribed.",
+     "links": []
+    },
+    {
+     "text": "The user has continued use, despite a desire to cut down or stop their use.",
+     "html": "The user has continued use, despite a desire to cut down or stop their use.",
+     "links": []
+    },
+    {
+     "text": "The user experiences strong urges and cravings for hydrocodone.",
+     "html": "The user experiences strong urges and cravings for hydrocodone.",
+     "links": []
+    },
+    {
+     "text": "The user suffers in their professional life due to their hydrocodone use but still doesn’t quit.",
+     "html": "The user suffers in their professional life due to their hydrocodone use but still doesn’t quit.",
+     "links": []
+    },
+    {
+     "text": "Continuing hydrocodone use even though it’s causing social or relationship issues.",
+     "html": "Continuing hydrocodone use even though it’s causing social or relationship issues.",
+     "links": []
+    },
+    {
+     "text": "The user ignores important aspects of their life (work, family, school, hobbies) because of their hydrocodone use.",
+     "html": "The user ignores important aspects of their life (work, family, school, hobbies) because of their hydrocodone use.",
+     "links": []
+    },
+    {
+     "text": "Doctor shopping or trying to secure more of the prescription than originally given by a doctor.",
+     "html": "Doctor shopping or trying to secure more of the prescription than originally given by a doctor.",
+     "links": []
+    },
+    {
+     "text": "Continued use of hydrocodone even after getting into dangerous situations while intoxicated such as driving while drugged or if they continue to use after an overdose scare.",
+     "html": "Continued use of hydrocodone even after getting into dangerous situations while intoxicated such as driving while drugged or if they continue to use after an overdose scare.",
+     "links": []
+    },
+    {
+     "text": "The user continues to use hydrocodone despite negative health or psychological effects.",
+     "html": "The user continues to use hydrocodone despite negative health or psychological effects.",
+     "links": []
+    },
+    {
+     "text": "The user’s tolerance to hydrocodone grows significantly.",
+     "html": "The user’s tolerance to hydrocodone grows significantly.",
+     "links": []
+    },
+    {
+     "text": "Withdrawal symptoms set in when the person stops their hydrocodone use or misses a dose.",
+     "html": "Withdrawal symptoms set in when the person stops their hydrocodone use or misses a dose.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Finding a medical detox center can be a great start. Hydrocodone withdrawal can be extremely uncomfortable and painful, and attempting to stop use without medical assistance could lead to relapse. Some medical detoxification programs are able to administer some kind of medication to ease the patient’s withdrawal discomfort.",
+   "html": "Finding a medical detox center can be a great start. Hydrocodone withdrawal can be extremely uncomfortable and painful, and attempting to stop use without medical assistance could lead to relapse. Some medical detoxification programs are able to administer some kind of medication to ease the patient’s withdrawal discomfort.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Along with that, once you enter a treatment program, there can also be a medication regimen implemented there to assist you in managing your pain through non-addictive pain relievers.",
+   "html": "Along with that, once you enter a treatment program, there can also be a medication regimen implemented there to assist you in managing your pain through non-addictive pain relievers.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Both inpatient and outpatient treatment programs will be focused primarily on overcoming the addiction itself, but that’s not all – a really important part of any treatment plan is counselling and behavioural therapy sessions that can help you understand your addiction and implement healthier habits into your life moving forward.",
+   "html": "Both inpatient and outpatient treatment programs will be focused primarily on overcoming the addiction itself, but that’s not all – a really important part of any treatment plan is counselling and behavioural therapy sessions that can help you understand your addiction and implement healthier habits into your life moving forward.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Inpatient treatment options can be all-encompassing – giving you support through your addiction with 12-step programs and counselling, but also offering cognitive behavioural therapy as well as individual counselling to help you build and maintain healthier coping mechanisms.",
+   "html": "Inpatient treatment options can be all-encompassing – giving you support through your addiction with 12-step programs and counselling, but also offering cognitive behavioural therapy as well as individual counselling to help you build and maintain healthier coping mechanisms.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "0 Comments",
+   "href": "https://addictionrehabcenters.ca/understanding-hydrocodone/#respond",
+   "new_href": "/understanding-hydrocodone/#respond"
+  }
+ ],
+ "post": {
+  "published": "2023-05-24T14:29:01+00:00",
+  "modified": "2026-08-19T10:23:10+00:00",
+  "date_label": "May 24, 2023",
+  "categories": [
+   "Drugs"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp",
+  "jsonld_author": "Thomas",
+  "jsonld_wordCount": 2099,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"understanding hydrocodone\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone.webp 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone-300x169.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone-1024x577.webp 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone-768x432.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone-1536x865.webp 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/understanding-hydrocodone-600x338.webp 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2023/00/\" itemprop=\"url\">\n                May 24, 2023        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/drugs/\" rel=\"category tag\">Drugs</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Understanding Hydrocodone    </h1> <p>Hydrocodone (most commonly known by its brand name Vicodin), is in a class of drugs called narcotic analgesics. Hydrocodone is prescribed as a painkiller that can be effective in treating mild-severe pain. However, it can also be habit-forming and extremely addictive.</p>\n<p>Other brand name versions of hydrocodone include Norco and Lortab, and each concoction contains hydrocodone as well as some other non-opioid pain reliever like acetaminophen (which is commonly found in Tylenol).</p>\n<h2 style=\"margin: 15.0pt 0in 5.0pt 0in;\"><span lang=\"EN\">Understanding Hydrocodone </span></h2>\n<p>Hydrocodone is a semi-synthetic opioid that doctors may decide to prescribe as a treatment for short-term pain following some kind of surgery or injury.</p>\n<p>Hydrocodone addiction can start with using your prescription as recommended – however, if you are in chronic pain or even when your pain starts to alleviate, many users continue to use (or take larger doses) of hydrocodone because of the euphoric effects it has or due to fear of the pain returning.</p>\n<p>Hydrocodone works similarly to other pain medications, by binding itself to pain receptors in our bodies (located in the spinal cord and brain), to weaken or block the pain signals we experience when injured. Respectively, these same receptors are responsible for the feel-good sensations/euphoria typically felt when drugs like opioids are introduced to our system.</p>\n<p>Essentially, hydrocodone prevents pain signals from being sent and where those pain signals are typically sent, there is now a euphoric message being sent. You can understand then, how this kind of feeling may become addictive, especially when stopping the use of Vicodin may make the user go back to experiencing the pain they initially sought treatment for.</p>\n<p>However, the addictive properties of hydrocodone cannot be denied. In fact, in as little as 5 days of prescribed use of hydrocodone, the risk of developing an addiction increases significantly. Other prescription opioids carry the same quiet risk, including <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment\" style=\"color:#1b6ec2;text-decoration:underline;\">tramadol addiction</a>, which usually begins with a routine painkiller prescription and can be even trickier to stop because tramadol also affects serotonin. The opioid in OxyContin and Percocet works much the same way, and our full guide to <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/oxycodone-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada\" style=\"color:#1b6ec2;text-decoration:underline;\">oxycodone addiction and withdrawal</a> walks through the signs, timeline, and treatment in Canada.</p>\n<h3>History of Hydrocodone</h3>\n<p>Hydrocodone was created in the early 1920s by a German pharmaceutical company. Later that decade, US officials were investigating different substitutes for cough medicines that contained opiates, due to their high addiction potential.</p>\n<p>Researchers ended up testing hundreds of different substance combinations in order to identify a suitable alternative to opiate-containing cough medicines. Hydrocodone covered quite a few of those bases, including the ability to manage pain, suppress a cough and produce feelings of euphoria.</p>\n<p>Although there was speculation that hydrocodone could carry a high risk of addiction, the FDA approved it anyway. It wasn’t until more than 30 years later, in the early 1960s, that research was done and reports were published proving that hydrocodone has a very high risk for addiction and dependence.</p>\n<p><img alt=\"history of hydrocodone\" class=\"alignnone wp-image-16145 size-full\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone.webp 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone-300x135.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone-768x346.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/history-of-hydrocodone-600x270.webp 600w\" width=\"1000\"/></p>\n<h3>Hydrocodone Signs and Symptoms of Abuse</h3>\n<p>The short-term effects of hydrocodone usually involve modifying the pain signals in the central nervous system through interactions with our body’s opioid receptors. The effects of hydrocodone are fairly similar to the effects of both morphine and <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/heroin-addiction-and-withdrawal-signs-timeline-and-treatment-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">heroin</a> – the use often gives a sense of calm and euphoria.</p>\n<p><strong>The main “desirable” effects of hydrocodone use can include: </strong></p>\n<ul>\n<li>Feelings of numbness</li>\n<li>An increased sense of wellbeing</li>\n<li>Feeling sleepy, drowsy or lethargic</li>\n<li>A decrease in anxiety, stress, and worry</li>\n</ul>\n<p>Some physical symptoms of hydrocodone use can include lightheadedness, nausea/vomiting, blood clotting issues, rash, constipation, dry throat, itching, and dizziness.</p>\n<p>Because hydrocodone can bring a pleasurable high that not only blocks pain but also interacts with our brain’s reward center, the risk of abuse is exceptionally high.</p>\n<p>However, dependency and abuse of hydrocodone can have rather uncomfortable side effects on your body, mind, and lifestyle.</p>\n<p><strong>The immediate/dangerous side effects of hydrocodone abuse can include: </strong></p>\n<ul>\n<li>Blurry vision, dry mouth</li>\n<li>Nausea, vomiting</li>\n<li>Lightheadedness, loss of consciousness</li>\n<li>Warm, itchy skin</li>\n<li>Diarrhea or constipation</li>\n<li>Confusion and/or slurred speech</li>\n<li>Reduced heart rate</li>\n<li>Seizures</li>\n<li>Coma</li>\n<li>Death</li>\n</ul>\n<h3>Hydrocodone Abuse &amp; Overdose Potential</h3>\n<p>A 2009 study conducted by the<em> American Association of Poison Control Centers</em> shows that nearly 30,000 people have sought treatment for hydrocodone abuse/addiction. That same year, the <em>National Survey on Drug Use &amp; Health</em> conducted another survey that showed over 23 million people over the age of 12 have abused hydrocodone in their lives.</p>\n<p>With medications like Vicodin being at the top of the most prescribed painkillers list, it’s entirely possible that even someone with a legitimate prescription can develop a hydrocodone dependence or addiction.</p>\n<p>Hydrocodone addiction can occur in as little as 2-4 weeks after beginning your prescription. Because of our tolerance levels, users may feel the need to take more to achieve the same feelings as they had at the beginning of their use.</p>\n<p>Understanding what a hydrocodone addiction looks like can save a life.</p>\n<p>Maybe someone you know has a prescription and you think they may be abusing it. Or maybe you yourself are having a hard time making it the recommended time between doses and you suspect you might be developing a hydrocodone dependence.</p>\n<p>People who have become dependent on their hydrocodone medication will often exhibit symptoms such as doctor shopping (to fill more prescriptions) and continued use of the drug despite the negative consequences involved in their life.</p>\n<p>A person who is becoming addicted to hydrocodone will likely be defensive about their use, maybe even delusional, convincing themselves that this isn’t a problem. Oftentimes users feel confident that they aren’t addicted to it or begin lying to others about how much they have taken or how long it was since their last dose.</p>\n<p><strong>A hydrocodone overdose will present with the following symptoms:</strong></p>\n<ul>\n<li>Shallow breathing, slow breathing</li>\n<li>Extreme fatigue</li>\n<li>Vomiting</li>\n<li>Small, pinpoint pupils</li>\n<li>Loss of consciousness</li>\n</ul>\n<p>If you suspect someone you know is experiencing a hydrocodone overdose, contact emergency services immediately or take them to the nearest hospital urgently.</p>\n<p><img alt=\"shallow breathing\" class=\"alignnone wp-image-16146 size-full\" decoding=\"async\" height=\"450\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing.webp 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing-300x135.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing-768x346.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/shallow-breathing-600x270.webp 600w\" width=\"1000\"/></p>\n<h3>Hydrocodone Timeline and Withdrawal Symptoms</h3>\n<p>Most products containing hydrocodone are fast-acting, with their effects lasting between 4-6 hours after administration.</p>\n<p>Withdrawal symptoms will set in between 6-12 hours after your last dose. Symptoms usually peak around 72 hours but can last for about 5-7 days.</p>\n<p>In fact, it’s entirely possible to feel some withdrawal symptoms even a few weeks after the last time you used it, and some of the cravings and emotional changes can last even longer.</p>\n<p>Underlying medical or mental health issues can also influence how intense your withdrawal symptoms are as well as how long they last.</p>\n<p><strong>The most common hydrocodone withdrawal symptoms are: </strong></p>\n<ul>\n<li>Nausea and vomiting</li>\n<li>Intense sweating</li>\n<li>Cramping and/or diarrhea</li>\n<li>Tremors</li>\n<li>Watery eyes, runny nose</li>\n<li>Mood swings/agitation</li>\n<li>Fever</li>\n<li>Anxiety</li>\n<li>Severe muscle and joint pain</li>\n<li>Hallucinations</li>\n<li>Insomnia, trouble sleeping</li>\n<li>Shivering</li>\n<li>Irregular or increased heart rate</li>\n</ul>\n<h3>Hydrocodone and Mental Health</h3>\n<p>Prolonged/chronic use of hydrocodone not only takes a toll on your body but can also completely change the way your brain functions and have long-term effects on your mood and thought patterns.</p>\n<p>People who have chronically abused hydrocodone can suffer from liver disease and kidney disease and are at heightened risk of suffering from depression, insomnia and/or anxiety disorders.</p>\n<p>Hydrocodone is not just habit-forming and physically addictive, but it can also be extremely psychologically addictive as well. When a patient has been prescribed any painkiller medication, there is always a chance for psychological dependence because the receptors in our body that control pain signals also control pleasure signals.</p>\n<p>When you abuse a painkiller prescription, you’re not only teaching your body to block pain signals, you’re also teaching your body to replace pain signals with pleasure signals – and if you had the choice between pain and pleasure, I am sure everyone would choose pleasure.</p>\n<p>This is how psychological dependence works – you no longer count on your brain to give you pleasure signals because you’ve been force-starting those signals with the abuse of a foreign substance. Eventually, your brain forgets how to do that, and you can’t achieve the same sense of happiness while sober. This is what can make painkiller withdrawal so difficult.</p>\n<h3>Hydrocodone Harm Reduction</h3>\n<p>The best way to prevent an addiction to hydrocodone is to take the prescription exactly as the doctor has instructed and to tell your doctor immediately if your pain starts to lessen and you suspect you don’t need as high of a dose or to continue the use of hydrocodone.</p>\n<p>Even if your prescription hasn’t run out – if you feel like you can go without your prescription, do not continue to use it until the bottle is empty. The less time you use hydrocodone, the better chance you have of being able to quit using it without any problems.</p>\n<p>If you feel as though you are struggling to make it between doses and are experiencing cravings – consult with your doctor immediately.</p>\n<p>Another incredibly important thing to remember is that a hydrocodone overdose is entirely possible, even if you are using a prescription. High doses of hydrocodone can affect each person differently depending on their body type, tolerance level and the strength of their prescription.</p>\n<p>A very common way to overdose is taking doses too close together or trying to make up for a missed dose. You might feel the need to take a little more of the medication if your pain level is higher that day, but any adjustment in your dosage is considered dangerous and abusing your prescription will inevitably lead to abuse, dependence, and addiction.</p>\n<p>Long-term effects of abusing prescription painkillers can include serious medical issues such as breathing problems, slowed/erratic heart rate, coma and in some cases, death.</p>\n<p><strong>Do not attempt to use hydrocodone in combination with any other substance, as this can pose potentially life-threatening risks.</strong> For example, both alcohol and benzodiazepines such as sleeping pills decrease respiration just the same as hydrocodone does…taking these drugs in combination can slow your breathing enough to result in loss of consciousness, coma or even death. The nerve-pain medication gabapentin carries a similar warning, and mixing it with opioids has been linked to a substantially higher risk of fatal overdose, as our guide to <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/gabapentin-withdrawal-timeline-symptoms-and-safe-tapering-in-canada/\" style=\"color:#1b6ec2;text-decoration:underline;\">gabapentin withdrawal and its risks in Canada</a> explains.</p>\n<p><img alt=\"hydrocodone harm reduction\" class=\"alignnone wp-image-16147 size-full\" decoding=\"async\" height=\"450\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction.webp 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction-300x135.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction-768x346.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/hydrocodone-harm-reduction-600x270.webp 600w\" width=\"1000\"/></p>\n<h3>Effective Hydrocodone Addiction Treatment Options</h3>\n<p>If you or someone you know is struggling with a hydrocodone addiction, there are many different treatment options you can consider. But how do you know when it’s time to get help?</p>\n<p><strong>A person who is showing at least 2 of these symptoms within a one-year timespan is considered to have a hydrocodone addiction or use disorder: </strong></p>\n<ul>\n<li>The user takes larger doses/more doses over a greater period of time than prescribed.</li>\n<li>The user has continued use, despite a desire to cut down or stop their use.</li>\n<li>The user experiences strong urges and cravings for hydrocodone.</li>\n<li>The user suffers in their professional life due to their hydrocodone use but still doesn’t quit.</li>\n<li>Continuing hydrocodone use even though it’s causing social or relationship issues.</li>\n<li>The user ignores important aspects of their life (work, family, school, hobbies) because of their hydrocodone use.</li>\n<li>Doctor shopping or trying to secure more of the prescription than originally given by a doctor.</li>\n<li>Continued use of hydrocodone even after getting into dangerous situations while intoxicated such as driving while drugged or if they continue to use after an overdose scare.</li>\n<li>The user continues to use hydrocodone despite negative health or psychological effects.</li>\n<li>The user’s tolerance to hydrocodone grows significantly.</li>\n<li>Withdrawal symptoms set in when the person stops their hydrocodone use or misses a dose.</li>\n</ul>\n<p>Finding a medical detox center can be a great start. Hydrocodone withdrawal can be extremely uncomfortable and painful, and attempting to stop use without medical assistance could lead to relapse. Some medical detoxification programs are able to administer some kind of medication to ease the patient’s withdrawal discomfort.</p>\n<p>Along with that, once you enter a treatment program, there can also be a medication regimen implemented there to assist you in managing your pain through non-addictive pain relievers.</p>\n<p>Both inpatient and outpatient treatment programs will be focused primarily on overcoming the addiction itself, but that’s not all – a really important part of any treatment plan is counselling and behavioural therapy sessions that can help you understand your addiction and implement healthier habits into your life moving forward.</p>\n<p>Inpatient treatment options can be all-encompassing – giving you support through your addiction with 12-step programs and counselling, but also offering cognitive behavioural therapy as well as individual counselling to help you build and maintain healthier coping mechanisms.</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n<div class=\"eltdf-post-info-comments-holder\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_comment_alt\"></span> <a class=\"eltdf-post-info-comments\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/understanding-hydrocodone/#respond\" itemprop=\"url\">\n\t\t\t0 Comments\t\t</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

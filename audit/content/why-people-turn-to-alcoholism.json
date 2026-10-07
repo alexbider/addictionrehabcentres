@@ -1,0 +1,739 @@
+{
+ "schema": "arc-content/1",
+ "slug": "why-people-turn-to-alcoholism",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/",
+  "path": "/why-people-turn-to-alcoholism/",
+  "wp_items": [
+   {
+    "id": 1197,
+    "type": "post",
+    "title": "Why People Turn To Alcoholism",
+    "date": "2020-09-16T08:51:55",
+    "modified": "2020-09-16T08:51:55",
+    "status": "publish",
+    "yoast_title": "Why People Turn To Alcoholism - Addiction Rehab Centers",
+    "words_rest": 658
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/why-people-turn-to-alcoholism/",
+ "seo": {
+  "meta_title": "Why People Turn To Alcoholism - Addiction Rehab Centers",
+  "meta_description": "Ever wonder why alcohol addictions are so common? Check out this informative article for insight into why people turn to alcoholism and how it can be fought.",
+  "canonical_source": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/",
+  "og": {
+   "title": "Why People Turn To Alcoholism - Addiction Rehab Centers",
+   "description": "Ever wonder why alcohol addictions are so common? Check out this informative article for insight into why people turn to alcoholism and how it can be fought.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Why People Turn To Alcoholism",
+      "datePublished": "2020-09-16T08:51:55+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/"
+      },
+      "wordCount": 665,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+      "keywords": [
+       "alcoholism"
+      ],
+      "articleSection": [
+       "Alcohol Addiction"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/",
+      "url": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/",
+      "name": "Why People Turn To Alcoholism - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+      "datePublished": "2020-09-16T08:51:55+00:00",
+      "description": "Ever wonder why alcohol addictions are so common? Check out this informative article for insight into why people turn to alcoholism and how it can be fought.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+      "width": 1000,
+      "height": 451,
+      "caption": "Why People Turn To Alcoholism"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/why-people-turn-to-alcoholism/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Why People Turn To Alcoholism"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Why People Turn To Alcoholism",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 668,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Why People Turn To Alcoholism"
+  ],
+  [
+   "h2",
+   "Why Do You Drink Alcohol?"
+  ],
+  [
+   "h3",
+   "Coping With A Loss"
+  ],
+  [
+   "h3",
+   "Lacking Connection"
+  ],
+  [
+   "h3",
+   "Shame"
+  ],
+  [
+   "h3",
+   "Relieving Stress"
+  ],
+  [
+   "h2",
+   "How Drinking Turns to Alcoholism"
+  ],
+  [
+   "h2",
+   "What Now?"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+   "local_path": "images/why-people-turn-to-alcoholism/Why-People-Turn-To-Alcoholism-3.jpeg",
+   "alt": "Why People Turn To Alcoholism",
+   "width": 1000,
+   "height": 451,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4.jpeg",
+   "local_path": "images/why-people-turn-to-alcoholism/Why-People-Turn-To-Alcoholism-4.jpeg",
+   "alt": " Alcoholism",
+   "width": 1000,
+   "height": 451,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1.jpeg",
+   "local_path": "images/why-people-turn-to-alcoholism/Why-People-Turn-To-Alcoholism-1.jpeg",
+   "alt": "Relieving Stress",
+   "width": 1000,
+   "height": 453,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2020/00/",
+   "text": "September 16, 2020",
+   "kind": "taxonomy-dropped",
+   "new": "/2020/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/alcohol-addiction/",
+   "text": "Alcohol Addiction",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-by-alcohol/",
+   "text": "alcoholism",
+   "kind": "internal",
+   "new": "/addiction-by-alcohol/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/signs-and-symptoms-of-alcohol-addiction/",
+   "text": "Signs and Symptoms of Alcohol Addiction",
+   "kind": "internal",
+   "new": "/signs-and-symptoms-of-alcohol-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/effects-and-dangers-of-alcohol-addiction/",
+   "text": "Effects and Dangers of Alcohol Addiction",
+   "kind": "internal",
+   "new": "/effects-and-dangers-of-alcohol-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centers",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/contact/",
+   "text": "call us today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+     "alt": "Why People Turn To Alcoholism",
+     "width": "1000",
+     "height": "451"
+    },
+    {
+     "type": "text",
+     "text": "September 16, 2020",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Addiction",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Why People Turn To Alcoholism",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Every time you go out to have some fun, do you feel that the night is never complete without a drink in your hand? You might be going through alcoholism. Do you know that in every bottle, there is a drug inside, and you are consuming it regularly? Believe it or not, that drug is alcohol. Yes, alcohol is a drug and a very addictive one at that.",
+     "html": "<span style=\"font-weight: 400;\">Every time you go out to have some fun, do you feel that the night is never complete without a drink in your hand? You might be going through <a data-wpel-link=\"internal\" href=\"/addiction-by-alcohol/\">alcoholism</a>. Do you know that in every bottle, there is a drug inside, and you are consuming it regularly? Believe it or not, that drug is alcohol. Yes, alcohol is a drug and a very addictive one at that. </span>",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/addiction-by-alcohol/",
+       "text": "alcoholism"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Similar to any other type of drug, it is very hazardous to consume it regularly in large amounts. Scientifically speaking, alcohol is a psychoactive drug that affects your mind and its mental processes. Consuming large quantities of alcohol frequently can cause your body to be dependent on it. Meaning your body would want more and more every time you drink it.",
+     "html": "<span style=\"font-weight: 400;\">Similar to any other type of drug, it is very hazardous to consume it regularly in large amounts. Scientifically speaking, alcohol is a psychoactive drug that affects your mind and its mental processes. Consuming large quantities of alcohol frequently can cause your body to be dependent on it. Meaning your body would want more and more every time you drink it.</span>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Related article: Signs and Symptoms of Alcohol Addiction",
+     "html": "Related article: <a data-wpel-link=\"internal\" href=\"/signs-and-symptoms-of-alcohol-addiction/\">Signs and Symptoms of Alcohol Addiction</a>",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/signs-and-symptoms-of-alcohol-addiction/",
+       "text": "Signs and Symptoms of Alcohol Addiction"
+      }
+     ],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Why Do You Drink Alcohol?",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4.jpeg",
+       "alt": " Alcoholism",
+       "width": "1000",
+       "height": "451"
+      },
+      {
+       "type": "p",
+       "text": "There are a lot of reasons why people turn to alcohol. Some individuals consume alcohol to relieve stress, feel good, overcome anxiety, cope with a loss, and also to try and forget trauma. Relying on alcohol may reduce all of these stresses and problems. That may be true. But alcoholic drinks can mess up the mind and your memory. So, being dependent on alcohol to relieve you of your problems is not worth the consequences. Let’s take a look at some of the common reasons why people undergo alcoholism.",
+       "html": "<span style=\"font-weight: 400;\">There are a lot of reasons why people turn to alcohol. Some individuals consume alcohol to relieve stress, feel good, overcome anxiety, cope with a loss, and also to try and forget trauma. Relying on alcohol may reduce all of these stresses and problems. That may be true. But alcoholic drinks can mess up the mind and your memory. So, being dependent on alcohol to relieve you of your problems is not worth the consequences. Let’s take a look at some of the common reasons why people undergo alcoholism. </span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Coping With A Loss",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Losing someone close to you can have a massive toll on your well-being, emotionally and mentally. Alcohol can ease the pain in your heart and the grief that you feel. Depending on your alcohol consumption to cope with loss, even for a short time, it can lead to alcoholism. And that would be difficult to overcome.",
+         "html": "<span style=\"font-weight: 400;\">Losing someone close to you can have a massive toll on your well-being, emotionally and mentally. Alcohol can ease the pain in your heart and the grief that you feel. Depending on your alcohol consumption to cope with loss, even for a short time, it can lead to alcoholism. And that would be difficult to overcome.</span>",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Lacking Connection",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Others drink because of someone they’ve lost. But others frequently drink because they feel they lack connection in their lives. Because of this feeling, individuals turn to alcoholism to at least fill the void. It is also thought to be a social lubricant, making it easier to create new relationships. There are individuals whose lives are a bit lonely, and they believe they need alcoholic drinks to light it up a little bit.",
+         "html": "<span style=\"font-weight: 400;\">Others drink because of someone they’ve lost. But others frequently drink because they feel they lack connection in their lives. Because of this feeling, individuals turn to alcoholism to at least fill the void. It is also thought to be a social lubricant, making it easier to create new relationships. There are individuals whose lives are a bit lonely, and they believe they need alcoholic drinks to light it up a little bit.</span>",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Shame",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Being one of the most imposing emotions that people cope up with is a shame. It is also one of the most traumatic feelings that you can ever experience. With alcohol consumption, people can temporarily hide the shame that they are feeling. However, using alcohol to mask their emotions can lead to having reckless or foolish behaviours that can lead to even greater embarrassment.",
+         "html": "<span style=\"font-weight: 400;\">Being one of the most imposing emotions that people cope up with is a shame. It is also one of the most traumatic feelings that you can ever experience. With alcohol consumption, people can temporarily hide the shame that they are feeling. However, using alcohol to mask their emotions can lead to having reckless or foolish behaviours that can lead to even greater embarrassment.</span>",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Relieving Stress",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "When an individual turns to alcoholism, they develop a feeling where life is stress-free. Alcohol is also a sedative and depressant. While it’s true that drinking alcohol could be a good stress reliever, doing it frequently builds a tolerance to it. Having a tolerance to alcohol would force you to drink even more to acquire the same feeling of pleasure.",
+         "html": "<span style=\"font-weight: 400;\">When an individual turns to alcoholism, they develop a feeling where life is stress-free. Alcohol is also a sedative and depressant. While it’s true that drinking alcohol could be a good stress reliever, doing it frequently builds a tolerance to it. Having a tolerance to alcohol would force you to drink even more to acquire the same feeling of pleasure. </span>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1.jpeg",
+         "alt": "Relieving Stress",
+         "width": "1000",
+         "height": "453"
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "heading": "How Drinking Turns to Alcoholism",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Alcohol addiction is a disorder where the individual cannot regulate alcohol intake and their habits. Alcoholism can affect the individual’s health in either mild, moderate, or severe states. People who are addicted to consuming alcohol experience a lot of drawbacks from it.",
+       "html": "<span style=\"font-weight: 400;\">Alcohol addiction is a disorder where the individual cannot regulate alcohol intake and their habits. Alcoholism can affect the individual’s health in either mild, moderate, or severe states. People who are addicted to consuming alcohol experience a lot of drawbacks from it. </span>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "One of the drawbacks is not being able to live and function adequately without regular consumption of alcoholic drinks. When alcoholics don’t consume their daily dosage, they would feel a struggle within themselves. They will also not be able to function properly throughout the day.",
+       "html": "<span style=\"font-weight: 400;\">One of the drawbacks is not being able to live and function adequately without regular consumption of alcoholic drinks. When alcoholics don’t consume their daily dosage, they would feel a struggle within themselves. They will also not be able to function properly throughout the day.</span>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Related article: Effects and Dangers of Alcohol Addiction",
+       "html": "Related article: <a data-wpel-link=\"internal\" href=\"/effects-and-dangers-of-alcohol-addiction/\">Effects and Dangers of Alcohol Addiction</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/effects-and-dangers-of-alcohol-addiction/",
+         "text": "Effects and Dangers of Alcohol Addiction"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "What Now?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Taking a stand against alcoholism ist the best choice to do today. It maybe yourself or someone you love. Addressing the alcohol addiction that someone is in is the first step to overcoming alcoholism.",
+       "html": "Taking a stand against alcoholism ist the best choice to do today. It maybe yourself or someone you love. Addressing the alcohol addiction that someone is in is the first step to overcoming alcoholism.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "With the help of Addiction Rehab Centers, you can be victorious over alcoholism. To learn more about how you can battle alcohol addiction, call us today.",
+       "html": "With the help of <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centers</a>, you can be victorious over alcoholism. To learn more about how you can battle alcohol addiction, <a data-wpel-link=\"internal\" href=\"/contact/\">call us today</a>.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centers"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/contact/",
+         "text": "call us today"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+   "alt": "Why People Turn To Alcoholism",
+   "width": "1000",
+   "height": "451"
+  },
+  {
+   "type": "text",
+   "text": "September 16, 2020",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Why People Turn To Alcoholism",
+   "html": "Why People Turn To Alcoholism",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Every time you go out to have some fun, do you feel that the night is never complete without a drink in your hand? You might be going through alcoholism. Do you know that in every bottle, there is a drug inside, and you are consuming it regularly? Believe it or not, that drug is alcohol. Yes, alcohol is a drug and a very addictive one at that.",
+   "html": "<span style=\"font-weight: 400;\">Every time you go out to have some fun, do you feel that the night is never complete without a drink in your hand? You might be going through <a data-wpel-link=\"internal\" href=\"/addiction-by-alcohol/\">alcoholism</a>. Do you know that in every bottle, there is a drug inside, and you are consuming it regularly? Believe it or not, that drug is alcohol. Yes, alcohol is a drug and a very addictive one at that. </span>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/addiction-by-alcohol/",
+     "text": "alcoholism"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Similar to any other type of drug, it is very hazardous to consume it regularly in large amounts. Scientifically speaking, alcohol is a psychoactive drug that affects your mind and its mental processes. Consuming large quantities of alcohol frequently can cause your body to be dependent on it. Meaning your body would want more and more every time you drink it.",
+   "html": "<span style=\"font-weight: 400;\">Similar to any other type of drug, it is very hazardous to consume it regularly in large amounts. Scientifically speaking, alcohol is a psychoactive drug that affects your mind and its mental processes. Consuming large quantities of alcohol frequently can cause your body to be dependent on it. Meaning your body would want more and more every time you drink it.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Related article: Signs and Symptoms of Alcohol Addiction",
+   "html": "Related article: <a data-wpel-link=\"internal\" href=\"/signs-and-symptoms-of-alcohol-addiction/\">Signs and Symptoms of Alcohol Addiction</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/signs-and-symptoms-of-alcohol-addiction/",
+     "text": "Signs and Symptoms of Alcohol Addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Why Do You Drink Alcohol?",
+   "html": "<span style=\"font-weight: 400;\">Why Do You Drink Alcohol?</span>",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4.jpeg",
+   "alt": " Alcoholism",
+   "width": "1000",
+   "height": "451"
+  },
+  {
+   "type": "p",
+   "text": "There are a lot of reasons why people turn to alcohol. Some individuals consume alcohol to relieve stress, feel good, overcome anxiety, cope with a loss, and also to try and forget trauma. Relying on alcohol may reduce all of these stresses and problems. That may be true. But alcoholic drinks can mess up the mind and your memory. So, being dependent on alcohol to relieve you of your problems is not worth the consequences. Let’s take a look at some of the common reasons why people undergo alcoholism.",
+   "html": "<span style=\"font-weight: 400;\">There are a lot of reasons why people turn to alcohol. Some individuals consume alcohol to relieve stress, feel good, overcome anxiety, cope with a loss, and also to try and forget trauma. Relying on alcohol may reduce all of these stresses and problems. That may be true. But alcoholic drinks can mess up the mind and your memory. So, being dependent on alcohol to relieve you of your problems is not worth the consequences. Let’s take a look at some of the common reasons why people undergo alcoholism. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Coping With A Loss",
+   "html": "<span style=\"font-weight: 400;\">Coping With A Loss</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Losing someone close to you can have a massive toll on your well-being, emotionally and mentally. Alcohol can ease the pain in your heart and the grief that you feel. Depending on your alcohol consumption to cope with loss, even for a short time, it can lead to alcoholism. And that would be difficult to overcome.",
+   "html": "<span style=\"font-weight: 400;\">Losing someone close to you can have a massive toll on your well-being, emotionally and mentally. Alcohol can ease the pain in your heart and the grief that you feel. Depending on your alcohol consumption to cope with loss, even for a short time, it can lead to alcoholism. And that would be difficult to overcome.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Lacking Connection",
+   "html": "<span style=\"font-weight: 400;\">Lacking Connection</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Others drink because of someone they’ve lost. But others frequently drink because they feel they lack connection in their lives. Because of this feeling, individuals turn to alcoholism to at least fill the void. It is also thought to be a social lubricant, making it easier to create new relationships. There are individuals whose lives are a bit lonely, and they believe they need alcoholic drinks to light it up a little bit.",
+   "html": "<span style=\"font-weight: 400;\">Others drink because of someone they’ve lost. But others frequently drink because they feel they lack connection in their lives. Because of this feeling, individuals turn to alcoholism to at least fill the void. It is also thought to be a social lubricant, making it easier to create new relationships. There are individuals whose lives are a bit lonely, and they believe they need alcoholic drinks to light it up a little bit.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Shame",
+   "html": "<span style=\"font-weight: 400;\">Shame</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Being one of the most imposing emotions that people cope up with is a shame. It is also one of the most traumatic feelings that you can ever experience. With alcohol consumption, people can temporarily hide the shame that they are feeling. However, using alcohol to mask their emotions can lead to having reckless or foolish behaviours that can lead to even greater embarrassment.",
+   "html": "<span style=\"font-weight: 400;\">Being one of the most imposing emotions that people cope up with is a shame. It is also one of the most traumatic feelings that you can ever experience. With alcohol consumption, people can temporarily hide the shame that they are feeling. However, using alcohol to mask their emotions can lead to having reckless or foolish behaviours that can lead to even greater embarrassment.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Relieving Stress",
+   "html": "<span style=\"font-weight: 400;\">Relieving Stress</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "When an individual turns to alcoholism, they develop a feeling where life is stress-free. Alcohol is also a sedative and depressant. While it’s true that drinking alcohol could be a good stress reliever, doing it frequently builds a tolerance to it. Having a tolerance to alcohol would force you to drink even more to acquire the same feeling of pleasure.",
+   "html": "<span style=\"font-weight: 400;\">When an individual turns to alcoholism, they develop a feeling where life is stress-free. Alcohol is also a sedative and depressant. While it’s true that drinking alcohol could be a good stress reliever, doing it frequently builds a tolerance to it. Having a tolerance to alcohol would force you to drink even more to acquire the same feeling of pleasure. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1.jpeg",
+   "alt": "Relieving Stress",
+   "width": "1000",
+   "height": "453"
+  },
+  {
+   "type": "h2",
+   "text": "How Drinking Turns to Alcoholism",
+   "html": "<span style=\"font-weight: 400;\">How Drinking Turns to Alcoholism</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Alcohol addiction is a disorder where the individual cannot regulate alcohol intake and their habits. Alcoholism can affect the individual’s health in either mild, moderate, or severe states. People who are addicted to consuming alcohol experience a lot of drawbacks from it.",
+   "html": "<span style=\"font-weight: 400;\">Alcohol addiction is a disorder where the individual cannot regulate alcohol intake and their habits. Alcoholism can affect the individual’s health in either mild, moderate, or severe states. People who are addicted to consuming alcohol experience a lot of drawbacks from it. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "One of the drawbacks is not being able to live and function adequately without regular consumption of alcoholic drinks. When alcoholics don’t consume their daily dosage, they would feel a struggle within themselves. They will also not be able to function properly throughout the day.",
+   "html": "<span style=\"font-weight: 400;\">One of the drawbacks is not being able to live and function adequately without regular consumption of alcoholic drinks. When alcoholics don’t consume their daily dosage, they would feel a struggle within themselves. They will also not be able to function properly throughout the day.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Related article: Effects and Dangers of Alcohol Addiction",
+   "html": "Related article: <a data-wpel-link=\"internal\" href=\"/effects-and-dangers-of-alcohol-addiction/\">Effects and Dangers of Alcohol Addiction</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/effects-and-dangers-of-alcohol-addiction/",
+     "text": "Effects and Dangers of Alcohol Addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "What Now?",
+   "html": "What Now?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Taking a stand against alcoholism ist the best choice to do today. It maybe yourself or someone you love. Addressing the alcohol addiction that someone is in is the first step to overcoming alcoholism.",
+   "html": "Taking a stand against alcoholism ist the best choice to do today. It maybe yourself or someone you love. Addressing the alcohol addiction that someone is in is the first step to overcoming alcoholism.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "With the help of Addiction Rehab Centers, you can be victorious over alcoholism. To learn more about how you can battle alcohol addiction, call us today.",
+   "html": "With the help of <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centers</a>, you can be victorious over alcoholism. To learn more about how you can battle alcohol addiction, <a data-wpel-link=\"internal\" href=\"/contact/\">call us today</a>.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centers"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/contact/",
+     "text": "call us today"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2020-09-16T08:51:55+00:00",
+  "modified": "2020-09-16T08:51:55",
+  "date_label": "September 16, 2020",
+  "categories": [
+   "Alcohol Addiction"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 665,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"Why People Turn To Alcoholism\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"451\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3.jpeg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3-300x135.jpeg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-3-768x346.jpeg 768w\" width=\"1000\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2020/00/\" itemprop=\"url\">\n                September 16, 2020        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/alcohol-addiction/\" rel=\"category tag\">Alcohol Addiction</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Why People Turn To Alcoholism    </h1> <p><span style=\"font-weight: 400;\">Every time you go out to have some fun, do you feel that the night is never complete without a drink in your hand? You might be going through <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-by-alcohol/\">alcoholism</a>. Do you know that in every bottle, there is a drug inside, and you are consuming it regularly? Believe it or not, that drug is alcohol. Yes, alcohol is a drug and a very addictive one at that. </span></p>\n<p><span style=\"font-weight: 400;\">Similar to any other type of drug, it is very hazardous to consume it regularly in large amounts. Scientifically speaking, alcohol is a psychoactive drug that affects your mind and its mental processes. Consuming large quantities of alcohol frequently can cause your body to be dependent on it. Meaning your body would want more and more every time you drink it.</span></p>\n<p>Related article: <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/signs-and-symptoms-of-alcohol-addiction/\">Signs and Symptoms of Alcohol Addiction</a></p>\n<h2><span style=\"font-weight: 400;\">Why Do You Drink Alcohol?</span></h2>\n<p><img alt=\" Alcoholism\" class=\"aligncenter wp-image-1200 size-full\" decoding=\"async\" height=\"451\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4.jpeg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4.jpeg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4-300x135.jpeg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-4-768x346.jpeg 768w\" width=\"1000\"/></p>\n<p><span style=\"font-weight: 400;\">There are a lot of reasons why people turn to alcohol. Some individuals consume alcohol to relieve stress, feel good, overcome anxiety, cope with a loss, and also to try and forget trauma. Relying on alcohol may reduce all of these stresses and problems. That may be true. But alcoholic drinks can mess up the mind and your memory. So, being dependent on alcohol to relieve you of your problems is not worth the consequences. Let’s take a look at some of the common reasons why people undergo alcoholism. </span></p>\n<h3><span style=\"font-weight: 400;\">Coping With A Loss</span></h3>\n<p><span style=\"font-weight: 400;\">Losing someone close to you can have a massive toll on your well-being, emotionally and mentally. Alcohol can ease the pain in your heart and the grief that you feel. Depending on your alcohol consumption to cope with loss, even for a short time, it can lead to alcoholism. And that would be difficult to overcome.</span></p>\n<h3><span style=\"font-weight: 400;\">Lacking Connection</span></h3>\n<p><span style=\"font-weight: 400;\">Others drink because of someone they’ve lost. But others frequently drink because they feel they lack connection in their lives. Because of this feeling, individuals turn to alcoholism to at least fill the void. It is also thought to be a social lubricant, making it easier to create new relationships. There are individuals whose lives are a bit lonely, and they believe they need alcoholic drinks to light it up a little bit.</span></p>\n<h3><span style=\"font-weight: 400;\">Shame</span></h3>\n<p><span style=\"font-weight: 400;\">Being one of the most imposing emotions that people cope up with is a shame. It is also one of the most traumatic feelings that you can ever experience. With alcohol consumption, people can temporarily hide the shame that they are feeling. However, using alcohol to mask their emotions can lead to having reckless or foolish behaviours that can lead to even greater embarrassment.</span></p>\n<h3><span style=\"font-weight: 400;\">Relieving Stress</span></h3>\n<p><span style=\"font-weight: 400;\">When an individual turns to alcoholism, they develop a feeling where life is stress-free. Alcohol is also a sedative and depressant. While it’s true that drinking alcohol could be a good stress reliever, doing it frequently builds a tolerance to it. Having a tolerance to alcohol would force you to drink even more to acquire the same feeling of pleasure. </span></p>\n<p><img alt=\"Relieving Stress\" class=\"aligncenter wp-image-1201 size-full\" decoding=\"async\" height=\"453\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1.jpeg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1.jpeg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1-300x136.jpeg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2020/09/Why-People-Turn-To-Alcoholism-1-768x348.jpeg 768w\" width=\"1000\"/></p>\n<h2><span style=\"font-weight: 400;\">How Drinking Turns to Alcoholism</span></h2>\n<p><span style=\"font-weight: 400;\">Alcohol addiction is a disorder where the individual cannot regulate alcohol intake and their habits. Alcoholism can affect the individual’s health in either mild, moderate, or severe states. People who are addicted to consuming alcohol experience a lot of drawbacks from it. </span></p>\n<p><span style=\"font-weight: 400;\">One of the drawbacks is not being able to live and function adequately without regular consumption of alcoholic drinks. When alcoholics don’t consume their daily dosage, they would feel a struggle within themselves. They will also not be able to function properly throughout the day.</span></p>\n<p>Related article: <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/effects-and-dangers-of-alcohol-addiction/\">Effects and Dangers of Alcohol Addiction</a></p>\n<h2>What Now?</h2>\n<p>Taking a stand against alcoholism ist the best choice to do today. It maybe yourself or someone you love. Addressing the alcohol addiction that someone is in is the first step to overcoming alcoholism.</p>\n<p>With the help of <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centers</a>, you can be victorious over alcoholism. To learn more about how you can battle alcohol addiction, <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/contact/\">call us today</a>.</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

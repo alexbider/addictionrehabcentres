@@ -1,0 +1,903 @@
+{
+ "schema": "arc-content/1",
+ "slug": "medical-detox-in-canada",
+ "status": "REMAINING",
+ "page_type": "treatment-support",
+ "wp_type": "page",
+ "template": "Drug (L1 layout)",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "D1-D6,G1",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/medical-detox-in-canada/",
+  "path": "/medical-detox-in-canada/",
+  "wp_items": [
+   {
+    "id": 10983,
+    "type": "page",
+    "title": "Medical Detox in Canada",
+    "date": "2022-02-03T14:09:29",
+    "modified": "2025-09-09T07:35:44",
+    "status": "publish",
+    "yoast_title": "Medical Detox in Canada | Detox Medication Centre",
+    "words_rest": 536
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/medical-detox-in-canada/",
+ "seo": {
+  "meta_title": "Medical Detox in Canada | Detox Medication Centre",
+  "meta_description": "Browse the best Medical Detox centre in Canada and variety of detox treatment programs. Call us today for more information 1-855-885-4747.",
+  "canonical_source": "https://addictionrehabcenters.ca/medical-detox-in-canada/",
+  "og": {
+   "title": "Medical Detox in Canada | Detox Medication Centre",
+   "description": "Browse the best Medical Detox centre in Canada and variety of detox treatment programs. Call us today for more information 1-855-885-4747.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/medical-detox-in-canada/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/medical-detox-in-canada/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Medical Detox in Canada",
+      "datePublished": "2022-02-03T14:09:29+00:00",
+      "dateModified": "2025-09-09T07:35:44+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/medical-detox-in-canada/"
+      },
+      "wordCount": 784,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/medical-detox-in-canada/",
+      "url": "https://addictionrehabcenters.ca/medical-detox-in-canada/",
+      "name": "Medical Detox in Canada | Detox Medication Centre",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-03T14:09:29+00:00",
+      "dateModified": "2025-09-09T07:35:44+00:00",
+      "description": "Browse the best Medical Detox centre in Canada and variety of detox treatment programs. Call us today for more information 1-855-885-4747.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/medical-detox-in-canada/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/medical-detox-in-canada/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/medical-detox-in-canada/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Medical Detox in Canada"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Medical Detox in Canada",
+ "title_bar_h1": "Medical Detox in Canada",
+ "word_count": 502,
+ "features": [
+  "form"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Medical Detox in Canada"
+  ],
+  [
+   "h2",
+   "Medical Detox in Canada: A Shield from the Horrors of Withdrawal"
+  ],
+  [
+   "h2",
+   "The Basics of Medical Detox in Canada"
+  ],
+  [
+   "h2",
+   "Medical Detox for Physiological Cleansing"
+  ],
+  [
+   "h2",
+   "Why do you need medical detoxification?"
+  ],
+  [
+   "h2",
+   "Opiate Medical Withdrawal"
+  ],
+  [
+   "h3",
+   "Let Us Help You"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-banner.jpg",
+   "local_path": "images/medical-detox-in-canada/medical-detox-banner.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/contact-addictions-rehab.jpg",
+   "local_path": "images/_shared/contact-addictions-rehab.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 600,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox.jpg",
+   "local_path": "images/medical-detox-in-canada/medical-detox.jpg",
+   "alt": "medical detox",
+   "width": 545,
+   "height": 625,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological.jpg",
+   "local_path": "images/medical-detox-in-canada/medical-detox-for-physiological.jpg",
+   "alt": "medical detox for physiological",
+   "width": 545,
+   "height": 327,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification.jpg",
+   "local_path": "images/medical-detox-in-canada/need-medical-detoxification.jpg",
+   "alt": "need medical detoxification",
+   "width": 567,
+   "height": 551,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/contact/",
+   "text": "Contact Us Today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Medical Detox in Canada",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Medical Detox in Canada: A Shield from the Horrors of Withdrawal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.",
+       "html": "Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "The Basics of Medical Detox in Canada",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.",
+       "html": "There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox.jpg",
+       "alt": "medical detox",
+       "width": "545",
+       "height": "625"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological.jpg",
+       "alt": "medical detox for physiological",
+       "width": "545",
+       "height": "327"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Medical Detox for Physiological Cleansing",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.",
+       "html": "It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification.jpg",
+       "alt": "need medical detoxification",
+       "width": "567",
+       "height": "551"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Why do you need medical detoxification?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.",
+       "html": "Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Opiate Medical Withdrawal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.",
+       "html": "Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      },
+      {
+       "type": "p",
+       "text": "Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. Addiction Rehab Centres Canada helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.",
+       "html": "Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Let Us Help You",
+       "blocks": [
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Medical Detox in Canada",
+   "html": "<strong>Medical Detox in Canada</strong>",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "Medical Detox in Canada: A Shield from the Horrors of Withdrawal",
+   "html": "<strong>Medical Detox in Canada: A Shield from the Horrors of Withdrawal</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.",
+   "html": "Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "The Basics of Medical Detox in Canada",
+   "html": "<strong>The Basics of Medical Detox in Canada</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.",
+   "html": "There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox.jpg",
+   "alt": "medical detox",
+   "width": "545",
+   "height": "625"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological.jpg",
+   "alt": "medical detox for physiological",
+   "width": "545",
+   "height": "327"
+  },
+  {
+   "type": "h2",
+   "text": "Medical Detox for Physiological Cleansing",
+   "html": "<strong>Medical Detox for Physiological Cleansing</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.",
+   "html": "It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification.jpg",
+   "alt": "need medical detoxification",
+   "width": "567",
+   "height": "551"
+  },
+  {
+   "type": "h2",
+   "text": "Why do you need medical detoxification?",
+   "html": "<strong>Why do you need medical detoxification?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.",
+   "html": "Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Opiate Medical Withdrawal",
+   "html": "<strong>Opiate Medical Withdrawal</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.",
+   "html": "Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Contact Us Today",
+   "href": "/contact/",
+   "new_href": "/contact/"
+  },
+  {
+   "type": "p",
+   "text": "Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. Addiction Rehab Centres Canada helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.",
+   "html": "Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+   "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Let Us Help You",
+   "html": "Let Us Help You",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1643922521369",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Medical Detox in Canada",
+       "html": "<strong>Medical Detox in Canada</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-banner.jpg?id=11155"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12",
+      "innerContentIntro"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Medical Detox in Canada: A Shield from the Horrors of Withdrawal",
+       "html": "<strong>Medical Detox in Canada: A Shield from the Horrors of Withdrawal</strong>",
+       "id": ""
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.",
+       "html": "Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "The Basics of Medical Detox in Canada",
+       "html": "<strong>The Basics of Medical Detox in Canada</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.",
+       "html": "There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox.jpg",
+       "alt": "medical detox",
+       "width": "545",
+       "height": "625"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological.jpg",
+       "alt": "medical detox for physiological",
+       "width": "545",
+       "height": "327"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Medical Detox for Physiological Cleansing",
+       "html": "<strong>Medical Detox for Physiological Cleansing</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.",
+       "html": "It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "cta-banner",
+   "classes": [
+    "newHomeBanner",
+    "bottomHomeBanner",
+    "innerBottomBanner",
+    "vc_row-no-padding",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification.jpg",
+       "alt": "need medical detoxification",
+       "width": "567",
+       "height": "551"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Why do you need medical detoxification?",
+       "html": "<strong>Why do you need medical detoxification?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.",
+       "html": "Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Opiate Medical Withdrawal",
+       "html": "<strong>Opiate Medical Withdrawal</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.",
+       "html": "Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "help-block",
+   "classes": [
+    "innerBlueContent"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. Addiction Rehab Centres Canada helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.",
+       "html": "Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [
+    "bottomWidget"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Let Us Help You",
+       "html": "Let Us Help You",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Medical Detox in Canada",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-banner.jpg?id=11155"
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1643922521369 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>Medical Detox in Canada</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element innerContentIntro\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Medical Detox in Canada: A Shield from the Horrors of Withdrawal</strong></h2>\n</div>\n</div>\n</div></div></div><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Medical detox in Canada is one of the most important treatment methods for substance abuse and addiction. The main purpose of medical detoxification is the safe assistance of the patient, steering them away from the substance that they are addicted to. Full detoxification is necessary before a patient could undergo further drug rehabilitation treatments toward a health and fresh path. Different medical detox programs have varying success rates and efficiency, depending on the severity of the case and other unique needs of the client.</p>\n<h2><strong>The Basics of Medical Detox in Canada</strong></h2>\n<p>There are different cases of medical detoxification, given the fact that different individuals are dealing with addiction in different ways and degrees. Within 6 to 14 days of detox, there is a possibility that the toxic substance is fully eliminated from the system. There are even drugs that would basically store themselves or “hibernate” in the fat tissues of the body. As an integrated process of the medical detox in Canada, the Sauna Program is designed to make the body sweat out stored toxins from the body, specifically those that are in the fatty tissues. The Sauna Program is proved to have high success rates.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"medical detox\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"625\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-262x300.jpg 262w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"medical detox for physiological\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"327\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/medical-detox-for-physiological-300x180.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Medical Detox for Physiological Cleansing</strong></h2>\n<p>It is imperative to know and understand that most medical detox facilities only provide physical detox and not the mental or psychological aspects of the treatment. However, there are also centers that have holistic doctors and addiction specialists that provide a more comprehensive detox program.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid newHomeBanner bottomHomeBanner innerBottomBanner vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\" data-vc-stretch-content=\"true\"><div class=\"homeImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"need medical detoxification\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"551\" loading=\"lazy\" sizes=\"(max-width: 567px) 100vw, 567px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification.jpg 567w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/need-medical-detoxification-300x292.jpg 300w\" width=\"567\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"newHomeBannerContent wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Why do you need medical detoxification?</strong></h2>\n<p>Medical detox in Canada is administered to patients that have severe withdrawal symptoms such as hallucinations and seizures. Detox is a mandatory requirement before clients can enter any residential treatment facilities and programs. Registered and certified medical professionals are the only ones with the license to facilitate the detox services. There are several factors that are highly considered to determine the length of the medical detox such as age, state of hydration and health, metabolism and DNA, and vitamin and mineral deficiencies. The amount of alcohol or drugs consumed and the duration of the addiction are likewise important factors.</p>\n<h2><strong>Opiate Medical Withdrawal</strong></h2>\n<p>Opiate addiction results to various destructive aftermaths but the withdrawal symptoms may be equally uncomfortable and excruciating. Medical detox in Canada is used to counter or lessen the symptoms of opiate withdrawal that include muscle aches, chills, runny nose, insomnia, diarrhea and stomach cramps, vomiting, headache, and anxiety.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid bannerBtn\" data-wpel-link=\"internal\" href=\"/contact/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Contact Us Today</span>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerBlueContent\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Medical detox in Canada is a successful and effective way to purge a client from the toxic substance present in the body due to excessive use. <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\"><strong>Addiction Rehab Centres Canada</strong></a> helps you find the best medical detox treatment programs to facilitate your journey towards rehabilitation and a drug-free lifestyle.</p>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element callSpecialist\">\n<div class=\"wpb_wrapper\">\n<p>Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a></p>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row wpb_row vc_row-fluid bottomWidget\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_widgetised_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"widget eltdf-sidearea widget_text\" id=\"text-9\"> <div class=\"textwidget\">\n</div>\n</div><div class=\"widget eltdf-sidearea widget_text\" id=\"text-13\"> <div class=\"textwidget\"><div class=\"eltdf-container eltdf-default-page-template wp7\">\n<div class=\"eltdf-container-inner clearfix\">\n<div class=\"eltdf-grid-row\">\n<div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid vc_custom_1644327284934 vc_row-has-fill vc_row-o-equal-height vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"true\" data-vc-stretch-content=\"true\" style=\"position: relative; left: -140.25px; box-sizing: border-box; width: 1511px;\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner\">\n<div class=\"wpb_wrapper\">\n<h3 class=\"eltdf-widget-title\" style=\"text-align: center;color: #fff;font-size: 16px;/* margin-bottom: 16px !important; *//* background: #27AAE1; */color: #fff;padding: 14px;/* text-align: left; */margin-top: 0;\">Let Us Help You</h3>\n<div class=\"wpcf7 no-js\" data-wpcf7-id=\"12092\" dir=\"ltr\" id=\"wpcf7-f12092-p10983-o1\" lang=\"en-US\">\n<div class=\"screen-reader-response\"><p aria-atomic=\"true\" aria-live=\"polite\" role=\"status\"></p> <ul></ul></div>\n<form action=\"/medical-detox-in-canada/#wpcf7-f12092-p10983-o1\" aria-label=\"Contact form\" class=\"wpcf7-form init\" data-status=\"init\" method=\"post\" novalidate=\"novalidate\">\n<fieldset class=\"hidden-fields-container\"><input name=\"_wpcf7\" type=\"hidden\" value=\"12092\"/><input name=\"_wpcf7_version\" type=\"hidden\" value=\"6.1.6\"/><input name=\"_wpcf7_locale\" type=\"hidden\" value=\"en_US\"/><input name=\"_wpcf7_unit_tag\" type=\"hidden\" value=\"wpcf7-f12092-p10983-o1\"/><input name=\"_wpcf7_container_post\" type=\"hidden\" value=\"10983\"/><input name=\"_wpcf7_posted_data_hash\" type=\"hidden\" value=\"\"/>\n</fieldset>\n<p class=\"marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"your-name\" placeholder=\"Your Name*\" size=\"40\" type=\"text\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"email-address\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" maxlength=\"400\" name=\"email-address\" placeholder=\"E-mail Address*\" size=\"40\" type=\"email\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"phone-number\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" maxlength=\"400\" name=\"phone-number\" placeholder=\"Phone Number*\" size=\"40\" type=\"tel\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"type-of-addiction\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"type-of-addiction\" placeholder=\"Type Of Addiction*\" size=\"40\" type=\"text\" value=\"\"/></span>\n</p>\n<p class=\"checkbox-text marbot5\">Is this for yourself or a loved one?\n</p>\n<p class=\"checkbox-text marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"person\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first\"><input name=\"person[]\" type=\"checkbox\" value=\"Yourself\"/><span class=\"wpcf7-list-item-label\">Yourself</span></span><span class=\"wpcf7-list-item last\"><input name=\"person[]\" type=\"checkbox\" value=\"Loved One\"/><span class=\"wpcf7-list-item-label\">Loved One</span></span></span></span>\n</p>\n<p><span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required\" cols=\"40\" maxlength=\"2000\" name=\"your-message\" placeholder=\"Your Questions / Comments*\" rows=\"10\"></textarea></span><button class=\"wpcf7-form-control wpcf7-submit submit-btn eltdf-btn eltdf-btn-medium eltdf-btn-solid\" type=\"submit\"><span class=\"eltdf-btn-text\">Submit</span></button>\n</p><div aria-hidden=\"true\" class=\"wpcf7-response-output\"></div>\n</form>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"vc_row-full-width vc_clearfix\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

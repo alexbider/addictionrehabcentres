@@ -1,0 +1,747 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__surrey",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/surrey/",
+  "path": "/listing-location/surrey/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/surrey/",
+ "seo": {
+  "meta_title": "Surrey Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/surrey/",
+  "og": {
+   "title": "Surrey Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/surrey/",
+      "url": "https://addictionrehabcenters.ca/listing-location/surrey/",
+      "name": "Surrey Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/surrey/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/surrey/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Acorn-Recovery-Living-.webp",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/surrey/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/surrey/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Acorn-Recovery-Living-.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Acorn-Recovery-Living-.webp",
+      "width": 450,
+      "height": 340
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/surrey/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Surrey"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Surrey",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Surrey Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png",
+   "local_path": "images/city__surrey/Denning-Health-Group-0.png",
+   "alt": "Denning Health Group-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png",
+   "local_path": "images/city__surrey/Diversecity-Community-Resources-Society-0.png",
+   "alt": "Diversecity Community Resources Society-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png",
+   "local_path": "images/city__surrey/The-Creekside-Withdrawal-Management-Centre-0.png",
+   "alt": "The Creekside Withdrawal Management Centre-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/denning-health-group/",
+   "text": "",
+   "kind": "internal",
+   "new": "/denning-health-group/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "text": "Surrey",
+   "kind": "internal",
+   "new": "/listing-location/surrey/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/denning-health-group/",
+   "text": "Denning Health Group",
+   "kind": "internal",
+   "new": "/denning-health-group/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/",
+   "text": "",
+   "kind": "internal",
+   "new": "/diversecity-community-resources-society-substance-use-counselling/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "text": "Surrey",
+   "kind": "internal",
+   "new": "/listing-location/surrey/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/",
+   "text": "Diversecity Community Resources Society – Substance Use Counselling",
+   "kind": "internal",
+   "new": "/diversecity-community-resources-society-substance-use-counselling/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/",
+   "text": "",
+   "kind": "internal",
+   "new": "/cwenengitel-aboriginal-society/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "text": "Surrey",
+   "kind": "internal",
+   "new": "/listing-location/surrey/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/",
+   "text": "Cwenengitel Aboriginal Society",
+   "kind": "internal",
+   "new": "/cwenengitel-aboriginal-society/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/creekside-detox/",
+   "text": "",
+   "kind": "internal",
+   "new": "/creekside-detox/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "text": "Surrey",
+   "kind": "internal",
+   "new": "/listing-location/surrey/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/creekside-detox/",
+   "text": "Creekside Detox",
+   "kind": "internal",
+   "new": "/creekside-detox/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Surrey Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Surrey Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png",
+     "alt": "Denning Health Group-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/denning-health-group/"
+    },
+    {
+     "type": "link",
+     "text": "Surrey",
+     "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+     "new_href": "/listing-location/surrey/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Denning Health Group",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "12975 84 Ave, Surrey, BC V3W 1B3, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    12975 84 Ave, Surrey, BC V3W 1B3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png",
+       "alt": "Diversecity Community Resources Society-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/"
+      },
+      {
+       "type": "link",
+       "text": "Surrey",
+       "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+       "new_href": "/listing-location/surrey/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Diversecity Community Resources Society – Substance Use Counselling",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "13455 76 Ave, Surrey, BC V3W 2W3, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    13455 76 Ave, Surrey, BC V3W 2W3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+       "alt": "Clsc Alberta Health Services",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/"
+      },
+      {
+       "type": "link",
+       "text": "Surrey",
+       "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+       "new_href": "/listing-location/surrey/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Cwenengitel Aboriginal Society",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "13632 110a Ave, Surrey, BC V3R 2B1, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    13632 110a Ave, Surrey, BC V3R 2B1, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png",
+       "alt": "The Creekside Withdrawal Management Centre-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/creekside-detox/"
+      },
+      {
+       "type": "link",
+       "text": "Surrey",
+       "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+       "new_href": "/listing-location/surrey/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Creekside Detox",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Surrey Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Surrey Results",
+   "html": "More Rehab Centres in Surrey Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png",
+   "alt": "Denning Health Group-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/denning-health-group/"
+  },
+  {
+   "type": "link",
+   "text": "Surrey",
+   "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "new_href": "/listing-location/surrey/"
+  },
+  {
+   "type": "h5",
+   "text": "Denning Health Group",
+   "html": "<a data-wpel-link=\"internal\" href=\"/denning-health-group/\" itemprop=\"url\">Denning Health Group</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "12975 84 Ave, Surrey, BC V3W 1B3, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    12975 84 Ave, Surrey, BC V3W 1B3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png",
+   "alt": "Diversecity Community Resources Society-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/"
+  },
+  {
+   "type": "link",
+   "text": "Surrey",
+   "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "new_href": "/listing-location/surrey/"
+  },
+  {
+   "type": "h5",
+   "text": "Diversecity Community Resources Society – Substance Use Counselling",
+   "html": "<a data-wpel-link=\"internal\" href=\"/diversecity-community-resources-society-substance-use-counselling/\" itemprop=\"url\">Diversecity Community Resources Society – Substance Use Counselling</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "13455 76 Ave, Surrey, BC V3W 2W3, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    13455 76 Ave, Surrey, BC V3W 2W3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/"
+  },
+  {
+   "type": "link",
+   "text": "Surrey",
+   "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "new_href": "/listing-location/surrey/"
+  },
+  {
+   "type": "h5",
+   "text": "Cwenengitel Aboriginal Society",
+   "html": "<a data-wpel-link=\"internal\" href=\"/cwenengitel-aboriginal-society/\" itemprop=\"url\">Cwenengitel Aboriginal Society</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "13632 110a Ave, Surrey, BC V3R 2B1, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    13632 110a Ave, Surrey, BC V3R 2B1, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png",
+   "alt": "The Creekside Withdrawal Management Centre-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/creekside-detox/"
+  },
+  {
+   "type": "link",
+   "text": "Surrey",
+   "href": "https://addictionrehabcenters.ca/listing-location/surrey/",
+   "new_href": "/listing-location/surrey/"
+  },
+  {
+   "type": "h5",
+   "text": "Creekside Detox",
+   "html": "<a data-wpel-link=\"internal\" href=\"/creekside-detox/\" itemprop=\"url\">Creekside Detox</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Denning Health Group",
+   "href": "https://addictionrehabcenters.ca/denning-health-group/",
+   "address": "12975 84 Ave, Surrey, BC V3W 1B3, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png",
+    "alt": "Denning Health Group-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Diversecity Community Resources Society – Substance Use Counselling",
+   "href": "https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/",
+   "address": "13455 76 Ave, Surrey, BC V3W 2W3, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png",
+    "alt": "Diversecity Community Resources Society-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Cwenengitel Aboriginal Society",
+   "href": "https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/",
+   "address": "13632 110a Ave, Surrey, BC V3R 2B1, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Creekside Detox",
+   "href": "https://addictionrehabcenters.ca/creekside-detox/",
+   "address": "Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png",
+    "alt": "The Creekside Withdrawal Management Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Denning Health Group",
+    "denning-health-group",
+    "12975 84 Ave, Surrey, BC V3W 1B3, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Diversecity Community Resources Society – Substance Use Counselling",
+    "diversecity-community-resources-society-substance-use-counselling",
+    "13455 76 Ave, Surrey, BC V3W 2W3, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Cwenengitel Aboriginal Society",
+    "cwenengitel-aboriginal-society",
+    "13632 110a Ave, Surrey, BC V3R 2B1, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Creekside Detox",
+    "creekside-detox",
+    "Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Surrey",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Surrey Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Surrey Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6591\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/denning-health-group/\">\n<img alt=\"Denning Health Group-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Denning-Health-Group-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/surrey/\">Surrey</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/denning-health-group/\" itemprop=\"url\">Denning Health Group</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    12975 84 Ave, Surrey, BC V3W 1B3, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6565\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/\">\n<img alt=\"Diversecity Community Resources Society-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Diversecity-Community-Resources-Society-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/surrey/\">Surrey</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/diversecity-community-resources-society-substance-use-counselling/\" itemprop=\"url\">Diversecity Community Resources Society – Substance Use Counselling</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    13455 76 Ave, Surrey, BC V3W 2W3, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6566\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/surrey/\">Surrey</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cwenengitel-aboriginal-society/\" itemprop=\"url\">Cwenengitel Aboriginal Society</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    13632 110a Ave, Surrey, BC V3R 2B1, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6536\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/creekside-detox/\">\n<img alt=\"The Creekside Withdrawal Management Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Creekside-Withdrawal-Management-Centre-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/surrey/\">Surrey</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/creekside-detox/\" itemprop=\"url\">Creekside Detox</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    Parking lot, Parking lot, 13740 94a Ave, Surrey, BC V3V 1N1, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

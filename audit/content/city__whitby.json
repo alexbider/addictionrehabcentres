@@ -1,0 +1,337 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__whitby",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/whitby/",
+  "path": "/listing-location/whitby/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/whitby/",
+ "seo": {
+  "meta_title": "Whitby Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/whitby/",
+  "og": {
+   "title": "Whitby Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/whitby/",
+      "url": "https://addictionrehabcenters.ca/listing-location/whitby/",
+      "name": "Whitby Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/whitby/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/whitby/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/whitby/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/whitby/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+      "width": 1360,
+      "height": 763,
+      "caption": "Renascent Treatment Centre"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/whitby/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Whitby"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Whitby",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Whitby Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+   "local_path": "images/city__whitby/Renascent-Treatment-Centre.jpeg",
+   "alt": "Renascent Treatment Centre",
+   "width": 1360,
+   "height": 763,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/renascent/",
+   "text": "",
+   "kind": "internal",
+   "new": "/renascent/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/whitby/",
+   "text": "Whitby",
+   "kind": "internal",
+   "new": "/listing-location/whitby/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/renascent/",
+   "text": "Renascent Treatment Centre",
+   "kind": "internal",
+   "new": "/renascent/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Whitby Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Whitby Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+     "alt": "Renascent Treatment Centre",
+     "width": "1360",
+     "height": "763",
+     "link_href": "https://addictionrehabcenters.ca/renascent/"
+    },
+    {
+     "type": "link",
+     "text": "Whitby",
+     "href": "https://addictionrehabcenters.ca/listing-location/whitby/",
+     "new_href": "/listing-location/whitby/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Renascent Treatment Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "90 Colston Ave, Whitby, ON L1M 1C1, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    90 Colston Ave, Whitby, ON L1M 1C1, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Whitby Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Whitby Results",
+   "html": "More Rehab Centres in Whitby Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+   "alt": "Renascent Treatment Centre",
+   "width": "1360",
+   "height": "763",
+   "link_href": "https://addictionrehabcenters.ca/renascent/"
+  },
+  {
+   "type": "link",
+   "text": "Whitby",
+   "href": "https://addictionrehabcenters.ca/listing-location/whitby/",
+   "new_href": "/listing-location/whitby/"
+  },
+  {
+   "type": "h5",
+   "text": "Renascent Treatment Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/renascent/\" itemprop=\"url\">Renascent Treatment Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "90 Colston Ave, Whitby, ON L1M 1C1, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    90 Colston Ave, Whitby, ON L1M 1C1, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Renascent Treatment Centre",
+   "href": "https://addictionrehabcenters.ca/renascent/",
+   "address": "90 Colston Ave, Whitby, ON L1M 1C1, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg",
+    "alt": "Renascent Treatment Centre",
+    "width": "1360",
+    "height": "763"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Renascent Treatment Centre",
+    "renascent",
+    "90 Colston Ave, Whitby, ON L1M 1C1, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Whitby",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Whitby Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Whitby Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6835\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/renascent/\">\n<img alt=\"Renascent Treatment Centre\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"763\" loading=\"lazy\" sizes=\"(max-width: 1360px) 100vw, 1360px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre.jpeg 1360w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre-300x168.jpeg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre-1024x574.jpeg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre-768x431.jpeg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Renascent-Treatment-Centre-600x337.jpeg 600w\" width=\"1360\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/whitby/\">Whitby</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/renascent/\" itemprop=\"url\">Renascent Treatment Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    90 Colston Ave, Whitby, ON L1M 1C1, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

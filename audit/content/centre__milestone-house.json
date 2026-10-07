@@ -1,0 +1,2124 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__milestone-house",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/milestone-house/",
+  "path": "/milestone-house/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/milestone-house/",
+ "seo": {
+  "meta_title": "Milestone House - Addiction Rehab Centers",
+  "meta_description": "Milestone House is a Structured Sober Living residence in Montreal, Quebec. We provided provide a safe and structured environment for men struggling with addiction and mental health disorders to grow and develop a strong foundation that can take them through life.",
+  "canonical_source": "https://addictionrehabcenters.ca/milestone-house/",
+  "og": {
+   "title": "Milestone House - Addiction Rehab Centers",
+   "description": "Milestone House is a Structured Sober Living residence in Montreal, Quebec. We provided provide a safe and structured environment for men struggling with addiction and mental health disorders to grow and develop a strong foundation that can take them through life.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/milestone-house/",
+      "url": "https://addictionrehabcenters.ca/milestone-house/",
+      "name": "Milestone House - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/milestone-house/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/milestone-house/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+      "datePublished": "2025-11-27T15:35:23+00:00",
+      "dateModified": "2025-11-27T17:20:08+00:00",
+      "description": "Milestone House is a Structured Sober Living residence in Montreal, Quebec. We provided provide a safe and structured environment for men struggling with addiction and mental health disorders to grow and develop a strong foundation that can take them through life.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/milestone-house/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/milestone-house/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/milestone-house/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+      "width": 680,
+      "height": 495,
+      "caption": "Milestone House"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/milestone-house/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Milestone House"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is Milestone House?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Who can live at Milestone House?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What kind of support do residents receive?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How long can someone stay?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What are the living conditions like?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 902,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "About Milestone House"
+  ],
+  [
+   "h3",
+   "Building Lasting Recovery Through Consistent Daily Action"
+  ],
+  [
+   "h3",
+   "A Home Environment Built for Focus, Balance, and Growth"
+  ],
+  [
+   "h3",
+   "Men"
+  ],
+  [
+   "h3",
+   "Young Adults"
+  ],
+  [
+   "h3",
+   "Drug Addiction"
+  ],
+  [
+   "h3",
+   "Gambling Addiction"
+  ],
+  [
+   "h3",
+   "Alcohol Use Disorder"
+  ],
+  [
+   "h2",
+   "Who We Treat"
+  ],
+  [
+   "h3",
+   "Men Only"
+  ],
+  [
+   "h3",
+   "Young Adults"
+  ],
+  [
+   "h2",
+   "Approaches"
+  ],
+  [
+   "h3",
+   "Twelve Step"
+  ],
+  [
+   "h3",
+   "Evidence Based"
+  ],
+  [
+   "h3",
+   "Family Involvement"
+  ],
+  [
+   "h3",
+   "Individual Treatment"
+  ],
+  [
+   "h2",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Group Therapy"
+  ],
+  [
+   "h3",
+   "1 on 1 Counseling"
+  ],
+  [
+   "h3",
+   "Family Therapy"
+  ],
+  [
+   "h3",
+   "Twelve Step Facilitation"
+  ],
+  [
+   "h3",
+   "Psychoeducation"
+  ],
+  [
+   "h3",
+   "Life Skills Training"
+  ],
+  [
+   "h3",
+   "Relapse Prevention Counseling"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Montreal, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Milestone House"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+   "local_path": "images/centre__milestone-house/Milestone-House-1.webp",
+   "alt": "Milestone House",
+   "width": 680,
+   "height": 495,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-3.webp",
+   "local_path": "images/centre__milestone-house/Milestone-House-3.webp",
+   "alt": "Milestone House",
+   "width": 680,
+   "height": 454,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-4.webp",
+   "local_path": "images/centre__milestone-house/Milestone-House-4.webp",
+   "alt": "Hope Valley Healing",
+   "width": 680,
+   "height": 454,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/montreal-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/montreal-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/men-only/",
+   "text": "Men Only",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/men-only/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:+1 514-865-1334",
+   "text": "+1 514-865-1334",
+   "kind": "tel",
+   "new": "tel:+1 514-865-1334"
+  },
+  {
+   "old_href": "mailto:info@milestone.house",
+   "text": "info@milestone.house",
+   "kind": "mailto",
+   "new": "mailto:info@milestone.house"
+  },
+  {
+   "old_href": "https://milestone.house/",
+   "text": "https://milestone.house/",
+   "kind": "external",
+   "new": "https://milestone.house/"
+  },
+  {
+   "old_href": "https://www.instagram.com/milestonehousemtl/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/milestonehousemtl/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 2,
+   "heading": "About Milestone House",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.",
+     "html": "Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Building Lasting Recovery Through Consistent Daily Action",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.",
+       "html": "The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "A Home Environment Built for Focus, Balance, and Growth",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.",
+       "html": "Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Specializations",
+       "href": "",
+       "new_href": ""
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Men",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Support tailored specifically for men navigating addiction and recovery.",
+       "html": "Support tailored specifically for men navigating addiction and recovery.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Young Adults",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.",
+       "html": "Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Drug Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.",
+       "html": "Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Gambling Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.",
+       "html": "Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Alcohol Use Disorder",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.",
+       "html": "Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Who We Treat",
+   "blocks": [],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Men Only",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A focused environment designed exclusively for men working toward recovery.",
+       "html": "A focused environment designed exclusively for men working toward recovery.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Young Adults",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.",
+       "html": "Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Approaches",
+   "blocks": [],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Twelve Step",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.",
+       "html": "A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Evidence Based",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.",
+       "html": "A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Family Involvement",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.",
+       "html": "Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Individual Treatment",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.",
+       "html": "Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Therapies",
+   "blocks": [],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Group Therapy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.",
+       "html": "Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "1 on 1 Counseling",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.",
+       "html": "Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Family Therapy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.",
+       "html": "Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Twelve Step Facilitation",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.",
+       "html": "Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Psychoeducation",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.",
+       "html": "An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Life Skills Training",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.",
+       "html": "Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Relapse Prevention Counseling",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+       "html": "Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Milestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Milestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Montreal, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Milestone House",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is Milestone House?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+       "html": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Who can live at Milestone House?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+       "html": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What kind of support do residents receive?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+       "html": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How long can someone stay?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+       "html": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What are the living conditions like?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+       "html": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Men Only",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "+1 514-865-1334",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 514-865-1334\" itemprop=\"url\">+1 514-865-1334</a>",
+         "links": [
+          {
+           "old": "tel:+1 514-865-1334",
+           "text": "+1 514-865-1334"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@milestone.house",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@milestone.house\" itemprop=\"url\">info@milestone.house</a>",
+         "links": [
+          {
+           "old": "mailto:info@milestone.house",
+           "text": "info@milestone.house"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://milestone.house/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://milestone.house/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://milestone.house/</a>",
+         "links": [
+          {
+           "old": "https://milestone.house/",
+           "text": "https://milestone.house/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:42pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "About Milestone House",
+   "html": "<b>About Milestone House</b><b></b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.",
+   "html": "Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Building Lasting Recovery Through Consistent Daily Action",
+   "html": "<b>Building Lasting Recovery Through Consistent Daily Action</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.",
+   "html": "The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "A Home Environment Built for Focus, Balance, and Growth",
+   "html": "<b>A Home Environment Built for Focus, Balance, and Growth</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.",
+   "html": "Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Specializations",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "h3",
+   "text": "Men",
+   "html": "<b>Men</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Support tailored specifically for men navigating addiction and recovery.",
+   "html": "Support tailored specifically for men navigating addiction and recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Young Adults",
+   "html": "<b>Young Adults</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.",
+   "html": "Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Drug Addiction",
+   "html": "<b>Drug Addiction</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.",
+   "html": "Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Gambling Addiction",
+   "html": "<b>Gambling Addiction</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.",
+   "html": "Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Alcohol Use Disorder",
+   "html": "<b>Alcohol Use Disorder</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.",
+   "html": "Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Who We Treat",
+   "html": "<b>Who We Treat</b>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Men Only",
+   "html": "<b>Men Only</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A focused environment designed exclusively for men working toward recovery.",
+   "html": "A focused environment designed exclusively for men working toward recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Young Adults",
+   "html": "<b>Young Adults</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.",
+   "html": "Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Approaches",
+   "html": "<b>Approaches</b>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Twelve Step",
+   "html": "<b>Twelve Step</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.",
+   "html": "A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Evidence Based",
+   "html": "<b>Evidence Based</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.",
+   "html": "A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Family Involvement",
+   "html": "<b>Family Involvement</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.",
+   "html": "Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Individual Treatment",
+   "html": "<b>Individual Treatment</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.",
+   "html": "Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Therapies",
+   "html": "<b>Therapies</b>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Group Therapy",
+   "html": "<b>Group Therapy</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.",
+   "html": "Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "1 on 1 Counseling",
+   "html": "<b>1 on 1 Counseling</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.",
+   "html": "Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Family Therapy",
+   "html": "<b>Family Therapy</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.",
+   "html": "Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Twelve Step Facilitation",
+   "html": "<b>Twelve Step Facilitation</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.",
+   "html": "Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Psychoeducation",
+   "html": "<b>Psychoeducation</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.",
+   "html": "An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Life Skills Training",
+   "html": "<b>Life Skills Training</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.",
+   "html": "Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Relapse Prevention Counseling",
+   "html": "<b>Relapse Prevention Counseling</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+   "html": "Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Milestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Milestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Montreal, Click here",
+   "html": "If You Are Looking For More Centres Near Montreal, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/montreal-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Milestone House",
+   "html": "Frequently Asked Questions About Milestone House",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is Milestone House?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+   "html": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Who can live at Milestone House?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+   "html": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What kind of support do residents receive?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+   "html": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How long can someone stay?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+   "html": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What are the living conditions like?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+   "html": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Men Only",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "+1 514-865-1334",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 514-865-1334\" itemprop=\"url\">+1 514-865-1334</a>",
+   "links": [
+    {
+     "old": "tel:+1 514-865-1334",
+     "text": "+1 514-865-1334"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@milestone.house",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@milestone.house\" itemprop=\"url\">info@milestone.house</a>",
+   "links": [
+    {
+     "old": "mailto:info@milestone.house",
+     "text": "info@milestone.house"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://milestone.house/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://milestone.house/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://milestone.house/</a>",
+   "links": [
+    {
+     "old": "https://milestone.house/",
+     "text": "https://milestone.house/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:42pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Milestone House",
+  "categories": [
+   "Quebec Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-17211\" data-elementor-id=\"17211\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4684477 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4684477\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b592aee\" data-element_type=\"column\" data-id=\"b592aee\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-796072f elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"796072f\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"p1\"><b>About Milestone House</b><b></b></h2><p class=\"p3\">Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.</p><h3 class=\"p1\"><b>Building Lasting Recovery Through Consistent Daily Action</b></h3><p class=\"p3\">The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.</p><h3 class=\"p1\"><b>A Home Environment Built for Focus, Balance, and Growth</b></h3><p class=\"p3\">Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-ae88856 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"ae88856\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fadc9c5\" data-element_type=\"column\" data-id=\"fadc9c5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-dfbd81a elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"dfbd81a\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2341\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-2341\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Specializations</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2341\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-2341\" role=\"region\"><h3><b>Men</b></h3><p class=\"p3\">Support tailored specifically for men navigating addiction and recovery.</p><h3><b>Young Adults</b></h3><p class=\"p3\">Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.</p><p class=\"p3\"> </p><h3><b>Drug Addiction</b></h3><p class=\"p3\">Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.</p><p class=\"p3\"> </p><h3><b>Gambling Addiction</b></h3><p class=\"p3\">Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.</p><p class=\"p3\"> </p><h3><b>Alcohol Use Disorder</b></h3><p class=\"p3\">Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.</p><p class=\"p3\"> </p><h2><b>Who We Treat</b></h2><h3><b>Men Only</b></h3><p class=\"p3\">A focused environment designed exclusively for men working toward recovery.</p><h3><b>Young Adults</b></h3><p class=\"p3\">Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.</p><p class=\"p3\"> </p><h2><b>Approaches</b></h2><h3><b>Twelve Step</b></h3><p class=\"p3\">A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.</p><p class=\"p3\"> </p><h3><b>Evidence Based</b></h3><p class=\"p3\">A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.</p><p class=\"p3\"> </p><h3><b>Family Involvement</b></h3><p class=\"p3\">Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.</p><p class=\"p3\"> </p><h3><b>Individual Treatment</b></h3><p class=\"p3\">Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.</p><p class=\"p3\"> </p><h2><b>Therapies</b></h2><h3><b>Group Therapy</b></h3><p class=\"p3\">Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.</p><h3><b>1 on 1 Counseling</b></h3><p class=\"p3\">Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.</p><p class=\"p3\"> </p><h3><b>Family Therapy</b></h3><p class=\"p3\">Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.</p><p class=\"p3\"> </p><h3><b>Twelve Step Facilitation</b></h3><p class=\"p3\">Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.</p><p class=\"p3\"> </p><h3><b>Psychoeducation</b></h3><p class=\"p3\">An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.</p><p class=\"p3\"> </p><h3><b>Life Skills Training</b></h3><p class=\"p3\">Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.</p><h3><b>Relapse Prevention Counseling</b></h3><p class=\"p3\">Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7e2855d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7e2855d7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49a5675d\" data-element_type=\"column\" data-id=\"49a5675d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1963d8da elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"1963d8da\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tMilestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-60db36b4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"60db36b4\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-38d24c55 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"38d24c55\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-170460db elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"170460db\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-330a941c\" data-element_type=\"column\" data-id=\"330a941c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6055916a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6055916a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Montreal, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/montreal-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-43aa230e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"43aa230e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1da9284b\" data-element_type=\"column\" data-id=\"1da9284b\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-42596314 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"42596314\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Milestone House</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-24b8757c elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"24b8757c\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6161\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-6161\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Milestone House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6161\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-6161\" role=\"region\"><p class=\"p1\">Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6162\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-6162\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Who can live at Milestone House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6162\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-6162\" role=\"region\"><p class=\"p1\">The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6163\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-6163\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of support do residents receive?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6163\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-6163\" role=\"region\"><p class=\"p1\">Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6164\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-6164\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long can someone stay?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6164\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-6164\" role=\"region\"><p class=\"p1\">Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6165\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-6165\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What are the living conditions like?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6165\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-6165\" role=\"region\"><p class=\"p1\">The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "+1 514-865-1334",
+  "email": "info@milestone.house",
+  "website": "https://milestone.house/",
+  "address": "5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+  "social": {
+   "instagram": "https://www.instagram.com/milestonehousemtl/"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+    "alt": "Milestone House",
+    "width": "680",
+    "height": "495"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-3.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-3.webp",
+    "alt": "Milestone House",
+    "width": "680",
+    "height": "454"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-4.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-4.webp",
+    "alt": "Hope Valley Healing",
+    "width": "680",
+    "height": "454"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Men Only Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h2",
+    "text": "About Milestone House",
+    "html": "<b>About Milestone House</b><b></b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.",
+    "html": "Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Building Lasting Recovery Through Consistent Daily Action",
+    "html": "<b>Building Lasting Recovery Through Consistent Daily Action</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.",
+    "html": "The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "A Home Environment Built for Focus, Balance, and Growth",
+    "html": "<b>A Home Environment Built for Focus, Balance, and Growth</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.",
+    "html": "Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Milestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Milestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Montreal, Click here",
+    "html": "If You Are Looking For More Centres Near Montreal, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/montreal-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Milestone House",
+  "faqs": [
+   {
+    "question": "Specializations",
+    "answer_blocks": [
+     {
+      "type": "h3",
+      "text": "Men",
+      "html": "<b>Men</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Support tailored specifically for men navigating addiction and recovery.",
+      "html": "Support tailored specifically for men navigating addiction and recovery.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Young Adults",
+      "html": "<b>Young Adults</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.",
+      "html": "Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Drug Addiction",
+      "html": "<b>Drug Addiction</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.",
+      "html": "Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Gambling Addiction",
+      "html": "<b>Gambling Addiction</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.",
+      "html": "Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Alcohol Use Disorder",
+      "html": "<b>Alcohol Use Disorder</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.",
+      "html": "Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h2",
+      "text": "Who We Treat",
+      "html": "<b>Who We Treat</b>",
+      "id": ""
+     },
+     {
+      "type": "h3",
+      "text": "Men Only",
+      "html": "<b>Men Only</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "A focused environment designed exclusively for men working toward recovery.",
+      "html": "A focused environment designed exclusively for men working toward recovery.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Young Adults",
+      "html": "<b>Young Adults</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.",
+      "html": "Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h2",
+      "text": "Approaches",
+      "html": "<b>Approaches</b>",
+      "id": ""
+     },
+     {
+      "type": "h3",
+      "text": "Twelve Step",
+      "html": "<b>Twelve Step</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.",
+      "html": "A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Evidence Based",
+      "html": "<b>Evidence Based</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.",
+      "html": "A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Family Involvement",
+      "html": "<b>Family Involvement</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.",
+      "html": "Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Individual Treatment",
+      "html": "<b>Individual Treatment</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.",
+      "html": "Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h2",
+      "text": "Therapies",
+      "html": "<b>Therapies</b>",
+      "id": ""
+     },
+     {
+      "type": "h3",
+      "text": "Group Therapy",
+      "html": "<b>Group Therapy</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.",
+      "html": "Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "1 on 1 Counseling",
+      "html": "<b>1 on 1 Counseling</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.",
+      "html": "Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Family Therapy",
+      "html": "<b>Family Therapy</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.",
+      "html": "Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Twelve Step Facilitation",
+      "html": "<b>Twelve Step Facilitation</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.",
+      "html": "Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Psychoeducation",
+      "html": "<b>Psychoeducation</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.",
+      "html": "An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Life Skills Training",
+      "html": "<b>Life Skills Training</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.",
+      "html": "Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.",
+      "links": [],
+      "images": []
+     },
+     {
+      "type": "h3",
+      "text": "Relapse Prevention Counseling",
+      "html": "<b>Relapse Prevention Counseling</b>",
+      "id": ""
+     },
+     {
+      "type": "p",
+      "text": "Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+      "html": "Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "MenSupport tailored specifically for men navigating addiction and recovery.Young AdultsSpecialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles. Drug AddictionTreatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing. Gambling AddictionSupport for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life. Alcohol Use DisorderCare for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction. Who We TreatMen OnlyA focused environment designed exclusively for men working toward recovery.Young AdultsComprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety. ApproachesTwelve StepA recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles. Evidence BasedA blend of clinically researched and scientifically proven therapies used to support sustainable recovery. Family InvolvementFamily members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system. Individual TreatmentPersonalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success. TherapiesGroup TherapyRecovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.1 on 1 CounselingPrivate sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery. Family TherapyTherapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household. Twelve Step FacilitationGuided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery. PsychoeducationAn approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices. Life Skills TrainingPractical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.Relapse Prevention CounselingTherapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety."
+   },
+   {
+    "question": "What is Milestone House?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+      "html": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery."
+   },
+   {
+    "question": "Who can live at Milestone House?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+      "html": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine."
+   },
+   {
+    "question": "What kind of support do residents receive?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+      "html": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits."
+   },
+   {
+    "question": "How long can someone stay?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+      "html": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently."
+   },
+   {
+    "question": "What are the living conditions like?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+      "html": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "+1 514-865-1334",
+  "phone_href": "tel:+1 514-865-1334",
+  "website_text": "https://milestone.house/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Men Only",
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "Specializations",
+   "answer_text": "MenSupport tailored specifically for men navigating addiction and recovery.Young AdultsSpecialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles. Drug AddictionTreatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing. Gambling AddictionSupport for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life. Alcohol Use DisorderCare for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction. Who We TreatMen OnlyA focused environment designed exclusively for men working toward recovery.Young AdultsComprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety. ApproachesTwelve StepA recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles. Evidence BasedA blend of clinically researched and scientifically proven therapies used to support sustainable recovery. Family InvolvementFamily members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system. Individual TreatmentPersonalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success. TherapiesGroup TherapyRecovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.1 on 1 CounselingPrivate sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery. Family TherapyTherapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household. Twelve Step FacilitationGuided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery. PsychoeducationAn approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices. Life Skills TrainingPractical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.Relapse Prevention CounselingTherapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.",
+   "answer_html": "<h3><b>Men</b></h3><p class=\"p3\">Support tailored specifically for men navigating addiction and recovery.</p><h3><b>Young Adults</b></h3><p class=\"p3\">Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.</p><p class=\"p3\"> </p><h3><b>Drug Addiction</b></h3><p class=\"p3\">Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.</p><p class=\"p3\"> </p><h3><b>Gambling Addiction</b></h3><p class=\"p3\">Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.</p><p class=\"p3\"> </p><h3><b>Alcohol Use Disorder</b></h3><p class=\"p3\">Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.</p><p class=\"p3\"> </p><h2><b>Who We Treat</b></h2><h3><b>Men Only</b></h3><p class=\"p3\">A focused environment designed exclusively for men working toward recovery.</p><h3><b>Young Adults</b></h3><p class=\"p3\">Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.</p><p class=\"p3\"> </p><h2><b>Approaches</b></h2><h3><b>Twelve Step</b></h3><p class=\"p3\">A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.</p><p class=\"p3\"> </p><h3><b>Evidence Based</b></h3><p class=\"p3\">A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.</p><p class=\"p3\"> </p><h3><b>Family Involvement</b></h3><p class=\"p3\">Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.</p><p class=\"p3\"> </p><h3><b>Individual Treatment</b></h3><p class=\"p3\">Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.</p><p class=\"p3\"> </p><h2><b>Therapies</b></h2><h3><b>Group Therapy</b></h3><p class=\"p3\">Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.</p><h3><b>1 on 1 Counseling</b></h3><p class=\"p3\">Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.</p><p class=\"p3\"> </p><h3><b>Family Therapy</b></h3><p class=\"p3\">Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.</p><p class=\"p3\"> </p><h3><b>Twelve Step Facilitation</b></h3><p class=\"p3\">Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.</p><p class=\"p3\"> </p><h3><b>Psychoeducation</b></h3><p class=\"p3\">An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.</p><p class=\"p3\"> </p><h3><b>Life Skills Training</b></h3><p class=\"p3\">Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.</p><h3><b>Relapse Prevention Counseling</b></h3><p class=\"p3\">Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is Milestone House?",
+   "answer_text": "Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.",
+   "answer_html": "<p class=\"p1\">Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Who can live at Milestone House?",
+   "answer_text": "The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.",
+   "answer_html": "<p class=\"p1\">The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What kind of support do residents receive?",
+   "answer_text": "Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.",
+   "answer_html": "<p class=\"p1\">Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How long can someone stay?",
+   "answer_text": "Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.",
+   "answer_html": "<p class=\"p1\">Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What are the living conditions like?",
+   "answer_text": "The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.",
+   "answer_html": "<p class=\"p1\">The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-17211\" data-elementor-id=\"17211\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4684477 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4684477\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b592aee\" data-element_type=\"column\" data-id=\"b592aee\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-796072f elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"796072f\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"p1\"><b>About Milestone House</b><b></b></h2><p class=\"p3\">Milestone House is built on the idea that recovery becomes stronger when people can practice it in everyday life. It is a men’s sober living home that supports individuals working through addiction to alcohol, drugs, prescription medications, and various process addictions like gambling, excessive gaming, or technology dependence. The program is structured around community living, phased progress, daily routines, and steady involvement in the 12 Step approach. Residents have access to a supportive sober environment where they can rebuild stability, develop accountability, and grow their confidence as they move toward long term independence.</p><h3 class=\"p1\"><b>Building Lasting Recovery Through Consistent Daily Action</b></h3><p class=\"p3\">The Milestone House model focuses on community connection and consistent daily action. Residents participate in 12 Step activities, receive guidance from peers who are further along in their recovery, and follow a clear structure that helps strengthen healthy habits. Regular meetings, step work, and meaningful peer relationships all play a role in reinforcing sobriety. Group fitness, shared routines, and responsibilities throughout the home help individuals build emotional resilience, practice better decision making, and experience a stable environment that encourages steady growth.</p><h3 class=\"p1\"><b>A Home Environment Built for Focus, Balance, and Growth</b></h3><p class=\"p3\">Residents stay in a bright and modern home that has been designed to support routine and purpose. Comfortable living areas, shared spaces for connection, and a private on site gym create a setting where daily structure feels natural. Communal meals, household tasks, and regular check ins offer consistency while giving residents the chance to practice real life skills in a safe and supportive way. The location in NDG provides convenient access to the city, offering opportunities to put recovery principles into practice throughout the day and return to a stable and welcoming home each night.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-ae88856 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"ae88856\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fadc9c5\" data-element_type=\"column\" data-id=\"fadc9c5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-dfbd81a elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"dfbd81a\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2341\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-2341\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Specializations</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2341\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-2341\" role=\"region\"><h3><b>Men</b></h3><p class=\"p3\">Support tailored specifically for men navigating addiction and recovery.</p><h3><b>Young Adults</b></h3><p class=\"p3\">Specialized care for individuals ages 18 to 25, focusing on the unique challenges of early adulthood such as college stress, risky behaviors, identity development, and vocational struggles.</p><p class=\"p3\"> </p><h3><b>Drug Addiction</b></h3><p class=\"p3\">Treatment for individuals struggling with the repeated and excessive use of drugs, even when it harms their health, relationships, and overall wellbeing.</p><p class=\"p3\"> </p><h3><b>Gambling Addiction</b></h3><p class=\"p3\">Support for those whose repetitive gambling leads to financial strain, relationship issues, and disruptions in work and daily life.</p><p class=\"p3\"> </p><h3><b>Alcohol Use Disorder</b></h3><p class=\"p3\">Care for individuals who rely on alcohol to cope or drink excessively throughout the week, signaling unhealthy patterns and addiction.</p><p class=\"p3\"> </p><h2><b>Who We Treat</b></h2><h3><b>Men Only</b></h3><p class=\"p3\">A focused environment designed exclusively for men working toward recovery.</p><h3><b>Young Adults</b></h3><p class=\"p3\">Comprehensive treatment for emerging adults ages 18 to 25, helping them manage early adult challenges while building a strong foundation for long term sobriety.</p><p class=\"p3\"> </p><h2><b>Approaches</b></h2><h3><b>Twelve Step</b></h3><p class=\"p3\">A recovery method rooted in spirituality, community connection, and accountability. The 12 Step philosophy emphasizes reliance on a Higher Power and the continued application of 12 Step principles.</p><p class=\"p3\"> </p><h3><b>Evidence Based</b></h3><p class=\"p3\">A blend of clinically researched and scientifically proven therapies used to support sustainable recovery.</p><p class=\"p3\"> </p><h3><b>Family Involvement</b></h3><p class=\"p3\">Family members are invited into the healing process through therapy sessions, visits, and guided support, recognizing that addiction affects the entire family system.</p><p class=\"p3\"> </p><h3><b>Individual Treatment</b></h3><p class=\"p3\">Personalized treatment plans shaped around the unique needs of each individual, giving every patient the best possible chance at long term success.</p><p class=\"p3\"> </p><h2><b>Therapies</b></h2><h3><b>Group Therapy</b></h3><p class=\"p3\">Recovery in a supportive peer environment where individuals share experiences, practice communication, and build connection.</p><h3><b>1 on 1 Counseling</b></h3><p class=\"p3\">Private sessions between the patient and therapist that focus on emotional challenges, behavioral patterns, and personalized strategies for recovery.</p><p class=\"p3\"> </p><h3><b>Family Therapy</b></h3><p class=\"p3\">Therapy sessions designed to improve communication, address family dynamics, and break unhealthy relational patterns within the household.</p><p class=\"p3\"> </p><h3><b>Twelve Step Facilitation</b></h3><p class=\"p3\">Guided support that helps patients understand and engage in the 12 Step process, commit to a higher power, and build connections with others in recovery.</p><p class=\"p3\"> </p><h3><b>Psychoeducation</b></h3><p class=\"p3\">An approach that blends therapy with education, helping individuals understand addiction and recovery so they can make informed and empowered choices.</p><p class=\"p3\"> </p><h3><b>Life Skills Training</b></h3><p class=\"p3\">Practical skills such as cooking, cleaning, communication, budgeting, and basic math, giving individuals a foundation for independence and long term stability.</p><h3><b>Relapse Prevention Counseling</b></h3><p class=\"p3\">Therapeutic support focused on identifying triggers, developing coping strategies, and building resilience to maintain long term sobriety.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7e2855d7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7e2855d7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49a5675d\" data-element_type=\"column\" data-id=\"49a5675d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1963d8da elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"1963d8da\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tMilestone House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-60db36b4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"60db36b4\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-38d24c55 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"38d24c55\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-170460db elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"170460db\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-330a941c\" data-element_type=\"column\" data-id=\"330a941c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6055916a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6055916a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Montreal, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/montreal-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-43aa230e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"43aa230e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1da9284b\" data-element_type=\"column\" data-id=\"1da9284b\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-42596314 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"42596314\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Milestone House</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-24b8757c elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"24b8757c\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6161\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-6161\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Milestone House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6161\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-6161\" role=\"region\"><p class=\"p1\">Milestone House is a men’s sober living home that provides structure, support, and a safe environment for people in recovery.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6162\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-6162\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Who can live at Milestone House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6162\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-6162\" role=\"region\"><p class=\"p1\">The program is open to men, including young adults, who are committed to staying substance free and following a structured recovery routine.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6163\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-6163\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of support do residents receive?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6163\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-6163\" role=\"region\"><p class=\"p1\">Residents benefit from daily routines, peer support, 12 Step involvement, skill building, and an environment that encourages healthy habits.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6164\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-6164\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long can someone stay?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6164\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-6164\" role=\"region\"><p class=\"p1\">Length of stay depends on each person’s needs. Many choose to stay until they feel confident living independently.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6165\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-6165\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What are the living conditions like?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6165\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-6165\" role=\"region\"><p class=\"p1\">The home is clean, modern, and supportive, offering shared or private rooms, community spaces, and clear house rules that help maintain a safe recovery focused setting.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/men-only/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Men Only</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 514-865-1334\" itemprop=\"url\">+1 514-865-1334</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@milestone.house\" itemprop=\"url\">info@milestone.house</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://milestone.house/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://milestone.house/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:42pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/milestonehousemtl/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

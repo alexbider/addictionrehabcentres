@@ -1,0 +1,2539 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__wellness-counselling-group",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/wellness-counselling-group/",
+  "path": "/wellness-counselling-group/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/wellness-counselling-group/",
+ "seo": {
+  "meta_title": "Wellness Counselling Group - Addiction Rehab Centers",
+  "meta_description": "Wellness Counselling Group offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/wellness-counselling-group/",
+  "og": {
+   "title": "Wellness Counselling Group - Addiction Rehab Centers",
+   "description": "Wellness Counselling Group offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Wellness-Counselling-Group.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/wellness-counselling-group/",
+      "url": "https://addictionrehabcenters.ca/wellness-counselling-group/",
+      "name": "Wellness Counselling Group - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/wellness-counselling-group/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/wellness-counselling-group/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Wellness-Counselling-Group.jpg",
+      "datePublished": "2021-09-28T15:44:14+00:00",
+      "dateModified": "2023-04-14T11:06:17+00:00",
+      "description": "Wellness Counselling Group offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/wellness-counselling-group/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/wellness-counselling-group/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/wellness-counselling-group/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Wellness-Counselling-Group.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Wellness-Counselling-Group.jpg",
+      "width": 1160,
+      "height": 773,
+      "caption": "Wellness Counselling Group"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/wellness-counselling-group/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Wellness Counselling Group"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is Wellness Counselling Group?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What type of therapies does Wellness Counselling Group offer?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the philosophy of Wellness Counselling Group?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What types of mental health challenges does Wellness Counselling Group treat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the background of the therapists at Wellness Counselling Group?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients&#8217; well-being.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What amenities are offered at Wellness Counselling Group?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How can Wellness Counselling Group help individuals struggling with mental health challenges?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the first step towards seeking treatment at Wellness Counselling Group?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 806,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "Wellness Counselling Group - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h4",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Wellness Counselling Group"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n.jpg",
+   "local_path": "images/centre__wellness-counselling-group/22492020_731482613707505_5608032205173548910_n.jpg",
+   "alt": "",
+   "width": 526,
+   "height": 526,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n.jpg",
+   "local_path": "images/centre__wellness-counselling-group/308629495_402526502057099_194610590147817439_n.jpg",
+   "alt": "",
+   "width": 526,
+   "height": 526,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n.jpg",
+   "local_path": "images/centre__wellness-counselling-group/22519365_731482017040898_9122541074012465943_n.jpg",
+   "alt": "",
+   "width": 526,
+   "height": 526,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+   "local_path": "images/_shared/Rehabs-01.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+   "local_path": "images/_shared/Rehabs-02.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+   "local_path": "images/_shared/Rehabs-03.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Wellness-Counselling-Group.jpg",
+   "local_path": "images/centre__wellness-counselling-group/Wellness-Counselling-Group.jpg",
+   "alt": "Wellness Counselling Group",
+   "width": 1160,
+   "height": 773,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/toronto-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/toronto-rehabs/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(905) 338-3873",
+   "text": "(905) 338-3873",
+   "kind": "tel",
+   "new": "tel:(905) 338-3873"
+  },
+  {
+   "old_href": "mailto:info@wellnesscounselling.com",
+   "text": "info@wellnesscounselling.com",
+   "kind": "mailto",
+   "new": "mailto:info@wellnesscounselling.com"
+  },
+  {
+   "old_href": "http://www.wellnesscounselling.com/",
+   "text": "http://www.wellnesscounselling.com/",
+   "kind": "external",
+   "new": "http://www.wellnesscounselling.com/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.",
+     "html": "Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.",
+     "html": "Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.",
+     "html": "Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.",
+     "html": "Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.",
+     "html": "If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Wellness Counselling Group - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.",
+     "html": "Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Wellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Wellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Wellness Counselling Group",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is Wellness Counselling Group?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+       "html": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What type of therapies does Wellness Counselling Group offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+       "html": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the philosophy of Wellness Counselling Group?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+       "html": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of mental health challenges does Wellness Counselling Group treat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+       "html": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the background of the therapists at Wellness Counselling Group?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+       "html": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What amenities are offered at Wellness Counselling Group?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+       "html": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How can Wellness Counselling Group help individuals struggling with mental health challenges?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+       "html": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the first step towards seeking treatment at Wellness Counselling Group?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+       "html": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(905) 338-3873",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(905) 338-3873\" itemprop=\"url\">(905) 338-3873</a>",
+         "links": [
+          {
+           "old": "tel:(905) 338-3873",
+           "text": "(905) 338-3873"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@wellnesscounselling.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@wellnesscounselling.com\" itemprop=\"url\">info@wellnesscounselling.com</a>",
+         "links": [
+          {
+           "old": "mailto:info@wellnesscounselling.com",
+           "text": "info@wellnesscounselling.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "http://www.wellnesscounselling.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.wellnesscounselling.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.wellnesscounselling.com/</a>",
+         "links": [
+          {
+           "old": "http://www.wellnesscounselling.com/",
+           "text": "http://www.wellnesscounselling.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "603 Argus Rd, Oakville, ON L6J 6G6, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    603 Argus Rd, Oakville, ON L6J 6G6, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.",
+   "html": "Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.",
+   "html": "Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.",
+   "html": "Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.",
+   "html": "Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.",
+   "html": "If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Wellness Counselling Group - Center Overview",
+   "html": "Wellness Counselling Group - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.",
+   "html": "Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Wellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Wellness Counselling Group",
+   "html": "Frequently Asked Questions About Wellness Counselling Group",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is Wellness Counselling Group?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+   "html": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What type of therapies does Wellness Counselling Group offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+   "html": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the philosophy of Wellness Counselling Group?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+   "html": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of mental health challenges does Wellness Counselling Group treat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+   "html": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the background of the therapists at Wellness Counselling Group?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+   "html": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What amenities are offered at Wellness Counselling Group?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+   "html": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How can Wellness Counselling Group help individuals struggling with mental health challenges?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+   "html": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the first step towards seeking treatment at Wellness Counselling Group?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+   "html": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(905) 338-3873",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(905) 338-3873\" itemprop=\"url\">(905) 338-3873</a>",
+   "links": [
+    {
+     "old": "tel:(905) 338-3873",
+     "text": "(905) 338-3873"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@wellnesscounselling.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@wellnesscounselling.com\" itemprop=\"url\">info@wellnesscounselling.com</a>",
+   "links": [
+    {
+     "old": "mailto:info@wellnesscounselling.com",
+     "text": "info@wellnesscounselling.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.wellnesscounselling.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.wellnesscounselling.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.wellnesscounselling.com/</a>",
+   "links": [
+    {
+     "old": "http://www.wellnesscounselling.com/",
+     "text": "http://www.wellnesscounselling.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "603 Argus Rd, Oakville, ON L6J 6G6, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    603 Argus Rd, Oakville, ON L6J 6G6, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Wellness Counselling Group",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6852\" data-elementor-id=\"6852\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1cfb2c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1cfb2c9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6f1d6ba\" data-element_type=\"column\" data-id=\"6f1d6ba\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8d18e8c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"8d18e8c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a22e43f\" data-element_type=\"column\" data-id=\"a22e43f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-fdc535a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"fdc535a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.</p><p>Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.</p><p>Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.</p><p>Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.</p><p>If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2a5dcb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2a5dcb0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c59711\" data-element_type=\"column\" data-id=\"1c59711\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-168aa04 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"168aa04\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7a5776e elementor-widget elementor-widget-gallery\" data-element_type=\"widget\" data-id=\"7a5776e\" data-settings='{\"columns\":3,\"lazyload\":\"yes\",\"gallery_layout\":\"grid\",\"columns_tablet\":2,\"columns_mobile\":1,\"gap\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_tablet\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_mobile\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"link_to\":\"file\",\"aspect_ratio\":\"3:2\",\"overlay_background\":\"yes\",\"content_hover_animation\":\"fade-in\"}' data-widget_type=\"gallery.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-gallery__container\">\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2NzQsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC8yMjQ5MjAyMF83MzE0ODI2MTM3MDc1MDVfNTYwODAzMjIwNTE3MzU0ODkxMF9uLmpwZyIsInNsaWRlc2hvdyI6IjdhNTc3NmUifQ%3D%3D\" data-elementor-lightbox-slideshow=\"7a5776e\" data-elementor-lightbox-title=\"22492020_731482613707505_5608032205173548910_n\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n-300x300.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2NzMsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC8zMDg2Mjk0OTVfNDAyNTI2NTAyMDU3MDk5XzE5NDYxMDU5MDE0NzgxNzQzOV9uLmpwZyIsInNsaWRlc2hvdyI6IjdhNTc3NmUifQ%3D%3D\" data-elementor-lightbox-slideshow=\"7a5776e\" data-elementor-lightbox-title=\"308629495_402526502057099_194610590147817439_n\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n-300x300.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2NzgsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC8yMjUxOTM2NV83MzE0ODIwMTcwNDA4OThfOTEyMjU0MTA3NDAxMjQ2NTk0M19uLmpwZyIsInNsaWRlc2hvdyI6IjdhNTc3NmUifQ%3D%3D\" data-elementor-lightbox-slideshow=\"7a5776e\" data-elementor-lightbox-title=\"22519365_731482017040898_9122541074012465943_n\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n-300x300.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6a5385c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6a5385c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bb28a50\" data-element_type=\"column\" data-id=\"bb28a50\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d576e60 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"d576e60\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-d16e837 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"d16e837\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Wellness Counselling Group - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-cd677d9 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"cd677d9\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b3d4f05 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b3d4f05\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-258fb83\" data-element_type=\"column\" data-id=\"258fb83\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-b8965c5 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"b8965c5\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-782227c\" data-element_type=\"column\" data-id=\"782227c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-274a39c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"274a39c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b572f61 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b572f61\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-25c8c61\" data-element_type=\"column\" data-id=\"25c8c61\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-95c1020 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"95c1020\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tWellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-680619b elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"680619b\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4593097 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4593097\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-d3cad93 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"d3cad93\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6f6abfe\" data-element_type=\"column\" data-id=\"6f6abfe\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-958b945 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"958b945\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-29028c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"29028c8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7dc0f35\" data-element_type=\"column\" data-id=\"7dc0f35\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d078990 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"d078990\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Wellness Counselling Group</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-8381ec5 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"8381ec5\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1371\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1371\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1371\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1371\" role=\"region\"><p>Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1372\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1372\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What type of therapies does Wellness Counselling Group offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1372\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1372\" role=\"region\"><p>Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1373\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1373\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the philosophy of Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1373\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1373\" role=\"region\"><p>The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1374\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1374\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of mental health challenges does Wellness Counselling Group treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1374\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1374\" role=\"region\"><p>Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1375\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1375\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the background of the therapists at Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1375\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1375\" role=\"region\"><p>Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1376\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1376\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What amenities are offered at Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1376\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1376\" role=\"region\"><p>Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1377\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1377\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How can Wellness Counselling Group help individuals struggling with mental health challenges?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1377\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1377\" role=\"region\"><p>The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1378\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"8\" id=\"elementor-tab-title-1378\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the first step towards seeking treatment at Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1378\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"8\" id=\"elementor-tab-content-1378\" role=\"region\"><p>The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(905) 338-3873",
+  "email": "info@wellnesscounselling.com",
+  "website": "http://www.wellnesscounselling.com/",
+  "address": "603 Argus Rd, Oakville, ON L6J 6G6, Canada",
+  "social": {},
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.",
+    "html": "Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.",
+    "html": "Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.",
+    "html": "Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.",
+    "html": "Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.",
+    "html": "If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "300"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "300"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "300"
+   },
+   {
+    "type": "h2",
+    "text": "Wellness Counselling Group - Center Overview",
+    "html": "Wellness Counselling Group - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.",
+    "html": "Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Wellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Wellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Wellness Counselling Group",
+  "faqs": [
+   {
+    "question": "What is Wellness Counselling Group?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+      "html": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment."
+   },
+   {
+    "question": "What type of therapies does Wellness Counselling Group offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+      "html": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation."
+   },
+   {
+    "question": "What is the philosophy of Wellness Counselling Group?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+      "html": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life."
+   },
+   {
+    "question": "What types of mental health challenges does Wellness Counselling Group treat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+      "html": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress."
+   },
+   {
+    "question": "What is the background of the therapists at Wellness Counselling Group?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+      "html": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being."
+   },
+   {
+    "question": "What amenities are offered at Wellness Counselling Group?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+      "html": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab."
+   },
+   {
+    "question": "How can Wellness Counselling Group help individuals struggling with mental health challenges?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+      "html": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life."
+   },
+   {
+    "question": "What is the first step towards seeking treatment at Wellness Counselling Group?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+      "html": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(905) 338-3873",
+  "phone_href": "tel:(905) 338-3873",
+  "website_text": "http://www.wellnesscounselling.com/",
+  "social_title": "",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What is Wellness Counselling Group?",
+   "answer_text": "Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.",
+   "answer_html": "<p>Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What type of therapies does Wellness Counselling Group offer?",
+   "answer_text": "Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.",
+   "answer_html": "<p>Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the philosophy of Wellness Counselling Group?",
+   "answer_text": "The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.",
+   "answer_html": "<p>The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of mental health challenges does Wellness Counselling Group treat?",
+   "answer_text": "Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.",
+   "answer_html": "<p>Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the background of the therapists at Wellness Counselling Group?",
+   "answer_text": "Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.",
+   "answer_html": "<p>Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What amenities are offered at Wellness Counselling Group?",
+   "answer_text": "Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.",
+   "answer_html": "<p>Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How can Wellness Counselling Group help individuals struggling with mental health challenges?",
+   "answer_text": "The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.",
+   "answer_html": "<p>The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the first step towards seeking treatment at Wellness Counselling Group?",
+   "answer_text": "The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.",
+   "answer_html": "<p>The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6852\" data-elementor-id=\"6852\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1cfb2c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1cfb2c9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6f1d6ba\" data-element_type=\"column\" data-id=\"6f1d6ba\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8d18e8c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"8d18e8c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a22e43f\" data-element_type=\"column\" data-id=\"a22e43f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-fdc535a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"fdc535a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Wellness Counselling Group is a top-rated private rehab center located in Oakville, Ontario, that specializes in the treatment of mental health. Their team of authentic, caring, and empowering therapists is committed to helping individuals achieve their full potential in life. They firmly believe in placing a high value on customer service, which they feel has been lost in the mental health field.</p><p>Wellness Counselling Group provides a range of therapies to help clients overcome their mental health challenges. These include evidence-based practices, individual therapy and counseling, family therapy and counseling, group therapy and counseling, nutritional counseling, art therapy, nature therapy, yoga, and meditation.</p><p>Their therapists are skilled, outgoing, and enthusiastic individuals who have a genuine interest in their clients’ well-being. They are passionate about helping individuals to live their best lives and will work tirelessly to help clients achieve their goals.</p><p>Whether you are seeking family services or outpatient drug rehab, Wellness Counselling Group has got you covered. They offer a variety of amenities and therapies to help you or your loved ones overcome mental health challenges and lead a fulfilling life.</p><p>If you or someone you know is struggling with mental health challenges, take the first step towards a better life by visiting Wellness Counselling Group’s website. Their team of caring and experienced therapists is ready to help you overcome your challenges and live your best life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2a5dcb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2a5dcb0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c59711\" data-element_type=\"column\" data-id=\"1c59711\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-168aa04 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"168aa04\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7a5776e elementor-widget elementor-widget-gallery\" data-element_type=\"widget\" data-id=\"7a5776e\" data-settings='{\"columns\":3,\"lazyload\":\"yes\",\"gallery_layout\":\"grid\",\"columns_tablet\":2,\"columns_mobile\":1,\"gap\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_tablet\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_mobile\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"link_to\":\"file\",\"aspect_ratio\":\"3:2\",\"overlay_background\":\"yes\",\"content_hover_animation\":\"fade-in\"}' data-widget_type=\"gallery.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-gallery__container\">\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2NzQsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC8yMjQ5MjAyMF83MzE0ODI2MTM3MDc1MDVfNTYwODAzMjIwNTE3MzU0ODkxMF9uLmpwZyIsInNsaWRlc2hvdyI6IjdhNTc3NmUifQ%3D%3D\" data-elementor-lightbox-slideshow=\"7a5776e\" data-elementor-lightbox-title=\"22492020_731482613707505_5608032205173548910_n\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22492020_731482613707505_5608032205173548910_n-300x300.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2NzMsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC8zMDg2Mjk0OTVfNDAyNTI2NTAyMDU3MDk5XzE5NDYxMDU5MDE0NzgxNzQzOV9uLmpwZyIsInNsaWRlc2hvdyI6IjdhNTc3NmUifQ%3D%3D\" data-elementor-lightbox-slideshow=\"7a5776e\" data-elementor-lightbox-title=\"308629495_402526502057099_194610590147817439_n\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/308629495_402526502057099_194610590147817439_n-300x300.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ2NzgsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC8yMjUxOTM2NV83MzE0ODIwMTcwNDA4OThfOTEyMjU0MTA3NDAxMjQ2NTk0M19uLmpwZyIsInNsaWRlc2hvdyI6IjdhNTc3NmUifQ%3D%3D\" data-elementor-lightbox-slideshow=\"7a5776e\" data-elementor-lightbox-title=\"22519365_731482017040898_9122541074012465943_n\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/22519365_731482017040898_9122541074012465943_n-300x300.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6a5385c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6a5385c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bb28a50\" data-element_type=\"column\" data-id=\"bb28a50\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d576e60 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"d576e60\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-d16e837 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"d16e837\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Wellness Counselling Group - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-cd677d9 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"cd677d9\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Wellness Counselling Group is a private rehab center based in Oakville, Ontario, that specializes in mental health treatment. Their team of authentic, caring, and empowering therapists provide evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation to help clients achieve their full potential in life. They place high value on customer service and have a passion for helping individuals live their best lives. Whether seeking family services or outpatient drug rehab, their range of amenities and therapies can help clients overcome mental health challenges and lead a fulfilling life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b3d4f05 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b3d4f05\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-258fb83\" data-element_type=\"column\" data-id=\"258fb83\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-b8965c5 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"b8965c5\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-782227c\" data-element_type=\"column\" data-id=\"782227c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-274a39c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"274a39c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b572f61 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b572f61\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-25c8c61\" data-element_type=\"column\" data-id=\"25c8c61\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-95c1020 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"95c1020\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tWellness Counselling Group has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-680619b elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"680619b\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4593097 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4593097\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-d3cad93 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"d3cad93\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6f6abfe\" data-element_type=\"column\" data-id=\"6f6abfe\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-958b945 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"958b945\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-29028c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"29028c8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7dc0f35\" data-element_type=\"column\" data-id=\"7dc0f35\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d078990 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"d078990\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Wellness Counselling Group</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-8381ec5 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"8381ec5\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1371\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1371\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1371\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1371\" role=\"region\"><p>Wellness Counselling Group is a private rehab center located in Oakville, Ontario that specializes in mental health treatment.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1372\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1372\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What type of therapies does Wellness Counselling Group offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1372\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1372\" role=\"region\"><p>Wellness Counselling Group offers evidence-based practices, individual and family therapy, group therapy, and counseling, nutritional counseling, art and nature therapy, yoga, and meditation.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1373\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1373\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the philosophy of Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1373\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1373\" role=\"region\"><p>The team at Wellness Counselling Group believes in providing authentic, caring, and empowering therapies that help clients achieve their full potential in life.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1374\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1374\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of mental health challenges does Wellness Counselling Group treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1374\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1374\" role=\"region\"><p>Wellness Counselling Group treats a range of mental health challenges, including depression, anxiety, addiction, trauma, and stress.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1375\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1375\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the background of the therapists at Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1375\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1375\" role=\"region\"><p>Therapists at Wellness Counselling Group are skilled, outgoing, enthusiastic individuals with a genuine interest in their clients’ well-being.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1376\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1376\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What amenities are offered at Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1376\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1376\" role=\"region\"><p>Wellness Counselling Group offers a range of amenities, including family services and outpatient drug rehab.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1377\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1377\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How can Wellness Counselling Group help individuals struggling with mental health challenges?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1377\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1377\" role=\"region\"><p>The therapies and services offered at Wellness Counselling Group can help individuals overcome mental health challenges and lead a fulfilling life.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1378\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"8\" id=\"elementor-tab-title-1378\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the first step towards seeking treatment at Wellness Counselling Group?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1378\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"8\" id=\"elementor-tab-content-1378\" role=\"region\"><p>The first step towards seeking treatment at Wellness Counselling Group is to visit their website and explore the range of therapies and services they offer.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(905) 338-3873\" itemprop=\"url\">(905) 338-3873</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@wellnesscounselling.com\" itemprop=\"url\">info@wellnesscounselling.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.wellnesscounselling.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.wellnesscounselling.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    603 Argus Rd, Oakville, ON L6J 6G6, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

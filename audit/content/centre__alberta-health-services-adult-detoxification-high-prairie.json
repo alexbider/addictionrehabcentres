@@ -1,0 +1,926 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__alberta-health-services-adult-detoxification-high-prairie",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+  "path": "/alberta-health-services-adult-detoxification-high-prairie/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/alberta-health-services-adult-detoxification-high-prairie/",
+ "seo": {
+  "meta_title": "Adult Detoxification High Prairie - Alberta Health Services",
+  "meta_description": "Improve your health and detoxify, Adult Detoxification High Prairie offers a program for you. Learn more about this Alberta Health Services detoxification",
+  "canonical_source": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+  "og": {
+   "title": "Adult Detoxification High Prairie - Alberta Health Services",
+   "description": "Improve your health and detoxify, Adult Detoxification High Prairie offers a program for you. Learn more about this Alberta Health Services detoxification",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+      "url": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+      "name": "Adult Detoxification High Prairie - Alberta Health Services",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+      "datePublished": "2021-09-28T15:44:19+00:00",
+      "dateModified": "2022-09-22T14:36:07+00:00",
+      "description": "Improve your health and detoxify, Adult Detoxification High Prairie offers a program for you. Learn more about this Alberta Health Services detoxification",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "Clsc Alberta Health Services"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Alberta Health Services – Adult Detoxification High Prairie"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 239,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "About Adult Detoxification High Prairie"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+   "local_path": "images/_shared/Rehabs-01.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+   "local_path": "images/_shared/Rehabs-02.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+   "local_path": "images/_shared/Rehabs-03.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://en.wikipedia.org/wiki/Detoxification",
+   "text": "Detoxification",
+   "kind": "external",
+   "new": "https://en.wikipedia.org/wiki/Detoxification"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/alberta-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/alberta-rehabs/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "tel:(780) 523-3372",
+   "text": "(780) 523-3372",
+   "kind": "tel",
+   "new": "tel:(780) 523-3372"
+  },
+  {
+   "old_href": "mailto:mitaa@telusplanet.net",
+   "text": "mitaa@telusplanet.net",
+   "kind": "mailto",
+   "new": "mailto:mitaa@telusplanet.net"
+  },
+  {
+   "old_href": "http://www.albertahealthservices.ca/",
+   "text": "http://www.albertahealthservices.ca/",
+   "kind": "external",
+   "new": "http://www.albertahealthservices.ca/"
+  },
+  {
+   "old_href": "https://www.facebook.com/pages/Alberta-Health-Services/179579998746821",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/pages/Alberta-Health-Services/179579998746821"
+  },
+  {
+   "old_href": "https://www.twitter.com/ahs_behealthy",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.twitter.com/ahs_behealthy"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 2,
+   "heading": "About Adult Detoxification High Prairie",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.",
+     "html": "Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.",
+     "html": "The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!",
+     "html": "If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "A 24/7 Adult Detoxification service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.",
+     "html": "A 24/7 Adult <a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Detoxification\" rel=\"noopener external noreferrer\" target=\"_blank\">Detoxification</a> service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.",
+     "links": [
+      {
+       "old": "https://en.wikipedia.org/wiki/Detoxification",
+       "text": "Detoxification"
+      }
+     ],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        },
+        {
+         "text": "Outpatient Drug Rehab",
+         "html": "Outpatient Drug Rehab",
+         "links": []
+        },
+        {
+         "text": "Assessment",
+         "html": "Assessment",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Looking for more Adult Detoxification High Prairie Alberta? Click here",
+       "html": "Looking for more Adult Detoxification High Prairie Alberta? Click <a data-wpel-link=\"internal\" href=\"/alberta-rehabs/\">here</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/alberta-rehabs/",
+         "text": "here"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "(780) 523-3372",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(780) 523-3372\" itemprop=\"url\">(780) 523-3372</a>",
+       "links": [
+        {
+         "old": "tel:(780) 523-3372",
+         "text": "(780) 523-3372"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "mitaa@telusplanet.net",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:mitaa@telusplanet.net\" itemprop=\"url\">mitaa@telusplanet.net</a>",
+       "links": [
+        {
+         "old": "mailto:mitaa@telusplanet.net",
+         "text": "mitaa@telusplanet.net"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "http://www.albertahealthservices.ca/",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.albertahealthservices.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.albertahealthservices.ca/</a>",
+       "links": [
+        {
+         "old": "http://www.albertahealthservices.ca/",
+         "text": "http://www.albertahealthservices.ca/"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "Social",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "About Adult Detoxification High Prairie",
+   "html": "<strong>About</strong> Adult Detoxification High Prairie",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.",
+   "html": "Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.",
+   "html": "The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!",
+   "html": "If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A 24/7 Adult Detoxification service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.",
+   "html": "A 24/7 Adult <a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Detoxification\" rel=\"noopener external noreferrer\" target=\"_blank\">Detoxification</a> service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.",
+   "links": [
+    {
+     "old": "https://en.wikipedia.org/wiki/Detoxification",
+     "text": "Detoxification"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    },
+    {
+     "text": "Outpatient Drug Rehab",
+     "html": "Outpatient Drug Rehab",
+     "links": []
+    },
+    {
+     "text": "Assessment",
+     "html": "Assessment",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Looking for more Adult Detoxification High Prairie Alberta? Click here",
+   "html": "Looking for more Adult Detoxification High Prairie Alberta? Click <a data-wpel-link=\"internal\" href=\"/alberta-rehabs/\">here</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/alberta-rehabs/",
+     "text": "here"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "(780) 523-3372",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(780) 523-3372\" itemprop=\"url\">(780) 523-3372</a>",
+   "links": [
+    {
+     "old": "tel:(780) 523-3372",
+     "text": "(780) 523-3372"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "mitaa@telusplanet.net",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:mitaa@telusplanet.net\" itemprop=\"url\">mitaa@telusplanet.net</a>",
+   "links": [
+    {
+     "old": "mailto:mitaa@telusplanet.net",
+     "text": "mitaa@telusplanet.net"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.albertahealthservices.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.albertahealthservices.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.albertahealthservices.ca/</a>",
+   "links": [
+    {
+     "old": "http://www.albertahealthservices.ca/",
+     "text": "http://www.albertahealthservices.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Alberta Health Services – Adult Detoxification High Prairie",
+  "categories": [
+   "Alberta Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h2><strong>About</strong> Adult Detoxification High Prairie</h2>\n<p>Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.</p>\n<p>The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.</p>\n<p>If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!</p>\n<p>A 24/7 Adult <a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Detoxification\" rel=\"noopener external noreferrer\" target=\"_blank\">Detoxification</a> service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n<li>Outpatient Drug Rehab</li>\n<li>Assessment</li>\n</ul>\n</div>\n<div class=\"allamenities\"></div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n<p>Looking for more Adult Detoxification High Prairie Alberta? Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alberta-rehabs/\">here</a></p>",
+  "specialties": [
+   "Substance Abuse Treatmental",
+   "Outpatient Drug Rehab",
+   "Assessment"
+  ],
+  "amenities": [],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(780) 523-3372",
+  "email": "mitaa@telusplanet.net",
+  "website": "http://www.albertahealthservices.ca/",
+  "address": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/pages/Alberta-Health-Services/179579998746821",
+   "twitter": "https://www.twitter.com/ahs_behealthy"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h2",
+    "text": "About Adult Detoxification High Prairie",
+    "html": "<strong>About</strong> Adult Detoxification High Prairie",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.",
+    "html": "Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.",
+    "html": "The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!",
+    "html": "If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "A 24/7 Adult Detoxification service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.",
+    "html": "A 24/7 Adult <a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Detoxification\" rel=\"noopener external noreferrer\" target=\"_blank\">Detoxification</a> service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.",
+    "links": [
+     {
+      "old": "https://en.wikipedia.org/wiki/Detoxification",
+      "text": "Detoxification"
+     }
+    ],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Looking for more Adult Detoxification High Prairie Alberta? Click here",
+    "html": "Looking for more Adult Detoxification High Prairie Alberta? Click <a data-wpel-link=\"internal\" href=\"/alberta-rehabs/\">here</a>",
+    "links": [
+     {
+      "old": "https://addictionrehabcenters.ca/alberta-rehabs/",
+      "text": "here"
+     }
+    ],
+    "images": []
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [
+     "Substance Abuse Treatmental",
+     "Outpatient Drug Rehab",
+     "Assessment"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(780) 523-3372",
+  "phone_href": "tel:(780) 523-3372",
+  "website_text": "http://www.albertahealthservices.ca/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h2><strong>About</strong> Adult Detoxification High Prairie</h2>\n<p>Alberta Health Services (AHS) offers a variety of services to help residents improve their health and quality of life. One such service is Adult Detoxification High Prairie, which helps individuals who are struggling with drug and alcohol addictions detoxify safely and effectively.</p>\n<p>The Adult Detoxification program consists of eight weekly sessions that take place over a period of two weeks. During the sessions, participants will receive individualized care tailored to their specific needs. They will also be supervised by licensed professionals throughout the process, so they can remain safe and secure while undergoing treatment.</p>\n<p>If you’re looking for an effective way to get clean and sober, then Adult Detocition High Prairie may be the right option for you!</p>\n<p>A 24/7 Adult <a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Detoxification\" rel=\"noopener external noreferrer\" target=\"_blank\">Detoxification</a> service that helps people detoxifying from alcohol and other drugs in a safe, controlled setting. Services may include: withdrawal support assessment information sessions introduction to self-help groups addiction treatment planning discharge planning referral Admission is voluntary, confidential, and must be initiated by the client. Stop struggling with drug or alcohol addiction, Get in contact with Alberta Health Services for more information about the Adult Detoxification High Prairie program.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n<li>Outpatient Drug Rehab</li>\n<li>Assessment</li>\n</ul>\n</div>\n<div class=\"allamenities\"></div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n<p>Looking for more Adult Detoxification High Prairie Alberta? Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alberta-rehabs/\">here</a></p>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(780) 523-3372\" itemprop=\"url\">(780) 523-3372</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:mitaa@telusplanet.net\" itemprop=\"url\">mitaa@telusplanet.net</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.albertahealthservices.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.albertahealthservices.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    5409 47 St NW, Edmonton, AB T6L 6J5, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/pages/Alberta-Health-Services/179579998746821\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://www.twitter.com/ahs_behealthy\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

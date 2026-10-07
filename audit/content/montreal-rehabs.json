@@ -1,0 +1,1630 @@
+{
+ "schema": "arc-content/1",
+ "slug": "montreal-rehabs",
+ "status": "REMAINING",
+ "page_type": "city",
+ "wp_type": "page",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "P1-P5,A1",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/montreal-rehabs/",
+  "path": "/montreal-rehabs/",
+  "wp_items": [
+   {
+    "id": 16859,
+    "type": "page",
+    "title": "Montreal Rehabs",
+    "date": "2025-05-31T05:53:57",
+    "modified": "2025-05-31T06:01:12",
+    "status": "publish",
+    "yoast_title": "Addiction Rehabs Montreal | Best Rehab Centres in Montreal",
+    "words_rest": 835
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/montreal-rehabs/",
+ "seo": {
+  "meta_title": "Addiction Rehabs Montreal | Best Rehab Centres in Montreal",
+  "meta_description": "Browse the Best Private Addiction Rehabs in Montreal with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Montreal Rehab Centres.",
+  "canonical_source": "https://addictionrehabcenters.ca/montreal-rehabs/",
+  "og": {
+   "title": "Addiction Rehabs Montreal | Best Rehab Centres in Montreal",
+   "description": "Browse the best private addiction rehabs in Montreal with reviews, locations, and phone numbers. Call 1-855-885-4747 to reach Montreal rehab centres.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Addiction-rehabs-montreal.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/montreal-rehabs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Montreal Rehabs",
+      "datePublished": "2025-05-31T05:53:57+00:00",
+      "dateModified": "2025-05-31T06:01:12+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/montreal-rehabs/"
+      },
+      "wordCount": 808,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Addiction-rehabs-montreal.jpg",
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/montreal-rehabs/",
+      "url": "https://addictionrehabcenters.ca/montreal-rehabs/",
+      "name": "Addiction Rehabs Montreal | Best Rehab Centres in Montreal",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Addiction-rehabs-montreal.jpg",
+      "datePublished": "2025-05-31T05:53:57+00:00",
+      "dateModified": "2025-05-31T06:01:12+00:00",
+      "description": "Browse the Best Private Addiction Rehabs in Montreal with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Montreal Rehab Centres.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/montreal-rehabs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Addiction-rehabs-montreal.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Addiction-rehabs-montreal.jpg",
+      "width": 800,
+      "height": 534,
+      "caption": "addiction rehabs montreal"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/montreal-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Montreal Rehabs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Addiction Rehabs Montreal",
+ "title_bar_h1": "Montreal Rehabs",
+ "word_count": 705,
+ "features": [
+  "listing-cards:6"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Addiction Rehabs Montreal"
+  ],
+  [
+   "h2",
+   "Best Rehab Centres in Montreal"
+  ],
+  [
+   "h5",
+   "Heritage Treatment Foundation"
+  ],
+  [
+   "h5",
+   "Andy’s House"
+  ],
+  [
+   "h5",
+   "Clinique Nouveau Départ"
+  ],
+  [
+   "h5",
+   "Chatsworth"
+  ],
+  [
+   "h5",
+   "Life Science Addiction Treatment"
+  ],
+  [
+   "h5",
+   "Milestone House"
+  ],
+  [
+   "h2",
+   "Addiction Treatment Centres in Montreal, Quebec"
+  ],
+  [
+   "h2",
+   "Finding the Right Addiction Support in Montreal"
+  ],
+  [
+   "h2",
+   "Drug and Alcohol Rehab in Montreal"
+  ],
+  [
+   "h3",
+   "Inpatient vs. Outpatient Treatment"
+  ],
+  [
+   "h2",
+   "Alcohol Rehab in Montreal"
+  ],
+  [
+   "h2",
+   "Detox Clinics in Montreal and Quebec"
+  ],
+  [
+   "h3",
+   "Types of Detox Services in Montreal:"
+  ],
+  [
+   "h2",
+   "Specialized Rehab Centres in Montreal"
+  ],
+  [
+   "h2",
+   "Local Search: “Detox Centres Near Me” in Montreal"
+  ],
+  [
+   "h2",
+   "Final Thoughts: Start Your Recovery Journey in Montreal Today"
+  ]
+ ],
+ "images": [],
+ "links": [],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Addiction Rehabs Montreal",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Best Rehab Centres in Montreal",
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/heritage-treatment-foundation/",
+        "https://addictionrehabcenters.ca/andys-house/",
+        "https://addictionrehabcenters.ca/clinique-nouveau-depart/",
+        "https://addictionrehabcenters.ca/chatsworth/",
+        "https://addictionrehabcenters.ca/life-science-addiction-treatment/",
+        "https://addictionrehabcenters.ca/milestone-house/"
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Addiction Treatment Centres in Montreal, Quebec",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Looking for trusted addiction treatment centres in Montreal, Quebec? Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.",
+       "html": "<span class=\"s1\"><b>Looking for trusted addiction treatment centres in Montreal, Quebec?</b></span> Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.",
+       "html": "Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Finding the Right Addiction Support in Montreal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, addiction treatment centres in Montreal are equipped to help people take back control of their lives.",
+       "html": "Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, <span class=\"s1\"><b>addiction treatment centres in Montreal</b></span> are equipped to help people take back control of their lives.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Services available at these facilities typically include:",
+       "html": "Services available at these facilities typically include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Drug rehab and alcohol rehab programs",
+         "html": "<b>Drug rehab and alcohol rehab programs</b>",
+         "links": []
+        },
+        {
+         "text": "Medically supervised detox clinics",
+         "html": "<b>Medically supervised detox clinics</b>",
+         "links": []
+        },
+        {
+         "text": "Inpatient and outpatient recovery plans",
+         "html": "<b>Inpatient and outpatient recovery plans</b>",
+         "links": []
+        },
+        {
+         "text": "Mental health and addiction counselling",
+         "html": "<b>Mental health and addiction counselling</b>",
+         "links": []
+        },
+        {
+         "text": "Support groups and aftercare planning",
+         "html": "<b>Support groups and aftercare planning</b>",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.",
+       "html": "Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Drug and Alcohol Rehab in Montreal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug rehab in Montreal and alcohol rehab in Montreal remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.",
+       "html": "<span class=\"s1\"><b>Drug rehab in Montreal</b></span> and <span class=\"s1\"><b>alcohol rehab in Montreal</b></span> remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Inpatient vs. Outpatient Treatment",
+       "blocks": [
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Inpatient rehab offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.",
+           "html": "<span class=\"s1\"><b>Inpatient rehab</b></span> offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.",
+           "links": []
+          },
+          {
+           "text": "Outpatient rehab allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.",
+           "html": "<span class=\"s1\"><b>Outpatient rehab</b></span> allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.",
+         "html": "Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "heading": "Alcohol Rehab in Montreal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Alcohol addiction continues to impact many families across Quebec. Specialized alcohol rehab centres in Montreal offer targeted therapies, including:",
+       "html": "<span class=\"s1\"><b>Alcohol addiction</b></span> continues to impact many families across Quebec. Specialized <span class=\"s1\"><b>alcohol rehab centres in Montreal</b></span> offer targeted therapies, including:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Medically assisted detoxification",
+         "html": "Medically assisted detoxification",
+         "links": []
+        },
+        {
+         "text": "Individual and group counselling",
+         "html": "Individual and group counselling",
+         "links": []
+        },
+        {
+         "text": "Family therapy and relapse prevention strategies",
+         "html": "Family therapy and relapse prevention strategies",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "For individuals dealing with co-occurring disorders like anxiety or depression, many Montreal-based rehab facilities also provide dual-diagnosis care, ensuring a more holistic treatment approach.",
+       "html": "For individuals dealing with <span class=\"s1\"><b>co-occurring disorders</b></span> like anxiety or depression, many Montreal-based rehab facilities also provide <span class=\"s1\"><b>dual-diagnosis care</b></span>, ensuring a more holistic treatment approach.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Detox Clinics in Montreal and Quebec",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Detox is often the first and most crucial step toward recovery. Detox clinics in Montreal provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.",
+       "html": "Detox is often the first and most crucial step toward recovery. <span class=\"s1\"><b>Detox clinics in Montreal</b></span> provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Types of Detox Services in Montreal:",
+       "blocks": [
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Medical detox: Administered under a physician’s care, this approach uses medications to ease withdrawal.",
+           "html": "<span class=\"s1\"><b>Medical detox</b></span>: Administered under a physician’s care, this approach uses medications to ease withdrawal.",
+           "links": []
+          },
+          {
+           "text": "Social detox: Focuses on emotional support, often within a community-based setting.",
+           "html": "<span class=\"s1\"><b>Social detox</b></span>: Focuses on emotional support, often within a community-based setting.",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.",
+         "html": "Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "heading": "Specialized Rehab Centres in Montreal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:",
+       "html": "Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Adolescents and young adults",
+         "html": "Adolescents and young adults",
+         "links": []
+        },
+        {
+         "text": "LGBTQ+ individuals",
+         "html": "LGBTQ+ individuals",
+         "links": []
+        },
+        {
+         "text": "People with trauma-related addiction issues",
+         "html": "People with trauma-related addiction issues",
+         "links": []
+        },
+        {
+         "text": "Clients seeking private addiction treatment in Quebec",
+         "html": "<span class=\"s1\">Clients seeking </span><b>private addiction treatment in Quebec</b>",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "From culturally sensitive support to bilingual services in both English and French, these Montreal addiction treatment centres aim to make every patient feel safe and respected.",
+       "html": "From culturally sensitive support to bilingual services in both English and French, these <span class=\"s1\"><b>Montreal addiction treatment centres</b></span> aim to make every patient feel safe and respected.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Local Search: “Detox Centres Near Me” in Montreal",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Searching for “detox centres near me in Montreal”? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.",
+       "html": "Searching for <span class=\"s1\"><b>“detox centres near me in Montreal”</b></span>? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Detox centres near you also typically offer follow-up services like:",
+       "html": "Detox centres near you also typically offer follow-up services like:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Peer-led support groups",
+         "html": "Peer-led support groups",
+         "links": []
+        },
+        {
+         "text": "Cognitive-behavioral therapy (CBT)",
+         "html": "Cognitive-behavioral therapy (CBT)",
+         "links": []
+        },
+        {
+         "text": "Long-term recovery planning",
+         "html": "Long-term recovery planning",
+         "links": []
+        },
+        {
+         "text": "Integration with mental health care providers",
+         "html": "Integration with mental health care providers",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Final Thoughts: Start Your Recovery Journey in Montreal Today",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Choosing the right addiction treatment centre in Montreal is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.",
+       "html": "Choosing the right <span class=\"s1\"><b>addiction treatment centre in Montreal</b></span> is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.",
+       "html": "Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Addiction Rehabs Montreal",
+   "html": "Addiction Rehabs Montreal",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "Best Rehab Centres in Montreal",
+   "html": "Best Rehab Centres in Montreal",
+   "id": ""
+  },
+  {
+   "type": "cards",
+   "hrefs": [
+    "https://addictionrehabcenters.ca/heritage-treatment-foundation/",
+    "https://addictionrehabcenters.ca/andys-house/",
+    "https://addictionrehabcenters.ca/clinique-nouveau-depart/",
+    "https://addictionrehabcenters.ca/chatsworth/",
+    "https://addictionrehabcenters.ca/life-science-addiction-treatment/",
+    "https://addictionrehabcenters.ca/milestone-house/"
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Addiction Treatment Centres in Montreal, Quebec",
+   "html": "<b>Addiction Treatment Centres in Montreal, Quebec</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Looking for trusted addiction treatment centres in Montreal, Quebec? Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.",
+   "html": "<span class=\"s1\"><b>Looking for trusted addiction treatment centres in Montreal, Quebec?</b></span> Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.",
+   "html": "Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Finding the Right Addiction Support in Montreal",
+   "html": "<b>Finding the Right Addiction Support in Montreal</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, addiction treatment centres in Montreal are equipped to help people take back control of their lives.",
+   "html": "Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, <span class=\"s1\"><b>addiction treatment centres in Montreal</b></span> are equipped to help people take back control of their lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Services available at these facilities typically include:",
+   "html": "Services available at these facilities typically include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Drug rehab and alcohol rehab programs",
+     "html": "<b>Drug rehab and alcohol rehab programs</b>",
+     "links": []
+    },
+    {
+     "text": "Medically supervised detox clinics",
+     "html": "<b>Medically supervised detox clinics</b>",
+     "links": []
+    },
+    {
+     "text": "Inpatient and outpatient recovery plans",
+     "html": "<b>Inpatient and outpatient recovery plans</b>",
+     "links": []
+    },
+    {
+     "text": "Mental health and addiction counselling",
+     "html": "<b>Mental health and addiction counselling</b>",
+     "links": []
+    },
+    {
+     "text": "Support groups and aftercare planning",
+     "html": "<b>Support groups and aftercare planning</b>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.",
+   "html": "Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Drug and Alcohol Rehab in Montreal",
+   "html": "<b>Drug and Alcohol Rehab in Montreal</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug rehab in Montreal and alcohol rehab in Montreal remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.",
+   "html": "<span class=\"s1\"><b>Drug rehab in Montreal</b></span> and <span class=\"s1\"><b>alcohol rehab in Montreal</b></span> remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Inpatient vs. Outpatient Treatment",
+   "html": "<b>Inpatient vs. Outpatient Treatment</b>",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Inpatient rehab offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.",
+     "html": "<span class=\"s1\"><b>Inpatient rehab</b></span> offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.",
+     "links": []
+    },
+    {
+     "text": "Outpatient rehab allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.",
+     "html": "<span class=\"s1\"><b>Outpatient rehab</b></span> allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.",
+   "html": "Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Alcohol Rehab in Montreal",
+   "html": "<b>Alcohol Rehab in Montreal</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Alcohol addiction continues to impact many families across Quebec. Specialized alcohol rehab centres in Montreal offer targeted therapies, including:",
+   "html": "<span class=\"s1\"><b>Alcohol addiction</b></span> continues to impact many families across Quebec. Specialized <span class=\"s1\"><b>alcohol rehab centres in Montreal</b></span> offer targeted therapies, including:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Medically assisted detoxification",
+     "html": "Medically assisted detoxification",
+     "links": []
+    },
+    {
+     "text": "Individual and group counselling",
+     "html": "Individual and group counselling",
+     "links": []
+    },
+    {
+     "text": "Family therapy and relapse prevention strategies",
+     "html": "Family therapy and relapse prevention strategies",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "For individuals dealing with co-occurring disorders like anxiety or depression, many Montreal-based rehab facilities also provide dual-diagnosis care, ensuring a more holistic treatment approach.",
+   "html": "For individuals dealing with <span class=\"s1\"><b>co-occurring disorders</b></span> like anxiety or depression, many Montreal-based rehab facilities also provide <span class=\"s1\"><b>dual-diagnosis care</b></span>, ensuring a more holistic treatment approach.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Detox Clinics in Montreal and Quebec",
+   "html": "<b>Detox Clinics in Montreal and Quebec</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Detox is often the first and most crucial step toward recovery. Detox clinics in Montreal provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.",
+   "html": "Detox is often the first and most crucial step toward recovery. <span class=\"s1\"><b>Detox clinics in Montreal</b></span> provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Types of Detox Services in Montreal:",
+   "html": "<b>Types of Detox Services in Montreal:</b>",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Medical detox: Administered under a physician’s care, this approach uses medications to ease withdrawal.",
+     "html": "<span class=\"s1\"><b>Medical detox</b></span>: Administered under a physician’s care, this approach uses medications to ease withdrawal.",
+     "links": []
+    },
+    {
+     "text": "Social detox: Focuses on emotional support, often within a community-based setting.",
+     "html": "<span class=\"s1\"><b>Social detox</b></span>: Focuses on emotional support, often within a community-based setting.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.",
+   "html": "Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Specialized Rehab Centres in Montreal",
+   "html": "<b>Specialized Rehab Centres in Montreal</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:",
+   "html": "Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Adolescents and young adults",
+     "html": "Adolescents and young adults",
+     "links": []
+    },
+    {
+     "text": "LGBTQ+ individuals",
+     "html": "LGBTQ+ individuals",
+     "links": []
+    },
+    {
+     "text": "People with trauma-related addiction issues",
+     "html": "People with trauma-related addiction issues",
+     "links": []
+    },
+    {
+     "text": "Clients seeking private addiction treatment in Quebec",
+     "html": "<span class=\"s1\">Clients seeking </span><b>private addiction treatment in Quebec</b>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "From culturally sensitive support to bilingual services in both English and French, these Montreal addiction treatment centres aim to make every patient feel safe and respected.",
+   "html": "From culturally sensitive support to bilingual services in both English and French, these <span class=\"s1\"><b>Montreal addiction treatment centres</b></span> aim to make every patient feel safe and respected.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Local Search: “Detox Centres Near Me” in Montreal",
+   "html": "<b>Local Search: “Detox Centres Near Me” in Montreal</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Searching for “detox centres near me in Montreal”? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.",
+   "html": "Searching for <span class=\"s1\"><b>“detox centres near me in Montreal”</b></span>? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Detox centres near you also typically offer follow-up services like:",
+   "html": "Detox centres near you also typically offer follow-up services like:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Peer-led support groups",
+     "html": "Peer-led support groups",
+     "links": []
+    },
+    {
+     "text": "Cognitive-behavioral therapy (CBT)",
+     "html": "Cognitive-behavioral therapy (CBT)",
+     "links": []
+    },
+    {
+     "text": "Long-term recovery planning",
+     "html": "Long-term recovery planning",
+     "links": []
+    },
+    {
+     "text": "Integration with mental health care providers",
+     "html": "Integration with mental health care providers",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Final Thoughts: Start Your Recovery Journey in Montreal Today",
+   "html": "<b>Final Thoughts: Start Your Recovery Journey in Montreal Today</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Choosing the right addiction treatment centre in Montreal is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.",
+   "html": "Choosing the right <span class=\"s1\"><b>addiction treatment centre in Montreal</b></span> is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.",
+   "html": "Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.",
+   "links": [],
+   "images": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "listing-banner",
+   "classes": [
+    "innerBanner"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Addiction Rehabs Montreal",
+       "html": "Addiction Rehabs Montreal",
+       "id": ""
+      },
+      {
+       "type": "h2",
+       "text": "Best Rehab Centres in Montreal",
+       "html": "Best Rehab Centres in Montreal",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "listing",
+   "classes": [
+    "innerListingBox"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/heritage-treatment-foundation/",
+        "https://addictionrehabcenters.ca/andys-house/",
+        "https://addictionrehabcenters.ca/clinique-nouveau-depart/",
+        "https://addictionrehabcenters.ca/chatsworth/",
+        "https://addictionrehabcenters.ca/life-science-addiction-treatment/",
+        "https://addictionrehabcenters.ca/milestone-house/"
+       ]
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Addiction Treatment Centres in Montreal, Quebec",
+       "html": "<b>Addiction Treatment Centres in Montreal, Quebec</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Looking for trusted addiction treatment centres in Montreal, Quebec? Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.",
+       "html": "<span class=\"s1\"><b>Looking for trusted addiction treatment centres in Montreal, Quebec?</b></span> Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.",
+       "html": "Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Finding the Right Addiction Support in Montreal",
+       "html": "<b>Finding the Right Addiction Support in Montreal</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, addiction treatment centres in Montreal are equipped to help people take back control of their lives.",
+       "html": "Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, <span class=\"s1\"><b>addiction treatment centres in Montreal</b></span> are equipped to help people take back control of their lives.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Services available at these facilities typically include:",
+       "html": "Services available at these facilities typically include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Drug rehab and alcohol rehab programs",
+         "html": "<b>Drug rehab and alcohol rehab programs</b>",
+         "links": []
+        },
+        {
+         "text": "Medically supervised detox clinics",
+         "html": "<b>Medically supervised detox clinics</b>",
+         "links": []
+        },
+        {
+         "text": "Inpatient and outpatient recovery plans",
+         "html": "<b>Inpatient and outpatient recovery plans</b>",
+         "links": []
+        },
+        {
+         "text": "Mental health and addiction counselling",
+         "html": "<b>Mental health and addiction counselling</b>",
+         "links": []
+        },
+        {
+         "text": "Support groups and aftercare planning",
+         "html": "<b>Support groups and aftercare planning</b>",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.",
+       "html": "Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Drug and Alcohol Rehab in Montreal",
+       "html": "<b>Drug and Alcohol Rehab in Montreal</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Drug rehab in Montreal and alcohol rehab in Montreal remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.",
+       "html": "<span class=\"s1\"><b>Drug rehab in Montreal</b></span> and <span class=\"s1\"><b>alcohol rehab in Montreal</b></span> remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h3",
+       "text": "Inpatient vs. Outpatient Treatment",
+       "html": "<b>Inpatient vs. Outpatient Treatment</b>",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Inpatient rehab offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.",
+         "html": "<span class=\"s1\"><b>Inpatient rehab</b></span> offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.",
+         "links": []
+        },
+        {
+         "text": "Outpatient rehab allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.",
+         "html": "<span class=\"s1\"><b>Outpatient rehab</b></span> allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.",
+       "html": "Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Alcohol Rehab in Montreal",
+       "html": "<b>Alcohol Rehab in Montreal</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Alcohol addiction continues to impact many families across Quebec. Specialized alcohol rehab centres in Montreal offer targeted therapies, including:",
+       "html": "<span class=\"s1\"><b>Alcohol addiction</b></span> continues to impact many families across Quebec. Specialized <span class=\"s1\"><b>alcohol rehab centres in Montreal</b></span> offer targeted therapies, including:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Medically assisted detoxification",
+         "html": "Medically assisted detoxification",
+         "links": []
+        },
+        {
+         "text": "Individual and group counselling",
+         "html": "Individual and group counselling",
+         "links": []
+        },
+        {
+         "text": "Family therapy and relapse prevention strategies",
+         "html": "Family therapy and relapse prevention strategies",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "For individuals dealing with co-occurring disorders like anxiety or depression, many Montreal-based rehab facilities also provide dual-diagnosis care, ensuring a more holistic treatment approach.",
+       "html": "For individuals dealing with <span class=\"s1\"><b>co-occurring disorders</b></span> like anxiety or depression, many Montreal-based rehab facilities also provide <span class=\"s1\"><b>dual-diagnosis care</b></span>, ensuring a more holistic treatment approach.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Detox Clinics in Montreal and Quebec",
+       "html": "<b>Detox Clinics in Montreal and Quebec</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Detox is often the first and most crucial step toward recovery. Detox clinics in Montreal provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.",
+       "html": "Detox is often the first and most crucial step toward recovery. <span class=\"s1\"><b>Detox clinics in Montreal</b></span> provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h3",
+       "text": "Types of Detox Services in Montreal:",
+       "html": "<b>Types of Detox Services in Montreal:</b>",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Medical detox: Administered under a physician’s care, this approach uses medications to ease withdrawal.",
+         "html": "<span class=\"s1\"><b>Medical detox</b></span>: Administered under a physician’s care, this approach uses medications to ease withdrawal.",
+         "links": []
+        },
+        {
+         "text": "Social detox: Focuses on emotional support, often within a community-based setting.",
+         "html": "<span class=\"s1\"><b>Social detox</b></span>: Focuses on emotional support, often within a community-based setting.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.",
+       "html": "Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Specialized Rehab Centres in Montreal",
+       "html": "<b>Specialized Rehab Centres in Montreal</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:",
+       "html": "Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Adolescents and young adults",
+         "html": "Adolescents and young adults",
+         "links": []
+        },
+        {
+         "text": "LGBTQ+ individuals",
+         "html": "LGBTQ+ individuals",
+         "links": []
+        },
+        {
+         "text": "People with trauma-related addiction issues",
+         "html": "People with trauma-related addiction issues",
+         "links": []
+        },
+        {
+         "text": "Clients seeking private addiction treatment in Quebec",
+         "html": "<span class=\"s1\">Clients seeking </span><b>private addiction treatment in Quebec</b>",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "From culturally sensitive support to bilingual services in both English and French, these Montreal addiction treatment centres aim to make every patient feel safe and respected.",
+       "html": "From culturally sensitive support to bilingual services in both English and French, these <span class=\"s1\"><b>Montreal addiction treatment centres</b></span> aim to make every patient feel safe and respected.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "Local Search: “Detox Centres Near Me” in Montreal",
+       "html": "<b>Local Search: “Detox Centres Near Me” in Montreal</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Searching for “detox centres near me in Montreal”? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.",
+       "html": "Searching for <span class=\"s1\"><b>“detox centres near me in Montreal”</b></span>? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Detox centres near you also typically offer follow-up services like:",
+       "html": "Detox centres near you also typically offer follow-up services like:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Peer-led support groups",
+         "html": "Peer-led support groups",
+         "links": []
+        },
+        {
+         "text": "Cognitive-behavioral therapy (CBT)",
+         "html": "Cognitive-behavioral therapy (CBT)",
+         "links": []
+        },
+        {
+         "text": "Long-term recovery planning",
+         "html": "Long-term recovery planning",
+         "links": []
+        },
+        {
+         "text": "Integration with mental health care providers",
+         "html": "Integration with mental health care providers",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "h2",
+       "text": "Final Thoughts: Start Your Recovery Journey in Montreal Today",
+       "html": "<b>Final Thoughts: Start Your Recovery Journey in Montreal Today</b>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Choosing the right addiction treatment centre in Montreal is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.",
+       "html": "Choosing the right <span class=\"s1\"><b>addiction treatment centre in Montreal</b></span> is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.",
+       "html": "Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.",
+       "links": [],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Addiction Rehabs Montreal",
+  "background_image": ""
+ },
+ "cards": [
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/heritage-treatment-foundation/",
+   "address": "Heritage Treatment Foundation, 5035 Boulevard de Maisonneuve Ouest, Montréal, Montreal, Québec H4A 1Y5, Canada",
+   "excerpt": "Heritage Treatment Foundation: A Non-12-Step",
+   "category": "Quebec Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Heritage-Treatment-Foundation2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Heritage-Treatment-Foundation2.webp",
+    "alt": "",
+    "width": "600",
+    "height": "400"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/andys-house/",
+   "address": "3360 Rue Notre-Dame #25, Lachine, QC H8T 3E2, Canada",
+   "excerpt": "",
+   "category": "Quebec Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1.webp",
+    "alt": "",
+    "width": "640",
+    "height": "480"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/clinique-nouveau-depart/",
+   "address": "1110 Beaumont Avenue, Mount Royal, Quebec H3P 3E5, Canada",
+   "excerpt": "Clinique Nouveau Départ offers a wide range",
+   "category": "Quebec Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1.webp",
+    "alt": "",
+    "width": "1400",
+    "height": "800"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/chatsworth/",
+   "address": "Montreal, QC, Canada",
+   "excerpt": "Chatsworth is a residential treatment center",
+   "category": "Quebec Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1.webp",
+    "alt": "",
+    "width": "960",
+    "height": "720"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/life-science-addiction-treatment/",
+   "address": "Mountain Ranches, Rigaud, QC, Canada",
+   "excerpt": "Life Science Addiction Treatment Center is a",
+   "category": "Quebec Rehabs",
+   "reviews": "0",
+   "image": null
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/milestone-house/",
+   "address": "5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+   "excerpt": "About Milestone House Milestone House is bui",
+   "category": "Quebec Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp",
+    "alt": "Milestone House",
+    "width": "680",
+    "height": "495"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "",
+    "heritage-treatment-foundation",
+    "Heritage Treatment Foundation, 5035 Boulevard de Maisonneuve Ouest, Montréal, Montreal, Québec H4A 1Y5, Canada",
+    "Heritage Treatment Foundation: A Non-12-Step",
+    "0",
+    0,
+    "",
+    [
+     "Quebec Rehabs"
+    ]
+   ],
+   [
+    "",
+    "andys-house",
+    "3360 Rue Notre-Dame #25, Lachine, QC H8T 3E2, Canada",
+    "",
+    "0",
+    0,
+    "",
+    [
+     "Quebec Rehabs"
+    ]
+   ],
+   [
+    "",
+    "clinique-nouveau-depart",
+    "1110 Beaumont Avenue, Mount Royal, Quebec H3P 3E5, Canada",
+    "Clinique Nouveau Départ offers a wide range",
+    "0",
+    0,
+    "",
+    [
+     "Quebec Rehabs"
+    ]
+   ],
+   [
+    "",
+    "chatsworth",
+    "Montreal, QC, Canada",
+    "Chatsworth is a residential treatment center",
+    "0",
+    0,
+    "",
+    [
+     "Quebec Rehabs"
+    ]
+   ],
+   [
+    "",
+    "life-science-addiction-treatment",
+    "Mountain Ranches, Rigaud, QC, Canada",
+    "Life Science Addiction Treatment Center is a",
+    "0",
+    0,
+    "",
+    [
+     "Quebec Rehabs"
+    ]
+   ],
+   [
+    "",
+    "milestone-house",
+    "5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+    "About Milestone House Milestone House is bui",
+    "0",
+    0,
+    "",
+    [
+     "Quebec Rehabs"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "listing": {
+  "cards": [
+   {
+    "name": "Heritage Treatment Foundation",
+    "href": "https://addictionrehabcenters.ca/heritage-treatment-foundation/",
+    "slug": "heritage-treatment-foundation",
+    "address": "Heritage Treatment Foundation, 5035 Boulevard de Maisonneuve Ouest, Montréal, Montreal, Québec H4A 1Y5, Canada",
+    "excerpt": "Heritage Treatment Foundation: A Non-12-Step",
+    "category": "Quebec Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/heritage-treatment-foundation/Heritage-Treatment-Foundation2.webp",
+     "alt": "",
+     "width": "600",
+     "height": "400",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Heritage-Treatment-Foundation2.webp"
+    }
+   },
+   {
+    "name": "Andy’s House",
+    "href": "https://addictionrehabcenters.ca/andys-house/",
+    "slug": "andys-house",
+    "address": "3360 Rue Notre-Dame #25, Lachine, QC H8T 3E2, Canada",
+    "excerpt": "",
+    "category": "Quebec Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/andys-house/Andys-House1.webp",
+     "alt": "",
+     "width": "640",
+     "height": "480",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1.webp"
+    }
+   },
+   {
+    "name": "Clinique Nouveau Départ",
+    "href": "https://addictionrehabcenters.ca/clinique-nouveau-depart/",
+    "slug": "clinique-nouveau-depart",
+    "address": "1110 Beaumont Avenue, Mount Royal, Quebec H3P 3E5, Canada",
+    "excerpt": "Clinique Nouveau Départ offers a wide range",
+    "category": "Quebec Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/clinique-nouveau-depart/Clinique-Nouveau-Depart1.webp",
+     "alt": "",
+     "width": "1400",
+     "height": "800",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1.webp"
+    }
+   },
+   {
+    "name": "Chatsworth",
+    "href": "https://addictionrehabcenters.ca/chatsworth/",
+    "slug": "chatsworth",
+    "address": "Montreal, QC, Canada",
+    "excerpt": "Chatsworth is a residential treatment center",
+    "category": "Quebec Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/chatsworth/Chatsworth1.webp",
+     "alt": "",
+     "width": "960",
+     "height": "720",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1.webp"
+    }
+   },
+   {
+    "name": "Life Science Addiction Treatment",
+    "href": "https://addictionrehabcenters.ca/life-science-addiction-treatment/",
+    "slug": "life-science-addiction-treatment",
+    "address": "Mountain Ranches, Rigaud, QC, Canada",
+    "excerpt": "Life Science Addiction Treatment Center is a",
+    "category": "Quebec Rehabs",
+    "reviews": 0,
+    "image": null
+   },
+   {
+    "name": "Milestone House",
+    "href": "https://addictionrehabcenters.ca/milestone-house/",
+    "slug": "milestone-house",
+    "address": "5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada",
+    "excerpt": "About Milestone House Milestone House is bui",
+    "category": "Quebec Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/milestone-house/Milestone-House-1.webp",
+     "alt": "Milestone House",
+     "width": "680",
+     "height": "495",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp"
+    }
+   }
+  ],
+  "source_listing_count": 6,
+  "duplicates_removed": 0
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid innerBanner\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1>Addiction Rehabs Montreal</h1>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2>Best Rehab Centres in Montreal</h2>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerListingBox\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"eltdf-listing-list-holder eltdf-ll-gallery eltdf-ll-layout-standard eltdf-grid-list eltdf-disable-bottom-space eltdf-three-columns eltdf-normal-space eltdf-ll-no-map eltdf-ll-no-filter eltdf-ll-pag-load-more eltdf-ll-category-set\" data-category=\"1012\" data-enable-category=\"yes\" data-enable-excerpt=\"yes\" data-enable-filter=\"no\" data-enable-filter-category=\"yes\" data-enable-filter-custom-search=\"yes\" data-enable-filter-location=\"yes\" data-enable-filter-order-by=\"yes\" data-enable-filter-switch-layout=\"yes\" data-enable-filter-tag=\"yes\" data-enable-location=\"yes\" data-enable-map=\"no\" data-enable-map-switcher=\"no\" data-enable-price-range=\"yes\" data-enable-reviews-count=\"yes\" data-filter-location-field-type=\"select\" data-hide-active-filter=\"yes\" data-image-proportions=\"full\" data-item-layout=\"standard\" data-load-more-top-margin=\"50px\" data-max-num-pages=\"1\" data-next-page=\"2\" data-number-of-columns=\"three\" data-number-of-items=\"24\" data-order=\"ASC\" data-order-by=\"date\" data-pagination-type=\"load-more\" data-space-between-items=\"normal\" data-title-tag=\"h5\" data-type=\"gallery\">\n<div class=\"eltdf-listing-list-items-part\">\n<div class=\"eltdf-ll-inner eltdf-outer-space clearfix\">\n<article class=\"eltdf-ll-item eltdf-item-space post-15791 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-quebec-rehabs listing-tag-private-rehab listing-location-montreal\" data-id=\"15791\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/heritage-treatment-foundation/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"400\" loading=\"lazy\" sizes=\"(max-width: 600px) 100vw, 600px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Heritage-Treatment-Foundation2.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Heritage-Treatment-Foundation2.webp 600w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Heritage-Treatment-Foundation2-300x200.webp 300w\" width=\"600\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/quebec-rehabs/\" itemprop=\"url\">\n\t\t\t\tQuebec Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tHeritage Treatment Foundation, 5035 Boulevard de Maisonneuve Ouest, Montréal, Montreal, Québec H4A 1Y5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/heritage-treatment-foundation/\" itemprop=\"url\">Heritage Treatment Foundation</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Heritage Treatment Foundation: A Non-12-Step</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"15791\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7453\" name=\"findall_listing_nonce_wishlist_functionality_7453\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/montreal-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-15790 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-quebec-rehabs listing-tag-private-rehab listing-location-montreal\" data-id=\"15790\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/andys-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"480\" loading=\"lazy\" sizes=\"(max-width: 640px) 100vw, 640px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1.webp 640w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1-300x225.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Andys-House1-600x450.webp 600w\" width=\"640\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/quebec-rehabs/\" itemprop=\"url\">\n\t\t\t\tQuebec Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t3360 Rue Notre-Dame #25, Lachine, QC H8T 3E2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/andys-house/\" itemprop=\"url\">Andy’s House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\"></p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"15790\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7272\" name=\"findall_listing_nonce_wishlist_functionality_7272\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/montreal-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-15879 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-quebec-rehabs listing-tag-private-rehab listing-location-montreal\" data-id=\"15879\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/clinique-nouveau-depart/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"800\" loading=\"lazy\" sizes=\"(max-width: 1400px) 100vw, 1400px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1.webp 1400w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1-300x171.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1-1024x585.webp 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1-768x439.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Clinique-Nouveau-Depart1-600x343.webp 600w\" width=\"1400\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/quebec-rehabs/\" itemprop=\"url\">\n\t\t\t\tQuebec Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t1110 Beaumont Avenue, Mount Royal, Quebec H3P 3E5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/clinique-nouveau-depart/\" itemprop=\"url\">Clinique Nouveau Départ</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Clinique Nouveau Départ offers a wide range</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"15879\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7749\" name=\"findall_listing_nonce_wishlist_functionality_7749\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/montreal-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-15885 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-quebec-rehabs listing-tag-private-rehab listing-location-montreal\" data-id=\"15885\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/chatsworth/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"720\" loading=\"lazy\" sizes=\"(max-width: 960px) 100vw, 960px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1.webp 960w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1-300x225.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1-768x576.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Chatsworth1-600x450.webp 600w\" width=\"960\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/quebec-rehabs/\" itemprop=\"url\">\n\t\t\t\tQuebec Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tMontreal, QC, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/chatsworth/\" itemprop=\"url\">Chatsworth</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Chatsworth is a residential treatment center</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"15885\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1463\" name=\"findall_listing_nonce_wishlist_functionality_1463\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/montreal-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-15891 listing-item type-listing-item status-publish hentry listing-category-quebec-rehabs listing-tag-private-rehab listing-location-quebec\" data-id=\"15891\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/life-science-addiction-treatment/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n</div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/quebec-rehabs/\" itemprop=\"url\">\n\t\t\t\tQuebec Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tMountain Ranches, Rigaud, QC, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/life-science-addiction-treatment/\" itemprop=\"url\">Life Science Addiction Treatment</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Life Science Addiction Treatment Center is a</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"15891\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5705\" name=\"findall_listing_nonce_wishlist_functionality_5705\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/montreal-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-17211 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-quebec-rehabs listing-tag-men-only listing-tag-private-rehab listing-location-montreal\" data-id=\"17211\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/milestone-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Milestone House\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"495\" loading=\"lazy\" sizes=\"(max-width: 680px) 100vw, 680px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1.webp 680w, https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1-300x218.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2025/11/Milestone-House-1-600x437.webp 600w\" width=\"680\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/quebec-rehabs/\" itemprop=\"url\">\n\t\t\t\tQuebec Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t5275 Av. Beaconsfield, Montréal, QC H3X 3R9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/milestone-house/\" itemprop=\"url\">Milestone House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">About Milestone House Milestone House is bui</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"17211\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3681\" name=\"findall_listing_nonce_wishlist_functionality_3681\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/montreal-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article> </div>\n<div class=\"eltdf-ll-loading\">\n<div class=\"eltdf-findall-spinner\"></div>\n</div> </div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"vc_empty_space\" style=\"height: 20px\"><span class=\"vc_empty_space_inner\"></span></div>\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><b>Addiction Treatment Centres in Montreal, Quebec</b></h2>\n<p class=\"p1\"><span class=\"s1\"><b>Looking for trusted addiction treatment centres in Montreal, Quebec?</b></span> Whether you or a loved one is battling substance abuse, Montreal offers a range of high-quality rehab services—from public programs to private, personalized care options—designed to support long-term recovery. With the right guidance and resources, finding the help you need in Montreal is more accessible than ever.</p>\n<p class=\"p1\">Whether you’re seeking detox support, drug or alcohol rehab, or ongoing mental health services, Montreal’s treatment landscape includes diverse approaches tailored to every stage of recovery. In this guide, we’ll help you explore your options and understand how to choose the right path forward.</p>\n<h2><b>Finding the Right Addiction Support in Montreal</b></h2>\n<p class=\"p1\">Addiction doesn’t discriminate. It affects individuals and families from all backgrounds. Fortunately, <span class=\"s1\"><b>addiction treatment centres in Montreal</b></span> are equipped to help people take back control of their lives.</p>\n<p class=\"p1\">Services available at these facilities typically include:</p>\n<ul>\n<li class=\"p1\"><b>Drug rehab and alcohol rehab programs</b></li>\n<li class=\"p1\"><b>Medically supervised detox clinics</b></li>\n<li class=\"p1\"><b>Inpatient and outpatient recovery plans</b></li>\n<li class=\"p1\"><b>Mental health and addiction counselling</b></li>\n<li class=\"p1\"><b>Support groups and aftercare planning</b></li>\n</ul>\n<p class=\"p1\">Each recovery journey is unique. That’s why understanding the available options is essential to finding the right level of care that fits your personal needs and circumstances.</p>\n<h2><b>Drug and Alcohol Rehab in Montreal</b></h2>\n<p class=\"p1\"><span class=\"s1\"><b>Drug rehab in Montreal</b></span> and <span class=\"s1\"><b>alcohol rehab in Montreal</b></span> remain at the core of many treatment centres’ services. These programs provide structured environments where individuals can begin the healing process with the support of addiction specialists, therapists, and peers.</p>\n<h3><b>Inpatient vs. Outpatient Treatment</b></h3>\n<ul>\n<li class=\"p1\"><span class=\"s1\"><b>Inpatient rehab</b></span> offers 24/7 medical and emotional support. It’s ideal for those needing a more intensive, immersive treatment experience.</li>\n<li class=\"p1\"><span class=\"s1\"><b>Outpatient rehab</b></span> allows clients to continue living at home while attending regular therapy sessions and support programs—perfect for individuals with strong home support systems and lower levels of dependency.</li>\n</ul>\n<p class=\"p1\">Both program types are available across Montreal and are tailored to address various substances, including opioids, alcohol, cocaine, and prescription medications.</p>\n<h2><b>Alcohol Rehab in Montreal</b></h2>\n<p class=\"p1\"><span class=\"s1\"><b>Alcohol addiction</b></span> continues to impact many families across Quebec. Specialized <span class=\"s1\"><b>alcohol rehab centres in Montreal</b></span> offer targeted therapies, including:</p>\n<ul>\n<li class=\"p1\">Medically assisted detoxification</li>\n<li class=\"p1\">Individual and group counselling</li>\n<li class=\"p1\">Family therapy and relapse prevention strategies</li>\n</ul>\n<p class=\"p1\">For individuals dealing with <span class=\"s1\"><b>co-occurring disorders</b></span> like anxiety or depression, many Montreal-based rehab facilities also provide <span class=\"s1\"><b>dual-diagnosis care</b></span>, ensuring a more holistic treatment approach.</p>\n<h2><b>Detox Clinics in Montreal and Quebec</b></h2>\n<p class=\"p1\">Detox is often the first and most crucial step toward recovery. <span class=\"s1\"><b>Detox clinics in Montreal</b></span> provide safe, medically supervised environments for managing withdrawal symptoms and stabilizing patients before they begin therapy.</p>\n<h3><b>Types of Detox Services in Montreal:</b></h3>\n<ul>\n<li class=\"p1\"><span class=\"s1\"><b>Medical detox</b></span>: Administered under a physician’s care, this approach uses medications to ease withdrawal.</li>\n<li class=\"p1\"><span class=\"s1\"><b>Social detox</b></span>: Focuses on emotional support, often within a community-based setting.</li>\n</ul>\n<p class=\"p1\">Whether you require a short-term detox plan or a transition into longer-term rehab, Montreal detox centres ensure patients receive proper monitoring and compassion during this vulnerable time.</p>\n<h2><b>Specialized Rehab Centres in Montreal</b></h2>\n<p class=\"p1\">Montreal is home to a number of specialized rehab centres that offer personalized care programs. These include services for:</p>\n<ul>\n<li class=\"p1\">Adolescents and young adults</li>\n<li class=\"p1\">LGBTQ+ individuals</li>\n<li class=\"p1\">People with trauma-related addiction issues</li>\n<li class=\"p1\"><span class=\"s1\">Clients seeking </span><b>private addiction treatment in Quebec</b></li>\n</ul>\n<p class=\"p1\">From culturally sensitive support to bilingual services in both English and French, these <span class=\"s1\"><b>Montreal addiction treatment centres</b></span> aim to make every patient feel safe and respected.</p>\n<h2><b>Local Search: “Detox Centres Near Me” in Montreal</b></h2>\n<p class=\"p1\">Searching for <span class=\"s1\"><b>“detox centres near me in Montreal”</b></span>? There are several clinics conveniently located throughout the city, including downtown Montreal, the West Island, and areas like Laval and Longueuil. These centres often provide same-day intake, ensuring you or your loved one can begin treatment as quickly as possible.</p>\n<p class=\"p1\">Detox centres near you also typically offer follow-up services like:</p>\n<ul>\n<li class=\"p1\">Peer-led support groups</li>\n<li class=\"p1\">Cognitive-behavioral therapy (CBT)</li>\n<li class=\"p1\">Long-term recovery planning</li>\n<li class=\"p1\">Integration with mental health care providers</li>\n</ul>\n<h2><b>Final Thoughts: Start Your Recovery Journey in Montreal Today</b></h2>\n<p class=\"p1\">Choosing the right <span class=\"s1\"><b>addiction treatment centre in Montreal</b></span> is a deeply personal decision, and it can feel overwhelming at first. But you’re not alone. With the right information and support from your community, healthcare professionals, and loved ones, recovery is possible.</p>\n<p class=\"p1\">Montreal offers a compassionate network of treatment options that can help you rebuild a healthy, sober future—one step at a time.</p>\n</div>\n</div>\n<div class=\"vc_empty_space\" style=\"height: 35px\"><span class=\"vc_empty_space_inner\"></span></div></div></div></div></div>\n</div></body>"
+}

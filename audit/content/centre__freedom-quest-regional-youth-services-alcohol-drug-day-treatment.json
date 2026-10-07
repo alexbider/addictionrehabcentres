@@ -1,0 +1,774 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__freedom-quest-regional-youth-services-alcohol-drug-day-treatment",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/",
+  "path": "/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/",
+ "seo": {
+  "meta_title": "Freedom Quest Regional Youth Services",
+  "meta_description": "Freedom Quest Regional Youth Services - Alcohol & Drug Day Treatment offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/",
+  "og": {
+   "title": "Freedom Quest Regional Youth Services",
+   "description": "Freedom Quest Regional Youth Services - Alcohol & Drug Day Treatment offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-0.png",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/",
+      "url": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/",
+      "name": "Freedom Quest Regional Youth Services",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-0.png",
+      "datePublished": "2021-09-28T15:42:58+00:00",
+      "dateModified": "2022-04-12T18:06:57+00:00",
+      "description": "Freedom Quest Regional Youth Services - Alcohol & Drug Day Treatment offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "Freedom Quest Regional Youth Services-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/freedom-quest-regional-youth-services-alcohol-drug-day-treatment/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Freedom Quest Regional Youth Services &#8211; Alcohol &#038; Drug Day Treatment"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 276,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Center"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-1.png",
+   "local_path": "images/centre__freedom-quest-regional-youth-services-alcohol-drug-day-treatment/Freedom-Quest-Regional-Youth-Services-1.png",
+   "alt": "Freedom Quest Regional Youth Services-1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-2.png",
+   "local_path": "images/centre__freedom-quest-regional-youth-services-alcohol-drug-day-treatment/Freedom-Quest-Regional-Youth-Services-2.png",
+   "alt": "Freedom Quest Regional Youth Services-2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-0.png",
+   "local_path": "images/centre__freedom-quest-regional-youth-services-alcohol-drug-day-treatment/Freedom-Quest-Regional-Youth-Services-0.png",
+   "alt": "Freedom Quest Regional Youth Services-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "tel:(250) 304-2676",
+   "text": "(250) 304-2676",
+   "kind": "tel",
+   "new": "tel:(250) 304-2676"
+  },
+  {
+   "old_href": "mailto:infofq@shaw.ca",
+   "text": "infofq@shaw.ca",
+   "kind": "mailto",
+   "new": "mailto:infofq@shaw.ca"
+  },
+  {
+   "old_href": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+   "text": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+   "kind": "external",
+   "new": "http://freedomquestonline.ca/regional-alcohol-drug-day/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Center",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol & Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.",
+     "html": "All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol &amp; Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "(250) 304-2676",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(250) 304-2676\" itemprop=\"url\">(250) 304-2676</a>",
+       "links": [
+        {
+         "old": "tel:(250) 304-2676",
+         "text": "(250) 304-2676"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "infofq@shaw.ca",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:infofq@shaw.ca\" itemprop=\"url\">infofq@shaw.ca</a>",
+       "links": [
+        {
+         "old": "mailto:infofq@shaw.ca",
+         "text": "infofq@shaw.ca"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://freedomquestonline.ca/regional-alcohol-drug-day/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://freedomquestonline.ca/regional-alcohol-drug-day/</a>",
+       "links": [
+        {
+         "old": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+         "text": "http://freedomquestonline.ca/regional-alcohol-drug-day/"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "349 Columbia St, New Westminster, BC V3L 5T6, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    349 Columbia St, New Westminster, BC V3L 5T6, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Center",
+   "html": "<strong>About</strong> Center",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol & Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.",
+   "html": "All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol &amp; Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "(250) 304-2676",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(250) 304-2676\" itemprop=\"url\">(250) 304-2676</a>",
+   "links": [
+    {
+     "old": "tel:(250) 304-2676",
+     "text": "(250) 304-2676"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "infofq@shaw.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:infofq@shaw.ca\" itemprop=\"url\">infofq@shaw.ca</a>",
+   "links": [
+    {
+     "old": "mailto:infofq@shaw.ca",
+     "text": "infofq@shaw.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://freedomquestonline.ca/regional-alcohol-drug-day/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://freedomquestonline.ca/regional-alcohol-drug-day/</a>",
+   "links": [
+    {
+     "old": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+     "text": "http://freedomquestonline.ca/regional-alcohol-drug-day/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "349 Columbia St, New Westminster, BC V3L 5T6, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    349 Columbia St, New Westminster, BC V3L 5T6, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Freedom Quest Regional Youth Services – Alcohol & Drug Day Treatment",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h3><strong>About</strong> Center</h3>\n<p>All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol &amp; Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>",
+  "specialties": [
+   "Substance Abuse Treatmental"
+  ],
+  "amenities": [
+   "Substance Abuse Treatmental"
+  ],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(250) 304-2676",
+  "email": "infofq@shaw.ca",
+  "website": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+  "address": "349 Columbia St, New Westminster, BC V3L 5T6, Canada",
+  "social": {},
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-1.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-1.png",
+    "alt": "Freedom Quest Regional Youth Services-1",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-2.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Freedom-Quest-Regional-Youth-Services-2.png",
+    "alt": "Freedom Quest Regional Youth Services-2",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Center",
+    "html": "<strong>About</strong> Center",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol & Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.",
+    "html": "All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol &amp; Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [
+     "Substance Abuse Treatmental"
+    ],
+    "text": ""
+   },
+   {
+    "heading": "Amenities",
+    "items": [
+     "Substance Abuse Treatmental"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(250) 304-2676",
+  "phone_href": "tel:(250) 304-2676",
+  "website_text": "http://freedomquestonline.ca/regional-alcohol-drug-day/",
+  "social_title": "",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Center</h3>\n<p>All people have the right to be treated with dignity and respect. At Freedom Quest Regional Youth Services we respect the uniqueness and individuality of every person we serve, working cooperatively with every person in their journey to a healthy life. We approach our services by encompassing the behavioral, physical, spiritual, mental and emotional facets of life and incorporate this philosophy into our program content. The Regional Alcohol &amp; Drug Day Treatment (RADD) program is an intensive alcohol and drug day treatment program designed to serve youth aged 19 and under in the West Kootenay Boundary Area. Throughout the year our facilitators deliver a group counselling program to as many as ten people at a time. The RADD Program delivers a variety of day treatment models based on community or individual needs. The program’s key element is a strong recreation component designed to assist youth in making positive life style changes. Full day recreational outings will be offered throughout the program. Families, peers, and other support persons are encouraged to play an active role in the healing process. Our program is confidential and information will not be released to any one unless the person in question completes a “consent for release of information” form. Follow up/after care services will be arranged with all group participants. Pre-program, post-program, and follow-up evaluations will be completed with all participants to ensure that the program is successfully meeting the needs of all those involved.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(250) 304-2676\" itemprop=\"url\">(250) 304-2676</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:infofq@shaw.ca\" itemprop=\"url\">infofq@shaw.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://freedomquestonline.ca/regional-alcohol-drug-day/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://freedomquestonline.ca/regional-alcohol-drug-day/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    349 Columbia St, New Westminster, BC V3L 5T6, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

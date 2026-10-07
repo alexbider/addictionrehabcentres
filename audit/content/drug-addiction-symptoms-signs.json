@@ -1,0 +1,880 @@
+{
+ "schema": "arc-content/1",
+ "slug": "drug-addiction-symptoms-signs",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+  "path": "/drug-addiction-symptoms-signs/",
+  "wp_items": [
+   {
+    "id": 949,
+    "type": "post",
+    "title": "Drug Addiction: Symptoms &#038; Signs",
+    "date": "2015-08-14T21:06:35",
+    "modified": "2022-09-12T20:09:24",
+    "status": "publish",
+    "yoast_title": "Drug Addiction: Symptoms &#038; Signs - Addiction Rehab Centers",
+    "words_rest": 689
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/drug-addiction-symptoms-signs/",
+ "seo": {
+  "meta_title": "Drug Addiction: Symptoms & Signs - Addiction Rehab Centers",
+  "meta_description": "Read about the different symptoms and signs of drug addictions and their effects in this guide now so you know what to look out for in yourself or a loved one.",
+  "canonical_source": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+  "og": {
+   "title": "Drug Addiction: Symptoms & Signs - Addiction Rehab Centers",
+   "description": "Read about the different symptoms and signs of drug addictions and their effects in this guide now so you know what to look out for in yourself or a loved one.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Drug Addiction: Symptoms &#038; Signs",
+      "datePublished": "2015-08-14T21:06:35+00:00",
+      "dateModified": "2022-09-12T20:09:24+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/"
+      },
+      "wordCount": 700,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+      "keywords": [
+       "addiction",
+       "Drug Addiction",
+       "drugs",
+       "symptoms"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+      "url": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+      "name": "Drug Addiction: Symptoms &#038; Signs - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+      "datePublished": "2015-08-14T21:06:35+00:00",
+      "dateModified": "2022-09-12T20:09:24+00:00",
+      "description": "Read about the different symptoms and signs of drug addictions and their effects in this guide now so you know what to look out for in yourself or a loved one.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "symptoms and signs"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Drug Addiction: Symptoms &#038; Signs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Drug Addiction: Symptoms & Signs",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 699,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Drug Addiction: Symptoms & Signs"
+  ],
+  [
+   "h3",
+   "Drug Addiction Symptoms: How Drugs Affect Your Health"
+  ],
+  [
+   "h3",
+   "Drug Addiction Signs: How Drugs Affect Your Relationships"
+  ],
+  [
+   "h3",
+   "Drug Addiction Signs: How Drugs Affect Your Finances"
+  ],
+  [
+   "h3",
+   "Drug Addiction Symptoms: How Drugs Affect Daily Living"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+   "local_path": "images/drug-addiction-symptoms-signs/symptoms-and-signs.jpg",
+   "alt": "symptoms and signs",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "August 14, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+     "alt": "symptoms and signs",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "August 14, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Drug Addiction: Symptoms & Signs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The cold, hard truth about drug addiction is that if you think you have a drug problem, it’s very likely that you do. Drug addiction symptoms vary from addict to addict, and no two addicts develop drug addiction signs that look exactly alike. Knowing the symptoms of drug addiction, though, can inspire you to get clean before your drug problem completely overtakes your life.",
+     "html": "The cold, hard truth about drug addiction is that if you think you have a drug problem, it’s very likely that you do. Drug addiction symptoms vary from addict to addict, and no two addicts develop drug addiction signs that look exactly alike. Knowing the symptoms of drug addiction, though, can inspire you to get clean before your drug problem completely overtakes your life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Drug Addiction Symptoms: How Drugs Affect Your Health",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Many drug addicts are surprised to see just how quickly their drug problem undermines their physical or mental health. If you have several of these drug addiction signs, you’re almost certainly an addict:",
+       "html": "Many drug addicts are surprised to see just how quickly their drug problem undermines their physical or mental health. If you have several of these drug addiction signs, you’re almost certainly an addict:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "You have new or worsening physical or mental health problems since you began using.",
+         "html": "You have new or worsening physical or mental health problems since you began using.",
+         "links": []
+        },
+        {
+         "text": "You use drugs because prescription medications are ineffective at treating your symptoms.",
+         "html": "You use drugs because prescription medications are ineffective at treating your symptoms.",
+         "links": []
+        },
+        {
+         "text": "You use a higher dose of prescription drugs than prescribed by your doctor, or you engage in doctor-shopping to get access to more prescription drugs.",
+         "html": "You use a higher dose of prescription drugs than prescribed by your doctor, or you engage in doctor-shopping to get access to more prescription drugs.",
+         "links": []
+        },
+        {
+         "text": "You feel depressed, anxious, or overwhelmed when you try to quit using.",
+         "html": "You feel depressed, anxious, or overwhelmed when you try to quit using.",
+         "links": []
+        },
+        {
+         "text": "You use drugs to cope with the physical or psychological effects of a chronic health condition.",
+         "html": "You use drugs to cope with the physical or psychological effects of a chronic health condition.",
+         "links": []
+        },
+        {
+         "text": "You suffer from physiological or emotional withdrawal symptoms when you attempt to stop using.",
+         "html": "You suffer from physiological or emotional withdrawal symptoms when you attempt to stop using.",
+         "links": []
+        },
+        {
+         "text": "You struggle with chronic pain.",
+         "html": "You struggle with chronic pain.",
+         "links": []
+        },
+        {
+         "text": "You’re losing or gaining weight at a rapid rate.",
+         "html": "You’re losing or gaining weight at a rapid rate.",
+         "links": []
+        },
+        {
+         "text": "Your sleeping habits have changed; you either sleep too much or not enough, and you may experience nightmares or panic attacks in the middle of the night.",
+         "html": "Your sleeping habits have changed; you either sleep too much or not enough, and you may experience nightmares or panic attacks in the middle of the night.",
+         "links": []
+        },
+        {
+         "text": "Your eating habits have changed; some drug addicts suffer from obesity or malnutrition due to drug-induced changes in food consumption.",
+         "html": "Your eating habits have changed; some drug addicts suffer from obesity or malnutrition due to drug-induced changes in food consumption.",
+         "links": []
+        },
+        {
+         "text": "You experience a rapid heart rate.",
+         "html": "You experience a rapid heart rate.",
+         "links": []
+        },
+        {
+         "text": "You have chronic medical conditions, such as diabetes or fibromyalgia, that didn’t exist prior to the addiction.",
+         "html": "You have chronic medical conditions, such as diabetes or fibromyalgia, that didn’t exist prior to the addiction.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Drug Addiction Signs: How Drugs Affect Your Relationships",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "For many people with a drug problem, the first drug addiction symptoms come in the form of changed relationships. Many addicts end up losing their marriages or long-term relationships; others find themselves embroiled in near-constant conflict with children, spouses, or parents. Some common ways drugs affect relationships include:",
+       "html": "For many people with a drug problem, the first drug addiction symptoms come in the form of changed relationships. Many addicts end up losing their marriages or long-term relationships; others find themselves embroiled in near-constant conflict with children, spouses, or parents. Some common ways drugs affect relationships include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Neglecting your children or your spouse.",
+         "html": "Neglecting your children or your spouse.",
+         "links": []
+        },
+        {
+         "text": "Increased conflict with loved ones, especially over your drug use.",
+         "html": "Increased conflict with loved ones, especially over your drug use.",
+         "links": []
+        },
+        {
+         "text": "Feeling angry with loved ones more frequently.",
+         "html": "Feeling angry with loved ones more frequently.",
+         "links": []
+        },
+        {
+         "text": "Believing that your loved ones are to blame for the problems in your life.",
+         "html": "Believing that your loved ones are to blame for the problems in your life.",
+         "links": []
+        },
+        {
+         "text": "Demands from loved ones that you seek treatment or get sober.",
+         "html": "Demands from loved ones that you seek treatment or get sober.",
+         "links": []
+        },
+        {
+         "text": "Endangering loved ones because of your addiction. For instance, you might drive your children to school while under the influence of drugs, or take your spouse with you to a drug deal.",
+         "html": "Endangering loved ones because of your addiction. For instance, you might drive your children to school while under the influence of drugs, or take your spouse with you to a drug deal.",
+         "links": []
+        },
+        {
+         "text": "Bringing drug dealers or users to your home.",
+         "html": "Bringing drug dealers or users to your home.",
+         "links": []
+        },
+        {
+         "text": "Having friendships primarily or exclusively with other drug users or dealers.",
+         "html": "Having friendships primarily or exclusively with other drug users or dealers.",
+         "links": []
+        },
+        {
+         "text": "Difficulty prioritizing your relationships over drugs.",
+         "html": "Difficulty prioritizing your relationships over drugs.",
+         "links": []
+        },
+        {
+         "text": "Getting more fulfillment out of using drugs than you do in your relationships.",
+         "html": "Getting more fulfillment out of using drugs than you do in your relationships.",
+         "links": []
+        },
+        {
+         "text": "Changes in libido, or the inability to orgasm or get sexually aroused.",
+         "html": "Changes in libido, or the inability to orgasm or get sexually aroused.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Drug Addiction Signs: How Drugs Affect Your Finances",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Unless you have a very charitable drug dealer, there’s no escaping the fact that drugs cost money. Most drug addicts end up dealing with serious financial problems. Some of the challenges you may experience include:",
+       "html": "Unless you have a very charitable drug dealer, there’s no escaping the fact that drugs cost money. Most drug addicts end up dealing with serious financial problems. Some of the challenges you may experience include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Loss of your job.",
+         "html": "Loss of your job.",
+         "links": []
+        },
+        {
+         "text": "Difficulty paying your bills.",
+         "html": "Difficulty paying your bills.",
+         "links": []
+        },
+        {
+         "text": "Costly doctor’s bills.",
+         "html": "Costly doctor’s bills.",
+         "links": []
+        },
+        {
+         "text": "Legal expenses that sap your savings.",
+         "html": "Legal expenses that sap your savings.",
+         "links": []
+        },
+        {
+         "text": "Stealing from or lying to others to gain access to money for drugs.",
+         "html": "Stealing from or lying to others to gain access to money for drugs.",
+         "links": []
+        },
+        {
+         "text": "Being willing to spend anything you have to go be able to again purchase drugs.",
+         "html": "Being willing to spend anything you have to go be able to again purchase drugs.",
+         "links": []
+        },
+        {
+         "text": "Increased conflict at work.",
+         "html": "Increased conflict at work.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Drug Addiction Symptoms: How Drugs Affect Daily Living",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction is, in many ways, a lifestyle disease that affects your ability to function on a daily, and even hourly, basis. Some of the changes in the way you live that you may encounter include:",
+       "html": "Drug addiction is, in many ways, a lifestyle disease that affects your ability to function on a daily, and even hourly, basis. Some of the changes in the way you live that you may encounter include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Legal problems, such as arrest or incarceration.",
+         "html": "Legal problems, such as arrest or incarceration.",
+         "links": []
+        },
+        {
+         "text": "Fear of police, since having drugs on you might mean you get arrested.",
+         "html": "Fear of police, since having drugs on you might mean you get arrested.",
+         "links": []
+        },
+        {
+         "text": "Loss of interest in previously beloved hobbies.",
+         "html": "Loss of interest in previously beloved hobbies.",
+         "links": []
+        },
+        {
+         "text": "Difficulty concentrating or managing your time.",
+         "html": "Difficulty concentrating or managing your time.",
+         "links": []
+        },
+        {
+         "text": "Prioritizing drugs over every other pursuit.",
+         "html": "Prioritizing drugs over every other pursuit.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "With so many symptoms, it might feel impossible to get sober and turn your life around. But we can show you a path to healthy, lasting, happy sobriety. You deserve a better life. We’ll show you how to get there. Contact Addiction Rehab Centres Canada today!",
+       "html": "With so many symptoms, it might feel impossible to get sober and turn your life around. But we can show you a path to healthy, lasting, happy sobriety. You deserve a better life. We’ll show you how to get there. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+   "alt": "symptoms and signs",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "August 14, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Drug Addiction: Symptoms & Signs",
+   "html": "Drug Addiction: Symptoms &amp; Signs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The cold, hard truth about drug addiction is that if you think you have a drug problem, it’s very likely that you do. Drug addiction symptoms vary from addict to addict, and no two addicts develop drug addiction signs that look exactly alike. Knowing the symptoms of drug addiction, though, can inspire you to get clean before your drug problem completely overtakes your life.",
+   "html": "The cold, hard truth about drug addiction is that if you think you have a drug problem, it’s very likely that you do. Drug addiction symptoms vary from addict to addict, and no two addicts develop drug addiction signs that look exactly alike. Knowing the symptoms of drug addiction, though, can inspire you to get clean before your drug problem completely overtakes your life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Drug Addiction Symptoms: How Drugs Affect Your Health",
+   "html": "Drug Addiction Symptoms: How Drugs Affect Your Health",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Many drug addicts are surprised to see just how quickly their drug problem undermines their physical or mental health. If you have several of these drug addiction signs, you’re almost certainly an addict:",
+   "html": "Many drug addicts are surprised to see just how quickly their drug problem undermines their physical or mental health. If you have several of these drug addiction signs, you’re almost certainly an addict:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "You have new or worsening physical or mental health problems since you began using.",
+     "html": "You have new or worsening physical or mental health problems since you began using.",
+     "links": []
+    },
+    {
+     "text": "You use drugs because prescription medications are ineffective at treating your symptoms.",
+     "html": "You use drugs because prescription medications are ineffective at treating your symptoms.",
+     "links": []
+    },
+    {
+     "text": "You use a higher dose of prescription drugs than prescribed by your doctor, or you engage in doctor-shopping to get access to more prescription drugs.",
+     "html": "You use a higher dose of prescription drugs than prescribed by your doctor, or you engage in doctor-shopping to get access to more prescription drugs.",
+     "links": []
+    },
+    {
+     "text": "You feel depressed, anxious, or overwhelmed when you try to quit using.",
+     "html": "You feel depressed, anxious, or overwhelmed when you try to quit using.",
+     "links": []
+    },
+    {
+     "text": "You use drugs to cope with the physical or psychological effects of a chronic health condition.",
+     "html": "You use drugs to cope with the physical or psychological effects of a chronic health condition.",
+     "links": []
+    },
+    {
+     "text": "You suffer from physiological or emotional withdrawal symptoms when you attempt to stop using.",
+     "html": "You suffer from physiological or emotional withdrawal symptoms when you attempt to stop using.",
+     "links": []
+    },
+    {
+     "text": "You struggle with chronic pain.",
+     "html": "You struggle with chronic pain.",
+     "links": []
+    },
+    {
+     "text": "You’re losing or gaining weight at a rapid rate.",
+     "html": "You’re losing or gaining weight at a rapid rate.",
+     "links": []
+    },
+    {
+     "text": "Your sleeping habits have changed; you either sleep too much or not enough, and you may experience nightmares or panic attacks in the middle of the night.",
+     "html": "Your sleeping habits have changed; you either sleep too much or not enough, and you may experience nightmares or panic attacks in the middle of the night.",
+     "links": []
+    },
+    {
+     "text": "Your eating habits have changed; some drug addicts suffer from obesity or malnutrition due to drug-induced changes in food consumption.",
+     "html": "Your eating habits have changed; some drug addicts suffer from obesity or malnutrition due to drug-induced changes in food consumption.",
+     "links": []
+    },
+    {
+     "text": "You experience a rapid heart rate.",
+     "html": "You experience a rapid heart rate.",
+     "links": []
+    },
+    {
+     "text": "You have chronic medical conditions, such as diabetes or fibromyalgia, that didn’t exist prior to the addiction.",
+     "html": "You have chronic medical conditions, such as diabetes or fibromyalgia, that didn’t exist prior to the addiction.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Drug Addiction Signs: How Drugs Affect Your Relationships",
+   "html": "Drug Addiction Signs: How Drugs Affect Your Relationships",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "For many people with a drug problem, the first drug addiction symptoms come in the form of changed relationships. Many addicts end up losing their marriages or long-term relationships; others find themselves embroiled in near-constant conflict with children, spouses, or parents. Some common ways drugs affect relationships include:",
+   "html": "For many people with a drug problem, the first drug addiction symptoms come in the form of changed relationships. Many addicts end up losing their marriages or long-term relationships; others find themselves embroiled in near-constant conflict with children, spouses, or parents. Some common ways drugs affect relationships include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Neglecting your children or your spouse.",
+     "html": "Neglecting your children or your spouse.",
+     "links": []
+    },
+    {
+     "text": "Increased conflict with loved ones, especially over your drug use.",
+     "html": "Increased conflict with loved ones, especially over your drug use.",
+     "links": []
+    },
+    {
+     "text": "Feeling angry with loved ones more frequently.",
+     "html": "Feeling angry with loved ones more frequently.",
+     "links": []
+    },
+    {
+     "text": "Believing that your loved ones are to blame for the problems in your life.",
+     "html": "Believing that your loved ones are to blame for the problems in your life.",
+     "links": []
+    },
+    {
+     "text": "Demands from loved ones that you seek treatment or get sober.",
+     "html": "Demands from loved ones that you seek treatment or get sober.",
+     "links": []
+    },
+    {
+     "text": "Endangering loved ones because of your addiction. For instance, you might drive your children to school while under the influence of drugs, or take your spouse with you to a drug deal.",
+     "html": "Endangering loved ones because of your addiction. For instance, you might drive your children to school while under the influence of drugs, or take your spouse with you to a drug deal.",
+     "links": []
+    },
+    {
+     "text": "Bringing drug dealers or users to your home.",
+     "html": "Bringing drug dealers or users to your home.",
+     "links": []
+    },
+    {
+     "text": "Having friendships primarily or exclusively with other drug users or dealers.",
+     "html": "Having friendships primarily or exclusively with other drug users or dealers.",
+     "links": []
+    },
+    {
+     "text": "Difficulty prioritizing your relationships over drugs.",
+     "html": "Difficulty prioritizing your relationships over drugs.",
+     "links": []
+    },
+    {
+     "text": "Getting more fulfillment out of using drugs than you do in your relationships.",
+     "html": "Getting more fulfillment out of using drugs than you do in your relationships.",
+     "links": []
+    },
+    {
+     "text": "Changes in libido, or the inability to orgasm or get sexually aroused.",
+     "html": "Changes in libido, or the inability to orgasm or get sexually aroused.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Drug Addiction Signs: How Drugs Affect Your Finances",
+   "html": "Drug Addiction Signs: How Drugs Affect Your Finances",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Unless you have a very charitable drug dealer, there’s no escaping the fact that drugs cost money. Most drug addicts end up dealing with serious financial problems. Some of the challenges you may experience include:",
+   "html": "Unless you have a very charitable drug dealer, there’s no escaping the fact that drugs cost money. Most drug addicts end up dealing with serious financial problems. Some of the challenges you may experience include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Loss of your job.",
+     "html": "Loss of your job.",
+     "links": []
+    },
+    {
+     "text": "Difficulty paying your bills.",
+     "html": "Difficulty paying your bills.",
+     "links": []
+    },
+    {
+     "text": "Costly doctor’s bills.",
+     "html": "Costly doctor’s bills.",
+     "links": []
+    },
+    {
+     "text": "Legal expenses that sap your savings.",
+     "html": "Legal expenses that sap your savings.",
+     "links": []
+    },
+    {
+     "text": "Stealing from or lying to others to gain access to money for drugs.",
+     "html": "Stealing from or lying to others to gain access to money for drugs.",
+     "links": []
+    },
+    {
+     "text": "Being willing to spend anything you have to go be able to again purchase drugs.",
+     "html": "Being willing to spend anything you have to go be able to again purchase drugs.",
+     "links": []
+    },
+    {
+     "text": "Increased conflict at work.",
+     "html": "Increased conflict at work.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Drug Addiction Symptoms: How Drugs Affect Daily Living",
+   "html": "Drug Addiction Symptoms: How Drugs Affect Daily Living",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is, in many ways, a lifestyle disease that affects your ability to function on a daily, and even hourly, basis. Some of the changes in the way you live that you may encounter include:",
+   "html": "Drug addiction is, in many ways, a lifestyle disease that affects your ability to function on a daily, and even hourly, basis. Some of the changes in the way you live that you may encounter include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Legal problems, such as arrest or incarceration.",
+     "html": "Legal problems, such as arrest or incarceration.",
+     "links": []
+    },
+    {
+     "text": "Fear of police, since having drugs on you might mean you get arrested.",
+     "html": "Fear of police, since having drugs on you might mean you get arrested.",
+     "links": []
+    },
+    {
+     "text": "Loss of interest in previously beloved hobbies.",
+     "html": "Loss of interest in previously beloved hobbies.",
+     "links": []
+    },
+    {
+     "text": "Difficulty concentrating or managing your time.",
+     "html": "Difficulty concentrating or managing your time.",
+     "links": []
+    },
+    {
+     "text": "Prioritizing drugs over every other pursuit.",
+     "html": "Prioritizing drugs over every other pursuit.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "With so many symptoms, it might feel impossible to get sober and turn your life around. But we can show you a path to healthy, lasting, happy sobriety. You deserve a better life. We’ll show you how to get there. Contact Addiction Rehab Centres Canada today!",
+   "html": "With so many symptoms, it might feel impossible to get sober and turn your life around. But we can show you a path to healthy, lasting, happy sobriety. You deserve a better life. We’ll show you how to get there. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-08-14T21:06:35+00:00",
+  "modified": "2022-09-12T20:09:24+00:00",
+  "date_label": "August 14, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 700,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"symptoms and signs\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/symptoms-and-signs-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                August 14, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Drug Addiction: Symptoms &amp; Signs    </h1> <p>The cold, hard truth about drug addiction is that if you think you have a drug problem, it’s very likely that you do. Drug addiction symptoms vary from addict to addict, and no two addicts develop drug addiction signs that look exactly alike. Knowing the symptoms of drug addiction, though, can inspire you to get clean before your drug problem completely overtakes your life.</p>\n<h3>Drug Addiction Symptoms: How Drugs Affect Your Health</h3>\n<p>Many drug addicts are surprised to see just how quickly their drug problem undermines their physical or mental health. If you have several of these drug addiction signs, you’re almost certainly an addict:</p>\n<ul>\n<li>You have new or worsening physical or mental health problems since you began using.</li>\n<li>You use drugs because prescription medications are ineffective at treating your symptoms.</li>\n<li>You use a higher dose of prescription drugs than prescribed by your doctor, or you engage in doctor-shopping to get access to more prescription drugs.</li>\n<li>You feel depressed, anxious, or overwhelmed when you try to quit using.</li>\n<li>You use drugs to cope with the physical or psychological effects of a chronic health condition.</li>\n<li>You suffer from physiological or emotional withdrawal symptoms when you attempt to stop using.</li>\n<li>You struggle with chronic pain.</li>\n<li>You’re losing or gaining weight at a rapid rate.</li>\n<li>Your sleeping habits have changed; you either sleep too much or not enough, and you may experience nightmares or panic attacks in the middle of the night.</li>\n<li>Your eating habits have changed; some drug addicts suffer from obesity or malnutrition due to drug-induced changes in food consumption.</li>\n<li>You experience a rapid heart rate.</li>\n<li>You have chronic medical conditions, such as diabetes or fibromyalgia, that didn’t exist prior to the addiction.</li>\n</ul>\n<h3>Drug Addiction Signs: How Drugs Affect Your Relationships</h3>\n<p>For many people with a drug problem, the first drug addiction symptoms come in the form of changed relationships. Many addicts end up losing their marriages or long-term relationships; others find themselves embroiled in near-constant conflict with children, spouses, or parents. Some common ways drugs affect relationships include:</p>\n<ul>\n<li>Neglecting your children or your spouse.</li>\n<li>Increased conflict with loved ones, especially over your drug use.</li>\n<li>Feeling angry with loved ones more frequently.</li>\n<li>Believing that your loved ones are to blame for the problems in your life.</li>\n<li>Demands from loved ones that you seek treatment or get sober.</li>\n<li>Endangering loved ones because of your addiction. For instance, you might drive your children to school while under the influence of drugs, or take your spouse with you to a drug deal.</li>\n<li>Bringing drug dealers or users to your home.</li>\n<li>Having friendships primarily or exclusively with other drug users or dealers.</li>\n<li>Difficulty prioritizing your relationships over drugs.</li>\n<li>Getting more fulfillment out of using drugs than you do in your relationships.</li>\n<li>Changes in libido, or the inability to orgasm or get sexually aroused.</li>\n</ul>\n<h3>Drug Addiction Signs: How Drugs Affect Your Finances</h3>\n<p>Unless you have a very charitable drug dealer, there’s no escaping the fact that drugs cost money. Most drug addicts end up dealing with serious financial problems. Some of the challenges you may experience include:</p>\n<ul>\n<li>Loss of your job.</li>\n<li>Difficulty paying your bills.</li>\n<li>Costly doctor’s bills.</li>\n<li>Legal expenses that sap your savings.</li>\n<li>Stealing from or lying to others to gain access to money for drugs.</li>\n<li>Being willing to spend anything you have to go be able to again purchase drugs.</li>\n<li>Increased conflict at work.</li>\n</ul>\n<h3>Drug Addiction Symptoms: How Drugs Affect Daily Living</h3>\n<p>Drug addiction is, in many ways, a lifestyle disease that affects your ability to function on a daily, and even hourly, basis. Some of the changes in the way you live that you may encounter include:</p>\n<ul>\n<li>Legal problems, such as arrest or incarceration.</li>\n<li>Fear of police, since having drugs on you might mean you get arrested.</li>\n<li>Loss of interest in previously beloved hobbies.</li>\n<li>Difficulty concentrating or managing your time.</li>\n<li>Prioritizing drugs over every other pursuit.</li>\n</ul>\n<p>With so many symptoms, it might feel impossible to get sober and turn your life around. But we can show you a path to healthy, lasting, happy sobriety. You deserve a better life. We’ll show you how to get there. Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

@@ -1,0 +1,2594 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__westminster-house",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/westminster-house/",
+  "path": "/westminster-house/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/westminster-house/",
+ "seo": {
+  "meta_title": "Westminster House - Addiction Rehab Centers",
+  "meta_description": "Westminster House offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/westminster-house/",
+  "og": {
+   "title": "Westminster House - Addiction Rehab Centers",
+   "description": "Westminster House offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-0.png",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/westminster-house/",
+      "url": "https://addictionrehabcenters.ca/westminster-house/",
+      "name": "Westminster House - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/westminster-house/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/westminster-house/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-0.png",
+      "datePublished": "2021-09-28T15:42:54+00:00",
+      "dateModified": "2023-04-26T10:58:01+00:00",
+      "description": "Westminster House offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/westminster-house/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/westminster-house/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/westminster-house/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "Westminster House-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/westminster-house/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Westminster House"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 806,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Addiction Recovery Services"
+  ],
+  [
+   "h3",
+   "Addiction-Free Environment"
+  ],
+  [
+   "h3",
+   "Building Resilience"
+  ],
+  [
+   "h2",
+   "Westminster House - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near British Columbia, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Westminster House"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-1.png",
+   "local_path": "images/centre__westminster-house/Westminster-House-1.png",
+   "alt": "Westminster House-1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-3.png",
+   "local_path": "images/centre__westminster-house/Westminster-House-3.png",
+   "alt": "Westminster House-3",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-2.png",
+   "local_path": "images/centre__westminster-house/Westminster-House-2.png",
+   "alt": "Westminster House-2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "og",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-0.png",
+   "local_path": "images/centre__westminster-house/Westminster-House-0.png",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/british-columbia-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/british-columbia-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "tel:(604) 524-5633",
+   "text": "(604) 524-5633",
+   "kind": "tel",
+   "new": "tel:(604) 524-5633"
+  },
+  {
+   "old_href": "mailto:info@westminsterhouse.ca",
+   "text": "info@westminsterhouse.ca",
+   "kind": "mailto",
+   "new": "mailto:info@westminsterhouse.ca"
+  },
+  {
+   "old_href": "http://www.westminsterhouse.ca",
+   "text": "http://www.westminsterhouse.ca",
+   "kind": "external",
+   "new": "http://www.westminsterhouse.ca"
+  },
+  {
+   "old_href": "https://facebook.com/WomenDoRecover",
+   "text": "",
+   "kind": "external",
+   "new": "https://facebook.com/WomenDoRecover"
+  },
+  {
+   "old_href": "https://twitter.com/WomenDoRecover",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/WomenDoRecover"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services.",
+     "html": "Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Addiction Recovery Services",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.",
+     "html": "The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Addiction-Free Environment",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.",
+     "html": "Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Building Resilience",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.",
+     "html": "At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Westminster House - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.",
+     "html": "Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art & nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle.",
+     "html": "The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art &amp; nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Westminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Westminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near British Columbia, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Westminster House",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "How long is the program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The program is six months long, with an optional four-month Aftercare Program.",
+       "html": "The program is six months long, with an optional four-month Aftercare Program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Is the program only for women?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, it is a gender-specific program for women and youth girls only.",
+       "html": "Yes, it is a gender-specific program for women and youth girls only.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the age limit for the youth girl program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The youth girl program is for girls aged 16-18 years.",
+       "html": "The youth girl program is for girls aged 16-18 years.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How much does it cost to access the program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+       "html": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Can I access the program virtually?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, the program is delivered both residentially and virtually.",
+       "html": "Yes, the program is delivered both residentially and virtually.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Is Westminster House Society licensed?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+       "html": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How can I apply for the program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+       "html": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "(604) 524-5633",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(604) 524-5633\" itemprop=\"url\">(604) 524-5633</a>",
+       "links": [
+        {
+         "old": "tel:(604) 524-5633",
+         "text": "(604) 524-5633"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "info@westminsterhouse.ca",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@westminsterhouse.ca\" itemprop=\"url\">info@westminsterhouse.ca</a>",
+       "links": [
+        {
+         "old": "mailto:info@westminsterhouse.ca",
+         "text": "info@westminsterhouse.ca"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "http://www.westminsterhouse.ca",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.westminsterhouse.ca\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.westminsterhouse.ca</a>",
+       "links": [
+        {
+         "old": "http://www.westminsterhouse.ca",
+         "text": "http://www.westminsterhouse.ca"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "228 Seventh St, New Westminster, BC V3M 3K3, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    228 Seventh St, New Westminster, BC V3M 3K3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:39pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services.",
+   "html": "Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Addiction Recovery Services",
+   "html": "Addiction Recovery Services",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.",
+   "html": "The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Addiction-Free Environment",
+   "html": "Addiction-Free Environment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.",
+   "html": "Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Building Resilience",
+   "html": "Building Resilience",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.",
+   "html": "At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Westminster House - Center Overview",
+   "html": "Westminster House - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.",
+   "html": "Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art & nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle.",
+   "html": "The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art &amp; nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Westminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Westminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near British Columbia, Click here",
+   "html": "If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Westminster House",
+   "html": "Frequently Asked Questions About Westminster House",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "How long is the program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The program is six months long, with an optional four-month Aftercare Program.",
+   "html": "The program is six months long, with an optional four-month Aftercare Program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Is the program only for women?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, it is a gender-specific program for women and youth girls only.",
+   "html": "Yes, it is a gender-specific program for women and youth girls only.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the age limit for the youth girl program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The youth girl program is for girls aged 16-18 years.",
+   "html": "The youth girl program is for girls aged 16-18 years.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How much does it cost to access the program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+   "html": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Can I access the program virtually?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, the program is delivered both residentially and virtually.",
+   "html": "Yes, the program is delivered both residentially and virtually.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Is Westminster House Society licensed?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+   "html": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How can I apply for the program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+   "html": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "(604) 524-5633",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(604) 524-5633\" itemprop=\"url\">(604) 524-5633</a>",
+   "links": [
+    {
+     "old": "tel:(604) 524-5633",
+     "text": "(604) 524-5633"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@westminsterhouse.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@westminsterhouse.ca\" itemprop=\"url\">info@westminsterhouse.ca</a>",
+   "links": [
+    {
+     "old": "mailto:info@westminsterhouse.ca",
+     "text": "info@westminsterhouse.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.westminsterhouse.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.westminsterhouse.ca\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.westminsterhouse.ca</a>",
+   "links": [
+    {
+     "old": "http://www.westminsterhouse.ca",
+     "text": "http://www.westminsterhouse.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "228 Seventh St, New Westminster, BC V3M 3K3, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    228 Seventh St, New Westminster, BC V3M 3K3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:39pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Westminster House",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6519\" data-elementor-id=\"6519\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7ddfde8c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7ddfde8c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ff57088\" data-element_type=\"column\" data-id=\"3ff57088\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-655c1d31 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"655c1d31\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49ca495\" data-element_type=\"column\" data-id=\"49ca495\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-399a6e3f elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"399a6e3f\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services. </p><h3>Addiction Recovery Services</h3><p>The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.</p><h3>Addiction-Free Environment</h3><p>Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.</p><h3>Building Resilience</h3><p>At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.</p><p><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-59ac87b4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"59ac87b4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-18800f20\" data-element_type=\"column\" data-id=\"18800f20\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-26f314f1 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"26f314f1\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-3a249edb elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"3a249edb\" data-settings='{\"youtube_url\":\"https:\\/\\/www.youtube.com\\/watch?v=fNNgsOpiJW0\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1c4bed5a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1c4bed5a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-374f1119\" data-element_type=\"column\" data-id=\"374f1119\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-ee07d26 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"ee07d26\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-3d48b519 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"3d48b519\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Westminster House - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-66a6d7f7 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"66a6d7f7\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.</p><p>The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art &amp; nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle. </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4fe8deb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4fe8deb0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5caf1073\" data-element_type=\"column\" data-id=\"5caf1073\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-72af85bf elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"72af85bf\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-32bce904\" data-element_type=\"column\" data-id=\"32bce904\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-31385692 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"31385692\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-536edced elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"536edced\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-626603e\" data-element_type=\"column\" data-id=\"626603e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-28270d78 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"28270d78\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tWestminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-37039f6e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"37039f6e\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-1f0a8aa elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1f0a8aa\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7e0b536 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7e0b536\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8a7654c\" data-element_type=\"column\" data-id=\"8a7654c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-ed39795 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"ed39795\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4fd55c7c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4fd55c7c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47bccfec\" data-element_type=\"column\" data-id=\"47bccfec\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-78a70701 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"78a70701\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Westminster House</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-408cca5b elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"408cca5b\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1081\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1081\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long is the program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1081\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1081\" role=\"region\"><p>The program is six months long, with an optional four-month Aftercare Program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1082\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1082\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is the program only for women?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1082\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1082\" role=\"region\"><p>Yes, it is a gender-specific program for women and youth girls only.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1083\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1083\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the age limit for the youth girl program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1083\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1083\" role=\"region\"><p>The youth girl program is for girls aged 16-18 years.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1084\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1084\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How much does it cost to access the program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1084\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1084\" role=\"region\"><p>The program has both private and publicly funded options available. The cost varies depending on the program chosen.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1085\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1085\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can I access the program virtually?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1085\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1085\" role=\"region\"><p>Yes, the program is delivered both residentially and virtually.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1086\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1086\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Westminster House Society licensed?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1086\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1086\" role=\"region\"><p>Yes, Westminster House Society is licensed and accredited by Accreditation Canada.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1087\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1087\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How can I apply for the program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1087\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1087\" role=\"region\"><p>You can apply for the program by contacting Westminster House Society through their website or phone.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(604) 524-5633",
+  "email": "info@westminsterhouse.ca",
+  "website": "http://www.westminsterhouse.ca",
+  "address": "228 Seventh St, New Westminster, BC V3M 3K3, Canada",
+  "social": {
+   "facebook": "https://facebook.com/WomenDoRecover",
+   "twitter": "https://twitter.com/WomenDoRecover"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-1.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-1.png",
+    "alt": "Westminster House-1",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-3.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-3.png",
+    "alt": "Westminster House-3",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-2.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Westminster-House-2.png",
+    "alt": "Westminster House-2",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services.",
+    "html": "Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Addiction Recovery Services",
+    "html": "Addiction Recovery Services",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.",
+    "html": "The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Addiction-Free Environment",
+    "html": "Addiction-Free Environment",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.",
+    "html": "Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Building Resilience",
+    "html": "Building Resilience",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.",
+    "html": "At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=fNNgsOpiJW0",
+    "id": "fNNgsOpiJW0"
+   },
+   {
+    "type": "h2",
+    "text": "Westminster House - Center Overview",
+    "html": "Westminster House - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.",
+    "html": "Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art & nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle.",
+    "html": "The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art &amp; nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Westminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Westminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near British Columbia, Click here",
+    "html": "If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Westminster House",
+  "faqs": [
+   {
+    "question": "How long is the program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The program is six months long, with an optional four-month Aftercare Program.",
+      "html": "The program is six months long, with an optional four-month Aftercare Program.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The program is six months long, with an optional four-month Aftercare Program."
+   },
+   {
+    "question": "Is the program only for women?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, it is a gender-specific program for women and youth girls only.",
+      "html": "Yes, it is a gender-specific program for women and youth girls only.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, it is a gender-specific program for women and youth girls only."
+   },
+   {
+    "question": "What is the age limit for the youth girl program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The youth girl program is for girls aged 16-18 years.",
+      "html": "The youth girl program is for girls aged 16-18 years.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The youth girl program is for girls aged 16-18 years."
+   },
+   {
+    "question": "How much does it cost to access the program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+      "html": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The program has both private and publicly funded options available. The cost varies depending on the program chosen."
+   },
+   {
+    "question": "Can I access the program virtually?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, the program is delivered both residentially and virtually.",
+      "html": "Yes, the program is delivered both residentially and virtually.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, the program is delivered both residentially and virtually."
+   },
+   {
+    "question": "Is Westminster House Society licensed?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+      "html": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada."
+   },
+   {
+    "question": "How can I apply for the program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+      "html": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "You can apply for the program by contacting Westminster House Society through their website or phone."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(604) 524-5633",
+  "phone_href": "tel:(604) 524-5633",
+  "website_text": "http://www.westminsterhouse.ca",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "How long is the program?",
+   "answer_text": "The program is six months long, with an optional four-month Aftercare Program.",
+   "answer_html": "<p>The program is six months long, with an optional four-month Aftercare Program.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Is the program only for women?",
+   "answer_text": "Yes, it is a gender-specific program for women and youth girls only.",
+   "answer_html": "<p>Yes, it is a gender-specific program for women and youth girls only.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the age limit for the youth girl program?",
+   "answer_text": "The youth girl program is for girls aged 16-18 years.",
+   "answer_html": "<p>The youth girl program is for girls aged 16-18 years.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How much does it cost to access the program?",
+   "answer_text": "The program has both private and publicly funded options available. The cost varies depending on the program chosen.",
+   "answer_html": "<p>The program has both private and publicly funded options available. The cost varies depending on the program chosen.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Can I access the program virtually?",
+   "answer_text": "Yes, the program is delivered both residentially and virtually.",
+   "answer_html": "<p>Yes, the program is delivered both residentially and virtually.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Is Westminster House Society licensed?",
+   "answer_text": "Yes, Westminster House Society is licensed and accredited by Accreditation Canada.",
+   "answer_html": "<p>Yes, Westminster House Society is licensed and accredited by Accreditation Canada.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How can I apply for the program?",
+   "answer_text": "You can apply for the program by contacting Westminster House Society through their website or phone.",
+   "answer_html": "<p>You can apply for the program by contacting Westminster House Society through their website or phone.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6519\" data-elementor-id=\"6519\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7ddfde8c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7ddfde8c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ff57088\" data-element_type=\"column\" data-id=\"3ff57088\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-655c1d31 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"655c1d31\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49ca495\" data-element_type=\"column\" data-id=\"49ca495\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-399a6e3f elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"399a6e3f\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Westminster House Society is a trauma-informed, gender-specific addiction recovery program that has been serving women and youth girls since 1981. The program utilizes the biopsychosocial model and complemented by cognitive behavioural therapy, introspective writing, and motivational interviewing to provide a broad range of services to the clients. The treatment services are delivered both residentially and virtually to ensure that women from Western Canada and beyond can access the services. </p><h3>Addiction Recovery Services</h3><p>The society offers addiction recovery services for youth girls, adult women, and their families. Westminster House is a non-profit charity organization that employs the best-cost strategy to provide upscale, multidisciplinary, and community-based services to provide a high value of service at an affordable price. The program has both private and publicly funded options available. Through Facebook, interested parties can learn more and see the successes.</p><h3>Addiction-Free Environment</h3><p>Westminster House is an addiction-free environment and supports women to permanently stop using substances, including nicotine, alcohol, and prescription and illicit drugs and process addictions. The program is regarded as one of Vancouver’s best drug rehab centres due to their approach to helping women overcome their addictions with the use of holistic treatment.</p><h3>Building Resilience</h3><p>At Westminster House, the goal is not only to facilitate addiction recovery but also to help women build resilience so that they may overcome the effects of trauma and addiction and reclaim their lives in their treatment centre in Vancouver. The approach adopted by Westminster House is effective as evidenced by the success stories that many women who have graduated have shared.</p><p><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-59ac87b4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"59ac87b4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-18800f20\" data-element_type=\"column\" data-id=\"18800f20\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-26f314f1 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"26f314f1\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-3a249edb elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"3a249edb\" data-settings='{\"youtube_url\":\"https:\\/\\/www.youtube.com\\/watch?v=fNNgsOpiJW0\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1c4bed5a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1c4bed5a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-374f1119\" data-element_type=\"column\" data-id=\"374f1119\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-ee07d26 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"ee07d26\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-3d48b519 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"3d48b519\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Westminster House - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-66a6d7f7 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"66a6d7f7\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Westminster House is a residential drug rehab center offering evidence-based practices and holistic therapies to female adults who are recovering from addiction. The center has been providing a safe and supportive environment for women for over three decades and is one of the few residential recovery centers in British Columbia. With its personalized “holistic” recovery model and principles from the 12-step approach, Westminster House is dedicated to empowering women to take responsibility for their ongoing recovery process.</p><p>The center’s recovery program provides clients with the necessary tools to overcome addiction and trust their own ability to reclaim a drug-free existence. Westminster House strongly encourages family members to participate in educational meetings, self-help programs, and other therapeutic activities to enhance healing and promote lasting recovery. The center offers amenities such as 12 step programs, substance abuse treatment, residential drug rehab, and a variety of therapies including holistic, evidence-based practices, yoga, meditation, and art &amp; nature therapy. The highly qualified staff is committed to supporting clients in their journey towards a fulfilling and healthy lifestyle. </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4fe8deb0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4fe8deb0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5caf1073\" data-element_type=\"column\" data-id=\"5caf1073\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-72af85bf elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"72af85bf\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-32bce904\" data-element_type=\"column\" data-id=\"32bce904\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-31385692 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"31385692\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-536edced elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"536edced\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-626603e\" data-element_type=\"column\" data-id=\"626603e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-28270d78 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"28270d78\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tWestminster House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-37039f6e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"37039f6e\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-1f0a8aa elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1f0a8aa\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7e0b536 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7e0b536\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-8a7654c\" data-element_type=\"column\" data-id=\"8a7654c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-ed39795 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"ed39795\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4fd55c7c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4fd55c7c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-47bccfec\" data-element_type=\"column\" data-id=\"47bccfec\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-78a70701 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"78a70701\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Westminster House</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-408cca5b elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"408cca5b\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1081\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1081\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long is the program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1081\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1081\" role=\"region\"><p>The program is six months long, with an optional four-month Aftercare Program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1082\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1082\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is the program only for women?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1082\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1082\" role=\"region\"><p>Yes, it is a gender-specific program for women and youth girls only.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1083\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1083\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the age limit for the youth girl program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1083\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1083\" role=\"region\"><p>The youth girl program is for girls aged 16-18 years.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1084\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1084\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How much does it cost to access the program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1084\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1084\" role=\"region\"><p>The program has both private and publicly funded options available. The cost varies depending on the program chosen.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1085\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1085\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can I access the program virtually?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1085\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1085\" role=\"region\"><p>Yes, the program is delivered both residentially and virtually.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1086\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1086\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Westminster House Society licensed?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1086\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1086\" role=\"region\"><p>Yes, Westminster House Society is licensed and accredited by Accreditation Canada.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1087\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1087\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How can I apply for the program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1087\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1087\" role=\"region\"><p>You can apply for the program by contacting Westminster House Society through their website or phone.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(604) 524-5633\" itemprop=\"url\">(604) 524-5633</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@westminsterhouse.ca\" itemprop=\"url\">info@westminsterhouse.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.westminsterhouse.ca\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.westminsterhouse.ca</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    228 Seventh St, New Westminster, BC V3M 3K3, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:39pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://facebook.com/WomenDoRecover\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/WomenDoRecover\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

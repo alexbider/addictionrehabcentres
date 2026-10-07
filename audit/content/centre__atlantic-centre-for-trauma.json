@@ -1,0 +1,2541 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__atlantic-centre-for-trauma",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+  "path": "/atlantic-centre-for-trauma/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/atlantic-centre-for-trauma/",
+ "seo": {
+  "meta_title": "Atlantic Centre for Trauma - Addiction Rehab Centers",
+  "meta_description": "Atlantic Centre for Trauma offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+  "og": {
+   "title": "Atlantic Centre for Trauma - Addiction Rehab Centers",
+   "description": "Atlantic Centre for Trauma offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+      "url": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+      "name": "Atlantic Centre for Trauma - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+      "datePublished": "2023-05-08T12:32:07+00:00",
+      "dateModified": "2023-05-08T14:35:28+00:00",
+      "description": "Atlantic Centre for Trauma offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+      "width": 700,
+      "height": 467
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Atlantic Centre for Trauma"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 907,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Treatment Opportunities"
+  ],
+  [
+   "h3",
+   "Trauma-specific & Family Program"
+  ],
+  [
+   "h3",
+   "Aftercare and Alumni Network"
+  ],
+  [
+   "h2",
+   "Atlantic Centre for Trauma - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Atlantic Centre for Trauma"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma5.webp",
+   "local_path": "images/centre__atlantic-centre-for-trauma/Atlantic-Centre-for-Trauma5.webp",
+   "alt": "",
+   "width": 700,
+   "height": 467,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma4.webp",
+   "local_path": "images/centre__atlantic-centre-for-trauma/Atlantic-Centre-for-Trauma4.webp",
+   "alt": "",
+   "width": 700,
+   "height": 467,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma3.webp",
+   "local_path": "images/centre__atlantic-centre-for-trauma/Atlantic-Centre-for-Trauma3.webp",
+   "alt": "",
+   "width": 700,
+   "height": 467,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma2.webp",
+   "local_path": "images/centre__atlantic-centre-for-trauma/Atlantic-Centre-for-Trauma2.webp",
+   "alt": "",
+   "width": 700,
+   "height": 467,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+   "local_path": "images/centre__atlantic-centre-for-trauma/Atlantic-Centre-for-Trauma1.webp",
+   "alt": "",
+   "width": 700,
+   "height": 467,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:902-909-2320",
+   "text": "902-909-2320",
+   "kind": "tel",
+   "new": "tel:902-909-2320"
+  },
+  {
+   "old_href": "https://www.edgewoodhealthnetwork.com/",
+   "text": "https://www.edgewoodhealthnetwork.com/",
+   "kind": "external",
+   "new": "https://www.edgewoodhealthnetwork.com/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.",
+     "html": "Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Treatment Opportunities",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.",
+     "html": "The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Trauma-specific & Family Program",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.",
+     "html": "Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Aftercare and Alumni Network",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.",
+     "html": "Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Atlantic Centre for Trauma - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.",
+     "html": "The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.",
+     "html": "In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Atlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Atlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Atlantic Centre for Trauma",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "Is Atlantic Centre for Trauma only for military members and first responders?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+       "html": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the length of the treatment program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+       "html": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the cost of treatment at Atlantic Centre for Trauma?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+       "html": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Does Atlantic Centre for Trauma provide outpatient services?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+       "html": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Are visitors allowed during the patient's stay?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, visitors are allowed during scheduled visiting hours.",
+       "html": "Yes, visitors are allowed during scheduled visiting hours.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Will family members be involved in the patient's treatment program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+       "html": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "902-909-2320",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:902-909-2320\" itemprop=\"url\">902-909-2320</a>",
+         "links": [
+          {
+           "old": "tel:902-909-2320",
+           "text": "902-909-2320"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://www.edgewoodhealthnetwork.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.edgewoodhealthnetwork.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.edgewoodhealthnetwork.com/</a>",
+         "links": [
+          {
+           "old": "https://www.edgewoodhealthnetwork.com/",
+           "text": "https://www.edgewoodhealthnetwork.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:41pm"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.",
+   "html": "Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Opportunities",
+   "html": "Treatment Opportunities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.",
+   "html": "The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Trauma-specific & Family Program",
+   "html": "Trauma-specific &amp; Family Program",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.",
+   "html": "Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare and Alumni Network",
+   "html": "Aftercare and Alumni Network",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.",
+   "html": "Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Atlantic Centre for Trauma - Center Overview",
+   "html": "Atlantic Centre for Trauma - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.",
+   "html": "The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.",
+   "html": "In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Atlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Atlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Atlantic Centre for Trauma",
+   "html": "Frequently Asked Questions About Atlantic Centre for Trauma",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "Is Atlantic Centre for Trauma only for military members and first responders?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+   "html": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the length of the treatment program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+   "html": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the cost of treatment at Atlantic Centre for Trauma?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+   "html": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Does Atlantic Centre for Trauma provide outpatient services?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+   "html": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Are visitors allowed during the patient's stay?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, visitors are allowed during scheduled visiting hours.",
+   "html": "Yes, visitors are allowed during scheduled visiting hours.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Will family members be involved in the patient's treatment program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+   "html": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "902-909-2320",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:902-909-2320\" itemprop=\"url\">902-909-2320</a>",
+   "links": [
+    {
+     "old": "tel:902-909-2320",
+     "text": "902-909-2320"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://www.edgewoodhealthnetwork.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.edgewoodhealthnetwork.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.edgewoodhealthnetwork.com/</a>",
+   "links": [
+    {
+     "old": "https://www.edgewoodhealthnetwork.com/",
+     "text": "https://www.edgewoodhealthnetwork.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:41pm"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Atlantic Centre for Trauma",
+  "categories": [
+   "Nova Scotia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-15975\" data-elementor-id=\"15975\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-42b0fcfb elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"42b0fcfb\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6038b9df\" data-element_type=\"column\" data-id=\"6038b9df\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7df59830 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7df59830\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-24994ae9\" data-element_type=\"column\" data-id=\"24994ae9\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-774ad6ac elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"774ad6ac\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.</p><h3>Treatment Opportunities</h3><p>The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.</p><h3>Trauma-specific &amp; Family Program</h3><p>Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.</p><h3>Aftercare and Alumni Network</h3><p>Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.</p><p><br/><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-96fb9c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"96fb9c9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2bec79fb\" data-element_type=\"column\" data-id=\"2bec79fb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-dbf029e elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"dbf029e\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-5d252245 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"5d252245\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/8ufulz9NGeI\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-204c0dba elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"204c0dba\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-62bb4032\" data-element_type=\"column\" data-id=\"62bb4032\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7f5eae86 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7f5eae86\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-36963123 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"36963123\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Atlantic Centre for Trauma - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-21fa0be8 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"21fa0be8\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.</p><p>In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2641805a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2641805a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-23528332\" data-element_type=\"column\" data-id=\"23528332\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6feafa1c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6feafa1c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7be3ee30\" data-element_type=\"column\" data-id=\"7be3ee30\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5edd4a2c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5edd4a2c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-23ffa116 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"23ffa116\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6306205a\" data-element_type=\"column\" data-id=\"6306205a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-66a2dbe elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"66a2dbe\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tAtlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-8caa8a3 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"8caa8a3\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-71c13ee6 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"71c13ee6\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-319ba34c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"319ba34c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3abfbb4\" data-element_type=\"column\" data-id=\"3abfbb4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6c1b3c82 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6c1b3c82\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-643dbb22 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"643dbb22\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17622455\" data-element_type=\"column\" data-id=\"17622455\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-663bf22f elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"663bf22f\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Atlantic Centre for Trauma</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-6e3bece3 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"6e3bece3\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1841\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1841\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Atlantic Centre for Trauma only for military members and first responders?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1841\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1841\" role=\"region\"><p>No, Atlantic Centre for Trauma accepts patients from all walks of life.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1842\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1842\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the length of the treatment program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1842\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1842\" role=\"region\"><p>The length of the treatment program varies depending on the patient’s needs and severity of the condition.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1843\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1843\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the cost of treatment at Atlantic Centre for Trauma?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1843\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1843\" role=\"region\"><p>The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1844\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1844\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does Atlantic Centre for Trauma provide outpatient services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1844\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1844\" role=\"region\"><p>Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1845\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1845\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are visitors allowed during the patient's stay?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1845\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1845\" role=\"region\"><p>Yes, visitors are allowed during scheduled visiting hours.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1846\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1846\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Will family members be involved in the patient's treatment program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1846\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1846\" role=\"region\"><p>Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "902-909-2320",
+  "email": "",
+  "website": "https://www.edgewoodhealthnetwork.com/",
+  "address": "201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada",
+  "social": {},
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma5.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma5.webp",
+    "alt": "",
+    "width": "700",
+    "height": "467"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma4.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma4.webp",
+    "alt": "",
+    "width": "700",
+    "height": "467"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma3.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma3.webp",
+    "alt": "",
+    "width": "700",
+    "height": "467"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma2.webp",
+    "alt": "",
+    "width": "700",
+    "height": "467"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp",
+    "alt": "",
+    "width": "700",
+    "height": "467"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.",
+    "html": "Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Opportunities",
+    "html": "Treatment Opportunities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.",
+    "html": "The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Trauma-specific & Family Program",
+    "html": "Trauma-specific &amp; Family Program",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.",
+    "html": "Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare and Alumni Network",
+    "html": "Aftercare and Alumni Network",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.",
+    "html": "Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://youtu.be/8ufulz9NGeI",
+    "id": "8ufulz9NGeI"
+   },
+   {
+    "type": "h2",
+    "text": "Atlantic Centre for Trauma - Center Overview",
+    "html": "Atlantic Centre for Trauma - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.",
+    "html": "The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.",
+    "html": "In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Atlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Atlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Atlantic Centre for Trauma",
+  "faqs": [
+   {
+    "question": "Is Atlantic Centre for Trauma only for military members and first responders?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+      "html": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "No, Atlantic Centre for Trauma accepts patients from all walks of life."
+   },
+   {
+    "question": "What is the length of the treatment program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+      "html": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The length of the treatment program varies depending on the patient’s needs and severity of the condition."
+   },
+   {
+    "question": "What is the cost of treatment at Atlantic Centre for Trauma?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+      "html": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable."
+   },
+   {
+    "question": "Does Atlantic Centre for Trauma provide outpatient services?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+      "html": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program."
+   },
+   {
+    "question": "Are visitors allowed during the patient's stay?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, visitors are allowed during scheduled visiting hours.",
+      "html": "Yes, visitors are allowed during scheduled visiting hours.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, visitors are allowed during scheduled visiting hours."
+   },
+   {
+    "question": "Will family members be involved in the patient's treatment program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+      "html": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "902-909-2320",
+  "phone_href": "tel:902-909-2320",
+  "website_text": "https://www.edgewoodhealthnetwork.com/",
+  "social_title": "",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "Is Atlantic Centre for Trauma only for military members and first responders?",
+   "answer_text": "No, Atlantic Centre for Trauma accepts patients from all walks of life.",
+   "answer_html": "<p>No, Atlantic Centre for Trauma accepts patients from all walks of life.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the length of the treatment program?",
+   "answer_text": "The length of the treatment program varies depending on the patient’s needs and severity of the condition.",
+   "answer_html": "<p>The length of the treatment program varies depending on the patient’s needs and severity of the condition.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the cost of treatment at Atlantic Centre for Trauma?",
+   "answer_text": "The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.",
+   "answer_html": "<p>The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Does Atlantic Centre for Trauma provide outpatient services?",
+   "answer_text": "Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.",
+   "answer_html": "<p>Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Are visitors allowed during the patient's stay?",
+   "answer_text": "Yes, visitors are allowed during scheduled visiting hours.",
+   "answer_html": "<p>Yes, visitors are allowed during scheduled visiting hours.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Will family members be involved in the patient's treatment program?",
+   "answer_text": "Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.",
+   "answer_html": "<p>Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-15975\" data-elementor-id=\"15975\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-42b0fcfb elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"42b0fcfb\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6038b9df\" data-element_type=\"column\" data-id=\"6038b9df\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7df59830 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7df59830\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-24994ae9\" data-element_type=\"column\" data-id=\"24994ae9\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-774ad6ac elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"774ad6ac\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Atlantic Centre for Trauma is dedicated to providing addiction and trauma recovery to military members and first responders. They understand that these professions place individuals at a unique risk of experiencing trauma and its effects. Atlantic Centre for Trauma’s inpatient facility, located in beautiful Nova Scotia, provides a peaceful and calming setting for recovery. The facility offers alcohol and drug recovery and care for co-occurring conditions with special tracks for family care and trauma-specific programs. Patients are given a secure, comfortable, and warm environment to help them recover. The campus is surrounded by nature and offers a fully equipped gym, lovely hiking routes, and freshly prepared, regionally inspired meals.</p><h3>Treatment Opportunities</h3><p>The Atlantic Centre for Trauma provides a range of therapeutic interventions that address various mental health conditions. Some of these interventions include Cognitive Processing Therapy (CPT), Cognitive Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), Eye Movement Desensitization and Reprocessing (EMDR), and art therapy. These interventions take place in an individual or small-group treatment setting. In addition, the Atlantic Centre for Trauma offers integrated therapies including yoga, meditation, physical exercise, healthy eating, and good sleep habits. The facility also provides specialized treatments such as Repetitive Transcranial Magnetic Stimulation (rTMS) and Ketamine Therapy.</p><h3>Trauma-specific &amp; Family Program</h3><p>Atlantic Centre for Trauma offers specialized services to treat PTSD, mood disorders, sexual trauma, and chronic pain, with or without co-occurring substance use disorders. Patients receive a comprehensive treatment program that includes detox, stabilization, psychoeducation, skill-building, and relapse prevention. The facility also offers family programs that aim to educate family members about the patient’s condition, provide them with tools for coping, and encourage healing together.</p><h3>Aftercare and Alumni Network</h3><p>Atlantic Centre for Trauma’s aftercare program is designed to provide ongoing support to patients even after they have completed their treatment program. All qualified patients who finish therapy are given one year of aftercare. Additionally, the facility’s lifetime alumni network, Thrive, is available to provide patients with a supportive community of individuals who have completed the same journey towards recovery.</p><p><br/><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-96fb9c9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"96fb9c9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2bec79fb\" data-element_type=\"column\" data-id=\"2bec79fb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-dbf029e elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"dbf029e\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-5d252245 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"5d252245\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/8ufulz9NGeI\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-204c0dba elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"204c0dba\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-62bb4032\" data-element_type=\"column\" data-id=\"62bb4032\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7f5eae86 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7f5eae86\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-36963123 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"36963123\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Atlantic Centre for Trauma - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-21fa0be8 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"21fa0be8\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>The Atlantic Centre for Trauma is a leading rehab center that offers a peaceful and welcoming environment for individuals struggling with addiction and trauma. Located in the beautiful Annapolis Valley of Nova Scotia, the center provides a comfortable and secure space for patients to begin their journey towards recovery. With homey bedrooms, delicious homestyle meals made with local ingredients, and inviting common spaces, patients feel like they are part of a supportive community rather than a clinical institution.</p><p>In addition to the comfortable accommodations, patients have access to state-of-the-art facilities that promote physical and mental wellness during their recovery. The center offers access to both on-site and off-site gyms, as well as local trails and paths that provide the perfect setting for exercise and meditation. Patients can also enjoy the serene surroundings and find peace and tranquillity to aid in their healing journey. Overall, the Atlantic Centre for Trauma is a great option for those looking for a rehab center that promotes recovery in a safe, welcoming, and supportive environment.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2641805a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2641805a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-23528332\" data-element_type=\"column\" data-id=\"23528332\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6feafa1c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6feafa1c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7be3ee30\" data-element_type=\"column\" data-id=\"7be3ee30\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5edd4a2c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5edd4a2c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-23ffa116 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"23ffa116\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6306205a\" data-element_type=\"column\" data-id=\"6306205a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-66a2dbe elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"66a2dbe\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tAtlantic Centre for Trauma has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-8caa8a3 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"8caa8a3\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-71c13ee6 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"71c13ee6\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-319ba34c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"319ba34c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3abfbb4\" data-element_type=\"column\" data-id=\"3abfbb4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6c1b3c82 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6c1b3c82\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-643dbb22 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"643dbb22\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-17622455\" data-element_type=\"column\" data-id=\"17622455\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-663bf22f elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"663bf22f\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Atlantic Centre for Trauma</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-6e3bece3 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"6e3bece3\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1841\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1841\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Atlantic Centre for Trauma only for military members and first responders?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1841\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1841\" role=\"region\"><p>No, Atlantic Centre for Trauma accepts patients from all walks of life.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1842\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1842\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the length of the treatment program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1842\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1842\" role=\"region\"><p>The length of the treatment program varies depending on the patient’s needs and severity of the condition.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1843\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1843\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the cost of treatment at Atlantic Centre for Trauma?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1843\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1843\" role=\"region\"><p>The cost of treatment varies depending on the level of care required and the length of stay. Insurance coverage may also be applicable.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1844\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1844\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does Atlantic Centre for Trauma provide outpatient services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1844\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1844\" role=\"region\"><p>Yes, Atlantic Centre for Trauma provides outpatient services for patients who have completed their inpatient program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1845\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1845\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are visitors allowed during the patient's stay?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1845\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1845\" role=\"region\"><p>Yes, visitors are allowed during scheduled visiting hours.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1846\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1846\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Will family members be involved in the patient's treatment program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1846\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1846\" role=\"region\"><p>Yes, family members are encouraged to participate in family programs that educate them about the patient’s condition and provide them with tools for coping.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:902-909-2320\" itemprop=\"url\">902-909-2320</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.edgewoodhealthnetwork.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.edgewoodhealthnetwork.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada\t                </p>\n</div>\n<div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:41pm</span>\n</div>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

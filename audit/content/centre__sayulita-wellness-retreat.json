@@ -1,0 +1,2283 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__sayulita-wellness-retreat",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/",
+  "path": "/sayulita-wellness-retreat/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/sayulita-wellness-retreat/",
+ "seo": {
+  "meta_title": "Sayulita Wellness Retreat - Addiction Rehab Centers",
+  "meta_description": "Sayulita Wellness Retreat in Nayarit, Mexico offers holistic healing, Ibogaine programs, and restorative wellness experiences in a peaceful coastal setting.",
+  "canonical_source": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/",
+  "og": {
+   "title": "Sayulita Wellness Retreat - Addiction Rehab Centers",
+   "description": "Sayulita Wellness Retreat in Nayarit, Mexico offers holistic healing, Ibogaine programs, and restorative wellness experiences in a peaceful coastal setting.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/",
+      "url": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/",
+      "name": "Sayulita Wellness Retreat - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+      "datePublished": "2025-11-26T22:15:59+00:00",
+      "dateModified": "2025-11-27T14:33:39+00:00",
+      "description": "Sayulita Wellness Retreat in Nayarit, Mexico offers holistic healing, Ibogaine programs, and restorative wellness experiences in a peaceful coastal setting.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/sayulita-wellness-retreat/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+      "width": 500,
+      "height": 375,
+      "caption": "Sayulita Wellness Retreat"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/sayulita-wellness-retreat/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Sayulita Wellness Retreat"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is the philosophy of Metamorphosis Centre for Change?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How safe is Ibogaine treatment at the retreat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What types of programs are offered?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Who is a good fit for the retreat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is included in the cost of a retreat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 985,
+ "features": [
+  "table",
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "A Place To Restore Your Mind & Body"
+  ],
+  [
+   "h2",
+   "Why Choose Sayulita Wellness Retreat"
+  ],
+  [
+   "h2",
+   "What You Will Find Here"
+  ],
+  [
+   "h3",
+   "Thoughtfully Designed Programs"
+  ],
+  [
+   "h3",
+   "A Setting That Encourages Healing"
+  ],
+  [
+   "h3",
+   "Support That Continues"
+  ],
+  [
+   "h2",
+   "Treatment & Care Options"
+  ],
+  [
+   "h3",
+   "Specializations"
+  ],
+  [
+   "h3",
+   "Who We Treat"
+  ],
+  [
+   "h3",
+   "Approaches"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Conditions We Treat"
+  ],
+  [
+   "h3",
+   "Substances We Treat"
+  ],
+  [
+   "h2",
+   "Pricing and Program Length"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Sayulita Wellness Retreat"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/m1upmglmkdrpm39kpy4h.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 375,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/mkyvz5w0cbwerenpvqhw.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/mkyvz5w0cbwerenpvqhw.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/oodvicntmxkb289cgxh5.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/oodvicntmxkb289cgxh5.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/rcpm9ilab3iufbegqrul.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/rcpm9ilab3iufbegqrul.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/scmuih1mctq9veqnmsnr.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/scmuih1mctq9veqnmsnr.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/tawluo8aqb79vqsg9fqs.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/tawluo8aqb79vqsg9fqs.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/vkhqdmvthpkykngy68bt.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/vkhqdmvthpkykngy68bt.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/wtydnmd1yblgpcorfd7x.jpg",
+   "local_path": "images/centre__sayulita-wellness-retreat/wtydnmd1yblgpcorfd7x.jpg",
+   "alt": "Sayulita Wellness Retreat",
+   "width": 500,
+   "height": 333,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/retreat/",
+   "text": "Retreat",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/retreat/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/wellness/",
+   "text": "Wellness",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/wellness/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:1-833-700-1002",
+   "text": "1-833-700-1002",
+   "kind": "tel",
+   "new": "tel:1-833-700-1002"
+  },
+  {
+   "old_href": "mailto: info@sayulitawellnessretreat.com",
+   "text": "info@sayulitawellnessretreat.com",
+   "kind": "mailto",
+   "new": "mailto: info@sayulitawellnessretreat.com"
+  },
+  {
+   "old_href": "https://sayulitawellnessretreat.com",
+   "text": "https://sayulitawellnessretreat.com",
+   "kind": "external",
+   "new": "https://sayulitawellnessretreat.com"
+  },
+  {
+   "old_href": "https://www.facebook.com/groups/sayulitawellnessretreat",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/groups/sayulitawellnessretreat"
+  },
+  {
+   "old_href": "https://www.instagram.com/sayulitamushroomretreat/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/sayulitamushroomretreat/"
+  },
+  {
+   "old_href": "https://www.youtube.com/@sayulitawellnessretreat",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.youtube.com/@sayulitawellnessretreat"
+  },
+  {
+   "old_href": "https://www.pinterest.com/SayulitaWellnessRetreat/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.pinterest.com/SayulitaWellnessRetreat/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 2,
+   "heading": "A Place To Restore Your Mind & Body",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At Sayulita Wellness Retreat, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.",
+     "html": "There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span>, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.",
+     "html": "Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Why Choose Sayulita Wellness Retreat",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Choosing a Sayulita Wellness Retreat is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.",
+     "html": "Choosing a <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span> is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.",
+     "html": "Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.",
+     "html": "We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "What You Will Find Here",
+   "blocks": [],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Thoughtfully Designed Programs",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Every program is shaped to support long term wellness rather than quick fixes. These plans may involve holistic therapies, detox support, mindfulness sessions, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.",
+       "html": "Every program is shaped to support long term wellness rather than quick fixes. These plans may involve <span class=\"s2\"><b>holistic therapies</b></span>, <span class=\"s2\"><b>detox support</b></span>, <span class=\"s2\"><b>mindfulness sessions</b></span>, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "A Setting That Encourages Healing",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.",
+       "html": "Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Support That Continues",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Recovery does not stop the moment you leave. We offer aftercare resources and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.",
+       "html": "Recovery does not stop the moment you leave. We offer <span class=\"s2\"><b>aftercare resources </b></span>and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Treatment & Care Options",
+   "blocks": [],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Specializations",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Coastal",
+         "html": "Coastal",
+         "links": []
+        },
+        {
+         "text": "Couples",
+         "html": "Couples",
+         "links": []
+        },
+        {
+         "text": "Wellness focus on physical, mental, and spiritual wellness with natural remedies",
+         "html": "Wellness  focus on physical, mental, and spiritual wellness with natural remedies",
+         "links": []
+        },
+        {
+         "text": "Ibogaine Treatment may help reduce withdrawal discomfort and cravings, especially for opioid use",
+         "html": "Ibogaine Treatment  may help reduce withdrawal discomfort and cravings, especially for opioid use",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Who We Treat",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Men and Women",
+         "html": "Men and Women",
+         "links": []
+        },
+        {
+         "text": "Men",
+         "html": "Men",
+         "links": []
+        },
+        {
+         "text": "Women",
+         "html": "Women",
+         "links": []
+        },
+        {
+         "text": "Couples",
+         "html": "Couples",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Approaches",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Experiential expressive, hands on therapies that support emotional processing",
+         "html": "Experiential  expressive, hands on therapies that support emotional processing",
+         "links": []
+        },
+        {
+         "text": "Ibogaine Assisted Therapy",
+         "html": "Ibogaine Assisted Therapy",
+         "links": []
+        },
+        {
+         "text": "Holistic non medicinal, wellness focused care for mind, body, and spirit",
+         "html": "Holistic  non medicinal, wellness focused care for mind, body, and spirit",
+         "links": []
+        },
+        {
+         "text": "Wellness natural practices to restore balance and overall wellbeing",
+         "html": "Wellness  natural practices to restore balance and overall wellbeing",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Group Therapy",
+         "html": "Group Therapy",
+         "links": []
+        },
+        {
+         "text": "1 on 1 Counseling",
+         "html": "1 on 1 Counseling",
+         "links": []
+        },
+        {
+         "text": "Equine Therapy",
+         "html": "Equine Therapy",
+         "links": []
+        },
+        {
+         "text": "Somatic Experiencing",
+         "html": "Somatic Experiencing",
+         "links": []
+        },
+        {
+         "text": "Meditation and Mindfulness",
+         "html": "Meditation and Mindfulness",
+         "links": []
+        },
+        {
+         "text": "Sound Therapy",
+         "html": "Sound Therapy",
+         "links": []
+        },
+        {
+         "text": "Life Skills",
+         "html": "Life Skills",
+         "links": []
+        },
+        {
+         "text": "Hypnotherapy",
+         "html": "Hypnotherapy",
+         "links": []
+        },
+        {
+         "text": "Massage Therapy",
+         "html": "Massage Therapy",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions We Treat",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Post Traumatic Stress Disorder (PTSD)",
+         "html": "Post Traumatic Stress Disorder (PTSD)",
+         "links": []
+        },
+        {
+         "text": "Anxiety",
+         "html": "Anxiety",
+         "links": []
+        },
+        {
+         "text": "Depression",
+         "html": "Depression",
+         "links": []
+        },
+        {
+         "text": "Stress",
+         "html": "Stress",
+         "links": []
+        },
+        {
+         "text": "Trauma",
+         "html": "Trauma",
+         "links": []
+        },
+        {
+         "text": "Anger",
+         "html": "Anger",
+         "links": []
+        },
+        {
+         "text": "Burnout",
+         "html": "Burnout",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Substances We Treat",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Nicotine",
+         "html": "Nicotine",
+         "links": []
+        },
+        {
+         "text": "Alcohol",
+         "html": "Alcohol",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Pricing and Program Length",
+   "blocks": [
+    {
+     "type": "table",
+     "text": "Program Price 3 Days To Discover Yourself Experience $3,000 3-Day Couples All-Inclusive Group Retreat $3,000 4-Day All-Inclusive Retreat $4,997 4-Day Couples All-Inclusive Group Retreat $5,997 7-Day All-Inclusive Retreat $7,997 5-Day Ibogaine Retreat $7,997 7-Day Couples All-Inclusive Group Retreat $8,997 4-Day Couples All-Inclusive Private Retreat $9,997 7-Day Ibogaine Retreat $11,997 7-Day Couples All-Inclusive Private Retreat $14,997 7-Day All-Inclusive Platinum Retreat $14,997",
+     "html": "<table class=\"pricing-table\">\n<thead>\n<tr>\n<th>Program</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3 Days To Discover Yourself Experience</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>3-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>4-Day All-Inclusive Retreat</td>\n<td class=\"price\">$4,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$5,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>5-Day Ibogaine Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$8,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$9,997</td>\n</tr>\n<tr>\n<td>7-Day Ibogaine Retreat</td>\n<td class=\"price\">$11,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Platinum Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n</tbody>\n</table>"
+    },
+    {
+     "type": "text",
+     "text": "Estimated program costs range from"
+    },
+    {
+     "type": "text",
+     "text": "$3,000 to $14,997"
+    },
+    {
+     "type": "text",
+     "text": "for 7-day stays. Actual pricing may vary depending on the program and length of stay. Contact the center for more details."
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Sayulita Wellness Retreat",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is the philosophy of Metamorphosis Centre for Change?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+       "html": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How safe is Ibogaine treatment at the retreat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+       "html": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of programs are offered?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+       "html": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Who is a good fit for the retreat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+       "html": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is included in the cost of a retreat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+       "html": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Addiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Retreat",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Wellness",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "1-833-700-1002",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-833-700-1002\" itemprop=\"url\">1-833-700-1002</a>",
+         "links": [
+          {
+           "old": "tel:1-833-700-1002",
+           "text": "1-833-700-1002"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@sayulitawellnessretreat.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto: info@sayulitawellnessretreat.com\" itemprop=\"url\"> info@sayulitawellnessretreat.com</a>",
+         "links": [
+          {
+           "old": "mailto: info@sayulitawellnessretreat.com",
+           "text": "info@sayulitawellnessretreat.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://sayulitawellnessretreat.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://sayulitawellnessretreat.com\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://sayulitawellnessretreat.com</a>",
+         "links": [
+          {
+           "old": "https://sayulitawellnessretreat.com",
+           "text": "https://sayulitawellnessretreat.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Las Clavelinas 293, 63729 San Francisco, Nay., Mexico",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    Las Clavelinas 293, 63729 San Francisco, Nay., Mexico",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:42pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "A Place To Restore Your Mind & Body",
+   "html": "<span style=\"font-weight: 400;\">A Place To Restore Your Mind &amp; Body</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At Sayulita Wellness Retreat, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.",
+   "html": "There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span>, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.",
+   "html": "Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Why Choose Sayulita Wellness Retreat",
+   "html": "<span style=\"font-weight: 400;\">Why Choose Sayulita Wellness Retreat</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Choosing a Sayulita Wellness Retreat is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.",
+   "html": "Choosing a <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span> is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.",
+   "html": "Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.",
+   "html": "We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "What You Will Find Here",
+   "html": "<span style=\"font-weight: 400;\">What You Will Find Here</span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Thoughtfully Designed Programs",
+   "html": "Thoughtfully Designed Programs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Every program is shaped to support long term wellness rather than quick fixes. These plans may involve holistic therapies, detox support, mindfulness sessions, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.",
+   "html": "Every program is shaped to support long term wellness rather than quick fixes. These plans may involve <span class=\"s2\"><b>holistic therapies</b></span>, <span class=\"s2\"><b>detox support</b></span>, <span class=\"s2\"><b>mindfulness sessions</b></span>, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "A Setting That Encourages Healing",
+   "html": "A Setting That Encourages Healing",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.",
+   "html": "Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Support That Continues",
+   "html": "Support That Continues",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Recovery does not stop the moment you leave. We offer aftercare resources and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.",
+   "html": "Recovery does not stop the moment you leave. We offer <span class=\"s2\"><b>aftercare resources </b></span>and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Treatment & Care Options",
+   "html": "Treatment &amp; Care Options",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Specializations",
+   "html": "Specializations",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Coastal",
+     "html": "Coastal",
+     "links": []
+    },
+    {
+     "text": "Couples",
+     "html": "Couples",
+     "links": []
+    },
+    {
+     "text": "Wellness focus on physical, mental, and spiritual wellness with natural remedies",
+     "html": "Wellness  focus on physical, mental, and spiritual wellness with natural remedies",
+     "links": []
+    },
+    {
+     "text": "Ibogaine Treatment may help reduce withdrawal discomfort and cravings, especially for opioid use",
+     "html": "Ibogaine Treatment  may help reduce withdrawal discomfort and cravings, especially for opioid use",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Who We Treat",
+   "html": "Who We Treat",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Men and Women",
+     "html": "Men and Women",
+     "links": []
+    },
+    {
+     "text": "Men",
+     "html": "Men",
+     "links": []
+    },
+    {
+     "text": "Women",
+     "html": "Women",
+     "links": []
+    },
+    {
+     "text": "Couples",
+     "html": "Couples",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Approaches",
+   "html": "Approaches",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Experiential expressive, hands on therapies that support emotional processing",
+     "html": "Experiential  expressive, hands on therapies that support emotional processing",
+     "links": []
+    },
+    {
+     "text": "Ibogaine Assisted Therapy",
+     "html": "Ibogaine Assisted Therapy",
+     "links": []
+    },
+    {
+     "text": "Holistic non medicinal, wellness focused care for mind, body, and spirit",
+     "html": "Holistic  non medicinal, wellness focused care for mind, body, and spirit",
+     "links": []
+    },
+    {
+     "text": "Wellness natural practices to restore balance and overall wellbeing",
+     "html": "Wellness  natural practices to restore balance and overall wellbeing",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Group Therapy",
+     "html": "Group Therapy",
+     "links": []
+    },
+    {
+     "text": "1 on 1 Counseling",
+     "html": "1 on 1 Counseling",
+     "links": []
+    },
+    {
+     "text": "Equine Therapy",
+     "html": "Equine Therapy",
+     "links": []
+    },
+    {
+     "text": "Somatic Experiencing",
+     "html": "Somatic Experiencing",
+     "links": []
+    },
+    {
+     "text": "Meditation and Mindfulness",
+     "html": "Meditation and Mindfulness",
+     "links": []
+    },
+    {
+     "text": "Sound Therapy",
+     "html": "Sound Therapy",
+     "links": []
+    },
+    {
+     "text": "Life Skills",
+     "html": "Life Skills",
+     "links": []
+    },
+    {
+     "text": "Hypnotherapy",
+     "html": "Hypnotherapy",
+     "links": []
+    },
+    {
+     "text": "Massage Therapy",
+     "html": "Massage Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Conditions We Treat",
+   "html": "Conditions We Treat",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Post Traumatic Stress Disorder (PTSD)",
+     "html": "Post Traumatic Stress Disorder (PTSD)",
+     "links": []
+    },
+    {
+     "text": "Anxiety",
+     "html": "Anxiety",
+     "links": []
+    },
+    {
+     "text": "Depression",
+     "html": "Depression",
+     "links": []
+    },
+    {
+     "text": "Stress",
+     "html": "Stress",
+     "links": []
+    },
+    {
+     "text": "Trauma",
+     "html": "Trauma",
+     "links": []
+    },
+    {
+     "text": "Anger",
+     "html": "Anger",
+     "links": []
+    },
+    {
+     "text": "Burnout",
+     "html": "Burnout",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Substances We Treat",
+   "html": "Substances We Treat",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Nicotine",
+     "html": "Nicotine",
+     "links": []
+    },
+    {
+     "text": "Alcohol",
+     "html": "Alcohol",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Pricing and Program Length",
+   "html": "Pricing and Program Length",
+   "id": ""
+  },
+  {
+   "type": "table",
+   "text": "Program Price 3 Days To Discover Yourself Experience $3,000 3-Day Couples All-Inclusive Group Retreat $3,000 4-Day All-Inclusive Retreat $4,997 4-Day Couples All-Inclusive Group Retreat $5,997 7-Day All-Inclusive Retreat $7,997 5-Day Ibogaine Retreat $7,997 7-Day Couples All-Inclusive Group Retreat $8,997 4-Day Couples All-Inclusive Private Retreat $9,997 7-Day Ibogaine Retreat $11,997 7-Day Couples All-Inclusive Private Retreat $14,997 7-Day All-Inclusive Platinum Retreat $14,997",
+   "html": "<table class=\"pricing-table\">\n<thead>\n<tr>\n<th>Program</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3 Days To Discover Yourself Experience</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>3-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>4-Day All-Inclusive Retreat</td>\n<td class=\"price\">$4,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$5,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>5-Day Ibogaine Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$8,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$9,997</td>\n</tr>\n<tr>\n<td>7-Day Ibogaine Retreat</td>\n<td class=\"price\">$11,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Platinum Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n</tbody>\n</table>"
+  },
+  {
+   "type": "text",
+   "text": "Estimated program costs range from"
+  },
+  {
+   "type": "text",
+   "text": "$3,000 to $14,997"
+  },
+  {
+   "type": "text",
+   "text": "for 7-day stays. Actual pricing may vary depending on the program and length of stay. Contact the center for more details."
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Sayulita Wellness Retreat",
+   "html": "Frequently Asked Questions About Sayulita Wellness Retreat",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is the philosophy of Metamorphosis Centre for Change?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+   "html": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How safe is Ibogaine treatment at the retreat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+   "html": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of programs are offered?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+   "html": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Who is a good fit for the retreat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+   "html": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is included in the cost of a retreat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+   "html": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Addiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Retreat",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Wellness",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "1-833-700-1002",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-833-700-1002\" itemprop=\"url\">1-833-700-1002</a>",
+   "links": [
+    {
+     "old": "tel:1-833-700-1002",
+     "text": "1-833-700-1002"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@sayulitawellnessretreat.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto: info@sayulitawellnessretreat.com\" itemprop=\"url\"> info@sayulitawellnessretreat.com</a>",
+   "links": [
+    {
+     "old": "mailto: info@sayulitawellnessretreat.com",
+     "text": "info@sayulitawellnessretreat.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://sayulitawellnessretreat.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://sayulitawellnessretreat.com\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://sayulitawellnessretreat.com</a>",
+   "links": [
+    {
+     "old": "https://sayulitawellnessretreat.com",
+     "text": "https://sayulitawellnessretreat.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Las Clavelinas 293, 63729 San Francisco, Nay., Mexico",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    Las Clavelinas 293, 63729 San Francisco, Nay., Mexico",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:42pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Sayulita Wellness Retreat",
+  "categories": [
+   "Mexico"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-17123\" data-elementor-id=\"17123\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-58cb13b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"58cb13b7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7350f9d6\" data-element_type=\"column\" data-id=\"7350f9d6\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4dd9002 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4dd9002\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2><span style=\"font-weight: 400;\">A Place To Restore Your Mind &amp; Body</span></h2><p class=\"p3\">There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span>, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.</p><p class=\"p3\">Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.</p><h2><span style=\"font-weight: 400;\">Why Choose Sayulita Wellness Retreat</span></h2><p class=\"p3\">Choosing a <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span> is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.</p><p class=\"p3\">Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.</p><p class=\"p3\">We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.</p> </div>\n</div>\n<div class=\"elementor-element elementor-element-d8adbb4 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"d8adbb4\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2><span style=\"font-weight: 400;\">What You Will Find Here</span></h2><h3>Thoughtfully Designed Programs</h3><p class=\"p3\">Every program is shaped to support long term wellness rather than quick fixes. These plans may involve <span class=\"s2\"><b>holistic therapies</b></span>, <span class=\"s2\"><b>detox support</b></span>, <span class=\"s2\"><b>mindfulness sessions</b></span>, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.</p><h3>A Setting That Encourages Healing</h3><p class=\"p3\">Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.</p><h3>Support That Continues</h3><p class=\"p3\">Recovery does not stop the moment you leave. We offer <span class=\"s2\"><b>aftercare resources </b></span>and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-bad8a51 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"bad8a51\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-19fb0f1\" data-element_type=\"column\" data-id=\"19fb0f1\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5a672ab elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"5a672ab\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Treatment &amp; Care Options</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-f69bf11 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f69bf11\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Specializations</h3>\n<ul>\n<li>Coastal</li>\n<li>Couples</li>\n<li>Wellness  focus on physical, mental, and spiritual wellness with natural remedies</li>\n<li>Ibogaine Treatment  may help reduce withdrawal discomfort and cravings, especially for opioid use</li>\n</ul>\n<h3>Who We Treat</h3>\n<ul>\n<li>Men and Women</li>\n<li>Men</li>\n<li>Women</li>\n<li>Couples</li>\n</ul>\n<h3>Approaches</h3>\n<ul>\n<li>Experiential  expressive, hands on therapies that support emotional processing</li>\n<li>Ibogaine Assisted Therapy</li>\n<li>Holistic  non medicinal, wellness focused care for mind, body, and spirit</li>\n<li>Wellness  natural practices to restore balance and overall wellbeing</li>\n</ul>\n<h3>Therapies</h3>\n<ul>\n<li>Group Therapy</li>\n<li>1 on 1 Counseling</li>\n<li>Equine Therapy</li>\n<li>Somatic Experiencing</li>\n<li>Meditation and Mindfulness</li>\n<li>Sound Therapy</li>\n<li>Life Skills</li>\n<li>Hypnotherapy</li>\n<li>Massage Therapy</li>\n</ul>\n<h3>Conditions We Treat</h3>\n<ul>\n<li>Post Traumatic Stress Disorder (PTSD)</li>\n<li>Anxiety</li>\n<li>Depression</li>\n<li>Stress</li>\n<li>Trauma</li>\n<li>Anger</li>\n<li>Burnout</li>\n</ul>\n<h3>Substances We Treat</h3>\n<ul>\n<li>Nicotine</li>\n<li>Alcohol</li>\n</ul> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8e2b790 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"8e2b790\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0681d3b\" data-element_type=\"column\" data-id=\"0681d3b\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-e9653cc elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"e9653cc\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Pricing and Program Length</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-5fa82f6 elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"5fa82f6\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n<style>\n.pricing-table {\n  width: 100%;\n  border-collapse: collapse;\n  margin: 30px 0;\n  font-family: Arial, sans-serif;\n}\n\n.pricing-table thead {\n  background-color: #16243E; /* Deep navy */\n  color: #ffffff;\n}\n\n.pricing-table th, \n.pricing-table td {\n  padding: 14px 16px;\n  border: 1px solid #dcdcdc;\n  text-align: left;\n  font-size: 15px;\n}\n\n.pricing-table tbody tr:nth-child(even) {\n  background-color: #f6f6f6; /* Soft light gray */\n}\n\n.pricing-table tbody td.price {\n  font-weight: bold;\n  color: #C8A654; /* Gold accent */\n}\n\n.pricing-note {\n  font-size: 14px;\n  margin-top: 12px;\n  font-style: italic;\n  color: #333;\n}\n</style>\n<table class=\"pricing-table\">\n<thead>\n<tr>\n<th>Program</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3 Days To Discover Yourself Experience</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>3-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>4-Day All-Inclusive Retreat</td>\n<td class=\"price\">$4,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$5,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>5-Day Ibogaine Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$8,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$9,997</td>\n</tr>\n<tr>\n<td>7-Day Ibogaine Retreat</td>\n<td class=\"price\">$11,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Platinum Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n</tbody>\n</table>\n<div class=\"pricing-note\">\n  Estimated program costs range from <strong>$3,000 to $14,997</strong> for 7-day stays. Actual pricing may vary depending on the program and length of stay. Contact the center for more details.\n</div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-785b000 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"785b000\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4fa292e\" data-element_type=\"column\" data-id=\"4fa292e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-83c3727 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"83c3727\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Sayulita Wellness Retreat</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-badcc8d elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"badcc8d\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1951\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1951\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the philosophy of Metamorphosis Centre for Change?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1951\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1951\" role=\"region\"><p class=\"p1\">Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1952\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1952\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How safe is Ibogaine treatment at the retreat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1952\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1952\" role=\"region\"><p class=\"p1\">Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1953\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1953\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of programs are offered?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1953\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1953\" role=\"region\"><p class=\"p1\">The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1954\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1954\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Who is a good fit for the retreat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1954\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1954\" role=\"region\"><p class=\"p1\">Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1955\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1955\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is included in the cost of a retreat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1955\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1955\" role=\"region\"><p class=\"p1\">Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6262ebb5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6262ebb5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6016dfaf\" data-element_type=\"column\" data-id=\"6016dfaf\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-19686958 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"19686958\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tAddiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-42a4e9e7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"42a4e9e7\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-f94a12d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f94a12d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "1-833-700-1002",
+  "email": " info@sayulitawellnessretreat.com",
+  "website": "https://sayulitawellnessretreat.com",
+  "address": "Las Clavelinas 293, 63729 San Francisco, Nay., Mexico",
+  "social": {
+   "facebook": "https://www.facebook.com/groups/sayulitawellnessretreat",
+   "instagram": "https://www.instagram.com/sayulitamushroomretreat/",
+   "youtube": "https://www.youtube.com/@sayulitawellnessretreat",
+   "pinterest": "https://www.pinterest.com/SayulitaWellnessRetreat/"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/m1upmglmkdrpm39kpy4h.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "375"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/mkyvz5w0cbwerenpvqhw.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/mkyvz5w0cbwerenpvqhw.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/oodvicntmxkb289cgxh5.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/oodvicntmxkb289cgxh5.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/rcpm9ilab3iufbegqrul.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/rcpm9ilab3iufbegqrul.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/scmuih1mctq9veqnmsnr.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/scmuih1mctq9veqnmsnr.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/tawluo8aqb79vqsg9fqs.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/tawluo8aqb79vqsg9fqs.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/vkhqdmvthpkykngy68bt.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/vkhqdmvthpkykngy68bt.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/wtydnmd1yblgpcorfd7x.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/11/wtydnmd1yblgpcorfd7x.jpg",
+    "alt": "Sayulita Wellness Retreat",
+    "width": "500",
+    "height": "333"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Retreat Wellness",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h2",
+    "text": "A Place To Restore Your Mind & Body",
+    "html": "<span style=\"font-weight: 400;\">A Place To Restore Your Mind &amp; Body</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At Sayulita Wellness Retreat, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.",
+    "html": "There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span>, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.",
+    "html": "Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "Why Choose Sayulita Wellness Retreat",
+    "html": "<span style=\"font-weight: 400;\">Why Choose Sayulita Wellness Retreat</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Choosing a Sayulita Wellness Retreat is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.",
+    "html": "Choosing a <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span> is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.",
+    "html": "Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.",
+    "html": "We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "What You Will Find Here",
+    "html": "<span style=\"font-weight: 400;\">What You Will Find Here</span>",
+    "id": ""
+   },
+   {
+    "type": "h3",
+    "text": "Thoughtfully Designed Programs",
+    "html": "Thoughtfully Designed Programs",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Every program is shaped to support long term wellness rather than quick fixes. These plans may involve holistic therapies, detox support, mindfulness sessions, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.",
+    "html": "Every program is shaped to support long term wellness rather than quick fixes. These plans may involve <span class=\"s2\"><b>holistic therapies</b></span>, <span class=\"s2\"><b>detox support</b></span>, <span class=\"s2\"><b>mindfulness sessions</b></span>, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "A Setting That Encourages Healing",
+    "html": "A Setting That Encourages Healing",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.",
+    "html": "Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Support That Continues",
+    "html": "Support That Continues",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Recovery does not stop the moment you leave. We offer aftercare resources and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.",
+    "html": "Recovery does not stop the moment you leave. We offer <span class=\"s2\"><b>aftercare resources </b></span>and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "Treatment & Care Options",
+    "html": "Treatment &amp; Care Options",
+    "id": ""
+   },
+   {
+    "type": "h3",
+    "text": "Specializations",
+    "html": "Specializations",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Coastal",
+      "html": "Coastal",
+      "links": []
+     },
+     {
+      "text": "Couples",
+      "html": "Couples",
+      "links": []
+     },
+     {
+      "text": "Wellness focus on physical, mental, and spiritual wellness with natural remedies",
+      "html": "Wellness  focus on physical, mental, and spiritual wellness with natural remedies",
+      "links": []
+     },
+     {
+      "text": "Ibogaine Treatment may help reduce withdrawal discomfort and cravings, especially for opioid use",
+      "html": "Ibogaine Treatment  may help reduce withdrawal discomfort and cravings, especially for opioid use",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Who We Treat",
+    "html": "Who We Treat",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Men and Women",
+      "html": "Men and Women",
+      "links": []
+     },
+     {
+      "text": "Men",
+      "html": "Men",
+      "links": []
+     },
+     {
+      "text": "Women",
+      "html": "Women",
+      "links": []
+     },
+     {
+      "text": "Couples",
+      "html": "Couples",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Approaches",
+    "html": "Approaches",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Experiential expressive, hands on therapies that support emotional processing",
+      "html": "Experiential  expressive, hands on therapies that support emotional processing",
+      "links": []
+     },
+     {
+      "text": "Ibogaine Assisted Therapy",
+      "html": "Ibogaine Assisted Therapy",
+      "links": []
+     },
+     {
+      "text": "Holistic non medicinal, wellness focused care for mind, body, and spirit",
+      "html": "Holistic  non medicinal, wellness focused care for mind, body, and spirit",
+      "links": []
+     },
+     {
+      "text": "Wellness natural practices to restore balance and overall wellbeing",
+      "html": "Wellness  natural practices to restore balance and overall wellbeing",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Group Therapy",
+      "html": "Group Therapy",
+      "links": []
+     },
+     {
+      "text": "1 on 1 Counseling",
+      "html": "1 on 1 Counseling",
+      "links": []
+     },
+     {
+      "text": "Equine Therapy",
+      "html": "Equine Therapy",
+      "links": []
+     },
+     {
+      "text": "Somatic Experiencing",
+      "html": "Somatic Experiencing",
+      "links": []
+     },
+     {
+      "text": "Meditation and Mindfulness",
+      "html": "Meditation and Mindfulness",
+      "links": []
+     },
+     {
+      "text": "Sound Therapy",
+      "html": "Sound Therapy",
+      "links": []
+     },
+     {
+      "text": "Life Skills",
+      "html": "Life Skills",
+      "links": []
+     },
+     {
+      "text": "Hypnotherapy",
+      "html": "Hypnotherapy",
+      "links": []
+     },
+     {
+      "text": "Massage Therapy",
+      "html": "Massage Therapy",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Conditions We Treat",
+    "html": "Conditions We Treat",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Post Traumatic Stress Disorder (PTSD)",
+      "html": "Post Traumatic Stress Disorder (PTSD)",
+      "links": []
+     },
+     {
+      "text": "Anxiety",
+      "html": "Anxiety",
+      "links": []
+     },
+     {
+      "text": "Depression",
+      "html": "Depression",
+      "links": []
+     },
+     {
+      "text": "Stress",
+      "html": "Stress",
+      "links": []
+     },
+     {
+      "text": "Trauma",
+      "html": "Trauma",
+      "links": []
+     },
+     {
+      "text": "Anger",
+      "html": "Anger",
+      "links": []
+     },
+     {
+      "text": "Burnout",
+      "html": "Burnout",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "Substances We Treat",
+    "html": "Substances We Treat",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Nicotine",
+      "html": "Nicotine",
+      "links": []
+     },
+     {
+      "text": "Alcohol",
+      "html": "Alcohol",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h2",
+    "text": "Pricing and Program Length",
+    "html": "Pricing and Program Length",
+    "id": ""
+   },
+   {
+    "type": "table",
+    "text": "Program Price 3 Days To Discover Yourself Experience $3,000 3-Day Couples All-Inclusive Group Retreat $3,000 4-Day All-Inclusive Retreat $4,997 4-Day Couples All-Inclusive Group Retreat $5,997 7-Day All-Inclusive Retreat $7,997 5-Day Ibogaine Retreat $7,997 7-Day Couples All-Inclusive Group Retreat $8,997 4-Day Couples All-Inclusive Private Retreat $9,997 7-Day Ibogaine Retreat $11,997 7-Day Couples All-Inclusive Private Retreat $14,997 7-Day All-Inclusive Platinum Retreat $14,997",
+    "html": "<table class=\"pricing-table\">\n<thead>\n<tr>\n<th>Program</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3 Days To Discover Yourself Experience</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>3-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>4-Day All-Inclusive Retreat</td>\n<td class=\"price\">$4,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$5,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>5-Day Ibogaine Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$8,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$9,997</td>\n</tr>\n<tr>\n<td>7-Day Ibogaine Retreat</td>\n<td class=\"price\">$11,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Platinum Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n</tbody>\n</table>"
+   },
+   {
+    "type": "text",
+    "text": "Estimated program costs range from"
+   },
+   {
+    "type": "text",
+    "text": "$3,000 to $14,997"
+   },
+   {
+    "type": "text",
+    "text": "for 7-day stays. Actual pricing may vary depending on the program and length of stay. Contact the center for more details."
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Addiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Sayulita Wellness Retreat",
+  "faqs": [
+   {
+    "question": "What is the philosophy of Metamorphosis Centre for Change?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+      "html": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration."
+   },
+   {
+    "question": "How safe is Ibogaine treatment at the retreat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+      "html": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience."
+   },
+   {
+    "question": "What types of programs are offered?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+      "html": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation."
+   },
+   {
+    "question": "Who is a good fit for the retreat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+      "html": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey."
+   },
+   {
+    "question": "What is included in the cost of a retreat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+      "html": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "1-833-700-1002",
+  "phone_href": "tel:1-833-700-1002",
+  "website_text": "https://sayulitawellnessretreat.com",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Retreat",
+    "Wellness"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What is the philosophy of Metamorphosis Centre for Change?",
+   "answer_text": "Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.",
+   "answer_html": "<p class=\"p1\">Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How safe is Ibogaine treatment at the retreat?",
+   "answer_text": "Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.",
+   "answer_html": "<p class=\"p1\">Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of programs are offered?",
+   "answer_text": "The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.",
+   "answer_html": "<p class=\"p1\">The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Who is a good fit for the retreat?",
+   "answer_text": "Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.",
+   "answer_html": "<p class=\"p1\">Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is included in the cost of a retreat?",
+   "answer_text": "Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.",
+   "answer_html": "<p class=\"p1\">Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-17123\" data-elementor-id=\"17123\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-58cb13b7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"58cb13b7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7350f9d6\" data-element_type=\"column\" data-id=\"7350f9d6\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4dd9002 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4dd9002\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2><span style=\"font-weight: 400;\">A Place To Restore Your Mind &amp; Body</span></h2><p class=\"p3\">There is something about arriving in Sayulita that feels quietly comforting. Maybe it is the way the ocean pulls your attention back to your breath, or the warm air that softens your shoulders almost instantly. At <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span>, the goal is simple, although not always easy. Help you feel well again. Or well in a new way. People come here for different reasons, yet they often share a similar hope. A space to reset without judgment. A structure that supports healing without feeling clinical. And a retreat that understands how layered recovery can be.</p><p class=\"p3\">Our programs are intentionally personal. Not overly strict, but grounded enough to give you direction. The team blends evidence based practices with a more holistic approach, which feels natural in this part of Mexico. You might notice the difference right away. The pace is slower, the conversations feel genuine, and the setting encourages a kind of openness that many guests say they have not experienced elsewhere.</p><h2><span style=\"font-weight: 400;\">Why Choose Sayulita Wellness Retreat</span></h2><p class=\"p3\">Choosing a <span class=\"s2\"><b>Sayulita Wellness Retreat</b></span> is not only about traveling somewhere beautiful, although the location is undeniably part of the experience. It is about finding a safe environment where support does not feel forced. Our specialists guide you through individualized plans that may include mindfulness practices, restorative therapies, light movement, nutritional guidance, and other integrative methods. Some days are structured. Others offer more space so you can process your own thoughts.</p><p class=\"p3\">Perhaps that balance is what people appreciate most. It feels like a retreat, but also like real life, just a calmer version of it. And the community you meet here, even briefly, often becomes part of your longer healing story.</p><p class=\"p3\">We also understand that many guests are looking for privacy. The setting and the layout of the property were designed to create quiet corners where you can step away without disconnecting completely. Whether you are here for emotional recovery, personal growth, or simply to regain clarity, the setting supports that intention.</p> </div>\n</div>\n<div class=\"elementor-element elementor-element-d8adbb4 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"d8adbb4\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2><span style=\"font-weight: 400;\">What You Will Find Here</span></h2><h3>Thoughtfully Designed Programs</h3><p class=\"p3\">Every program is shaped to support long term wellness rather than quick fixes. These plans may involve <span class=\"s2\"><b>holistic therapies</b></span>, <span class=\"s2\"><b>detox support</b></span>, <span class=\"s2\"><b>mindfulness sessions</b></span>, and gentle lifestyle improvements that continue long after you return home. The approach is flexible enough to adjust as you change, which is often necessary. Healing is rarely linear.</p><h3>A Setting That Encourages Healing</h3><p class=\"p3\">Located along the Pacific coastline, Sayulita feels grounding. The natural surroundings often help guests reconnect with themselves in ways they did not expect. It is subtle at first, then somehow very real. Our retreat uses the landscape to enhance your stay without overwhelming it.</p><h3>Support That Continues</h3><p class=\"p3\">Recovery does not stop the moment you leave. We offer <span class=\"s2\"><b>aftercare resources </b></span>and guidance so you feel supported during your transition back into daily life. It is not a rigid process, just a thoughtful one.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-bad8a51 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"bad8a51\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-19fb0f1\" data-element_type=\"column\" data-id=\"19fb0f1\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5a672ab elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"5a672ab\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Treatment &amp; Care Options</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-f69bf11 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f69bf11\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Specializations</h3>\n<ul>\n<li>Coastal</li>\n<li>Couples</li>\n<li>Wellness  focus on physical, mental, and spiritual wellness with natural remedies</li>\n<li>Ibogaine Treatment  may help reduce withdrawal discomfort and cravings, especially for opioid use</li>\n</ul>\n<h3>Who We Treat</h3>\n<ul>\n<li>Men and Women</li>\n<li>Men</li>\n<li>Women</li>\n<li>Couples</li>\n</ul>\n<h3>Approaches</h3>\n<ul>\n<li>Experiential  expressive, hands on therapies that support emotional processing</li>\n<li>Ibogaine Assisted Therapy</li>\n<li>Holistic  non medicinal, wellness focused care for mind, body, and spirit</li>\n<li>Wellness  natural practices to restore balance and overall wellbeing</li>\n</ul>\n<h3>Therapies</h3>\n<ul>\n<li>Group Therapy</li>\n<li>1 on 1 Counseling</li>\n<li>Equine Therapy</li>\n<li>Somatic Experiencing</li>\n<li>Meditation and Mindfulness</li>\n<li>Sound Therapy</li>\n<li>Life Skills</li>\n<li>Hypnotherapy</li>\n<li>Massage Therapy</li>\n</ul>\n<h3>Conditions We Treat</h3>\n<ul>\n<li>Post Traumatic Stress Disorder (PTSD)</li>\n<li>Anxiety</li>\n<li>Depression</li>\n<li>Stress</li>\n<li>Trauma</li>\n<li>Anger</li>\n<li>Burnout</li>\n</ul>\n<h3>Substances We Treat</h3>\n<ul>\n<li>Nicotine</li>\n<li>Alcohol</li>\n</ul> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8e2b790 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"8e2b790\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0681d3b\" data-element_type=\"column\" data-id=\"0681d3b\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-e9653cc elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"e9653cc\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Pricing and Program Length</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-5fa82f6 elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"5fa82f6\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n<style>\n.pricing-table {\n  width: 100%;\n  border-collapse: collapse;\n  margin: 30px 0;\n  font-family: Arial, sans-serif;\n}\n\n.pricing-table thead {\n  background-color: #16243E; /* Deep navy */\n  color: #ffffff;\n}\n\n.pricing-table th, \n.pricing-table td {\n  padding: 14px 16px;\n  border: 1px solid #dcdcdc;\n  text-align: left;\n  font-size: 15px;\n}\n\n.pricing-table tbody tr:nth-child(even) {\n  background-color: #f6f6f6; /* Soft light gray */\n}\n\n.pricing-table tbody td.price {\n  font-weight: bold;\n  color: #C8A654; /* Gold accent */\n}\n\n.pricing-note {\n  font-size: 14px;\n  margin-top: 12px;\n  font-style: italic;\n  color: #333;\n}\n</style>\n<table class=\"pricing-table\">\n<thead>\n<tr>\n<th>Program</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>3 Days To Discover Yourself Experience</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>3-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$3,000</td>\n</tr>\n<tr>\n<td>4-Day All-Inclusive Retreat</td>\n<td class=\"price\">$4,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$5,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>5-Day Ibogaine Retreat</td>\n<td class=\"price\">$7,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Group Retreat</td>\n<td class=\"price\">$8,997</td>\n</tr>\n<tr>\n<td>4-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$9,997</td>\n</tr>\n<tr>\n<td>7-Day Ibogaine Retreat</td>\n<td class=\"price\">$11,997</td>\n</tr>\n<tr>\n<td>7-Day Couples All-Inclusive Private Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n<tr>\n<td>7-Day All-Inclusive Platinum Retreat</td>\n<td class=\"price\">$14,997</td>\n</tr>\n</tbody>\n</table>\n<div class=\"pricing-note\">\n  Estimated program costs range from <strong>$3,000 to $14,997</strong> for 7-day stays. Actual pricing may vary depending on the program and length of stay. Contact the center for more details.\n</div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-785b000 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"785b000\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4fa292e\" data-element_type=\"column\" data-id=\"4fa292e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-83c3727 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"83c3727\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Sayulita Wellness Retreat</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-badcc8d elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"badcc8d\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1951\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1951\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the philosophy of Metamorphosis Centre for Change?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1951\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1951\" role=\"region\"><p class=\"p1\">Sayulita Wellness Retreat offers a personal and supportive environment that blends holistic healing with evidence based practices. The coastal setting naturally helps people feel calmer and more open, creating space for emotional clarity and physical restoration.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1952\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1952\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How safe is Ibogaine treatment at the retreat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1952\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1952\" role=\"region\"><p class=\"p1\">Ibogaine treatment is provided with medical supervision, thorough health screenings, and continuous monitoring. The team follows strict protocols to reduce risks and ensure guests feel guided and supported throughout the experience.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1953\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1953\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of programs are offered?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1953\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1953\" role=\"region\"><p class=\"p1\">The retreat offers a range of programs including 3 day and 7 day wellness retreats, couples retreats, private retreats, all inclusive group options, and specialized Ibogaine programs. Each one is designed to support healing, balance, and long term transformation.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1954\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1954\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Who is a good fit for the retreat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1954\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1954\" role=\"region\"><p class=\"p1\">Adults seeking emotional healing, addiction recovery support, trauma work, or personal transformation may be a good fit. Both individuals and couples attend. The environment is intentionally calm, inclusive, and supportive for people at different stages of their healing journey.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1955\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1955\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is included in the cost of a retreat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1955\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1955\" role=\"region\"><p class=\"p1\">Retreat costs typically include accommodations, meals, wellness therapies, guided activities, and personalized support. Ibogaine centered programs also include medical supervision, preparation, and integration after treatment. Pricing varies based on program length and retreat type.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6262ebb5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6262ebb5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6016dfaf\" data-element_type=\"column\" data-id=\"6016dfaf\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-19686958 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"19686958\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tAddiction Rehab Centres has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-42a4e9e7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"42a4e9e7\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-f94a12d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f94a12d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/retreat/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Retreat</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/wellness/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Wellness</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-833-700-1002\" itemprop=\"url\">1-833-700-1002</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto: info@sayulitawellnessretreat.com\" itemprop=\"url\"> info@sayulitawellnessretreat.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://sayulitawellnessretreat.com\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://sayulitawellnessretreat.com</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    Las Clavelinas 293, 63729 San Francisco, Nay., Mexico\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:42pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/groups/sayulitawellnessretreat\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/sayulitamushroomretreat/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-youtube\" data-wpel-link=\"external\" href=\"https://www.youtube.com/@sayulitawellnessretreat\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-youtube\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-pinterest\" data-wpel-link=\"external\" href=\"https://www.pinterest.com/SayulitaWellnessRetreat/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-pinterest-p\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

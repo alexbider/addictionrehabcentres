@@ -1,0 +1,2400 @@
+{
+ "schema": "arc-content/1",
+ "slug": "alcohol-drug-rehab-centres-in-alberta",
+ "status": "REMAINING",
+ "page_type": "province",
+ "wp_type": "page",
+ "template": "Province",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "P1-P5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/",
+  "path": "/alcohol-drug-rehab-centres-in-alberta/",
+  "wp_items": [
+   {
+    "id": 11262,
+    "type": "page",
+    "title": "Alberta Drug &#038; Alcohol Rehab Centres",
+    "date": "2022-02-04T12:50:57",
+    "modified": "2026-04-06T03:41:22",
+    "status": "publish",
+    "yoast_title": "Alcohol & Drug Rehab Centres in Alberta | Treatment Options",
+    "words_rest": 1500
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/alcohol-drug-rehab-centres-in-alberta/",
+ "seo": {
+  "meta_title": "Alberta Rehabs | 44 Best Rehab Centres in Alberta",
+  "meta_description": "Browse the 44 Best Rehab Centres in Alberta with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Alberta Rehab Centres.",
+  "canonical_source": "https://addictionrehabcenters.ca/alberta-rehabs/",
+  "og": {
+   "title": "Alberta Rehabs | 44 Best Rehab Centres in Alberta",
+   "description": "Browse the 44 Best Rehab Centres in Alberta with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Alberta Rehab Centres.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/07/Teen-Challenge-Alberta-0.png",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/alberta-rehabs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Alberta Rehabs",
+      "datePublished": "2021-11-18T16:13:02+00:00",
+      "dateModified": "2026-03-28T14:33:07+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/alberta-rehabs/"
+      },
+      "wordCount": 819,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/07/Teen-Challenge-Alberta-0.png",
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/",
+      "url": "https://addictionrehabcenters.ca/alberta-rehabs/",
+      "name": "Alberta Rehabs | 44 Best Rehab Centres in Alberta",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/07/Teen-Challenge-Alberta-0.png",
+      "datePublished": "2021-11-18T16:13:02+00:00",
+      "dateModified": "2026-03-28T14:33:07+00:00",
+      "description": "Browse the 44 Best Rehab Centres in Alberta with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Alberta Rehab Centres.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/alberta-rehabs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/07/Teen-Challenge-Alberta-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/07/Teen-Challenge-Alberta-0.png",
+      "width": 1000,
+      "height": 667
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Alberta Rehabs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#webpage",
+      "url": "https://addictionrehabcenters.ca/alberta-rehabs/",
+      "name": "Alberta Rehabs | Best Rehab Centres in Alberta",
+      "description": "Browse addiction treatment centres in Alberta including drug rehab, alcohol rehab and recovery programs to support long-term sobriety.",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "about": {
+       "@type": "MedicalCondition",
+       "name": "Substance Abuse"
+      }
+     },
+     {
+      "@type": "ItemList",
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#rehablist",
+      "name": "Addiction Treatment Centres in Alberta",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "numberOfItems": "44",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://addictionrehabcenters.ca/pee-kis-kwe-tan-lets-talk-society/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://addictionrehabcenters.ca/simon-house-recovery-centre/"
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/alberta-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Alberta Rehabs",
+        "item": "https://addictionrehabcenters.ca/alberta-rehabs/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Alberta Rehabs",
+ "title_bar_h1": "Alberta Rehabs",
+ "word_count": 725,
+ "features": [
+  "listing-cards:24"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Alberta Rehabs"
+  ],
+  [
+   "h2",
+   "44 Best Rehab Centres in Alberta"
+  ],
+  [
+   "h5",
+   "Niwichihaw Aboriginal Addiction Counselling Service"
+  ],
+  [
+   "h5",
+   "Venture Academy"
+  ],
+  [
+   "h5",
+   "Pee Kis Kwe Tan (Let’s Talk) Society"
+  ],
+  [
+   "h5",
+   "Bonnyville Indian Métis Rehabilitation Centre"
+  ],
+  [
+   "h5",
+   "Simon House Recovery Centre"
+  ],
+  [
+   "h5",
+   "Alcove Addiction Recovery For Women"
+  ],
+  [
+   "h5",
+   "Wood’s Homes – Parkdale Campus"
+  ],
+  [
+   "h5",
+   "Recovery Acres Calgary"
+  ],
+  [
+   "h5",
+   "Teen Challenge Canada — Alberta Men’s Centre"
+  ],
+  [
+   "h5",
+   "Thorpe Recovery Centre"
+  ],
+  [
+   "h5",
+   "Recovery Acres Society"
+  ],
+  [
+   "h5",
+   "Alberta Adolescent Recovery Centre"
+  ],
+  [
+   "h5",
+   "Foothills Detox Centre"
+  ],
+  [
+   "h5",
+   "Fresh Start Recovery Centre"
+  ],
+  [
+   "h5",
+   "Mcdougall House"
+  ],
+  [
+   "h5",
+   "Mark Amy Treatment Centre"
+  ],
+  [
+   "h5",
+   "Kapown Treatment Centre"
+  ],
+  [
+   "h5",
+   "Young Spirit Winds"
+  ],
+  [
+   "h5",
+   "Victorian Order Of Nurses For Canada"
+  ],
+  [
+   "h5",
+   "Safe Harbour Society"
+  ],
+  [
+   "h5",
+   "Live Free Calgary"
+  ],
+  [
+   "h5",
+   "Our House Edmonton"
+  ],
+  [
+   "h5",
+   "Canadawide Mobile"
+  ],
+  [
+   "h5",
+   "Horizon House"
+  ],
+  [
+   "h2",
+   "Addiction Treatment Centres in Alberta"
+  ],
+  [
+   "h3",
+   "Drug Rehab and Alcohol Rehab"
+  ]
+ ],
+ "images": [],
+ "links": [
+  {
+   "old_href": "",
+   "text": "Load More",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/",
+   "text": "Alcohol Rehab",
+   "kind": "internal",
+   "new": "/alcohol-drug-rehab-centres-in-alberta/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/detox-centres-in-canada/",
+   "text": "Detox Centres Near Me",
+   "kind": "internal",
+   "new": "/detox-centres-in-canada/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Alberta Rehabs",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "44 Best Rehab Centres in Alberta",
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/",
+        "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+        "https://addictionrehabcenters.ca/alcohol-and-drug-addiction/",
+        "https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/",
+        "https://addictionrehabcenters.ca/simon-house-recovery-centre/",
+        "https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/",
+        "https://addictionrehabcenters.ca/woods-homes-parkdale-campus/",
+        "https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/",
+        "https://addictionrehabcenters.ca/teen-challenge-alberta/",
+        "https://addictionrehabcenters.ca/thorpe-recovery-centre/",
+        "https://addictionrehabcenters.ca/recovery-acres-society/",
+        "https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/",
+        "https://addictionrehabcenters.ca/foothills-detox-centre/",
+        "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+        "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+        "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+        "https://addictionrehabcenters.ca/kapown-treatment-centre/",
+        "https://addictionrehabcenters.ca/young-spirit-winds/",
+        "https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/",
+        "https://addictionrehabcenters.ca/drug-rehab-center/",
+        "https://addictionrehabcenters.ca/live-free-calgary/",
+        "https://addictionrehabcenters.ca/our-house-edmonton/",
+        "https://addictionrehabcenters.ca/canadawide-mobile/",
+        "https://addictionrehabcenters.ca/horizon-house/",
+        "https://addictionrehabcenters.ca/youth-clairmont-detox/",
+        "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+        "https://addictionrehabcenters.ca/action-north-recovery-centre/",
+        "https://addictionrehabcenters.ca/beyond-addiction/",
+        "https://addictionrehabcenters.ca/rocky-native-friendship-centre/",
+        "https://addictionrehabcenters.ca/hiiyeyu-lelum-house-of-friendship-society/",
+        "https://addictionrehabcenters.ca/axis-family-resources/",
+        "https://addictionrehabcenters.ca/soda-creek-first-nation-addiction-services/",
+        "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+        "https://addictionrehabcenters.ca/old-fashioned-aa-group/",
+        "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+        "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+        "https://addictionrehabcenters.ca/alberta-health-services-youth-counselling-medicine-hat/",
+        "https://addictionrehabcenters.ca/alberta-health-services/",
+        "https://addictionrehabcenters.ca/clsc-alberta-health-services/",
+        "https://addictionrehabcenters.ca/irecover-alberta/",
+        "https://addictionrehabcenters.ca/sandstone-inpatient-treatment-centre/",
+        "https://addictionrehabcenters.ca/jellinek-society/"
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Addiction Treatment Centres in Alberta",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.",
+       "html": "Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Finding the Right Help for Drug and Alcohol Addiction",
+       "html": "<strong>Finding the Right Help for Drug and Alcohol Addiction</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.",
+       "html": "Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Drug Rehab and Alcohol Rehab",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.",
+         "html": "Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+         "html": "Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Alcohol Rehab Alberta",
+         "html": "<strong>Alcohol Rehab Alberta</strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Alcohol Rehab Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+         "html": "<a data-wpel-link=\"internal\" href=\"/alcohol-drug-rehab-centres-in-alberta/\">Alcohol Rehab</a> Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/",
+           "text": "Alcohol Rehab"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+         "html": "Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Alberta Detox Centres",
+         "html": "<strong>Alberta Detox Centres</strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.",
+         "html": "Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.",
+         "html": "Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Calgary Rehab Centre",
+         "html": "<strong>Calgary Rehab Centre</strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+         "html": "Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+         "html": "Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Detox Centres Near Me",
+         "html": "<a data-wpel-link=\"internal\" href=\"/detox-centres-in-canada/\"><strong>Detox Centres Near Me</strong></a>",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/detox-centres-in-canada/",
+           "text": "Detox Centres Near Me"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.",
+         "html": "Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Alberta Rehabs",
+   "html": "Alberta Rehabs",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "44 Best Rehab Centres in Alberta",
+   "html": "44 Best Rehab Centres in Alberta",
+   "id": ""
+  },
+  {
+   "type": "cards",
+   "hrefs": [
+    "https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/",
+    "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+    "https://addictionrehabcenters.ca/alcohol-and-drug-addiction/",
+    "https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/",
+    "https://addictionrehabcenters.ca/simon-house-recovery-centre/",
+    "https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/",
+    "https://addictionrehabcenters.ca/woods-homes-parkdale-campus/",
+    "https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/",
+    "https://addictionrehabcenters.ca/teen-challenge-alberta/",
+    "https://addictionrehabcenters.ca/thorpe-recovery-centre/",
+    "https://addictionrehabcenters.ca/recovery-acres-society/",
+    "https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/",
+    "https://addictionrehabcenters.ca/foothills-detox-centre/",
+    "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+    "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+    "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+    "https://addictionrehabcenters.ca/kapown-treatment-centre/",
+    "https://addictionrehabcenters.ca/young-spirit-winds/",
+    "https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/",
+    "https://addictionrehabcenters.ca/drug-rehab-center/",
+    "https://addictionrehabcenters.ca/live-free-calgary/",
+    "https://addictionrehabcenters.ca/our-house-edmonton/",
+    "https://addictionrehabcenters.ca/canadawide-mobile/",
+    "https://addictionrehabcenters.ca/horizon-house/",
+    "https://addictionrehabcenters.ca/youth-clairmont-detox/",
+    "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+    "https://addictionrehabcenters.ca/action-north-recovery-centre/",
+    "https://addictionrehabcenters.ca/beyond-addiction/",
+    "https://addictionrehabcenters.ca/rocky-native-friendship-centre/",
+    "https://addictionrehabcenters.ca/hiiyeyu-lelum-house-of-friendship-society/",
+    "https://addictionrehabcenters.ca/axis-family-resources/",
+    "https://addictionrehabcenters.ca/soda-creek-first-nation-addiction-services/",
+    "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+    "https://addictionrehabcenters.ca/old-fashioned-aa-group/",
+    "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+    "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+    "https://addictionrehabcenters.ca/alberta-health-services-youth-counselling-medicine-hat/",
+    "https://addictionrehabcenters.ca/alberta-health-services/",
+    "https://addictionrehabcenters.ca/clsc-alberta-health-services/",
+    "https://addictionrehabcenters.ca/irecover-alberta/",
+    "https://addictionrehabcenters.ca/sandstone-inpatient-treatment-centre/",
+    "https://addictionrehabcenters.ca/jellinek-society/"
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "Addiction Treatment Centres in Alberta",
+   "html": "Addiction Treatment Centres in Alberta",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.",
+   "html": "Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Finding the Right Help for Drug and Alcohol Addiction",
+   "html": "<strong>Finding the Right Help for Drug and Alcohol Addiction</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.",
+   "html": "Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Drug Rehab and Alcohol Rehab",
+   "html": "<strong>Drug Rehab and Alcohol Rehab</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.",
+   "html": "Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+   "html": "Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alcohol Rehab Alberta",
+   "html": "<strong>Alcohol Rehab Alberta</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alcohol Rehab Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+   "html": "<a data-wpel-link=\"internal\" href=\"/alcohol-drug-rehab-centres-in-alberta/\">Alcohol Rehab</a> Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/",
+     "text": "Alcohol Rehab"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+   "html": "Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alberta Detox Centres",
+   "html": "<strong>Alberta Detox Centres</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.",
+   "html": "Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.",
+   "html": "Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Calgary Rehab Centre",
+   "html": "<strong>Calgary Rehab Centre</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+   "html": "Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+   "html": "Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Detox Centres Near Me",
+   "html": "<a data-wpel-link=\"internal\" href=\"/detox-centres-in-canada/\"><strong>Detox Centres Near Me</strong></a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/detox-centres-in-canada/",
+     "text": "Detox Centres Near Me"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.",
+   "html": "Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.",
+   "links": [],
+   "images": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "listing-banner",
+   "classes": [
+    "innerBanner"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Alberta Rehabs",
+       "html": "Alberta Rehabs",
+       "id": ""
+      },
+      {
+       "type": "h2",
+       "text": "44 Best Rehab Centres in Alberta",
+       "html": "44 Best Rehab Centres in Alberta",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "listing",
+   "classes": [
+    "innerListingBox"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/",
+        "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+        "https://addictionrehabcenters.ca/alcohol-and-drug-addiction/",
+        "https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/",
+        "https://addictionrehabcenters.ca/simon-house-recovery-centre/",
+        "https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/",
+        "https://addictionrehabcenters.ca/woods-homes-parkdale-campus/",
+        "https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/",
+        "https://addictionrehabcenters.ca/teen-challenge-alberta/",
+        "https://addictionrehabcenters.ca/thorpe-recovery-centre/",
+        "https://addictionrehabcenters.ca/recovery-acres-society/",
+        "https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/",
+        "https://addictionrehabcenters.ca/foothills-detox-centre/",
+        "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+        "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+        "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+        "https://addictionrehabcenters.ca/kapown-treatment-centre/",
+        "https://addictionrehabcenters.ca/young-spirit-winds/",
+        "https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/",
+        "https://addictionrehabcenters.ca/drug-rehab-center/",
+        "https://addictionrehabcenters.ca/live-free-calgary/",
+        "https://addictionrehabcenters.ca/our-house-edmonton/",
+        "https://addictionrehabcenters.ca/canadawide-mobile/",
+        "https://addictionrehabcenters.ca/horizon-house/",
+        "https://addictionrehabcenters.ca/youth-clairmont-detox/",
+        "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+        "https://addictionrehabcenters.ca/action-north-recovery-centre/",
+        "https://addictionrehabcenters.ca/beyond-addiction/",
+        "https://addictionrehabcenters.ca/rocky-native-friendship-centre/",
+        "https://addictionrehabcenters.ca/hiiyeyu-lelum-house-of-friendship-society/",
+        "https://addictionrehabcenters.ca/axis-family-resources/",
+        "https://addictionrehabcenters.ca/soda-creek-first-nation-addiction-services/",
+        "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+        "https://addictionrehabcenters.ca/old-fashioned-aa-group/",
+        "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+        "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+        "https://addictionrehabcenters.ca/alberta-health-services-youth-counselling-medicine-hat/",
+        "https://addictionrehabcenters.ca/alberta-health-services/",
+        "https://addictionrehabcenters.ca/clsc-alberta-health-services/",
+        "https://addictionrehabcenters.ca/irecover-alberta/",
+        "https://addictionrehabcenters.ca/sandstone-inpatient-treatment-centre/",
+        "https://addictionrehabcenters.ca/jellinek-society/"
+       ]
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Addiction Treatment Centres in Alberta",
+       "html": "Addiction Treatment Centres in Alberta",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.",
+       "html": "Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Finding the Right Help for Drug and Alcohol Addiction",
+       "html": "<strong>Finding the Right Help for Drug and Alcohol Addiction</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.",
+       "html": "Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h3",
+       "text": "Drug Rehab and Alcohol Rehab",
+       "html": "<strong>Drug Rehab and Alcohol Rehab</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.",
+       "html": "Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+       "html": "Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alcohol Rehab Alberta",
+       "html": "<strong>Alcohol Rehab Alberta</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alcohol Rehab Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+       "html": "<a data-wpel-link=\"internal\" href=\"/alcohol-drug-rehab-centres-in-alberta/\">Alcohol Rehab</a> Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/",
+         "text": "Alcohol Rehab"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+       "html": "Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alberta Detox Centres",
+       "html": "<strong>Alberta Detox Centres</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.",
+       "html": "Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.",
+       "html": "Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Calgary Rehab Centre",
+       "html": "<strong>Calgary Rehab Centre</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+       "html": "Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+       "html": "Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Detox Centres Near Me",
+       "html": "<a data-wpel-link=\"internal\" href=\"/detox-centres-in-canada/\"><strong>Detox Centres Near Me</strong></a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/detox-centres-in-canada/",
+         "text": "Detox Centres Near Me"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.",
+       "html": "Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.",
+       "links": [],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Alberta Rehabs",
+  "background_image": ""
+ },
+ "cards": [
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/",
+   "address": "4805 48 St, Red Deer, AB T4N 1S6, Canada",
+   "excerpt": "Niwichihaw Aboriginal Addiction Counselling",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107.jpg",
+    "alt": "Niwichihaw Aboriginal Addiction Counselling Service",
+    "width": "1018",
+    "height": "669"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+   "address": "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+   "excerpt": "The drug and alcohol treatment program for t",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+    "alt": "Venture Academy – Red Deer, Ab-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/alcohol-and-drug-addiction/",
+   "address": "Wabasca-Desmarais, AB T0G, Canada",
+   "excerpt": "The Pee Kis Kwe Tan (Let's Talk) Society acc",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0.png",
+    "alt": "Pee Kis Kwe Tan (Let's Talk) Society-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/",
+   "address": "Bonnyville, AB T9N 2J4, Canada",
+   "excerpt": "The Adult Co-Ed Residential program is based",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0.png",
+    "alt": "Bonnyville Indian Métis Rehabilitation Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/simon-house-recovery-centre/",
+   "address": "5819 Bowness Rd NW, Calgary, AB T3B 0C5, Canada",
+   "excerpt": "Simon House Recovery House is a drug and alc",
+   "category": "Alberta Rehabs",
+   "reviews": "1",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0.png",
+    "alt": "Simon House Recovery Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/",
+   "address": "1941 42 Ave SW, Calgary, AB T2T 2M6, Canada",
+   "excerpt": "Youville is a residential treatment center t",
+   "category": "Alberta Rehabs",
+   "reviews": "1",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1.jpg",
+    "alt": "alcove 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/woods-homes-parkdale-campus/",
+   "address": "805 37 St NW, Calgary, AB T2N 4N8, Canada",
+   "excerpt": "Wood's Homes is a non-profit, multi-service",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0.png",
+    "alt": "Wood's Homes - Parkdale Campus-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/",
+   "address": "1835 27 Ave SW, Calgary, AB T2T 1H6, Canada",
+   "excerpt": "One of Calgary Alberta’s finest, 1835 Hous",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0.png",
+    "alt": "Recovery Acres Calgary-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/teen-challenge-alberta/",
+   "address": "146024 208 St W, Priddis, AB T0L 1W0, Canada",
+   "excerpt": "Teen Challenge is a faith-based, 12-month re",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0.png",
+    "alt": "Teen Challenge Alberta-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/thorpe-recovery-centre/",
+   "address": "4204 54 Ave, Lloydminster, AB T9V 2R6, Canada",
+   "excerpt": "The Walter A. \"Slim\" Thorpe Recovery Centre",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0.png",
+    "alt": "Thorpe Recovery Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/recovery-acres-society/",
+   "address": "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+   "excerpt": "Recovery Acres is a men-only rehabilitation",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+    "alt": "Recovery Acres 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/",
+   "address": "303 Forge Rd SE, Calgary, AB T2H 0S9, Canada",
+   "excerpt": "The Alberta Adolescent Recovery Centre (AARC",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1.jpg",
+    "alt": "AARC 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/foothills-detox-centre/",
+   "address": "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+   "excerpt": "Foothills Detox Centre is a residential-base",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+    "alt": "foothills center",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+   "address": "411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+   "excerpt": "The Fresh Start Recovery Centre offers male",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+    "alt": "Fresh Start Recovery Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+   "address": "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+   "excerpt": "McDougall House Association is an Alberta-ba",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+    "alt": "Mcdougall House-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+   "address": "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+   "excerpt": "The Mark Amy Treatment Center offers a 28-da",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+    "alt": "Mark Amy Treatment Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/kapown-treatment-centre/",
+   "address": "Grouard, AB T0G 1C0, Canada",
+   "excerpt": "Kapown Center is a residential treatment fac",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/young-spirit-winds/",
+   "address": "Maskwacis, AB T0C 1N0, Canada",
+   "excerpt": "Young Spirit Winds Child Treatment Program's",
+   "category": "Alberta Rehabs",
+   "reviews": "1",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0.png",
+    "alt": "Young Spirit Winds-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/",
+   "address": "3030 13 Ave SE #105, Medicine Hat, AB T1B 1E3, Canada",
+   "excerpt": "Their program includes detoxification of the",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von.jpg",
+    "alt": "von",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/drug-rehab-center/",
+   "address": "5246 53 Ave, Red Deer, AB T4N 5K2, Canada",
+   "excerpt": "This facility provides a supportive rehabili",
+   "category": "Alberta Rehabs",
+   "reviews": "1",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0.png",
+    "alt": "Safe Harbour Society-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/live-free-calgary/",
+   "address": "Calgary, AB, Canada",
+   "excerpt": "Live Free Addiction Services Canada accommod",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/our-house-edmonton/",
+   "address": "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+   "excerpt": "Our House Addiction is a residential all-mal",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+    "alt": "Our House Edmonton-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/canadawide-mobile/",
+   "address": "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+   "excerpt": "Mobile Forensic Collection for substance abu",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+    "alt": "drivercheck-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/horizon-house/",
+   "address": "4916 50 St, Red Deer, AB T4N 1X7, Canada",
+   "excerpt": "Horizon House is a 25-bed Community Resident",
+   "category": "Alberta Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0.png",
+    "alt": "John Howard Society of Red Deer-0",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "",
+    "niwichihaw-aboriginal-addiction-counselling-service",
+    "4805 48 St, Red Deer, AB T4N 1S6, Canada",
+    "Niwichihaw Aboriginal Addiction Counselling",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "alcohol-treatment-program",
+    "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+    "The drug and alcohol treatment program for t",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "alcohol-and-drug-addiction",
+    "Wabasca-Desmarais, AB T0G, Canada",
+    "The Pee Kis Kwe Tan (Let's Talk) Society acc",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "bonnyville-indian-metis-rehabilitation-centre",
+    "Bonnyville, AB T9N 2J4, Canada",
+    "The Adult Co-Ed Residential program is based",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "simon-house-recovery-centre",
+    "5819 Bowness Rd NW, Calgary, AB T3B 0C5, Canada",
+    "Simon House Recovery House is a drug and alc",
+    "1",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "alcove-addiction-recovery-for-women",
+    "1941 42 Ave SW, Calgary, AB T2T 2M6, Canada",
+    "Youville is a residential treatment center t",
+    "1",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "woods-homes-parkdale-campus",
+    "805 37 St NW, Calgary, AB T2N 4N8, Canada",
+    "Wood's Homes is a non-profit, multi-service",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "alcohol-and-drug-recovery-centre",
+    "1835 27 Ave SW, Calgary, AB T2T 1H6, Canada",
+    "One of Calgary Alberta’s finest, 1835 Hous",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "teen-challenge-alberta",
+    "146024 208 St W, Priddis, AB T0L 1W0, Canada",
+    "Teen Challenge is a faith-based, 12-month re",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "thorpe-recovery-centre",
+    "4204 54 Ave, Lloydminster, AB T9V 2R6, Canada",
+    "The Walter A. \"Slim\" Thorpe Recovery Centre",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "recovery-acres-society",
+    "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+    "Recovery Acres is a men-only rehabilitation",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "alberta-adolescent-recovery-centre",
+    "303 Forge Rd SE, Calgary, AB T2H 0S9, Canada",
+    "The Alberta Adolescent Recovery Centre (AARC",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "foothills-detox-centre",
+    "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+    "Foothills Detox Centre is a residential-base",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "fresh-start-recovery-centre",
+    "411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+    "The Fresh Start Recovery Centre offers male",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "drug-rehab-center-2",
+    "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+    "McDougall House Association is an Alberta-ba",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "mark-amy-treatment-centre",
+    "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+    "The Mark Amy Treatment Center offers a 28-da",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "kapown-treatment-centre",
+    "Grouard, AB T0G 1C0, Canada",
+    "Kapown Center is a residential treatment fac",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "young-spirit-winds",
+    "Maskwacis, AB T0C 1N0, Canada",
+    "Young Spirit Winds Child Treatment Program's",
+    "1",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "victorian-order-of-nurses-for-canada-rehab-centres",
+    "3030 13 Ave SE #105, Medicine Hat, AB T1B 1E3, Canada",
+    "Their program includes detoxification of the",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "drug-rehab-center",
+    "5246 53 Ave, Red Deer, AB T4N 5K2, Canada",
+    "This facility provides a supportive rehabili",
+    "1",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "live-free-calgary",
+    "Calgary, AB, Canada",
+    "Live Free Addiction Services Canada accommod",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "our-house-edmonton",
+    "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+    "Our House Addiction is a residential all-mal",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "canadawide-mobile",
+    "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+    "Mobile Forensic Collection for substance abu",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ],
+   [
+    "",
+    "horizon-house",
+    "4916 50 St, Red Deer, AB T4N 1X7, Canada",
+    "Horizon House is a 25-bed Community Resident",
+    "0",
+    0,
+    "",
+    [
+     "Alberta Rehabs"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "listing": {
+  "cards": [
+   {
+    "name": "Niwichihaw Aboriginal Addiction Counselling Service",
+    "href": "https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/",
+    "slug": "niwichihaw-aboriginal-addiction-counselling-service",
+    "address": "4805 48 St, Red Deer, AB T4N 1S6, Canada",
+    "excerpt": "Niwichihaw Aboriginal Addiction Counselling",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/niwichihaw-aboriginal-addiction-counselling-service/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107.jpg",
+     "alt": "Niwichihaw Aboriginal Addiction Counselling Service",
+     "width": "1018",
+     "height": "669",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107.jpg"
+    }
+   },
+   {
+    "name": "Venture Academy",
+    "href": "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+    "slug": "alcohol-treatment-program",
+    "address": "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+    "excerpt": "The drug and alcohol treatment program for t",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alcohol-treatment-program/Venture-Academy-–-Red-Deer-Ab-0.png",
+     "alt": "Venture Academy – Red Deer, Ab-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png"
+    }
+   },
+   {
+    "name": "Pee Kis Kwe Tan (Let’s Talk) Society",
+    "href": "https://addictionrehabcenters.ca/alcohol-and-drug-addiction/",
+    "slug": "alcohol-and-drug-addiction",
+    "address": "Wabasca-Desmarais, AB T0G, Canada",
+    "excerpt": "The Pee Kis Kwe Tan (Let's Talk) Society acc",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alcohol-and-drug-addiction/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0.png",
+     "alt": "Pee Kis Kwe Tan (Let's Talk) Society-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0.png"
+    }
+   },
+   {
+    "name": "Bonnyville Indian Métis Rehabilitation Centre",
+    "href": "https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/",
+    "slug": "bonnyville-indian-metis-rehabilitation-centre",
+    "address": "Bonnyville, AB T9N 2J4, Canada",
+    "excerpt": "The Adult Co-Ed Residential program is based",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/bonnyville-indian-metis-rehabilitation-centre/Bonnyville-Indian-Metis-Rehabilitation-Centre-0.png",
+     "alt": "Bonnyville Indian Métis Rehabilitation Centre-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0.png"
+    }
+   },
+   {
+    "name": "Simon House Recovery Centre",
+    "href": "https://addictionrehabcenters.ca/simon-house-recovery-centre/",
+    "slug": "simon-house-recovery-centre",
+    "address": "5819 Bowness Rd NW, Calgary, AB T3B 0C5, Canada",
+    "excerpt": "Simon House Recovery House is a drug and alc",
+    "category": "Alberta Rehabs",
+    "reviews": 1,
+    "image": {
+     "local_path": "images/simon-house-recovery-centre/Simon-House-Recovery-Centre-0.png",
+     "alt": "Simon House Recovery Centre-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0.png"
+    }
+   },
+   {
+    "name": "Alcove Addiction Recovery For Women",
+    "href": "https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/",
+    "slug": "alcove-addiction-recovery-for-women",
+    "address": "1941 42 Ave SW, Calgary, AB T2T 2M6, Canada",
+    "excerpt": "Youville is a residential treatment center t",
+    "category": "Alberta Rehabs",
+    "reviews": 1,
+    "image": {
+     "local_path": "images/alcove-addiction-recovery-for-women/alcove-1.jpg",
+     "alt": "alcove 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1.jpg"
+    }
+   },
+   {
+    "name": "Wood’s Homes – Parkdale Campus",
+    "href": "https://addictionrehabcenters.ca/woods-homes-parkdale-campus/",
+    "slug": "woods-homes-parkdale-campus",
+    "address": "805 37 St NW, Calgary, AB T2N 4N8, Canada",
+    "excerpt": "Wood's Homes is a non-profit, multi-service",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/woods-homes-parkdale-campus/Woods-Homes-Parkdale-Campus-0.png",
+     "alt": "Wood's Homes - Parkdale Campus-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0.png"
+    }
+   },
+   {
+    "name": "Recovery Acres Calgary",
+    "href": "https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/",
+    "slug": "alcohol-and-drug-recovery-centre",
+    "address": "1835 27 Ave SW, Calgary, AB T2T 1H6, Canada",
+    "excerpt": "One of Calgary Alberta’s finest, 1835 Hous",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alcohol-and-drug-recovery-centre/Recovery-Acres-Calgary-0.png",
+     "alt": "Recovery Acres Calgary-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0.png"
+    }
+   },
+   {
+    "name": "Teen Challenge Canada — Alberta Men’s Centre",
+    "href": "https://addictionrehabcenters.ca/teen-challenge-alberta/",
+    "slug": "teen-challenge-alberta",
+    "address": "146024 208 St W, Priddis, AB T0L 1W0, Canada",
+    "excerpt": "Teen Challenge is a faith-based, 12-month re",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/teen-challenge-alberta/Teen-Challenge-Alberta-0.png",
+     "alt": "Teen Challenge Alberta-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0.png"
+    }
+   },
+   {
+    "name": "Thorpe Recovery Centre",
+    "href": "https://addictionrehabcenters.ca/thorpe-recovery-centre/",
+    "slug": "thorpe-recovery-centre",
+    "address": "4204 54 Ave, Lloydminster, AB T9V 2R6, Canada",
+    "excerpt": "The Walter A. \"Slim\" Thorpe Recovery Centre",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/thorpe-recovery-centre/Thorpe-Recovery-Centre-0.png",
+     "alt": "Thorpe Recovery Centre-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0.png"
+    }
+   },
+   {
+    "name": "Recovery Acres Society",
+    "href": "https://addictionrehabcenters.ca/recovery-acres-society/",
+    "slug": "recovery-acres-society",
+    "address": "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+    "excerpt": "Recovery Acres is a men-only rehabilitation",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/recovery-acres-society/Recovery-Acres-1.jpg",
+     "alt": "Recovery Acres 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg"
+    }
+   },
+   {
+    "name": "Alberta Adolescent Recovery Centre",
+    "href": "https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/",
+    "slug": "alberta-adolescent-recovery-centre",
+    "address": "303 Forge Rd SE, Calgary, AB T2H 0S9, Canada",
+    "excerpt": "The Alberta Adolescent Recovery Centre (AARC",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alberta-adolescent-recovery-centre/AARC-1.jpg",
+     "alt": "AARC 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1.jpg"
+    }
+   },
+   {
+    "name": "Foothills Detox Centre",
+    "href": "https://addictionrehabcenters.ca/foothills-detox-centre/",
+    "slug": "foothills-detox-centre",
+    "address": "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+    "excerpt": "Foothills Detox Centre is a residential-base",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/foothills-detox-centre/foothills-center.jpg",
+     "alt": "foothills center",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg"
+    }
+   },
+   {
+    "name": "Fresh Start Recovery Centre",
+    "href": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+    "slug": "fresh-start-recovery-centre",
+    "address": "411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+    "excerpt": "The Fresh Start Recovery Centre offers male",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/fresh-start-recovery-centre/Fresh-Start-Recovery-Centre-0.png",
+     "alt": "Fresh Start Recovery Centre-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png"
+    }
+   },
+   {
+    "name": "Mcdougall House",
+    "href": "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+    "slug": "drug-rehab-center-2",
+    "address": "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+    "excerpt": "McDougall House Association is an Alberta-ba",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/drug-rehab-center-2/Mcdougall-House-0.png",
+     "alt": "Mcdougall House-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png"
+    }
+   },
+   {
+    "name": "Mark Amy Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+    "slug": "mark-amy-treatment-centre",
+    "address": "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+    "excerpt": "The Mark Amy Treatment Center offers a 28-da",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/mark-amy-treatment-centre/Mark-Amy-Treatment-Centre-0.png",
+     "alt": "Mark Amy Treatment Centre-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png"
+    }
+   },
+   {
+    "name": "Kapown Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/kapown-treatment-centre/",
+    "slug": "kapown-treatment-centre",
+    "address": "Grouard, AB T0G 1C0, Canada",
+    "excerpt": "Kapown Center is a residential treatment fac",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/kapown-treatment-centre/kapown-1.jpg",
+     "alt": "",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1.jpg"
+    }
+   },
+   {
+    "name": "Young Spirit Winds",
+    "href": "https://addictionrehabcenters.ca/young-spirit-winds/",
+    "slug": "young-spirit-winds",
+    "address": "Maskwacis, AB T0C 1N0, Canada",
+    "excerpt": "Young Spirit Winds Child Treatment Program's",
+    "category": "Alberta Rehabs",
+    "reviews": 1,
+    "image": {
+     "local_path": "images/young-spirit-winds/Young-Spirit-Winds-0.png",
+     "alt": "Young Spirit Winds-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0.png"
+    }
+   },
+   {
+    "name": "Victorian Order Of Nurses For Canada",
+    "href": "https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/",
+    "slug": "victorian-order-of-nurses-for-canada-rehab-centres",
+    "address": "3030 13 Ave SE #105, Medicine Hat, AB T1B 1E3, Canada",
+    "excerpt": "Their program includes detoxification of the",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/victorian-order-of-nurses-for-canada-rehab-centres/von.jpg",
+     "alt": "von",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von.jpg"
+    }
+   },
+   {
+    "name": "Safe Harbour Society",
+    "href": "https://addictionrehabcenters.ca/drug-rehab-center/",
+    "slug": "drug-rehab-center",
+    "address": "5246 53 Ave, Red Deer, AB T4N 5K2, Canada",
+    "excerpt": "This facility provides a supportive rehabili",
+    "category": "Alberta Rehabs",
+    "reviews": 1,
+    "image": {
+     "local_path": "images/drug-rehab-center/Safe-Harbour-Society-0.png",
+     "alt": "Safe Harbour Society-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0.png"
+    }
+   },
+   {
+    "name": "Live Free Calgary",
+    "href": "https://addictionrehabcenters.ca/live-free-calgary/",
+    "slug": "live-free-calgary",
+    "address": "Calgary, AB, Canada",
+    "excerpt": "Live Free Addiction Services Canada accommod",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/live-free-calgary/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Our House Edmonton",
+    "href": "https://addictionrehabcenters.ca/our-house-edmonton/",
+    "slug": "our-house-edmonton",
+    "address": "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+    "excerpt": "Our House Addiction is a residential all-mal",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/our-house-edmonton/Our-House-Edmonton-0.png",
+     "alt": "Our House Edmonton-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png"
+    }
+   },
+   {
+    "name": "Canadawide Mobile",
+    "href": "https://addictionrehabcenters.ca/canadawide-mobile/",
+    "slug": "canadawide-mobile",
+    "address": "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+    "excerpt": "Mobile Forensic Collection for substance abu",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/canadawide-mobile/drivercheck-0.png",
+     "alt": "drivercheck-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png"
+    }
+   },
+   {
+    "name": "Horizon House",
+    "href": "https://addictionrehabcenters.ca/horizon-house/",
+    "slug": "horizon-house",
+    "address": "4916 50 St, Red Deer, AB T4N 1X7, Canada",
+    "excerpt": "Horizon House is a 25-bed Community Resident",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/horizon-house/John-Howard-Society-of-Red-Deer-0.png",
+     "alt": "John Howard Society of Red Deer-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0.png"
+    }
+   },
+   {
+    "name": "Youth Clairmont Detox",
+    "href": "https://addictionrehabcenters.ca/youth-clairmont-detox/",
+    "slug": "youth-clairmont-detox",
+    "address": "9715 105 Ave, Clairmont, AB T0H 0W5, Canada",
+    "excerpt": "Clairmont's youth detox program is a governm",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/youth-clairmont-detox/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Peace Country Wilderness Program",
+    "href": "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+    "slug": "peace-country-wilderness-program",
+    "address": "10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada",
+    "excerpt": "The Peace Country Wilderness Program is dedi",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/peace-country-wilderness-program/pace-center.jpg",
+     "alt": "pace center",
+     "width": "929",
+     "height": "565",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center.jpg"
+    }
+   },
+   {
+    "name": "Action North Recovery Centre",
+    "href": "https://addictionrehabcenters.ca/action-north-recovery-centre/",
+    "slug": "action-north-recovery-centre",
+    "address": "10502 103rd St, Jacksonville, FL 32210, USA",
+    "excerpt": "Action North Recovery Centre is a multi-face",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/action-north-recovery-centre/Action-North-Recovery-Centre-0.png",
+     "alt": "Action North Recovery Centre-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Action-North-Recovery-Centre-0.png"
+    }
+   },
+   {
+    "name": "Beyond Addiction",
+    "href": "https://addictionrehabcenters.ca/beyond-addiction/",
+    "slug": "beyond-addiction",
+    "address": "Okotoks, AB T1S 1B3, Canada",
+    "excerpt": "The Beyond Addiction program helps people de",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/beyond-addiction/beyond-2.jpg",
+     "alt": "beyond 2",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/beyond-2.jpg"
+    }
+   },
+   {
+    "name": "Rocky Native Friendship Centre",
+    "href": "https://addictionrehabcenters.ca/rocky-native-friendship-centre/",
+    "slug": "rocky-native-friendship-centre",
+    "address": "Okotoks, AB, Canada",
+    "excerpt": "The Rocky Native Friendship Centre is a non-",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/rocky-native-friendship-centre/Rocky-Native-Friendship-Centre-0.png",
+     "alt": "",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rocky-Native-Friendship-Centre-0.png"
+    }
+   },
+   {
+    "name": "Hiiye’Yu Lelum House Of Friendship Society",
+    "href": "https://addictionrehabcenters.ca/hiiyeyu-lelum-house-of-friendship-society/",
+    "slug": "hiiyeyu-lelum-house-of-friendship-society",
+    "address": "106 Trans-Canada Hwy, Medicine Hat, AB T0J 2P0, Canada",
+    "excerpt": "Hiiye'Yu Lelum Hous of Friendship offers non",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/hiiyeyu-lelum-house-of-friendship-society/Hiiye-1.jpg",
+     "alt": "Hiiye 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Hiiye-1.jpg"
+    }
+   },
+   {
+    "name": "Axis Family Resources",
+    "href": "https://addictionrehabcenters.ca/axis-family-resources/",
+    "slug": "axis-family-resources",
+    "address": "N 2 Ave, Alberta T0E 1Z0, Canada",
+    "excerpt": "Axis Family Resources provides individual th",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/axis-family-resources/Axis-Family-Resources-Ltd.-0.png",
+     "alt": "Axis Family Resources Ltd.-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Axis-Family-Resources-Ltd.-0.png"
+    }
+   },
+   {
+    "name": "Soda Creek First Nation Addiction Services",
+    "href": "https://addictionrehabcenters.ca/soda-creek-first-nation-addiction-services/",
+    "slug": "soda-creek-first-nation-addiction-services",
+    "address": "1 Ave S, Alberta T0E 1Z0, Canada",
+    "excerpt": "The Alcohol & Drug Counsellor at Soda Creek",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/soda-creek-first-nation-addiction-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "12 Step Group Trinity United Church",
+    "href": "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+    "slug": "12-step-group-trinity-united-church",
+    "address": "33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+    "excerpt": "The Trinity United Church facilitates an ope",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/12-step-group-trinity-united-church/Trinity-Memorial-United-Church-0.png",
+     "alt": "Trinity Memorial United Church-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png"
+    }
+   },
+   {
+    "name": "Old Fashioned Aa Group",
+    "href": "https://addictionrehabcenters.ca/old-fashioned-aa-group/",
+    "slug": "old-fashioned-aa-group",
+    "address": "Vancouver, BC, Canada",
+    "excerpt": "The Carriage House facilitates an open meeti",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/old-fashioned-aa-group/peace-lutheran-church-0.png",
+     "alt": "peace lutheran church-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peace-lutheran-church-0.png"
+    }
+   },
+   {
+    "name": "Peardonville Treatment Centre Meeting",
+    "href": "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+    "slug": "peardonville-treatment-centre-meeting",
+    "address": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+    "excerpt": "The facility acc an open meeting every Wedne",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/peardonville-treatment-centre-meeting/PeardonvilleHouse-0.png",
+     "alt": "PeardonvilleHouse-0",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png"
+    }
+   },
+   {
+    "name": "Alberta Health Services – Adult Detoxification High Prairie",
+    "href": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+    "slug": "alberta-health-services-adult-detoxification-high-prairie",
+    "address": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+    "excerpt": "Alberta Health Services - Adult Detoxificati",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alberta-health-services-adult-detoxification-high-prairie/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Alberta Health Services – Youth Counselling Medicine Hat",
+    "href": "https://addictionrehabcenters.ca/alberta-health-services-youth-counselling-medicine-hat/",
+    "slug": "alberta-health-services-youth-counselling-medicine-hat",
+    "address": "346 3 St SE #1, Calgary, AB T2G 0S3, Canada",
+    "excerpt": "Alberta Health Services- Youth Counselling M",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alberta-health-services-youth-counselling-medicine-hat/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Alberta Health Services – Youth Counseling Vegreville",
+    "href": "https://addictionrehabcenters.ca/alberta-health-services/",
+    "slug": "alberta-health-services",
+    "address": "4809 50 St, Vegreville, AB T9C 1L8, Canada",
+    "excerpt": "Alberta Health Services Vegreville Youth Cou",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alberta-health-services/vegreville-provincial-court-building-0.png",
+     "alt": "Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/vegreville-provincial-court-building-0.png"
+    }
+   },
+   {
+    "name": "Clsc Alberta Health Services",
+    "href": "https://addictionrehabcenters.ca/clsc-alberta-health-services/",
+    "slug": "clsc-alberta-health-services",
+    "address": "3535 Research Rd NW, Calgary, AB T2L 1Y1, Canada",
+    "excerpt": "Calgary Laboratory Services (CLS) is a medic",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/clsc-alberta-health-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "iRecover Alberta",
+    "href": "https://addictionrehabcenters.ca/irecover-alberta/",
+    "slug": "irecover-alberta",
+    "address": "41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+    "excerpt": "iRecover specializes in the treatment of sub",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/irecover-alberta/iRecover-Drug-Addiction-Treatment-1.jpg",
+     "alt": "iRecover Drug & Addiction Treatment",
+     "width": "1103",
+     "height": "724",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg"
+    }
+   },
+   {
+    "name": "Sandstone Inpatient Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/sandstone-inpatient-treatment-centre/",
+    "slug": "sandstone-inpatient-treatment-centre",
+    "address": "802 7 Ave NE, Calgary, AB T2E 0N7, Canada",
+    "excerpt": "Sandstone Inpatient Treatment Centre’s Pro",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/sandstone-inpatient-treatment-centre/Sandstone-Inpatient-Treatment-Centre1.webp",
+     "alt": "",
+     "width": "1400",
+     "height": "800",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Sandstone-Inpatient-Treatment-Centre1.webp"
+    }
+   },
+   {
+    "name": "Jellinek Society",
+    "href": "https://addictionrehabcenters.ca/jellinek-society/",
+    "slug": "jellinek-society",
+    "address": "11229 100 Ave NW, Edmonton, AB T5K 0J1, Canada",
+    "excerpt": "Location in Edmonton Jellinek Society is loc",
+    "category": "Alberta Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/jellinek-society/Jellinek-Society7.webp",
+     "alt": "",
+     "width": "1400",
+     "height": "800",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Jellinek-Society7.webp"
+    }
+   }
+  ],
+  "source_listing_count": 46,
+  "duplicates_removed": 4
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"elementor elementor-8179\" data-elementor-id=\"8179\" data-elementor-post-type=\"page\" data-elementor-type=\"wp-page\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3209d5c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3209d5c7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14dbba7e\" data-element_type=\"column\" data-id=\"14dbba7e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4f7e60f2 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4f7e60f2\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"vc_row wpb_row vc_row-fluid innerBanner\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1>Alberta Rehabs</h1>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2>44 Best Rehab Centres in Alberta</h2>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerListingBox\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"eltdf-listing-list-holder eltdf-ll-gallery eltdf-ll-layout-standard eltdf-grid-list eltdf-disable-bottom-space eltdf-three-columns eltdf-normal-space eltdf-ll-no-map eltdf-ll-no-filter eltdf-ll-pag-load-more eltdf-ll-category-set\" data-category=\"516\" data-enable-category=\"yes\" data-enable-excerpt=\"yes\" data-enable-filter=\"no\" data-enable-filter-category=\"yes\" data-enable-filter-custom-search=\"yes\" data-enable-filter-location=\"yes\" data-enable-filter-order-by=\"yes\" data-enable-filter-switch-layout=\"yes\" data-enable-filter-tag=\"yes\" data-enable-location=\"yes\" data-enable-map=\"no\" data-enable-map-switcher=\"no\" data-enable-price-range=\"yes\" data-enable-reviews-count=\"yes\" data-filter-location-field-type=\"select\" data-hide-active-filter=\"yes\" data-image-proportions=\"full\" data-item-layout=\"standard\" data-load-more-top-margin=\"50px\" data-max-num-pages=\"2\" data-next-page=\"2\" data-number-of-columns=\"three\" data-number-of-items=\"24\" data-order=\"ASC\" data-order-by=\"date\" data-pagination-type=\"load-more\" data-space-between-items=\"normal\" data-title-tag=\"h5\" data-type=\"gallery\">\n<div class=\"eltdf-listing-list-items-part\">\n<div class=\"eltdf-ll-inner eltdf-outer-space clearfix\">\n<article class=\"eltdf-ll-item eltdf-item-space post-6487 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-red-deer\" data-id=\"6487\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Niwichihaw Aboriginal Addiction Counselling Service\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"669\" loading=\"lazy\" sizes=\"(max-width: 1018px) 100vw, 1018px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107.jpg 1018w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107-300x197.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107-768x505.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Niwichihaw-Aboriginal-Addiction-Counselling-Service-e1663585328107-600x394.jpg 600w\" width=\"1018\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t4805 48 St, Red Deer, AB T4N 1S6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/niwichihaw-aboriginal-addiction-counselling-service/\" itemprop=\"url\">Niwichihaw Aboriginal Addiction Counselling Service</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Niwichihaw Aboriginal Addiction Counselling </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6487\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3776\" name=\"findall_listing_nonce_wishlist_functionality_3776\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6488 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-tag-alcohol-treatment-program listing-location-delburne\" data-id=\"6488\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-treatment-program/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Venture Academy – Red Deer, Ab-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t1810 25 Ave, Delburne, AB T0M 0V0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-treatment-program/\" itemprop=\"url\">Venture Academy</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The drug and alcohol treatment program for t</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6488\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8235\" name=\"findall_listing_nonce_wishlist_functionality_8235\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space eltdf-featured-item post-6489 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-wabasca-desmarais\" data-id=\"6489\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-and-drug-addiction/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Pee Kis Kwe Tan (Let's Talk) Society-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Pee-Kis-Kwe-Tan-Lets-Talk-Society-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tWabasca-Desmarais, AB T0G, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"eltdf-lli-featured-mark\">\n<span class=\"eltdf-lli-featured-label\">Featured</span>\n</div>\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-and-drug-addiction/\" itemprop=\"url\">Pee Kis Kwe Tan (Let’s Talk) Society</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Pee Kis Kwe Tan (Let's Talk) Society acc</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6489\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8830\" name=\"findall_listing_nonce_wishlist_functionality_8830\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6491 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-bonnyville\" data-id=\"6491\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Bonnyville Indian Métis Rehabilitation Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Bonnyville-Indian-Metis-Rehabilitation-Centre-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tBonnyville, AB T9N 2J4, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bonnyville-indian-metis-rehabilitation-centre/\" itemprop=\"url\">Bonnyville Indian Métis Rehabilitation Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Adult Co-Ed Residential program is based</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6491\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3022\" name=\"findall_listing_nonce_wishlist_functionality_3022\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6492 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6492\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/simon-house-recovery-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Simon House Recovery Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Simon-House-Recovery-Centre-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t5819 Bowness Rd NW, Calgary, AB T3B 0C5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/simon-house-recovery-centre/\" itemprop=\"url\">Simon House Recovery Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Simon House Recovery House is a drug and alc</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            1        </span>\n<span class=\"eltdf-reviews-label\">\n            Review        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6492\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2784\" name=\"findall_listing_nonce_wishlist_functionality_2784\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6476 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-tag-aftercare listing-tag-childrens-care listing-tag-family-counselling listing-tag-holistic-treatment-services listing-tag-intensive-outpatient-program listing-tag-outpatient-drug-rehab listing-tag-outpatient-treatment listing-tag-pregnant-women-services listing-tag-residential-drug-rehab listing-tag-residential-long-term listing-tag-residential-treatment listing-tag-sober-living listing-tag-substance-abuse-treatment listing-tag-woman-only listing-location-calgary\" data-id=\"6476\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"alcove 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcove-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t1941 42 Ave SW, Calgary, AB T2T 2M6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcove-addiction-recovery-for-women/\" itemprop=\"url\">Alcove Addiction Recovery For Women</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Youville is a residential treatment center t</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            1        </span>\n<span class=\"eltdf-reviews-label\">\n            Review        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6476\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2048\" name=\"findall_listing_nonce_wishlist_functionality_2048\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6493 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6493\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/woods-homes-parkdale-campus/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Wood's Homes - Parkdale Campus-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Woods-Homes-Parkdale-Campus-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t805 37 St NW, Calgary, AB T2N 4N8, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/woods-homes-parkdale-campus/\" itemprop=\"url\">Wood’s Homes – Parkdale Campus</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Wood's Homes is a non-profit, multi-service </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6493\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1446\" name=\"findall_listing_nonce_wishlist_functionality_1446\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6477 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6477\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Recovery Acres Calgary-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-Calgary-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t1835 27 Ave SW, Calgary, AB T2T 1H6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-and-drug-recovery-centre/\" itemprop=\"url\">Recovery Acres Calgary</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">One of Calgary Alberta’s finest, 1835 Hous</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6477\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_6925\" name=\"findall_listing_nonce_wishlist_functionality_6925\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6494 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6494\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/teen-challenge-alberta/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Teen Challenge Alberta-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Teen-Challenge-Alberta-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t146024 208 St W, Priddis, AB T0L 1W0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/teen-challenge-alberta/\" itemprop=\"url\">Teen Challenge Canada — Alberta Men’s Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Teen Challenge is a faith-based, 12-month re</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6494\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1130\" name=\"findall_listing_nonce_wishlist_functionality_1130\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6478 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-lloydminster\" data-id=\"6478\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/thorpe-recovery-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Thorpe Recovery Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Thorpe-Recovery-Centre-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t4204 54 Ave, Lloydminster, AB T9V 2R6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/thorpe-recovery-centre/\" itemprop=\"url\">Thorpe Recovery Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Walter A. \"Slim\" Thorpe Recovery Centre </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6478\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2838\" name=\"findall_listing_nonce_wishlist_functionality_2838\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6495 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-edmonton\" data-id=\"6495\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/recovery-acres-society/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Recovery Acres 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/recovery-acres-society/\" itemprop=\"url\">Recovery Acres Society</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Recovery Acres is a men-only rehabilitation </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6495\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3514\" name=\"findall_listing_nonce_wishlist_functionality_3514\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6479 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6479\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"AARC 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/AARC-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t303 Forge Rd SE, Calgary, AB T2H 0S9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alberta-adolescent-recovery-centre/\" itemprop=\"url\">Alberta Adolescent Recovery Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Alberta Adolescent Recovery Centre (AARC</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6479\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5990\" name=\"findall_listing_nonce_wishlist_functionality_5990\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6496 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-edmonton\" data-id=\"6496\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/foothills-detox-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"foothills center\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t810 18 St, Fort Macleod, AB T0L 0Z0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/foothills-detox-centre/\" itemprop=\"url\">Foothills Detox Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Foothills Detox Centre is a residential-base</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6496\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8651\" name=\"findall_listing_nonce_wishlist_functionality_8651\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6480 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6480\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/fresh-start-recovery-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Fresh Start Recovery Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t411 41 Ave NE, Calgary, AB T2E 2N4, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/fresh-start-recovery-centre/\" itemprop=\"url\">Fresh Start Recovery Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Fresh Start Recovery Centre offers male </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6480\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5815\" name=\"findall_listing_nonce_wishlist_functionality_5815\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6481 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-edmonton\" data-id=\"6481\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab-center-2/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Mcdougall House-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t11070 108 St NW, Edmonton, AB T5H 3A9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab-center-2/\" itemprop=\"url\">Mcdougall House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">McDougall House Association is an Alberta-ba</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6481\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2549\" name=\"findall_listing_nonce_wishlist_functionality_2549\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space eltdf-featured-item post-6482 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-fort-mcmurray\" data-id=\"6482\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mark-amy-treatment-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Mark Amy Treatment Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t9914 King St, Fort McMurray, AB T9H 5A8, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"eltdf-lli-featured-mark\">\n<span class=\"eltdf-lli-featured-label\">Featured</span>\n</div>\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mark-amy-treatment-centre/\" itemprop=\"url\">Mark Amy Treatment Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Mark Amy Treatment Center offers a 28-da</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6482\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2202\" name=\"findall_listing_nonce_wishlist_functionality_2202\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6483 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-grouard\" data-id=\"6483\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/kapown-treatment-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/kapown-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tGrouard, AB T0G 1C0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/kapown-treatment-centre/\" itemprop=\"url\">Kapown Treatment Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Kapown Center is a residential treatment fac</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6483\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7892\" name=\"findall_listing_nonce_wishlist_functionality_7892\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6484 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-maskwacis\" data-id=\"6484\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/young-spirit-winds/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Young Spirit Winds-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Young-Spirit-Winds-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tMaskwacis, AB T0C 1N0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/young-spirit-winds/\" itemprop=\"url\">Young Spirit Winds</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Young Spirit Winds Child Treatment Program's</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            1        </span>\n<span class=\"eltdf-reviews-label\">\n            Review        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6484\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3040\" name=\"findall_listing_nonce_wishlist_functionality_3040\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6485 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-medicine-hat\" data-id=\"6485\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"von\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/von-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t3030 13 Ave SE #105, Medicine Hat, AB T1B 1E3, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/victorian-order-of-nurses-for-canada-rehab-centres/\" itemprop=\"url\">Victorian Order Of Nurses For Canada</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Their program includes detoxification of the</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6485\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1509\" name=\"findall_listing_nonce_wishlist_functionality_1509\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6486 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-red-deer\" data-id=\"6486\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab-center/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Safe Harbour Society-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Safe-Harbour-Society-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t5246 53 Ave, Red Deer, AB T4N 5K2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab-center/\" itemprop=\"url\">Safe Harbour Society</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">This facility provides a supportive rehabili</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            1        </span>\n<span class=\"eltdf-reviews-label\">\n            Review        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6486\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5647\" name=\"findall_listing_nonce_wishlist_functionality_5647\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6504 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-calgary\" data-id=\"6504\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/live-free-calgary/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tCalgary, AB, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/live-free-calgary/\" itemprop=\"url\">Live Free Calgary</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Live Free Addiction Services Canada accommod</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6504\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2409\" name=\"findall_listing_nonce_wishlist_functionality_2409\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6505 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-edmonton\" data-id=\"6505\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/our-house-edmonton/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Our House Edmonton-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/our-house-edmonton/\" itemprop=\"url\">Our House Edmonton</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Our House Addiction is a residential all-mal</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6505\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3874\" name=\"findall_listing_nonce_wishlist_functionality_3874\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6506 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-fort-mcmurray\" data-id=\"6506\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadawide-mobile/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"drivercheck-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t9815 Main St, Fort McMurray, AB T9H 1T7, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadawide-mobile/\" itemprop=\"url\">Canadawide Mobile</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Mobile Forensic Collection for substance abu</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6506\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_6996\" name=\"findall_listing_nonce_wishlist_functionality_6996\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6507 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-alberta-rehabs listing-location-red-deer\" data-id=\"6507\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/horizon-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"John Howard Society of Red Deer-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/John-Howard-Society-of-Red-Deer-0-768x512.png 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/alberta-rehabs/\" itemprop=\"url\">\n\t\t\t\tAlberta Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t4916 50 St, Red Deer, AB T4N 1X7, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/horizon-house/\" itemprop=\"url\">Horizon House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Horizon House is a 25-bed Community Resident</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6507\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_6396\" name=\"findall_listing_nonce_wishlist_functionality_6396\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/alberta-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article> </div>\n<div class=\"eltdf-ll-loading\">\n<div class=\"eltdf-findall-spinner\"></div>\n</div> <div class=\"eltdf-ll-load-more-holder\">\n<div class=\"eltdf-ll-load-more\" style=\"margin-top: 50px\">\n<a class=\"eltdf-btn eltdf-btn-small eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"\" itemprop=\"url\" target=\"_self\"> <span class=\"eltdf-btn-text\">Load More</span> <svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg> </a> </div>\n</div>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"vc_empty_space\" style=\"height: 20px\"><span class=\"vc_empty_space_inner\"></span></div>\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2>Addiction Treatment Centres in Alberta</h2>\n<p>Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range of organizations providing drug and alcohol rehab, some even providing private addiction treatment to individuals struggling with substance abuse issues. Alberta provides numerous excellent options for those seeking assistance on their road to recovery, from state-funded centres to private operations. Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting an appropriate facility. With assistance from friends and family members, it may become much simpler to comprehend your individual needs and make an informed decision regarding the best course of action in your particular case.</p>\n<p><strong>Finding the Right Help for Drug and Alcohol Addiction</strong></p>\n<p>Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families from all walks of life. The good news is that there are many addiction treatment centres in Alberta that can help individuals overcome their addictions and lead a sober life. These centres offer a range of services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this article, we will explore the different types of addiction treatment centres in Alberta and how to find the right one for you or your loved one.</p>\n<h3><strong>Drug Rehab and Alcohol Rehab</strong></h3>\n<p>Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping skills, and lead a sober life.</p>\n<p>Drug rehab and alcohol rehab centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. These programs provide a safe and supportive environment where individuals can focus on their recovery without distractions. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.</p>\n<p><strong>Alcohol Rehab Alberta</strong></p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-drug-rehab-centres-in-alberta/\">Alcohol Rehab</a> Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These centres offer a range of services, including detox, individual and group therapy, and aftercare support. Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health conditions, such as depression and anxiety.</p>\n<p>Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.</p>\n<p><strong>Alberta Detox Centres</strong></p>\n<p>Alberta detox centres provide medically supervised detox services to individuals who are physically dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and it is best done under the supervision of trained medical professionals.</p>\n<p>Alberta detox centres offer different types of detox programs, including medical detox and social detox. Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves the use of non-medical interventions, such as counselling and support groups.</p>\n<p><strong>Calgary Rehab Centre</strong></p>\n<p>Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This centre offers a range of services, including inpatient and outpatient programs, detox, individual and group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for individuals with co-occurring mental health conditions, such as depression and anxiety.</p>\n<p>Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient programs are best suited for individuals who require round-the-clock care and support. Outpatient programs are best suited for individuals who have a supportive home environment and can manage their addiction while attending therapy and other services.</p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/detox-centres-in-canada/\"><strong>Detox Centres Near Me</strong></a></p>\n<p>Detox centres near me are addiction treatment centres located near your home or workplace. These centres provide detox services to individuals who are physically dependent on drugs or alcohol. Detox centres near me offer different types of detox programs, including medical detox and social detox. Detox centres near me may also provide support services, such as counselling and support groups.</p>\n</div>\n</div>\n<div class=\"vc_empty_space\" style=\"height: 35px\"><span class=\"vc_empty_space_inner\"></span></div></div></div></div></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-363e1ef elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"363e1ef\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cdfaf04\" data-element_type=\"column\" data-id=\"cdfaf04\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-cd6701a elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"cd6701a\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div></body>"
+}

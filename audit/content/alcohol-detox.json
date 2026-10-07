@@ -1,0 +1,866 @@
+{
+ "schema": "arc-content/1",
+ "slug": "alcohol-detox",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/alcohol-detox/",
+  "path": "/alcohol-detox/",
+  "wp_items": [
+   {
+    "id": 10996,
+    "type": "post",
+    "title": "Alcohol Detox",
+    "date": "2015-07-13T16:14:22",
+    "modified": "2022-09-13T14:56:39",
+    "status": "publish",
+    "yoast_title": "Alcohol Detox - Addiction Rehab Centers",
+    "words_rest": 723
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/alcohol-detox/",
+ "seo": {
+  "meta_title": "Alcohol Detox - Addiction Rehab Centers",
+  "meta_description": "Learn about the process of alcohol detox, the first step of many toward becoming sober, and call us at Addiction Rehab Centres Canada to find out how we can help you.",
+  "canonical_source": "https://addictionrehabcenters.ca/alcohol-detox/",
+  "og": {
+   "title": "Alcohol Detox - Addiction Rehab Centers",
+   "description": "Learn about the process of alcohol detox, the first step of many toward becoming sober, and call us at Addiction Rehab Centres Canada to find out how we can help you.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/alcohol-detox/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/alcohol-detox/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Alcohol Detox",
+      "datePublished": "2015-07-13T16:14:22+00:00",
+      "dateModified": "2022-09-13T14:56:39+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/alcohol-detox/"
+      },
+      "wordCount": 732,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/alcohol-detox/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+      "keywords": [
+       "alcohol",
+       "Alcohol Detox",
+       "detox"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/alcohol-detox/",
+      "url": "https://addictionrehabcenters.ca/alcohol-detox/",
+      "name": "Alcohol Detox - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/alcohol-detox/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/alcohol-detox/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+      "datePublished": "2015-07-13T16:14:22+00:00",
+      "dateModified": "2022-09-13T14:56:39+00:00",
+      "description": "Learn about the process of alcohol detox, the first step of many toward becoming sober, and call us at Addiction Rehab Centres Canada to find out how we can help you.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/alcohol-detox/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/alcohol-detox/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/alcohol-detox/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "alcohol detox"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/alcohol-detox/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Alcohol Detox"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Alcohol Detox",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 730,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Alcohol Detox"
+  ],
+  [
+   "h2",
+   "What is Alcohol Detox?"
+  ],
+  [
+   "h3",
+   "Why Do I Need to Detox?"
+  ],
+  [
+   "h3",
+   "What Happens During Detox?"
+  ],
+  [
+   "h2",
+   "What Treatments for Detox are Available?"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+   "local_path": "images/alcohol-detox/alcohol-detox.jpg",
+   "alt": "alcohol detox",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "July 13, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics",
+   "text": "quarter of adults",
+   "kind": "external",
+   "new": "https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/am-i-an-alcoholic/",
+   "text": "most alcoholics",
+   "kind": "internal",
+   "new": "/am-i-an-alcoholic/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/alcohol-addiction-treatment/",
+   "text": "Alcohol Addiction Treatment",
+   "kind": "internal",
+   "new": "/alcohol-addiction-treatment/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/am-i-an-alcoholic/",
+   "text": "Am I an Alcholic",
+   "kind": "internal",
+   "new": "/am-i-an-alcoholic/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/do-i-need-alcohol-rehab/",
+   "text": "Do I Need Alcohol Rehab",
+   "kind": "internal",
+   "new": "/do-i-need-alcohol-rehab/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/detox-center-in-florida/",
+   "text": "Detox Center in Ontario",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /detox-center-in-florida/ -> /"
+  },
+  {
+   "old_href": "https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm",
+   "text": "Alcohol Withdrawal",
+   "kind": "external",
+   "new": "https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+     "alt": "alcohol detox",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "July 13, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Alcohol Detox",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "About a quarter of adults engage in binge drinking each month, with 1.3 million Americans seeking treatment for alcohol addiction each year. This figure accounts for a mere 7.8% of all adults who need assistance managing an addiction to alcohol. If you’re among their number, the detox process might have scared you away from sobriety. Detoxing from alcohol is notoriously challenging, but the withdrawal process is a short one. With our first-rate detox care, the detox process becomes much more manageable, getting you on the road toward a healthy and lasting sobriety.",
+     "html": "About a <a data-wpel-link=\"external\" href=\"https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics\" rel=\"external noopener noreferrer\">quarter of adults</a> engage in binge drinking each month, with 1.3 million Americans seeking treatment for alcohol addiction each year. This figure accounts for a mere 7.8% of all adults who need assistance managing an addiction to alcohol. If you’re among their number, the detox process might have scared you away from sobriety. Detoxing from alcohol is notoriously challenging, but <strong>the withdrawal process is a short one</strong>. With our first-rate detox care, the detox process becomes much more manageable, getting you on the road toward a healthy and lasting sobriety.",
+     "links": [
+      {
+       "old": "https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics",
+       "text": "quarter of adults"
+      }
+     ],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "What is Alcohol Detox?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Prolonged use of alcohol sparks two processes in your body. The first is tolerance, which any drinker who can drink more than he or she once consumed already knows well. Tolerance allows you to drink more without getting drunk, and if you continually drink more, your tolerance will get so strong you might never feel drunk.",
+       "html": "Prolonged use of alcohol sparks two processes in your body. The first is tolerance, which any drinker who can drink more than he or she once consumed already knows well. Tolerance allows you to drink more without getting drunk, and if you continually drink more, your tolerance will get so strong you might never feel drunk.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Dependence, which usually follows tolerance, occurs as your body becomes so accustomed to alcohol that it believes it needs the substance to stay alive. It’s dependence that causes you to experience intense cravings in between uses or when you try to give up drinking. Detox directly addresses both tolerance and dependence, cutting the legs out from under the two most powerful processes supporting your addiction.",
+       "html": "Dependence, which usually follows <strong>tolerance, occurs as your body becomes so accustomed to alcohol that it believes it needs the substance to stay alive</strong>. It’s dependence that causes you to experience intense cravings in between uses or when you try to give up drinking. Detox directly addresses both tolerance and dependence, cutting the legs out from under the two most powerful processes supporting your addiction.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Why Do I Need to Detox?",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "If you’re anything like most alcoholics, you probably hope that cutting back on alcohol will be enough, or that one day you’ll be able to again drink with impunity. The truth is that alcoholism is a disease. Once you have it, you have it for life, and even a single drink is enough to reignite your painful addiction. If you’re truly committed to getting sober, you need to completely rid your body of alcohol. Until that happens, your cravings will continue. Though detox is intense and often produces intense cravings, it’s actually the most effective way to protect yourself from having cravings forever.",
+         "html": "If you’re anything like <a data-wpel-link=\"internal\" href=\"/am-i-an-alcoholic/\">most alcoholics</a>, you probably hope that cutting back on alcohol will be enough, or that one day you’ll be able to again drink with impunity. <strong>The truth is that alcoholism is a disease.</strong> Once you have it, you have it for life, and even a single drink is enough to reignite your painful addiction. If you’re truly committed to getting sober, you need to completely rid your body of alcohol. Until that happens, your cravings will continue. Though detox is intense and often produces intense cravings, it’s actually the most effective way to protect yourself from having cravings forever.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/am-i-an-alcoholic/",
+           "text": "most alcoholics"
+          }
+         ],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "What Happens During Detox?",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Detox is both a physical and psychological process. All people going through detox experience psychological effects such as depression, feelings of hopelessness, and anxiety. Most also experience physical withdrawal symptoms. Some alcoholics experience a dangerous form of withdrawal called delirium tremens, which can produce symptoms such as:",
+         "html": "Detox is both a physical and psychological process. All people going through detox experience psychological effects such as depression, feelings of hopelessness, and anxiety. Most also experience physical withdrawal symptoms. Some alcoholics experience a dangerous form of withdrawal called delirium tremens, which can produce symptoms such as:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Hallucinations",
+           "html": "Hallucinations",
+           "links": []
+          },
+          {
+           "text": "Delusions",
+           "html": "Delusions",
+           "links": []
+          },
+          {
+           "text": "Night sweats",
+           "html": "Night sweats",
+           "links": []
+          },
+          {
+           "text": "Insomnia and difficulty sleeping",
+           "html": "Insomnia and difficulty sleeping",
+           "links": []
+          },
+          {
+           "text": "Muscle pain",
+           "html": "Muscle pain",
+           "links": []
+          },
+          {
+           "text": "Shaking",
+           "html": "Shaking",
+           "links": []
+          },
+          {
+           "text": "Thoughts of suicide",
+           "html": "Thoughts of suicide",
+           "links": []
+          },
+          {
+           "text": "Seizures",
+           "html": "Seizures",
+           "links": []
+          },
+          {
+           "text": "Dehydration",
+           "html": "Dehydration",
+           "links": []
+          },
+          {
+           "text": "Electrolyte imbalances",
+           "html": "Electrolyte imbalances",
+           "links": []
+          },
+          {
+           "text": "Seizures",
+           "html": "Seizures",
+           "links": []
+          },
+          {
+           "text": "Nightmares",
+           "html": "Nightmares",
+           "links": []
+          },
+          {
+           "text": "Loss of consciousness",
+           "html": "Loss of consciousness",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "The degree to which you experience detox symptoms depends on a number of factors. Most significant is how long you have been drinking. Short-term alcoholics often escape with minimal symptoms, but those who have struggled with alcohol for years should expect a bumpy detox ride.",
+         "html": "The degree to which you experience detox symptoms depends on a number of factors. Most significant is how long you have been drinking. <strong>Short-term alcoholics often escape with minimal symptoms, but those who have struggled with alcohol for years should expect a bumpy detox ride.</strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Your health also plays a role. People in poor physical or emotional health are more vulnerable to intense withdrawal symptoms. No matter how healthy you are, though, withdrawal can be dangerous, so you must consult a doctor before you decide to quit drinking—even if you’re not fully convinced that you are an alcoholic.",
+         "html": "Your health also plays a role. People in poor physical or emotional health are more vulnerable to intense withdrawal symptoms. No matter how healthy you are, though, withdrawal can be dangerous, so you must consult a doctor before you decide to quit drinking—even if you’re not fully convinced that you are an alcoholic.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "heading": "What Treatments for Detox are Available?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "No single treatment can “cure” detox or completely eliminate its symptoms. Every recovering addict must go through detox, but alcoholism is so common and so problematic that doctors have expended plenty of resources to find options for reducing the symptoms of detox. We offer first-class treatment options to addicts struggling to get sober. Those include:",
+       "html": "No single treatment can “cure” detox or completely eliminate its symptoms. Every recovering addict must go through detox, but alcoholism is so common and so problematic that doctors have expended plenty of resources to find options for reducing the symptoms of detox. We offer first-class treatment options to addicts struggling to get sober. Those include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Drugs to reduce the severity and intensity of your cravings. One drug, Antabuse, produces unpleasant symptoms if you decide to drink. Another, Campral, helps block cravings, while a third, Revia, reduces the good feelings alcohol can cause. We’ll discuss your various medication options before you begin detoxing, so you can address questions with a clear mind.",
+         "html": "Drugs to reduce the severity and intensity of your cravings. One drug, Antabuse, produces unpleasant symptoms if you decide to drink. Another, Campral, helps block cravings, while a third, Revia, reduces the good feelings alcohol can cause. We’ll discuss your various medication options before you begin detoxing, so you can address questions with a clear mind.",
+         "links": []
+        },
+        {
+         "text": "Therapy to help you cope with the unpleasant psychological symptoms detox often causes.",
+         "html": "Therapy to help you cope with the unpleasant psychological symptoms detox often causes.",
+         "links": []
+        },
+        {
+         "text": "A safe and drug and alcohol-free environment.",
+         "html": "A safe and drug and alcohol-free environment.",
+         "links": []
+        },
+        {
+         "text": "Medical supervision to ensure you’re safe. We’ll treat your symptoms as they arise, and take a full health history to determine whether you’re a good candidate for detox.",
+         "html": "Medical supervision to ensure you’re safe. We’ll treat your symptoms as they arise, and take a full health history to determine whether you’re a good candidate for detox.",
+         "links": []
+        },
+        {
+         "text": "Plenty of support.",
+         "html": "Plenty of support.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Detox can be scary, but the life that awaits you on the other side of withdrawal is absolutely worth it. Let us show you how to get there. Contact Addiction Rehab Centres Canada today!",
+       "html": "Detox can be scary, but the life that awaits you on the other side of withdrawal is absolutely worth it. Let us show you how to get there. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Further Reading:",
+       "html": "<strong>Further Reading:</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Alcohol Addiction Treatment Am I an Alcholic Do I Need Alcohol Rehab Detox Center in Ontario Alcohol Withdrawal",
+       "html": "<a data-wpel-link=\"internal\" href=\"/alcohol-addiction-treatment/\">Alcohol Addiction Treatment</a><br/>\n<a data-wpel-link=\"internal\" href=\"/am-i-an-alcoholic/\">Am I an Alcholic</a><br/>\n<a data-wpel-link=\"internal\" href=\"/do-i-need-alcohol-rehab/\">Do I Need Alcohol Rehab</a><br/>\nDetox Center in Ontario<br/>\n<a data-wpel-link=\"external\" href=\"https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">Alcohol Withdrawal</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/alcohol-addiction-treatment/",
+         "text": "Alcohol Addiction Treatment"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/am-i-an-alcoholic/",
+         "text": "Am I an Alcholic"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/do-i-need-alcohol-rehab/",
+         "text": "Do I Need Alcohol Rehab"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/detox-center-in-florida/",
+         "text": "Detox Center in Ontario"
+        },
+        {
+         "old": "https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm",
+         "text": "Alcohol Withdrawal"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+   "alt": "alcohol detox",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "July 13, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Alcohol Detox",
+   "html": "Alcohol Detox",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "About a quarter of adults engage in binge drinking each month, with 1.3 million Americans seeking treatment for alcohol addiction each year. This figure accounts for a mere 7.8% of all adults who need assistance managing an addiction to alcohol. If you’re among their number, the detox process might have scared you away from sobriety. Detoxing from alcohol is notoriously challenging, but the withdrawal process is a short one. With our first-rate detox care, the detox process becomes much more manageable, getting you on the road toward a healthy and lasting sobriety.",
+   "html": "About a <a data-wpel-link=\"external\" href=\"https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics\" rel=\"external noopener noreferrer\">quarter of adults</a> engage in binge drinking each month, with 1.3 million Americans seeking treatment for alcohol addiction each year. This figure accounts for a mere 7.8% of all adults who need assistance managing an addiction to alcohol. If you’re among their number, the detox process might have scared you away from sobriety. Detoxing from alcohol is notoriously challenging, but <strong>the withdrawal process is a short one</strong>. With our first-rate detox care, the detox process becomes much more manageable, getting you on the road toward a healthy and lasting sobriety.",
+   "links": [
+    {
+     "old": "https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics",
+     "text": "quarter of adults"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "What is Alcohol Detox?",
+   "html": "What is Alcohol Detox?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Prolonged use of alcohol sparks two processes in your body. The first is tolerance, which any drinker who can drink more than he or she once consumed already knows well. Tolerance allows you to drink more without getting drunk, and if you continually drink more, your tolerance will get so strong you might never feel drunk.",
+   "html": "Prolonged use of alcohol sparks two processes in your body. The first is tolerance, which any drinker who can drink more than he or she once consumed already knows well. Tolerance allows you to drink more without getting drunk, and if you continually drink more, your tolerance will get so strong you might never feel drunk.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Dependence, which usually follows tolerance, occurs as your body becomes so accustomed to alcohol that it believes it needs the substance to stay alive. It’s dependence that causes you to experience intense cravings in between uses or when you try to give up drinking. Detox directly addresses both tolerance and dependence, cutting the legs out from under the two most powerful processes supporting your addiction.",
+   "html": "Dependence, which usually follows <strong>tolerance, occurs as your body becomes so accustomed to alcohol that it believes it needs the substance to stay alive</strong>. It’s dependence that causes you to experience intense cravings in between uses or when you try to give up drinking. Detox directly addresses both tolerance and dependence, cutting the legs out from under the two most powerful processes supporting your addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Why Do I Need to Detox?",
+   "html": "Why Do I Need to Detox?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "If you’re anything like most alcoholics, you probably hope that cutting back on alcohol will be enough, or that one day you’ll be able to again drink with impunity. The truth is that alcoholism is a disease. Once you have it, you have it for life, and even a single drink is enough to reignite your painful addiction. If you’re truly committed to getting sober, you need to completely rid your body of alcohol. Until that happens, your cravings will continue. Though detox is intense and often produces intense cravings, it’s actually the most effective way to protect yourself from having cravings forever.",
+   "html": "If you’re anything like <a data-wpel-link=\"internal\" href=\"/am-i-an-alcoholic/\">most alcoholics</a>, you probably hope that cutting back on alcohol will be enough, or that one day you’ll be able to again drink with impunity. <strong>The truth is that alcoholism is a disease.</strong> Once you have it, you have it for life, and even a single drink is enough to reignite your painful addiction. If you’re truly committed to getting sober, you need to completely rid your body of alcohol. Until that happens, your cravings will continue. Though detox is intense and often produces intense cravings, it’s actually the most effective way to protect yourself from having cravings forever.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/am-i-an-alcoholic/",
+     "text": "most alcoholics"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "What Happens During Detox?",
+   "html": "What Happens During Detox?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Detox is both a physical and psychological process. All people going through detox experience psychological effects such as depression, feelings of hopelessness, and anxiety. Most also experience physical withdrawal symptoms. Some alcoholics experience a dangerous form of withdrawal called delirium tremens, which can produce symptoms such as:",
+   "html": "Detox is both a physical and psychological process. All people going through detox experience psychological effects such as depression, feelings of hopelessness, and anxiety. Most also experience physical withdrawal symptoms. Some alcoholics experience a dangerous form of withdrawal called delirium tremens, which can produce symptoms such as:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Hallucinations",
+     "html": "Hallucinations",
+     "links": []
+    },
+    {
+     "text": "Delusions",
+     "html": "Delusions",
+     "links": []
+    },
+    {
+     "text": "Night sweats",
+     "html": "Night sweats",
+     "links": []
+    },
+    {
+     "text": "Insomnia and difficulty sleeping",
+     "html": "Insomnia and difficulty sleeping",
+     "links": []
+    },
+    {
+     "text": "Muscle pain",
+     "html": "Muscle pain",
+     "links": []
+    },
+    {
+     "text": "Shaking",
+     "html": "Shaking",
+     "links": []
+    },
+    {
+     "text": "Thoughts of suicide",
+     "html": "Thoughts of suicide",
+     "links": []
+    },
+    {
+     "text": "Seizures",
+     "html": "Seizures",
+     "links": []
+    },
+    {
+     "text": "Dehydration",
+     "html": "Dehydration",
+     "links": []
+    },
+    {
+     "text": "Electrolyte imbalances",
+     "html": "Electrolyte imbalances",
+     "links": []
+    },
+    {
+     "text": "Seizures",
+     "html": "Seizures",
+     "links": []
+    },
+    {
+     "text": "Nightmares",
+     "html": "Nightmares",
+     "links": []
+    },
+    {
+     "text": "Loss of consciousness",
+     "html": "Loss of consciousness",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The degree to which you experience detox symptoms depends on a number of factors. Most significant is how long you have been drinking. Short-term alcoholics often escape with minimal symptoms, but those who have struggled with alcohol for years should expect a bumpy detox ride.",
+   "html": "The degree to which you experience detox symptoms depends on a number of factors. Most significant is how long you have been drinking. <strong>Short-term alcoholics often escape with minimal symptoms, but those who have struggled with alcohol for years should expect a bumpy detox ride.</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Your health also plays a role. People in poor physical or emotional health are more vulnerable to intense withdrawal symptoms. No matter how healthy you are, though, withdrawal can be dangerous, so you must consult a doctor before you decide to quit drinking—even if you’re not fully convinced that you are an alcoholic.",
+   "html": "Your health also plays a role. People in poor physical or emotional health are more vulnerable to intense withdrawal symptoms. No matter how healthy you are, though, withdrawal can be dangerous, so you must consult a doctor before you decide to quit drinking—even if you’re not fully convinced that you are an alcoholic.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "What Treatments for Detox are Available?",
+   "html": "What Treatments for Detox are Available?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "No single treatment can “cure” detox or completely eliminate its symptoms. Every recovering addict must go through detox, but alcoholism is so common and so problematic that doctors have expended plenty of resources to find options for reducing the symptoms of detox. We offer first-class treatment options to addicts struggling to get sober. Those include:",
+   "html": "No single treatment can “cure” detox or completely eliminate its symptoms. Every recovering addict must go through detox, but alcoholism is so common and so problematic that doctors have expended plenty of resources to find options for reducing the symptoms of detox. We offer first-class treatment options to addicts struggling to get sober. Those include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Drugs to reduce the severity and intensity of your cravings. One drug, Antabuse, produces unpleasant symptoms if you decide to drink. Another, Campral, helps block cravings, while a third, Revia, reduces the good feelings alcohol can cause. We’ll discuss your various medication options before you begin detoxing, so you can address questions with a clear mind.",
+     "html": "Drugs to reduce the severity and intensity of your cravings. One drug, Antabuse, produces unpleasant symptoms if you decide to drink. Another, Campral, helps block cravings, while a third, Revia, reduces the good feelings alcohol can cause. We’ll discuss your various medication options before you begin detoxing, so you can address questions with a clear mind.",
+     "links": []
+    },
+    {
+     "text": "Therapy to help you cope with the unpleasant psychological symptoms detox often causes.",
+     "html": "Therapy to help you cope with the unpleasant psychological symptoms detox often causes.",
+     "links": []
+    },
+    {
+     "text": "A safe and drug and alcohol-free environment.",
+     "html": "A safe and drug and alcohol-free environment.",
+     "links": []
+    },
+    {
+     "text": "Medical supervision to ensure you’re safe. We’ll treat your symptoms as they arise, and take a full health history to determine whether you’re a good candidate for detox.",
+     "html": "Medical supervision to ensure you’re safe. We’ll treat your symptoms as they arise, and take a full health history to determine whether you’re a good candidate for detox.",
+     "links": []
+    },
+    {
+     "text": "Plenty of support.",
+     "html": "Plenty of support.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Detox can be scary, but the life that awaits you on the other side of withdrawal is absolutely worth it. Let us show you how to get there. Contact Addiction Rehab Centres Canada today!",
+   "html": "Detox can be scary, but the life that awaits you on the other side of withdrawal is absolutely worth it. Let us show you how to get there. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Further Reading:",
+   "html": "<strong>Further Reading:</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Alcohol Addiction Treatment Am I an Alcholic Do I Need Alcohol Rehab Detox Center in Ontario Alcohol Withdrawal",
+   "html": "<a data-wpel-link=\"internal\" href=\"/alcohol-addiction-treatment/\">Alcohol Addiction Treatment</a><br/>\n<a data-wpel-link=\"internal\" href=\"/am-i-an-alcoholic/\">Am I an Alcholic</a><br/>\n<a data-wpel-link=\"internal\" href=\"/do-i-need-alcohol-rehab/\">Do I Need Alcohol Rehab</a><br/>\nDetox Center in Ontario<br/>\n<a data-wpel-link=\"external\" href=\"https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">Alcohol Withdrawal</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/alcohol-addiction-treatment/",
+     "text": "Alcohol Addiction Treatment"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/am-i-an-alcoholic/",
+     "text": "Am I an Alcholic"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/do-i-need-alcohol-rehab/",
+     "text": "Do I Need Alcohol Rehab"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/detox-center-in-florida/",
+     "text": "Detox Center in Ontario"
+    },
+    {
+     "old": "https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm",
+     "text": "Alcohol Withdrawal"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-07-13T16:14:22+00:00",
+  "modified": "2022-09-13T14:56:39+00:00",
+  "date_label": "July 13, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 732,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"alcohol detox\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/alcohol-detox-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                July 13, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Alcohol Detox    </h1> <p>About a <a data-wpel-link=\"external\" href=\"https://www.niaaa.nih.gov/alcohol-health/overview-alcohol-consumption/alcohol-facts-and-statistics\" rel=\"external noopener noreferrer\">quarter of adults</a> engage in binge drinking each month, with 1.3 million Americans seeking treatment for alcohol addiction each year. This figure accounts for a mere 7.8% of all adults who need assistance managing an addiction to alcohol. If you’re among their number, the detox process might have scared you away from sobriety. Detoxing from alcohol is notoriously challenging, but <strong>the withdrawal process is a short one</strong>. With our first-rate detox care, the detox process becomes much more manageable, getting you on the road toward a healthy and lasting sobriety.</p>\n<h2>What is Alcohol Detox?</h2>\n<p>Prolonged use of alcohol sparks two processes in your body. The first is tolerance, which any drinker who can drink more than he or she once consumed already knows well. Tolerance allows you to drink more without getting drunk, and if you continually drink more, your tolerance will get so strong you might never feel drunk.</p>\n<p>Dependence, which usually follows <strong>tolerance, occurs as your body becomes so accustomed to alcohol that it believes it needs the substance to stay alive</strong>. It’s dependence that causes you to experience intense cravings in between uses or when you try to give up drinking. Detox directly addresses both tolerance and dependence, cutting the legs out from under the two most powerful processes supporting your addiction.</p>\n<h3>Why Do I Need to Detox?</h3>\n<p>If you’re anything like <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/am-i-an-alcoholic/\">most alcoholics</a>, you probably hope that cutting back on alcohol will be enough, or that one day you’ll be able to again drink with impunity. <strong>The truth is that alcoholism is a disease.</strong> Once you have it, you have it for life, and even a single drink is enough to reignite your painful addiction. If you’re truly committed to getting sober, you need to completely rid your body of alcohol. Until that happens, your cravings will continue. Though detox is intense and often produces intense cravings, it’s actually the most effective way to protect yourself from having cravings forever.</p>\n<h3>What Happens During Detox?</h3>\n<p>Detox is both a physical and psychological process. All people going through detox experience psychological effects such as depression, feelings of hopelessness, and anxiety. Most also experience physical withdrawal symptoms. Some alcoholics experience a dangerous form of withdrawal called delirium tremens, which can produce symptoms such as:</p>\n<ul>\n<li>Hallucinations</li>\n<li>Delusions</li>\n<li>Night sweats</li>\n<li>Insomnia and difficulty sleeping</li>\n<li>Muscle pain</li>\n<li>Shaking</li>\n<li>Thoughts of suicide</li>\n<li>Seizures</li>\n<li>Dehydration</li>\n<li>Electrolyte imbalances</li>\n<li>Seizures</li>\n<li>Nightmares</li>\n<li>Loss of consciousness</li>\n</ul>\n<p>The degree to which you experience detox symptoms depends on a number of factors. Most significant is how long you have been drinking. <strong>Short-term alcoholics often escape with minimal symptoms, but those who have struggled with alcohol for years should expect a bumpy detox ride.</strong></p>\n<p>Your health also plays a role. People in poor physical or emotional health are more vulnerable to intense withdrawal symptoms. No matter how healthy you are, though, withdrawal can be dangerous, so you must consult a doctor before you decide to quit drinking—even if you’re not fully convinced that you are an alcoholic.</p>\n<h2>What Treatments for Detox are Available?</h2>\n<p>No single treatment can “cure” detox or completely eliminate its symptoms. Every recovering addict must go through detox, but alcoholism is so common and so problematic that doctors have expended plenty of resources to find options for reducing the symptoms of detox. We offer first-class treatment options to addicts struggling to get sober. Those include:</p>\n<ul>\n<li>Drugs to reduce the severity and intensity of your cravings. One drug, Antabuse, produces unpleasant symptoms if you decide to drink. Another, Campral, helps block cravings, while a third, Revia, reduces the good feelings alcohol can cause. We’ll discuss your various medication options before you begin detoxing, so you can address questions with a clear mind.</li>\n<li>Therapy to help you cope with the unpleasant psychological symptoms detox often causes.</li>\n<li>A safe and drug and alcohol-free environment.</li>\n<li>Medical supervision to ensure you’re safe. We’ll treat your symptoms as they arise, and take a full health history to determine whether you’re a good candidate for detox.</li>\n<li>Plenty of support.</li>\n</ul>\n<p>Detox can be scary, but the life that awaits you on the other side of withdrawal is absolutely worth it. Let us show you how to get there. Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n<p><strong>Further Reading:</strong></p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-addiction-treatment/\">Alcohol Addiction Treatment</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/am-i-an-alcoholic/\">Am I an Alcholic</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/do-i-need-alcohol-rehab/\">Do I Need Alcohol Rehab</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/detox-center-in-florida/\">Detox Center in Ontario</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.nlm.nih.gov/medlineplus/ency/article/000764.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">Alcohol Withdrawal</a></p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

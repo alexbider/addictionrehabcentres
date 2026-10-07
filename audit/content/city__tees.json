@@ -1,0 +1,371 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__tees",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/tees/",
+  "path": "/listing-location/tees/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/tees/",
+ "seo": {
+  "meta_title": "Tees Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/tees/",
+  "og": {
+   "title": "Tees Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/tees/",
+      "url": "https://addictionrehabcenters.ca/listing-location/tees/",
+      "name": "Tees Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/tees/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/tees/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/tees/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/tees/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+      "width": 1103,
+      "height": 724,
+      "caption": "iRecover Drug & Addiction Treatment"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/tees/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Tees"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Tees",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Tees Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+   "local_path": "images/city__tees/iRecover-Drug-Addiction-Treatment-1.jpg",
+   "alt": "iRecover Drug & Addiction Treatment",
+   "width": 1103,
+   "height": 724,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/irecover-alberta/",
+   "text": "",
+   "kind": "internal",
+   "new": "/irecover-alberta/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/irecover-alberta/",
+   "text": "iRecover Alberta",
+   "kind": "internal",
+   "new": "/irecover-alberta/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Tees Results"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+     "alt": "iRecover Drug & Addiction Treatment",
+     "width": "1103",
+     "height": "724",
+     "link_href": "https://addictionrehabcenters.ca/irecover-alberta/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Tees"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "iRecover Alberta",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "iRecover specializes in the treatment of substance abuse addiction and disorders. Our focus is on developing lifelong recovery. We are a rapid access..."
+    },
+    {
+     "type": "p",
+     "text": "41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Tees Results",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Listings are not found.",
+     "html": "Listings are not found.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "1"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Tees Results"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+   "alt": "iRecover Drug & Addiction Treatment",
+   "width": "1103",
+   "height": "724",
+   "link_href": "https://addictionrehabcenters.ca/irecover-alberta/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Tees"
+  },
+  {
+   "type": "h5",
+   "text": "iRecover Alberta",
+   "html": "<a data-wpel-link=\"internal\" href=\"/irecover-alberta/\" itemprop=\"url\">iRecover Alberta</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "iRecover specializes in the treatment of substance abuse addiction and disorders. Our focus is on developing lifelong recovery. We are a rapid access..."
+  },
+  {
+   "type": "p",
+   "text": "41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Tees Results",
+   "html": "More Rehab Centres in Tees Results",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Listings are not found.",
+   "html": "Listings are not found.",
+   "links": [],
+   "images": []
+  }
+ ],
+ "cards": [
+  {
+   "name": "iRecover Alberta",
+   "href": "https://addictionrehabcenters.ca/irecover-alberta/",
+   "address": "41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg",
+    "alt": "iRecover Drug & Addiction Treatment",
+    "width": "1103",
+    "height": "724"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "iRecover Alberta",
+    "irecover-alberta",
+    "41003 Range Rd 235, Tees, AB T0C 2N0, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Tees",
+  "result_count": "1",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">1</span>\n                                    Top Rehab Centres in Tees Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n<div class=\"place-item layout-02 golo-place-featured place-13275\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/irecover-alberta/\">\n<img alt=\"iRecover Drug &amp; Addiction Treatment\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"724\" loading=\"lazy\" sizes=\"(max-width: 1103px) 100vw, 1103px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1.jpg 1103w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1-300x197.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1-1024x672.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1-768x504.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/iRecover-Drug-Addiction-Treatment-1-600x394.jpg 600w\" width=\"1103\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n                                                    Tees                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/irecover-alberta/\" itemprop=\"url\">iRecover Alberta</a>\n</h5>\n<!-- post excerpt -->\n                                            iRecover specializes in the treatment of substance abuse addiction and disorders. Our focus is on developing lifelong recovery. We are a rapid access...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    41003 Range Rd 235, Tees, AB T0C 2N0, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br/>\n<h2>More Rehab Centres in Tees Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<p class=\"eltdf-ll-not-found\">Listings are not found.</p>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

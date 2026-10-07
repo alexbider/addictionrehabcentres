@@ -1,0 +1,332 @@
+{
+ "schema": "arc-content/1",
+ "slug": "prince-edward-island-rehabs",
+ "status": "REMAINING",
+ "page_type": "province",
+ "wp_type": "page",
+ "template": "Province",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "P1-P5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/",
+  "path": "/prince-edward-island-rehabs/",
+  "wp_items": [
+   {
+    "id": 8268,
+    "type": "page",
+    "title": "Prince Edward Island Rehabs",
+    "date": "2021-11-23T17:37:55",
+    "modified": "2022-09-19T12:21:53",
+    "status": "publish",
+    "yoast_title": "Best Rehab Centres in Prince Edward Island",
+    "words_rest": 32
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/prince-edward-island-rehabs/",
+ "seo": {
+  "meta_title": "Best Rehab Centres in Prince Edward Island",
+  "meta_description": "Browse the Best Rehab Centres in Prince Edward Island with reviews. Call 1-855-885-4747 to get in contact with Prince Edward Island Rehab Centres.",
+  "canonical_source": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/",
+  "og": {
+   "title": "Best Rehab Centres in Prince Edward Island",
+   "description": "Browse the Best Rehab Centres in Prince Edward Island with reviews. Call 1-855-885-4747 to get in contact with Prince Edward Island Rehab Centres.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Prince Edward Island Rehabs",
+      "datePublished": "2021-11-23T17:37:55+00:00",
+      "dateModified": "2022-09-19T12:21:53+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/"
+      },
+      "wordCount": 72,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/",
+      "url": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/",
+      "name": "Best Rehab Centres in Prince Edward Island",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2021-11-23T17:37:55+00:00",
+      "dateModified": "2022-09-19T12:21:53+00:00",
+      "description": "Browse the Best Rehab Centres in Prince Edward Island with reviews. Call 1-855-885-4747 to get in contact with Prince Edward Island Rehab Centres.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/prince-edward-island-rehabs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/prince-edward-island-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Prince Edward Island Rehabs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Prince Edward Island Rehabs",
+ "title_bar_h1": "Prince Edward Island Rehabs",
+ "word_count": 4,
+ "features": [
+  "listing-cards:1"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Prince Edward Island Rehabs"
+  ],
+  [
+   "h5",
+   "Irecover Newfoundland"
+  ]
+ ],
+ "images": [],
+ "links": [],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Prince Edward Island Rehabs",
+   "blocks": [
+    {
+     "type": "cards",
+     "hrefs": [
+      "https://addictionrehabcenters.ca/irecover-newfoundland/"
+     ]
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Prince Edward Island Rehabs",
+   "html": "Prince Edward Island Rehabs",
+   "id": ""
+  },
+  {
+   "type": "cards",
+   "hrefs": [
+    "https://addictionrehabcenters.ca/irecover-newfoundland/"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "kind": "listing-banner",
+   "classes": [
+    "innerBanner"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Prince Edward Island Rehabs",
+       "html": "Prince Edward Island Rehabs",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "listing",
+   "classes": [
+    "innerListingBox"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/irecover-newfoundland/"
+       ]
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Prince Edward Island Rehabs",
+  "background_image": ""
+ },
+ "cards": [
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/irecover-newfoundland/",
+   "address": "Trout River Rd, Prince Edward Island C0A, Canada",
+   "excerpt": "iRecover Newfoundland offers private residen",
+   "category": "Prince Edward Island Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "",
+    "irecover-newfoundland",
+    "Trout River Rd, Prince Edward Island C0A, Canada",
+    "iRecover Newfoundland offers private residen",
+    "0",
+    0,
+    "",
+    [
+     "Prince Edward Island Rehabs"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "listing": {
+  "cards": [
+   {
+    "name": "Irecover Newfoundland",
+    "href": "https://addictionrehabcenters.ca/irecover-newfoundland/",
+    "slug": "irecover-newfoundland",
+    "address": "Trout River Rd, Prince Edward Island C0A, Canada",
+    "excerpt": "iRecover Newfoundland offers private residen",
+    "category": "Prince Edward Island Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/irecover-newfoundland/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   }
+  ],
+  "source_listing_count": 1,
+  "duplicates_removed": 0
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid innerBanner\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1>Prince Edward Island Rehabs</h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerListingBox\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"eltdf-listing-list-holder eltdf-ll-gallery eltdf-ll-layout-standard eltdf-grid-list eltdf-disable-bottom-space eltdf-three-columns eltdf-normal-space eltdf-ll-no-map eltdf-ll-no-filter eltdf-ll-pag-load-more eltdf-ll-category-set\" data-category=\"644\" data-enable-category=\"yes\" data-enable-excerpt=\"yes\" data-enable-filter=\"no\" data-enable-filter-category=\"yes\" data-enable-filter-custom-search=\"yes\" data-enable-filter-location=\"yes\" data-enable-filter-order-by=\"yes\" data-enable-filter-switch-layout=\"yes\" data-enable-filter-tag=\"yes\" data-enable-location=\"yes\" data-enable-map=\"no\" data-enable-map-switcher=\"no\" data-enable-price-range=\"yes\" data-enable-reviews-count=\"yes\" data-filter-location-field-type=\"select\" data-hide-active-filter=\"yes\" data-image-proportions=\"full\" data-item-layout=\"standard\" data-load-more-top-margin=\"50px\" data-max-num-pages=\"1\" data-next-page=\"2\" data-number-of-columns=\"three\" data-number-of-items=\"24\" data-order=\"ASC\" data-order-by=\"date\" data-pagination-type=\"load-more\" data-space-between-items=\"normal\" data-title-tag=\"h5\" data-type=\"gallery\">\n<div class=\"eltdf-listing-list-items-part\">\n<div class=\"eltdf-ll-inner eltdf-outer-space clearfix\">\n<article class=\"eltdf-ll-item eltdf-item-space post-6687 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-prince-edward-island-rehabs listing-location-breadalbane\" data-id=\"6687\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/irecover-newfoundland/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/prince-edward-island-rehabs/\" itemprop=\"url\">\n\t\t\t\tPrince Edward Island Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tTrout River Rd, Prince Edward Island C0A, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/irecover-newfoundland/\" itemprop=\"url\">Irecover Newfoundland</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">iRecover Newfoundland offers private residen</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6687\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3772\" name=\"findall_listing_nonce_wishlist_functionality_3772\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/prince-edward-island-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article> </div>\n<div class=\"eltdf-ll-loading\">\n<div class=\"eltdf-findall-spinner\"></div>\n</div> </div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div>\n</div></body>"
+}

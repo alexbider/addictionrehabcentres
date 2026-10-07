@@ -1,0 +1,2671 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__house-of-sophrosyne",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/house-of-sophrosyne/",
+  "path": "/house-of-sophrosyne/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/house-of-sophrosyne/",
+ "seo": {
+  "meta_title": "House Of Sophrosyne - Addiction Rehab Centers",
+  "meta_description": "House Of Sophrosyne offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/house-of-sophrosyne/",
+  "og": {
+   "title": "House Of Sophrosyne - Addiction Rehab Centers",
+   "description": "House Of Sophrosyne offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/house-of-sophrosyne/",
+      "url": "https://addictionrehabcenters.ca/house-of-sophrosyne/",
+      "name": "House Of Sophrosyne - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/house-of-sophrosyne/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/house-of-sophrosyne/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-.jpg",
+      "datePublished": "2021-09-28T15:44:02+00:00",
+      "dateModified": "2023-04-27T11:20:30+00:00",
+      "description": "House Of Sophrosyne offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/house-of-sophrosyne/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/house-of-sophrosyne/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/house-of-sophrosyne/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-.jpg",
+      "width": 699,
+      "height": 467
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/house-of-sophrosyne/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "House Of Sophrosyne"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 880,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "The House of Sophrosyne: A Safe Haven for Women in Recovery"
+  ],
+  [
+   "h3",
+   "Our Treatment Programs and Services"
+  ],
+  [
+   "h3",
+   "Residential and Community-Based Programs"
+  ],
+  [
+   "h3",
+   "Caring Connections and Supportive Housing"
+  ],
+  [
+   "h2",
+   "House of Sophrosyne - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About House of Sophrosyne"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-1-1.jpg",
+   "local_path": "images/centre__house-of-sophrosyne/House-Of-Sophrosyne-1-1.jpg",
+   "alt": "",
+   "width": 699,
+   "height": 467,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne3.jpg",
+   "local_path": "images/centre__house-of-sophrosyne/House-Of-Sophrosyne3.jpg",
+   "alt": "",
+   "width": 206,
+   "height": 206,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne2.jpg",
+   "local_path": "images/centre__house-of-sophrosyne/House-Of-Sophrosyne2.jpg",
+   "alt": "",
+   "width": 206,
+   "height": 206,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne1.jpg",
+   "local_path": "images/centre__house-of-sophrosyne/House-Of-Sophrosyne1.jpg",
+   "alt": "",
+   "width": 206,
+   "height": 206,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-1.jpg",
+   "local_path": "images/centre__house-of-sophrosyne/House-Of-Sophrosyne-1.jpg",
+   "alt": "",
+   "width": 206,
+   "height": 206,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-.jpg",
+   "local_path": "images/centre__house-of-sophrosyne/House-Of-Sophrosyne-.jpg",
+   "alt": "",
+   "width": 699,
+   "height": 467,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(519) 252-2711",
+   "text": "(519) 252-2711",
+   "kind": "tel",
+   "new": "tel:(519) 252-2711"
+  },
+  {
+   "old_href": "mailto:information@sophrosyne.ca",
+   "text": "information@sophrosyne.ca",
+   "kind": "mailto",
+   "new": "mailto:information@sophrosyne.ca"
+  },
+  {
+   "old_href": "http://sophrosyne.ca/",
+   "text": "http://sophrosyne.ca/",
+   "kind": "external",
+   "new": "http://sophrosyne.ca/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "The House of Sophrosyne: A Safe Haven for Women in Recovery",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.",
+     "html": "The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Our Treatment Programs and Services",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.",
+     "html": "The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Residential and Community-Based Programs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.",
+     "html": "At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Caring Connections and Supportive Housing",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.",
+     "html": "We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "House of Sophrosyne - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.",
+     "html": "House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.",
+     "html": "The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "House of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "House of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About House of Sophrosyne",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "Who can access the House of Sophrosyne’s services?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Women 16 years and older with a valid Ontario Health Card.",
+       "html": "Women 16 years and older with a valid Ontario Health Card.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": ". What type of treatment services do you offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+       "html": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How long is the residential program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Our residential program is a 5-week program.",
+       "html": "Our residential program is a 5-week program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Do you have community-based services?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, we provide both residential and community-based programs.",
+       "html": "Yes, we provide both residential and community-based programs.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Do you offer counseling services?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, we offer one on one counseling and transformative group work.",
+       "html": "Yes, we offer one on one counseling and transformative group work.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(519) 252-2711",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(519) 252-2711\" itemprop=\"url\">(519) 252-2711</a>",
+         "links": [
+          {
+           "old": "tel:(519) 252-2711",
+           "text": "(519) 252-2711"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "information@sophrosyne.ca",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:information@sophrosyne.ca\" itemprop=\"url\">information@sophrosyne.ca</a>",
+         "links": [
+          {
+           "old": "mailto:information@sophrosyne.ca",
+           "text": "information@sophrosyne.ca"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "http://sophrosyne.ca/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://sophrosyne.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://sophrosyne.ca/</a>",
+         "links": [
+          {
+           "old": "http://sophrosyne.ca/",
+           "text": "http://sophrosyne.ca/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "1771 Chappell Ave, Windsor, ON N9C 3E8, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    1771 Chappell Ave, Windsor, ON N9C 3E8, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "-"
+        },
+        {
+         "type": "text",
+         "text": "12:00am"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:39pm"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "The House of Sophrosyne: A Safe Haven for Women in Recovery",
+   "html": "The House of Sophrosyne: A Safe Haven for Women in Recovery",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.",
+   "html": "The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Our Treatment Programs and Services",
+   "html": "Our Treatment Programs and Services",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.",
+   "html": "The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Residential and Community-Based Programs",
+   "html": "Residential and Community-Based Programs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.",
+   "html": "At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Caring Connections and Supportive Housing",
+   "html": "Caring Connections and Supportive Housing",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.",
+   "html": "We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "House of Sophrosyne - Center Overview",
+   "html": "House of Sophrosyne - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.",
+   "html": "House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.",
+   "html": "The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "House of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "House of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About House of Sophrosyne",
+   "html": "Frequently Asked Questions About House of Sophrosyne",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "Who can access the House of Sophrosyne’s services?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Women 16 years and older with a valid Ontario Health Card.",
+   "html": "Women 16 years and older with a valid Ontario Health Card.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": ". What type of treatment services do you offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+   "html": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How long is the residential program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Our residential program is a 5-week program.",
+   "html": "Our residential program is a 5-week program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Do you have community-based services?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, we provide both residential and community-based programs.",
+   "html": "Yes, we provide both residential and community-based programs.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Do you offer counseling services?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, we offer one on one counseling and transformative group work.",
+   "html": "Yes, we offer one on one counseling and transformative group work.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(519) 252-2711",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(519) 252-2711\" itemprop=\"url\">(519) 252-2711</a>",
+   "links": [
+    {
+     "old": "tel:(519) 252-2711",
+     "text": "(519) 252-2711"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "information@sophrosyne.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:information@sophrosyne.ca\" itemprop=\"url\">information@sophrosyne.ca</a>",
+   "links": [
+    {
+     "old": "mailto:information@sophrosyne.ca",
+     "text": "information@sophrosyne.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://sophrosyne.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://sophrosyne.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://sophrosyne.ca/</a>",
+   "links": [
+    {
+     "old": "http://sophrosyne.ca/",
+     "text": "http://sophrosyne.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "1771 Chappell Ave, Windsor, ON N9C 3E8, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    1771 Chappell Ave, Windsor, ON N9C 3E8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "-"
+  },
+  {
+   "type": "text",
+   "text": "12:00am"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:39pm"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "House Of Sophrosyne",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6812\" data-elementor-id=\"6812\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-64f5447e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"64f5447e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b789949\" data-element_type=\"column\" data-id=\"1b789949\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-664079f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"664079f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-666f5f4d\" data-element_type=\"column\" data-id=\"666f5f4d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-42ffc7c6 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"42ffc7c6\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>The House of Sophrosyne: A Safe Haven for Women in Recovery</h3><p>The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.</p><h3>Our Treatment Programs and Services</h3><p>The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.</p><h3>Residential and Community-Based Programs</h3><p>At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.</p><h3>Caring Connections and Supportive Housing</h3><p>We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.</p><p><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5dd6749c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5dd6749c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d01d9e5\" data-element_type=\"column\" data-id=\"2d01d9e5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7539f0f2 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7539f0f2\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-701994a3 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"701994a3\" data-settings='{\"youtube_url\":\"https:\\/\\/www.youtube.com\\/watch?v=x1EQCrcIyHk\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-50aa5e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"50aa5e6\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3013d4a3\" data-element_type=\"column\" data-id=\"3013d4a3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6ad5af32 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"6ad5af32\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7217d78d elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"7217d78d\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">House of Sophrosyne - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-67d49e8 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"67d49e8\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.</p><p>The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3f6ee93d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3f6ee93d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2893f1ca\" data-element_type=\"column\" data-id=\"2893f1ca\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-26698047 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"26698047\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-328f118\" data-element_type=\"column\" data-id=\"328f118\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3fb7384 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3fb7384\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6e534877 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6e534877\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3cb306f2\" data-element_type=\"column\" data-id=\"3cb306f2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-49c10dcd elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"49c10dcd\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tHouse of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-691b7d1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"691b7d1\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7f6d97f0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7f6d97f0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7539d0cd elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7539d0cd\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-160a7f4f\" data-element_type=\"column\" data-id=\"160a7f4f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-45586509 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"45586509\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5b50d176 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5b50d176\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55208639\" data-element_type=\"column\" data-id=\"55208639\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41d0d418 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"41d0d418\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About House of Sophrosyne</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-47fe6017 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"47fe6017\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1201\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1201\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Who can access the House of Sophrosyne’s services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1201\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1201\" role=\"region\"><p>Women 16 years and older with a valid Ontario Health Card.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1202\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1202\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">. What type of treatment services do you offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1202\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1202\" role=\"region\"><p>We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1203\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1203\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long is the residential program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1203\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1203\" role=\"region\"><p>Our residential program is a 5-week program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1204\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1204\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Do you have community-based services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1204\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1204\" role=\"region\"><p>Yes, we provide both residential and community-based programs.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1205\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1205\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Do you offer counseling services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1205\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1205\" role=\"region\"><p>Yes, we offer one on one counseling and transformative group work.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(519) 252-2711",
+  "email": "information@sophrosyne.ca",
+  "website": "http://sophrosyne.ca/",
+  "address": "1771 Chappell Ave, Windsor, ON N9C 3E8, Canada",
+  "social": {},
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-1-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-1-1.jpg",
+    "alt": "",
+    "width": "699",
+    "height": "467"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne3.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne3.jpg",
+    "alt": "",
+    "width": "206",
+    "height": "206"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne2.jpg",
+    "alt": "",
+    "width": "206",
+    "height": "206"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne1.jpg",
+    "alt": "",
+    "width": "206",
+    "height": "206"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/House-Of-Sophrosyne-1.jpg",
+    "alt": "",
+    "width": "206",
+    "height": "206"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 12:00am - 12:00am Tuesday 12:00am - 12:00am Wednesday 12:00am - 12:00am Thursday 12:00am - 12:00am Friday 12:00am - 12:00am Saturday 12:00am - 12:00am Sunday 12:00am - 12:00am",
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "The House of Sophrosyne: A Safe Haven for Women in Recovery",
+    "html": "The House of Sophrosyne: A Safe Haven for Women in Recovery",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.",
+    "html": "The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Our Treatment Programs and Services",
+    "html": "Our Treatment Programs and Services",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.",
+    "html": "The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Residential and Community-Based Programs",
+    "html": "Residential and Community-Based Programs",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.",
+    "html": "At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Caring Connections and Supportive Housing",
+    "html": "Caring Connections and Supportive Housing",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.",
+    "html": "We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=x1EQCrcIyHk",
+    "id": "x1EQCrcIyHk"
+   },
+   {
+    "type": "h2",
+    "text": "House of Sophrosyne - Center Overview",
+    "html": "House of Sophrosyne - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.",
+    "html": "House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.",
+    "html": "The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "House of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "House of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About House of Sophrosyne",
+  "faqs": [
+   {
+    "question": "Who can access the House of Sophrosyne’s services?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Women 16 years and older with a valid Ontario Health Card.",
+      "html": "Women 16 years and older with a valid Ontario Health Card.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Women 16 years and older with a valid Ontario Health Card."
+   },
+   {
+    "question": ". What type of treatment services do you offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+      "html": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare."
+   },
+   {
+    "question": "How long is the residential program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Our residential program is a 5-week program.",
+      "html": "Our residential program is a 5-week program.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Our residential program is a 5-week program."
+   },
+   {
+    "question": "Do you have community-based services?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, we provide both residential and community-based programs.",
+      "html": "Yes, we provide both residential and community-based programs.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, we provide both residential and community-based programs."
+   },
+   {
+    "question": "Do you offer counseling services?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, we offer one on one counseling and transformative group work.",
+      "html": "Yes, we offer one on one counseling and transformative group work.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, we offer one on one counseling and transformative group work."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(519) 252-2711",
+  "phone_href": "tel:(519) 252-2711",
+  "website_text": "http://sophrosyne.ca/",
+  "social_title": "",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "12:00am - 12:00am"
+    ],
+    [
+     "Tuesday",
+     "12:00am - 12:00am"
+    ],
+    [
+     "Wednesday",
+     "12:00am - 12:00am"
+    ],
+    [
+     "Thursday",
+     "12:00am - 12:00am"
+    ],
+    [
+     "Friday",
+     "12:00am - 12:00am"
+    ],
+    [
+     "Saturday",
+     "12:00am - 12:00am"
+    ],
+    [
+     "Sunday",
+     "12:00am - 12:00am"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "Who can access the House of Sophrosyne’s services?",
+   "answer_text": "Women 16 years and older with a valid Ontario Health Card.",
+   "answer_html": "<p>Women 16 years and older with a valid Ontario Health Card.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": ". What type of treatment services do you offer?",
+   "answer_text": "We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.",
+   "answer_html": "<p>We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How long is the residential program?",
+   "answer_text": "Our residential program is a 5-week program.",
+   "answer_html": "<p>Our residential program is a 5-week program.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Do you have community-based services?",
+   "answer_text": "Yes, we provide both residential and community-based programs.",
+   "answer_html": "<p>Yes, we provide both residential and community-based programs.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Do you offer counseling services?",
+   "answer_text": "Yes, we offer one on one counseling and transformative group work.",
+   "answer_html": "<p>Yes, we offer one on one counseling and transformative group work.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6812\" data-elementor-id=\"6812\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-64f5447e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"64f5447e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1b789949\" data-element_type=\"column\" data-id=\"1b789949\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-664079f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"664079f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-666f5f4d\" data-element_type=\"column\" data-id=\"666f5f4d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-42ffc7c6 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"42ffc7c6\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>The House of Sophrosyne: A Safe Haven for Women in Recovery</h3><p>The House of Sophrosyne is a women-run organization dedicated to helping women struggling with addiction to alcohol or other drugs. With a focus on providing an environment of understanding, our dedicated professionals offer a wide range of services to help our clients live a full, productive, and balanced life. The House is a safe place for women, providing a holistic approach grounded with our faith in empowering women to make positive and permanent lifestyle changes. Our innovative and transformative programs help to guide recovery and provide tools essential to our clients’ daily lives.</p><h3>Our Treatment Programs and Services</h3><p>The House of Sophrosyne offers one on one counseling and transformative group work, with individualized treatment plans that focus on each individual’s unique needs and goals. Our holistic approach integrates different forms of therapy, including evidence-based therapies, such as cognitive-behavioral therapy, as well as experiential therapies like expressive arts, yoga, and meditation. We offer comprehensive continuing care services to ensure our clients have a kind of recovery that lasts a lifetime. Our services range from mental health issues to concerns over childcare, all of which affect our clients’ recovery.</p><h3>Residential and Community-Based Programs</h3><p>At the House of Sophrosyne, we provide both residential and community-based programs. Our residential program, for women 16 years and older with a valid Ontario Health Card, is a 5-week program that adheres to Ontario Health/Publically Funded Bed’s principles and philosophy. We also provide a pre-treatment program that supports women while they are waiting for their services. Our client-centered harm reduction model is non-judgmental, and we provide seamless intervention in a timely manner.</p><h3>Caring Connections and Supportive Housing</h3><p>We understand that a woman needing to access treatment can be faced with the insurmountable barrier of leaving. Here, at the House of Sophrosyne, we offer Caring Connections that help our clients to access treatment without leaving their families behind. Supportive Housing is a combination of housing and supportive services that help our clients to transition from treatment to independent living. We empower women by providing them with suitable housing options and offering them a step-by-step guide that helps them to manage their life after treatment.</p><p><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5dd6749c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5dd6749c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2d01d9e5\" data-element_type=\"column\" data-id=\"2d01d9e5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7539f0f2 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7539f0f2\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-701994a3 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"701994a3\" data-settings='{\"youtube_url\":\"https:\\/\\/www.youtube.com\\/watch?v=x1EQCrcIyHk\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-50aa5e6 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"50aa5e6\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3013d4a3\" data-element_type=\"column\" data-id=\"3013d4a3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6ad5af32 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"6ad5af32\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7217d78d elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"7217d78d\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">House of Sophrosyne - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-67d49e8 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"67d49e8\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>House of Sophrosyne is a renowned private rehab center in Windsor, Ontario, that stands out due to its services specializing in the treatment of substance, drug and alcohol abuse. Providing top-of-the-line treatments and programs, the center caters to the needs of its clients and helps them in achieving the best results. The center believes that every individual must experience a healthy, fulfilled life, free from substance abuse, and therefore, offers an extensive range of amenities, therapies and evidence-based practices.</p><p>The center strives to create a soothing and comfortable environment where clients can heal and recover fully. To achieve this, House of Sophrosyne offers holistic therapies, individual and family therapy and counseling, group therapy and counseling, yoga and meditation along with nutritional counseling, art and nature therapy. At House of Sophrosyne, the client’s must-have direct, uninterrupted access to professional support at any time of the day. With a team of experts who understand the challenges and complexities of addiction, the center aims to help clients overcome their problems and live a healthy, happy life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3f6ee93d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3f6ee93d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2893f1ca\" data-element_type=\"column\" data-id=\"2893f1ca\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-26698047 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"26698047\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-328f118\" data-element_type=\"column\" data-id=\"328f118\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3fb7384 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3fb7384\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6e534877 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6e534877\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3cb306f2\" data-element_type=\"column\" data-id=\"3cb306f2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-49c10dcd elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"49c10dcd\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tHouse of Sophrosyne has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-691b7d1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"691b7d1\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7f6d97f0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7f6d97f0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7539d0cd elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7539d0cd\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-160a7f4f\" data-element_type=\"column\" data-id=\"160a7f4f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-45586509 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"45586509\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5b50d176 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5b50d176\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-55208639\" data-element_type=\"column\" data-id=\"55208639\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41d0d418 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"41d0d418\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About House of Sophrosyne</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-47fe6017 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"47fe6017\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1201\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1201\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Who can access the House of Sophrosyne’s services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1201\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1201\" role=\"region\"><p>Women 16 years and older with a valid Ontario Health Card.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1202\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1202\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">. What type of treatment services do you offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1202\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1202\" role=\"region\"><p>We offer a comprehensive range of services for women struggling with addiction to alcohol or other drugs. Our services range from mental health issues to concerns over childcare.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1203\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1203\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long is the residential program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1203\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1203\" role=\"region\"><p>Our residential program is a 5-week program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1204\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1204\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Do you have community-based services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1204\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1204\" role=\"region\"><p>Yes, we provide both residential and community-based programs.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1205\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1205\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Do you offer counseling services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1205\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1205\" role=\"region\"><p>Yes, we offer one on one counseling and transformative group work.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(519) 252-2711\" itemprop=\"url\">(519) 252-2711</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:information@sophrosyne.ca\" itemprop=\"url\">information@sophrosyne.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://sophrosyne.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://sophrosyne.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    1771 Chappell Ave, Windsor, ON N9C 3E8, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-open\">12:00am</span>\n<span class=\"eltdf-ls-bg-separator\">-</span>\n<span class=\"eltdf-ls-bg-close\">12:00am</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:39pm</span>\n</div>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

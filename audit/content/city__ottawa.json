@@ -1,0 +1,1308 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__ottawa",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+  "path": "/listing-location/ottawa/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/ottawa/",
+ "seo": {
+  "meta_title": "Ottawa Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+  "og": {
+   "title": "Ottawa Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+      "url": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+      "name": "Ottawa Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/ottawa/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/ottawa/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Serenity-House-3.jpg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/ottawa/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/ottawa/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Serenity-House-3.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Serenity-House-3.jpg",
+      "width": 206,
+      "height": 206
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/ottawa/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ottawa"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Ottawa",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Ottawa Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg",
+   "local_path": "images/city__ottawa/Empathy-house7.jpg",
+   "alt": "",
+   "width": 640,
+   "height": 480,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg",
+   "local_path": "images/city__ottawa/Dave-Smith-Youth-Treatment-Centre-.jpg",
+   "alt": "",
+   "width": 500,
+   "height": 332,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg",
+   "local_path": "images/city__ottawa/Royal-Ottawa-Health-Care-Group.jpg",
+   "alt": "",
+   "width": 650,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg",
+   "local_path": "images/city__ottawa/valiant-recovery.jpg",
+   "alt": "valiant recovery",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/",
+   "text": "",
+   "kind": "internal",
+   "new": "/centre-for-addiction-and-mental-health/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/",
+   "text": "Centre For Addiction And Mental Health",
+   "kind": "internal",
+   "new": "/centre-for-addiction-and-mental-health/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/maison-fraternite/",
+   "text": "",
+   "kind": "internal",
+   "new": "/maison-fraternite/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/maison-fraternite/",
+   "text": "Maison Fraternite",
+   "kind": "internal",
+   "new": "/maison-fraternite/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/empathy-house/",
+   "text": "",
+   "kind": "internal",
+   "new": "/empathy-house/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/empathy-house/",
+   "text": "Empathy House",
+   "kind": "internal",
+   "new": "/empathy-house/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/ottawa-withdrawal-management-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/",
+   "text": "Ottawa Withdrawal Management Centre",
+   "kind": "internal",
+   "new": "/ottawa-withdrawal-management-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/",
+   "text": "",
+   "kind": "internal",
+   "new": "/dave-smith-youth-treatment-centre-scotch-corners-road/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/",
+   "text": "Dave Smith Youth Treatment Centre – Scotch Corners Road",
+   "kind": "internal",
+   "new": "/dave-smith-youth-treatment-centre-scotch-corners-road/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/salvation-army-ottawa-booth-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/",
+   "text": "Salvation Army Ottawa Booth Centre",
+   "kind": "internal",
+   "new": "/salvation-army-ottawa-booth-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/royal-ottawa-health-care-group/",
+   "text": "",
+   "kind": "internal",
+   "new": "/royal-ottawa-health-care-group/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/royal-ottawa-health-care-group/",
+   "text": "Royal Ottawa Health Care Group",
+   "kind": "internal",
+   "new": "/royal-ottawa-health-care-group/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/valiant-recovery/",
+   "text": "",
+   "kind": "internal",
+   "new": "/valiant-recovery/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "text": "Ottawa",
+   "kind": "internal",
+   "new": "/listing-location/ottawa/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/valiant-recovery/",
+   "text": "Valiant Recovery",
+   "kind": "internal",
+   "new": "/valiant-recovery/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Ottawa Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Ottawa Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/"
+    },
+    {
+     "type": "link",
+     "text": "Ottawa",
+     "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+     "new_href": "/listing-location/ottawa/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Centre For Addiction And Mental Health",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "150 Isabella St, Ottawa, ON K1S 5H3, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    150 Isabella St, Ottawa, ON K1S 5H3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+       "alt": "Clsc Alberta Health Services",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/maison-fraternite/"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Maison Fraternite",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "242 Cantin St, Vanier, ON K1L 6T2, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    242 Cantin St, Vanier, ON K1L 6T2, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg",
+       "alt": "",
+       "width": "640",
+       "height": "480",
+       "link_href": "https://addictionrehabcenters.ca/empathy-house/"
+      },
+      {
+       "type": "text",
+       "text": "Private Rehab"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Empathy House",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+       "alt": "Clsc Alberta Health Services",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Ottawa Withdrawal Management Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg",
+       "alt": "",
+       "width": "500",
+       "height": "332",
+       "link_href": "https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/"
+      },
+      {
+       "type": "text",
+       "text": "Private Rehab"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Dave Smith Youth Treatment Centre – Scotch Corners Road",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+       "alt": "Clsc Alberta Health Services",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Salvation Army Ottawa Booth Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "171 George St, Ottawa, ON K1N 9P3, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    171 George St, Ottawa, ON K1N 9P3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg",
+       "alt": "",
+       "width": "650",
+       "height": "550",
+       "link_href": "https://addictionrehabcenters.ca/royal-ottawa-health-care-group/"
+      },
+      {
+       "type": "text",
+       "text": "Private Rehab"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Royal Ottawa Health Care Group",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg",
+       "alt": "valiant recovery",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/valiant-recovery/"
+      },
+      {
+       "type": "text",
+       "text": "Private Rehab"
+      },
+      {
+       "type": "link",
+       "text": "Ottawa",
+       "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+       "new_href": "/listing-location/ottawa/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Valiant Recovery",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Ottawa Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Ottawa Results",
+   "html": "More Rehab Centres in Ottawa Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Centre For Addiction And Mental Health",
+   "html": "<a data-wpel-link=\"internal\" href=\"/centre-for-addiction-and-mental-health/\" itemprop=\"url\">Centre For Addiction And Mental Health</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "150 Isabella St, Ottawa, ON K1S 5H3, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    150 Isabella St, Ottawa, ON K1S 5H3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/maison-fraternite/"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Maison Fraternite",
+   "html": "<a data-wpel-link=\"internal\" href=\"/maison-fraternite/\" itemprop=\"url\">Maison Fraternite</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "242 Cantin St, Vanier, ON K1L 6T2, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    242 Cantin St, Vanier, ON K1L 6T2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg",
+   "alt": "",
+   "width": "640",
+   "height": "480",
+   "link_href": "https://addictionrehabcenters.ca/empathy-house/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Empathy House",
+   "html": "<a data-wpel-link=\"internal\" href=\"/empathy-house/\" itemprop=\"url\">Empathy House</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Ottawa Withdrawal Management Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/ottawa-withdrawal-management-centre/\" itemprop=\"url\">Ottawa Withdrawal Management Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg",
+   "alt": "",
+   "width": "500",
+   "height": "332",
+   "link_href": "https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Dave Smith Youth Treatment Centre – Scotch Corners Road",
+   "html": "<a data-wpel-link=\"internal\" href=\"/dave-smith-youth-treatment-centre-scotch-corners-road/\" itemprop=\"url\">Dave Smith Youth Treatment Centre – Scotch Corners Road</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Salvation Army Ottawa Booth Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/salvation-army-ottawa-booth-centre/\" itemprop=\"url\">Salvation Army Ottawa Booth Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "171 George St, Ottawa, ON K1N 9P3, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    171 George St, Ottawa, ON K1N 9P3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg",
+   "alt": "",
+   "width": "650",
+   "height": "550",
+   "link_href": "https://addictionrehabcenters.ca/royal-ottawa-health-care-group/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Royal Ottawa Health Care Group",
+   "html": "<a data-wpel-link=\"internal\" href=\"/royal-ottawa-health-care-group/\" itemprop=\"url\">Royal Ottawa Health Care Group</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg",
+   "alt": "valiant recovery",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/valiant-recovery/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "Ottawa",
+   "href": "https://addictionrehabcenters.ca/listing-location/ottawa/",
+   "new_href": "/listing-location/ottawa/"
+  },
+  {
+   "type": "h5",
+   "text": "Valiant Recovery",
+   "html": "<a data-wpel-link=\"internal\" href=\"/valiant-recovery/\" itemprop=\"url\">Valiant Recovery</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Centre For Addiction And Mental Health",
+   "href": "https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/",
+   "address": "150 Isabella St, Ottawa, ON K1S 5H3, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Maison Fraternite",
+   "href": "https://addictionrehabcenters.ca/maison-fraternite/",
+   "address": "242 Cantin St, Vanier, ON K1L 6T2, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Empathy House",
+   "href": "https://addictionrehabcenters.ca/empathy-house/",
+   "address": "360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg",
+    "alt": "",
+    "width": "640",
+    "height": "480"
+   }
+  },
+  {
+   "name": "Ottawa Withdrawal Management Centre",
+   "href": "https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/",
+   "address": "1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Dave Smith Youth Treatment Centre – Scotch Corners Road",
+   "href": "https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/",
+   "address": "1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg",
+    "alt": "",
+    "width": "500",
+    "height": "332"
+   }
+  },
+  {
+   "name": "Salvation Army Ottawa Booth Centre",
+   "href": "https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/",
+   "address": "171 George St, Ottawa, ON K1N 9P3, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Royal Ottawa Health Care Group",
+   "href": "https://addictionrehabcenters.ca/royal-ottawa-health-care-group/",
+   "address": "1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg",
+    "alt": "",
+    "width": "650",
+    "height": "550"
+   }
+  },
+  {
+   "name": "Valiant Recovery",
+   "href": "https://addictionrehabcenters.ca/valiant-recovery/",
+   "address": "4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg",
+    "alt": "valiant recovery",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Centre For Addiction And Mental Health",
+    "centre-for-addiction-and-mental-health",
+    "150 Isabella St, Ottawa, ON K1S 5H3, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Maison Fraternite",
+    "maison-fraternite",
+    "242 Cantin St, Vanier, ON K1L 6T2, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Empathy House",
+    "empathy-house",
+    "360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "Ottawa Withdrawal Management Centre",
+    "ottawa-withdrawal-management-centre",
+    "1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Dave Smith Youth Treatment Centre – Scotch Corners Road",
+    "dave-smith-youth-treatment-centre-scotch-corners-road",
+    "1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "Salvation Army Ottawa Booth Centre",
+    "salvation-army-ottawa-booth-centre",
+    "171 George St, Ottawa, ON K1N 9P3, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Royal Ottawa Health Care Group",
+    "royal-ottawa-health-care-group",
+    "1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "Valiant Recovery",
+    "valiant-recovery",
+    "4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Ottawa",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Ottawa Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Ottawa Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6823\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/centre-for-addiction-and-mental-health/\" itemprop=\"url\">Centre For Addiction And Mental Health</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    150 Isabella St, Ottawa, ON K1S 5H3, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6829\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/maison-fraternite/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/maison-fraternite/\" itemprop=\"url\">Maison Fraternite</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    242 Cantin St, Vanier, ON K1L 6T2, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6830\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/empathy-house/\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"480\" loading=\"lazy\" sizes=\"(max-width: 640px) 100vw, 640px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7.jpg 640w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7-300x225.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Empathy-house7-600x450.jpg 600w\" width=\"640\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/empathy-house/\" itemprop=\"url\">Empathy House</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    360 Sunnyside Ave, Ottawa, ON K1S 0S4, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6799\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ottawa-withdrawal-management-centre/\" itemprop=\"url\">Ottawa Withdrawal Management Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1777 Montréal Rd, Gloucester, ON K1J 6N1, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6807\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"332\" loading=\"lazy\" sizes=\"(max-width: 500px) 100vw, 500px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre-.jpg 500w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Dave-Smith-Youth-Treatment-Centre--300x199.jpg 300w\" width=\"500\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/dave-smith-youth-treatment-centre-scotch-corners-road/\" itemprop=\"url\">Dave Smith Youth Treatment Centre – Scotch Corners Road</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1986 Scotch Corners Rd, Carleton Place, ON K7C 0C5, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6813\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/salvation-army-ottawa-booth-centre/\" itemprop=\"url\">Salvation Army Ottawa Booth Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    171 George St, Ottawa, ON K1N 9P3, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6784\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/royal-ottawa-health-care-group/\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"550\" loading=\"lazy\" sizes=\"(max-width: 650px) 100vw, 650px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group.jpg 650w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group-300x254.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Royal-Ottawa-Health-Care-Group-600x508.jpg 600w\" width=\"650\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/royal-ottawa-health-care-group/\" itemprop=\"url\">Royal Ottawa Health Care Group</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1145 Carling Ave, Ottawa, ON K1Z 7K4, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6773\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/valiant-recovery/\">\n<img alt=\"valiant recovery\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/valiant-recovery-768x512.jpg 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/ottawa/\">Ottawa</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/valiant-recovery/\" itemprop=\"url\">Valiant Recovery</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4278 Boundary Rd, Carlsbad Springs, ON K0A 1K0, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

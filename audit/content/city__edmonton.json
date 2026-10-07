@@ -1,0 +1,884 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__edmonton",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+  "path": "/listing-location/edmonton/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/edmonton/",
+ "seo": {
+  "meta_title": "Edmonton Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+  "og": {
+   "title": "Edmonton Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+      "url": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+      "name": "Edmonton Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/edmonton/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/edmonton/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Jellinek-Society7.webp",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/edmonton/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/edmonton/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Jellinek-Society7.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Jellinek-Society7.webp",
+      "width": 1400,
+      "height": 800
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/edmonton/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Edmonton"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Edmonton",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Edmonton Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+   "local_path": "images/city__edmonton/Our-House-Edmonton-0.png",
+   "alt": "Our House Edmonton-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+   "local_path": "images/city__edmonton/Recovery-Acres-1.jpg",
+   "alt": "Recovery Acres 1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+   "local_path": "images/city__edmonton/foothills-center.jpg",
+   "alt": "foothills center",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+   "local_path": "images/city__edmonton/Mcdougall-House-0.png",
+   "alt": "Mcdougall House-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+   "text": "",
+   "kind": "internal",
+   "new": "/alberta-health-services-adult-detoxification-high-prairie/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "text": "Edmonton",
+   "kind": "internal",
+   "new": "/listing-location/edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+   "text": "Alberta Health Services – Adult Detoxification High Prairie",
+   "kind": "internal",
+   "new": "/alberta-health-services-adult-detoxification-high-prairie/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/our-house-edmonton/",
+   "text": "",
+   "kind": "internal",
+   "new": "/our-house-edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "text": "Edmonton",
+   "kind": "internal",
+   "new": "/listing-location/edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/our-house-edmonton/",
+   "text": "Our House Edmonton",
+   "kind": "internal",
+   "new": "/our-house-edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/recovery-acres-society/",
+   "text": "",
+   "kind": "internal",
+   "new": "/recovery-acres-society/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "text": "Edmonton",
+   "kind": "internal",
+   "new": "/listing-location/edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/recovery-acres-society/",
+   "text": "Recovery Acres Society",
+   "kind": "internal",
+   "new": "/recovery-acres-society/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/foothills-detox-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/foothills-detox-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "text": "Edmonton",
+   "kind": "internal",
+   "new": "/listing-location/edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/foothills-detox-centre/",
+   "text": "Foothills Detox Centre",
+   "kind": "internal",
+   "new": "/foothills-detox-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+   "text": "",
+   "kind": "internal",
+   "new": "/drug-rehab-center-2/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "text": "Edmonton",
+   "kind": "internal",
+   "new": "/listing-location/edmonton/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+   "text": "Mcdougall House",
+   "kind": "internal",
+   "new": "/drug-rehab-center-2/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Edmonton Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Edmonton Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/"
+    },
+    {
+     "type": "link",
+     "text": "Edmonton",
+     "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+     "new_href": "/listing-location/edmonton/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Alberta Health Services – Adult Detoxification High Prairie",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+       "alt": "Our House Edmonton-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/our-house-edmonton/"
+      },
+      {
+       "type": "link",
+       "text": "Edmonton",
+       "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+       "new_href": "/listing-location/edmonton/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Our House Edmonton",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+       "alt": "Recovery Acres 1",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/recovery-acres-society/"
+      },
+      {
+       "type": "link",
+       "text": "Edmonton",
+       "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+       "new_href": "/listing-location/edmonton/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Recovery Acres Society",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+       "alt": "foothills center",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/foothills-detox-centre/"
+      },
+      {
+       "type": "link",
+       "text": "Edmonton",
+       "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+       "new_href": "/listing-location/edmonton/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Foothills Detox Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+       "alt": "Mcdougall House-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/drug-rehab-center-2/"
+      },
+      {
+       "type": "link",
+       "text": "Edmonton",
+       "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+       "new_href": "/listing-location/edmonton/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Mcdougall House",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Edmonton Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Edmonton Results",
+   "html": "More Rehab Centres in Edmonton Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/"
+  },
+  {
+   "type": "link",
+   "text": "Edmonton",
+   "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "new_href": "/listing-location/edmonton/"
+  },
+  {
+   "type": "h5",
+   "text": "Alberta Health Services – Adult Detoxification High Prairie",
+   "html": "<a data-wpel-link=\"internal\" href=\"/alberta-health-services-adult-detoxification-high-prairie/\" itemprop=\"url\">Alberta Health Services – Adult Detoxification High Prairie</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+   "alt": "Our House Edmonton-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/our-house-edmonton/"
+  },
+  {
+   "type": "link",
+   "text": "Edmonton",
+   "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "new_href": "/listing-location/edmonton/"
+  },
+  {
+   "type": "h5",
+   "text": "Our House Edmonton",
+   "html": "<a data-wpel-link=\"internal\" href=\"/our-house-edmonton/\" itemprop=\"url\">Our House Edmonton</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+   "alt": "Recovery Acres 1",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/recovery-acres-society/"
+  },
+  {
+   "type": "link",
+   "text": "Edmonton",
+   "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "new_href": "/listing-location/edmonton/"
+  },
+  {
+   "type": "h5",
+   "text": "Recovery Acres Society",
+   "html": "<a data-wpel-link=\"internal\" href=\"/recovery-acres-society/\" itemprop=\"url\">Recovery Acres Society</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+   "alt": "foothills center",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/foothills-detox-centre/"
+  },
+  {
+   "type": "link",
+   "text": "Edmonton",
+   "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "new_href": "/listing-location/edmonton/"
+  },
+  {
+   "type": "h5",
+   "text": "Foothills Detox Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/foothills-detox-centre/\" itemprop=\"url\">Foothills Detox Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+   "alt": "Mcdougall House-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/drug-rehab-center-2/"
+  },
+  {
+   "type": "link",
+   "text": "Edmonton",
+   "href": "https://addictionrehabcenters.ca/listing-location/edmonton/",
+   "new_href": "/listing-location/edmonton/"
+  },
+  {
+   "type": "h5",
+   "text": "Mcdougall House",
+   "html": "<a data-wpel-link=\"internal\" href=\"/drug-rehab-center-2/\" itemprop=\"url\">Mcdougall House</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Alberta Health Services – Adult Detoxification High Prairie",
+   "href": "https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/",
+   "address": "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Our House Edmonton",
+   "href": "https://addictionrehabcenters.ca/our-house-edmonton/",
+   "address": "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png",
+    "alt": "Our House Edmonton-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Recovery Acres Society",
+   "href": "https://addictionrehabcenters.ca/recovery-acres-society/",
+   "address": "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg",
+    "alt": "Recovery Acres 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Foothills Detox Centre",
+   "href": "https://addictionrehabcenters.ca/foothills-detox-centre/",
+   "address": "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg",
+    "alt": "foothills center",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Mcdougall House",
+   "href": "https://addictionrehabcenters.ca/drug-rehab-center-2/",
+   "address": "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png",
+    "alt": "Mcdougall House-0",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Alberta Health Services – Adult Detoxification High Prairie",
+    "alberta-health-services-adult-detoxification-high-prairie",
+    "5409 47 St NW, Edmonton, AB T6L 6J5, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Our House Edmonton",
+    "our-house-edmonton",
+    "22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Recovery Acres Society",
+    "recovery-acres-society",
+    "6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Foothills Detox Centre",
+    "foothills-detox-centre",
+    "810 18 St, Fort Macleod, AB T0L 0Z0, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Mcdougall House",
+    "drug-rehab-center-2",
+    "11070 108 St NW, Edmonton, AB T5H 3A9, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Edmonton",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Edmonton Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Edmonton Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6864\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/edmonton/\">Edmonton</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alberta-health-services-adult-detoxification-high-prairie/\" itemprop=\"url\">Alberta Health Services – Adult Detoxification High Prairie</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    5409 47 St NW, Edmonton, AB T6L 6J5, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6505\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/our-house-edmonton/\">\n<img alt=\"Our House Edmonton-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Our-House-Edmonton-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/edmonton/\">Edmonton</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/our-house-edmonton/\" itemprop=\"url\">Our House Edmonton</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    22210 Stony Plain Rd, Edmonton, AB T5S 2C3, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6495\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/recovery-acres-society/\">\n<img alt=\"Recovery Acres 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Recovery-Acres-1-768x512.jpg 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/edmonton/\">Edmonton</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/recovery-acres-society/\" itemprop=\"url\">Recovery Acres Society</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    6329 118 Ave NW, Edmonton, AB T5W 1G2, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6496\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/foothills-detox-centre/\">\n<img alt=\"foothills center\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/foothills-center-768x512.jpg 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/edmonton/\">Edmonton</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/foothills-detox-centre/\" itemprop=\"url\">Foothills Detox Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    810 18 St, Fort Macleod, AB T0L 0Z0, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6481\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab-center-2/\">\n<img alt=\"Mcdougall House-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mcdougall-House-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/edmonton/\">Edmonton</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab-center-2/\" itemprop=\"url\">Mcdougall House</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    11070 108 St NW, Edmonton, AB T5H 3A9, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

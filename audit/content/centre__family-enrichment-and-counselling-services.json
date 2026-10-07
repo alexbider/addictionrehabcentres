@@ -1,0 +1,810 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__family-enrichment-and-counselling-services",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/",
+  "path": "/family-enrichment-and-counselling-services/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/family-enrichment-and-counselling-services/",
+ "seo": {
+  "meta_title": "Family Enrichment And Counselling Services",
+  "meta_description": "Family Enrichment And Counselling Services offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/",
+  "og": {
+   "title": "Family Enrichment And Counselling Services",
+   "description": "Family Enrichment And Counselling Services offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Family-Enrichment-And-Counselling-Services-0.png",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/",
+      "url": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/",
+      "name": "Family Enrichment And Counselling Services",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Family-Enrichment-And-Counselling-Services-0.png",
+      "datePublished": "2021-09-28T15:43:32+00:00",
+      "dateModified": "2022-04-12T05:12:03+00:00",
+      "description": "Family Enrichment And Counselling Services offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Family-Enrichment-And-Counselling-Services-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Family-Enrichment-And-Counselling-Services-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "Family Enrichment And Counselling Services-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/family-enrichment-and-counselling-services/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Family Enrichment And Counselling Services"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 62,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Center"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment-1.jpg",
+   "local_path": "images/centre__family-enrichment-and-counselling-services/family-enrichment-1.jpg",
+   "alt": "family enrichment 1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment-2.jpg",
+   "local_path": "images/centre__family-enrichment-and-counselling-services/family-enrichment-2.jpg",
+   "alt": "family enrichment 2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment.jpg",
+   "local_path": "images/centre__family-enrichment-and-counselling-services/family-enrichment.jpg",
+   "alt": "family enrichment",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Family-Enrichment-And-Counselling-Services-0.png",
+   "local_path": "images/centre__family-enrichment-and-counselling-services/Family-Enrichment-And-Counselling-Services-0.png",
+   "alt": "Family Enrichment And Counselling Services-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "tel:(506) 458-8211",
+   "text": "(506) 458-8211",
+   "kind": "tel",
+   "new": "tel:(506) 458-8211"
+  },
+  {
+   "old_href": "mailto:info@familyenrichment.ca",
+   "text": "info@familyenrichment.ca",
+   "kind": "mailto",
+   "new": "mailto:info@familyenrichment.ca"
+  },
+  {
+   "old_href": "http://familyenrichment.ca/",
+   "text": "http://familyenrichment.ca/",
+   "kind": "external",
+   "new": "http://familyenrichment.ca/"
+  },
+  {
+   "old_href": "https://www.facebook.com/familyenrichmentcounselling/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/familyenrichmentcounselling/"
+  },
+  {
+   "old_href": "https://twitter.com/FECSfredericton",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/FECSfredericton"
+  },
+  {
+   "old_href": "https://www.instagram.com/family.enrichment/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/family.enrichment/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Center",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.",
+     "html": "Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Outpatient Drug Rehab",
+       "html": "Outpatient Drug Rehab",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Outpatient Drug Rehab",
+       "html": "Outpatient Drug Rehab",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "(506) 458-8211",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(506) 458-8211\" itemprop=\"url\">(506) 458-8211</a>",
+       "links": [
+        {
+         "old": "tel:(506) 458-8211",
+         "text": "(506) 458-8211"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "info@familyenrichment.ca",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@familyenrichment.ca\" itemprop=\"url\">info@familyenrichment.ca</a>",
+       "links": [
+        {
+         "old": "mailto:info@familyenrichment.ca",
+         "text": "info@familyenrichment.ca"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "http://familyenrichment.ca/",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://familyenrichment.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://familyenrichment.ca/</a>",
+       "links": [
+        {
+         "old": "http://familyenrichment.ca/",
+         "text": "http://familyenrichment.ca/"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "356 Queen St, Fredericton, NB E3B 1B2, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    356 Queen St, Fredericton, NB E3B 1B2, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "Social",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Center",
+   "html": "<strong>About</strong> Center",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.",
+   "html": "Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Outpatient Drug Rehab",
+   "html": "Outpatient Drug Rehab",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Outpatient Drug Rehab",
+   "html": "Outpatient Drug Rehab",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "(506) 458-8211",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(506) 458-8211\" itemprop=\"url\">(506) 458-8211</a>",
+   "links": [
+    {
+     "old": "tel:(506) 458-8211",
+     "text": "(506) 458-8211"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@familyenrichment.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@familyenrichment.ca\" itemprop=\"url\">info@familyenrichment.ca</a>",
+   "links": [
+    {
+     "old": "mailto:info@familyenrichment.ca",
+     "text": "info@familyenrichment.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://familyenrichment.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://familyenrichment.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://familyenrichment.ca/</a>",
+   "links": [
+    {
+     "old": "http://familyenrichment.ca/",
+     "text": "http://familyenrichment.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "356 Queen St, Fredericton, NB E3B 1B2, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    356 Queen St, Fredericton, NB E3B 1B2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Family Enrichment And Counselling Services",
+  "categories": [
+   "New Brunswick Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h3><strong>About</strong> Center</h3>\n<p>Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<p>Outpatient Drug Rehab</p>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<p>Outpatient Drug Rehab</p>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(506) 458-8211",
+  "email": "info@familyenrichment.ca",
+  "website": "http://familyenrichment.ca/",
+  "address": "356 Queen St, Fredericton, NB E3B 1B2, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/familyenrichmentcounselling/",
+   "twitter": "https://twitter.com/FECSfredericton",
+   "instagram": "https://www.instagram.com/family.enrichment/"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment-1.jpg",
+    "alt": "family enrichment 1",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment-2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment-2.jpg",
+    "alt": "family enrichment 2",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/family-enrichment.jpg",
+    "alt": "family enrichment",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Center",
+    "html": "<strong>About</strong> Center",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.",
+    "html": "Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [
+     "Outpatient Drug Rehab"
+    ],
+    "text": ""
+   },
+   {
+    "heading": "Amenities",
+    "items": [
+     "Outpatient Drug Rehab"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(506) 458-8211",
+  "phone_href": "tel:(506) 458-8211",
+  "website_text": "http://familyenrichment.ca/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Center</h3>\n<p>Family Enrichment and Counselling Services is a Non-Profit rehab located in Fredericton, New Brunswick. Family Enrichment and Counselling Services specializes in the treatment of mental health.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<p>Outpatient Drug Rehab</p>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<p>Outpatient Drug Rehab</p>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(506) 458-8211\" itemprop=\"url\">(506) 458-8211</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@familyenrichment.ca\" itemprop=\"url\">info@familyenrichment.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://familyenrichment.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://familyenrichment.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    356 Queen St, Fredericton, NB E3B 1B2, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/familyenrichmentcounselling/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/FECSfredericton\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/family.enrichment/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

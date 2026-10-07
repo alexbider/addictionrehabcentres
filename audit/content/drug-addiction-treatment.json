@@ -1,0 +1,978 @@
+{
+ "schema": "arc-content/1",
+ "slug": "drug-addiction-treatment",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+  "path": "/drug-addiction-treatment/",
+  "wp_items": [
+   {
+    "id": 11010,
+    "type": "post",
+    "title": "Drug Addiction Treatment",
+    "date": "2015-07-17T19:35:40",
+    "modified": "2022-09-13T13:24:40",
+    "status": "publish",
+    "yoast_title": "Drug Addiction Treatment - Addiction Rehab Centers",
+    "words_rest": 774
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/drug-addiction-treatment/",
+ "seo": {
+  "meta_title": "Drug Addiction Treatment - Addiction Rehab Centers",
+  "meta_description": "Learn about some of the different options for drug addiction treatment for you or a loved one. Contact us today for more information about getting treatment.",
+  "canonical_source": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+  "og": {
+   "title": "Drug Addiction Treatment - Addiction Rehab Centers",
+   "description": "Learn about some of the different options for drug addiction treatment for you or a loved one. Contact us today for more information about getting treatment.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Drug Addiction Treatment",
+      "datePublished": "2015-07-17T19:35:40+00:00",
+      "dateModified": "2022-09-13T13:24:40+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/"
+      },
+      "wordCount": 783,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+      "keywords": [
+       "addiction",
+       "Drug Addiction Treatment",
+       "drugs",
+       "therapy",
+       "treatment"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+      "url": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+      "name": "Drug Addiction Treatment - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+      "datePublished": "2015-07-17T19:35:40+00:00",
+      "dateModified": "2022-09-13T13:24:40+00:00",
+      "description": "Learn about some of the different options for drug addiction treatment for you or a loved one. Contact us today for more information about getting treatment.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/drug-addiction-treatment/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "problem with drug addiction"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Drug Addiction Treatment"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Drug Addiction Treatment",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 782,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Drug Addiction Treatment"
+  ],
+  [
+   "h3",
+   "Medical Care"
+  ],
+  [
+   "h3",
+   "Psychological Support"
+  ],
+  [
+   "h3",
+   "Family and Social Care"
+  ],
+  [
+   "h3",
+   "Education"
+  ],
+  [
+   "h3",
+   "Support for Making Lifestyle Changes"
+  ],
+  [
+   "h3",
+   "Continuing Care"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+   "local_path": "images/drug-addiction-treatment/problem-with-drug-addiction.jpg",
+   "alt": "problem with drug addiction",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "July 17, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+   "text": "drug addiction treatment",
+   "kind": "internal",
+   "new": "/drug-addiction-treatment-programs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+   "text": "intense withdrawal symptoms",
+   "kind": "internal",
+   "new": "/drug-addiction-symptoms-signs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-detox/",
+   "text": "drug detox",
+   "kind": "internal",
+   "new": "/drug-detox/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+   "text": "consequences of drug addiction",
+   "kind": "internal",
+   "new": "/effects-of-drug-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+   "text": "Why you’re an addict",
+   "kind": "internal",
+   "new": "/understanding-addiction-to-drugs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/family-therapy/",
+   "text": "access to family therapy",
+   "kind": "internal",
+   "new": "/family-therapy/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+   "text": "addiction recovery programs",
+   "kind": "internal",
+   "new": "/drug-addiction-treatment-programs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+   "text": "drug addiction treatment",
+   "kind": "internal",
+   "new": "/drug-addiction-treatment/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/nutrition-and-wellness/",
+   "text": "How the right diet can reduce cravings",
+   "kind": "internal-dropped",
+   "new": "/nutrition-and-wellness/",
+   "target_status": "NOT NEEDED",
+   "note": "noindex on source site and not linked from nav/footer/built pages"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
+   "text": "40% and 60%",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/continuing-care/",
+   "text": "help finding care after you check out",
+   "kind": "internal-dropped",
+   "new": "/continuing-care/",
+   "target_status": "NOT NEEDED",
+   "note": "noindex on source site and not linked from nav/footer/built pages"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-rehab/",
+   "text": "Drug Addiction Rehab Program",
+   "kind": "internal",
+   "new": "/drug-rehab/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+   "text": "Drug Addiction Explained",
+   "kind": "internal",
+   "new": "/drug-addiction-explained/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+   "text": "10 Need to Know Facts About Drug Addiction",
+   "kind": "internal",
+   "new": "/10-drug-addiction-facts-you-need-to-know/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+   "text": "Drug Addition: Symptoms",
+   "kind": "internal",
+   "new": "/drug-addiction-symptoms-signs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+   "text": "Understanding Drug Addiction",
+   "kind": "internal",
+   "new": "/understanding-addiction-to-drugs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs",
+   "text": "NIH: Types of Drug Addiction Treatment Programs",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+     "alt": "problem with drug addiction",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "July 17, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Drug Addiction Treatment",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "If you’re concerned that you or a loved one may have a problem with drug addiction, the time to act is now. Drug addiction is a disease characterized by measurable changes in the brain and body. Drug addiction is not a choice, and it will not go away on its own. We can help you on your journey from an out-of-control life of addiction to the peace and happiness of sobriety. No matter where you choose to pursue drug addiction treatment, make sure they offer the following options.",
+     "html": "If you’re concerned that you or a loved one may have a problem with drug addiction, the time to act is now. Drug addiction is a disease characterized by measurable changes in the brain and body. <strong>Drug addiction is not a choice, and it will not go away on its own</strong>. We can help you on your journey from an out-of-control life of addiction to the peace and happiness of sobriety. No matter where you choose to pursue <a data-wpel-link=\"internal\" href=\"/drug-addiction-treatment-programs/\">drug addiction treatment</a>, make sure they offer the following options.",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+       "text": "drug addiction treatment"
+      }
+     ],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Medical Care",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The first days after you quit using are inevitably among the hardest. You’ll likely experience intense withdrawal symptoms, some of which can become medially dangerous. A skilled physician can help you manage your symptoms and monitor you for signs that you’re suffering from life-threatening drug detox. In some cases, your doctor may even be able to prescribe medication to reduce cravings and mitigate the severity of detox.",
+       "html": "The first days after you quit using are inevitably among the hardest. You’ll likely experience <a data-wpel-link=\"internal\" href=\"/drug-addiction-symptoms-signs/\">intense withdrawal symptoms</a>, some of which can become medially dangerous. A skilled physician can help you manage your symptoms and monitor you for signs that you’re suffering from life-threatening <a data-wpel-link=\"internal\" href=\"/drug-detox/\">drug detox</a>. In some cases, your doctor may even be able to <strong>prescribe medication to reduce cravings and mitigate the severity of detox</strong>.<strong> </strong>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+         "text": "intense withdrawal symptoms"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/drug-detox/",
+         "text": "drug detox"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The fight for your physical health is just beginning when you finish detoxing, though. Most addicts suffer at least a few physical afflictions, ranging from weight gain to liver failure. Plan on getting a physical every 3-6 months to monitor the aftereffects of your addiction, and don’t shy away from asking your doctor what you can to do minimize the long-term consequences of drug addiction.",
+       "html": "The fight for your physical health is just beginning when you finish detoxing, though. Most addicts suffer at least a few physical afflictions, ranging from weight gain to liver failure. Plan on getting a physical every 3-6 months to monitor the aftereffects of your addiction, and don’t shy away from asking your doctor what you can to do minimize the long-term <a data-wpel-link=\"internal\" href=\"/effects-of-drug-addiction/\">consequences of drug addiction</a>.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+         "text": "consequences of drug addiction"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Psychological Support",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Whether you know it or not, you became a drug addict for a reason. Whether it’s the pain of childhood trauma or a desperate attempt at fitting in, you’ll need help understanding why you’re an addict and what you can do to reduce cravings. A combination of individual and group therapy often works well. Your therapist should address:",
+       "html": "Whether you know it or not, you became a drug addict for a reason. Whether it’s the pain of childhood trauma or a desperate attempt at fitting in, you’ll need help understanding why you’re an addict and what you can do to reduce cravings. <strong>A combination of individual and group therapy often works well</strong>. Your therapist should address:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "What you can do to cope with cravings.",
+         "html": "What you can do to cope with cravings.",
+         "links": []
+        },
+        {
+         "text": "Why you’re an addict.",
+         "html": "<a data-wpel-link=\"internal\" href=\"/understanding-addiction-to-drugs/\">Why you’re an addict</a>.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+           "text": "Why you’re an addict"
+          }
+         ]
+        },
+        {
+         "text": "What specific behaviors might help you reduce the urge to use.",
+         "html": "What specific behaviors might help you reduce the urge to use.",
+         "links": []
+        },
+        {
+         "text": "How to manage relationship issues that resulted from or contributed to your addiction.",
+         "html": "How to manage relationship issues that resulted from or contributed to your addiction.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Family and Social Care",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Like it or not, addiction is a family disease. No matter how well you’ve concealed your addiction, it has almost certainly affected those closest to you, especially if you have children. Likewise, family dynamics—such as an abusive marriage or your parents’ divorce—might have contributed to your addiction. Good addiction care includes support and education for your family, so that they can better understand the disease of drug addiction.",
+       "html": "Like it or not, addiction is a family disease. No matter how well you’ve concealed your addiction, it has almost certainly affected those closest to you, especially if you have children. <strong>Likewise, family dynamics—such as an abusive marriage or your parents’ divorce—might have contributed to your addiction</strong>. Good addiction care includes support and education for your family, so that they can better understand the disease of drug addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "If you’re like most addicts, you’ll also need help making things right with your family. Any good recovery program should include assistance for making amends. You should also have access to family therapy and regular visits with those you love the most.",
+       "html": "If you’re like most addicts, you’ll also need help making things right with your family. Any good recovery program should include assistance for making amends. You should also have <a data-wpel-link=\"internal\" href=\"/family-therapy/\">access to family therapy</a> and regular visits with those you love the most.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/family-therapy/",
+         "text": "access to family therapy"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Education",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "You can’t bring your A-game to the fight against drug addiction if you have no idea what you’re fighting. Good doctors don’t just tell you what to do, and effective addiction recovery programs don’t rob you of your autonomy. Instead, they provide you with the education you need to make the right choices, then let you decide how to manage your addiction. All good recovery programs embrace questions and critical thinking, so don’t be afraid to ask as many questions as you want, and to keep asking until you get an answer that makes sense.",
+       "html": "You can’t bring your A-game to the fight against drug addiction if you have no idea what you’re fighting. Good doctors don’t just tell you what to do, and effective <a data-wpel-link=\"internal\" href=\"/drug-addiction-treatment-programs/\">addiction recovery programs</a> don’t rob you of your autonomy. Instead, they provide you with the <strong>education you need to make the right choices</strong>, then let you decide how to manage your addiction. All good recovery programs embrace questions and critical thinking, so don’t be afraid to ask as many questions as you want, and to keep asking until you get an answer that makes sense.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+         "text": "addiction recovery programs"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Support for Making Lifestyle Changes",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction touches every facet of your life. Otherwise, you could keep it compartmentalized, and wouldn’t need drug addiction treatment. The most effective treatment programs look at how your addiction affects your life, then offer you options for a less challenging and painful sobriety. Some options to explore include:",
+       "html": "Addiction touches every facet of your life. Otherwise, you could keep it compartmentalized, and wouldn’t need <a data-wpel-link=\"internal\" href=\"/drug-addiction-treatment/\">drug addiction treatment</a>. The most effective treatment programs look at how your addiction affects your life, then offer you options for a less challenging and painful sobriety. Some options to explore include:",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+         "text": "drug addiction treatment"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "How the right diet can reduce cravings",
+         "html": "How the right diet can reduce cravings",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/nutrition-and-wellness/",
+           "text": "How the right diet can reduce cravings"
+          }
+         ]
+        },
+        {
+         "text": "The power of exercise to improve mental health",
+         "html": "The power of exercise to improve mental health",
+         "links": []
+        },
+        {
+         "text": "How the right social group can help—or hinder—your prospects for recovery",
+         "html": "How the right social group can help—or hinder—your prospects for recovery",
+         "links": []
+        },
+        {
+         "text": "Meditative techniques to control cravings",
+         "html": "Meditative techniques to control cravings",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Every addict is different, so what works for one person might not work for you. Keep trying until something is effective, and shy away from treatment programs that offer a one size fits all approach to recovery.",
+       "html": "Every addict is different, so what works for one person might not work for you. Keep trying until something is effective, and <strong>shy away from treatment programs that offer a one size fits all approach to recovery</strong>.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Continuing Care",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The journey to sobriety doesn’t end the day you check out of rehab. Between 40% and 60% of addicts relapse, but you don’t have to be among them. The best treatment facilities offer help finding care after you check out. This might include accessing therapy, addiction-savvy doctors, and 12-step programs. And of course, a restructuring of your lifestyle, nutrition, exercise, and social network is almost always a part of the walk to sobriety. Contact Addiction Rehab Centres Canada today!",
+       "html": "The journey to sobriety doesn’t end the day you check out of rehab. Between <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery\" rel=\"noopener external noreferrer\" target=\"_blank\">40% and 60%</a> of addicts relapse, but you don’t have to be among them. The best treatment facilities offer help finding care after you check out. <strong>This might include accessing therapy, addiction-savvy doctors, and 12-step programs</strong>. And of course, a restructuring of your lifestyle, nutrition, exercise, and social network is almost always a part of the walk to sobriety. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
+         "text": "40% and 60%"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/continuing-care/",
+         "text": "help finding care after you check out"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Further Reading:",
+       "html": "<strong>Further Reading:</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug Addiction Rehab Program Drug Addiction Explained 10 Need to Know Facts About Drug Addiction Drug Addition: Symptoms Understanding Drug Addiction NIH: Types of Drug Addiction Treatment Programs",
+       "html": "<a data-wpel-link=\"internal\" href=\"/drug-rehab/\" rel=\"noopener\" target=\"_blank\">Drug Addiction Rehab Program</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\" rel=\"noopener\" target=\"_blank\">Drug Addiction Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"/10-drug-addiction-facts-you-need-to-know/\" rel=\"noopener\" target=\"_blank\">10 Need to Know Facts About Drug Addiction</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-symptoms-signs/\" rel=\"noopener\" target=\"_blank\">Drug Addition: Symptoms</a><br/>\n<a data-wpel-link=\"internal\" href=\"/understanding-addiction-to-drugs/\" rel=\"noopener\" target=\"_blank\">Understanding Drug Addiction</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs\" rel=\"noopener external noreferrer\" target=\"_blank\">NIH: Types of Drug Addiction Treatment Programs</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/drug-rehab/",
+         "text": "Drug Addiction Rehab Program"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+         "text": "Drug Addiction Explained"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+         "text": "10 Need to Know Facts About Drug Addiction"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+         "text": "Drug Addition: Symptoms"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+         "text": "Understanding Drug Addiction"
+        },
+        {
+         "old": "https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs",
+         "text": "NIH: Types of Drug Addiction Treatment Programs"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+   "alt": "problem with drug addiction",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "July 17, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Drug Addiction Treatment",
+   "html": "Drug Addiction Treatment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "If you’re concerned that you or a loved one may have a problem with drug addiction, the time to act is now. Drug addiction is a disease characterized by measurable changes in the brain and body. Drug addiction is not a choice, and it will not go away on its own. We can help you on your journey from an out-of-control life of addiction to the peace and happiness of sobriety. No matter where you choose to pursue drug addiction treatment, make sure they offer the following options.",
+   "html": "If you’re concerned that you or a loved one may have a problem with drug addiction, the time to act is now. Drug addiction is a disease characterized by measurable changes in the brain and body. <strong>Drug addiction is not a choice, and it will not go away on its own</strong>. We can help you on your journey from an out-of-control life of addiction to the peace and happiness of sobriety. No matter where you choose to pursue <a data-wpel-link=\"internal\" href=\"/drug-addiction-treatment-programs/\">drug addiction treatment</a>, make sure they offer the following options.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+     "text": "drug addiction treatment"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Medical Care",
+   "html": "Medical Care",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The first days after you quit using are inevitably among the hardest. You’ll likely experience intense withdrawal symptoms, some of which can become medially dangerous. A skilled physician can help you manage your symptoms and monitor you for signs that you’re suffering from life-threatening drug detox. In some cases, your doctor may even be able to prescribe medication to reduce cravings and mitigate the severity of detox.",
+   "html": "The first days after you quit using are inevitably among the hardest. You’ll likely experience <a data-wpel-link=\"internal\" href=\"/drug-addiction-symptoms-signs/\">intense withdrawal symptoms</a>, some of which can become medially dangerous. A skilled physician can help you manage your symptoms and monitor you for signs that you’re suffering from life-threatening <a data-wpel-link=\"internal\" href=\"/drug-detox/\">drug detox</a>. In some cases, your doctor may even be able to <strong>prescribe medication to reduce cravings and mitigate the severity of detox</strong>.<strong> </strong>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+     "text": "intense withdrawal symptoms"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/drug-detox/",
+     "text": "drug detox"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The fight for your physical health is just beginning when you finish detoxing, though. Most addicts suffer at least a few physical afflictions, ranging from weight gain to liver failure. Plan on getting a physical every 3-6 months to monitor the aftereffects of your addiction, and don’t shy away from asking your doctor what you can to do minimize the long-term consequences of drug addiction.",
+   "html": "The fight for your physical health is just beginning when you finish detoxing, though. Most addicts suffer at least a few physical afflictions, ranging from weight gain to liver failure. Plan on getting a physical every 3-6 months to monitor the aftereffects of your addiction, and don’t shy away from asking your doctor what you can to do minimize the long-term <a data-wpel-link=\"internal\" href=\"/effects-of-drug-addiction/\">consequences of drug addiction</a>.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+     "text": "consequences of drug addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Psychological Support",
+   "html": "Psychological Support",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Whether you know it or not, you became a drug addict for a reason. Whether it’s the pain of childhood trauma or a desperate attempt at fitting in, you’ll need help understanding why you’re an addict and what you can do to reduce cravings. A combination of individual and group therapy often works well. Your therapist should address:",
+   "html": "Whether you know it or not, you became a drug addict for a reason. Whether it’s the pain of childhood trauma or a desperate attempt at fitting in, you’ll need help understanding why you’re an addict and what you can do to reduce cravings. <strong>A combination of individual and group therapy often works well</strong>. Your therapist should address:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "What you can do to cope with cravings.",
+     "html": "What you can do to cope with cravings.",
+     "links": []
+    },
+    {
+     "text": "Why you’re an addict.",
+     "html": "<a data-wpel-link=\"internal\" href=\"/understanding-addiction-to-drugs/\">Why you’re an addict</a>.",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+       "text": "Why you’re an addict"
+      }
+     ]
+    },
+    {
+     "text": "What specific behaviors might help you reduce the urge to use.",
+     "html": "What specific behaviors might help you reduce the urge to use.",
+     "links": []
+    },
+    {
+     "text": "How to manage relationship issues that resulted from or contributed to your addiction.",
+     "html": "How to manage relationship issues that resulted from or contributed to your addiction.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Family and Social Care",
+   "html": "Family and Social Care",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Like it or not, addiction is a family disease. No matter how well you’ve concealed your addiction, it has almost certainly affected those closest to you, especially if you have children. Likewise, family dynamics—such as an abusive marriage or your parents’ divorce—might have contributed to your addiction. Good addiction care includes support and education for your family, so that they can better understand the disease of drug addiction.",
+   "html": "Like it or not, addiction is a family disease. No matter how well you’ve concealed your addiction, it has almost certainly affected those closest to you, especially if you have children. <strong>Likewise, family dynamics—such as an abusive marriage or your parents’ divorce—might have contributed to your addiction</strong>. Good addiction care includes support and education for your family, so that they can better understand the disease of drug addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you’re like most addicts, you’ll also need help making things right with your family. Any good recovery program should include assistance for making amends. You should also have access to family therapy and regular visits with those you love the most.",
+   "html": "If you’re like most addicts, you’ll also need help making things right with your family. Any good recovery program should include assistance for making amends. You should also have <a data-wpel-link=\"internal\" href=\"/family-therapy/\">access to family therapy</a> and regular visits with those you love the most.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/family-therapy/",
+     "text": "access to family therapy"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Education",
+   "html": "Education",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "You can’t bring your A-game to the fight against drug addiction if you have no idea what you’re fighting. Good doctors don’t just tell you what to do, and effective addiction recovery programs don’t rob you of your autonomy. Instead, they provide you with the education you need to make the right choices, then let you decide how to manage your addiction. All good recovery programs embrace questions and critical thinking, so don’t be afraid to ask as many questions as you want, and to keep asking until you get an answer that makes sense.",
+   "html": "You can’t bring your A-game to the fight against drug addiction if you have no idea what you’re fighting. Good doctors don’t just tell you what to do, and effective <a data-wpel-link=\"internal\" href=\"/drug-addiction-treatment-programs/\">addiction recovery programs</a> don’t rob you of your autonomy. Instead, they provide you with the <strong>education you need to make the right choices</strong>, then let you decide how to manage your addiction. All good recovery programs embrace questions and critical thinking, so don’t be afraid to ask as many questions as you want, and to keep asking until you get an answer that makes sense.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+     "text": "addiction recovery programs"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Support for Making Lifestyle Changes",
+   "html": "Support for Making Lifestyle Changes",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction touches every facet of your life. Otherwise, you could keep it compartmentalized, and wouldn’t need drug addiction treatment. The most effective treatment programs look at how your addiction affects your life, then offer you options for a less challenging and painful sobriety. Some options to explore include:",
+   "html": "Addiction touches every facet of your life. Otherwise, you could keep it compartmentalized, and wouldn’t need <a data-wpel-link=\"internal\" href=\"/drug-addiction-treatment/\">drug addiction treatment</a>. The most effective treatment programs look at how your addiction affects your life, then offer you options for a less challenging and painful sobriety. Some options to explore include:",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-treatment/",
+     "text": "drug addiction treatment"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "How the right diet can reduce cravings",
+     "html": "How the right diet can reduce cravings",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/nutrition-and-wellness/",
+       "text": "How the right diet can reduce cravings"
+      }
+     ]
+    },
+    {
+     "text": "The power of exercise to improve mental health",
+     "html": "The power of exercise to improve mental health",
+     "links": []
+    },
+    {
+     "text": "How the right social group can help—or hinder—your prospects for recovery",
+     "html": "How the right social group can help—or hinder—your prospects for recovery",
+     "links": []
+    },
+    {
+     "text": "Meditative techniques to control cravings",
+     "html": "Meditative techniques to control cravings",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Every addict is different, so what works for one person might not work for you. Keep trying until something is effective, and shy away from treatment programs that offer a one size fits all approach to recovery.",
+   "html": "Every addict is different, so what works for one person might not work for you. Keep trying until something is effective, and <strong>shy away from treatment programs that offer a one size fits all approach to recovery</strong>.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Continuing Care",
+   "html": "Continuing Care",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The journey to sobriety doesn’t end the day you check out of rehab. Between 40% and 60% of addicts relapse, but you don’t have to be among them. The best treatment facilities offer help finding care after you check out. This might include accessing therapy, addiction-savvy doctors, and 12-step programs. And of course, a restructuring of your lifestyle, nutrition, exercise, and social network is almost always a part of the walk to sobriety. Contact Addiction Rehab Centres Canada today!",
+   "html": "The journey to sobriety doesn’t end the day you check out of rehab. Between <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery\" rel=\"noopener external noreferrer\" target=\"_blank\">40% and 60%</a> of addicts relapse, but you don’t have to be among them. The best treatment facilities offer help finding care after you check out. <strong>This might include accessing therapy, addiction-savvy doctors, and 12-step programs</strong>. And of course, a restructuring of your lifestyle, nutrition, exercise, and social network is almost always a part of the walk to sobriety. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
+     "text": "40% and 60%"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/continuing-care/",
+     "text": "help finding care after you check out"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Further Reading:",
+   "html": "<strong>Further Reading:</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug Addiction Rehab Program Drug Addiction Explained 10 Need to Know Facts About Drug Addiction Drug Addition: Symptoms Understanding Drug Addiction NIH: Types of Drug Addiction Treatment Programs",
+   "html": "<a data-wpel-link=\"internal\" href=\"/drug-rehab/\" rel=\"noopener\" target=\"_blank\">Drug Addiction Rehab Program</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\" rel=\"noopener\" target=\"_blank\">Drug Addiction Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"/10-drug-addiction-facts-you-need-to-know/\" rel=\"noopener\" target=\"_blank\">10 Need to Know Facts About Drug Addiction</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-symptoms-signs/\" rel=\"noopener\" target=\"_blank\">Drug Addition: Symptoms</a><br/>\n<a data-wpel-link=\"internal\" href=\"/understanding-addiction-to-drugs/\" rel=\"noopener\" target=\"_blank\">Understanding Drug Addiction</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs\" rel=\"noopener external noreferrer\" target=\"_blank\">NIH: Types of Drug Addiction Treatment Programs</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-rehab/",
+     "text": "Drug Addiction Rehab Program"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+     "text": "Drug Addiction Explained"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+     "text": "10 Need to Know Facts About Drug Addiction"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/",
+     "text": "Drug Addition: Symptoms"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+     "text": "Understanding Drug Addiction"
+    },
+    {
+     "old": "https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs",
+     "text": "NIH: Types of Drug Addiction Treatment Programs"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-07-17T19:35:40+00:00",
+  "modified": "2022-09-13T13:24:40+00:00",
+  "date_label": "July 17, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 783,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"problem with drug addiction\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/problem-with-drug-addiction-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                July 17, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Drug Addiction Treatment    </h1> <p>If you’re concerned that you or a loved one may have a problem with drug addiction, the time to act is now. Drug addiction is a disease characterized by measurable changes in the brain and body. <strong>Drug addiction is not a choice, and it will not go away on its own</strong>. We can help you on your journey from an out-of-control life of addiction to the peace and happiness of sobriety. No matter where you choose to pursue <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-treatment-programs/\">drug addiction treatment</a>, make sure they offer the following options.</p>\n<h3>Medical Care</h3>\n<p>The first days after you quit using are inevitably among the hardest. You’ll likely experience <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/\">intense withdrawal symptoms</a>, some of which can become medially dangerous. A skilled physician can help you manage your symptoms and monitor you for signs that you’re suffering from life-threatening <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-detox/\">drug detox</a>. In some cases, your doctor may even be able to <strong>prescribe medication to reduce cravings and mitigate the severity of detox</strong>.<strong> </strong></p>\n<p>The fight for your physical health is just beginning when you finish detoxing, though. Most addicts suffer at least a few physical afflictions, ranging from weight gain to liver failure. Plan on getting a physical every 3-6 months to monitor the aftereffects of your addiction, and don’t shy away from asking your doctor what you can to do minimize the long-term <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/effects-of-drug-addiction/\">consequences of drug addiction</a>.</p>\n<h3>Psychological Support</h3>\n<p>Whether you know it or not, you became a drug addict for a reason. Whether it’s the pain of childhood trauma or a desperate attempt at fitting in, you’ll need help understanding why you’re an addict and what you can do to reduce cravings. <strong>A combination of individual and group therapy often works well</strong>. Your therapist should address:</p>\n<ul>\n<li>What you can do to cope with cravings.</li>\n<li><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/understanding-addiction-to-drugs/\">Why you’re an addict</a>.</li>\n<li>What specific behaviors might help you reduce the urge to use.</li>\n<li>How to manage relationship issues that resulted from or contributed to your addiction.</li>\n</ul>\n<h3>Family and Social Care</h3>\n<p>Like it or not, addiction is a family disease. No matter how well you’ve concealed your addiction, it has almost certainly affected those closest to you, especially if you have children. <strong>Likewise, family dynamics—such as an abusive marriage or your parents’ divorce—might have contributed to your addiction</strong>. Good addiction care includes support and education for your family, so that they can better understand the disease of drug addiction.</p>\n<p>If you’re like most addicts, you’ll also need help making things right with your family. Any good recovery program should include assistance for making amends. You should also have <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/family-therapy/\">access to family therapy</a> and regular visits with those you love the most.</p>\n<h3>Education</h3>\n<p>You can’t bring your A-game to the fight against drug addiction if you have no idea what you’re fighting. Good doctors don’t just tell you what to do, and effective <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-treatment-programs/\">addiction recovery programs</a> don’t rob you of your autonomy. Instead, they provide you with the <strong>education you need to make the right choices</strong>, then let you decide how to manage your addiction. All good recovery programs embrace questions and critical thinking, so don’t be afraid to ask as many questions as you want, and to keep asking until you get an answer that makes sense.</p>\n<h3>Support for Making Lifestyle Changes</h3>\n<p>Addiction touches every facet of your life. Otherwise, you could keep it compartmentalized, and wouldn’t need <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-treatment/\">drug addiction treatment</a>. The most effective treatment programs look at how your addiction affects your life, then offer you options for a less challenging and painful sobriety. Some options to explore include:</p>\n<ul>\n<li><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/nutrition-and-wellness/\">How the right diet can reduce cravings</a></li>\n<li>The power of exercise to improve mental health</li>\n<li>How the right social group can help—or hinder—your prospects for recovery</li>\n<li>Meditative techniques to control cravings</li>\n</ul>\n<p>Every addict is different, so what works for one person might not work for you. Keep trying until something is effective, and <strong>shy away from treatment programs that offer a one size fits all approach to recovery</strong>.</p>\n<h3>Continuing Care</h3>\n<p>The journey to sobriety doesn’t end the day you check out of rehab. Between <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery\" rel=\"noopener external noreferrer\" target=\"_blank\">40% and 60%</a> of addicts relapse, but you don’t have to be among them. The best treatment facilities offer <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/continuing-care/\">help finding care after you check out</a>. <strong>This might include accessing therapy, addiction-savvy doctors, and 12-step programs</strong>. And of course, a restructuring of your lifestyle, nutrition, exercise, and social network is almost always a part of the walk to sobriety. Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n<p><strong>Further Reading:</strong></p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab/\" rel=\"noopener\" target=\"_blank\">Drug Addiction Rehab Program</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-explained/\" rel=\"noopener\" target=\"_blank\">Drug Addiction Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/\" rel=\"noopener\" target=\"_blank\">10 Need to Know Facts About Drug Addiction</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-symptoms-signs/\" rel=\"noopener\" target=\"_blank\">Drug Addition: Symptoms</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/understanding-addiction-to-drugs/\" rel=\"noopener\" target=\"_blank\">Understanding Drug Addiction</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/principles-drug-addiction-treatment-research-based-guide-third-edition/drug-addiction-treatment-in-united-states/types-treatment-programs\" rel=\"noopener external noreferrer\" target=\"_blank\">NIH: Types of Drug Addiction Treatment Programs</a></p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

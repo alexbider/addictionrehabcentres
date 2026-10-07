@@ -1,0 +1,1897 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__ngwaagan-gamig-recovery-centre",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/",
+  "path": "/ngwaagan-gamig-recovery-centre/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/ngwaagan-gamig-recovery-centre/",
+ "seo": {
+  "meta_title": "Ngwaagan Gamig Recovery Centre - Addiction Rehab Centers",
+  "meta_description": "Ngwaagan Gamig Recovery Centre offers culturally grounded addiction treatment and healing services for Indigenous communities. Embrace recovery through tradition, respect, and care.",
+  "canonical_source": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/",
+  "og": {
+   "title": "Ngwaagan Gamig Recovery Centre - Addiction Rehab Centers",
+   "description": "Ngwaagan Gamig Recovery Centre offers culturally grounded addiction treatment and healing services for Indigenous communities. Embrace recovery through tradition, respect, and care.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/",
+      "url": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/",
+      "name": "Ngwaagan Gamig Recovery Centre - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+      "datePublished": "2025-05-23T19:56:57+00:00",
+      "dateModified": "2025-05-23T20:09:59+00:00",
+      "description": "Ngwaagan Gamig Recovery Centre offers culturally grounded addiction treatment and healing services for Indigenous communities. Embrace recovery through tradition, respect, and care.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+      "width": 1000,
+      "height": 697,
+      "caption": "Ngwaagan Gamig Recovery Centre"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/ngwaagan-gamig-recovery-centre/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ngwaagan Gamig Recovery Centre"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 845,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "Ngwaagan Gamig Recovery Centre - Center Overview"
+  ],
+  [
+   "h3",
+   "Culturally-Grounded Healing Philosophy"
+  ],
+  [
+   "h3",
+   "Core Programs and Services"
+  ],
+  [
+   "h4",
+   "1. Residential Treatment Program (Co-ed, Ages 19+)"
+  ],
+  [
+   "h4",
+   "2. Youth Programs"
+  ],
+  [
+   "h4",
+   "3. Aftercare and Continuing Support"
+  ],
+  [
+   "h4",
+   "4. Community Outreach and Prevention"
+  ],
+  [
+   "h4",
+   "5. Family Healing and Support Services"
+  ],
+  [
+   "h3",
+   "Benefits of Choosing Ngwaagan Gamig"
+  ],
+  [
+   "h3",
+   "A Path to Healing and Hope"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-logo-colour-vertical-scaled.png",
+   "local_path": "images/centre__ngwaagan-gamig-recovery-centre/Ngwaagan-Gamig-logo-colour-vertical-scaled.png",
+   "alt": "Ngwaagan Gamig Recovery Centre",
+   "width": 2560,
+   "height": 2140,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+   "local_path": "images/centre__ngwaagan-gamig-recovery-centre/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+   "alt": "Ngwaagan Gamig Recovery Centre",
+   "width": 1000,
+   "height": 697,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://ngwaagan.ca",
+   "text": "ngwaagan.ca",
+   "kind": "external",
+   "new": "https://ngwaagan.ca"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:+1 705-859-2324",
+   "text": "+1 705-859-2324",
+   "kind": "tel",
+   "new": "tel:+1 705-859-2324"
+  },
+  {
+   "old_href": "http://www.ngwaagan.ca/",
+   "text": "http://www.ngwaagan.ca/",
+   "kind": "external",
+   "new": "http://www.ngwaagan.ca/"
+  },
+  {
+   "old_href": "https://www.facebook.com/people/Ngwaagan-Gamig-Recovery-Centre-Inc/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/people/Ngwaagan-Gamig-Recovery-Centre-Inc/"
+  },
+  {
+   "old_href": "https://www.instagram.com/ngrcinc/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/ngrcinc/"
+  },
+  {
+   "old_href": "https://www.youtube.com/channel/UCHLCRbIJwhd12WTPTRI8Z1g",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.youtube.com/channel/UCHLCRbIJwhd12WTPTRI8Z1g"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 2,
+   "heading": "Ngwaagan Gamig Recovery Centre - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Ngwaagan Gamig Recovery Centre Inc. – meaning “Rainbow Lodge” in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.",
+     "html": "<span class=\"s1\"><b>Ngwaagan Gamig Recovery Centre Inc.</b></span> – meaning <i>“Rainbow Lodge”</i> in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending cultural practices with evidence-based therapies, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.",
+     "html": "For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending <span class=\"s1\"><b>cultural practices</b></span> with <span class=\"s1\"><b>evidence-based therapies</b></span>, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Culturally-Grounded Healing Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Ngwaagan Gamig’s programs are based on the Seven Grandfather Teachings, The Four Sacred Medicines, and the Medicine Wheel, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.",
+       "html": "Ngwaagan Gamig’s programs are based on the <span class=\"s1\"><b>Seven Grandfather Teachings</b></span>, <span class=\"s1\"><b>The Four Sacred Medicines</b></span>, and the <span class=\"s1\"><b>Medicine Wheel</b></span>, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.",
+       "html": "This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Core Programs and Services",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.",
+       "html": "Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "1. Residential Treatment Program (Co-ed, Ages 19+)",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "The flagship 49-day residential treatment program is open to adult men and women across Ontario. It includes:",
+         "html": "The flagship <span class=\"s1\"><b>49-day residential treatment program</b></span> is open to adult men and women across Ontario. It includes:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Individual counselling",
+           "html": "<p class=\"p1\">Individual counselling</p>",
+           "links": []
+          },
+          {
+           "text": "Group therapy",
+           "html": "<p class=\"p1\">Group therapy</p>",
+           "links": []
+          },
+          {
+           "text": "Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)",
+           "html": "<p class=\"p1\">Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)</p>",
+           "links": []
+          },
+          {
+           "text": "Life skills development",
+           "html": "<p class=\"p1\">Life skills development</p>",
+           "links": []
+          },
+          {
+           "text": "Cultural teachings and land-based learning",
+           "html": "<p class=\"p1\">Cultural teachings and land-based learning</p>",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.",
+         "html": "Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "2. Youth Programs",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:",
+         "html": "Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Substance use awareness workshops",
+           "html": "<p class=\"p1\">Substance use awareness workshops</p>",
+           "links": []
+          },
+          {
+           "text": "Cultural and land-based programming",
+           "html": "<p class=\"p1\">Cultural and land-based programming</p>",
+           "links": []
+          },
+          {
+           "text": "Peer mentorship",
+           "html": "<p class=\"p1\">Peer mentorship</p>",
+           "links": []
+          },
+          {
+           "text": "Empowerment sessions focused on identity, resilience, and leadership",
+           "html": "<p class=\"p1\">Empowerment sessions focused on identity, resilience, and leadership</p>",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.",
+         "html": "These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "3. Aftercare and Continuing Support",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers comprehensive aftercare planning. Services include:",
+         "html": "Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers <span class=\"s1\"><b>comprehensive aftercare planning</b></span>. Services include:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Regular check-ins via phone or virtual counselling",
+           "html": "<p class=\"p1\">Regular check-ins via phone or virtual counselling</p>",
+           "links": []
+          },
+          {
+           "text": "Access to community-based supports",
+           "html": "<p class=\"p1\">Access to community-based supports</p>",
+           "links": []
+          },
+          {
+           "text": "Relapse prevention strategies",
+           "html": "<p class=\"p1\">Relapse prevention strategies</p>",
+           "links": []
+          },
+          {
+           "text": "Referrals to transitional housing and employment services",
+           "html": "<p class=\"p1\">Referrals to transitional housing and employment services</p>",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.",
+         "html": "Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "4. Community Outreach and Prevention",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver customized prevention education, harm reduction resources, and cultural training. These initiatives aim to:",
+         "html": "Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver <span class=\"s1\"><b>customized prevention education, harm reduction resources, and cultural training</b></span>. These initiatives aim to:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Increase awareness about substance use and mental health",
+           "html": "<p class=\"p1\">Increase awareness about substance use and mental health</p>",
+           "links": []
+          },
+          {
+           "text": "Equip communities with culturally-relevant tools for intervention",
+           "html": "<p class=\"p1\">Equip communities with culturally-relevant tools for intervention</p>",
+           "links": []
+          },
+          {
+           "text": "Foster healing through community events and cultural gatherings",
+           "html": "<p class=\"p1\">Foster healing through community events and cultural gatherings</p>",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.",
+         "html": "Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "5. Family Healing and Support Services",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:",
+         "html": "Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Family counselling sessions",
+           "html": "<p class=\"p1\">Family counselling sessions</p>",
+           "links": []
+          },
+          {
+           "text": "Healing circles and workshops",
+           "html": "<p class=\"p1\">Healing circles and workshops</p>",
+           "links": []
+          },
+          {
+           "text": "Parenting support",
+           "html": "<p class=\"p1\">Parenting support</p>",
+           "links": []
+          },
+          {
+           "text": "Educational resources",
+           "html": "<p class=\"p1\">Educational resources</p>",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.",
+         "html": "By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Benefits of Choosing Ngwaagan Gamig",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:",
+       "html": "Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Culturally Safe Environment: All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.",
+         "html": "<p class=\"p1\"><span class=\"s1\"><b>Culturally Safe Environment:</b></span> All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.</p>",
+         "links": []
+        },
+        {
+         "text": "Experienced Indigenous Staff: The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.",
+         "html": "<p class=\"p1\"><span class=\"s1\"><b>Experienced Indigenous Staff:</b></span> The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.</p>",
+         "links": []
+        },
+        {
+         "text": "Land-Based Healing: Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.",
+         "html": "<p class=\"p1\"><span class=\"s1\"><b>Land-Based Healing:</b></span> Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.</p>",
+         "links": []
+        },
+        {
+         "text": "Trauma-Informed Care: Programs address the root causes of addiction, including intergenerational trauma and historical injustices.",
+         "html": "<p class=\"p1\"><span class=\"s1\"><b>Trauma-Informed Care:</b></span> Programs address the root causes of addiction, including intergenerational trauma and historical injustices.</p>",
+         "links": []
+        },
+        {
+         "text": "Accessibility and Inclusivity: Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.",
+         "html": "<p class=\"p1\"><span class=\"s1\"><b>Accessibility and Inclusivity:</b></span> Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.</p>",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "A Path to Healing and Hope",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.",
+       "html": "Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "To learn more or begin the referral process, visit ngwaagan.ca or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.",
+       "html": "To learn more or begin the referral process, visit <a data-wpel-link=\"external\" href=\"https://ngwaagan.ca\" rel=\"external noopener noreferrer\"><span class=\"s1\"><b>ngwaagan.ca</b></span></a> or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.",
+       "links": [
+        {
+         "old": "https://ngwaagan.ca",
+         "text": "ngwaagan.ca"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Ngwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Ngwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "+1 705-859-2324",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 705-859-2324\" itemprop=\"url\">+1 705-859-2324</a>",
+         "links": [
+          {
+           "old": "tel:+1 705-859-2324",
+           "text": "+1 705-859-2324"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "http://www.ngwaagan.ca/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.ngwaagan.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.ngwaagan.ca/</a>",
+         "links": [
+          {
+           "old": "http://www.ngwaagan.ca/",
+           "text": "http://www.ngwaagan.ca/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "56 Pitawanakwat St, Wikwemikong, ON P0P 2J0, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    56 Pitawanakwat St, Wikwemikong, ON P0P 2J0, Canada",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:42pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Ngwaagan Gamig Recovery Centre - Center Overview",
+   "html": "Ngwaagan Gamig Recovery Centre - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig Recovery Centre Inc. – meaning “Rainbow Lodge” in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.",
+   "html": "<span class=\"s1\"><b>Ngwaagan Gamig Recovery Centre Inc.</b></span> – meaning <i>“Rainbow Lodge”</i> in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending cultural practices with evidence-based therapies, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.",
+   "html": "For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending <span class=\"s1\"><b>cultural practices</b></span> with <span class=\"s1\"><b>evidence-based therapies</b></span>, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Culturally-Grounded Healing Philosophy",
+   "html": "<b>Culturally-Grounded Healing Philosophy</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig’s programs are based on the Seven Grandfather Teachings, The Four Sacred Medicines, and the Medicine Wheel, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.",
+   "html": "Ngwaagan Gamig’s programs are based on the <span class=\"s1\"><b>Seven Grandfather Teachings</b></span>, <span class=\"s1\"><b>The Four Sacred Medicines</b></span>, and the <span class=\"s1\"><b>Medicine Wheel</b></span>, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.",
+   "html": "This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Core Programs and Services",
+   "html": "<b>Core Programs and Services</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.",
+   "html": "Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "1. Residential Treatment Program (Co-ed, Ages 19+)",
+   "html": "<b>1. </b><b>Residential Treatment Program (Co-ed, Ages 19+)</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The flagship 49-day residential treatment program is open to adult men and women across Ontario. It includes:",
+   "html": "The flagship <span class=\"s1\"><b>49-day residential treatment program</b></span> is open to adult men and women across Ontario. It includes:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Individual counselling",
+     "html": "<p class=\"p1\">Individual counselling</p>",
+     "links": []
+    },
+    {
+     "text": "Group therapy",
+     "html": "<p class=\"p1\">Group therapy</p>",
+     "links": []
+    },
+    {
+     "text": "Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)",
+     "html": "<p class=\"p1\">Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)</p>",
+     "links": []
+    },
+    {
+     "text": "Life skills development",
+     "html": "<p class=\"p1\">Life skills development</p>",
+     "links": []
+    },
+    {
+     "text": "Cultural teachings and land-based learning",
+     "html": "<p class=\"p1\">Cultural teachings and land-based learning</p>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.",
+   "html": "Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "2. Youth Programs",
+   "html": "<b>2. </b><b>Youth Programs</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:",
+   "html": "Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance use awareness workshops",
+     "html": "<p class=\"p1\">Substance use awareness workshops</p>",
+     "links": []
+    },
+    {
+     "text": "Cultural and land-based programming",
+     "html": "<p class=\"p1\">Cultural and land-based programming</p>",
+     "links": []
+    },
+    {
+     "text": "Peer mentorship",
+     "html": "<p class=\"p1\">Peer mentorship</p>",
+     "links": []
+    },
+    {
+     "text": "Empowerment sessions focused on identity, resilience, and leadership",
+     "html": "<p class=\"p1\">Empowerment sessions focused on identity, resilience, and leadership</p>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.",
+   "html": "These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "3. Aftercare and Continuing Support",
+   "html": "<b>3. </b><b>Aftercare and Continuing Support</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers comprehensive aftercare planning. Services include:",
+   "html": "Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers <span class=\"s1\"><b>comprehensive aftercare planning</b></span>. Services include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Regular check-ins via phone or virtual counselling",
+     "html": "<p class=\"p1\">Regular check-ins via phone or virtual counselling</p>",
+     "links": []
+    },
+    {
+     "text": "Access to community-based supports",
+     "html": "<p class=\"p1\">Access to community-based supports</p>",
+     "links": []
+    },
+    {
+     "text": "Relapse prevention strategies",
+     "html": "<p class=\"p1\">Relapse prevention strategies</p>",
+     "links": []
+    },
+    {
+     "text": "Referrals to transitional housing and employment services",
+     "html": "<p class=\"p1\">Referrals to transitional housing and employment services</p>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.",
+   "html": "Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "4. Community Outreach and Prevention",
+   "html": "<b>4. </b><b>Community Outreach and Prevention</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver customized prevention education, harm reduction resources, and cultural training. These initiatives aim to:",
+   "html": "Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver <span class=\"s1\"><b>customized prevention education, harm reduction resources, and cultural training</b></span>. These initiatives aim to:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Increase awareness about substance use and mental health",
+     "html": "<p class=\"p1\">Increase awareness about substance use and mental health</p>",
+     "links": []
+    },
+    {
+     "text": "Equip communities with culturally-relevant tools for intervention",
+     "html": "<p class=\"p1\">Equip communities with culturally-relevant tools for intervention</p>",
+     "links": []
+    },
+    {
+     "text": "Foster healing through community events and cultural gatherings",
+     "html": "<p class=\"p1\">Foster healing through community events and cultural gatherings</p>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.",
+   "html": "Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "5. Family Healing and Support Services",
+   "html": "<b>5. </b><b>Family Healing and Support Services</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:",
+   "html": "Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Family counselling sessions",
+     "html": "<p class=\"p1\">Family counselling sessions</p>",
+     "links": []
+    },
+    {
+     "text": "Healing circles and workshops",
+     "html": "<p class=\"p1\">Healing circles and workshops</p>",
+     "links": []
+    },
+    {
+     "text": "Parenting support",
+     "html": "<p class=\"p1\">Parenting support</p>",
+     "links": []
+    },
+    {
+     "text": "Educational resources",
+     "html": "<p class=\"p1\">Educational resources</p>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.",
+   "html": "By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Benefits of Choosing Ngwaagan Gamig",
+   "html": "<b>Benefits of Choosing Ngwaagan Gamig</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:",
+   "html": "Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Culturally Safe Environment: All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.",
+     "html": "<p class=\"p1\"><span class=\"s1\"><b>Culturally Safe Environment:</b></span> All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.</p>",
+     "links": []
+    },
+    {
+     "text": "Experienced Indigenous Staff: The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.",
+     "html": "<p class=\"p1\"><span class=\"s1\"><b>Experienced Indigenous Staff:</b></span> The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.</p>",
+     "links": []
+    },
+    {
+     "text": "Land-Based Healing: Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.",
+     "html": "<p class=\"p1\"><span class=\"s1\"><b>Land-Based Healing:</b></span> Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.</p>",
+     "links": []
+    },
+    {
+     "text": "Trauma-Informed Care: Programs address the root causes of addiction, including intergenerational trauma and historical injustices.",
+     "html": "<p class=\"p1\"><span class=\"s1\"><b>Trauma-Informed Care:</b></span> Programs address the root causes of addiction, including intergenerational trauma and historical injustices.</p>",
+     "links": []
+    },
+    {
+     "text": "Accessibility and Inclusivity: Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.",
+     "html": "<p class=\"p1\"><span class=\"s1\"><b>Accessibility and Inclusivity:</b></span> Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.</p>",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "A Path to Healing and Hope",
+   "html": "<b>A Path to Healing and Hope</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.",
+   "html": "Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "To learn more or begin the referral process, visit ngwaagan.ca or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.",
+   "html": "To learn more or begin the referral process, visit <a data-wpel-link=\"external\" href=\"https://ngwaagan.ca\" rel=\"external noopener noreferrer\"><span class=\"s1\"><b>ngwaagan.ca</b></span></a> or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.",
+   "links": [
+    {
+     "old": "https://ngwaagan.ca",
+     "text": "ngwaagan.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ngwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Ngwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "+1 705-859-2324",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 705-859-2324\" itemprop=\"url\">+1 705-859-2324</a>",
+   "links": [
+    {
+     "old": "tel:+1 705-859-2324",
+     "text": "+1 705-859-2324"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.ngwaagan.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.ngwaagan.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.ngwaagan.ca/</a>",
+   "links": [
+    {
+     "old": "http://www.ngwaagan.ca/",
+     "text": "http://www.ngwaagan.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "56 Pitawanakwat St, Wikwemikong, ON P0P 2J0, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    56 Pitawanakwat St, Wikwemikong, ON P0P 2J0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:42pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Ngwaagan Gamig Recovery Centre",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-16834\" data-elementor-id=\"16834\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-11c0b8af elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"11c0b8af\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-33d050c7\" data-element_type=\"column\" data-id=\"33d050c7\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-68572041 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"68572041\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72a6d5da\" data-element_type=\"column\" data-id=\"72a6d5da\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41e91c67 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"41e91c67\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Ngwaagan Gamig Recovery Centre - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-25634fce elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"25634fce\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p class=\"p1\"><span class=\"s1\"><b>Ngwaagan Gamig Recovery Centre Inc.</b></span> – meaning <i>“Rainbow Lodge”</i> in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.</p><p class=\"p1\">For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending <span class=\"s1\"><b>cultural practices</b></span> with <span class=\"s1\"><b>evidence-based therapies</b></span>, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.</p><hr/><h3><b>Culturally-Grounded Healing Philosophy</b></h3><p class=\"p1\">Ngwaagan Gamig’s programs are based on the <span class=\"s1\"><b>Seven Grandfather Teachings</b></span>, <span class=\"s1\"><b>The Four Sacred Medicines</b></span>, and the <span class=\"s1\"><b>Medicine Wheel</b></span>, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.</p><p class=\"p1\">This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.</p><hr/><h3><b>Core Programs and Services</b></h3><p class=\"p1\">Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.</p><h4><b>1. </b><b>Residential Treatment Program (Co-ed, Ages 19+)</b></h4><p class=\"p1\">The flagship <span class=\"s1\"><b>49-day residential treatment program</b></span> is open to adult men and women across Ontario. It includes:</p><ul><li><p class=\"p1\">Individual counselling</p></li><li><p class=\"p1\">Group therapy</p></li><li><p class=\"p1\">Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)</p></li><li><p class=\"p1\">Life skills development</p></li><li><p class=\"p1\">Cultural teachings and land-based learning</p></li></ul><p class=\"p1\">Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.</p><h4><b>2. </b><b>Youth Programs</b></h4><p class=\"p1\">Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:</p><ul><li><p class=\"p1\">Substance use awareness workshops</p></li><li><p class=\"p1\">Cultural and land-based programming</p></li><li><p class=\"p1\">Peer mentorship</p></li><li><p class=\"p1\">Empowerment sessions focused on identity, resilience, and leadership</p></li></ul><p class=\"p1\">These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.</p><h4><b>3. </b><b>Aftercare and Continuing Support</b></h4><p class=\"p1\">Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers <span class=\"s1\"><b>comprehensive aftercare planning</b></span>. Services include:</p><ul><li><p class=\"p1\">Regular check-ins via phone or virtual counselling</p></li><li><p class=\"p1\">Access to community-based supports</p></li><li><p class=\"p1\">Relapse prevention strategies</p></li><li><p class=\"p1\">Referrals to transitional housing and employment services</p></li></ul><p class=\"p1\">Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.</p><h4><b>4. </b><b>Community Outreach and Prevention</b></h4><p class=\"p1\">Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver <span class=\"s1\"><b>customized prevention education, harm reduction resources, and cultural training</b></span>. These initiatives aim to:</p><ul><li><p class=\"p1\">Increase awareness about substance use and mental health</p></li><li><p class=\"p1\">Equip communities with culturally-relevant tools for intervention</p></li><li><p class=\"p1\">Foster healing through community events and cultural gatherings</p></li></ul><p class=\"p1\">Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.</p><h4><b>5. </b><b>Family Healing and Support Services</b></h4><p class=\"p1\">Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:</p><ul><li><p class=\"p1\">Family counselling sessions</p></li><li><p class=\"p1\">Healing circles and workshops</p></li><li><p class=\"p1\">Parenting support</p></li><li><p class=\"p1\">Educational resources</p></li></ul><p class=\"p1\">By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.</p><hr/><h3><b>Benefits of Choosing Ngwaagan Gamig</b></h3><p class=\"p1\">Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:</p><ul><li><p class=\"p1\"><span class=\"s1\"><b>Culturally Safe Environment:</b></span> All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Experienced Indigenous Staff:</b></span> The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Land-Based Healing:</b></span> Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Trauma-Informed Care:</b></span> Programs address the root causes of addiction, including intergenerational trauma and historical injustices.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Accessibility and Inclusivity:</b></span> Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.</p></li></ul><hr/><h3><b>A Path to Healing and Hope</b></h3><p class=\"p1\">Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.</p><p class=\"p1\">To learn more or begin the referral process, visit <a data-wpel-link=\"external\" href=\"https://ngwaagan.ca\" rel=\"external noopener noreferrer\"><span class=\"s1\"><b>ngwaagan.ca</b></span></a> or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-730aa0db elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"730aa0db\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1aeae041\" data-element_type=\"column\" data-id=\"1aeae041\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3a367113 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"3a367113\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tNgwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-347aae4e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"347aae4e\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-579780a4 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"579780a4\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-289fa4fb elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"289fa4fb\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f7506ef\" data-element_type=\"column\" data-id=\"5f7506ef\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-80d9b35 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"80d9b35\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {
+   "1. Residential Treatment Program (Co-ed, Ages 19+)": [
+    "Individual counselling",
+    "Group therapy",
+    "Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)",
+    "Life skills development",
+    "Cultural teachings and land-based learning"
+   ],
+   "2. Youth Programs": [
+    "Substance use awareness workshops",
+    "Cultural and land-based programming",
+    "Peer mentorship",
+    "Empowerment sessions focused on identity, resilience, and leadership"
+   ],
+   "3. Aftercare and Continuing Support": [
+    "Regular check-ins via phone or virtual counselling",
+    "Access to community-based supports",
+    "Relapse prevention strategies",
+    "Referrals to transitional housing and employment services"
+   ],
+   "4. Community Outreach and Prevention": [
+    "Increase awareness about substance use and mental health",
+    "Equip communities with culturally-relevant tools for intervention",
+    "Foster healing through community events and cultural gatherings"
+   ],
+   "5. Family Healing and Support Services": [
+    "Family counselling sessions",
+    "Healing circles and workshops",
+    "Parenting support",
+    "Educational resources"
+   ]
+  },
+  "phone": "+1 705-859-2324",
+  "email": "",
+  "website": "http://www.ngwaagan.ca/",
+  "address": "56 Pitawanakwat St, Wikwemikong, ON P0P 2J0, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/people/Ngwaagan-Gamig-Recovery-Centre-Inc/",
+   "instagram": "https://www.instagram.com/ngrcinc/",
+   "youtube": "https://www.youtube.com/channel/UCHLCRbIJwhd12WTPTRI8Z1g"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-logo-colour-vertical-scaled.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-logo-colour-vertical-scaled.png",
+    "alt": "Ngwaagan Gamig Recovery Centre",
+    "width": "2560",
+    "height": "2140"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Ngwaagan-Gamig-Recovery-Centre-1.jpg",
+    "alt": "Ngwaagan Gamig Recovery Centre",
+    "width": "1000",
+    "height": "697"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h2",
+    "text": "Ngwaagan Gamig Recovery Centre - Center Overview",
+    "html": "Ngwaagan Gamig Recovery Centre - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig Recovery Centre Inc. – meaning “Rainbow Lodge” in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.",
+    "html": "<span class=\"s1\"><b>Ngwaagan Gamig Recovery Centre Inc.</b></span> – meaning <i>“Rainbow Lodge”</i> in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending cultural practices with evidence-based therapies, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.",
+    "html": "For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending <span class=\"s1\"><b>cultural practices</b></span> with <span class=\"s1\"><b>evidence-based therapies</b></span>, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Culturally-Grounded Healing Philosophy",
+    "html": "<b>Culturally-Grounded Healing Philosophy</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig’s programs are based on the Seven Grandfather Teachings, The Four Sacred Medicines, and the Medicine Wheel, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.",
+    "html": "Ngwaagan Gamig’s programs are based on the <span class=\"s1\"><b>Seven Grandfather Teachings</b></span>, <span class=\"s1\"><b>The Four Sacred Medicines</b></span>, and the <span class=\"s1\"><b>Medicine Wheel</b></span>, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.",
+    "html": "This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Core Programs and Services",
+    "html": "<b>Core Programs and Services</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.",
+    "html": "Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "1. Residential Treatment Program (Co-ed, Ages 19+)",
+    "html": "<b>1. </b><b>Residential Treatment Program (Co-ed, Ages 19+)</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The flagship 49-day residential treatment program is open to adult men and women across Ontario. It includes:",
+    "html": "The flagship <span class=\"s1\"><b>49-day residential treatment program</b></span> is open to adult men and women across Ontario. It includes:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Individual counselling",
+      "html": "<p class=\"p1\">Individual counselling</p>",
+      "links": []
+     },
+     {
+      "text": "Group therapy",
+      "html": "<p class=\"p1\">Group therapy</p>",
+      "links": []
+     },
+     {
+      "text": "Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)",
+      "html": "<p class=\"p1\">Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)</p>",
+      "links": []
+     },
+     {
+      "text": "Life skills development",
+      "html": "<p class=\"p1\">Life skills development</p>",
+      "links": []
+     },
+     {
+      "text": "Cultural teachings and land-based learning",
+      "html": "<p class=\"p1\">Cultural teachings and land-based learning</p>",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.",
+    "html": "Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "2. Youth Programs",
+    "html": "<b>2. </b><b>Youth Programs</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:",
+    "html": "Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Substance use awareness workshops",
+      "html": "<p class=\"p1\">Substance use awareness workshops</p>",
+      "links": []
+     },
+     {
+      "text": "Cultural and land-based programming",
+      "html": "<p class=\"p1\">Cultural and land-based programming</p>",
+      "links": []
+     },
+     {
+      "text": "Peer mentorship",
+      "html": "<p class=\"p1\">Peer mentorship</p>",
+      "links": []
+     },
+     {
+      "text": "Empowerment sessions focused on identity, resilience, and leadership",
+      "html": "<p class=\"p1\">Empowerment sessions focused on identity, resilience, and leadership</p>",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.",
+    "html": "These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "3. Aftercare and Continuing Support",
+    "html": "<b>3. </b><b>Aftercare and Continuing Support</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers comprehensive aftercare planning. Services include:",
+    "html": "Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers <span class=\"s1\"><b>comprehensive aftercare planning</b></span>. Services include:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Regular check-ins via phone or virtual counselling",
+      "html": "<p class=\"p1\">Regular check-ins via phone or virtual counselling</p>",
+      "links": []
+     },
+     {
+      "text": "Access to community-based supports",
+      "html": "<p class=\"p1\">Access to community-based supports</p>",
+      "links": []
+     },
+     {
+      "text": "Relapse prevention strategies",
+      "html": "<p class=\"p1\">Relapse prevention strategies</p>",
+      "links": []
+     },
+     {
+      "text": "Referrals to transitional housing and employment services",
+      "html": "<p class=\"p1\">Referrals to transitional housing and employment services</p>",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.",
+    "html": "Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "4. Community Outreach and Prevention",
+    "html": "<b>4. </b><b>Community Outreach and Prevention</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver customized prevention education, harm reduction resources, and cultural training. These initiatives aim to:",
+    "html": "Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver <span class=\"s1\"><b>customized prevention education, harm reduction resources, and cultural training</b></span>. These initiatives aim to:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Increase awareness about substance use and mental health",
+      "html": "<p class=\"p1\">Increase awareness about substance use and mental health</p>",
+      "links": []
+     },
+     {
+      "text": "Equip communities with culturally-relevant tools for intervention",
+      "html": "<p class=\"p1\">Equip communities with culturally-relevant tools for intervention</p>",
+      "links": []
+     },
+     {
+      "text": "Foster healing through community events and cultural gatherings",
+      "html": "<p class=\"p1\">Foster healing through community events and cultural gatherings</p>",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.",
+    "html": "Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "5. Family Healing and Support Services",
+    "html": "<b>5. </b><b>Family Healing and Support Services</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:",
+    "html": "Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Family counselling sessions",
+      "html": "<p class=\"p1\">Family counselling sessions</p>",
+      "links": []
+     },
+     {
+      "text": "Healing circles and workshops",
+      "html": "<p class=\"p1\">Healing circles and workshops</p>",
+      "links": []
+     },
+     {
+      "text": "Parenting support",
+      "html": "<p class=\"p1\">Parenting support</p>",
+      "links": []
+     },
+     {
+      "text": "Educational resources",
+      "html": "<p class=\"p1\">Educational resources</p>",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.",
+    "html": "By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Benefits of Choosing Ngwaagan Gamig",
+    "html": "<b>Benefits of Choosing Ngwaagan Gamig</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:",
+    "html": "Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Culturally Safe Environment: All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.",
+      "html": "<p class=\"p1\"><span class=\"s1\"><b>Culturally Safe Environment:</b></span> All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.</p>",
+      "links": []
+     },
+     {
+      "text": "Experienced Indigenous Staff: The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.",
+      "html": "<p class=\"p1\"><span class=\"s1\"><b>Experienced Indigenous Staff:</b></span> The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.</p>",
+      "links": []
+     },
+     {
+      "text": "Land-Based Healing: Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.",
+      "html": "<p class=\"p1\"><span class=\"s1\"><b>Land-Based Healing:</b></span> Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.</p>",
+      "links": []
+     },
+     {
+      "text": "Trauma-Informed Care: Programs address the root causes of addiction, including intergenerational trauma and historical injustices.",
+      "html": "<p class=\"p1\"><span class=\"s1\"><b>Trauma-Informed Care:</b></span> Programs address the root causes of addiction, including intergenerational trauma and historical injustices.</p>",
+      "links": []
+     },
+     {
+      "text": "Accessibility and Inclusivity: Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.",
+      "html": "<p class=\"p1\"><span class=\"s1\"><b>Accessibility and Inclusivity:</b></span> Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.</p>",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "h3",
+    "text": "A Path to Healing and Hope",
+    "html": "<b>A Path to Healing and Hope</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.",
+    "html": "Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "To learn more or begin the referral process, visit ngwaagan.ca or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.",
+    "html": "To learn more or begin the referral process, visit <a data-wpel-link=\"external\" href=\"https://ngwaagan.ca\" rel=\"external noopener noreferrer\"><span class=\"s1\"><b>ngwaagan.ca</b></span></a> or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.",
+    "links": [
+     {
+      "old": "https://ngwaagan.ca",
+      "text": "ngwaagan.ca"
+     }
+    ],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Ngwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Ngwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "+1 705-859-2324",
+  "phone_href": "tel:+1 705-859-2324",
+  "website_text": "http://www.ngwaagan.ca/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-16834\" data-elementor-id=\"16834\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-11c0b8af elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"11c0b8af\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-33d050c7\" data-element_type=\"column\" data-id=\"33d050c7\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-68572041 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"68572041\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-72a6d5da\" data-element_type=\"column\" data-id=\"72a6d5da\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41e91c67 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"41e91c67\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Ngwaagan Gamig Recovery Centre - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-25634fce elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"25634fce\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p class=\"p1\"><span class=\"s1\"><b>Ngwaagan Gamig Recovery Centre Inc.</b></span> – meaning <i>“Rainbow Lodge”</i> in Ojibwe – is a leading Indigenous-operated addiction treatment facility located in Wikwemikong Unceded Territory on Manitoulin Island, Ontario. Rooted deeply in Anishinaabe culture and traditions, the centre provides holistic healing programs for First Nations, Inuit, and Métis individuals who are seeking freedom from substance use and a return to balanced living.</p><p class=\"p1\">For over 35 years, Ngwaagan Gamig Recovery Centre has been a trusted and respected haven for Indigenous people facing the emotional, physical, mental, and spiritual challenges of addiction. By blending <span class=\"s1\"><b>cultural practices</b></span> with <span class=\"s1\"><b>evidence-based therapies</b></span>, the centre offers a trauma-informed and culturally safe space where individuals can begin their healing journey with dignity, community, and purpose.</p><hr/><h3><b>Culturally-Grounded Healing Philosophy</b></h3><p class=\"p1\">Ngwaagan Gamig’s programs are based on the <span class=\"s1\"><b>Seven Grandfather Teachings</b></span>, <span class=\"s1\"><b>The Four Sacred Medicines</b></span>, and the <span class=\"s1\"><b>Medicine Wheel</b></span>, which guide each participant through a personalized journey of recovery. These cultural foundations empower clients to reconnect with their identity, spirituality, and traditions—key elements that support long-term wellness.</p><p class=\"p1\">This approach addresses the unique intergenerational trauma Indigenous people may carry, including the legacy of residential schools, systemic discrimination, and loss of cultural identity. Healing at Ngwaagan Gamig is not only about ending substance use—it’s about restoring balance to the whole person.</p><hr/><h3><b>Core Programs and Services</b></h3><p class=\"p1\">Ngwaagan Gamig Recovery Centre offers a wide range of services tailored to meet the diverse needs of Indigenous individuals and families impacted by substance use.</p><h4><b>1. </b><b>Residential Treatment Program (Co-ed, Ages 19+)</b></h4><p class=\"p1\">The flagship <span class=\"s1\"><b>49-day residential treatment program</b></span> is open to adult men and women across Ontario. It includes:</p><ul><li><p class=\"p1\">Individual counselling</p></li><li><p class=\"p1\">Group therapy</p></li><li><p class=\"p1\">Traditional ceremonies (e.g., smudging, sweat lodge, drum circles)</p></li><li><p class=\"p1\">Life skills development</p></li><li><p class=\"p1\">Cultural teachings and land-based learning</p></li></ul><p class=\"p1\">Participants benefit from a structured, nurturing environment that promotes abstinence, self-reflection, and community healing. The program supports clients through the full continuum of care, from detox support to reintegration planning.</p><h4><b>2. </b><b>Youth Programs</b></h4><p class=\"p1\">Ngwaagan Gamig provides culturally-relevant prevention and education services to Indigenous youth. Through partnerships with schools and communities, the centre facilitates:</p><ul><li><p class=\"p1\">Substance use awareness workshops</p></li><li><p class=\"p1\">Cultural and land-based programming</p></li><li><p class=\"p1\">Peer mentorship</p></li><li><p class=\"p1\">Empowerment sessions focused on identity, resilience, and leadership</p></li></ul><p class=\"p1\">These initiatives build protective factors and offer youth positive alternatives while reconnecting them to their heritage.</p><h4><b>3. </b><b>Aftercare and Continuing Support</b></h4><p class=\"p1\">Recognizing that recovery is a lifelong journey, Ngwaagan Gamig offers <span class=\"s1\"><b>comprehensive aftercare planning</b></span>. Services include:</p><ul><li><p class=\"p1\">Regular check-ins via phone or virtual counselling</p></li><li><p class=\"p1\">Access to community-based supports</p></li><li><p class=\"p1\">Relapse prevention strategies</p></li><li><p class=\"p1\">Referrals to transitional housing and employment services</p></li></ul><p class=\"p1\">Aftercare is coordinated with local health and social service agencies to ensure a seamless transition back to home communities.</p><h4><b>4. </b><b>Community Outreach and Prevention</b></h4><p class=\"p1\">Ngwaagan Gamig collaborates with First Nations communities across Ontario to deliver <span class=\"s1\"><b>customized prevention education, harm reduction resources, and cultural training</b></span>. These initiatives aim to:</p><ul><li><p class=\"p1\">Increase awareness about substance use and mental health</p></li><li><p class=\"p1\">Equip communities with culturally-relevant tools for intervention</p></li><li><p class=\"p1\">Foster healing through community events and cultural gatherings</p></li></ul><p class=\"p1\">Their outreach team visits remote and rural communities, bridging access gaps and reducing stigma around seeking help.</p><h4><b>5. </b><b>Family Healing and Support Services</b></h4><p class=\"p1\">Substance use affects entire families. Ngwaagan Gamig provides support for family members and loved ones through:</p><ul><li><p class=\"p1\">Family counselling sessions</p></li><li><p class=\"p1\">Healing circles and workshops</p></li><li><p class=\"p1\">Parenting support</p></li><li><p class=\"p1\">Educational resources</p></li></ul><p class=\"p1\">By involving families in the recovery process, the centre helps rebuild relationships, improve communication, and support lasting healing across generations.</p><hr/><h3><b>Benefits of Choosing Ngwaagan Gamig</b></h3><p class=\"p1\">Choosing Ngwaagan Gamig Recovery Centre comes with several distinctive advantages:</p><ul><li><p class=\"p1\"><span class=\"s1\"><b>Culturally Safe Environment:</b></span> All programs are delivered in a setting that honours Indigenous traditions, values, and teachings.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Experienced Indigenous Staff:</b></span> The team includes Elders, cultural facilitators, addiction specialists, and mental health professionals who understand the lived experiences of Indigenous people.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Land-Based Healing:</b></span> Being surrounded by nature, participants engage in healing activities such as medicine walks, sweat lodges, and cultural crafts that connect them with the land and their ancestors.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Trauma-Informed Care:</b></span> Programs address the root causes of addiction, including intergenerational trauma and historical injustices.</p></li><li><p class=\"p1\"><span class=\"s1\"><b>Accessibility and Inclusivity:</b></span> Programs are offered to Indigenous clients from all over Ontario, with transportation support provided in some cases.</p></li></ul><hr/><h3><b>A Path to Healing and Hope</b></h3><p class=\"p1\">Ngwaagan Gamig Recovery Centre is more than a treatment facility—it is a place of restoration, self-discovery, and community. Whether you are beginning your healing journey or supporting a loved one through recovery, Rainbow Lodge provides the cultural grounding, compassion, and strength needed to walk the good path once more.</p><p class=\"p1\">To learn more or begin the referral process, visit <a data-wpel-link=\"external\" href=\"https://ngwaagan.ca\" rel=\"external noopener noreferrer\"><span class=\"s1\"><b>ngwaagan.ca</b></span></a> or contact the centre directly. Your healing journey begins with one step—and we are here to walk it with you.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-730aa0db elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"730aa0db\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1aeae041\" data-element_type=\"column\" data-id=\"1aeae041\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3a367113 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"3a367113\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tNgwaagan Gamig Recovery Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-347aae4e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"347aae4e\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-579780a4 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"579780a4\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-289fa4fb elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"289fa4fb\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5f7506ef\" data-element_type=\"column\" data-id=\"5f7506ef\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-80d9b35 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"80d9b35\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 705-859-2324\" itemprop=\"url\">+1 705-859-2324</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.ngwaagan.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.ngwaagan.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    56 Pitawanakwat St, Wikwemikong, ON P0P 2J0, Canada\t                </p>\n</div>\n<div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:42pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/people/Ngwaagan-Gamig-Recovery-Centre-Inc/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/ngrcinc/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-youtube\" data-wpel-link=\"external\" href=\"https://www.youtube.com/channel/UCHLCRbIJwhd12WTPTRI8Z1g\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-youtube\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

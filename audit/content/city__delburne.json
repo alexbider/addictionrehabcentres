@@ -1,0 +1,347 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__delburne",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/delburne/",
+  "path": "/listing-location/delburne/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/delburne/",
+ "seo": {
+  "meta_title": "Delburne Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/delburne/",
+  "og": {
+   "title": "Delburne Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/delburne/",
+      "url": "https://addictionrehabcenters.ca/listing-location/delburne/",
+      "name": "Delburne Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/delburne/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/delburne/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/delburne/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/delburne/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "Venture Academy – Red Deer, Ab-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/delburne/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Delburne"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Delburne",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Delburne Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+   "local_path": "images/city__delburne/Venture-Academy-_-Red-Deer-Ab-0.png",
+   "alt": "Venture Academy – Red Deer, Ab-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+   "text": "",
+   "kind": "internal",
+   "new": "/alcohol-treatment-program/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/delburne/",
+   "text": "Delburne",
+   "kind": "internal",
+   "new": "/listing-location/delburne/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+   "text": "Venture Academy",
+   "kind": "internal",
+   "new": "/alcohol-treatment-program/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Delburne Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Delburne Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+     "alt": "Venture Academy – Red Deer, Ab-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/alcohol-treatment-program/"
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Treatment Program"
+    },
+    {
+     "type": "link",
+     "text": "Delburne",
+     "href": "https://addictionrehabcenters.ca/listing-location/delburne/",
+     "new_href": "/listing-location/delburne/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Venture Academy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Delburne Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Delburne Results",
+   "html": "More Rehab Centres in Delburne Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+   "alt": "Venture Academy – Red Deer, Ab-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/alcohol-treatment-program/"
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Treatment Program"
+  },
+  {
+   "type": "link",
+   "text": "Delburne",
+   "href": "https://addictionrehabcenters.ca/listing-location/delburne/",
+   "new_href": "/listing-location/delburne/"
+  },
+  {
+   "type": "h5",
+   "text": "Venture Academy",
+   "html": "<a data-wpel-link=\"internal\" href=\"/alcohol-treatment-program/\" itemprop=\"url\">Venture Academy</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Venture Academy",
+   "href": "https://addictionrehabcenters.ca/alcohol-treatment-program/",
+   "address": "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+   "category": "Alcohol Treatment Program",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png",
+    "alt": "Venture Academy – Red Deer, Ab-0",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Venture Academy",
+    "alcohol-treatment-program",
+    "1810 25 Ave, Delburne, AB T0M 0V0, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Alcohol Treatment Program"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Delburne",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Delburne Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Delburne Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6488\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-treatment-program/\">\n<img alt=\"Venture Academy – Red Deer, Ab-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Venture-Academy-–-Red-Deer-Ab-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Alcohol Treatment Program</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/delburne/\">Delburne</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcohol-treatment-program/\" itemprop=\"url\">Venture Academy</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    1810 25 Ave, Delburne, AB T0M 0V0, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

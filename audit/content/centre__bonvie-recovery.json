@@ -1,0 +1,2792 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__bonvie-recovery",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/bonvie-recovery/",
+  "path": "/bonvie-recovery/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/bonvie-recovery/",
+ "seo": {
+  "meta_title": "Bonvie Recovery - Addiction Rehab Centers",
+  "meta_description": "Bonvie Recovery offers compassionate addiction treatment in Ontario. Start your recovery journey today with expert care in a safe, supportive space.",
+  "canonical_source": "https://addictionrehabcenters.ca/bonvie-recovery/",
+  "og": {
+   "title": "Bonvie Recovery - Addiction Rehab Centers",
+   "description": "Bonvie Recovery offers compassionate addiction treatment in Ontario. Start your recovery journey today with expert care in a safe, supportive space.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/bonvie-recovery/",
+      "url": "https://addictionrehabcenters.ca/bonvie-recovery/",
+      "name": "Bonvie Recovery - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/bonvie-recovery/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/bonvie-recovery/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+      "datePublished": "2025-05-20T15:18:58+00:00",
+      "dateModified": "2025-05-20T15:36:03+00:00",
+      "description": "Bonvie Recovery offers compassionate addiction treatment in Ontario. Start your recovery journey today with expert care in a safe, supportive space.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/bonvie-recovery/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/bonvie-recovery/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/bonvie-recovery/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+      "width": 680,
+      "height": 382
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/bonvie-recovery/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Bonvie Recovery"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What types of addiction does Bonvie Recovery treat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What therapies are used at Bonvie Recovery?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How long are the treatment programs at Bonvie Recovery?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is family involved in the treatment process?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What happens after I complete my program at Bonvie Recovery?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p class=\"p1\">After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 954,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "Bonvie Recovery | Addiction Treatment Center in Ontario"
+  ],
+  [
+   "h2",
+   "Bonvie Recovery - Center Overview"
+  ],
+  [
+   "h3",
+   "Treatment Approaches"
+  ],
+  [
+   "h3",
+   "Specializations"
+  ],
+  [
+   "h3",
+   "Therapies Offered"
+  ],
+  [
+   "h3",
+   "Substances We Treat"
+  ],
+  [
+   "h3",
+   "Aftercare Support"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h4",
+   "If You Are Looking For More Centres Near Toronto, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Bonvie Recovery"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+   "local_path": "images/centre__bonvie-recovery/Bonvie-Recovery-1.webp",
+   "alt": "",
+   "width": 680,
+   "height": 382,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-2.webp",
+   "local_path": "images/centre__bonvie-recovery/Bonvie-Recovery-2.webp",
+   "alt": "",
+   "width": 680,
+   "height": 453,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-3.webp",
+   "local_path": "images/centre__bonvie-recovery/Bonvie-Recovery-3.webp",
+   "alt": "",
+   "width": 680,
+   "height": 435,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/toronto-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/toronto-rehabs/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/aftercare/",
+   "text": "Aftercare",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/aftercare/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/alcohol-addiction/",
+   "text": "Alcohol Addiction",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/alcohol-addiction/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/alcohol-treatment-program/",
+   "text": "Alcohol Treatment Program",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/alcohol-treatment-program/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/assessment/",
+   "text": "Assessment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/assessment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/drug-addiction/",
+   "text": "Drug Addiction",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/drug-addiction/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/family-counselling/",
+   "text": "Family Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/family-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/group-counselling/",
+   "text": "Group Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/group-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/holistic-treatment-services/",
+   "text": "Holistic Treatment Services",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/holistic-treatment-services/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/individual-counselling/",
+   "text": "Individual Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/individual-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/interventionists/",
+   "text": "Interventionists",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/interventionists/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/prevention-education/",
+   "text": "Prevention / Education",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/prevention-education/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/recovery-services/",
+   "text": "Recovery Services",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/recovery-services/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/residential-alcohol-rehab/",
+   "text": "Residential Alcohol Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/residential-alcohol-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/residential-drug-rehab/",
+   "text": "Residential Drug Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/residential-drug-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/residential-long-term/",
+   "text": "Residential Long-Term",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/residential-long-term/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/sober-living/",
+   "text": "Sober Living",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/sober-living/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/substance-abuse-treatment/",
+   "text": "Substance Abuse Treatment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/substance-abuse-treatment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:+1-343-688-0566",
+   "text": "+1-343-688-0566",
+   "kind": "tel",
+   "new": "tel:+1-343-688-0566"
+  },
+  {
+   "old_href": "mailto:info@bonvierecovery.ca",
+   "text": "info@bonvierecovery.ca",
+   "kind": "mailto",
+   "new": "mailto:info@bonvierecovery.ca"
+  },
+  {
+   "old_href": "https://bonvierecovery.ca",
+   "text": "https://bonvierecovery.ca",
+   "kind": "external",
+   "new": "https://bonvierecovery.ca"
+  },
+  {
+   "old_href": "https://www.facebook.com/profile.php?id=61565743250077",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/profile.php?id=61565743250077"
+  },
+  {
+   "old_href": "https://www.instagram.com/bonvie_recovery/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/bonvie_recovery/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "30-90 days",
+     "html": "30-90 days",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "30-90 days",
+     "html": "30-90 days",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Bonvie Recovery | Addiction Treatment Center in Ontario",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Bonvie Recovery is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.",
+     "html": "<span class=\"s1\"><b>Bonvie Recovery</b></span> is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Our facility offers a wide range of professional addiction treatment services, including medical detox, inpatient residential programs, outpatient support, relapse prevention, and aftercare planning. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.",
+     "html": "Our facility offers a wide range of professional addiction treatment services, including <span class=\"s1\"><b>medical detox</b></span>, <span class=\"s1\"><b>inpatient residential programs</b></span>, <span class=\"s1\"><b>outpatient support</b></span>, <span class=\"s1\"><b>relapse prevention</b></span>, and <span class=\"s1\"><b>aftercare planning</b></span>. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "What sets Bonvie Recovery apart is our client-centered philosophy. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.",
+     "html": "What sets Bonvie Recovery apart is our <span class=\"s1\"><b>client-centered philosophy</b></span>. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "At Bonvie Recovery, we integrate evidence-based therapies like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with holistic wellness practices, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.",
+     "html": "At Bonvie Recovery, we integrate <span class=\"s1\"><b>evidence-based therapies</b></span> like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with <span class=\"s1\"><b>holistic wellness practices</b></span>, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.",
+     "html": "Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.",
+     "html": "If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Bonvie Recovery – Where recovery begins, and a new life takes shape.",
+     "html": "<b>Bonvie Recovery – Where recovery begins, and a new life takes shape.</b>",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Bonvie Recovery - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.",
+     "html": "Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Treatment Approaches",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Evidence-Based",
+       "html": "<span class=\"s1\"> • </span>Evidence-Based",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "<span class=\"s1\"> • </span>Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Individual Treatment",
+       "html": "<span class=\"s1\"> • </span>Individual Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "<span class=\"s1\"> • </span>Personalized Treatment",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Specializations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol Addiction",
+       "html": "<span class=\"s1\"> • </span>Alcohol Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine Addiction",
+       "html": "<span class=\"s1\"> • </span>Cocaine Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Drug Addiction",
+       "html": "<span class=\"s1\"> • </span>Drug Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin Addiction",
+       "html": "<span class=\"s1\"> • </span>Heroin Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine Addiction",
+       "html": "<span class=\"s1\"> • </span>Methamphetamine Addiction",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Therapies Offered",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "<span class=\"s1\"> • </span>1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Mindfulness Therapy",
+       "html": "<span class=\"s1\"> • </span>Mindfulness Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "<span class=\"s1\"> • </span>Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy (CBT)",
+       "html": "<span class=\"s1\"> • </span>Cognitive Behavioral Therapy (CBT)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Experiential Therapy",
+       "html": "<span class=\"s1\"> • </span>Experiential Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Family Therapy",
+       "html": "<span class=\"s1\"> • </span>Family Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Interpersonal Therapy",
+       "html": "<span class=\"s1\"> • </span>Interpersonal Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Life Skills Development",
+       "html": "<span class=\"s1\"> • </span>Life Skills Development",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Mindfulness-Based Cognitive Therapy (MBCT)",
+       "html": "<span class=\"s1\"> • </span>Mindfulness-Based Cognitive Therapy (MBCT)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Motivational Interviewing & Enhancement Therapy (MET)",
+       "html": "<span class=\"s1\"> • </span>Motivational Interviewing &amp; Enhancement Therapy (MET)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Narrative Therapy",
+       "html": "<span class=\"s1\"> • </span>Narrative Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Psychodrama Therapy",
+       "html": "<span class=\"s1\"> • </span>Psychodrama Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Reiki",
+       "html": "<span class=\"s1\"> • </span>Reiki",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "<span class=\"s1\"> • </span>Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relaxation Therapy",
+       "html": "<span class=\"s1\"> • </span>Relaxation Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Solution-Focused, Goal-Oriented Therapy",
+       "html": "<span class=\"s1\"> • </span>Solution-Focused, Goal-Oriented Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Acceptance and Commitment Therapy (ACT)",
+       "html": "<span class=\"s1\"> • </span>Acceptance and Commitment Therapy (ACT)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Dialectical Behavior Therapy (DBT)",
+       "html": "<span class=\"s1\"> • </span>Dialectical Behavior Therapy (DBT)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Group Therapy",
+       "html": "<span class=\"s1\"> • </span>Group Therapy",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Substances We Treat",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "<span class=\"s1\"> • </span>Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "<span class=\"s1\"> • </span>Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse Cases",
+       "html": "<span class=\"s1\"> • </span>Chronic Relapse Cases",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "<span class=\"s1\"> • </span>Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Drug Addiction",
+       "html": "<span class=\"s1\"> • </span>Drug Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy",
+       "html": "<span class=\"s1\"> • </span>Ecstasy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "<span class=\"s1\"> • </span>Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana",
+       "html": "<span class=\"s1\"> • </span>Marijuana",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "<span class=\"s1\"> • </span>Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "<span class=\"s1\"> • </span>Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "<span class=\"s1\"> • </span>Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "<span class=\"s1\"> • </span>Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare Support",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Ability to Call a Counselor",
+       "html": "<span class=\"s1\"> • </span>Ability to Call a Counselor",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Alumni Events & Get-Togethers",
+       "html": "<span class=\"s1\"> • </span>Alumni Events &amp; Get-Togethers",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (In-Person)",
+       "html": "<span class=\"s1\"> • </span>Follow-up Sessions (In-Person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits (Alumni Pays Room & Board Fee)",
+       "html": "<span class=\"s1\"> • </span>Return Visits (Alumni Pays Room &amp; Board Fee)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private, Online Alumni Groups",
+       "html": "<span class=\"s1\"> • </span>Private, Online Alumni Groups",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (On-Site)",
+       "html": "<span class=\"s1\"> • </span>Support Meetings (On-Site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Bonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Bonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "If You Are Looking For More Centres Near Toronto, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Bonvie Recovery",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What types of addiction does Bonvie Recovery treat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+       "html": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What therapies are used at Bonvie Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+       "html": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How long are the treatment programs at Bonvie Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+       "html": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Is family involved in the treatment process?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+       "html": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What happens after I complete my program at Bonvie Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+       "html": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Facebook"
+      },
+      {
+       "type": "text",
+       "text": "Twitter"
+      },
+      {
+       "type": "text",
+       "text": "LinkedIn"
+      },
+      {
+       "type": "text",
+       "text": "WhatsApp"
+      },
+      {
+       "type": "text",
+       "text": "Email"
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Aftercare",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Alcohol Addiction",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Alcohol Treatment Program",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Assessment",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Drug Addiction",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Family Counselling",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Group Counselling",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Holistic Treatment Services",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Individual Counselling",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Interventionists",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Prevention / Education",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Recovery Services",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Residential Alcohol Rehab",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Residential Drug Rehab",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Residential Long-Term",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Sober Living",
+         "was_link": true
+        },
+        {
+         "type": "text",
+         "text": "Substance Abuse Treatment",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "+1-343-688-0566",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1-343-688-0566\" itemprop=\"url\">+1-343-688-0566</a>",
+         "links": [
+          {
+           "old": "tel:+1-343-688-0566",
+           "text": "+1-343-688-0566"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@bonvierecovery.ca",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@bonvierecovery.ca\" itemprop=\"url\">info@bonvierecovery.ca</a>",
+         "links": [
+          {
+           "old": "mailto:info@bonvierecovery.ca",
+           "text": "info@bonvierecovery.ca"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://bonvierecovery.ca",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://bonvierecovery.ca\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://bonvierecovery.ca</a>",
+         "links": [
+          {
+           "old": "https://bonvierecovery.ca",
+           "text": "https://bonvierecovery.ca"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "6449 Perth Rd, Perth Road, ON K0H 2L0, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    6449 Perth Rd, Perth Road, ON K0H 2L0, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 10:42am"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "30-90 days",
+   "html": "30-90 days",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "30-90 days",
+   "html": "30-90 days",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Bonvie Recovery | Addiction Treatment Center in Ontario",
+   "html": "<b>Bonvie Recovery | Addiction Treatment Center in Ontario</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Bonvie Recovery is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.",
+   "html": "<span class=\"s1\"><b>Bonvie Recovery</b></span> is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Our facility offers a wide range of professional addiction treatment services, including medical detox, inpatient residential programs, outpatient support, relapse prevention, and aftercare planning. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.",
+   "html": "Our facility offers a wide range of professional addiction treatment services, including <span class=\"s1\"><b>medical detox</b></span>, <span class=\"s1\"><b>inpatient residential programs</b></span>, <span class=\"s1\"><b>outpatient support</b></span>, <span class=\"s1\"><b>relapse prevention</b></span>, and <span class=\"s1\"><b>aftercare planning</b></span>. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "What sets Bonvie Recovery apart is our client-centered philosophy. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.",
+   "html": "What sets Bonvie Recovery apart is our <span class=\"s1\"><b>client-centered philosophy</b></span>. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "At Bonvie Recovery, we integrate evidence-based therapies like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with holistic wellness practices, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.",
+   "html": "At Bonvie Recovery, we integrate <span class=\"s1\"><b>evidence-based therapies</b></span> like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with <span class=\"s1\"><b>holistic wellness practices</b></span>, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.",
+   "html": "Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.",
+   "html": "If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Bonvie Recovery – Where recovery begins, and a new life takes shape.",
+   "html": "<b>Bonvie Recovery – Where recovery begins, and a new life takes shape.</b>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Bonvie Recovery - Center Overview",
+   "html": "Bonvie Recovery - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.",
+   "html": "Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Approaches",
+   "html": "Treatment Approaches",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Evidence-Based",
+   "html": "<span class=\"s1\"> • </span>Evidence-Based",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "<span class=\"s1\"> • </span>Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Individual Treatment",
+   "html": "<span class=\"s1\"> • </span>Individual Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "<span class=\"s1\"> • </span>Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Specializations",
+   "html": "Specializations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol Addiction",
+   "html": "<span class=\"s1\"> • </span>Alcohol Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine Addiction",
+   "html": "<span class=\"s1\"> • </span>Cocaine Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Drug Addiction",
+   "html": "<span class=\"s1\"> • </span>Drug Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin Addiction",
+   "html": "<span class=\"s1\"> • </span>Heroin Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine Addiction",
+   "html": "<span class=\"s1\"> • </span>Methamphetamine Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies Offered",
+   "html": "<b>Therapies Offered</b>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "<span class=\"s1\"> • </span>1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Mindfulness Therapy",
+   "html": "<span class=\"s1\"> • </span>Mindfulness Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "<span class=\"s1\"> • </span>Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy (CBT)",
+   "html": "<span class=\"s1\"> • </span>Cognitive Behavioral Therapy (CBT)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Experiential Therapy",
+   "html": "<span class=\"s1\"> • </span>Experiential Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Family Therapy",
+   "html": "<span class=\"s1\"> • </span>Family Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Interpersonal Therapy",
+   "html": "<span class=\"s1\"> • </span>Interpersonal Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Life Skills Development",
+   "html": "<span class=\"s1\"> • </span>Life Skills Development",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Mindfulness-Based Cognitive Therapy (MBCT)",
+   "html": "<span class=\"s1\"> • </span>Mindfulness-Based Cognitive Therapy (MBCT)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Motivational Interviewing & Enhancement Therapy (MET)",
+   "html": "<span class=\"s1\"> • </span>Motivational Interviewing &amp; Enhancement Therapy (MET)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Narrative Therapy",
+   "html": "<span class=\"s1\"> • </span>Narrative Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Psychodrama Therapy",
+   "html": "<span class=\"s1\"> • </span>Psychodrama Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Reiki",
+   "html": "<span class=\"s1\"> • </span>Reiki",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "<span class=\"s1\"> • </span>Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relaxation Therapy",
+   "html": "<span class=\"s1\"> • </span>Relaxation Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Solution-Focused, Goal-Oriented Therapy",
+   "html": "<span class=\"s1\"> • </span>Solution-Focused, Goal-Oriented Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Acceptance and Commitment Therapy (ACT)",
+   "html": "<span class=\"s1\"> • </span>Acceptance and Commitment Therapy (ACT)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Dialectical Behavior Therapy (DBT)",
+   "html": "<span class=\"s1\"> • </span>Dialectical Behavior Therapy (DBT)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Group Therapy",
+   "html": "<span class=\"s1\"> • </span>Group Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Substances We Treat",
+   "html": "Substances We Treat",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "<span class=\"s1\"> • </span>Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "<span class=\"s1\"> • </span>Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse Cases",
+   "html": "<span class=\"s1\"> • </span>Chronic Relapse Cases",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "<span class=\"s1\"> • </span>Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Drug Addiction",
+   "html": "<span class=\"s1\"> • </span>Drug Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy",
+   "html": "<span class=\"s1\"> • </span>Ecstasy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "<span class=\"s1\"> • </span>Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana",
+   "html": "<span class=\"s1\"> • </span>Marijuana",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "<span class=\"s1\"> • </span>Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "<span class=\"s1\"> • </span>Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "<span class=\"s1\"> • </span>Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "<span class=\"s1\"> • </span>Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare Support",
+   "html": "Aftercare Support",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Ability to Call a Counselor",
+   "html": "<span class=\"s1\"> • </span>Ability to Call a Counselor",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Alumni Events & Get-Togethers",
+   "html": "<span class=\"s1\"> • </span>Alumni Events &amp; Get-Togethers",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (In-Person)",
+   "html": "<span class=\"s1\"> • </span>Follow-up Sessions (In-Person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits (Alumni Pays Room & Board Fee)",
+   "html": "<span class=\"s1\"> • </span>Return Visits (Alumni Pays Room &amp; Board Fee)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private, Online Alumni Groups",
+   "html": "<span class=\"s1\"> • </span>Private, Online Alumni Groups",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (On-Site)",
+   "html": "<span class=\"s1\"> • </span>Support Meetings (On-Site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Bonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Bonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "If You Are Looking For More Centres Near Toronto, Click here",
+   "html": "If You Are Looking For More Centres Near Toronto, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Bonvie Recovery",
+   "html": "Frequently Asked Questions About Bonvie Recovery",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What types of addiction does Bonvie Recovery treat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+   "html": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What therapies are used at Bonvie Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+   "html": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How long are the treatment programs at Bonvie Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+   "html": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Is family involved in the treatment process?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+   "html": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What happens after I complete my program at Bonvie Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+   "html": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Facebook"
+  },
+  {
+   "type": "text",
+   "text": "Twitter"
+  },
+  {
+   "type": "text",
+   "text": "LinkedIn"
+  },
+  {
+   "type": "text",
+   "text": "WhatsApp"
+  },
+  {
+   "type": "text",
+   "text": "Email"
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Aftercare",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Treatment Program",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Assessment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Drug Addiction",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Family Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Group Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Holistic Treatment Services",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Individual Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Interventionists",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Prevention / Education",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Recovery Services",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Residential Alcohol Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Residential Drug Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Residential Long-Term",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Sober Living",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Substance Abuse Treatment",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "+1-343-688-0566",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1-343-688-0566\" itemprop=\"url\">+1-343-688-0566</a>",
+   "links": [
+    {
+     "old": "tel:+1-343-688-0566",
+     "text": "+1-343-688-0566"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@bonvierecovery.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@bonvierecovery.ca\" itemprop=\"url\">info@bonvierecovery.ca</a>",
+   "links": [
+    {
+     "old": "mailto:info@bonvierecovery.ca",
+     "text": "info@bonvierecovery.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://bonvierecovery.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://bonvierecovery.ca\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://bonvierecovery.ca</a>",
+   "links": [
+    {
+     "old": "https://bonvierecovery.ca",
+     "text": "https://bonvierecovery.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "6449 Perth Rd, Perth Road, ON K0H 2L0, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    6449 Perth Rd, Perth Road, ON K0H 2L0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 10:42am"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Bonvie Recovery",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-16667\" data-elementor-id=\"16667\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-36bfddac elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"36bfddac\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d2b6bec\" data-element_type=\"column\" data-id=\"3d2b6bec\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-289abb30 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"289abb30\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"p1\"><b>Bonvie Recovery | Addiction Treatment Center in Ontario</b></h2><p class=\"p1\"><span class=\"s1\"><b>Bonvie Recovery</b></span> is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.</p><p class=\"p1\">Our facility offers a wide range of professional addiction treatment services, including <span class=\"s1\"><b>medical detox</b></span>, <span class=\"s1\"><b>inpatient residential programs</b></span>, <span class=\"s1\"><b>outpatient support</b></span>, <span class=\"s1\"><b>relapse prevention</b></span>, and <span class=\"s1\"><b>aftercare planning</b></span>. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.</p><p class=\"p1\">What sets Bonvie Recovery apart is our <span class=\"s1\"><b>client-centered philosophy</b></span>. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.</p><p class=\"p1\">At Bonvie Recovery, we integrate <span class=\"s1\"><b>evidence-based therapies</b></span> like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with <span class=\"s1\"><b>holistic wellness practices</b></span>, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.</p><p class=\"p1\">Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.</p><p class=\"p1\">If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.</p><p class=\"p3\"><b>Bonvie Recovery – Where recovery begins, and a new life takes shape.</b></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e449027 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e449027\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eda7ec8\" data-element_type=\"column\" data-id=\"eda7ec8\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-05b793b elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"05b793b\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-753f441 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"753f441\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Bonvie Recovery - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-aa92cd3 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"aa92cd3\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p class=\"p1\">Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-9caafc4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"9caafc4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1dae0cf\" data-element_type=\"column\" data-id=\"1dae0cf\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-58e372e elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"58e372e\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><h3 class=\"p1\">Treatment Approaches</h3><p class=\"p2\"><span class=\"s1\"> • </span>Evidence-Based</p><p class=\"p2\"><span class=\"s1\"> • </span>Holistic</p><p class=\"p2\"><span class=\"s1\"> • </span>Individual Treatment</p><p class=\"p2\"><span class=\"s1\"> • </span>Personalized Treatment</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div> </div><h3 class=\"Header__Style-sc-te1v7z-0 pVVmL\">Specializations</h3></div><div><p class=\"p2\"><span class=\"s1\"> • </span>Alcohol Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Cocaine Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Drug Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Heroin Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Methamphetamine Addiction</p><h3 class=\"p1\"><b>Therapies Offered</b></h3><p class=\"p2\"><span class=\"s1\"> • </span>1-on-1 Counseling</p><p class=\"p2\"><span class=\"s1\"> • </span>Mindfulness Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Art Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Cognitive Behavioral Therapy (CBT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Experiential Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Family Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Interpersonal Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Life Skills Development</p><p class=\"p2\"><span class=\"s1\"> • </span>Mindfulness-Based Cognitive Therapy (MBCT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Motivational Interviewing &amp; Enhancement Therapy (MET)</p><p class=\"p2\"><span class=\"s1\"> • </span>Narrative Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Psychodrama Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Reiki</p><p class=\"p2\"><span class=\"s1\"> • </span>Relapse Prevention Counseling</p><p class=\"p2\"><span class=\"s1\"> • </span>Relaxation Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Solution-Focused, Goal-Oriented Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Acceptance and Commitment Therapy (ACT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Dialectical Behavior Therapy (DBT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Group Therapy</p></div><div><p class=\"p1\"> </p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bd0779f\" data-element_type=\"column\" data-id=\"bd0779f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-fcf4407 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"fcf4407\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3 class=\"p1\">Substances We Treat</h3><p class=\"p2\"><span class=\"s1\"> • </span>Alcohol</p><p class=\"p2\"><span class=\"s1\"> • </span>Benzodiazepines</p><p class=\"p2\"><span class=\"s1\"> • </span>Chronic Relapse Cases</p><p class=\"p2\"><span class=\"s1\"> • </span>Cocaine</p><p class=\"p2\"><span class=\"s1\"> • </span>Drug Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Ecstasy</p><p class=\"p2\"><span class=\"s1\"> • </span>Heroin</p><p class=\"p2\"><span class=\"s1\"> • </span>Marijuana</p><p class=\"p2\"><span class=\"s1\"> • </span>Methamphetamine</p><p class=\"p2\"><span class=\"s1\"> • </span>Opioids</p><p class=\"p2\"><span class=\"s1\"> • </span>Prescription Drugs</p><p class=\"p2\"><span class=\"s1\"> • </span>Synthetic Drugs</p><h3 class=\"p1\">Aftercare Support</h3><p class=\"p2\"><span class=\"s1\"> • </span>Ability to Call a Counselor</p><p class=\"p2\"><span class=\"s1\"> • </span>Alumni Events &amp; Get-Togethers</p><p class=\"p2\"><span class=\"s1\"> • </span>Follow-up Sessions (In-Person)</p><p class=\"p2\"><span class=\"s1\"> • </span>Return Visits (Alumni Pays Room &amp; Board Fee)</p><p class=\"p2\"><span class=\"s1\"> • </span>Private, Online Alumni Groups</p><p class=\"p2\"><span class=\"s1\"> • </span>Support Meetings (On-Site)</p></div></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5132195 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5132195\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71f1d78\" data-element_type=\"column\" data-id=\"71f1d78\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-9c2e0b2 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"9c2e0b2\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tBonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-93fbcb5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"93fbcb5\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-f1abfff elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f1abfff\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-fbf22dc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"fbf22dc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b8a2ae\" data-element_type=\"column\" data-id=\"6b8a2ae\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-8804413 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"8804413\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Toronto, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-537b4842 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"537b4842\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cac097f\" data-element_type=\"column\" data-id=\"7cac097f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-737818ae elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"737818ae\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Bonvie Recovery</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-14897781 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"14897781\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3441\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-3441\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of addiction does Bonvie Recovery treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3441\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-3441\" role=\"region\"><p class=\"p1\">Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3442\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-3442\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What therapies are used at Bonvie Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3442\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-3442\" role=\"region\"><p class=\"p1\">Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3443\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-3443\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long are the treatment programs at Bonvie Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3443\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-3443\" role=\"region\"><p class=\"p1\">Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3444\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-3444\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is family involved in the treatment process?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3444\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-3444\" role=\"region\"><p class=\"p1\">Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3445\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-3445\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What happens after I complete my program at Bonvie Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3445\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-3445\" role=\"region\"><p class=\"p1\">After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2c69d0d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2c69d0d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0d3cd19\" data-element_type=\"column\" data-id=\"0d3cd19\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-469b5ef elementor-share-buttons--skin-flat elementor-share-buttons--view-icon-text elementor-share-buttons--shape-square elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons\" data-element_type=\"widget\" data-id=\"469b5ef\" data-widget_type=\"share-buttons.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-grid\" role=\"list\">\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on facebook\" class=\"elementor-share-btn elementor-share-btn_facebook\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-facebook\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tFacebook\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on twitter\" class=\"elementor-share-btn elementor-share-btn_twitter\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-twitter\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tTwitter\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on linkedin\" class=\"elementor-share-btn elementor-share-btn_linkedin\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-linkedin\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tLinkedIn\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on whatsapp\" class=\"elementor-share-btn elementor-share-btn_whatsapp\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-whatsapp\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tWhatsApp\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on email\" class=\"elementor-share-btn elementor-share-btn_email\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fas fa-envelope\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tEmail\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "+1-343-688-0566",
+  "email": "info@bonvierecovery.ca",
+  "website": "https://bonvierecovery.ca",
+  "address": "6449 Perth Rd, Perth Road, ON K0H 2L0, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/profile.php?id=61565743250077",
+   "instagram": "https://www.instagram.com/bonvie_recovery/"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-1.webp",
+    "alt": "",
+    "width": "680",
+    "height": "382"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-2.webp",
+    "alt": "",
+    "width": "680",
+    "height": "453"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-3.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/05/Bonvie-Recovery-3.webp",
+    "alt": "",
+    "width": "680",
+    "height": "435"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Aftercare Alcohol Addiction Alcohol Treatment Program Assessment Drug Addiction Family Counselling Group Counselling Holistic Treatment Services Individual Counselling Interventionists Prevention / Education Private Rehab Recovery Services Residential Alcohol Rehab Residential Drug Rehab Residential Long-Term Sober Living Substance Abuse Treatment",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h2",
+    "text": "Bonvie Recovery | Addiction Treatment Center in Ontario",
+    "html": "<b>Bonvie Recovery | Addiction Treatment Center in Ontario</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Bonvie Recovery is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.",
+    "html": "<span class=\"s1\"><b>Bonvie Recovery</b></span> is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Our facility offers a wide range of professional addiction treatment services, including medical detox, inpatient residential programs, outpatient support, relapse prevention, and aftercare planning. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.",
+    "html": "Our facility offers a wide range of professional addiction treatment services, including <span class=\"s1\"><b>medical detox</b></span>, <span class=\"s1\"><b>inpatient residential programs</b></span>, <span class=\"s1\"><b>outpatient support</b></span>, <span class=\"s1\"><b>relapse prevention</b></span>, and <span class=\"s1\"><b>aftercare planning</b></span>. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "What sets Bonvie Recovery apart is our client-centered philosophy. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.",
+    "html": "What sets Bonvie Recovery apart is our <span class=\"s1\"><b>client-centered philosophy</b></span>. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "At Bonvie Recovery, we integrate evidence-based therapies like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with holistic wellness practices, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.",
+    "html": "At Bonvie Recovery, we integrate <span class=\"s1\"><b>evidence-based therapies</b></span> like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with <span class=\"s1\"><b>holistic wellness practices</b></span>, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.",
+    "html": "Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.",
+    "html": "If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Bonvie Recovery – Where recovery begins, and a new life takes shape.",
+    "html": "<b>Bonvie Recovery – Where recovery begins, and a new life takes shape.</b>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "Bonvie Recovery - Center Overview",
+    "html": "Bonvie Recovery - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.",
+    "html": "Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Approaches",
+    "html": "Treatment Approaches",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Evidence-Based",
+    "html": "<span class=\"s1\"> • </span>Evidence-Based",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "<span class=\"s1\"> • </span>Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Individual Treatment",
+    "html": "<span class=\"s1\"> • </span>Individual Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "<span class=\"s1\"> • </span>Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Specializations",
+    "html": "Specializations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol Addiction",
+    "html": "<span class=\"s1\"> • </span>Alcohol Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine Addiction",
+    "html": "<span class=\"s1\"> • </span>Cocaine Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Drug Addiction",
+    "html": "<span class=\"s1\"> • </span>Drug Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin Addiction",
+    "html": "<span class=\"s1\"> • </span>Heroin Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine Addiction",
+    "html": "<span class=\"s1\"> • </span>Methamphetamine Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies Offered",
+    "html": "<b>Therapies Offered</b>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "<span class=\"s1\"> • </span>1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Mindfulness Therapy",
+    "html": "<span class=\"s1\"> • </span>Mindfulness Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "<span class=\"s1\"> • </span>Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy (CBT)",
+    "html": "<span class=\"s1\"> • </span>Cognitive Behavioral Therapy (CBT)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Experiential Therapy",
+    "html": "<span class=\"s1\"> • </span>Experiential Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Family Therapy",
+    "html": "<span class=\"s1\"> • </span>Family Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Interpersonal Therapy",
+    "html": "<span class=\"s1\"> • </span>Interpersonal Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Life Skills Development",
+    "html": "<span class=\"s1\"> • </span>Life Skills Development",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Mindfulness-Based Cognitive Therapy (MBCT)",
+    "html": "<span class=\"s1\"> • </span>Mindfulness-Based Cognitive Therapy (MBCT)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Motivational Interviewing & Enhancement Therapy (MET)",
+    "html": "<span class=\"s1\"> • </span>Motivational Interviewing &amp; Enhancement Therapy (MET)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Narrative Therapy",
+    "html": "<span class=\"s1\"> • </span>Narrative Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Psychodrama Therapy",
+    "html": "<span class=\"s1\"> • </span>Psychodrama Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Reiki",
+    "html": "<span class=\"s1\"> • </span>Reiki",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "<span class=\"s1\"> • </span>Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relaxation Therapy",
+    "html": "<span class=\"s1\"> • </span>Relaxation Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Solution-Focused, Goal-Oriented Therapy",
+    "html": "<span class=\"s1\"> • </span>Solution-Focused, Goal-Oriented Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Acceptance and Commitment Therapy (ACT)",
+    "html": "<span class=\"s1\"> • </span>Acceptance and Commitment Therapy (ACT)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Dialectical Behavior Therapy (DBT)",
+    "html": "<span class=\"s1\"> • </span>Dialectical Behavior Therapy (DBT)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Group Therapy",
+    "html": "<span class=\"s1\"> • </span>Group Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Substances We Treat",
+    "html": "Substances We Treat",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "<span class=\"s1\"> • </span>Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "<span class=\"s1\"> • </span>Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse Cases",
+    "html": "<span class=\"s1\"> • </span>Chronic Relapse Cases",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "<span class=\"s1\"> • </span>Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Drug Addiction",
+    "html": "<span class=\"s1\"> • </span>Drug Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy",
+    "html": "<span class=\"s1\"> • </span>Ecstasy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "<span class=\"s1\"> • </span>Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana",
+    "html": "<span class=\"s1\"> • </span>Marijuana",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "<span class=\"s1\"> • </span>Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "<span class=\"s1\"> • </span>Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "<span class=\"s1\"> • </span>Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "<span class=\"s1\"> • </span>Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare Support",
+    "html": "Aftercare Support",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Ability to Call a Counselor",
+    "html": "<span class=\"s1\"> • </span>Ability to Call a Counselor",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Alumni Events & Get-Togethers",
+    "html": "<span class=\"s1\"> • </span>Alumni Events &amp; Get-Togethers",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (In-Person)",
+    "html": "<span class=\"s1\"> • </span>Follow-up Sessions (In-Person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits (Alumni Pays Room & Board Fee)",
+    "html": "<span class=\"s1\"> • </span>Return Visits (Alumni Pays Room &amp; Board Fee)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private, Online Alumni Groups",
+    "html": "<span class=\"s1\"> • </span>Private, Online Alumni Groups",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (On-Site)",
+    "html": "<span class=\"s1\"> • </span>Support Meetings (On-Site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Bonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Bonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "If You Are Looking For More Centres Near Toronto, Click here",
+    "html": "If You Are Looking For More Centres Near Toronto, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Bonvie Recovery",
+  "faqs": [
+   {
+    "question": "What types of addiction does Bonvie Recovery treat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+      "html": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention."
+   },
+   {
+    "question": "What therapies are used at Bonvie Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+      "html": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit."
+   },
+   {
+    "question": "How long are the treatment programs at Bonvie Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+      "html": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning."
+   },
+   {
+    "question": "Is family involved in the treatment process?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+      "html": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones."
+   },
+   {
+    "question": "What happens after I complete my program at Bonvie Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+      "html": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [
+   {
+    "label": "30-90 days",
+    "value": "30-90 days"
+   }
+  ],
+  "phone_text": "+1-343-688-0566",
+  "phone_href": "tel:+1-343-688-0566",
+  "website_text": "https://bonvierecovery.ca",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Aftercare",
+    "Alcohol Addiction",
+    "Alcohol Treatment Program",
+    "Assessment",
+    "Drug Addiction",
+    "Family Counselling",
+    "Group Counselling",
+    "Holistic Treatment Services",
+    "Individual Counselling",
+    "Interventionists",
+    "Prevention / Education",
+    "Private Rehab",
+    "Recovery Services",
+    "Residential Alcohol Rehab",
+    "Residential Drug Rehab",
+    "Residential Long-Term",
+    "Sober Living",
+    "Substance Abuse Treatment"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What types of addiction does Bonvie Recovery treat?",
+   "answer_text": "Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.",
+   "answer_html": "<p class=\"p1\">Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What therapies are used at Bonvie Recovery?",
+   "answer_text": "Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.",
+   "answer_html": "<p class=\"p1\">Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How long are the treatment programs at Bonvie Recovery?",
+   "answer_text": "Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.",
+   "answer_html": "<p class=\"p1\">Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Is family involved in the treatment process?",
+   "answer_text": "Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.",
+   "answer_html": "<p class=\"p1\">Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What happens after I complete my program at Bonvie Recovery?",
+   "answer_text": "After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.",
+   "answer_html": "<p class=\"p1\">After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"eltdf-ls-additional-info\">\n<div class=\"eltdf-ls-ai-items\">\n<div class=\"eltdf-ls-ai-item\">\n<p class=\"eltdf-ls-ai-label\">30-90 days</p>\n<p class=\"eltdf-ls-ai-value\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t30-90 days\t\t\t\t\t\t\t\t\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-16667\" data-elementor-id=\"16667\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-36bfddac elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"36bfddac\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d2b6bec\" data-element_type=\"column\" data-id=\"3d2b6bec\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-289abb30 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"289abb30\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"p1\"><b>Bonvie Recovery | Addiction Treatment Center in Ontario</b></h2><p class=\"p1\"><span class=\"s1\"><b>Bonvie Recovery</b></span> is a trusted addiction treatment center in Ontario dedicated to helping individuals reclaim their lives through evidence-based therapies, compassionate care, and long-term support. At Bonvie Recovery, we believe in healing the whole person—mind, body, and spirit—through a personalized and respectful approach to recovery.</p><p class=\"p1\">Our facility offers a wide range of professional addiction treatment services, including <span class=\"s1\"><b>medical detox</b></span>, <span class=\"s1\"><b>inpatient residential programs</b></span>, <span class=\"s1\"><b>outpatient support</b></span>, <span class=\"s1\"><b>relapse prevention</b></span>, and <span class=\"s1\"><b>aftercare planning</b></span>. Whether you are struggling with alcohol, prescription medication, or drug dependency, Bonvie Recovery provides a safe and structured environment where transformation begins.</p><p class=\"p1\">What sets Bonvie Recovery apart is our <span class=\"s1\"><b>client-centered philosophy</b></span>. We understand that every individual’s journey through addiction is unique. That’s why our treatment plans are tailored to meet the specific needs, goals, and challenges of each person who walks through our doors. Our team of licensed therapists, nurses, and addiction specialists work closely with each client to create a customized path to recovery.</p><p class=\"p1\">At Bonvie Recovery, we integrate <span class=\"s1\"><b>evidence-based therapies</b></span> like Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and trauma-informed care with <span class=\"s1\"><b>holistic wellness practices</b></span>, including mindfulness, yoga, and nutrition planning. This blended approach supports lasting recovery by addressing the root causes of addiction, not just the symptoms.</p><p class=\"p1\">Our peaceful Ontario location provides a calming and private space ideal for healing, self-reflection, and personal growth. With 24/7 support and a strong focus on dignity and respect, Bonvie Recovery offers more than just addiction treatment—we offer a new beginning.</p><p class=\"p1\">If you or a loved one is seeking compassionate, professional help, choose Bonvie Recovery. Our mission is to guide individuals toward a meaningful life, free from addiction. Start your recovery journey today in a space that empowers, heals, and uplifts.</p><p class=\"p3\"><b>Bonvie Recovery – Where recovery begins, and a new life takes shape.</b></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e449027 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e449027\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eda7ec8\" data-element_type=\"column\" data-id=\"eda7ec8\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-05b793b elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"05b793b\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-753f441 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"753f441\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Bonvie Recovery - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-aa92cd3 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"aa92cd3\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p class=\"p1\">Bonvie Recovery, located near Kingston, Ontario, offers a comprehensive, individualized approach to addiction and mental health treatment. Rooted in their “Leading with Love” philosophy, Bonvie creates personalized care plans tailored to each client’s unique needs. Their evidence-based therapies include Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step programming, delivered through both individual and group sessions. To support holistic healing, clients also benefit from practices such as yoga, meditation, Reiki, sound therapy, and art and music therapy—addressing the physical, emotional, and spiritual dimensions of recovery. Bonvie emphasizes family involvement, offering education and support around codependency, boundaries, and relationship rebuilding. Flexible residential program durations of 30, 45, 60, or 90 days are available, all set in a peaceful, lakeside environment ideal for healing. Medical detox, daily therapy, and wellness activities are part of each program. To promote long-term recovery, Bonvie also offers aftercare planning, virtual outpatient services, and alumni support groups. This well-rounded approach ensures clients are supported every step of the way—during and after their stay—making Bonvie Recovery a trusted destination for transformative care in Ontario.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-9caafc4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"9caafc4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1dae0cf\" data-element_type=\"column\" data-id=\"1dae0cf\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-58e372e elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"58e372e\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><h3 class=\"p1\">Treatment Approaches</h3><p class=\"p2\"><span class=\"s1\"> • </span>Evidence-Based</p><p class=\"p2\"><span class=\"s1\"> • </span>Holistic</p><p class=\"p2\"><span class=\"s1\"> • </span>Individual Treatment</p><p class=\"p2\"><span class=\"s1\"> • </span>Personalized Treatment</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div> </div><h3 class=\"Header__Style-sc-te1v7z-0 pVVmL\">Specializations</h3></div><div><p class=\"p2\"><span class=\"s1\"> • </span>Alcohol Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Cocaine Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Drug Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Heroin Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Methamphetamine Addiction</p><h3 class=\"p1\"><b>Therapies Offered</b></h3><p class=\"p2\"><span class=\"s1\"> • </span>1-on-1 Counseling</p><p class=\"p2\"><span class=\"s1\"> • </span>Mindfulness Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Art Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Cognitive Behavioral Therapy (CBT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Experiential Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Family Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Interpersonal Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Life Skills Development</p><p class=\"p2\"><span class=\"s1\"> • </span>Mindfulness-Based Cognitive Therapy (MBCT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Motivational Interviewing &amp; Enhancement Therapy (MET)</p><p class=\"p2\"><span class=\"s1\"> • </span>Narrative Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Psychodrama Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Reiki</p><p class=\"p2\"><span class=\"s1\"> • </span>Relapse Prevention Counseling</p><p class=\"p2\"><span class=\"s1\"> • </span>Relaxation Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Solution-Focused, Goal-Oriented Therapy</p><p class=\"p2\"><span class=\"s1\"> • </span>Acceptance and Commitment Therapy (ACT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Dialectical Behavior Therapy (DBT)</p><p class=\"p2\"><span class=\"s1\"> • </span>Group Therapy</p></div><div><p class=\"p1\"> </p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bd0779f\" data-element_type=\"column\" data-id=\"bd0779f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-fcf4407 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"fcf4407\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3 class=\"p1\">Substances We Treat</h3><p class=\"p2\"><span class=\"s1\"> • </span>Alcohol</p><p class=\"p2\"><span class=\"s1\"> • </span>Benzodiazepines</p><p class=\"p2\"><span class=\"s1\"> • </span>Chronic Relapse Cases</p><p class=\"p2\"><span class=\"s1\"> • </span>Cocaine</p><p class=\"p2\"><span class=\"s1\"> • </span>Drug Addiction</p><p class=\"p2\"><span class=\"s1\"> • </span>Ecstasy</p><p class=\"p2\"><span class=\"s1\"> • </span>Heroin</p><p class=\"p2\"><span class=\"s1\"> • </span>Marijuana</p><p class=\"p2\"><span class=\"s1\"> • </span>Methamphetamine</p><p class=\"p2\"><span class=\"s1\"> • </span>Opioids</p><p class=\"p2\"><span class=\"s1\"> • </span>Prescription Drugs</p><p class=\"p2\"><span class=\"s1\"> • </span>Synthetic Drugs</p><h3 class=\"p1\">Aftercare Support</h3><p class=\"p2\"><span class=\"s1\"> • </span>Ability to Call a Counselor</p><p class=\"p2\"><span class=\"s1\"> • </span>Alumni Events &amp; Get-Togethers</p><p class=\"p2\"><span class=\"s1\"> • </span>Follow-up Sessions (In-Person)</p><p class=\"p2\"><span class=\"s1\"> • </span>Return Visits (Alumni Pays Room &amp; Board Fee)</p><p class=\"p2\"><span class=\"s1\"> • </span>Private, Online Alumni Groups</p><p class=\"p2\"><span class=\"s1\"> • </span>Support Meetings (On-Site)</p></div></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5132195 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5132195\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-71f1d78\" data-element_type=\"column\" data-id=\"71f1d78\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-9c2e0b2 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"9c2e0b2\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tBonvie Recovery has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-93fbcb5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"93fbcb5\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-f1abfff elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f1abfff\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-fbf22dc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"fbf22dc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6b8a2ae\" data-element_type=\"column\" data-id=\"6b8a2ae\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-8804413 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"8804413\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Toronto, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-537b4842 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"537b4842\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cac097f\" data-element_type=\"column\" data-id=\"7cac097f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-737818ae elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"737818ae\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Bonvie Recovery</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-14897781 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"14897781\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3441\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-3441\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of addiction does Bonvie Recovery treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3441\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-3441\" role=\"region\"><p class=\"p1\">Bonvie Recovery treats a wide range of substance use disorders, including addiction to alcohol, prescription medications, and illicit drugs. Their programs are tailored to meet the unique needs of each client, with a focus on long-term recovery and relapse prevention.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3442\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-3442\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What therapies are used at Bonvie Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3442\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-3442\" role=\"region\"><p class=\"p1\">Bonvie Recovery uses evidence-based therapies such as Cognitive Behavioral Therapy (CBT), Dialectical Behavior Therapy (DBT), and 12-Step facilitation. These are combined with holistic practices like yoga, meditation, Reiki, and art therapy to promote healing of the mind, body, and spirit.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3443\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-3443\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long are the treatment programs at Bonvie Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3443\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-3443\" role=\"region\"><p class=\"p1\">Clients can choose from flexible program lengths of 30, 45, 60, or 90 days. Each program includes medical detox (if required), daily therapy sessions, holistic activities, and comprehensive aftercare planning.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3444\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-3444\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is family involved in the treatment process?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3444\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-3444\" role=\"region\"><p class=\"p1\">Yes, Bonvie Recovery strongly encourages family involvement. The center provides support around topics like codependency, boundary setting, and healthy communication to help families heal alongside their loved ones.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-3445\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-3445\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What happens after I complete my program at Bonvie Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-3445\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-3445\" role=\"region\"><p class=\"p1\">After completing the residential program, clients receive personalized aftercare planning, access to virtual outpatient support, and participation in alumni groups. These services help maintain sobriety and support ongoing personal growth.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2c69d0d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2c69d0d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0d3cd19\" data-element_type=\"column\" data-id=\"0d3cd19\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-469b5ef elementor-share-buttons--skin-flat elementor-share-buttons--view-icon-text elementor-share-buttons--shape-square elementor-grid-0 elementor-share-buttons--color-official elementor-widget elementor-widget-share-buttons\" data-element_type=\"widget\" data-id=\"469b5ef\" data-widget_type=\"share-buttons.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-grid\" role=\"list\">\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on facebook\" class=\"elementor-share-btn elementor-share-btn_facebook\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-facebook\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tFacebook\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on twitter\" class=\"elementor-share-btn elementor-share-btn_twitter\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-twitter\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tTwitter\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on linkedin\" class=\"elementor-share-btn elementor-share-btn_linkedin\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-linkedin\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tLinkedIn\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on whatsapp\" class=\"elementor-share-btn elementor-share-btn_whatsapp\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fab fa-whatsapp\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tWhatsApp\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-grid-item\" role=\"listitem\">\n<div aria-label=\"Share on email\" class=\"elementor-share-btn elementor-share-btn_email\" role=\"button\" tabindex=\"0\">\n<span class=\"elementor-share-btn__icon\">\n<i aria-hidden=\"true\" class=\"fas fa-envelope\"></i> </span>\n<div class=\"elementor-share-btn__text\">\n<span class=\"elementor-share-btn__title\">\n\t\t\t\t\t\t\t\t\t\tEmail\t\t\t\t\t\t\t\t\t</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/aftercare/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Aftercare</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/alcohol-addiction/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Alcohol Addiction</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/alcohol-treatment-program/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Alcohol Treatment Program</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/assessment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Assessment</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/drug-addiction/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Drug Addiction</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/family-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Family Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/group-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Group Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/holistic-treatment-services/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Holistic Treatment Services</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/individual-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Individual Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/interventionists/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Interventionists</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/prevention-education/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Prevention / Education</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/recovery-services/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Recovery Services</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/residential-alcohol-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Residential Alcohol Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/residential-drug-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Residential Drug Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/residential-long-term/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Residential Long-Term</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/sober-living/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Sober Living</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/substance-abuse-treatment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Substance Abuse Treatment</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1-343-688-0566\" itemprop=\"url\">+1-343-688-0566</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@bonvierecovery.ca\" itemprop=\"url\">info@bonvierecovery.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://bonvierecovery.ca\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://bonvierecovery.ca</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    6449 Perth Rd, Perth Road, ON K0H 2L0, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 10:42am</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/profile.php?id=61565743250077\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/bonvie_recovery/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

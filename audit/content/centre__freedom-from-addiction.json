@@ -1,0 +1,2607 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__freedom-from-addiction",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/freedom-from-addiction/",
+  "path": "/freedom-from-addiction/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/freedom-from-addiction/",
+ "seo": {
+  "meta_title": "Freedom From Addiction - Addiction Rehab Centers",
+  "meta_description": "Freedom From Addiction offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/freedom-from-addiction/",
+  "og": {
+   "title": "Freedom From Addiction - Addiction Rehab Centers",
+   "description": "Freedom From Addiction offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/freedom-from-addiction/",
+      "url": "https://addictionrehabcenters.ca/freedom-from-addiction/",
+      "name": "Freedom From Addiction - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/freedom-from-addiction/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/freedom-from-addiction/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+      "datePublished": "2023-04-18T08:18:35+00:00",
+      "dateModified": "2025-11-27T17:53:53+00:00",
+      "description": "Freedom From Addiction offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/freedom-from-addiction/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/freedom-from-addiction/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/freedom-from-addiction/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+      "width": 1400,
+      "height": 800
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/freedom-from-addiction/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Freedom From Addiction"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What kind of addiction and mental health conditions does Freedom from Addiction treat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How long are the treatment programs offered by Freedom from Addiction?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The treatment programs can range from 30, 60, to 90 days, based on individual needs.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What kind of approach does Freedom from Addiction follow?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What kind of therapy is included in Freedom from Addiction's treatment programs?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The center&#8217;s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where is Freedom from Addiction located?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What kind of individuals does Freedom from Addiction's zero-cost program cater to?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 850,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Treatment Programs"
+  ],
+  [
+   "h3",
+   "Accessibility and Location"
+  ],
+  [
+   "h3",
+   "Individualized Treatment"
+  ],
+  [
+   "h2",
+   "Freedom From Addiction - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Freedom From Addiction"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-3.webp",
+   "local_path": "images/centre__freedom-from-addiction/Freedom-From-Addiction-3.webp",
+   "alt": "",
+   "width": 1109,
+   "height": 571,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-2.webp",
+   "local_path": "images/centre__freedom-from-addiction/Freedom-From-Addiction-2.webp",
+   "alt": "",
+   "width": 1101,
+   "height": 581,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+   "local_path": "images/centre__freedom-from-addiction/Freedom-From-Addiction-1.webp",
+   "alt": "",
+   "width": 1400,
+   "height": 800,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:1-888-241-3391",
+   "text": "1-888-241-3391",
+   "kind": "tel",
+   "new": "tel:1-888-241-3391"
+  },
+  {
+   "old_href": "https://www.freedomaddiction.ca/",
+   "text": "https://www.freedomaddiction.ca/",
+   "kind": "external",
+   "new": "https://www.freedomaddiction.ca/"
+  },
+  {
+   "old_href": "https://www.facebook.com/freedomaddiction",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/freedomaddiction"
+  },
+  {
+   "old_href": "https://twitter.com/freedomtoronto",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/freedomtoronto"
+  },
+  {
+   "old_href": "https://www.instagram.com/freedomaddiction.ca/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/freedomaddiction.ca/"
+  },
+  {
+   "old_href": "https://www.youtube.com/channel/UCuSvMmXH0thaZoEcXaOeeig",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.youtube.com/channel/UCuSvMmXH0thaZoEcXaOeeig"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.",
+     "html": "Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Treatment Programs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.",
+     "html": "The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Accessibility and Location",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.",
+     "html": "Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Individualized Treatment",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.",
+     "html": "Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Freedom From Addiction - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.",
+     "html": "Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.",
+     "html": "At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Freedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Freedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Freedom From Addiction",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What kind of addiction and mental health conditions does Freedom from Addiction treat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+       "html": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How long are the treatment programs offered by Freedom from Addiction?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+       "html": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What kind of approach does Freedom from Addiction follow?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+       "html": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What kind of therapy is included in Freedom from Addiction's treatment programs?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+       "html": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Where is Freedom from Addiction located?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+       "html": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What kind of individuals does Freedom from Addiction's zero-cost program cater to?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+       "html": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "1-888-241-3391",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-888-241-3391\" itemprop=\"url\">1-888-241-3391</a>",
+         "links": [
+          {
+           "old": "tel:1-888-241-3391",
+           "text": "1-888-241-3391"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://www.freedomaddiction.ca/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.freedomaddiction.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.freedomaddiction.ca/</a>",
+         "links": [
+          {
+           "old": "https://www.freedomaddiction.ca/",
+           "text": "https://www.freedomaddiction.ca/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "33 Victoria St, Aurora, Ontario, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    33 Victoria St, Aurora, Ontario, Canada",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:42pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.",
+   "html": "Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Programs",
+   "html": "Treatment Programs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.",
+   "html": "The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Accessibility and Location",
+   "html": "Accessibility and Location",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.",
+   "html": "Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Individualized Treatment",
+   "html": "Individualized Treatment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.",
+   "html": "Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Freedom From Addiction - Center Overview",
+   "html": "Freedom From Addiction - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.",
+   "html": "Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.",
+   "html": "At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Freedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Freedom From Addiction",
+   "html": "Frequently Asked Questions About Freedom From Addiction",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What kind of addiction and mental health conditions does Freedom from Addiction treat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+   "html": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How long are the treatment programs offered by Freedom from Addiction?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+   "html": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What kind of approach does Freedom from Addiction follow?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+   "html": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What kind of therapy is included in Freedom from Addiction's treatment programs?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+   "html": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Where is Freedom from Addiction located?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+   "html": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What kind of individuals does Freedom from Addiction's zero-cost program cater to?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+   "html": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "1-888-241-3391",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-888-241-3391\" itemprop=\"url\">1-888-241-3391</a>",
+   "links": [
+    {
+     "old": "tel:1-888-241-3391",
+     "text": "1-888-241-3391"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://www.freedomaddiction.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.freedomaddiction.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.freedomaddiction.ca/</a>",
+   "links": [
+    {
+     "old": "https://www.freedomaddiction.ca/",
+     "text": "https://www.freedomaddiction.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "33 Victoria St, Aurora, Ontario, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    33 Victoria St, Aurora, Ontario, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:42pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Freedom From Addiction",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-14883\" data-elementor-id=\"14883\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3584f1e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3584f1e2\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ab81d2e\" data-element_type=\"column\" data-id=\"5ab81d2e\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-38e45473 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"38e45473\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5397d45f\" data-element_type=\"column\" data-id=\"5397d45f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-22ea3697 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"22ea3697\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.</p><h3>Treatment Programs</h3><p>The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.</p><h3>Accessibility and Location</h3><p>Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.</p><h3>Individualized Treatment</h3><p>Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-294130c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"294130c7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-58b95277\" data-element_type=\"column\" data-id=\"58b95277\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-f7f592c elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"f7f592c\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7cc01aea elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"7cc01aea\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/ghpmGOkrxnA\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-62926ed0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"62926ed0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-374eee88\" data-element_type=\"column\" data-id=\"374eee88\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-12c107be elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"12c107be\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4e06f07d elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"4e06f07d\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Freedom From Addiction - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-fa8768 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"fa8768\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.</p><p>At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5b51ac20 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5b51ac20\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1e4a98f5\" data-element_type=\"column\" data-id=\"1e4a98f5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-aa810ba elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"aa810ba\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-279b53c5\" data-element_type=\"column\" data-id=\"279b53c5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5f7073e9 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5f7073e9\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-33c1b86e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"33c1b86e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61889c75\" data-element_type=\"column\" data-id=\"61889c75\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-26acc6d3 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"26acc6d3\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tFreedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-1030f0ba elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"1030f0ba\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-18d65d9 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"18d65d9\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5d1fd6d9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5d1fd6d9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4de30181\" data-element_type=\"column\" data-id=\"4de30181\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41ef18a3 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"41ef18a3\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6890183b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6890183b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14af8a01\" data-element_type=\"column\" data-id=\"14af8a01\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1e880a48 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"1e880a48\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Freedom From Addiction</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-1030271a elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"1030271a\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2711\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-2711\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of addiction and mental health conditions does Freedom from Addiction treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2711\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-2711\" role=\"region\"><p>Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2712\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-2712\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long are the treatment programs offered by Freedom from Addiction?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2712\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-2712\" role=\"region\"><p>The treatment programs can range from 30, 60, to 90 days, based on individual needs.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2713\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-2713\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of approach does Freedom from Addiction follow?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2713\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-2713\" role=\"region\"><p>The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2714\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-2714\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of therapy is included in Freedom from Addiction's treatment programs?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2714\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-2714\" role=\"region\"><p>The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2715\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-2715\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Where is Freedom from Addiction located?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2715\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-2715\" role=\"region\"><p>Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2716\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-2716\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of individuals does Freedom from Addiction's zero-cost program cater to?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2716\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-2716\" role=\"region\"><p>Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "1-888-241-3391",
+  "email": "",
+  "website": "https://www.freedomaddiction.ca/",
+  "address": "33 Victoria St, Aurora, Ontario, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/freedomaddiction",
+   "twitter": "https://twitter.com/freedomtoronto",
+   "instagram": "https://www.instagram.com/freedomaddiction.ca/",
+   "youtube": "https://www.youtube.com/channel/UCuSvMmXH0thaZoEcXaOeeig"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-3.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-3.webp",
+    "alt": "",
+    "width": "1109",
+    "height": "571"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-2.webp",
+    "alt": "",
+    "width": "1101",
+    "height": "581"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Freedom-From-Addiction-1.webp",
+    "alt": "",
+    "width": "1400",
+    "height": "800"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.",
+    "html": "Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Programs",
+    "html": "Treatment Programs",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.",
+    "html": "The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Accessibility and Location",
+    "html": "Accessibility and Location",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.",
+    "html": "Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Individualized Treatment",
+    "html": "Individualized Treatment",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.",
+    "html": "Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://youtu.be/ghpmGOkrxnA",
+    "id": "ghpmGOkrxnA"
+   },
+   {
+    "type": "h2",
+    "text": "Freedom From Addiction - Center Overview",
+    "html": "Freedom From Addiction - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.",
+    "html": "Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.",
+    "html": "At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Freedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Freedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Freedom From Addiction",
+  "faqs": [
+   {
+    "question": "What kind of addiction and mental health conditions does Freedom from Addiction treat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+      "html": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions."
+   },
+   {
+    "question": "How long are the treatment programs offered by Freedom from Addiction?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+      "html": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The treatment programs can range from 30, 60, to 90 days, based on individual needs."
+   },
+   {
+    "question": "What kind of approach does Freedom from Addiction follow?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+      "html": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training."
+   },
+   {
+    "question": "What kind of therapy is included in Freedom from Addiction's treatment programs?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+      "html": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation."
+   },
+   {
+    "question": "Where is Freedom from Addiction located?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+      "html": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada."
+   },
+   {
+    "question": "What kind of individuals does Freedom from Addiction's zero-cost program cater to?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+      "html": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "1-888-241-3391",
+  "phone_href": "tel:1-888-241-3391",
+  "website_text": "https://www.freedomaddiction.ca/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What kind of addiction and mental health conditions does Freedom from Addiction treat?",
+   "answer_text": "Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.",
+   "answer_html": "<p>Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How long are the treatment programs offered by Freedom from Addiction?",
+   "answer_text": "The treatment programs can range from 30, 60, to 90 days, based on individual needs.",
+   "answer_html": "<p>The treatment programs can range from 30, 60, to 90 days, based on individual needs.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What kind of approach does Freedom from Addiction follow?",
+   "answer_text": "The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.",
+   "answer_html": "<p>The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What kind of therapy is included in Freedom from Addiction's treatment programs?",
+   "answer_text": "The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.",
+   "answer_html": "<p>The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Where is Freedom from Addiction located?",
+   "answer_text": "Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.",
+   "answer_html": "<p>Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What kind of individuals does Freedom from Addiction's zero-cost program cater to?",
+   "answer_text": "Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.",
+   "answer_html": "<p>Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-14883\" data-elementor-id=\"14883\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3584f1e2 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3584f1e2\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ab81d2e\" data-element_type=\"column\" data-id=\"5ab81d2e\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-38e45473 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"38e45473\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5397d45f\" data-element_type=\"column\" data-id=\"5397d45f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-22ea3697 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"22ea3697\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Freedom from Addiction is a rehab center, which caters to individuals who are struggling with addiction and co-occurring mental health conditions. They provide medical detox and residential treatment for people suffering from substance use disorders, following an approach based on complete abstinence post-detox.</p><h3>Treatment Programs</h3><p>The treatment programs offered by Freedom from Addiction vary in length and can range from 30, 60, to 90 days, based on individual needs. The rehab center employs a holistic approach that combines the 12-Step philosophy with customized physical fitness training. The center’s clients receive individualized treatment plans that cater to their unique needs, including 1-on-1 therapy, group therapy, psychoeducation, life skills, and 12-Step meetings in smaller, gender-specific groups.</p><h3>Accessibility and Location</h3><p>Freedom from Addiction has a unique program catering to frontline workers in Ontario, Canada, at zero cost. Their cozy residential center is located in a quiet neighborhood just north of Toronto, providing a serene and relaxing environment for clients. The rehab center’s amenities include a fully-equipped gym, numerous personal spaces, a gourmet chef in the full kitchen, tranquil meeting spaces, and comfortable meeting rooms complete with entertainment and TV areas.</p><h3>Individualized Treatment</h3><p>Freedom from Addiction recognizes that each person’s addiction experience is unique and needs to be treated accordingly. The center’s treatment programs focus on guiding clients towards the path to recovery while holistically addressing all aspects of addiction from detox to aftercare. The rehab center offers individualized treatment programs based on the client’s unique needs and preferences, which can be customized to include a range of different therapies, exercises, and recreational activities. With their approach, Freedom from Addiction helps their clients regain control of their lives and maintain a long-lasting recovery.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-294130c7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"294130c7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-58b95277\" data-element_type=\"column\" data-id=\"58b95277\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-f7f592c elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"f7f592c\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7cc01aea elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"7cc01aea\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/ghpmGOkrxnA\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-62926ed0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"62926ed0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-374eee88\" data-element_type=\"column\" data-id=\"374eee88\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-12c107be elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"12c107be\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4e06f07d elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"4e06f07d\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Freedom From Addiction - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-fa8768 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"fa8768\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Freedom from Addiction Inc. is a leading rehabilitation center in Canada that has been providing individuals and their families with evidence-based treatment programs for over a decade. The center offers inpatient treatment for alcohol and drug addiction with a focus on emotional recovery. Accredited with Accreditation Canada and currently holding Exemplary Standing, Freedom offers a wide range of programming for youth, adults, and families, making it a comprehensive treatment center for those affected by addiction.</p><p>At Freedom, the focus is on solutions rather than problems, and the center provides a trusting and caring environment where clients can achieve their recovery goals. With a team of multidisciplinary professionals, the center offers customized treatment plans that suit the needs of individual clients to achieve long-term sobriety. Freedom specializes in emotional recovery, which is achieved through evidence-based therapies such as PTSD therapy, trauma-informed therapy, DBT, CBT, anger management, and relapse prevention. The center’s person-centered therapy approach is the key to its success in helping clients overcome their addiction and co-occurring disorders.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5b51ac20 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5b51ac20\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1e4a98f5\" data-element_type=\"column\" data-id=\"1e4a98f5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-aa810ba elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"aa810ba\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-279b53c5\" data-element_type=\"column\" data-id=\"279b53c5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5f7073e9 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5f7073e9\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-33c1b86e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"33c1b86e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61889c75\" data-element_type=\"column\" data-id=\"61889c75\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-26acc6d3 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"26acc6d3\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tFreedom From Addiction has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-1030f0ba elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"1030f0ba\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-18d65d9 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"18d65d9\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5d1fd6d9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5d1fd6d9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4de30181\" data-element_type=\"column\" data-id=\"4de30181\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41ef18a3 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"41ef18a3\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6890183b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6890183b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-14af8a01\" data-element_type=\"column\" data-id=\"14af8a01\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1e880a48 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"1e880a48\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Freedom From Addiction</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-1030271a elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"1030271a\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2711\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-2711\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of addiction and mental health conditions does Freedom from Addiction treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2711\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-2711\" role=\"region\"><p>Freedom from Addiction caters to individuals struggling with addiction and co-occurring mental health conditions.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2712\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-2712\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long are the treatment programs offered by Freedom from Addiction?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2712\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-2712\" role=\"region\"><p>The treatment programs can range from 30, 60, to 90 days, based on individual needs.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2713\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-2713\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of approach does Freedom from Addiction follow?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2713\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-2713\" role=\"region\"><p>The rehab center employs a holistic approach that combines the 12-Steps philosophy with customized physical fitness training.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2714\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-2714\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of therapy is included in Freedom from Addiction's treatment programs?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2714\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-2714\" role=\"region\"><p>The center’s clients receive individualized treatment plans that cater to their unique needs, which includes 1-on-1 therapy, group therapy, and psychoeducation.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2715\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-2715\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Where is Freedom from Addiction located?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2715\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-2715\" role=\"region\"><p>Freedom from Addiction is located in a quiet neighborhood just north of Toronto, Canada.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2716\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-2716\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What kind of individuals does Freedom from Addiction's zero-cost program cater to?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2716\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-2716\" role=\"region\"><p>Freedom from Addiction has a program catering to frontline workers in Ontario, Canada, at zero cost.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-888-241-3391\" itemprop=\"url\">1-888-241-3391</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.freedomaddiction.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.freedomaddiction.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    33 Victoria St, Aurora, Ontario, Canada\t                </p>\n</div>\n<div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:42pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/freedomaddiction\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/freedomtoronto\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/freedomaddiction.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-youtube\" data-wpel-link=\"external\" href=\"https://www.youtube.com/channel/UCuSvMmXH0thaZoEcXaOeeig\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-youtube\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

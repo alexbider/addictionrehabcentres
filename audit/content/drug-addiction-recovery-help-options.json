@@ -1,0 +1,836 @@
+{
+ "schema": "arc-content/1",
+ "slug": "drug-addiction-recovery-help-options",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/",
+  "path": "/drug-addiction-recovery-help-options/",
+  "wp_items": [
+   {
+    "id": 957,
+    "type": "post",
+    "title": "Drug Addiction Recovery: Help &#038; Options",
+    "date": "2015-08-21T18:28:53",
+    "modified": "2022-09-12T19:09:37",
+    "status": "publish",
+    "yoast_title": "Drug Addiction Recovery: Help &#038; Options - Addiction Rehab Centers",
+    "words_rest": 955
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/drug-addiction-recovery-help-options/",
+ "seo": {
+  "meta_title": "Drug Addiction Recovery: Help & Options - Addiction Rehab Centers",
+  "meta_description": "Learn about some of the many different options for drug addiction recovery and help for you or a loved one. Call us today for more about addiction treatment.",
+  "canonical_source": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/",
+  "og": {
+   "title": "Drug Addiction Recovery: Help & Options - Addiction Rehab Centers",
+   "description": "Learn about some of the many different options for drug addiction recovery and help for you or a loved one. Call us today for more about addiction treatment.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Drug Addiction Recovery: Help &#038; Options",
+      "datePublished": "2015-08-21T18:28:53+00:00",
+      "dateModified": "2022-09-12T19:09:37+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/"
+      },
+      "wordCount": 975,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+      "keywords": [
+       "addiction",
+       "Drug Addiction Recovery",
+       "drugs",
+       "therapy"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/",
+      "url": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/",
+      "name": "Drug Addiction Recovery: Help &#038; Options - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+      "datePublished": "2015-08-21T18:28:53+00:00",
+      "dateModified": "2022-09-12T19:09:37+00:00",
+      "description": "Learn about some of the many different options for drug addiction recovery and help for you or a loved one. Call us today for more about addiction treatment.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "drug addiction recovery"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-recovery-help-options/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Drug Addiction Recovery: Help &#038; Options"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Drug Addiction Recovery: Help & Options",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 966,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Drug Addiction Recovery: Help & Options"
+  ],
+  [
+   "h3",
+   "Individual Therapy"
+  ],
+  [
+   "h3",
+   "Group Therapy"
+  ],
+  [
+   "h2",
+   "Lifestyle Coaching"
+  ],
+  [
+   "h2",
+   "12-Step Programs"
+  ],
+  [
+   "h3",
+   "Medical Care"
+  ],
+  [
+   "h3",
+   "Family Support"
+  ],
+  [
+   "h2",
+   "Going it Alone"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+   "local_path": "images/drug-addiction-recovery-help-options/drug-addiction-recovery.jpg",
+   "alt": "drug addiction recovery",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "August 21, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics",
+   "text": "less than 10% seek the drug addiction help they need",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+     "alt": "drug addiction recovery",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "August 21, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Drug Addiction Recovery: Help & Options",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Drug addiction is a profoundly isolating experience, especially if loved ones have rejected you or shamed you because of your addiction struggles. But your addiction is not your fault. If you need drug addiction help, you have access to an array of options—the only questions is whether you’ll be willing to take advantage of them.",
+     "html": "Drug addiction is a profoundly isolating experience, especially if loved ones have rejected you or shamed you because of your addiction struggles. But your addiction is not your fault. If you need drug addiction help, you have access to an array of options—the only questions is whether you’ll be willing to take advantage of them.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Every year, nearly 25 million Americans struggle with addiction, but less than 10% seek the drug addiction help they need. Don’t be among their number. Drug addiction is not your fault, so there’s no reason to trap yourself in a cycle of denial and shame. Instead, the time to seek drug addiction recovery treatment is now.",
+     "html": "Every year, nearly 25 million Americans struggle with addiction, but <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/treatment-statistics\" rel=\"external noopener noreferrer\">less than 10% seek the drug addiction help they need</a>. Don’t be among their number. Drug addiction is not your fault, so there’s no reason to trap yourself in a cycle of denial and shame. Instead, the time to seek drug addiction recovery treatment is now.",
+     "links": [
+      {
+       "old": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics",
+       "text": "less than 10% seek the drug addiction help they need"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "There’s no single “right” option for drug addiction recovery. But you should know that, if you’re concerned about your ability to get and stay sober, inpatient rehab is the most comprehensive option, blending all or most common treatments under one roof. If you prefer to adopt a piecemeal approach, here are your options.",
+     "html": "There’s no single “right” option for drug addiction recovery. But you should know that, if you’re concerned about your ability to get and stay sober, inpatient rehab is the most comprehensive option, blending all or most common treatments under one roof. If you prefer to adopt a piecemeal approach, here are your options.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Individual Therapy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Individual therapy is legally required to be confidential, freeing you up to explore whatever you want. Your therapist will explore with you why you became an addict, and help you identify your specific triggers for drug or alcohol abuse. He or she can also help you:",
+       "html": "Individual therapy is legally required to be confidential, freeing you up to explore whatever you want. Your therapist will explore with you why you became an addict, and help you identify your specific triggers for drug or alcohol abuse. He or she can also help you:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Master talking to loved ones about your addiction",
+         "html": "Master talking to loved ones about your addiction",
+         "links": []
+        },
+        {
+         "text": "Devise coping skills for resisting temptation",
+         "html": "Devise coping skills for resisting temptation",
+         "links": []
+        },
+        {
+         "text": "Identify problematic behaviors that contribute to your stress",
+         "html": "Identify problematic behaviors that contribute to your stress",
+         "links": []
+        },
+        {
+         "text": "Help you set and reach reasonable goals",
+         "html": "Help you set and reach reasonable goals",
+         "links": []
+        },
+        {
+         "text": "Offer you insight about helpful lifestyle changes",
+         "html": "Offer you insight about helpful lifestyle changes",
+         "links": []
+        },
+        {
+         "text": "Reassure you that you’re not broken or damaged jut because you’re an addict",
+         "html": "Reassure you that you’re not broken or damaged jut because you’re an addict",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Group Therapy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Group therapy might seem strange at first blush, but can prove invaluable in the fight against addiction. Group therapy works best when accompanied by individual therapy; without private time with a therapist, you won’t get everything out of therapy you can. The primary benefit of group therapy is that it provides a safe space for you to explore your relationships with others.",
+       "html": "Group therapy might seem strange at first blush, but can prove invaluable in the fight against addiction. Group therapy works best when accompanied by individual therapy; without private time with a therapist, you won’t get everything out of therapy you can. The primary benefit of group therapy is that it provides a safe space for you to explore your relationships with others.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "You may notice problematic interaction patterns, or your therapist might see things he or she might not otherwise notice. Additionally, group therapy with other addicts allows you to benefit from their hard-won wisdom. You might also pick up some coping skills from other members of your group, and chatting with other addicts can help you feel less alone.",
+       "html": "You may notice problematic interaction patterns, or your therapist might see things he or she might not otherwise notice. Additionally, group therapy with other addicts allows you to benefit from their hard-won wisdom. You might also pick up some coping skills from other members of your group, and chatting with other addicts can help you feel less alone.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Lifestyle Coaching",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction, experts often say, is a lifestyle disease, which means that it affects everything about your life, from your diet to your relationships. Lifestyle changes alone won’t get you sober—no matter how much that fad diet you’ve read about insists to the contrary. The following changes, though, have been scientifically validated as potentially effective in the fight against addiction:",
+       "html": "Addiction, experts often say, is a lifestyle disease, which means that it affects everything about your life, from your diet to your relationships. Lifestyle changes alone won’t get you sober—no matter how much that fad diet you’ve read about insists to the contrary. The following changes, though, have been scientifically validated as potentially effective in the fight against addiction:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Getting at least 150 minutes of exercise per week, especially strength training and stretching in the form of yoga",
+         "html": "Getting at least 150 minutes of exercise per week, especially strength training and stretching in the form of yoga",
+         "links": []
+        },
+        {
+         "text": "Meditation",
+         "html": "Meditation",
+         "links": []
+        },
+        {
+         "text": "Sticking to a regular schedule",
+         "html": "Sticking to a regular schedule",
+         "links": []
+        },
+        {
+         "text": "Eating a healthy, balanced unrestrictive diet",
+         "html": "Eating a healthy, balanced unrestrictive diet",
+         "links": []
+        },
+        {
+         "text": "Exploring new hobbies",
+         "html": "Exploring new hobbies",
+         "links": []
+        },
+        {
+         "text": "Replacing your previous addiction with a new skill",
+         "html": "Replacing your previous addiction with a new skill",
+         "links": []
+        },
+        {
+         "text": "Spending time with loved ones",
+         "html": "Spending time with loved ones",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "12-Step Programs",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "12-step programs such as Narcotics Anonymous and Alcoholics Anonymous are self-help programs that encourage you to navigate 12 steps to sobriety. Programs are confidential, with meetings at virtually every time of day, and at locations across the globe. Many addicts are able to recover solely with the assistance of such programs, while others use them to augment a more intensive recovery program. The fellowship these programs offer can help you feel less isolated, and if you need some one-on-one support, you can even select a sponsor upon whom to call when you’re feeling hopeless or overwhelmed.",
+       "html": "12-step programs such as Narcotics Anonymous and Alcoholics Anonymous are self-help programs that encourage you to navigate 12 steps to sobriety. Programs are confidential, with meetings at virtually every time of day, and at locations across the globe. Many addicts are able to recover solely with the assistance of such programs, while others use them to augment a more intensive recovery program. The fellowship these programs offer can help you feel less isolated, and if you need some one-on-one support, you can even select a sponsor upon whom to call when you’re feeling hopeless or overwhelmed.<strong> </strong>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Medical Care",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Addiction is a disease, so it just makes good sense to include your doctor in the recovery process. Drug addiction recovery first requires going through detox, and it’s wise to get the assistance of a caring, competent physician as you navigate the detox process. Some of the other things an addiction medicine expert can do to help you as you journey toward sobriety include:",
+         "html": "Addiction is a disease, so it just makes good sense to include your doctor in the recovery process. Drug addiction recovery first requires going through detox, and it’s wise to get the assistance of a caring, competent physician as you navigate the detox process. Some of the other things an addiction medicine expert can do to help you as you journey toward sobriety include:",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Addressing drug-related symptoms as they arise. For instance, you might suffer from depression or anxiety during detox, or you could experience longer term health issues, such as hepatitis or cirrhosis of the liver. By addressing these problems, you can increase your odds of sobriety success.",
+           "html": "Addressing drug-related symptoms as they arise. For instance, you might suffer from depression or anxiety during detox, or you could experience longer term health issues, such as hepatitis or cirrhosis of the liver. By addressing these problems, you can increase your odds of sobriety success.",
+           "links": []
+          },
+          {
+           "text": "Offering medications to reduce the severity of detox and cravings. Doctors have developed drugs to counteract cravings for some drugs, notably alcohol.",
+           "html": "Offering medications to reduce the severity of detox and cravings. Doctors have developed drugs to counteract cravings for some drugs, notably alcohol.",
+           "links": []
+          },
+          {
+           "text": "Managing your prescription drug use. If you use potentially addictive prescription drugs, your doctor may recommend less addictive alternatives.",
+           "html": "Managing your prescription drug use. If you use potentially addictive prescription drugs, your doctor may recommend less addictive alternatives.",
+           "links": []
+          },
+          {
+           "text": "Offering lifestyle advice and support so that you can reverse and reduce the damage alcohol or drugs have caused to your mind and body.",
+           "html": "Offering lifestyle advice and support so that you can reverse and reduce the damage alcohol or drugs have caused to your mind and body.",
+           "links": []
+          },
+          {
+           "text": "Prescribing drugs for any underlying mental health conditions you may have, or any psychological conditions your addiction has caused.",
+           "html": "Prescribing drugs for any underlying mental health conditions you may have, or any psychological conditions your addiction has caused.",
+           "links": []
+          }
+         ]
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Family Support",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Family support is vital for recovery. This doesn’t mean everyone in your family must support your decisions, but having a few supportive allies in your corner is key. Family therapy can help you make amends for the pain your addiction has caused your family. From there, your family may benefit from a family education program about addiction, or find support through 12-step groups. Nar-Anon and Al-anon, the family support sister programs to Narcotics Anonymous and Alcoholics Anonymous, offer support across the globe, and at virtually every time of day.",
+         "html": "Family support is vital for recovery. This doesn’t mean everyone in your family must support your decisions, but having a few supportive allies in your corner is key. Family therapy can help you make amends for the pain your addiction has caused your family. From there, your family may benefit from a family education program about addiction, or find support through 12-step groups. Nar-Anon and Al-anon, the family support sister programs to Narcotics Anonymous and Alcoholics Anonymous, offer support across the globe, and at virtually every time of day.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "heading": "Going it Alone",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Going it alone—better known as white knuckle sobriety—is little more than a recipe for failure. If you don’t want to seek treatment, ask yourself why. Is it that you’re not really ready for sobriety? Don’t like the idea of admitting you have a problem? Whatever the motivation, you need to rethink it. Addiction is a disease, and without proper treatment, your odds of lasting and healthy recovery are virtually nonexistent. Contact Addiction Rehab Centres Canada today!",
+       "html": "Going it alone—better known as white knuckle sobriety—is little more than a recipe for failure. If you don’t want to seek treatment, ask yourself why. Is it that you’re not really ready for sobriety? Don’t like the idea of admitting you have a problem? Whatever the motivation, you need to rethink it. Addiction is a disease, and without proper treatment, your odds of lasting and healthy recovery are virtually nonexistent. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+   "alt": "drug addiction recovery",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "August 21, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Drug Addiction Recovery: Help & Options",
+   "html": "Drug Addiction Recovery: Help &amp; Options",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is a profoundly isolating experience, especially if loved ones have rejected you or shamed you because of your addiction struggles. But your addiction is not your fault. If you need drug addiction help, you have access to an array of options—the only questions is whether you’ll be willing to take advantage of them.",
+   "html": "Drug addiction is a profoundly isolating experience, especially if loved ones have rejected you or shamed you because of your addiction struggles. But your addiction is not your fault. If you need drug addiction help, you have access to an array of options—the only questions is whether you’ll be willing to take advantage of them.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Every year, nearly 25 million Americans struggle with addiction, but less than 10% seek the drug addiction help they need. Don’t be among their number. Drug addiction is not your fault, so there’s no reason to trap yourself in a cycle of denial and shame. Instead, the time to seek drug addiction recovery treatment is now.",
+   "html": "Every year, nearly 25 million Americans struggle with addiction, but <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/treatment-statistics\" rel=\"external noopener noreferrer\">less than 10% seek the drug addiction help they need</a>. Don’t be among their number. Drug addiction is not your fault, so there’s no reason to trap yourself in a cycle of denial and shame. Instead, the time to seek drug addiction recovery treatment is now.",
+   "links": [
+    {
+     "old": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics",
+     "text": "less than 10% seek the drug addiction help they need"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "There’s no single “right” option for drug addiction recovery. But you should know that, if you’re concerned about your ability to get and stay sober, inpatient rehab is the most comprehensive option, blending all or most common treatments under one roof. If you prefer to adopt a piecemeal approach, here are your options.",
+   "html": "There’s no single “right” option for drug addiction recovery. But you should know that, if you’re concerned about your ability to get and stay sober, inpatient rehab is the most comprehensive option, blending all or most common treatments under one roof. If you prefer to adopt a piecemeal approach, here are your options.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Individual Therapy",
+   "html": "Individual Therapy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Individual therapy is legally required to be confidential, freeing you up to explore whatever you want. Your therapist will explore with you why you became an addict, and help you identify your specific triggers for drug or alcohol abuse. He or she can also help you:",
+   "html": "Individual therapy is legally required to be confidential, freeing you up to explore whatever you want. Your therapist will explore with you why you became an addict, and help you identify your specific triggers for drug or alcohol abuse. He or she can also help you:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Master talking to loved ones about your addiction",
+     "html": "Master talking to loved ones about your addiction",
+     "links": []
+    },
+    {
+     "text": "Devise coping skills for resisting temptation",
+     "html": "Devise coping skills for resisting temptation",
+     "links": []
+    },
+    {
+     "text": "Identify problematic behaviors that contribute to your stress",
+     "html": "Identify problematic behaviors that contribute to your stress",
+     "links": []
+    },
+    {
+     "text": "Help you set and reach reasonable goals",
+     "html": "Help you set and reach reasonable goals",
+     "links": []
+    },
+    {
+     "text": "Offer you insight about helpful lifestyle changes",
+     "html": "Offer you insight about helpful lifestyle changes",
+     "links": []
+    },
+    {
+     "text": "Reassure you that you’re not broken or damaged jut because you’re an addict",
+     "html": "Reassure you that you’re not broken or damaged jut because you’re an addict",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Group Therapy",
+   "html": "Group Therapy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Group therapy might seem strange at first blush, but can prove invaluable in the fight against addiction. Group therapy works best when accompanied by individual therapy; without private time with a therapist, you won’t get everything out of therapy you can. The primary benefit of group therapy is that it provides a safe space for you to explore your relationships with others.",
+   "html": "Group therapy might seem strange at first blush, but can prove invaluable in the fight against addiction. Group therapy works best when accompanied by individual therapy; without private time with a therapist, you won’t get everything out of therapy you can. The primary benefit of group therapy is that it provides a safe space for you to explore your relationships with others.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "You may notice problematic interaction patterns, or your therapist might see things he or she might not otherwise notice. Additionally, group therapy with other addicts allows you to benefit from their hard-won wisdom. You might also pick up some coping skills from other members of your group, and chatting with other addicts can help you feel less alone.",
+   "html": "You may notice problematic interaction patterns, or your therapist might see things he or she might not otherwise notice. Additionally, group therapy with other addicts allows you to benefit from their hard-won wisdom. You might also pick up some coping skills from other members of your group, and chatting with other addicts can help you feel less alone.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Lifestyle Coaching",
+   "html": "Lifestyle Coaching",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction, experts often say, is a lifestyle disease, which means that it affects everything about your life, from your diet to your relationships. Lifestyle changes alone won’t get you sober—no matter how much that fad diet you’ve read about insists to the contrary. The following changes, though, have been scientifically validated as potentially effective in the fight against addiction:",
+   "html": "Addiction, experts often say, is a lifestyle disease, which means that it affects everything about your life, from your diet to your relationships. Lifestyle changes alone won’t get you sober—no matter how much that fad diet you’ve read about insists to the contrary. The following changes, though, have been scientifically validated as potentially effective in the fight against addiction:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Getting at least 150 minutes of exercise per week, especially strength training and stretching in the form of yoga",
+     "html": "Getting at least 150 minutes of exercise per week, especially strength training and stretching in the form of yoga",
+     "links": []
+    },
+    {
+     "text": "Meditation",
+     "html": "Meditation",
+     "links": []
+    },
+    {
+     "text": "Sticking to a regular schedule",
+     "html": "Sticking to a regular schedule",
+     "links": []
+    },
+    {
+     "text": "Eating a healthy, balanced unrestrictive diet",
+     "html": "Eating a healthy, balanced unrestrictive diet",
+     "links": []
+    },
+    {
+     "text": "Exploring new hobbies",
+     "html": "Exploring new hobbies",
+     "links": []
+    },
+    {
+     "text": "Replacing your previous addiction with a new skill",
+     "html": "Replacing your previous addiction with a new skill",
+     "links": []
+    },
+    {
+     "text": "Spending time with loved ones",
+     "html": "Spending time with loved ones",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "12-Step Programs",
+   "html": "12-Step Programs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "12-step programs such as Narcotics Anonymous and Alcoholics Anonymous are self-help programs that encourage you to navigate 12 steps to sobriety. Programs are confidential, with meetings at virtually every time of day, and at locations across the globe. Many addicts are able to recover solely with the assistance of such programs, while others use them to augment a more intensive recovery program. The fellowship these programs offer can help you feel less isolated, and if you need some one-on-one support, you can even select a sponsor upon whom to call when you’re feeling hopeless or overwhelmed.",
+   "html": "12-step programs such as Narcotics Anonymous and Alcoholics Anonymous are self-help programs that encourage you to navigate 12 steps to sobriety. Programs are confidential, with meetings at virtually every time of day, and at locations across the globe. Many addicts are able to recover solely with the assistance of such programs, while others use them to augment a more intensive recovery program. The fellowship these programs offer can help you feel less isolated, and if you need some one-on-one support, you can even select a sponsor upon whom to call when you’re feeling hopeless or overwhelmed.<strong> </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Medical Care",
+   "html": "Medical Care",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction is a disease, so it just makes good sense to include your doctor in the recovery process. Drug addiction recovery first requires going through detox, and it’s wise to get the assistance of a caring, competent physician as you navigate the detox process. Some of the other things an addiction medicine expert can do to help you as you journey toward sobriety include:",
+   "html": "Addiction is a disease, so it just makes good sense to include your doctor in the recovery process. Drug addiction recovery first requires going through detox, and it’s wise to get the assistance of a caring, competent physician as you navigate the detox process. Some of the other things an addiction medicine expert can do to help you as you journey toward sobriety include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Addressing drug-related symptoms as they arise. For instance, you might suffer from depression or anxiety during detox, or you could experience longer term health issues, such as hepatitis or cirrhosis of the liver. By addressing these problems, you can increase your odds of sobriety success.",
+     "html": "Addressing drug-related symptoms as they arise. For instance, you might suffer from depression or anxiety during detox, or you could experience longer term health issues, such as hepatitis or cirrhosis of the liver. By addressing these problems, you can increase your odds of sobriety success.",
+     "links": []
+    },
+    {
+     "text": "Offering medications to reduce the severity of detox and cravings. Doctors have developed drugs to counteract cravings for some drugs, notably alcohol.",
+     "html": "Offering medications to reduce the severity of detox and cravings. Doctors have developed drugs to counteract cravings for some drugs, notably alcohol.",
+     "links": []
+    },
+    {
+     "text": "Managing your prescription drug use. If you use potentially addictive prescription drugs, your doctor may recommend less addictive alternatives.",
+     "html": "Managing your prescription drug use. If you use potentially addictive prescription drugs, your doctor may recommend less addictive alternatives.",
+     "links": []
+    },
+    {
+     "text": "Offering lifestyle advice and support so that you can reverse and reduce the damage alcohol or drugs have caused to your mind and body.",
+     "html": "Offering lifestyle advice and support so that you can reverse and reduce the damage alcohol or drugs have caused to your mind and body.",
+     "links": []
+    },
+    {
+     "text": "Prescribing drugs for any underlying mental health conditions you may have, or any psychological conditions your addiction has caused.",
+     "html": "Prescribing drugs for any underlying mental health conditions you may have, or any psychological conditions your addiction has caused.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Family Support",
+   "html": "Family Support",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Family support is vital for recovery. This doesn’t mean everyone in your family must support your decisions, but having a few supportive allies in your corner is key. Family therapy can help you make amends for the pain your addiction has caused your family. From there, your family may benefit from a family education program about addiction, or find support through 12-step groups. Nar-Anon and Al-anon, the family support sister programs to Narcotics Anonymous and Alcoholics Anonymous, offer support across the globe, and at virtually every time of day.",
+   "html": "Family support is vital for recovery. This doesn’t mean everyone in your family must support your decisions, but having a few supportive allies in your corner is key. Family therapy can help you make amends for the pain your addiction has caused your family. From there, your family may benefit from a family education program about addiction, or find support through 12-step groups. Nar-Anon and Al-anon, the family support sister programs to Narcotics Anonymous and Alcoholics Anonymous, offer support across the globe, and at virtually every time of day.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Going it Alone",
+   "html": "Going it Alone",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Going it alone—better known as white knuckle sobriety—is little more than a recipe for failure. If you don’t want to seek treatment, ask yourself why. Is it that you’re not really ready for sobriety? Don’t like the idea of admitting you have a problem? Whatever the motivation, you need to rethink it. Addiction is a disease, and without proper treatment, your odds of lasting and healthy recovery are virtually nonexistent. Contact Addiction Rehab Centres Canada today!",
+   "html": "Going it alone—better known as white knuckle sobriety—is little more than a recipe for failure. If you don’t want to seek treatment, ask yourself why. Is it that you’re not really ready for sobriety? Don’t like the idea of admitting you have a problem? Whatever the motivation, you need to rethink it. Addiction is a disease, and without proper treatment, your odds of lasting and healthy recovery are virtually nonexistent. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-08-21T18:28:53+00:00",
+  "modified": "2022-09-12T19:09:37+00:00",
+  "date_label": "August 21, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 975,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"drug addiction recovery\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/drug-addiction-recovery-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                August 21, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Drug Addiction Recovery: Help &amp; Options    </h1> <p>Drug addiction is a profoundly isolating experience, especially if loved ones have rejected you or shamed you because of your addiction struggles. But your addiction is not your fault. If you need drug addiction help, you have access to an array of options—the only questions is whether you’ll be willing to take advantage of them.</p>\n<p>Every year, nearly 25 million Americans struggle with addiction, but <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/treatment-statistics\" rel=\"external noopener noreferrer\">less than 10% seek the drug addiction help they need</a>. Don’t be among their number. Drug addiction is not your fault, so there’s no reason to trap yourself in a cycle of denial and shame. Instead, the time to seek drug addiction recovery treatment is now.</p>\n<p>There’s no single “right” option for drug addiction recovery. But you should know that, if you’re concerned about your ability to get and stay sober, inpatient rehab is the most comprehensive option, blending all or most common treatments under one roof. If you prefer to adopt a piecemeal approach, here are your options.</p>\n<h3>Individual Therapy</h3>\n<p>Individual therapy is legally required to be confidential, freeing you up to explore whatever you want. Your therapist will explore with you why you became an addict, and help you identify your specific triggers for drug or alcohol abuse. He or she can also help you:</p>\n<ul>\n<li>Master talking to loved ones about your addiction</li>\n<li>Devise coping skills for resisting temptation</li>\n<li>Identify problematic behaviors that contribute to your stress</li>\n<li>Help you set and reach reasonable goals</li>\n<li>Offer you insight about helpful lifestyle changes</li>\n<li>Reassure you that you’re not broken or damaged jut because you’re an addict</li>\n</ul>\n<h3>Group Therapy</h3>\n<p>Group therapy might seem strange at first blush, but can prove invaluable in the fight against addiction. Group therapy works best when accompanied by individual therapy; without private time with a therapist, you won’t get everything out of therapy you can. The primary benefit of group therapy is that it provides a safe space for you to explore your relationships with others.</p>\n<p>You may notice problematic interaction patterns, or your therapist might see things he or she might not otherwise notice. Additionally, group therapy with other addicts allows you to benefit from their hard-won wisdom. You might also pick up some coping skills from other members of your group, and chatting with other addicts can help you feel less alone.</p>\n<h2>Lifestyle Coaching</h2>\n<p>Addiction, experts often say, is a lifestyle disease, which means that it affects everything about your life, from your diet to your relationships. Lifestyle changes alone won’t get you sober—no matter how much that fad diet you’ve read about insists to the contrary. The following changes, though, have been scientifically validated as potentially effective in the fight against addiction:</p>\n<ul>\n<li>Getting at least 150 minutes of exercise per week, especially strength training and stretching in the form of yoga</li>\n<li>Meditation</li>\n<li>Sticking to a regular schedule</li>\n<li>Eating a healthy, balanced unrestrictive diet</li>\n<li>Exploring new hobbies</li>\n<li>Replacing your previous addiction with a new skill</li>\n<li>Spending time with loved ones</li>\n</ul>\n<h2>12-Step Programs</h2>\n<p>12-step programs such as Narcotics Anonymous and Alcoholics Anonymous are self-help programs that encourage you to navigate 12 steps to sobriety. Programs are confidential, with meetings at virtually every time of day, and at locations across the globe. Many addicts are able to recover solely with the assistance of such programs, while others use them to augment a more intensive recovery program. The fellowship these programs offer can help you feel less isolated, and if you need some one-on-one support, you can even select a sponsor upon whom to call when you’re feeling hopeless or overwhelmed.<strong> </strong></p>\n<h3>Medical Care</h3>\n<p>Addiction is a disease, so it just makes good sense to include your doctor in the recovery process. Drug addiction recovery first requires going through detox, and it’s wise to get the assistance of a caring, competent physician as you navigate the detox process. Some of the other things an addiction medicine expert can do to help you as you journey toward sobriety include:</p>\n<ul>\n<li>Addressing drug-related symptoms as they arise. For instance, you might suffer from depression or anxiety during detox, or you could experience longer term health issues, such as hepatitis or cirrhosis of the liver. By addressing these problems, you can increase your odds of sobriety success.</li>\n<li>Offering medications to reduce the severity of detox and cravings. Doctors have developed drugs to counteract cravings for some drugs, notably alcohol.</li>\n<li>Managing your prescription drug use. If you use potentially addictive prescription drugs, your doctor may recommend less addictive alternatives.</li>\n<li>Offering lifestyle advice and support so that you can reverse and reduce the damage alcohol or drugs have caused to your mind and body.</li>\n<li>Prescribing drugs for any underlying mental health conditions you may have, or any psychological conditions your addiction has caused.</li>\n</ul>\n<h3>Family Support</h3>\n<p>Family support is vital for recovery. This doesn’t mean everyone in your family must support your decisions, but having a few supportive allies in your corner is key. Family therapy can help you make amends for the pain your addiction has caused your family. From there, your family may benefit from a family education program about addiction, or find support through 12-step groups. Nar-Anon and Al-anon, the family support sister programs to Narcotics Anonymous and Alcoholics Anonymous, offer support across the globe, and at virtually every time of day.</p>\n<h2>Going it Alone</h2>\n<p>Going it alone—better known as white knuckle sobriety—is little more than a recipe for failure. If you don’t want to seek treatment, ask yourself why. Is it that you’re not really ready for sobriety? Don’t like the idea of admitting you have a problem? Whatever the motivation, you need to rethink it. Addiction is a disease, and without proper treatment, your odds of lasting and healthy recovery are virtually nonexistent. Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

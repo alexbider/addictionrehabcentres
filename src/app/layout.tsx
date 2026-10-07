@@ -11,6 +11,7 @@ import './dc-pseudo.css';
 import './responsive.css';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://addictionrehabcenters.ca'),
   title: 'Addiction Rehab Centres Canada',
 };
 

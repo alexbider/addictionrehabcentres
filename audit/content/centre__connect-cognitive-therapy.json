@@ -1,0 +1,2744 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__connect-cognitive-therapy",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/connect-cognitive-therapy/",
+  "path": "/connect-cognitive-therapy/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/connect-cognitive-therapy/",
+ "seo": {
+  "meta_title": "Connect Cognitive Therapy - Addiction Rehab Centers",
+  "meta_description": "Connect Cognitive Therapy offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/connect-cognitive-therapy/",
+  "og": {
+   "title": "Connect Cognitive Therapy - Addiction Rehab Centers",
+   "description": "Connect Cognitive Therapy offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/connect-cognitive-therapy/",
+      "url": "https://addictionrehabcenters.ca/connect-cognitive-therapy/",
+      "name": "Connect Cognitive Therapy - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/connect-cognitive-therapy/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/connect-cognitive-therapy/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+      "datePublished": "2021-09-28T15:44:14+00:00",
+      "dateModified": "2023-04-17T09:40:41+00:00",
+      "description": "Connect Cognitive Therapy offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/connect-cognitive-therapy/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/connect-cognitive-therapy/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/connect-cognitive-therapy/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "Clsc Alberta Health Services"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/connect-cognitive-therapy/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Connect Cognitive Therapy"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What is Connect Cognitive Therapy?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What services does Connect Cognitive Therapy offer?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the focus of Connect Cognitive Therapy's treatment approach?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Connect Cognitive Therapy&#8217;s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual&#8217;s mental health challenges.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where is Connect Cognitive Therapy located?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Connect Cognitive Therapy is located in Mississauga, Ontario.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What types of therapy does Connect Cognitive Therapy offer?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the goal of Connect Cognitive Therapy's treatment program?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>The goal of Connect Cognitive Therapy&#8217;s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What makes Connect Cognitive Therapy unique?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Connect Cognitive Therapy&#8217;s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 773,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "Connect Cognitive Therapy Centre - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h4",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Connect Cognitive Therapy"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2.jpeg",
+   "local_path": "images/centre__connect-cognitive-therapy/medium-2.jpeg",
+   "alt": "",
+   "width": 916,
+   "height": 1000,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large.jpeg",
+   "local_path": "images/centre__connect-cognitive-therapy/large.jpeg",
+   "alt": "",
+   "width": 1100,
+   "height": 1500,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg",
+   "local_path": "images/centre__connect-cognitive-therapy/images-3.jpg",
+   "alt": "",
+   "width": 214,
+   "height": 236,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg",
+   "local_path": "images/centre__connect-cognitive-therapy/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg",
+   "alt": "",
+   "width": 2560,
+   "height": 1707,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1.jpg",
+   "local_path": "images/centre__connect-cognitive-therapy/couple-1.jpg",
+   "alt": "",
+   "width": 1300,
+   "height": 865,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1.jpg",
+   "local_path": "images/centre__connect-cognitive-therapy/individual-1.jpg",
+   "alt": "",
+   "width": 1300,
+   "height": 869,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1.jpg",
+   "local_path": "images/centre__connect-cognitive-therapy/cbt-1.jpg",
+   "alt": "",
+   "width": 1300,
+   "height": 976,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2.jpeg",
+   "local_path": "images/centre__connect-cognitive-therapy/large-2.jpeg",
+   "alt": "",
+   "width": 1315,
+   "height": 1374,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg",
+   "local_path": "images/centre__connect-cognitive-therapy/large-1.jpeg",
+   "alt": "",
+   "width": 236,
+   "height": 260,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2.jpeg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/medium-2.jpeg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large.jpeg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/large.jpeg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/images-3.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/couple-1.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/individual-1.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1.jpg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/cbt-1.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2.jpeg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/large-2.jpeg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg",
+   "text": "",
+   "kind": "asset",
+   "new": "/wp-content/uploads/2021/09/large-1.jpeg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/toronto-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/toronto-rehabs/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(289) 203-1033",
+   "text": "(289) 203-1033",
+   "kind": "tel",
+   "new": "tel:(289) 203-1033"
+  },
+  {
+   "old_href": "mailto:info@connectcbt.com",
+   "text": "info@connectcbt.com",
+   "kind": "mailto",
+   "new": "mailto:info@connectcbt.com"
+  },
+  {
+   "old_href": "https://www.connectcbt.com/",
+   "text": "https://www.connectcbt.com/",
+   "kind": "external",
+   "new": "https://www.connectcbt.com/"
+  },
+  {
+   "old_href": "https://www.facebook.com/connectcbt/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/connectcbt/"
+  },
+  {
+   "old_href": "https://twitter.com/connect_cbt",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/connect_cbt"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.",
+     "html": "Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+     "html": "Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.",
+     "html": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.",
+     "html": "With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Connect Cognitive Therapy Centre - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.",
+     "html": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Connect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Connect Cognitive Therapy",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is Connect Cognitive Therapy?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+       "html": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What services does Connect Cognitive Therapy offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+       "html": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the focus of Connect Cognitive Therapy's treatment approach?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+       "html": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Where is Connect Cognitive Therapy located?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+       "html": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of therapy does Connect Cognitive Therapy offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+       "html": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the goal of Connect Cognitive Therapy's treatment program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+       "html": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What makes Connect Cognitive Therapy unique?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+       "html": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(289) 203-1033",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(289) 203-1033\" itemprop=\"url\">(289) 203-1033</a>",
+         "links": [
+          {
+           "old": "tel:(289) 203-1033",
+           "text": "(289) 203-1033"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@connectcbt.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@connectcbt.com\" itemprop=\"url\">info@connectcbt.com</a>",
+         "links": [
+          {
+           "old": "mailto:info@connectcbt.com",
+           "text": "info@connectcbt.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://www.connectcbt.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.connectcbt.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.connectcbt.com/</a>",
+         "links": [
+          {
+           "old": "https://www.connectcbt.com/",
+           "text": "https://www.connectcbt.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "168 Queen St S #211, Mississauga, ON L5M 1K8, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    168 Queen St S #211, Mississauga, ON L5M 1K8, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:38pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.",
+   "html": "Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+   "html": "Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.",
+   "html": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.",
+   "html": "With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Connect Cognitive Therapy Centre - Center Overview",
+   "html": "Connect Cognitive Therapy Centre - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.",
+   "html": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Connect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Connect Cognitive Therapy",
+   "html": "Frequently Asked Questions About Connect Cognitive Therapy",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is Connect Cognitive Therapy?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+   "html": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What services does Connect Cognitive Therapy offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+   "html": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the focus of Connect Cognitive Therapy's treatment approach?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+   "html": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Where is Connect Cognitive Therapy located?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+   "html": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of therapy does Connect Cognitive Therapy offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+   "html": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the goal of Connect Cognitive Therapy's treatment program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+   "html": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What makes Connect Cognitive Therapy unique?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+   "html": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(289) 203-1033",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(289) 203-1033\" itemprop=\"url\">(289) 203-1033</a>",
+   "links": [
+    {
+     "old": "tel:(289) 203-1033",
+     "text": "(289) 203-1033"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@connectcbt.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@connectcbt.com\" itemprop=\"url\">info@connectcbt.com</a>",
+   "links": [
+    {
+     "old": "mailto:info@connectcbt.com",
+     "text": "info@connectcbt.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://www.connectcbt.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.connectcbt.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.connectcbt.com/</a>",
+   "links": [
+    {
+     "old": "https://www.connectcbt.com/",
+     "text": "https://www.connectcbt.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "168 Queen St S #211, Mississauga, ON L5M 1K8, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    168 Queen St S #211, Mississauga, ON L5M 1K8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:38pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Connect Cognitive Therapy",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6846\" data-elementor-id=\"6846\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-042153f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"042153f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0405c5f\" data-element_type=\"column\" data-id=\"0405c5f\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-75cc6ec elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"75cc6ec\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b46668\" data-element_type=\"column\" data-id=\"3b46668\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-2ecad0c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"2ecad0c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.</p><p>Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.</p><p>Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.</p><p>With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-f95fabc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"f95fabc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-88687be\" data-element_type=\"column\" data-id=\"88687be\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-2758caa elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"2758caa\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-78b67ba elementor-widget elementor-widget-gallery\" data-element_type=\"widget\" data-id=\"78b67ba\" data-settings='{\"columns\":3,\"lazyload\":\"yes\",\"gallery_layout\":\"grid\",\"columns_tablet\":2,\"columns_mobile\":1,\"gap\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_tablet\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_mobile\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"link_to\":\"file\",\"aspect_ratio\":\"3:2\",\"overlay_background\":\"yes\",\"content_hover_animation\":\"fade-in\"}' data-widget_type=\"gallery.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-gallery__container\">\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MTksInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9tZWRpdW0tMi5qcGVnIiwic2xpZGVzaG93IjoiNzhiNjdiYSJ9\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2-275x300.jpeg\" data-width=\"275\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjAsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9sYXJnZS5qcGVnIiwic2xpZGVzaG93IjoiNzhiNjdiYSJ9\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-220x300.jpeg\" data-width=\"220\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjEsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9pbWFnZXMtMy5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"images (3)\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"236\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg\" data-width=\"214\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjIsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC90b2EtaGVmdGliYS1GVjNHQ29uVlNzcy11bnNwbGFzaC1zY2FsZWQtMS5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"toa-heftiba-FV3GConVSss-unsplash-scaled\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"200\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1-300x200.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjMsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9jb3VwbGUtMS5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"couple-1\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"200\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1-300x200.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjQsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9pbmRpdmlkdWFsLTEuanBnIiwic2xpZGVzaG93IjoiNzhiNjdiYSJ9\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"individual-1\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"201\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1-300x201.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjUsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9jYnQtMS5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"cbt-1\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"225\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1-300x225.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjYsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9sYXJnZS0yLmpwZWciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2-287x300.jpeg\" data-width=\"287\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjcsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9sYXJnZS0xLmpwZWciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"260\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg\" data-width=\"236\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8339c0c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"8339c0c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dea6865\" data-element_type=\"column\" data-id=\"dea6865\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7b17604 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7b17604\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-2e1c611 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"2e1c611\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Connect Cognitive Therapy Centre - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-d4940f0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"d4940f0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2931a97 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2931a97\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-488b2e3\" data-element_type=\"column\" data-id=\"488b2e3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-b200e1a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"b200e1a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-823980f\" data-element_type=\"column\" data-id=\"823980f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-dc1bb7d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"dc1bb7d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3cfb68e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3cfb68e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e2079f\" data-element_type=\"column\" data-id=\"5e2079f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-56be766 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"56be766\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tConnect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-a5835b5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"a5835b5\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-e8e7d83 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"e8e7d83\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-41a6751 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"41a6751\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7aaf188\" data-element_type=\"column\" data-id=\"7aaf188\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-118f825 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"118f825\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6629a05 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6629a05\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-389ad74\" data-element_type=\"column\" data-id=\"389ad74\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d6698d1 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"d6698d1\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Connect Cognitive Therapy</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-cdc1564 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"cdc1564\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2151\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-2151\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Connect Cognitive Therapy?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2151\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-2151\" role=\"region\"><p> Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2152\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-2152\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What services does Connect Cognitive Therapy offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2152\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-2152\" role=\"region\"><p> Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2153\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-2153\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the focus of Connect Cognitive Therapy's treatment approach?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2153\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-2153\" role=\"region\"><p>Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2154\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-2154\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Where is Connect Cognitive Therapy located?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2154\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-2154\" role=\"region\"><p>Connect Cognitive Therapy is located in Mississauga, Ontario.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2155\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-2155\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapy does Connect Cognitive Therapy offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2155\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-2155\" role=\"region\"><p> Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2156\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-2156\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the goal of Connect Cognitive Therapy's treatment program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2156\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-2156\" role=\"region\"><p>The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2157\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-2157\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What makes Connect Cognitive Therapy unique?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2157\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-2157\" role=\"region\"><p> Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(289) 203-1033",
+  "email": "info@connectcbt.com",
+  "website": "https://www.connectcbt.com/",
+  "address": "168 Queen St S #211, Mississauga, ON L5M 1K8, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/connectcbt/",
+   "twitter": "https://twitter.com/connect_cbt"
+  },
+  "gallery": [],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.",
+    "html": "Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+    "html": "Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.",
+    "html": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.",
+    "html": "With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2.jpeg",
+    "alt": "",
+    "width": "275",
+    "height": "300"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large.jpeg",
+    "alt": "",
+    "width": "220",
+    "height": "300"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg",
+    "alt": "",
+    "width": "214",
+    "height": "236"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "200"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "200"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "201"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1.jpg",
+    "alt": "",
+    "width": "300",
+    "height": "225"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2.jpeg",
+    "alt": "",
+    "width": "287",
+    "height": "300"
+   },
+   {
+    "type": "image",
+    "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg",
+    "alt": "",
+    "width": "236",
+    "height": "260"
+   },
+   {
+    "type": "h2",
+    "text": "Connect Cognitive Therapy Centre - Center Overview",
+    "html": "Connect Cognitive Therapy Centre - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.",
+    "html": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Connect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Connect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Connect Cognitive Therapy",
+  "faqs": [
+   {
+    "question": "What is Connect Cognitive Therapy?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+      "html": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues."
+   },
+   {
+    "question": "What services does Connect Cognitive Therapy offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+      "html": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling."
+   },
+   {
+    "question": "What is the focus of Connect Cognitive Therapy's treatment approach?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+      "html": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges."
+   },
+   {
+    "question": "Where is Connect Cognitive Therapy located?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+      "html": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Connect Cognitive Therapy is located in Mississauga, Ontario."
+   },
+   {
+    "question": "What types of therapy does Connect Cognitive Therapy offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+      "html": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling."
+   },
+   {
+    "question": "What is the goal of Connect Cognitive Therapy's treatment program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+      "html": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives."
+   },
+   {
+    "question": "What makes Connect Cognitive Therapy unique?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+      "html": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(289) 203-1033",
+  "phone_href": "tel:(289) 203-1033",
+  "website_text": "https://www.connectcbt.com/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What is Connect Cognitive Therapy?",
+   "answer_text": "Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.",
+   "answer_html": "<p> Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What services does Connect Cognitive Therapy offer?",
+   "answer_text": "Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+   "answer_html": "<p> Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the focus of Connect Cognitive Therapy's treatment approach?",
+   "answer_text": "Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.",
+   "answer_html": "<p>Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Where is Connect Cognitive Therapy located?",
+   "answer_text": "Connect Cognitive Therapy is located in Mississauga, Ontario.",
+   "answer_html": "<p>Connect Cognitive Therapy is located in Mississauga, Ontario.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of therapy does Connect Cognitive Therapy offer?",
+   "answer_text": "Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.",
+   "answer_html": "<p> Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the goal of Connect Cognitive Therapy's treatment program?",
+   "answer_text": "The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.",
+   "answer_html": "<p>The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What makes Connect Cognitive Therapy unique?",
+   "answer_text": "Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.",
+   "answer_html": "<p> Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6846\" data-elementor-id=\"6846\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-042153f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"042153f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0405c5f\" data-element_type=\"column\" data-id=\"0405c5f\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-75cc6ec elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"75cc6ec\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3b46668\" data-element_type=\"column\" data-id=\"3b46668\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-2ecad0c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"2ecad0c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Connect Cognitive Therapy is a private rehab center based in Mississauga, Ontario, that offers specialized treatment for mental health issues. With a focus on evidence-based practices, they provide a wide range of therapies and amenities to help individuals achieve mental wellness.</p><p>Their specialties include family services, substance abuse treatment, and outpatient drug rehab. With these services, they aim to provide holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.</p><p>Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling to help individuals achieve a balanced and healthy lifestyle.</p><p>With a commitment to evidence-based practices, Connect Cognitive Therapy provides a safe and supportive environment for individuals to work through their mental health challenges. They strive to help each person develop the skills and tools needed to manage their mental health and live a fulfilling life.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-f95fabc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"f95fabc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-88687be\" data-element_type=\"column\" data-id=\"88687be\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-2758caa elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"2758caa\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-78b67ba elementor-widget elementor-widget-gallery\" data-element_type=\"widget\" data-id=\"78b67ba\" data-settings='{\"columns\":3,\"lazyload\":\"yes\",\"gallery_layout\":\"grid\",\"columns_tablet\":2,\"columns_mobile\":1,\"gap\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_tablet\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"gap_mobile\":{\"unit\":\"px\",\"size\":10,\"sizes\":[]},\"link_to\":\"file\",\"aspect_ratio\":\"3:2\",\"overlay_background\":\"yes\",\"content_hover_animation\":\"fade-in\"}' data-widget_type=\"gallery.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-gallery__container\">\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MTksInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9tZWRpdW0tMi5qcGVnIiwic2xpZGVzaG93IjoiNzhiNjdiYSJ9\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/medium-2-275x300.jpeg\" data-width=\"275\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjAsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9sYXJnZS5qcGVnIiwic2xpZGVzaG93IjoiNzhiNjdiYSJ9\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-220x300.jpeg\" data-width=\"220\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjEsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9pbWFnZXMtMy5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"images (3)\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"236\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/images-3.jpg\" data-width=\"214\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjIsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC90b2EtaGVmdGliYS1GVjNHQ29uVlNzcy11bnNwbGFzaC1zY2FsZWQtMS5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"toa-heftiba-FV3GConVSss-unsplash-scaled\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"200\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/toa-heftiba-FV3GConVSss-unsplash-scaled-1-300x200.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjMsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9jb3VwbGUtMS5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"couple-1\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"200\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/couple-1-300x200.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjQsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9pbmRpdmlkdWFsLTEuanBnIiwic2xpZGVzaG93IjoiNzhiNjdiYSJ9\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"individual-1\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"201\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/individual-1-300x201.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjUsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9jYnQtMS5qcGciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"cbt-1\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1.jpg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"225\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cbt-1-300x225.jpg\" data-width=\"300\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjYsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9sYXJnZS0yLmpwZWciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"300\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-2-287x300.jpeg\" data-width=\"287\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n<a class=\"e-gallery-item elementor-gallery-item elementor-animated-content\" data-e-action-hash=\"#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTQ1MjcsInVybCI6Imh0dHBzOlwvXC9hZGRpY3Rpb25yZWhhYmNlbnRlcnMuY2FcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA5XC9sYXJnZS0xLmpwZWciLCJzbGlkZXNob3ciOiI3OGI2N2JhIn0%3D\" data-elementor-lightbox-slideshow=\"78b67ba\" data-elementor-lightbox-title=\"As seen on a Sussex Directories Inc site\" data-elementor-open-lightbox=\"yes\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg\">\n<div aria-label=\"\" class=\"e-gallery-image elementor-gallery-item__image\" data-height=\"260\" data-thumbnail=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/large-1.jpeg\" data-width=\"236\" role=\"img\"></div>\n<div class=\"elementor-gallery-item__overlay\"></div>\n</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-8339c0c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"8339c0c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dea6865\" data-element_type=\"column\" data-id=\"dea6865\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7b17604 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7b17604\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-2e1c611 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"2e1c611\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Connect Cognitive Therapy Centre - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-d4940f0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"d4940f0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues. They provide evidence-based practices and a range of therapies, including individual, family, and group counseling, as well as holistic treatments like yoga and meditation, art and nature therapy, and nutritional counseling. Their services include family services, substance abuse treatment, and outpatient drug rehab. With a focus on achieving holistic care, Connect Cognitive Therapy provides a safe and supportive environment where individuals can develop the necessary skills and tools to manage their mental health and lead fulfilling lives.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2931a97 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2931a97\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-488b2e3\" data-element_type=\"column\" data-id=\"488b2e3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-b200e1a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"b200e1a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-823980f\" data-element_type=\"column\" data-id=\"823980f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-dc1bb7d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"dc1bb7d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3cfb68e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3cfb68e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5e2079f\" data-element_type=\"column\" data-id=\"5e2079f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-56be766 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"56be766\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tConnect Cognitive Therapy Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-a5835b5 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"a5835b5\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-e8e7d83 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"e8e7d83\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-41a6751 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"41a6751\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7aaf188\" data-element_type=\"column\" data-id=\"7aaf188\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-118f825 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"118f825\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6629a05 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6629a05\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-389ad74\" data-element_type=\"column\" data-id=\"389ad74\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d6698d1 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"d6698d1\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Connect Cognitive Therapy</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-cdc1564 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"cdc1564\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2151\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-2151\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Connect Cognitive Therapy?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2151\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-2151\" role=\"region\"><p> Connect Cognitive Therapy is a private rehab center located in Mississauga, Ontario, that specializes in the treatment of mental health issues.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2152\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-2152\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What services does Connect Cognitive Therapy offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2152\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-2152\" role=\"region\"><p> Connect Cognitive Therapy offers a range of services, including family services, substance abuse treatment, and outpatient drug rehab. They also provide individual, family, and group counseling, as well as holistic treatments such as yoga and meditation, art and nature therapy, and nutritional counseling.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2153\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-2153\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the focus of Connect Cognitive Therapy's treatment approach?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2153\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-2153\" role=\"region\"><p>Connect Cognitive Therapy’s treatment approach focuses on evidence-based practices and achieving holistic care that addresses the underlying issues contributing to an individual’s mental health challenges.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2154\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-2154\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Where is Connect Cognitive Therapy located?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2154\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-2154\" role=\"region\"><p>Connect Cognitive Therapy is located in Mississauga, Ontario.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2155\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-2155\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapy does Connect Cognitive Therapy offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2155\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-2155\" role=\"region\"><p> Connect Cognitive Therapy offers a variety of therapies, including individual therapy and counseling, family therapy and counseling, and group therapy and counseling. They also offer holistic therapies such as yoga and meditation, art and nature therapy, and nutritional counseling.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2156\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-2156\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the goal of Connect Cognitive Therapy's treatment program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2156\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-2156\" role=\"region\"><p>The goal of Connect Cognitive Therapy’s treatment program is to help individuals develop the necessary skills and tools to manage their mental health challenges and live fulfilling lives.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-2157\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-2157\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What makes Connect Cognitive Therapy unique?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-2157\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-2157\" role=\"region\"><p> Connect Cognitive Therapy’s focus on evidence-based practices and holistic care, as well as their range of services and therapies, make them unique in their approach to treating mental health issues. They also provide a safe and supportive environment for individuals to work through their challenges.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(289) 203-1033\" itemprop=\"url\">(289) 203-1033</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@connectcbt.com\" itemprop=\"url\">info@connectcbt.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.connectcbt.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.connectcbt.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    168 Queen St S #211, Mississauga, ON L5M 1K8, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:38pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/connectcbt/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/connect_cbt\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

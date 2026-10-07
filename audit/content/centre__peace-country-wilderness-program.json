@@ -1,0 +1,830 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__peace-country-wilderness-program",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+  "path": "/peace-country-wilderness-program/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/peace-country-wilderness-program/",
+ "seo": {
+  "meta_title": "Peace Country Wilderness Program - Addiction Rehab Centers",
+  "meta_description": "Peace Country Wilderness Program offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+  "og": {
+   "title": "Peace Country Wilderness Program - Addiction Rehab Centers",
+   "description": "Peace Country Wilderness Program offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+      "url": "https://addictionrehabcenters.ca/peace-country-wilderness-program/",
+      "name": "Peace Country Wilderness Program - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/peace-country-wilderness-program/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/peace-country-wilderness-program/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center.jpg",
+      "datePublished": "2021-09-28T15:42:49+00:00",
+      "dateModified": "2022-01-07T19:53:18+00:00",
+      "description": "Peace Country Wilderness Program offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/peace-country-wilderness-program/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/peace-country-wilderness-program/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/peace-country-wilderness-program/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center.jpg",
+      "width": 929,
+      "height": 565,
+      "caption": "pace center"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/peace-country-wilderness-program/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Peace Country Wilderness Program"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 444,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Center"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center-1.jpg",
+   "local_path": "images/centre__peace-country-wilderness-program/pace-center-1.jpg",
+   "alt": "",
+   "width": 929,
+   "height": 565,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-3.jpg",
+   "local_path": "images/centre__peace-country-wilderness-program/pace-3.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-2.jpg",
+   "local_path": "images/centre__peace-country-wilderness-program/pace-2.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center.jpg",
+   "local_path": "images/centre__peace-country-wilderness-program/pace-center.jpg",
+   "alt": "pace center",
+   "width": 929,
+   "height": 565,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "tel:(780) 539-6692",
+   "text": "(780) 539-6692",
+   "kind": "tel",
+   "new": "tel:(780) 539-6692"
+  },
+  {
+   "old_href": "mailto:askpace@pacecentre.com",
+   "text": "askpace@pacecentre.com",
+   "kind": "mailto",
+   "new": "mailto:askpace@pacecentre.com"
+  },
+  {
+   "old_href": "https://pacecentre.com/",
+   "text": "https://pacecentre.com/",
+   "kind": "external",
+   "new": "https://pacecentre.com/"
+  },
+  {
+   "old_href": "https://web.facebook.com/PaceCentreGP/?_rdc=1&_rdr",
+   "text": "",
+   "kind": "external",
+   "new": "https://web.facebook.com/PaceCentreGP/?_rdc=1&_rdr"
+  },
+  {
+   "old_href": "https://twitter.com/PACECentreGP",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/PACECentreGP"
+  },
+  {
+   "old_href": "https://www.instagram.com/pacecentregp/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/pacecentregp/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Center",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.",
+     "html": "The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "(780) 539-6692",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(780) 539-6692\" itemprop=\"url\">(780) 539-6692</a>",
+       "links": [
+        {
+         "old": "tel:(780) 539-6692",
+         "text": "(780) 539-6692"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "askpace@pacecentre.com",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:askpace@pacecentre.com\" itemprop=\"url\">askpace@pacecentre.com</a>",
+       "links": [
+        {
+         "old": "mailto:askpace@pacecentre.com",
+         "text": "askpace@pacecentre.com"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "https://pacecentre.com/",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://pacecentre.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://pacecentre.com/</a>",
+       "links": [
+        {
+         "old": "https://pacecentre.com/",
+         "text": "https://pacecentre.com/"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "Social",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Center",
+   "html": "<strong>About</strong> Center",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.",
+   "html": "The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "(780) 539-6692",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(780) 539-6692\" itemprop=\"url\">(780) 539-6692</a>",
+   "links": [
+    {
+     "old": "tel:(780) 539-6692",
+     "text": "(780) 539-6692"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "askpace@pacecentre.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:askpace@pacecentre.com\" itemprop=\"url\">askpace@pacecentre.com</a>",
+   "links": [
+    {
+     "old": "mailto:askpace@pacecentre.com",
+     "text": "askpace@pacecentre.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://pacecentre.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://pacecentre.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://pacecentre.com/</a>",
+   "links": [
+    {
+     "old": "https://pacecentre.com/",
+     "text": "https://pacecentre.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Peace Country Wilderness Program",
+  "categories": [
+   "Alberta Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h3><strong>About</strong> Center</h3>\n<p>The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>",
+  "specialties": [
+   "Substance Abuse Treatmental"
+  ],
+  "amenities": [
+   "Substance Abuse Treatmental"
+  ],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(780) 539-6692",
+  "email": "askpace@pacecentre.com",
+  "website": "https://pacecentre.com/",
+  "address": "10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada",
+  "social": {
+   "facebook": "https://web.facebook.com/PaceCentreGP/?_rdc=1&_rdr",
+   "twitter": "https://twitter.com/PACECentreGP",
+   "instagram": "https://www.instagram.com/pacecentregp/"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-center-1.jpg",
+    "alt": "",
+    "width": "929",
+    "height": "565"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-3.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-3.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pace-2.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Center",
+    "html": "<strong>About</strong> Center",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.",
+    "html": "The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [
+     "Substance Abuse Treatmental"
+    ],
+    "text": ""
+   },
+   {
+    "heading": "Amenities",
+    "items": [
+     "Substance Abuse Treatmental"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(780) 539-6692",
+  "phone_href": "tel:(780) 539-6692",
+  "website_text": "https://pacecentre.com/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Center</h3>\n<p>The Peace Country Wilderness Program is designed to facilitate emotional growth opportunities for youth and adults. Through the use of challenging outdoor activities, group educational sessions, individual counseling, and the routine process of surviving in the wilderness, participants find themselves learning about accountability, responsibility, and the importance of relying on one another. Operating within a “team” based model, participants are able to successfully accomplish individual and team based goals and tasks within a supportive environment, where accountability, responsibility, and commitment to yourself and the group are the key guiding principles. Participants gain confidence, heightened degrees of self esteem, and self worth through this process. Our goal is to use this growth to assist participants in establishing a healthy sense of self, self in relation to family, and to their community. Our belief is that participants need to experience the consequences of their choices. Choices made in the wilderness environment result in consequences that will have an immediate and significant impact upon an individual as well as the groups well being. As the group treks, paddles, sets up camp, cooks, cleans up, and takes part in scheduled activities, each individual will learn that they have a distinct role within the group that needs to be fulfilled. Participants learn that there is a direct link between their choices and the outcomes of their choices. They learn accountability as they see that their choices do not only impact themselves, but others in the group as well. Through this process, participants will learn a sense of belonging and how it feels to be a part of an effective community. They gain confidence by being able to complete the tasks that are set out for them, and begin to take on a sense of independence. The participants also learn that they need to give and take in order to be a part of the functioning group, thus learning the need for reciprocity. In the wilderness, participants are removed from the distractions and conveniences of their normal daily lives. Safety and survival is the priority, and one’s actions result in clear and concise consequences from nature in her simple, direct way. It is strongly believed that until participants experience the negative consequences of their choices, they will not experience their behavior as a problem. The wilderness environment holds participants accountable for the choices they make, and helps them rediscover the values that are important to lead successful lives: family, responsibility, honesty, trust, and respect.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(780) 539-6692\" itemprop=\"url\">(780) 539-6692</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:askpace@pacecentre.com\" itemprop=\"url\">askpace@pacecentre.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://pacecentre.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://pacecentre.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    10031 103 Ave, Grande Prairie, AB T8V 1B9, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://web.facebook.com/PaceCentreGP/?_rdc=1&amp;_rdr\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/PACECentreGP\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/pacecentregp/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

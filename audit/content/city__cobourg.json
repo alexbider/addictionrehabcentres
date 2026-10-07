@@ -1,0 +1,507 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__cobourg",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/cobourg/",
+  "path": "/listing-location/cobourg/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/cobourg/",
+ "seo": {
+  "meta_title": "Cobourg Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/cobourg/",
+  "og": {
+   "title": "Cobourg Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/cobourg/",
+      "url": "https://addictionrehabcenters.ca/listing-location/cobourg/",
+      "name": "Cobourg Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/cobourg/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/cobourg/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/cobourg/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/cobourg/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+      "width": 800,
+      "height": 533,
+      "caption": "Canadian Centre for Addictions ontario"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/cobourg/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Cobourg"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Cobourg",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Cobourg Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+   "local_path": "images/city__cobourg/Canadian-Centre-for-Addictions-ontario.jpg",
+   "alt": "Canadian Centre for Addictions ontario",
+   "width": 800,
+   "height": 533,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/canadian-centre-for-addictions/",
+   "text": "",
+   "kind": "internal",
+   "new": "/canadian-centre-for-addictions/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/canadian-centre-for-addictions/",
+   "text": "Canadian Centre For Addictions",
+   "kind": "internal",
+   "new": "/canadian-centre-for-addictions/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Cobourg Results"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+     "alt": "Canadian Centre for Addictions ontario",
+     "width": "800",
+     "height": "533",
+     "link_href": "https://addictionrehabcenters.ca/canadian-centre-for-addictions/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Aftercare"
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Addiction"
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Treatment Program"
+    },
+    {
+     "type": "text",
+     "text": "Assessment"
+    },
+    {
+     "type": "text",
+     "text": "Drug Addiction"
+    },
+    {
+     "type": "text",
+     "text": "Family Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Group Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Holistic Treatment Services"
+    },
+    {
+     "type": "text",
+     "text": "Individual Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Interventionists"
+    },
+    {
+     "type": "text",
+     "text": "Prevention / Education"
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Recovery Services"
+    },
+    {
+     "type": "text",
+     "text": "Residential Alcohol Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Residential Drug Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Residential Long-Term"
+    },
+    {
+     "type": "text",
+     "text": "Sober Living"
+    },
+    {
+     "type": "text",
+     "text": "Substance Abuse Treatment"
+    },
+    {
+     "type": "text",
+     "text": "Cobourg"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Canadian Centre For Addictions",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "The Canadian Centre for Addictions is a premier residential treatment facility located in Ontario, Canada. We specialize in drug rehab and are..."
+    },
+    {
+     "type": "p",
+     "text": "420 Division St. Cobourg, ON K9A 3R9, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    420 Division St. Cobourg, ON K9A 3R9, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "3"
+    },
+    {
+     "type": "text",
+     "text": "(2 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Cobourg Results",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Listings are not found.",
+     "html": "Listings are not found.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "1"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Cobourg Results"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+   "alt": "Canadian Centre for Addictions ontario",
+   "width": "800",
+   "height": "533",
+   "link_href": "https://addictionrehabcenters.ca/canadian-centre-for-addictions/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Aftercare"
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction"
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Treatment Program"
+  },
+  {
+   "type": "text",
+   "text": "Assessment"
+  },
+  {
+   "type": "text",
+   "text": "Drug Addiction"
+  },
+  {
+   "type": "text",
+   "text": "Family Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Group Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Holistic Treatment Services"
+  },
+  {
+   "type": "text",
+   "text": "Individual Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Interventionists"
+  },
+  {
+   "type": "text",
+   "text": "Prevention / Education"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Recovery Services"
+  },
+  {
+   "type": "text",
+   "text": "Residential Alcohol Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Residential Drug Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Residential Long-Term"
+  },
+  {
+   "type": "text",
+   "text": "Sober Living"
+  },
+  {
+   "type": "text",
+   "text": "Substance Abuse Treatment"
+  },
+  {
+   "type": "text",
+   "text": "Cobourg"
+  },
+  {
+   "type": "h5",
+   "text": "Canadian Centre For Addictions",
+   "html": "<a data-wpel-link=\"internal\" href=\"/canadian-centre-for-addictions/\" itemprop=\"url\">Canadian Centre For Addictions</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "The Canadian Centre for Addictions is a premier residential treatment facility located in Ontario, Canada. We specialize in drug rehab and are..."
+  },
+  {
+   "type": "p",
+   "text": "420 Division St. Cobourg, ON K9A 3R9, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    420 Division St. Cobourg, ON K9A 3R9, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "3"
+  },
+  {
+   "type": "text",
+   "text": "(2 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Cobourg Results",
+   "html": "More Rehab Centres in Cobourg Results",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Listings are not found.",
+   "html": "Listings are not found.",
+   "links": [],
+   "images": []
+  }
+ ],
+ "cards": [
+  {
+   "name": "Canadian Centre For Addictions",
+   "href": "https://addictionrehabcenters.ca/canadian-centre-for-addictions/",
+   "address": "420 Division St. Cobourg, ON K9A 3R9, Canada",
+   "category": "AftercareAlcohol AddictionAlcohol Treatment ProgramAssessmentDrug AddictionFamily CounsellingGroup CounsellingHolistic Treatment ServicesIndividual CounsellingInterventionistsPrevention / EducationPrivate RehabRecovery ServicesResidential Alcohol RehabResidential Drug RehabResidential Long-TermSober LivingSubstance Abuse Treatment",
+   "reviews": "(2 Reviews)",
+   "rating": "3",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg",
+    "alt": "Canadian Centre for Addictions ontario",
+    "width": "800",
+    "height": "533"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Canadian Centre For Addictions",
+    "canadian-centre-for-addictions",
+    "420 Division St. Cobourg, ON K9A 3R9, Canada",
+    "",
+    "(2 Reviews)",
+    "3",
+    "",
+    [
+     "AftercareAlcohol AddictionAlcohol Treatment ProgramAssessmentDrug AddictionFamily CounsellingGroup CounsellingHolistic Treatment ServicesIndividual CounsellingInterventionistsPrevention / EducationPrivate RehabRecovery ServicesResidential Alcohol RehabResidential Drug RehabResidential Long-TermSober LivingSubstance Abuse Treatment"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Cobourg",
+  "result_count": "1",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">1</span>\n                                    Top Rehab Centres in Cobourg Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n<div class=\"place-item layout-02 golo-place-featured place-16493\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadian-centre-for-addictions/\">\n<picture class=\"attachment-full size-full wp-post-image\" decoding=\"async\" loading=\"lazy\">\n<source sizes=\"(max-width: 800px) 100vw, 800px\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg.webp 800w, https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario-300x200.jpg.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario-768x512.jpg.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario-600x400.jpg.webp 600w\" type=\"image/webp\"/>\n<img alt=\"Canadian Centre for Addictions ontario\" decoding=\"async\" height=\"533\" loading=\"lazy\" sizes=\"(max-width: 800px) 100vw, 800px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario.jpg 800w, https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2024/10/Canadian-Centre-for-Addictions-ontario-600x400.jpg 600w\" width=\"800\"/>\n</picture>\n</a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Aftercare</span><span>Alcohol Addiction</span><span>Alcohol Treatment Program</span><span>Assessment</span><span>Drug Addiction</span><span>Family Counselling</span><span>Group Counselling</span><span>Holistic Treatment Services</span><span>Individual Counselling</span><span>Interventionists</span><span>Prevention / Education</span><span>Private Rehab</span><span>Recovery Services</span><span>Residential Alcohol Rehab</span><span>Residential Drug Rehab</span><span>Residential Long-Term</span><span>Sober Living</span><span>Substance Abuse Treatment</span> </div>\n<div class=\"place-city\">\n                                                    Cobourg                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadian-centre-for-addictions/\" itemprop=\"url\">Canadian Centre For Addictions</a>\n</h5>\n<!-- post excerpt -->\n                                            The Canadian Centre for Addictions is a premier residential treatment facility located in Ontario, Canada. We specialize in drug rehab and are...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    420 Division St. Cobourg, ON K9A 3R9, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>3</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (2 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br/>\n<h2>More Rehab Centres in Cobourg Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<p class=\"eltdf-ll-not-found\">Listings are not found.</p>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

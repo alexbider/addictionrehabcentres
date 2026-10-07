@@ -1,0 +1,2592 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__lanark-leeds-and-grenville-addictions-and-mental-health",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/",
+  "path": "/lanark-leeds-and-grenville-addictions-and-mental-health/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/lanark-leeds-and-grenville-addictions-and-mental-health/",
+ "seo": {
+  "meta_title": "Lanark - Leeds & Grenville Addictions & Mental Health",
+  "meta_description": "Lanark – Leeds And Grenville Addictions And Mental Health offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/",
+  "og": {
+   "title": "Lanark - Leeds & Grenville Addictions & Mental Health",
+   "description": "Lanark – Leeds And Grenville Addictions And Mental Health offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/",
+      "url": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/",
+      "name": "Lanark - Leeds & Grenville Addictions & Mental Health",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+      "datePublished": "2021-09-28T15:44:02+00:00",
+      "dateModified": "2023-04-28T16:40:54+00:00",
+      "description": "Lanark – Leeds And Grenville Addictions And Mental Health offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+      "width": 315,
+      "height": 315
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/lanark-leeds-and-grenville-addictions-and-mental-health/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Lanark – Leeds And Grenville Addictions And Mental Health"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 962,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients"
+  ],
+  [
+   "h3",
+   "Our Delivery of Services: Meeting You Where You Are"
+  ],
+  [
+   "h3",
+   "Our Community Addictions Services"
+  ],
+  [
+   "h3",
+   "Our Hoarding Intervention Program"
+  ],
+  [
+   "h2",
+   "Lanark- Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Lanark"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+   "local_path": "images/centre__lanark-leeds-and-grenville-addictions-and-mental-health/Lanark-.jpg",
+   "alt": "",
+   "width": 315,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark5.jpg",
+   "local_path": "images/centre__lanark-leeds-and-grenville-addictions-and-mental-health/Lanark5.jpg",
+   "alt": "",
+   "width": 315,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark4.jpg",
+   "local_path": "images/centre__lanark-leeds-and-grenville-addictions-and-mental-health/Lanark4.jpg",
+   "alt": "",
+   "width": 315,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark3.jpg",
+   "local_path": "images/centre__lanark-leeds-and-grenville-addictions-and-mental-health/Lanark3.jpg",
+   "alt": "",
+   "width": 315,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark2.jpg",
+   "local_path": "images/centre__lanark-leeds-and-grenville-addictions-and-mental-health/Lanark2.jpg",
+   "alt": "",
+   "width": 315,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark1.jpg",
+   "local_path": "images/centre__lanark-leeds-and-grenville-addictions-and-mental-health/Lanark1.jpg",
+   "alt": "",
+   "width": 315,
+   "height": 315,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(613) 928-3460",
+   "text": "(613) 928-3460",
+   "kind": "tel",
+   "new": "tel:(613) 928-3460"
+  },
+  {
+   "old_href": "mailto:info@llgamh.ca",
+   "text": "info@llgamh.ca",
+   "kind": "mailto",
+   "new": "mailto:info@llgamh.ca"
+  },
+  {
+   "old_href": "http://llgamh.ca/",
+   "text": "http://llgamh.ca/",
+   "kind": "external",
+   "new": "http://llgamh.ca/"
+  },
+  {
+   "old_href": "https://www.facebook.com/LLGAMH",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/LLGAMH"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.",
+     "html": "As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Our Delivery of Services: Meeting You Where You Are",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.",
+     "html": "We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Our Community Addictions Services",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.",
+     "html": "We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Our Hoarding Intervention Program",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.",
+     "html": "Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Lanark- Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.",
+     "html": "Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.",
+     "html": "At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Lanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Lanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Lanark",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What types of mental health disorders do you treat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+       "html": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of residential treatment homes do you offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+       "html": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is your counselling approach?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+       "html": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is your housing program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+       "html": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is your youth program?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+       "html": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(613) 928-3460",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(613) 928-3460\" itemprop=\"url\">(613) 928-3460</a>",
+         "links": [
+          {
+           "old": "tel:(613) 928-3460",
+           "text": "(613) 928-3460"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@llgamh.ca",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@llgamh.ca\" itemprop=\"url\">info@llgamh.ca</a>",
+         "links": [
+          {
+           "old": "mailto:info@llgamh.ca",
+           "text": "info@llgamh.ca"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "http://llgamh.ca/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://llgamh.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://llgamh.ca/</a>",
+         "links": [
+          {
+           "old": "http://llgamh.ca/",
+           "text": "http://llgamh.ca/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "18 King St #1, Delta, ON K0E 1G0, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    18 King St #1, Delta, ON K0E 1G0, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:39pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients",
+   "html": "Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.",
+   "html": "As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Our Delivery of Services: Meeting You Where You Are",
+   "html": "Our Delivery of Services: Meeting You Where You Are",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.",
+   "html": "We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Our Community Addictions Services",
+   "html": "Our Community Addictions Services",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.",
+   "html": "We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Our Hoarding Intervention Program",
+   "html": "Our Hoarding Intervention Program",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.",
+   "html": "Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Lanark- Center Overview",
+   "html": "Lanark- Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.",
+   "html": "Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.",
+   "html": "At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Lanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Lanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Lanark",
+   "html": "Frequently Asked Questions About Lanark",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What types of mental health disorders do you treat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+   "html": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of residential treatment homes do you offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+   "html": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is your counselling approach?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+   "html": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is your housing program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+   "html": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is your youth program?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+   "html": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(613) 928-3460",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(613) 928-3460\" itemprop=\"url\">(613) 928-3460</a>",
+   "links": [
+    {
+     "old": "tel:(613) 928-3460",
+     "text": "(613) 928-3460"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@llgamh.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@llgamh.ca\" itemprop=\"url\">info@llgamh.ca</a>",
+   "links": [
+    {
+     "old": "mailto:info@llgamh.ca",
+     "text": "info@llgamh.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://llgamh.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://llgamh.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://llgamh.ca/</a>",
+   "links": [
+    {
+     "old": "http://llgamh.ca/",
+     "text": "http://llgamh.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "18 King St #1, Delta, ON K0E 1G0, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    18 King St #1, Delta, ON K0E 1G0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:39pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Lanark – Leeds And Grenville Addictions And Mental Health",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6798\" data-elementor-id=\"6798\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-75cd0aa5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"75cd0aa5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-187d1062\" data-element_type=\"column\" data-id=\"187d1062\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-22e4a99b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"22e4a99b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-52ae76db\" data-element_type=\"column\" data-id=\"52ae76db\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-24d154d2 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"24d154d2\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients</h3><p>As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.</p><h3>Our Delivery of Services: Meeting You Where You Are</h3><p>We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.</p><h3>Our Community Addictions Services</h3><p>We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.</p><h3>Our Hoarding Intervention Program</h3><p>Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.</p><p><br/><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-24d79ed elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"24d79ed\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2eaec417\" data-element_type=\"column\" data-id=\"2eaec417\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4604dd54 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"4604dd54\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-518e859f elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"518e859f\" data-settings='{\"youtube_url\":\"https:\\/\\/www.youtube.com\\/watch?v=B_R4e91G1No\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-755dcb7f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"755dcb7f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f314490\" data-element_type=\"column\" data-id=\"7f314490\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3d6c674f elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"3d6c674f\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-60f1720d elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"60f1720d\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Lanark- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-48ed8cec elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"48ed8cec\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.</p><p>At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-22d2f48b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"22d2f48b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6feb2dc0\" data-element_type=\"column\" data-id=\"6feb2dc0\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5eac4708 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5eac4708\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4b66ceca\" data-element_type=\"column\" data-id=\"4b66ceca\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-58ee4d54 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"58ee4d54\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-64ab3f74 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"64ab3f74\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-168ac9b6\" data-element_type=\"column\" data-id=\"168ac9b6\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5f07e8ea elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"5f07e8ea\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tLanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-211d5a4d elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"211d5a4d\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-63ebdaff elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"63ebdaff\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-29ba6452 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"29ba6452\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b29abeb\" data-element_type=\"column\" data-id=\"7b29abeb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7b58a19d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7b58a19d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-226735c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"226735c3\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ecd45d5\" data-element_type=\"column\" data-id=\"3ecd45d5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-35369bd5 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"35369bd5\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Lanark</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-3a6511f7 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"3a6511f7\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9791\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-9791\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of mental health disorders do you treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9791\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-9791\" role=\"region\"><p>We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9792\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-9792\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of residential treatment homes do you offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9792\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-9792\" role=\"region\"><p>We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9793\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-9793\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is your counselling approach?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9793\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-9793\" role=\"region\"><p>We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9794\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-9794\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is your housing program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9794\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-9794\" role=\"region\"><p>Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9795\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-9795\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is your youth program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9795\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-9795\" role=\"region\"><p>Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(613) 928-3460",
+  "email": "info@llgamh.ca",
+  "website": "http://llgamh.ca/",
+  "address": "18 King St #1, Delta, ON K0E 1G0, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/LLGAMH"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark-.jpg",
+    "alt": "",
+    "width": "315",
+    "height": "315"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark5.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark5.jpg",
+    "alt": "",
+    "width": "315",
+    "height": "315"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark4.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark4.jpg",
+    "alt": "",
+    "width": "315",
+    "height": "315"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark3.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark3.jpg",
+    "alt": "",
+    "width": "315",
+    "height": "315"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark2.jpg",
+    "alt": "",
+    "width": "315",
+    "height": "315"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Lanark1.jpg",
+    "alt": "",
+    "width": "315",
+    "height": "315"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients",
+    "html": "Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.",
+    "html": "As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Our Delivery of Services: Meeting You Where You Are",
+    "html": "Our Delivery of Services: Meeting You Where You Are",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.",
+    "html": "We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Our Community Addictions Services",
+    "html": "Our Community Addictions Services",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.",
+    "html": "We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Our Hoarding Intervention Program",
+    "html": "Our Hoarding Intervention Program",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.",
+    "html": "Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://www.youtube.com/watch?v=B_R4e91G1No",
+    "id": "B_R4e91G1No"
+   },
+   {
+    "type": "h2",
+    "text": "Lanark- Center Overview",
+    "html": "Lanark- Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.",
+    "html": "Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.",
+    "html": "At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Lanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Lanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Lanark",
+  "faqs": [
+   {
+    "question": "What types of mental health disorders do you treat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+      "html": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more."
+   },
+   {
+    "question": "What types of residential treatment homes do you offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+      "html": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders."
+   },
+   {
+    "question": "What is your counselling approach?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+      "html": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR)."
+   },
+   {
+    "question": "What is your housing program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+      "html": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support."
+   },
+   {
+    "question": "What is your youth program?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+      "html": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(613) 928-3460",
+  "phone_href": "tel:(613) 928-3460",
+  "website_text": "http://llgamh.ca/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What types of mental health disorders do you treat?",
+   "answer_text": "We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.",
+   "answer_html": "<p>We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of residential treatment homes do you offer?",
+   "answer_text": "We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.",
+   "answer_html": "<p>We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is your counselling approach?",
+   "answer_text": "We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).",
+   "answer_html": "<p>We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is your housing program?",
+   "answer_text": "Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.",
+   "answer_html": "<p>Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is your youth program?",
+   "answer_text": "Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.",
+   "answer_html": "<p>Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6798\" data-elementor-id=\"6798\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-75cd0aa5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"75cd0aa5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-187d1062\" data-element_type=\"column\" data-id=\"187d1062\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-22e4a99b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"22e4a99b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-52ae76db\" data-element_type=\"column\" data-id=\"52ae76db\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-24d154d2 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"24d154d2\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Lanark, Leeds and Grenville Addictions and Mental Health: Providing Quality Care for Mental Health Patients</h3><p>As a leading provider of mental health care, we are committed to delivering quality services that meet the unique needs of our clients. We recognize that each patient has their challenges and circumstances that require personalized attention. We offer a wide range of treatment options to address the different types of mental health disorders in our community. From counselling and residential treatment homes to psychiatry and family support, we aim to provide a comprehensive range of services that are catered towards your specific needs. Additionally, we believe in educating our clients on mental health to empower them to make the best decisions for their wellbeing.</p><h3>Our Delivery of Services: Meeting You Where You Are</h3><p>We understand that different individuals have different preferences when it comes to mental health treatment. While some may prefer face-to-face interaction, others may find it challenging to get to our office. Regardless of your preference, we will find a method that works best for you and meets you where you are in your mental health journey. Our team of professionals is available to deliver our services at your convenience, whether at your home or another location that suits you. We offer transportation services that ensure that you get to your appointments on time.</p><h3>Our Community Addictions Services</h3><p>We recognize that addiction is a complex problem that requires a compassionate and comprehensive approach. Our community addictions services aim to provide support for individuals affected by substance abuse disorders. We offer a range of treatment options that include counselling, residential treatment homes, and medication-assisted therapies to facilitate a smooth transition to sober living. Our team of specialists works with clients to address the underlying physical and mental factors that contribute to addiction.</p><h3>Our Hoarding Intervention Program</h3><p>Hoarding can be a challenging problem that affects many people. It can lead to hazardous living conditions that pose a risk to the individual’s health and safety. We offer a hoarding intervention program that aims to support individuals who struggle with hoarding. Our trained professionals offer support, advice, and practical solutions to help reduce hoarding, and facilitate a safe living environment.</p><p><br/><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-24d79ed elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"24d79ed\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2eaec417\" data-element_type=\"column\" data-id=\"2eaec417\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4604dd54 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"4604dd54\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-518e859f elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"518e859f\" data-settings='{\"youtube_url\":\"https:\\/\\/www.youtube.com\\/watch?v=B_R4e91G1No\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-755dcb7f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"755dcb7f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f314490\" data-element_type=\"column\" data-id=\"7f314490\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3d6c674f elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"3d6c674f\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-60f1720d elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"60f1720d\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Lanark- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-48ed8cec elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"48ed8cec\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Lanark – Leeds and Grenville Addictions and Mental Health is a trusted Non-Profit rehab center located in Delta, Ontario. The center focuses on providing high-quality treatments for individuals struggling with mental health, substance, drug and alcohol abuse. The facility has built up a reputation for its evidenced-based practices, which are founded upon years of research and proven results. They offer outpatient drug rehab for those who require ongoing support and access to professional assistance while maintaining their daily routines. To ensure that their clients receive comprehensive care, they provide a range of therapies such as individual, family and group counseling, in addition to a variety of holistic therapies such as yoga, meditation, and art-based therapy.</p><p>At Lanark – Leeds and Grenville Addictions and Mental Health, they strive to create a relaxing and secure environment that aids clients in their recovery journey. Their facility is well equipped with state-of-the-art amenities that make life comfortable for clients throughout their rehabilitation process. They offer a list of amenities tailored to help clients achieve long-term recovery. These include outpatient drug rehab, art and nature therapy, nutritional counseling, and a host of personalized treatment plans. The facility’s comprehensive approach assists clients in achieving their goals while assisting them in developing essential life skills. At Lanark – Leeds and Grenville Addictions and Mental Health, they believe that every individual deserves customized care and support to achieve long-lasting physical, emotional, and psychological well-being.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-22d2f48b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"22d2f48b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6feb2dc0\" data-element_type=\"column\" data-id=\"6feb2dc0\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5eac4708 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5eac4708\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4b66ceca\" data-element_type=\"column\" data-id=\"4b66ceca\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-58ee4d54 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"58ee4d54\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-64ab3f74 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"64ab3f74\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-168ac9b6\" data-element_type=\"column\" data-id=\"168ac9b6\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5f07e8ea elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"5f07e8ea\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tLanark has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-211d5a4d elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"211d5a4d\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-63ebdaff elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"63ebdaff\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-29ba6452 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"29ba6452\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7b29abeb\" data-element_type=\"column\" data-id=\"7b29abeb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7b58a19d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7b58a19d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-226735c3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"226735c3\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3ecd45d5\" data-element_type=\"column\" data-id=\"3ecd45d5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-35369bd5 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"35369bd5\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Lanark</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-3a6511f7 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"3a6511f7\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9791\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-9791\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of mental health disorders do you treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9791\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-9791\" role=\"region\"><p>We offer treatment for a wide range of mental health disorders, including depression, anxiety, bipolar disorder, schizophrenia, and more.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9792\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-9792\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of residential treatment homes do you offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9792\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-9792\" role=\"region\"><p>We offer residential treatment homes for individuals with substance abuse disorders, eating disorders, and mental health disorders.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9793\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-9793\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is your counselling approach?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9793\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-9793\" role=\"region\"><p>We use evidence-based psychological approaches such as cognitive-behavioral therapy (CBT), dialectical behavior therapy (DBT), and eye-movement desensitization and reprocessing (EMDR).</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9794\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-9794\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is your housing program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9794\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-9794\" role=\"region\"><p>Our housing program offers safe and affordable housing for individuals with mental health disorders who require additional support.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-9795\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-9795\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is your youth program?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-9795\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-9795\" role=\"region\"><p>Our youth program offers support for young people between the ages of 12-24 who are experiencing mental health disorders.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(613) 928-3460\" itemprop=\"url\">(613) 928-3460</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@llgamh.ca\" itemprop=\"url\">info@llgamh.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://llgamh.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://llgamh.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    18 King St #1, Delta, ON K0E 1G0, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:39pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/LLGAMH\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

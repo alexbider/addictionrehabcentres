@@ -1,0 +1,782 @@
+{
+ "schema": "arc-content/1",
+ "slug": "addiction-to-heroin",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+  "path": "/addiction-to-heroin/",
+  "wp_items": [
+   {
+    "id": 11007,
+    "type": "post",
+    "title": "Addiction to Heroin",
+    "date": "2015-07-13T16:02:07",
+    "modified": "2022-09-13T14:04:23",
+    "status": "publish",
+    "yoast_title": "Addiction to Heroin - Addiction Rehab Centers",
+    "words_rest": 597
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/addiction-to-heroin/",
+ "seo": {
+  "meta_title": "Addiction to Heroin - Addiction Rehab Centers",
+  "meta_description": "Learn everything there is to know about addiction to heroin from this in-depth article, and contact us for information about recovering from heroin addiction.",
+  "canonical_source": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+  "og": {
+   "title": "Addiction to Heroin - Addiction Rehab Centers",
+   "description": "Learn everything there is to know about addiction to heroin from this in-depth article, and contact us for information about recovering from heroin addiction.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Addiction to Heroin",
+      "datePublished": "2015-07-13T16:02:07+00:00",
+      "dateModified": "2022-09-13T14:04:23+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/"
+      },
+      "wordCount": 609,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+      "keywords": [
+       "Addiction to Heroin"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+      "url": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+      "name": "Addiction to Heroin - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+      "datePublished": "2015-07-13T16:02:07+00:00",
+      "dateModified": "2022-09-13T14:04:23+00:00",
+      "description": "Learn everything there is to know about addiction to heroin from this in-depth article, and contact us for information about recovering from heroin addiction.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/addiction-to-heroin/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "addiction heroin"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-heroin/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Addiction to Heroin"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Addiction to Heroin",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 605,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Addiction to Heroin"
+  ],
+  [
+   "h3",
+   "How Heroin Affects Your Body"
+  ],
+  [
+   "h3",
+   "Who is at Risk for Heroin Addiction?"
+  ],
+  [
+   "h3",
+   "Am I Addicted to Heroin?"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+   "local_path": "images/addiction-to-heroin/addiction-heroin.jpg",
+   "alt": "addiction heroin",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "July 13, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+     "alt": "addiction heroin",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "July 13, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Addiction to Heroin",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A little over a hundred years ago, rather than facing the perils of buying drugs on the street, heroin addicts could purchase the substance at their local convenience store. A powerful opioid synthesized from poppy flowers, heroin was once marketed as a cure for headaches, anxiety, and a host of other medical problems. Doctors quickly realized its addictive potential, and the drug was banned in the early 20th century. Today, heroin is widely recognized as one of the world’s most dangerous drugs, and users face a withdrawal process that is deeply unpleasant, and occasionally even dangerous.",
+     "html": "A little over a hundred years ago, rather than facing the perils of buying drugs on the street, heroin addicts could purchase the substance at their local convenience store. A powerful opioid synthesized from poppy flowers, heroin was once marketed as a cure for headaches, anxiety, and a host of other medical problems. Doctors quickly realized its addictive potential, and the drug was banned in the early 20<sup>th</sup> century. Today, heroin is widely recognized as one of the world’s most dangerous drugs, and users face a withdrawal process that is deeply unpleasant, and occasionally even dangerous.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "How Heroin Affects Your Body",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Heroin is a narcotic depressant, which means it slows down activity in your brain and spinal cord, slowing your reaction times and inducing a hypnotic state. Many users feel an intense sense of euphoria the first few times they use heroin, but this rush quickly gives way to a more muted high. Because the withdrawal symptoms of heroin are so intense, many heroin users continue using primarily to avoid the painful—and often dangerous—symptoms of detox.",
+       "html": "Heroin is a narcotic depressant, which means it slows down activity in your brain and spinal cord, slowing your reaction times and inducing a hypnotic state. Many users feel an intense sense of euphoria the first few times they use heroin, but this rush quickly gives way to a more muted high. Because the withdrawal symptoms of heroin are so intense, many heroin users continue using primarily to avoid the painful—and often dangerous—symptoms of detox.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Over time, heroin can destroy your health. Some of the most common long-term side effects of heroin abuse include:",
+       "html": "Over time, heroin can destroy your health. Some of the most common long-term side effects of heroin abuse include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Depression",
+         "html": "Depression",
+         "links": []
+        },
+        {
+         "text": "Excessive sleepiness and lack of energy",
+         "html": "Excessive sleepiness and lack of energy",
+         "links": []
+        },
+        {
+         "text": "Broken blood vessels in the arms, legs, or eyes",
+         "html": "Broken blood vessels in the arms, legs, or eyes",
+         "links": []
+        },
+        {
+         "text": "Transmission of communicable diseases such as HIV/AIDs and hepatitis",
+         "html": "Transmission of communicable diseases such as HIV/AIDs and hepatitis",
+         "links": []
+        },
+        {
+         "text": "Difficulty concentrating",
+         "html": "Difficulty concentrating",
+         "links": []
+        },
+        {
+         "text": "Agitation, aggression, and hostility",
+         "html": "Agitation, aggression, and hostility",
+         "links": []
+        },
+        {
+         "text": "Loss of interest in the surrounding world",
+         "html": "Loss of interest in the surrounding world",
+         "links": []
+        },
+        {
+         "text": "Decreased immunity",
+         "html": "Decreased immunity",
+         "links": []
+        },
+        {
+         "text": "Heart attack, high blood pressure, and respiratory problems",
+         "html": "Heart attack, high blood pressure, and respiratory problems",
+         "links": []
+        },
+        {
+         "text": "Coma, sudden death, and seizures",
+         "html": "Coma, sudden death, and seizures",
+         "links": []
+        },
+        {
+         "text": "Anxiety",
+         "html": "Anxiety",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Who is at Risk for Heroin Addiction?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The primary risk factor for heroin addiction is the use of heroin. No matter what other challenges you face, you will not become a heroin addict if you don’t use this dangerous drug. Nevertheless, some heroin users are more vulnerable to developing a habit, including:",
+       "html": "The primary risk factor for heroin addiction is the use of heroin. No matter what other challenges you face, you will not become a heroin addict if you don’t use this dangerous drug. Nevertheless, some heroin users are more vulnerable to developing a habit, including:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "A history of mental illness, especially depression and anxiety.",
+         "html": "A history of mental illness, especially depression and anxiety.",
+         "links": []
+        },
+        {
+         "text": "A family history of addiction.",
+         "html": "A family history of addiction.",
+         "links": []
+        },
+        {
+         "text": "Early use of heroin.",
+         "html": "Early use of heroin.",
+         "links": []
+        },
+        {
+         "text": "Chronic pain, especially headaches.",
+         "html": "Chronic pain, especially headaches.",
+         "links": []
+        },
+        {
+         "text": "Insomnia and sleep disturbances.",
+         "html": "Insomnia and sleep disturbances.",
+         "links": []
+        },
+        {
+         "text": "A history of trauma, abuse, or sexual victimization.",
+         "html": "A history of trauma, abuse, or sexual victimization.",
+         "links": []
+        },
+        {
+         "text": "Associating with heroin users.",
+         "html": "Associating with heroin users.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Heroin addiction may feel overwhelming, but hope is available. The right treatment program can help get you back on track, freeing you from your addiction to heroin.",
+       "html": "Heroin addiction may feel overwhelming, but hope is available. The right treatment program can help get you back on track, freeing you from your addiction to heroin.<strong> </strong>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Am I Addicted to Heroin?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "One of the challenges of overcoming an addiction to heroin is the steady diet of denial that so often co-occurs with such an addiction. If you have to ask whether you’re a heroin addict, you already have a problem. For some users, though, knowing that heroin use almost inevitably leads to addiction isn’t sufficient. Ask yourself the following questions. If you can affirmatively answer more than three, then you’re an addict in need of help:",
+       "html": "One of the challenges of overcoming an addiction to heroin is the steady diet of denial that so often co-occurs with such an addiction. If you have to ask whether you’re a heroin addict, you already have a problem. For some users, though, knowing that heroin use almost inevitably leads to addiction isn’t sufficient. Ask yourself the following questions. If you can affirmatively answer more than three, then you’re an addict in need of help:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Do you continue using heroin in spite of the health problems it has caused?",
+         "html": "Do you continue using heroin in spite of the health problems it has caused?",
+         "links": []
+        },
+        {
+         "text": "Do you use dirty needles, or share injection supplies with others?",
+         "html": "Do you use dirty needles, or share injection supplies with others?",
+         "links": []
+        },
+        {
+         "text": "Have you gotten into legal or financial trouble because of heroin?",
+         "html": "Have you gotten into legal or financial trouble because of heroin?",
+         "links": []
+        },
+        {
+         "text": "Do you rely on heroin to feel normal, or to treat the symptoms of depression or anxiety?",
+         "html": "Do you rely on heroin to feel normal, or to treat the symptoms of depression or anxiety?",
+         "links": []
+        },
+        {
+         "text": "Do you lie to others about how often you use heroin?",
+         "html": "Do you lie to others about how often you use heroin?",
+         "links": []
+        },
+        {
+         "text": "Do you do things you regret while under the influence of heroin?",
+         "html": "Do you do things you regret while under the influence of heroin?",
+         "links": []
+        },
+        {
+         "text": "Does your heroin addiction harm the people you love?",
+         "html": "Does your heroin addiction harm the people you love?",
+         "links": []
+        },
+        {
+         "text": "Have you stolen money to get heroin?",
+         "html": "Have you stolen money to get heroin?",
+         "links": []
+        },
+        {
+         "text": "Do you believe you’ll never be able to quit heroin?",
+         "html": "Do you believe you’ll never be able to quit heroin?",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Heroin addiction is a serious and potentially lethal disease. But a simple phone call or plea for help can get you back on track. If you’re ready to move beyond the pain of heroin addiction, let us show you a path forward. Contact Addiction Rehab Centres Canada today!",
+       "html": "Heroin addiction is a serious and potentially lethal disease. But a simple phone call or plea for help can get you back on track. If you’re ready to move beyond the pain of heroin addiction, let us show you a path forward. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+   "alt": "addiction heroin",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "July 13, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Addiction to Heroin",
+   "html": "Addiction to Heroin",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A little over a hundred years ago, rather than facing the perils of buying drugs on the street, heroin addicts could purchase the substance at their local convenience store. A powerful opioid synthesized from poppy flowers, heroin was once marketed as a cure for headaches, anxiety, and a host of other medical problems. Doctors quickly realized its addictive potential, and the drug was banned in the early 20th century. Today, heroin is widely recognized as one of the world’s most dangerous drugs, and users face a withdrawal process that is deeply unpleasant, and occasionally even dangerous.",
+   "html": "A little over a hundred years ago, rather than facing the perils of buying drugs on the street, heroin addicts could purchase the substance at their local convenience store. A powerful opioid synthesized from poppy flowers, heroin was once marketed as a cure for headaches, anxiety, and a host of other medical problems. Doctors quickly realized its addictive potential, and the drug was banned in the early 20<sup>th</sup> century. Today, heroin is widely recognized as one of the world’s most dangerous drugs, and users face a withdrawal process that is deeply unpleasant, and occasionally even dangerous.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "How Heroin Affects Your Body",
+   "html": "How Heroin Affects Your Body",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Heroin is a narcotic depressant, which means it slows down activity in your brain and spinal cord, slowing your reaction times and inducing a hypnotic state. Many users feel an intense sense of euphoria the first few times they use heroin, but this rush quickly gives way to a more muted high. Because the withdrawal symptoms of heroin are so intense, many heroin users continue using primarily to avoid the painful—and often dangerous—symptoms of detox.",
+   "html": "Heroin is a narcotic depressant, which means it slows down activity in your brain and spinal cord, slowing your reaction times and inducing a hypnotic state. Many users feel an intense sense of euphoria the first few times they use heroin, but this rush quickly gives way to a more muted high. Because the withdrawal symptoms of heroin are so intense, many heroin users continue using primarily to avoid the painful—and often dangerous—symptoms of detox.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Over time, heroin can destroy your health. Some of the most common long-term side effects of heroin abuse include:",
+   "html": "Over time, heroin can destroy your health. Some of the most common long-term side effects of heroin abuse include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Depression",
+     "html": "Depression",
+     "links": []
+    },
+    {
+     "text": "Excessive sleepiness and lack of energy",
+     "html": "Excessive sleepiness and lack of energy",
+     "links": []
+    },
+    {
+     "text": "Broken blood vessels in the arms, legs, or eyes",
+     "html": "Broken blood vessels in the arms, legs, or eyes",
+     "links": []
+    },
+    {
+     "text": "Transmission of communicable diseases such as HIV/AIDs and hepatitis",
+     "html": "Transmission of communicable diseases such as HIV/AIDs and hepatitis",
+     "links": []
+    },
+    {
+     "text": "Difficulty concentrating",
+     "html": "Difficulty concentrating",
+     "links": []
+    },
+    {
+     "text": "Agitation, aggression, and hostility",
+     "html": "Agitation, aggression, and hostility",
+     "links": []
+    },
+    {
+     "text": "Loss of interest in the surrounding world",
+     "html": "Loss of interest in the surrounding world",
+     "links": []
+    },
+    {
+     "text": "Decreased immunity",
+     "html": "Decreased immunity",
+     "links": []
+    },
+    {
+     "text": "Heart attack, high blood pressure, and respiratory problems",
+     "html": "Heart attack, high blood pressure, and respiratory problems",
+     "links": []
+    },
+    {
+     "text": "Coma, sudden death, and seizures",
+     "html": "Coma, sudden death, and seizures",
+     "links": []
+    },
+    {
+     "text": "Anxiety",
+     "html": "Anxiety",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Who is at Risk for Heroin Addiction?",
+   "html": "Who is at Risk for Heroin Addiction?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The primary risk factor for heroin addiction is the use of heroin. No matter what other challenges you face, you will not become a heroin addict if you don’t use this dangerous drug. Nevertheless, some heroin users are more vulnerable to developing a habit, including:",
+   "html": "The primary risk factor for heroin addiction is the use of heroin. No matter what other challenges you face, you will not become a heroin addict if you don’t use this dangerous drug. Nevertheless, some heroin users are more vulnerable to developing a habit, including:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "A history of mental illness, especially depression and anxiety.",
+     "html": "A history of mental illness, especially depression and anxiety.",
+     "links": []
+    },
+    {
+     "text": "A family history of addiction.",
+     "html": "A family history of addiction.",
+     "links": []
+    },
+    {
+     "text": "Early use of heroin.",
+     "html": "Early use of heroin.",
+     "links": []
+    },
+    {
+     "text": "Chronic pain, especially headaches.",
+     "html": "Chronic pain, especially headaches.",
+     "links": []
+    },
+    {
+     "text": "Insomnia and sleep disturbances.",
+     "html": "Insomnia and sleep disturbances.",
+     "links": []
+    },
+    {
+     "text": "A history of trauma, abuse, or sexual victimization.",
+     "html": "A history of trauma, abuse, or sexual victimization.",
+     "links": []
+    },
+    {
+     "text": "Associating with heroin users.",
+     "html": "Associating with heroin users.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Heroin addiction may feel overwhelming, but hope is available. The right treatment program can help get you back on track, freeing you from your addiction to heroin.",
+   "html": "Heroin addiction may feel overwhelming, but hope is available. The right treatment program can help get you back on track, freeing you from your addiction to heroin.<strong> </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Am I Addicted to Heroin?",
+   "html": "Am I Addicted to Heroin?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "One of the challenges of overcoming an addiction to heroin is the steady diet of denial that so often co-occurs with such an addiction. If you have to ask whether you’re a heroin addict, you already have a problem. For some users, though, knowing that heroin use almost inevitably leads to addiction isn’t sufficient. Ask yourself the following questions. If you can affirmatively answer more than three, then you’re an addict in need of help:",
+   "html": "One of the challenges of overcoming an addiction to heroin is the steady diet of denial that so often co-occurs with such an addiction. If you have to ask whether you’re a heroin addict, you already have a problem. For some users, though, knowing that heroin use almost inevitably leads to addiction isn’t sufficient. Ask yourself the following questions. If you can affirmatively answer more than three, then you’re an addict in need of help:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Do you continue using heroin in spite of the health problems it has caused?",
+     "html": "Do you continue using heroin in spite of the health problems it has caused?",
+     "links": []
+    },
+    {
+     "text": "Do you use dirty needles, or share injection supplies with others?",
+     "html": "Do you use dirty needles, or share injection supplies with others?",
+     "links": []
+    },
+    {
+     "text": "Have you gotten into legal or financial trouble because of heroin?",
+     "html": "Have you gotten into legal or financial trouble because of heroin?",
+     "links": []
+    },
+    {
+     "text": "Do you rely on heroin to feel normal, or to treat the symptoms of depression or anxiety?",
+     "html": "Do you rely on heroin to feel normal, or to treat the symptoms of depression or anxiety?",
+     "links": []
+    },
+    {
+     "text": "Do you lie to others about how often you use heroin?",
+     "html": "Do you lie to others about how often you use heroin?",
+     "links": []
+    },
+    {
+     "text": "Do you do things you regret while under the influence of heroin?",
+     "html": "Do you do things you regret while under the influence of heroin?",
+     "links": []
+    },
+    {
+     "text": "Does your heroin addiction harm the people you love?",
+     "html": "Does your heroin addiction harm the people you love?",
+     "links": []
+    },
+    {
+     "text": "Have you stolen money to get heroin?",
+     "html": "Have you stolen money to get heroin?",
+     "links": []
+    },
+    {
+     "text": "Do you believe you’ll never be able to quit heroin?",
+     "html": "Do you believe you’ll never be able to quit heroin?",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Heroin addiction is a serious and potentially lethal disease. But a simple phone call or plea for help can get you back on track. If you’re ready to move beyond the pain of heroin addiction, let us show you a path forward. Contact Addiction Rehab Centres Canada today!",
+   "html": "Heroin addiction is a serious and potentially lethal disease. But a simple phone call or plea for help can get you back on track. If you’re ready to move beyond the pain of heroin addiction, let us show you a path forward. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-07-13T16:02:07+00:00",
+  "modified": "2022-09-13T14:04:23+00:00",
+  "date_label": "July 13, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 609,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"addiction heroin\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-heroin-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                July 13, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Addiction to Heroin    </h1> <p>A little over a hundred years ago, rather than facing the perils of buying drugs on the street, heroin addicts could purchase the substance at their local convenience store. A powerful opioid synthesized from poppy flowers, heroin was once marketed as a cure for headaches, anxiety, and a host of other medical problems. Doctors quickly realized its addictive potential, and the drug was banned in the early 20<sup>th</sup> century. Today, heroin is widely recognized as one of the world’s most dangerous drugs, and users face a withdrawal process that is deeply unpleasant, and occasionally even dangerous.</p>\n<h3>How Heroin Affects Your Body</h3>\n<p>Heroin is a narcotic depressant, which means it slows down activity in your brain and spinal cord, slowing your reaction times and inducing a hypnotic state. Many users feel an intense sense of euphoria the first few times they use heroin, but this rush quickly gives way to a more muted high. Because the withdrawal symptoms of heroin are so intense, many heroin users continue using primarily to avoid the painful—and often dangerous—symptoms of detox.</p>\n<p>Over time, heroin can destroy your health. Some of the most common long-term side effects of heroin abuse include:</p>\n<ul>\n<li>Depression</li>\n<li>Excessive sleepiness and lack of energy</li>\n<li>Broken blood vessels in the arms, legs, or eyes</li>\n<li>Transmission of communicable diseases such as HIV/AIDs and hepatitis</li>\n<li>Difficulty concentrating</li>\n<li>Agitation, aggression, and hostility</li>\n<li>Loss of interest in the surrounding world</li>\n<li>Decreased immunity</li>\n<li>Heart attack, high blood pressure, and respiratory problems</li>\n<li>Coma, sudden death, and seizures</li>\n<li>Anxiety</li>\n</ul>\n<h3>Who is at Risk for Heroin Addiction?</h3>\n<p>The primary risk factor for heroin addiction is the use of heroin. No matter what other challenges you face, you will not become a heroin addict if you don’t use this dangerous drug. Nevertheless, some heroin users are more vulnerable to developing a habit, including:</p>\n<ul>\n<li>A history of mental illness, especially depression and anxiety.</li>\n<li>A family history of addiction.</li>\n<li>Early use of heroin.</li>\n<li>Chronic pain, especially headaches.</li>\n<li>Insomnia and sleep disturbances.</li>\n<li>A history of trauma, abuse, or sexual victimization.</li>\n<li>Associating with heroin users.</li>\n</ul>\n<p>Heroin addiction may feel overwhelming, but hope is available. The right treatment program can help get you back on track, freeing you from your addiction to heroin.<strong> </strong></p>\n<h3>Am I Addicted to Heroin?</h3>\n<p>One of the challenges of overcoming an addiction to heroin is the steady diet of denial that so often co-occurs with such an addiction. If you have to ask whether you’re a heroin addict, you already have a problem. For some users, though, knowing that heroin use almost inevitably leads to addiction isn’t sufficient. Ask yourself the following questions. If you can affirmatively answer more than three, then you’re an addict in need of help:</p>\n<ul>\n<li>Do you continue using heroin in spite of the health problems it has caused?</li>\n<li>Do you use dirty needles, or share injection supplies with others?</li>\n<li>Have you gotten into legal or financial trouble because of heroin?</li>\n<li>Do you rely on heroin to feel normal, or to treat the symptoms of depression or anxiety?</li>\n<li>Do you lie to others about how often you use heroin?</li>\n<li>Do you do things you regret while under the influence of heroin?</li>\n<li>Does your heroin addiction harm the people you love?</li>\n<li>Have you stolen money to get heroin?</li>\n<li>Do you believe you’ll never be able to quit heroin?</li>\n</ul>\n<p>Heroin addiction is a serious and potentially lethal disease. But a simple phone call or plea for help can get you back on track. If you’re ready to move beyond the pain of heroin addiction, let us show you a path forward. Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

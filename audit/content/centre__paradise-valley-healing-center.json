@@ -1,0 +1,2596 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__paradise-valley-healing-center",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/paradise-valley-healing-center/",
+  "path": "/paradise-valley-healing-center/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/paradise-valley-healing-center/",
+ "seo": {
+  "meta_title": "Paradise Valley Healing Center - Addiction Rehab Centers",
+  "meta_description": "Paradise Valley Healing Center offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/paradise-valley-healing-center/",
+  "og": {
+   "title": "Paradise Valley Healing Center - Addiction Rehab Centers",
+   "description": "Paradise Valley Healing Center offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/paradise-valley-healing-center/",
+      "url": "https://addictionrehabcenters.ca/paradise-valley-healing-center/",
+      "name": "Paradise Valley Healing Center - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/paradise-valley-healing-center/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/paradise-valley-healing-center/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+      "datePublished": "2023-05-01T07:55:05+00:00",
+      "dateModified": "2023-05-01T09:55:28+00:00",
+      "description": "Paradise Valley Healing Center offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/paradise-valley-healing-center/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/paradise-valley-healing-center/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/paradise-valley-healing-center/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+      "width": 801,
+      "height": 550
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/paradise-valley-healing-center/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Paradise Valley Healing Center"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 881,
+ "features": [
+  "iframe",
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Treatment Programs"
+  ],
+  [
+   "h3",
+   "Setting and Accommodations"
+  ],
+  [
+   "h3",
+   "The Benefits of Choosing Paradise Valley"
+  ],
+  [
+   "h2",
+   "Paradise Valley Healing Center- Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Paradise Valley Healing Center"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+   "local_path": "images/centre__paradise-valley-healing-center/Paradise-Valley-Healing-Center6.webp",
+   "alt": "",
+   "width": 801,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center5.webp",
+   "local_path": "images/centre__paradise-valley-healing-center/Paradise-Valley-Healing-Center5.webp",
+   "alt": "",
+   "width": 600,
+   "height": 601,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center4.webp",
+   "local_path": "images/centre__paradise-valley-healing-center/Paradise-Valley-Healing-Center4.webp",
+   "alt": "",
+   "width": 600,
+   "height": 601,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center3.webp",
+   "local_path": "images/centre__paradise-valley-healing-center/Paradise-Valley-Healing-Center3.webp",
+   "alt": "",
+   "width": 600,
+   "height": 601,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center2.webp",
+   "local_path": "images/centre__paradise-valley-healing-center/Paradise-Valley-Healing-Center2.webp",
+   "alt": "",
+   "width": 600,
+   "height": 601,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:604-892-3000",
+   "text": "604-892-3000",
+   "kind": "tel",
+   "new": "tel:604-892-3000"
+  },
+  {
+   "old_href": "https://paradisevalleyhealing.com/",
+   "text": "https://paradisevalleyhealing.com/",
+   "kind": "external",
+   "new": "https://paradisevalleyhealing.com/"
+  },
+  {
+   "old_href": "https://www.facebook.com/paradisevalleyhealing",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/paradisevalleyhealing"
+  },
+  {
+   "old_href": "https://twitter.com/pvhealing",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/pvhealing"
+  },
+  {
+   "old_href": "https://www.instagram.com/paradisevalleyhealing/?hl=en",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/paradisevalleyhealing/?hl=en"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.",
+     "html": "Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Treatment Programs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.",
+     "html": "Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Setting and Accommodations",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.",
+     "html": "The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "The Benefits of Choosing Paradise Valley",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.",
+     "html": "Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "iframe",
+     "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fparadisevalleyhealing%2Fvideos%2F10152792633284671%2F&show_text=false&width=560&t=0",
+     "title": "",
+     "width": "560",
+     "height": "314"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Paradise Valley Healing Center- Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.",
+     "html": "Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.",
+     "html": "At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Paradise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Paradise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Paradise Valley Healing Center",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What are the available services at Paradise Valley Healing Center?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+       "html": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What size are the guest rooms at Paradise Valley Healing Center?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+       "html": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the maximum number of guests at Paradise Valley Healing Center?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Paradise Valley Healing Center generally accommodates 14 guests.",
+       "html": "Paradise Valley Healing Center generally accommodates 14 guests.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What kind of therapy sessions are offered at Paradise Valley Healing Center?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+       "html": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the recommended duration of stay at Paradise Valley Healing Center?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+       "html": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How are family members involved in the healing process at Paradise Valley Healing Center?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+       "html": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "604-892-3000",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:604-892-3000\" itemprop=\"url\">604-892-3000</a>",
+         "links": [
+          {
+           "old": "tel:604-892-3000",
+           "text": "604-892-3000"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://paradisevalleyhealing.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://paradisevalleyhealing.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://paradisevalleyhealing.com/</a>",
+         "links": [
+          {
+           "old": "https://paradisevalleyhealing.com/",
+           "text": "https://paradisevalleyhealing.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Paradise Valley Healing Center, 3501 Paradise Valley Road, Squamish, BC V0N 1H0, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    Paradise Valley Healing Center, 3501 Paradise Valley Road, Squamish, BC V0N 1H0, Canada",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:39pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.",
+   "html": "Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Programs",
+   "html": "Treatment Programs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.",
+   "html": "Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Setting and Accommodations",
+   "html": "Setting and Accommodations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.",
+   "html": "The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "The Benefits of Choosing Paradise Valley",
+   "html": "The Benefits of Choosing Paradise Valley",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.",
+   "html": "Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "iframe",
+   "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fparadisevalleyhealing%2Fvideos%2F10152792633284671%2F&show_text=false&width=560&t=0",
+   "title": "",
+   "width": "560",
+   "height": "314"
+  },
+  {
+   "type": "h2",
+   "text": "Paradise Valley Healing Center- Center Overview",
+   "html": "Paradise Valley Healing Center- Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.",
+   "html": "Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.",
+   "html": "At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Paradise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Paradise Valley Healing Center",
+   "html": "Frequently Asked Questions About Paradise Valley Healing Center",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What are the available services at Paradise Valley Healing Center?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+   "html": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What size are the guest rooms at Paradise Valley Healing Center?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+   "html": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the maximum number of guests at Paradise Valley Healing Center?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center generally accommodates 14 guests.",
+   "html": "Paradise Valley Healing Center generally accommodates 14 guests.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What kind of therapy sessions are offered at Paradise Valley Healing Center?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+   "html": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the recommended duration of stay at Paradise Valley Healing Center?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+   "html": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How are family members involved in the healing process at Paradise Valley Healing Center?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+   "html": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "604-892-3000",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:604-892-3000\" itemprop=\"url\">604-892-3000</a>",
+   "links": [
+    {
+     "old": "tel:604-892-3000",
+     "text": "604-892-3000"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://paradisevalleyhealing.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://paradisevalleyhealing.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://paradisevalleyhealing.com/</a>",
+   "links": [
+    {
+     "old": "https://paradisevalleyhealing.com/",
+     "text": "https://paradisevalleyhealing.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Paradise Valley Healing Center, 3501 Paradise Valley Road, Squamish, BC V0N 1H0, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    Paradise Valley Healing Center, 3501 Paradise Valley Road, Squamish, BC V0N 1H0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:39pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Paradise Valley Healing Center",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-15560\" data-elementor-id=\"15560\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3b91c238 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3b91c238\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4c6bb3d1\" data-element_type=\"column\" data-id=\"4c6bb3d1\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7f7ca66f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7f7ca66f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21bfe124\" data-element_type=\"column\" data-id=\"21bfe124\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7033b674 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7033b674\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.</p><h3>Treatment Programs</h3><p>Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.</p><h3>Setting and Accommodations</h3><p>The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.</p><h3>The Benefits of Choosing Paradise Valley</h3><p>Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.</p><p><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a60e168 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"a60e168\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6396d2a\" data-element_type=\"column\" data-id=\"6396d2a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-45a5a2e elementor-widget elementor-widget-shortcode\" data-element_type=\"widget\" data-id=\"45a5a2e\" data-widget_type=\"shortcode.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-shortcode\"><iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"314\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fweb.facebook.com%2Fparadisevalleyhealing%2Fvideos%2F10152792633284671%2F&amp;show_text=false&amp;width=560&amp;t=0\" style=\"border:none;overflow:hidden\" width=\"560\"></iframe></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5c92eb3d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5c92eb3d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30ec6c7a\" data-element_type=\"column\" data-id=\"30ec6c7a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-286eb154 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"286eb154\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-23d21963 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"23d21963\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Paradise Valley Healing Center- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-725d139b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"725d139b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.</p><p>At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-671bff26 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"671bff26\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-134b2338\" data-element_type=\"column\" data-id=\"134b2338\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-477eaca0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"477eaca0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19c06ece\" data-element_type=\"column\" data-id=\"19c06ece\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-350acbad elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"350acbad\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3042a793 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3042a793\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1404df05\" data-element_type=\"column\" data-id=\"1404df05\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-59e41b1c elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"59e41b1c\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tParadise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-3e30ce59 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"3e30ce59\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-5b37c735 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5b37c735\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5e68ec03 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5e68ec03\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a195750\" data-element_type=\"column\" data-id=\"1a195750\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4336b954 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4336b954\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-42db81a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"42db81a0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4f9a02cc\" data-element_type=\"column\" data-id=\"4f9a02cc\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-76c7032a elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"76c7032a\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Paradise Valley Healing Center</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-60323925 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"60323925\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1611\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1611\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What are the available services at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1611\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1611\" role=\"region\"><p>Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1612\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1612\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What size are the guest rooms at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1612\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1612\" role=\"region\"><p>Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1613\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1613\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the maximum number of guests at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1613\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1613\" role=\"region\"><p>Paradise Valley Healing Center generally accommodates 14 guests.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1614\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1614\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> What kind of therapy sessions are offered at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1614\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1614\" role=\"region\"><p>Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1615\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1615\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> What is the recommended duration of stay at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1615\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1615\" role=\"region\"><p>Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1616\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1616\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How are family members involved in the healing process at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1616\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1616\" role=\"region\"><p>Paradise Valley Healing Center urges family members to take part in the healing and recovery process.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "604-892-3000",
+  "email": "",
+  "website": "https://paradisevalleyhealing.com/",
+  "address": "Paradise Valley Healing Center, 3501 Paradise Valley Road, Squamish, BC V0N 1H0, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/paradisevalleyhealing",
+   "twitter": "https://twitter.com/pvhealing",
+   "instagram": "https://www.instagram.com/paradisevalleyhealing/?hl=en"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center6.webp",
+    "alt": "",
+    "width": "801",
+    "height": "550"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center5.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center5.webp",
+    "alt": "",
+    "width": "600",
+    "height": "601"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center4.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center4.webp",
+    "alt": "",
+    "width": "600",
+    "height": "601"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center3.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center3.webp",
+    "alt": "",
+    "width": "600",
+    "height": "601"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Paradise-Valley-Healing-Center2.webp",
+    "alt": "",
+    "width": "600",
+    "height": "601"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.",
+    "html": "Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Programs",
+    "html": "Treatment Programs",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.",
+    "html": "Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Setting and Accommodations",
+    "html": "Setting and Accommodations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.",
+    "html": "The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "The Benefits of Choosing Paradise Valley",
+    "html": "The Benefits of Choosing Paradise Valley",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.",
+    "html": "Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "iframe",
+    "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2Fparadisevalleyhealing%2Fvideos%2F10152792633284671%2F&show_text=false&width=560&t=0",
+    "title": "",
+    "width": "560",
+    "height": "314"
+   },
+   {
+    "type": "h2",
+    "text": "Paradise Valley Healing Center- Center Overview",
+    "html": "Paradise Valley Healing Center- Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.",
+    "html": "Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.",
+    "html": "At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Paradise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Paradise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Paradise Valley Healing Center",
+  "faqs": [
+   {
+    "question": "What are the available services at Paradise Valley Healing Center?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+      "html": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process."
+   },
+   {
+    "question": "What size are the guest rooms at Paradise Valley Healing Center?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+      "html": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser."
+   },
+   {
+    "question": "What is the maximum number of guests at Paradise Valley Healing Center?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Paradise Valley Healing Center generally accommodates 14 guests.",
+      "html": "Paradise Valley Healing Center generally accommodates 14 guests.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Paradise Valley Healing Center generally accommodates 14 guests."
+   },
+   {
+    "question": "What kind of therapy sessions are offered at Paradise Valley Healing Center?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+      "html": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work."
+   },
+   {
+    "question": "What is the recommended duration of stay at Paradise Valley Healing Center?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+      "html": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs."
+   },
+   {
+    "question": "How are family members involved in the healing process at Paradise Valley Healing Center?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+      "html": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "604-892-3000",
+  "phone_href": "tel:604-892-3000",
+  "website_text": "https://paradisevalleyhealing.com/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What are the available services at Paradise Valley Healing Center?",
+   "answer_text": "Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.",
+   "answer_html": "<p>Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What size are the guest rooms at Paradise Valley Healing Center?",
+   "answer_text": "Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.",
+   "answer_html": "<p>Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the maximum number of guests at Paradise Valley Healing Center?",
+   "answer_text": "Paradise Valley Healing Center generally accommodates 14 guests.",
+   "answer_html": "<p>Paradise Valley Healing Center generally accommodates 14 guests.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What kind of therapy sessions are offered at Paradise Valley Healing Center?",
+   "answer_text": "Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.",
+   "answer_html": "<p>Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the recommended duration of stay at Paradise Valley Healing Center?",
+   "answer_text": "Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.",
+   "answer_html": "<p>Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How are family members involved in the healing process at Paradise Valley Healing Center?",
+   "answer_text": "Paradise Valley Healing Center urges family members to take part in the healing and recovery process.",
+   "answer_html": "<p>Paradise Valley Healing Center urges family members to take part in the healing and recovery process.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-15560\" data-elementor-id=\"15560\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3b91c238 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3b91c238\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4c6bb3d1\" data-element_type=\"column\" data-id=\"4c6bb3d1\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7f7ca66f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7f7ca66f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21bfe124\" data-element_type=\"column\" data-id=\"21bfe124\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7033b674 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7033b674\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Paradise Valley Healing Center is located on 10 stunning acres close to the Cheakamus River. The rehab facility is located only one hour north of Vancouver, British Columbia. Formerly known as Chopra Addiction and Wellness Center, Paradise Valley is dedicated to addressing a broad range of addictive behaviors like depression, anxiety, and psychological trauma using a holistic approach. Paradise Valley offers 2,4, and 6 week wellness programs that provide care for the whole body, mind, and spirit.</p><h3>Treatment Programs</h3><p>Paradise Valley provides individual counseling and group therapy to do deep work with clients. The healing process combines the most cutting-edge Western medicine with Eastern healing arts. Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine are available to guests. The facility generally accommodates 14 guests, providing a high degree of personal care and attention. Additionally, the rehab center urges family members to take part in the healing and recovery process.</p><h3>Setting and Accommodations</h3><p>The setting of Paradise Valley is equally as important as the holistic treatment they provide. The peace and tranquility of the river and mountains in the vicinity add to the therapeutic effect. The cozy home has gender-specific accommodations and guests share a bedroom furnished with a queen size bed and dresser. Other common areas in the house include a lounge with a fireplace and a large living room. The Center offers a true holistic program with its stunning surroundings, promoting relaxation and inner healing.</p><h3>The Benefits of Choosing Paradise Valley</h3><p>Paradise Valley Healing Center offers a range of benefits to people on the journey to healing and recovery. The facility’s holistic approach helps address emotional, physical, and psychological issues. Ayurvedic services, yoga, meditation, and acupuncture are some of the services that provide support in this regard. The small size of the facility allows for a more intimate and personalized care approach, while family members are involved in the process, and the nurturing environment of the surrounding nature eases the healing process.</p><p><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a60e168 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"a60e168\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6396d2a\" data-element_type=\"column\" data-id=\"6396d2a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-45a5a2e elementor-widget elementor-widget-shortcode\" data-element_type=\"widget\" data-id=\"45a5a2e\" data-widget_type=\"shortcode.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-shortcode\"><iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"314\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fweb.facebook.com%2Fparadisevalleyhealing%2Fvideos%2F10152792633284671%2F&amp;show_text=false&amp;width=560&amp;t=0\" style=\"border:none;overflow:hidden\" width=\"560\"></iframe></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5c92eb3d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5c92eb3d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-30ec6c7a\" data-element_type=\"column\" data-id=\"30ec6c7a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-286eb154 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"286eb154\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-23d21963 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"23d21963\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Paradise Valley Healing Center- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-725d139b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"725d139b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Paradise Valley Healing Center offers a customized, individualized, and highly intensive program that is tailored to meet the specific needs of each guest. Our team of highly qualified and experienced therapists and addiction specialists provides personalized care and support to ensure that each guest receives the most effective treatment possible. Our program includes a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavior therapy, and other scientifically proven modalities.</p><p>At Paradise Valley Healing Center, we aim to create a healing environment that fosters self-awareness and promotes self-discovery through various activities such as art therapy, equine therapy, and outdoor activities. Our objective is to help guests develop deeper connections with themselves and others, and find meaning and purpose in life. Our comprehensive approach to addiction and trauma treatment, combined with our serene location and experienced staff, make Paradise Valley Healing Center one of the premier rehabilitation centers in Canada.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-671bff26 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"671bff26\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-134b2338\" data-element_type=\"column\" data-id=\"134b2338\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-477eaca0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"477eaca0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19c06ece\" data-element_type=\"column\" data-id=\"19c06ece\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-350acbad elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"350acbad\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3042a793 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3042a793\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1404df05\" data-element_type=\"column\" data-id=\"1404df05\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-59e41b1c elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"59e41b1c\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tParadise Valley Healing Center has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-3e30ce59 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"3e30ce59\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-5b37c735 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5b37c735\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5e68ec03 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5e68ec03\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a195750\" data-element_type=\"column\" data-id=\"1a195750\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4336b954 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4336b954\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-42db81a0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"42db81a0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4f9a02cc\" data-element_type=\"column\" data-id=\"4f9a02cc\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-76c7032a elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"76c7032a\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Paradise Valley Healing Center</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-60323925 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"60323925\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1611\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1611\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What are the available services at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1611\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1611\" role=\"region\"><p>Paradise Valley Healing Center offers Ayurvedic services such as yoga, meditation, massage therapy, acupuncture, and vegetarian cuisine to support the healing process.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1612\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1612\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What size are the guest rooms at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1612\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1612\" role=\"region\"><p>Guests at Paradise Valley Healing Center share a bedroom with a queen size bed and dresser.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1613\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1613\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the maximum number of guests at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1613\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1613\" role=\"region\"><p>Paradise Valley Healing Center generally accommodates 14 guests.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1614\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1614\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> What kind of therapy sessions are offered at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1614\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1614\" role=\"region\"><p>Paradise Valley Healing Center provides individual counseling and group therapy to help clients with deep work.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1615\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1615\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> What is the recommended duration of stay at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1615\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1615\" role=\"region\"><p>Paradise Valley Healing Center offers 2,4, and 6 week wellness programs.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1616\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1616\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How are family members involved in the healing process at Paradise Valley Healing Center?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1616\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1616\" role=\"region\"><p>Paradise Valley Healing Center urges family members to take part in the healing and recovery process.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:604-892-3000\" itemprop=\"url\">604-892-3000</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://paradisevalleyhealing.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://paradisevalleyhealing.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    Paradise Valley Healing Center, 3501 Paradise Valley Road, Squamish, BC V0N 1H0, Canada\t                </p>\n</div>\n<div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:39pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/paradisevalleyhealing\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/pvhealing\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/paradisevalleyhealing/?hl=en\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

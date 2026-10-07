@@ -1,0 +1,2202 @@
+{
+ "schema": "arc-content/1",
+ "slug": "faqs",
+ "status": "REMAINING",
+ "page_type": "about-info",
+ "wp_type": "page",
+ "template": "(none) FAQ index",
+ "fit": "NO TEMPLATE",
+ "template_change_codes": "G1-G3,F1",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/faqs/",
+  "path": "/faqs/",
+  "wp_items": [
+   {
+    "id": 10889,
+    "type": "page",
+    "title": "FAQs",
+    "date": "2022-02-02T19:16:08",
+    "modified": "2025-09-09T07:16:23",
+    "status": "publish",
+    "yoast_title": "FAQs - Addictions Treatment Helplines in Canada",
+    "words_rest": 1944
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/faqs/",
+ "seo": {
+  "meta_title": "FAQs - Addictions Treatment Helplines in Canada",
+  "meta_description": "Check out these frequently asked questions about overcoming addiction and addiction treatments. Reach out to us today for more about getting professional help.",
+  "canonical_source": "https://addictionrehabcenters.ca/faqs/",
+  "og": {
+   "title": "FAQs - Addictions Treatment Helplines in Canada",
+   "description": "Check out these frequently asked questions about overcoming addiction and addiction treatments. Reach out to us today for more about getting professional help.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/faqs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/faqs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "FAQs",
+      "datePublished": "2022-02-02T19:16:08+00:00",
+      "dateModified": "2025-09-09T07:16:23+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/faqs/"
+      },
+      "wordCount": 3102,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/faqs/",
+      "url": "https://addictionrehabcenters.ca/faqs/",
+      "name": "FAQs - Addictions Treatment Helplines in Canada",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-02T19:16:08+00:00",
+      "dateModified": "2025-09-09T07:16:23+00:00",
+      "description": "Check out these frequently asked questions about overcoming addiction and addiction treatments. Reach out to us today for more about getting professional help.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/faqs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/faqs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/faqs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FAQs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How to overcome alcohol addiction?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Outcomes depend on the severity of alcoholism. Five practical steps are recommended, recognize the problem, avoid temptations, distance from drinking peers, seek a self help group or professional treatment, and stay consistent while celebrating progress."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What is the time duration of marijuana addiction treatment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "There is no preset length, results depend on addiction severity and adequate time in care. Less than 90 days is typically of limited effectiveness, longer participation is associated with better outcomes."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How to overcome alcohol addiction?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "People progress through cocaine addiction treatment at different rates, so there is no fixed duration. Research suggests less than 90 days is less effective, and longer treatment improves results and helps maintain recovery."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Are you religious in orientation?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "We are not a religious facility and we respect all spiritual perspectives, including atheist and agnostic identities. If desired, we work to incorporate your spiritual path into your recovery."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Do you work with LGBT clients?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. We do not discriminate and have extensive experience supporting people across gender identities and sexual orientations. We recognize discrimination can compound addiction struggles and we address these challenges with you."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if I relapse?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Relapse is common and sometimes viewed as part of recovery. A holistic, lifestyle oriented approach builds skills to reduce relapse risk. If relapse occurs, your team will support learning from it and continuing toward lasting recovery."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if I do not want to undergo treatment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "You cannot be forced into treatment without consent, and forced recovery is usually less effective. Facilities will encourage you to stay and discuss risks, your goals, and how they can help if you choose to leave."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What happens when I am ready to leave?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Discharge planning starts at admission. Your team prepares a support and recovery plan, connects you with community resources such as doctors, therapists, and support groups, and helps you build a long term plan that fits your life."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can you locate sober living options?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. We help find sober living residences with various features that ease the transition from rehab to everyday life and reduce exposure to stress and peer pressure."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can I work?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Work can support recovery and is encouraged when appropriate. Programs can help you gain skills and confidence. Employment laws may protect time off for medical care, and ability to work depends on treatment progress."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How do you protect my privacy?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "We comply with provincial and federal privacy laws. Personal information is not shared without consent, and facilities cannot acknowledge you as a client without your permission."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if I have an outstanding warrant or other legal issues?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "We are not a law firm and cannot provide legal advice. Facilities accept clients with legal issues and often work with courts and probation officers. Entering rehab may benefit a case, but you should hire a lawyer."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How will my family be involved in my treatment?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Family involvement is encouraged and many programs include family therapy and education. Participation is always with your consent, and privacy is maintained throughout."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can my family visit?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Most facilities allow family visits and offer family programs. Specific visitation times depend on your progress and clinical recommendations."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What about my other health issues?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Facilities treat addiction and address co occurring mental health or medical needs. Inpatient clients can access medical specialists when required."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What if I am taking prescription medication?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Facilities help manage all medications, including alternatives to addictive drugs. A psychiatrist reviews your medications at admission and monitors them during treatment."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Are there doctors and nurses on site?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Addiction is a medical condition and most inpatient facilities have doctors and nursing staff available to manage health needs and detox symptoms."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Does insurance cover rehab costs?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Many insurance plans cover mental health treatment, including inpatient addiction services. Coverage varies by insurer, and admissions counsellors help you use your benefits."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How long does inpatient treatment last?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Length varies by facility and individual needs. Many stays are 30 to 90 days, but medical and psychological factors may change duration. You can leave at any time, although leaving against medical advice increases relapse risk."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How much does treatment cost?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Costs vary by program and insurance coverage. Many facilities offer competitive rates and will discuss pricing with you during admissions."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What addictions are treated?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Most facilities treat drug and alcohol addictions such as marijuana, prescription pills, cocaine, methamphetamine, and others. Many also treat dual diagnoses and behavioral addictions including gambling, shopping, and gaming."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "FAQs",
+ "title_bar_h1": "FAQs",
+ "word_count": 1987,
+ "features": [
+  "form",
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "FAQs"
+  ],
+  [
+   "h1",
+   "Frequently Asked Questions:"
+  ],
+  [
+   "h4",
+   "How to overcome alcohol addiction?"
+  ],
+  [
+   "h4",
+   "What is the time duration of marijuana addiction treatment?"
+  ],
+  [
+   "h4",
+   "How to overcome alcohol addiction?"
+  ],
+  [
+   "h4",
+   "Are you religious in orientation?"
+  ],
+  [
+   "h4",
+   "Do you work with LGBT clients?"
+  ],
+  [
+   "h4",
+   "What if I relapse?"
+  ],
+  [
+   "h4",
+   "What if I don’t want to undergo treatment?"
+  ],
+  [
+   "h4",
+   "What happens when I’m ready to leave?"
+  ],
+  [
+   "h4",
+   "Can you locate sober living options?"
+  ],
+  [
+   "h4",
+   "Can I work?"
+  ],
+  [
+   "h4",
+   "How do you protect my privacy?"
+  ],
+  [
+   "h4",
+   "What if I have an outstanding warrant or other legal issues?"
+  ],
+  [
+   "h4",
+   "How will my family be involved in my treatment?"
+  ],
+  [
+   "h4",
+   "Can my family visit?"
+  ],
+  [
+   "h4",
+   "What about my other health issues?"
+  ],
+  [
+   "h4",
+   "What if I’m taking prescription medication?"
+  ],
+  [
+   "h4",
+   "Are there doctors and nurses on-site?"
+  ],
+  [
+   "h4",
+   "Does insurance cover rehab costs?"
+  ],
+  [
+   "h4",
+   "How long does inpatient treatment last?"
+  ],
+  [
+   "h4",
+   "How much does treatment cost?"
+  ],
+  [
+   "h4",
+   "What addictions are treated?"
+  ],
+  [
+   "h4",
+   "Let Us Help You"
+  ],
+  [
+   "h3",
+   "Let Us Help You"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/FAQ-banner.jpg",
+   "local_path": "images/faqs/FAQ-banner.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/contact-addictions-rehab.jpg",
+   "local_path": "images/_shared/contact-addictions-rehab.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 600,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions.jpg",
+   "local_path": "images/faqs/frequently-asked-questions.jpg",
+   "alt": "frequently asked questions",
+   "width": 545,
+   "height": 333,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/support-icon.png",
+   "local_path": "images/faqs/support-icon.png",
+   "alt": "call icon",
+   "width": 100,
+   "height": 101,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/substance-abuse-addiction/",
+   "text": "Addiction",
+   "kind": "internal",
+   "new": "/substance-abuse-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "FAQs",
+   "blocks": [],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Frequently Asked Questions:",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Addiction is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:",
+     "html": "<a data-wpel-link=\"internal\" href=\"/substance-abuse-addiction/\">Addiction</a> is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/substance-abuse-addiction/",
+       "text": "Addiction"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "link",
+     "text": "Find A Drug Rehab",
+     "href": "/rehab/",
+     "new_href": "/"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions.jpg",
+     "alt": "frequently asked questions",
+     "width": "545",
+     "height": "333"
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "How to overcome alcohol addiction?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+       "html": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+       "html": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Take the time to recognize that you have a problem",
+         "html": "Take the time to recognize that you have a problem",
+         "links": []
+        },
+        {
+         "text": "Do all the best that you can to avoid all temptations",
+         "html": "Do all the best that you can to avoid all temptations",
+         "links": []
+        },
+        {
+         "text": "Say goodbye to all your drinking buddies",
+         "html": "Say goodbye to all your drinking buddies",
+         "links": []
+        },
+        {
+         "text": "Seek for a self-help group or a professional treatment",
+         "html": "Seek for a self-help group or a professional treatment",
+         "links": []
+        },
+        {
+         "text": "Be consistent and be proud of yourself",
+         "html": "Be consistent and be proud of yourself",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What is the time duration of marijuana addiction treatment?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+       "html": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+       "html": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "How to overcome alcohol addiction?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+       "html": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+       "html": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Are you religious in orientation?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+       "html": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Do you work with LGBT clients?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+       "html": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What if I relapse?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+       "html": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What if I don’t want to undergo treatment?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+       "html": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What happens when I’m ready to leave?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+       "html": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Can you locate sober living options?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+       "html": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Can I work?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+       "html": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "How do you protect my privacy?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+       "html": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What if I have an outstanding warrant or other legal issues?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+       "html": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "How will my family be involved in my treatment?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+       "html": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Can my family visit?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+       "html": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What about my other health issues?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+       "html": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What if I’m taking prescription medication?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+       "html": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Are there doctors and nurses on-site?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+       "html": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Does insurance cover rehab costs?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+       "html": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "How long does inpatient treatment last?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+       "html": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "How much does treatment cost?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+       "html": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "What addictions are treated?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+       "html": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Let Us Help You",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/support-icon.png",
+       "alt": "call icon",
+       "width": null,
+       "height": null
+      },
+      {
+       "type": "p",
+       "text": "Service Available 24/7 Call one of our Counselors today!",
+       "html": "<strong>Service Available 24/7 </strong><br/>Call one of our Counselors today!",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "1-855-885-4747",
+       "html": "<a class=\"widget-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Let Us Help You",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "FAQs",
+   "html": "<strong>FAQs</strong>",
+   "id": ""
+  },
+  {
+   "type": "h1",
+   "text": "Frequently Asked Questions:",
+   "html": "<strong>Frequently Asked Questions:</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:",
+   "html": "<a data-wpel-link=\"internal\" href=\"/substance-abuse-addiction/\">Addiction</a> is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/substance-abuse-addiction/",
+     "text": "Addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions.jpg",
+   "alt": "frequently asked questions",
+   "width": "545",
+   "height": "333"
+  },
+  {
+   "type": "h4",
+   "text": "How to overcome alcohol addiction?",
+   "html": "How to overcome alcohol addiction?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+   "html": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+   "html": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Take the time to recognize that you have a problem",
+     "html": "Take the time to recognize that you have a problem",
+     "links": []
+    },
+    {
+     "text": "Do all the best that you can to avoid all temptations",
+     "html": "Do all the best that you can to avoid all temptations",
+     "links": []
+    },
+    {
+     "text": "Say goodbye to all your drinking buddies",
+     "html": "Say goodbye to all your drinking buddies",
+     "links": []
+    },
+    {
+     "text": "Seek for a self-help group or a professional treatment",
+     "html": "Seek for a self-help group or a professional treatment",
+     "links": []
+    },
+    {
+     "text": "Be consistent and be proud of yourself",
+     "html": "Be consistent and be proud of yourself",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "What is the time duration of marijuana addiction treatment?",
+   "html": "What is the time duration of marijuana addiction treatment?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+   "html": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+   "html": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "How to overcome alcohol addiction?",
+   "html": "How to overcome alcohol addiction?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+   "html": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+   "html": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Are you religious in orientation?",
+   "html": "Are you religious in orientation?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+   "html": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Do you work with LGBT clients?",
+   "html": "Do you work with LGBT clients?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+   "html": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What if I relapse?",
+   "html": "What if I relapse?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+   "html": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What if I don’t want to undergo treatment?",
+   "html": "What if I don’t want to undergo treatment?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+   "html": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What happens when I’m ready to leave?",
+   "html": "What happens when I’m ready to leave?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+   "html": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Can you locate sober living options?",
+   "html": "Can you locate sober living options?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+   "html": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Can I work?",
+   "html": "Can I work?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+   "html": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "How do you protect my privacy?",
+   "html": "How do you protect my privacy?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+   "html": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What if I have an outstanding warrant or other legal issues?",
+   "html": "What if I have an outstanding warrant or other legal issues?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+   "html": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "How will my family be involved in my treatment?",
+   "html": "How will my family be involved in my treatment?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+   "html": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Can my family visit?",
+   "html": "Can my family visit?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+   "html": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What about my other health issues?",
+   "html": "What about my other health issues?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+   "html": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What if I’m taking prescription medication?",
+   "html": "What if I’m taking prescription medication?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+   "html": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Are there doctors and nurses on-site?",
+   "html": "Are there doctors and nurses on-site?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+   "html": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Does insurance cover rehab costs?",
+   "html": "Does insurance cover rehab costs?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+   "html": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "How long does inpatient treatment last?",
+   "html": "How long does inpatient treatment last?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+   "html": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "How much does treatment cost?",
+   "html": "How much does treatment cost?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+   "html": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "What addictions are treated?",
+   "html": "What addictions are treated?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+   "html": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Let Us Help You",
+   "html": "Let Us Help You",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/support-icon.png",
+   "alt": "call icon",
+   "width": null,
+   "height": null
+  },
+  {
+   "type": "p",
+   "text": "Service Available 24/7 Call one of our Counselors today!",
+   "html": "<strong>Service Available 24/7 </strong><br/>Call one of our Counselors today!",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "1-855-885-4747",
+   "html": "<a class=\"widget-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Let Us Help You",
+   "html": "Let Us Help You",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1644244984157",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "FAQs",
+       "html": "<strong>FAQs</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/FAQ-banner.jpg?id=11600"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_custom_1644244212395",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Frequently Asked Questions:",
+       "html": "<strong>Frequently Asked Questions:</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Addiction is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:",
+       "html": "<a data-wpel-link=\"internal\" href=\"/substance-abuse-addiction/\">Addiction</a> is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/substance-abuse-addiction/",
+         "text": "Addiction"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions.jpg",
+       "alt": "frequently asked questions",
+       "width": "545",
+       "height": "333"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-8"
+     ],
+     "blocks": [
+      {
+       "type": "h4",
+       "text": "How to overcome alcohol addiction?",
+       "html": "How to overcome alcohol addiction?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+       "html": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+       "html": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Take the time to recognize that you have a problem",
+         "html": "Take the time to recognize that you have a problem",
+         "links": []
+        },
+        {
+         "text": "Do all the best that you can to avoid all temptations",
+         "html": "Do all the best that you can to avoid all temptations",
+         "links": []
+        },
+        {
+         "text": "Say goodbye to all your drinking buddies",
+         "html": "Say goodbye to all your drinking buddies",
+         "links": []
+        },
+        {
+         "text": "Seek for a self-help group or a professional treatment",
+         "html": "Seek for a self-help group or a professional treatment",
+         "links": []
+        },
+        {
+         "text": "Be consistent and be proud of yourself",
+         "html": "Be consistent and be proud of yourself",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "h4",
+       "text": "What is the time duration of marijuana addiction treatment?",
+       "html": "What is the time duration of marijuana addiction treatment?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+       "html": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+       "html": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "How to overcome alcohol addiction?",
+       "html": "How to overcome alcohol addiction?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+       "html": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+       "html": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Are you religious in orientation?",
+       "html": "Are you religious in orientation?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+       "html": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Do you work with LGBT clients?",
+       "html": "Do you work with LGBT clients?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+       "html": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What if I relapse?",
+       "html": "What if I relapse?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+       "html": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What if I don’t want to undergo treatment?",
+       "html": "What if I don’t want to undergo treatment?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+       "html": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What happens when I’m ready to leave?",
+       "html": "What happens when I’m ready to leave?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+       "html": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Can you locate sober living options?",
+       "html": "Can you locate sober living options?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+       "html": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Can I work?",
+       "html": "Can I work?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+       "html": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "How do you protect my privacy?",
+       "html": "How do you protect my privacy?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+       "html": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What if I have an outstanding warrant or other legal issues?",
+       "html": "What if I have an outstanding warrant or other legal issues?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+       "html": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "How will my family be involved in my treatment?",
+       "html": "How will my family be involved in my treatment?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+       "html": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Can my family visit?",
+       "html": "Can my family visit?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+       "html": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What about my other health issues?",
+       "html": "What about my other health issues?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+       "html": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What if I’m taking prescription medication?",
+       "html": "What if I’m taking prescription medication?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+       "html": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Are there doctors and nurses on-site?",
+       "html": "Are there doctors and nurses on-site?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+       "html": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "Does insurance cover rehab costs?",
+       "html": "Does insurance cover rehab costs?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+       "html": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "How long does inpatient treatment last?",
+       "html": "How long does inpatient treatment last?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+       "html": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "How much does treatment cost?",
+       "html": "How much does treatment cost?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+       "html": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h4",
+       "text": "What addictions are treated?",
+       "html": "What addictions are treated?",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+       "html": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+       "links": [],
+       "images": []
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-4"
+     ],
+     "blocks": [
+      {
+       "type": "h4",
+       "text": "Let Us Help You",
+       "html": "Let Us Help You",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/support-icon.png",
+       "alt": "call icon",
+       "width": null,
+       "height": null
+      },
+      {
+       "type": "p",
+       "text": "Service Available 24/7 Call one of our Counselors today!",
+       "html": "<strong>Service Available 24/7 </strong><br/>Call one of our Counselors today!",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "1-855-885-4747",
+       "html": "<a class=\"widget-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [
+    "bottomWidget"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Let Us Help You",
+       "html": "Let Us Help You",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "FAQs",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/FAQ-banner.jpg?id=11600"
+ },
+ "faqs": [
+  {
+   "question": "How to overcome alcohol addiction?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+     "html": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+     "html": "Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "ul",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Take the time to recognize that you have a problem",
+       "html": "Take the time to recognize that you have a problem",
+       "links": []
+      },
+      {
+       "text": "Do all the best that you can to avoid all temptations",
+       "html": "Do all the best that you can to avoid all temptations",
+       "links": []
+      },
+      {
+       "text": "Say goodbye to all your drinking buddies",
+       "html": "Say goodbye to all your drinking buddies",
+       "links": []
+      },
+      {
+       "text": "Seek for a self-help group or a professional treatment",
+       "html": "Seek for a self-help group or a professional treatment",
+       "links": []
+      },
+      {
+       "text": "Be consistent and be proud of yourself",
+       "html": "Be consistent and be proud of yourself",
+       "links": []
+      }
+     ]
+    }
+   ],
+   "answer_text": "A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery. Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible."
+  },
+  {
+   "question": "What is the time duration of marijuana addiction treatment?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+     "html": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+     "html": "The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction? The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes."
+  },
+  {
+   "question": "How to overcome alcohol addiction?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+     "html": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+     "html": "Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery? Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results."
+  },
+  {
+   "question": "Are you religious in orientation?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+     "html": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey."
+  },
+  {
+   "question": "Do you work with LGBT clients?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+     "html": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause."
+  },
+  {
+   "question": "What if I relapse?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+     "html": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing."
+  },
+  {
+   "question": "What if I don’t want to undergo treatment?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+     "html": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals."
+  },
+  {
+   "question": "What happens when I’m ready to leave?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+     "html": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life."
+  },
+  {
+   "question": "Can you locate sober living options?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+     "html": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life."
+  },
+  {
+   "question": "Can I work?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+     "html": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress."
+  },
+  {
+   "question": "How do you protect my privacy?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+     "html": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission."
+  },
+  {
+   "question": "What if I have an outstanding warrant or other legal issues?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+     "html": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province."
+  },
+  {
+   "question": "How will my family be involved in my treatment?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+     "html": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent."
+  },
+  {
+   "question": "Can my family visit?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+     "html": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations."
+  },
+  {
+   "question": "What about my other health issues?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+     "html": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed."
+  },
+  {
+   "question": "What if I’m taking prescription medication?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+     "html": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment."
+  },
+  {
+   "question": "Are there doctors and nurses on-site?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+     "html": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms."
+  },
+  {
+   "question": "Does insurance cover rehab costs?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+     "html": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package."
+  },
+  {
+   "question": "How long does inpatient treatment last?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+     "html": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days."
+  },
+  {
+   "question": "How much does treatment cost?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+     "html": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford."
+  },
+  {
+   "question": "What addictions are treated?",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+     "html": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction."
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1644244984157 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>FAQs</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_custom_1644244212395 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"fusion-text\">\n<h1><strong>Frequently Asked Questions:</strong></h1>\n</div>\n<div class=\"fusion-text\">\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/substance-abuse-addiction/\">Addiction</a> is a common problem among many people in Canada these days. And as far as addiction is concerned, different kinds of addictive substances and drugs are commonly involved which usually include alcohol, marijuana, cocaine and many others. Here are some frequently asked questions regarding addiction, addiction treatment and recovery:</p>\n</div>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"frequently asked questions\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"333\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/frequently-asked-questions-300x183.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid\"><div class=\"wpb_column vc_column_container vc_col-sm-8\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md vc_toggle_active\"><div class=\"vc_toggle_title\"><h4>How to overcome alcohol addiction?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>A: Overcoming alcohol addiction depends on the severity or degree of a person’s alcoholism. While there are people who are victorious with their aim to overcome their addiction, it is sad to know that there are also those who found it hard to do it, causing them to get back to their old vice after spending time, money and effort for their treatment and recovery.</p>\n<p>Practically, there are five steps to follow so that you can overcome your alcohol addiction the safe and effective way possible.</p>\n<ul>\n<li>Take the time to recognize that you have a problem</li>\n<li>Do all the best that you can to avoid all temptations</li>\n<li>Say goodbye to all your drinking buddies</li>\n<li>Seek for a self-help group or a professional treatment</li>\n<li>Be consistent and be proud of yourself</li>\n</ul>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What is the time duration of marijuana addiction treatment?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>A: Marijuana addiction is one of the most common types of drug-related problems not only in Canada but in many countries as well. While marijuana is used by many sectors in curing certain illnesses, this kind of drug is banned in many parts of the country because of its addictive properties. The question is: how long will it take for a person to get himself treated from marijuana addiction?</p>\n<p>The progress of a marijuana addict who is undergoing marijuana addiction treatment usually depends on the rate, level or degree of his addiction. Because of this, there is no predetermined length of treatment for marijuana addiction treatment. However, research has equivocally shown that good results are contingent on sufficient treatment length. For outpatient and residential treatment, less than ninety days of participation is of limited effectiveness and longer treatments are recommended for more positive outcomes.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>How to overcome alcohol addiction?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>A: Cocaine addiction is another drug-related problem in Canada these days and is next to marijuana in terms of popularity. When a person who is addicted to cocaine has decided to undergo cocaine treatment, how long will he have to wait for his complete treatment and recovery?</p>\n<p>Individuals usually progress through drug addiction treatment (cocaine addiction treatment) at various rates. This means that there is no predetermined or accurate duration for a particular drug treatment. However, researchers are equivocal of their findings that good outcomes are commonly achieved with adequate treatment. Participating in a treatment program for less than 90 days is less effective while a treatment that significantly longer is recommended for achieving and maintaining positive results.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Are you religious in orientation?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>We are neither a religious facility, nor a facility that endorses a specific religious ideology. We believe instead that each one of our clients has their own spiritual journey to walk; it is not our job to force you into a specific path or to walk that journey for you. We embrace all spiritual perspectives, as well as atheist and agnostic identities. No matter what you believe, we will respect it, as long as it harms no one else. We know that spirituality can be an important aid on the recovery journey, so we will work with you to find a treatment facility that will incorporate your spiritual path into your recovery journey.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Do you work with LGBT clients?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Yes, of course! We do not discriminate against LGBT populations, and have immense experience working with people of all gender identities and expressions, as well as a range of sexual orientations. We understand that the pain of discrimination can compound your addiction struggles, so we will work alongside you to tackle the additional challenges your LGBT identity may cause.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What if I relapse?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>It is estimated that almost two thirds of recovered addicts suffers a relapse. We believe that a holistic, lifestyle-oriented approach can give you the skills you need to fight against relapsing. Nevertheless, relapse is common. Some addiction experts even argue that it’s a normal part of the recovery journey. You can learn a lot from a relapse, so if you do relapse, your treatment team will support you as you continue the journey to lasting and permanent recovery. Some facilities offer a limited guarantee that provides some extra security to those concerned about relapsing.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What if I don’t want to undergo treatment?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>No one can force you to undergo addiction treatment without your consent, and research consistently demonstrates that forcing recovery is not generally effective. While we strongly encourage you to push through the struggles of early sobriety, most facilities will allow you to leave whenever you like, although they will do everything they can to convince you to stay. Your addiction counsellors will discuss the risks of leaving, your specific recovery journey, and how they can help you with your goals.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What happens when I’m ready to leave?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Your treatment team will begin planning for your discharge from the moment you set foot in their facility. They know that the first days after you leave treatment may be the most difficult, so they will work with you to establish a support and recovery plan that nurtures your psychological, physical, emotional, and practical needs. We have connections to innumerable community resources, including doctors, therapists, and support groups who can help you continue your recovery journey. We will help you find a long-term recovery plan that works with the way you live your life.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Can you locate sober living options?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Yes! We can help you find residences that offer a variety of features and amenities. These sober living houses are an ideal way to make the transition from rehab back to the real world, and they provide a welcome break from the stress, peer pressure, and endless busyness of everyday life.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Can I work?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>We encourage our clients to work, and we believe that a rewarding job can be a strong motivator for getting sober. If you have struggled to find employment, your treatment program can help you gain the skills and confidence you need. If you are currently employed, there are laws in place that protect your right to take time off to pursue medical care. When you can work, and for how long, depends on your treatment progress.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>How do you protect my privacy?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>We comply with all provincial and federal privacy laws. We will never release your personal information to friends, employers, family, or other providers without your consent. Your treatment and rehab facility cannot acknowledge that you are one of their clients without your permission.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What if I have an outstanding warrant or other legal issues?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>We are not a legal services firm, and we do not have attorneys on staff, so we cannot offer you legal assistance. No legitimate rehab facility will knowingly hide an individual who is being sought by authorities, but they will accept clients with outstanding legal issues. Facility directors work closely with courts and probation officers, and many report seeing cases where entering rehab benefits a legal case. For instance, a judge who sees that you are working to move beyond your addiction may be less likely to impose a harsh sentence. Some probation officers offer breaks to probationers for good behavior. No matter what your legal issues are, we encourage you—in the strongest possible terms—to hire a lawyer. The Bar Association in your province will have a list of all currently licensed attorneys in that province.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>How will my family be involved in my treatment?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>We strongly encourage your family—or the people who will live with and support you after your treatment is complete—to be involved in your treatment. We believe that addiction is a family disease, and that the best way to combat it is to address your needs and those of your family. As you progress through your treatment journey, your team will begin to integrate your family in the discussions. Most facilities offer family therapy and education programs so that your family can better understand your recovery journey and commitment. Please note that all family involvement is with your consent: while we encourage you to make amends with your family if you are estranged from them, your privacy is paramount. Family members will never be invited to participate in your recovery without your consent.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Can my family visit?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Most facilities will allow your family to visit, and even offer family programs to ensure that they have a keen understanding of the disease of addiction. Your loved ones are key players in the recovery process. The specific days and times your family can visit will depend on your treatment progress and your therapists’ recommendations.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What about my other health issues?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Although addiction treatment and rehab facilities specialize in treating addiction, they will also address underlying mental health issues. People in inpatient programs who struggle with other issues, such as cardiovascular disease or unexplained neurological symptoms, are given access to a medical specialist when needed.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What if I’m taking prescription medication?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>We know that many addicts also struggle with health challenges and dual mental health diagnoses. Your treatment facility is there to help you manage all of your medications. This includes helping you find alternatives to potentially addictive prescription drugs, as well those to which you are currently addicted. When you are admitted to your treatment program, a psychiatrist will conduct a comprehensive overview of your medication situation, and monitor your use of medication for the duration of your treatment.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Are there doctors and nurses on-site?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Addiction is a medical condition akin to diabetes or heart failure. Most inpatient treatment facilities have staff doctors and nursing staff. You can rest easy knowing that there are professionals available to meet your medical needs, keep you healthy, and help you cope with detox-related symptoms.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>Does insurance cover rehab costs?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Many insurance plans offer coverage for mental health treatment, including inpatient drug and alcohol addiction services. The process of obtaining coverage for your care will depend on your insurer’s policies. The admissions counsellor of the facility you go to will be able to help you get the most out of your benefits package.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>How long does inpatient treatment last?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>The specific length of your stay depends on the facility, and on your specific needs. Most residents stay between 30 and 90 days, but medical conditions, your psychological health, and the length of time you have been an addict can all lengthen or shorten the duration of your stay. Of course, you have complete control of your treatment, which means you can check out any time you like, though if you do so against medical advice, you could find yourself relapsing in just a matter of days.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>How much does treatment cost?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Your admissions counsellor will discuss treatment costs with you in person or over the phone. Because of the variety of programs available, and because insurance coverage varies depending on your provider and plan, there is no single cost for a program. However, there are many facilities that offer competitive rates that the average person can afford.</p>\n</div></div><div class=\"vc_toggle vc_toggle_default vc_toggle_color_default vc_toggle_size_md\"><div class=\"vc_toggle_title\"><h4>What addictions are treated?</h4><i class=\"vc_toggle_icon\"></i></div><div class=\"vc_toggle_content\"><p>Most facilities focus their attention on drug and alcohol addiction, including addiction to marijuana, prescription pills, cocaine, crack, methamphetamine, and numerous other drugs. They also help clients struggling with a dual diagnosis, and are highly adept at managing the intersection of trauma, addiction, and mental illness. Many facilities also treat behavioral addictions, such as gambling addiction, shopping addiction, and gaming addiction.</p>\n</div></div>\n<div class=\"wpb_raw_code wpb_content_element wpb_raw_html\">\n<div class=\"wpb_wrapper\">\n</div>\n</div>\n</div></div></div><div class=\"wpb_column vc_column_container vc_col-sm-4\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_widgetised_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"widget eltdf-contact-form-7-widget contact-form\">\n<div class=\"eltdf-widget-title-holder\"><h4 class=\"eltdf-widget-title\">Let Us Help You</h4></div>\n<div class=\"wpcf7 no-js\" data-wpcf7-id=\"11058\" dir=\"ltr\" id=\"wpcf7-f11058-p10889-o1\" lang=\"en-US\">\n<div class=\"screen-reader-response\"><p aria-atomic=\"true\" aria-live=\"polite\" role=\"status\"></p> <ul></ul></div>\n<form action=\"/faqs/#wpcf7-f11058-p10889-o1\" aria-label=\"Contact form\" class=\"wpcf7-form init\" data-status=\"init\" method=\"post\" novalidate=\"novalidate\">\n<fieldset class=\"hidden-fields-container\"><input name=\"_wpcf7\" type=\"hidden\" value=\"11058\"/><input name=\"_wpcf7_version\" type=\"hidden\" value=\"6.1.6\"/><input name=\"_wpcf7_locale\" type=\"hidden\" value=\"en_US\"/><input name=\"_wpcf7_unit_tag\" type=\"hidden\" value=\"wpcf7-f11058-p10889-o1\"/><input name=\"_wpcf7_container_post\" type=\"hidden\" value=\"10889\"/><input name=\"_wpcf7_posted_data_hash\" type=\"hidden\" value=\"\"/>\n</fieldset>\n<p class=\"marbot5\">Full Name<span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"your-name\" placeholder=\"Your Name*\" size=\"40\" type=\"text\" value=\"\"/></span><br/>\nEmail Address<span class=\"wpcf7-form-control-wrap\" data-name=\"email-address\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" maxlength=\"400\" name=\"email-address\" placeholder=\"E-mail Address*\" size=\"40\" type=\"email\" value=\"\"/></span><br/>\nPhone Number<span class=\"wpcf7-form-control-wrap\" data-name=\"phone-number\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" maxlength=\"400\" name=\"phone-number\" placeholder=\"Phone Number*\" size=\"40\" type=\"tel\" value=\"\"/></span>\n</p>\n<p class=\"checkbox-text marbot5\">Is this for yourself or a loved one?\n</p>\n<p class=\"checkbox-text marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"person\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first\"><input name=\"person[]\" type=\"checkbox\" value=\"Yourself\"/><span class=\"wpcf7-list-item-label\">Yourself</span></span><span class=\"wpcf7-list-item last\"><input name=\"person[]\" type=\"checkbox\" value=\"Loved One\"/><span class=\"wpcf7-list-item-label\">Loved One</span></span></span></span>\n</p>\n<p>Treatment Required<span class=\"wpcf7-form-control-wrap\" data-name=\"type-of-addiction\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"type-of-addiction\" placeholder=\"Type Of Addiction*\" size=\"40\" type=\"text\" value=\"\"/></span><br/>\nYour Message<span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required\" cols=\"40\" maxlength=\"2000\" name=\"your-message\" placeholder=\"Your Questions / Comments*\" rows=\"10\"></textarea></span><br/>\n<button class=\"wpcf7-form-control wpcf7-submit submit-btn eltdf-btn eltdf-btn-medium eltdf-btn-solid\" type=\"submit\"><span class=\"eltdf-btn-text\">Submit</span></button>\n</p><div aria-hidden=\"true\" class=\"wpcf7-response-output\"></div>\n</form>\n</div>\n</div>\n<div class=\"widget widget_text\" id=\"text-10\"> <div class=\"textwidget\"><section class=\"fusion-slidingbar-widget-column widget widget_text\" id=\"text-8\">\n<div class=\"textwidget\">\n<div class=\"first-widget center-text\">\n<picture decoding=\"async\">\n<source srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/support-icon.png.webp\" type=\"image/webp\"/>\n<img alt=\"call icon\" decoding=\"async\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/support-icon.png\"/>\n</picture>\n<p class=\"call-widget-text\"><strong>Service Available 24/7 </strong><br/>Call one of our Counselors today!</p>\n<p>\n<a class=\"widget-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>\n</p></div>\n</div>\n<div style=\"clear:both;\"></div>\n</section>\n</div>\n</div><div class=\"widget widget_text\" id=\"text-11\"> <div class=\"textwidget\">\n</div>\n</div><div class=\"widget widget_text\" id=\"text-12\"> <div class=\"textwidget\"></div>\n</div>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row wpb_row vc_row-fluid bottomWidget\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_widgetised_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"widget eltdf-sidearea widget_text\" id=\"text-9\"> <div class=\"textwidget\">\n</div>\n</div><div class=\"widget eltdf-sidearea widget_text\" id=\"text-13\"> <div class=\"textwidget\"><div class=\"eltdf-container eltdf-default-page-template wp7\">\n<div class=\"eltdf-container-inner clearfix\">\n<div class=\"eltdf-grid-row\">\n<div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid vc_custom_1644327284934 vc_row-has-fill vc_row-o-equal-height vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"true\" data-vc-stretch-content=\"true\" style=\"position: relative; left: -140.25px; box-sizing: border-box; width: 1511px;\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner\">\n<div class=\"wpb_wrapper\">\n<h3 class=\"eltdf-widget-title\" style=\"text-align: center;color: #fff;font-size: 16px;/* margin-bottom: 16px !important; *//* background: #27AAE1; */color: #fff;padding: 14px;/* text-align: left; */margin-top: 0;\">Let Us Help You</h3>\n<div class=\"wpcf7 no-js\" data-wpcf7-id=\"12092\" dir=\"ltr\" id=\"wpcf7-f12092-p10889-o2\" lang=\"en-US\">\n<div class=\"screen-reader-response\"><p aria-atomic=\"true\" aria-live=\"polite\" role=\"status\"></p> <ul></ul></div>\n<form action=\"/faqs/#wpcf7-f12092-p10889-o2\" aria-label=\"Contact form\" class=\"wpcf7-form init\" data-status=\"init\" method=\"post\" novalidate=\"novalidate\">\n<fieldset class=\"hidden-fields-container\"><input name=\"_wpcf7\" type=\"hidden\" value=\"12092\"/><input name=\"_wpcf7_version\" type=\"hidden\" value=\"6.1.6\"/><input name=\"_wpcf7_locale\" type=\"hidden\" value=\"en_US\"/><input name=\"_wpcf7_unit_tag\" type=\"hidden\" value=\"wpcf7-f12092-p10889-o2\"/><input name=\"_wpcf7_container_post\" type=\"hidden\" value=\"10889\"/><input name=\"_wpcf7_posted_data_hash\" type=\"hidden\" value=\"\"/>\n</fieldset>\n<p class=\"marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"your-name\" placeholder=\"Your Name*\" size=\"40\" type=\"text\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"email-address\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" maxlength=\"400\" name=\"email-address\" placeholder=\"E-mail Address*\" size=\"40\" type=\"email\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"phone-number\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" maxlength=\"400\" name=\"phone-number\" placeholder=\"Phone Number*\" size=\"40\" type=\"tel\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"type-of-addiction\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"type-of-addiction\" placeholder=\"Type Of Addiction*\" size=\"40\" type=\"text\" value=\"\"/></span>\n</p>\n<p class=\"checkbox-text marbot5\">Is this for yourself or a loved one?\n</p>\n<p class=\"checkbox-text marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"person\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first\"><input name=\"person[]\" type=\"checkbox\" value=\"Yourself\"/><span class=\"wpcf7-list-item-label\">Yourself</span></span><span class=\"wpcf7-list-item last\"><input name=\"person[]\" type=\"checkbox\" value=\"Loved One\"/><span class=\"wpcf7-list-item-label\">Loved One</span></span></span></span>\n</p>\n<p><span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required\" cols=\"40\" maxlength=\"2000\" name=\"your-message\" placeholder=\"Your Questions / Comments*\" rows=\"10\"></textarea></span><button class=\"wpcf7-form-control wpcf7-submit submit-btn eltdf-btn eltdf-btn-medium eltdf-btn-solid\" type=\"submit\"><span class=\"eltdf-btn-text\">Submit</span></button>\n</p><div aria-hidden=\"true\" class=\"wpcf7-response-output\"></div>\n</form>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"vc_row-full-width vc_clearfix\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

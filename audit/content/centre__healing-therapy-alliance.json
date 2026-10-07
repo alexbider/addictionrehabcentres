@@ -1,0 +1,2518 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__healing-therapy-alliance",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/healing-therapy-alliance/",
+  "path": "/healing-therapy-alliance/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/healing-therapy-alliance/",
+ "seo": {
+  "meta_title": "Healing Therapy Alliance - Addiction Rehab Centers",
+  "meta_description": "Healing Therapy Alliance offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/healing-therapy-alliance/",
+  "og": {
+   "title": "Healing Therapy Alliance - Addiction Rehab Centers",
+   "description": "Healing Therapy Alliance offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Healing-Therapy-Alliance-scaled.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/healing-therapy-alliance/",
+      "url": "https://addictionrehabcenters.ca/healing-therapy-alliance/",
+      "name": "Healing Therapy Alliance - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/healing-therapy-alliance/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/healing-therapy-alliance/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Healing-Therapy-Alliance-scaled.jpg",
+      "datePublished": "2021-09-28T15:43:56+00:00",
+      "dateModified": "2023-04-27T11:09:27+00:00",
+      "description": "Healing Therapy Alliance offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/healing-therapy-alliance/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/healing-therapy-alliance/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/healing-therapy-alliance/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Healing-Therapy-Alliance-scaled.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Healing-Therapy-Alliance-scaled.jpg",
+      "width": 2560,
+      "height": 1815
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/healing-therapy-alliance/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Healing Therapy Alliance"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 722,
+ "features": [
+  "iframe",
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "What do we offer?"
+  ],
+  [
+   "h3",
+   "Why choose us?"
+  ],
+  [
+   "h3",
+   "How do we provide services during Covid-19?"
+  ],
+  [
+   "h2",
+   "Healing Therapy Alliance- Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Healing Therapy Alliance"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Healing-Therapy-Alliance-scaled.jpg",
+   "local_path": "images/centre__healing-therapy-alliance/Healing-Therapy-Alliance-scaled.jpg",
+   "alt": "",
+   "width": 2560,
+   "height": 1815,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(416) 551-1900",
+   "text": "(416) 551-1900",
+   "kind": "tel",
+   "new": "tel:(416) 551-1900"
+  },
+  {
+   "old_href": "mailto:info@healingtherapyalliance.com",
+   "text": "info@healingtherapyalliance.com",
+   "kind": "mailto",
+   "new": "mailto:info@healingtherapyalliance.com"
+  },
+  {
+   "old_href": "http://www.healingtherapyalliance.com/",
+   "text": "http://www.healingtherapyalliance.com/",
+   "kind": "external",
+   "new": "http://www.healingtherapyalliance.com/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.",
+     "html": "The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "What do we offer?",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.",
+     "html": "At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Why choose us?",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients.",
+     "html": "Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "How do we provide services during Covid-19?",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.",
+     "html": "Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "iframe",
+     "src": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fweb.facebook.com%2FHealingTherapyAlliance%2Fvideos%2F583937131953526%2F&show_text=false&width=380&t=0",
+     "title": "",
+     "width": "380",
+     "height": "476"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Healing Therapy Alliance- Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.",
+     "html": "Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art & Nature Therapy, Yoga & Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.",
+     "html": "The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art &amp; Nature Therapy, Yoga &amp; Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Healing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Healing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Healing Therapy Alliance",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What types of therapy do you offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+       "html": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How do I know which therapist is right for me?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+       "html": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How long do the therapy sessions last?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Sessions typically last for 50-60 minutes.",
+       "html": "Sessions typically last for 50-60 minutes.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Do you accept insurance?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+       "html": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How many sessions will I need?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The number of sessions needed varies based on individual needs and goals.",
+       "html": "The number of sessions needed varies based on individual needs and goals.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Can couples or families receive therapy?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, we offer therapy services for couples and families as well.",
+       "html": "Yes, we offer therapy services for couples and families as well.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(416) 551-1900",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(416) 551-1900\" itemprop=\"url\">(416) 551-1900</a>",
+         "links": [
+          {
+           "old": "tel:(416) 551-1900",
+           "text": "(416) 551-1900"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@healingtherapyalliance.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@healingtherapyalliance.com\" itemprop=\"url\">info@healingtherapyalliance.com</a>",
+         "links": [
+          {
+           "old": "mailto:info@healingtherapyalliance.com",
+           "text": "info@healingtherapyalliance.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "http://www.healingtherapyalliance.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.healingtherapyalliance.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.healingtherapyalliance.com/</a>",
+         "links": [
+          {
+           "old": "http://www.healingtherapyalliance.com/",
+           "text": "http://www.healingtherapyalliance.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "55 Eglinton Ave E #507, Toronto, ON M4P 1G8, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    55 Eglinton Ave E #507, Toronto, ON M4P 1G8, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:39pm"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.",
+   "html": "The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "What do we offer?",
+   "html": "What do we offer?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.",
+   "html": "At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Why choose us?",
+   "html": "Why choose us?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients.",
+   "html": "Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "How do we provide services during Covid-19?",
+   "html": "How do we provide services during Covid-19?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.",
+   "html": "Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "iframe",
+   "src": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fweb.facebook.com%2FHealingTherapyAlliance%2Fvideos%2F583937131953526%2F&show_text=false&width=380&t=0",
+   "title": "",
+   "width": "380",
+   "height": "476"
+  },
+  {
+   "type": "h2",
+   "text": "Healing Therapy Alliance- Center Overview",
+   "html": "Healing Therapy Alliance- Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.",
+   "html": "Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art & Nature Therapy, Yoga & Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.",
+   "html": "The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art &amp; Nature Therapy, Yoga &amp; Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Healing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Healing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Healing Therapy Alliance",
+   "html": "Frequently Asked Questions About Healing Therapy Alliance",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What types of therapy do you offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+   "html": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How do I know which therapist is right for me?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+   "html": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How long do the therapy sessions last?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Sessions typically last for 50-60 minutes.",
+   "html": "Sessions typically last for 50-60 minutes.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Do you accept insurance?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+   "html": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How many sessions will I need?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The number of sessions needed varies based on individual needs and goals.",
+   "html": "The number of sessions needed varies based on individual needs and goals.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Can couples or families receive therapy?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, we offer therapy services for couples and families as well.",
+   "html": "Yes, we offer therapy services for couples and families as well.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(416) 551-1900",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(416) 551-1900\" itemprop=\"url\">(416) 551-1900</a>",
+   "links": [
+    {
+     "old": "tel:(416) 551-1900",
+     "text": "(416) 551-1900"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@healingtherapyalliance.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@healingtherapyalliance.com\" itemprop=\"url\">info@healingtherapyalliance.com</a>",
+   "links": [
+    {
+     "old": "mailto:info@healingtherapyalliance.com",
+     "text": "info@healingtherapyalliance.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.healingtherapyalliance.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.healingtherapyalliance.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.healingtherapyalliance.com/</a>",
+   "links": [
+    {
+     "old": "http://www.healingtherapyalliance.com/",
+     "text": "http://www.healingtherapyalliance.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "55 Eglinton Ave E #507, Toronto, ON M4P 1G8, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    55 Eglinton Ave E #507, Toronto, ON M4P 1G8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:39pm"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Healing Therapy Alliance",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6788\" data-elementor-id=\"6788\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4c4a09cc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4c4a09cc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39984334\" data-element_type=\"column\" data-id=\"39984334\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5af6816d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5af6816d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-28ef1b8e\" data-element_type=\"column\" data-id=\"28ef1b8e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7cac6041 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7cac6041\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.</p><h3>What do we offer?</h3><p>At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.</p><h3>Why choose us?</h3><p>Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients. </p><h3>How do we provide services during Covid-19?</h3><p>Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.</p><p><br/><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1095135 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1095135\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90a90bb\" data-element_type=\"column\" data-id=\"90a90bb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d9d3f2c elementor-widget elementor-widget-shortcode\" data-element_type=\"widget\" data-id=\"d9d3f2c\" data-widget_type=\"shortcode.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-shortcode\"><iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"476\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=476&amp;href=https%3A%2F%2Fweb.facebook.com%2FHealingTherapyAlliance%2Fvideos%2F583937131953526%2F&amp;show_text=false&amp;width=380&amp;t=0\" style=\"border:none;overflow:hidden\" width=\"380\"></iframe></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4be6dea7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4be6dea7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20bdf23d\" data-element_type=\"column\" data-id=\"20bdf23d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7ae8836f elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7ae8836f\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-6e3864fc elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"6e3864fc\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Healing Therapy Alliance- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-1bf15cc elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1bf15cc\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.</p><p>The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art &amp; Nature Therapy, Yoga &amp; Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e87f7ef elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e87f7ef\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2964bad4\" data-element_type=\"column\" data-id=\"2964bad4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3f75601 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3f75601\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6392db3f\" data-element_type=\"column\" data-id=\"6392db3f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-74f0f3e elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"74f0f3e\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-10f36f7d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"10f36f7d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43419772\" data-element_type=\"column\" data-id=\"43419772\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-947ccbd elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"947ccbd\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tHealing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-12a9501e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"12a9501e\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-62af8575 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"62af8575\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1fd6a80b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1fd6a80b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e2e48fb\" data-element_type=\"column\" data-id=\"6e2e48fb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4498c70 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4498c70\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-50369ee8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"50369ee8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66e6f996\" data-element_type=\"column\" data-id=\"66e6f996\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6b791a66 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"6b791a66\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Healing Therapy Alliance</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-6ce59652 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"6ce59652\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1821\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1821\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapy do you offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1821\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1821\" role=\"region\"><p>We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1822\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1822\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How do I know which therapist is right for me?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1822\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1822\" role=\"region\"><p>Our team of professionals will assess your needs and goals to match you with the appropriate therapist.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1823\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1823\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long do the therapy sessions last?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1823\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1823\" role=\"region\"><p>Sessions typically last for 50-60 minutes.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1824\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1824\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Do you accept insurance?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1824\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1824\" role=\"region\"><p>Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1825\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1825\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How many sessions will I need?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1825\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1825\" role=\"region\"><p>The number of sessions needed varies based on individual needs and goals.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1826\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1826\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can couples or families receive therapy?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1826\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1826\" role=\"region\"><p>Yes, we offer therapy services for couples and families as well.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(416) 551-1900",
+  "email": "info@healingtherapyalliance.com",
+  "website": "http://www.healingtherapyalliance.com/",
+  "address": "55 Eglinton Ave E #507, Toronto, ON M4P 1G8, Canada",
+  "social": {},
+  "gallery": [],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.",
+    "html": "The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "What do we offer?",
+    "html": "What do we offer?",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.",
+    "html": "At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Why choose us?",
+    "html": "Why choose us?",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients.",
+    "html": "Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "How do we provide services during Covid-19?",
+    "html": "How do we provide services during Covid-19?",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.",
+    "html": "Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "iframe",
+    "src": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fweb.facebook.com%2FHealingTherapyAlliance%2Fvideos%2F583937131953526%2F&show_text=false&width=380&t=0",
+    "title": "",
+    "width": "380",
+    "height": "476"
+   },
+   {
+    "type": "h2",
+    "text": "Healing Therapy Alliance- Center Overview",
+    "html": "Healing Therapy Alliance- Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.",
+    "html": "Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art & Nature Therapy, Yoga & Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.",
+    "html": "The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art &amp; Nature Therapy, Yoga &amp; Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Healing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Healing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Healing Therapy Alliance",
+  "faqs": [
+   {
+    "question": "What types of therapy do you offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+      "html": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services."
+   },
+   {
+    "question": "How do I know which therapist is right for me?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+      "html": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist."
+   },
+   {
+    "question": "How long do the therapy sessions last?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Sessions typically last for 50-60 minutes.",
+      "html": "Sessions typically last for 50-60 minutes.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Sessions typically last for 50-60 minutes."
+   },
+   {
+    "question": "Do you accept insurance?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+      "html": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage."
+   },
+   {
+    "question": "How many sessions will I need?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The number of sessions needed varies based on individual needs and goals.",
+      "html": "The number of sessions needed varies based on individual needs and goals.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The number of sessions needed varies based on individual needs and goals."
+   },
+   {
+    "question": "Can couples or families receive therapy?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, we offer therapy services for couples and families as well.",
+      "html": "Yes, we offer therapy services for couples and families as well.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, we offer therapy services for couples and families as well."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(416) 551-1900",
+  "phone_href": "tel:(416) 551-1900",
+  "website_text": "http://www.healingtherapyalliance.com/",
+  "social_title": "",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What types of therapy do you offer?",
+   "answer_text": "We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.",
+   "answer_html": "<p>We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How do I know which therapist is right for me?",
+   "answer_text": "Our team of professionals will assess your needs and goals to match you with the appropriate therapist.",
+   "answer_html": "<p>Our team of professionals will assess your needs and goals to match you with the appropriate therapist.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How long do the therapy sessions last?",
+   "answer_text": "Sessions typically last for 50-60 minutes.",
+   "answer_html": "<p>Sessions typically last for 50-60 minutes.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Do you accept insurance?",
+   "answer_text": "Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.",
+   "answer_html": "<p>Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How many sessions will I need?",
+   "answer_text": "The number of sessions needed varies based on individual needs and goals.",
+   "answer_html": "<p>The number of sessions needed varies based on individual needs and goals.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Can couples or families receive therapy?",
+   "answer_text": "Yes, we offer therapy services for couples and families as well.",
+   "answer_html": "<p>Yes, we offer therapy services for couples and families as well.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6788\" data-elementor-id=\"6788\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4c4a09cc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4c4a09cc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39984334\" data-element_type=\"column\" data-id=\"39984334\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5af6816d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5af6816d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-28ef1b8e\" data-element_type=\"column\" data-id=\"28ef1b8e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7cac6041 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7cac6041\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>The Healing Therapy Alliance is a collective alliance of professionals, including mind/body and integrative psychotherapists, wellness therapists, and addiction counselors. Our team-based approach values collaboration, individuality, and holistic healing. We have experience working with children, youth, adults, and families who have experienced trauma or struggle with mental wellness or addiction. Our therapists are highly trained and equipped with up-to-date trauma-specific practices grounded in neuroscience and evidence.</p><h3>What do we offer?</h3><p>At the Healing Therapy Alliance, we offer individualized, wrap-around approaches to healing. Our services include psychotherapy, wellness therapy, and addiction counseling. We focus on healing the whole person, addressing concerns related to physical, cognitive, emotional, spiritual, and attachment systems. Our approach combines evidence-based practices such as cognitive-behavioral therapy, mindfulness, and somatic experiencing to create a balanced and personalized treatment plan.</p><h3>Why choose us?</h3><p>Our team-based approach sets us apart from other therapy centers. We believe that collaboration and individualization are the keys to ensuring successful healing. Our therapists are highly trained and continuously expanding their knowledge in evidence-based trauma-specific practices grounded in neuroscience. We offer a holistic approach to healing and are dedicated to providing the best care for our clients. </p><h3>How do we provide services during Covid-19?</h3><p>Due to Covid-19 restrictions, many of our practitioners are working virtually. We offer virtual therapy sessions to ensure the safety and well-being of our clients and our team. If you need to see your therapist in-person, they will make arrangements based on safety protocols.</p><p><br/><br/><br/></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1095135 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1095135\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-90a90bb\" data-element_type=\"column\" data-id=\"90a90bb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d9d3f2c elementor-widget elementor-widget-shortcode\" data-element_type=\"widget\" data-id=\"d9d3f2c\" data-widget_type=\"shortcode.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-shortcode\"><iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"476\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=476&amp;href=https%3A%2F%2Fweb.facebook.com%2FHealingTherapyAlliance%2Fvideos%2F583937131953526%2F&amp;show_text=false&amp;width=380&amp;t=0\" style=\"border:none;overflow:hidden\" width=\"380\"></iframe></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4be6dea7 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4be6dea7\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20bdf23d\" data-element_type=\"column\" data-id=\"20bdf23d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7ae8836f elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"7ae8836f\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-6e3864fc elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"6e3864fc\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Healing Therapy Alliance- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-1bf15cc elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1bf15cc\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Healing Therapy Alliance is an excellent rehabilitation center located in Toronto, Ontario. The center is an alliance of psychotherapists and addictions counselors who are dedicated to providing world-class outpatient counseling services. They cater to children, teens, and adults and ensure that their clients achieve long-lasting recovery.</p><p>The team at Healing Therapy Alliance incorporates evidence-based practices and holistic techniques to help their clients heal physically, emotionally, and mentally. They offer a range of various therapies including individual therapy and counseling, family therapy, and group therapy. The center also offers amenities such as Nutritional Counseling, Art &amp; Nature Therapy, Yoga &amp; Meditation, among others, to ensure a holistic healing process. The center’s aim is to provide the best care possible, and their highly experienced staff ensures that they deliver that.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e87f7ef elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e87f7ef\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2964bad4\" data-element_type=\"column\" data-id=\"2964bad4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3f75601 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3f75601\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6392db3f\" data-element_type=\"column\" data-id=\"6392db3f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-74f0f3e elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"74f0f3e\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-10f36f7d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"10f36f7d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-43419772\" data-element_type=\"column\" data-id=\"43419772\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-947ccbd elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"947ccbd\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tHealing Therapy Alliance has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-12a9501e elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"12a9501e\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-62af8575 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"62af8575\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1fd6a80b elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1fd6a80b\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e2e48fb\" data-element_type=\"column\" data-id=\"6e2e48fb\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4498c70 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"4498c70\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-50369ee8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"50369ee8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-66e6f996\" data-element_type=\"column\" data-id=\"66e6f996\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6b791a66 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"6b791a66\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Healing Therapy Alliance</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-6ce59652 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"6ce59652\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1821\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1821\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapy do you offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1821\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1821\" role=\"region\"><p>We offer Psychotherapy, Wellness Therapy, and Addiction Counseling services.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1822\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1822\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How do I know which therapist is right for me?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1822\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1822\" role=\"region\"><p>Our team of professionals will assess your needs and goals to match you with the appropriate therapist.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1823\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1823\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long do the therapy sessions last?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1823\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1823\" role=\"region\"><p>Sessions typically last for 50-60 minutes.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1824\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1824\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Do you accept insurance?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1824\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1824\" role=\"region\"><p>Yes, we do accept insurance. Please check with your insurance provider to determine your coverage.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1825\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1825\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How many sessions will I need?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1825\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1825\" role=\"region\"><p>The number of sessions needed varies based on individual needs and goals.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1826\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1826\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can couples or families receive therapy?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1826\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1826\" role=\"region\"><p>Yes, we offer therapy services for couples and families as well.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(416) 551-1900\" itemprop=\"url\">(416) 551-1900</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@healingtherapyalliance.com\" itemprop=\"url\">info@healingtherapyalliance.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.healingtherapyalliance.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.healingtherapyalliance.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    55 Eglinton Ave E #507, Toronto, ON M4P 1G8, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:39pm</span>\n</div>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

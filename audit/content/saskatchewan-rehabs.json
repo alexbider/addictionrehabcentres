@@ -1,0 +1,495 @@
+{
+ "schema": "arc-content/1",
+ "slug": "saskatchewan-rehabs",
+ "status": "REMAINING",
+ "page_type": "province",
+ "wp_type": "page",
+ "template": "Province",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "P1-P5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/saskatchewan-rehabs/",
+  "path": "/saskatchewan-rehabs/",
+  "wp_items": [
+   {
+    "id": 8270,
+    "type": "page",
+    "title": "Saskatchewan Rehabs",
+    "date": "2021-11-23T17:38:17",
+    "modified": "2026-03-28T14:56:42",
+    "status": "publish",
+    "yoast_title": "Saskatchewan Rehabs | Best Rehab Centres in Saskatchewan",
+    "words_rest": 228
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/saskatchewan-rehabs/",
+ "seo": {
+  "meta_title": "Saskatchewan Rehabs | Best Rehab Centres in Saskatchewan",
+  "meta_description": "Browse the Best Rehab Centres in Saskatchewan with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Saskatchewan Rehab Centres.",
+  "canonical_source": "https://addictionrehabcenters.ca/saskatchewan-rehabs/",
+  "og": {
+   "title": "Saskatchewan Rehabs | Best Rehab Centres in Saskatchewan",
+   "description": "Browse the Best Rehab Centres in Saskatchewan with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Saskatchewan Rehab Centres.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Saskatchewan Rehabs",
+      "datePublished": "2021-11-23T17:38:17+00:00",
+      "dateModified": "2026-03-28T14:56:42+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/"
+      },
+      "wordCount": 68,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/",
+      "url": "https://addictionrehabcenters.ca/saskatchewan-rehabs/",
+      "name": "Saskatchewan Rehabs | Best Rehab Centres in Saskatchewan",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2021-11-23T17:38:17+00:00",
+      "dateModified": "2026-03-28T14:56:42+00:00",
+      "description": "Browse the Best Rehab Centres in Saskatchewan with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Saskatchewan Rehab Centres.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/saskatchewan-rehabs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Saskatchewan Rehabs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/#webpage",
+      "url": "https://addictionrehabcenters.ca/saskatchewan-rehabs/",
+      "name": "Saskatchewan Rehabs | Best Rehab Centres in Saskatchewan",
+      "description": "Explore addiction and rehab treatment centres in Saskatchewan for alcohol rehab, drug rehab, and recovery support.",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      }
+     },
+     {
+      "@type": "ItemList",
+      "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/#rehablist",
+      "name": "Addiction Treatment Centres in Saskatchewan",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://addictionrehabcenters.ca/centre-for-change-recovery-centre/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://addictionrehabcenters.ca/hope-4-today-recovery-services/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://addictionrehabcenters.ca/saskatoon-addiction-services/"
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/saskatchewan-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Saskatchewan Rehabs",
+        "item": "https://addictionrehabcenters.ca/saskatchewan-rehabs/"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/drug-alcohol-rehabs-in-quebec/#webpage",
+      "url": "https://addictionrehabcenters.ca/drug-alcohol-rehabs-in-quebec/",
+      "name": "Drug & Alcohol Rehabs in Quebec | Best Rehab Centres in Quebec",
+      "description": "Browse the best drug and alcohol rehab centres in Quebec including addiction treatment facilities, recovery programs, and support services.",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      }
+     },
+     {
+      "@type": "ItemList",
+      "@id": "https://addictionrehabcenters.ca/drug-alcohol-rehabs-in-quebec/#rehablist",
+      "name": "Addiction Treatment Centres in Quebec",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://addictionrehabcenters.ca/addictions-recovery-centre-quebec/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://addictionrehabcenters.ca/centre-venoge/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://addictionrehabcenters.ca/le-porte-ouverte/"
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/drug-alcohol-rehabs-in-quebec/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Drug & Alcohol Rehabs in Quebec",
+        "item": "https://addictionrehabcenters.ca/drug-alcohol-rehabs-in-quebec/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Saskatchewan Rehabs",
+ "title_bar_h1": "Saskatchewan Rehabs",
+ "word_count": 2,
+ "features": [
+  "listing-cards:2"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Saskatchewan Rehabs"
+  ],
+  [
+   "h5",
+   "North Wind Healing Centre"
+  ],
+  [
+   "h5",
+   "Prairie Sky Recovery"
+  ]
+ ],
+ "images": [],
+ "links": [],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Saskatchewan Rehabs",
+   "blocks": [
+    {
+     "type": "cards",
+     "hrefs": [
+      "https://addictionrehabcenters.ca/north-wind-healing-centre/",
+      "https://addictionrehabcenters.ca/prairie-sky-recovery/"
+     ]
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Saskatchewan Rehabs",
+   "html": "Saskatchewan Rehabs",
+   "id": ""
+  },
+  {
+   "type": "cards",
+   "hrefs": [
+    "https://addictionrehabcenters.ca/north-wind-healing-centre/",
+    "https://addictionrehabcenters.ca/prairie-sky-recovery/"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "kind": "listing-banner",
+   "classes": [
+    "innerBanner"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Saskatchewan Rehabs",
+       "html": "Saskatchewan Rehabs",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "listing",
+   "classes": [
+    "innerListingBox"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/north-wind-healing-centre/",
+        "https://addictionrehabcenters.ca/prairie-sky-recovery/"
+       ]
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Saskatchewan Rehabs",
+  "background_image": ""
+ },
+ "cards": [
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/north-wind-healing-centre/",
+   "address": "Graham Rd, Regina, SK S4N, Canada",
+   "excerpt": "The North Wind Healing Centre is a drug trea",
+   "category": "Saskatchewan Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/prairie-sky-recovery/",
+   "address": "Wilkie, SK S0K 4W0, Canada",
+   "excerpt": "Unique Therapies at Prairie Sky Recovery At",
+   "category": "Saskatchewan Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1.webp",
+    "alt": "",
+    "width": "1400",
+    "height": "800"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "",
+    "north-wind-healing-centre",
+    "Graham Rd, Regina, SK S4N, Canada",
+    "The North Wind Healing Centre is a drug trea",
+    "0",
+    0,
+    "",
+    [
+     "Saskatchewan Rehabs"
+    ]
+   ],
+   [
+    "",
+    "prairie-sky-recovery",
+    "Wilkie, SK S0K 4W0, Canada",
+    "Unique Therapies at Prairie Sky Recovery At",
+    "0",
+    0,
+    "",
+    [
+     "Saskatchewan Rehabs"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "listing": {
+  "cards": [
+   {
+    "name": "North Wind Healing Centre",
+    "href": "https://addictionrehabcenters.ca/north-wind-healing-centre/",
+    "slug": "north-wind-healing-centre",
+    "address": "Graham Rd, Regina, SK S4N, Canada",
+    "excerpt": "The North Wind Healing Centre is a drug trea",
+    "category": "Saskatchewan Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/north-wind-healing-centre/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Prairie Sky Recovery",
+    "href": "https://addictionrehabcenters.ca/prairie-sky-recovery/",
+    "slug": "prairie-sky-recovery",
+    "address": "Wilkie, SK S0K 4W0, Canada",
+    "excerpt": "Unique Therapies at Prairie Sky Recovery At",
+    "category": "Saskatchewan Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/prairie-sky-recovery/Prairie1.webp",
+     "alt": "",
+     "width": "1400",
+     "height": "800",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1.webp"
+    }
+   }
+  ],
+  "source_listing_count": 2,
+  "duplicates_removed": 0
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"elementor elementor-8270\" data-elementor-id=\"8270\" data-elementor-post-type=\"page\" data-elementor-type=\"wp-page\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-16835f59 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"16835f59\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-62cd6dd1\" data-element_type=\"column\" data-id=\"62cd6dd1\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-61e06cfa elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"61e06cfa\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"vc_row wpb_row vc_row-fluid innerBanner\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1>Saskatchewan Rehabs</h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerListingBox\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"eltdf-listing-list-holder eltdf-ll-gallery eltdf-ll-layout-standard eltdf-grid-list eltdf-disable-bottom-space eltdf-three-columns eltdf-normal-space eltdf-ll-no-map eltdf-ll-no-filter eltdf-ll-pag-load-more eltdf-ll-category-set\" data-category=\"585\" data-enable-category=\"yes\" data-enable-excerpt=\"yes\" data-enable-filter=\"no\" data-enable-filter-category=\"yes\" data-enable-filter-custom-search=\"yes\" data-enable-filter-location=\"yes\" data-enable-filter-order-by=\"yes\" data-enable-filter-switch-layout=\"yes\" data-enable-filter-tag=\"yes\" data-enable-location=\"yes\" data-enable-map=\"no\" data-enable-map-switcher=\"no\" data-enable-price-range=\"yes\" data-enable-reviews-count=\"yes\" data-filter-location-field-type=\"select\" data-hide-active-filter=\"yes\" data-image-proportions=\"full\" data-item-layout=\"standard\" data-load-more-top-margin=\"50px\" data-max-num-pages=\"1\" data-next-page=\"2\" data-number-of-columns=\"three\" data-number-of-items=\"24\" data-order=\"ASC\" data-order-by=\"date\" data-pagination-type=\"load-more\" data-space-between-items=\"normal\" data-title-tag=\"h5\" data-type=\"gallery\">\n<div class=\"eltdf-listing-list-items-part\">\n<div class=\"eltdf-ll-inner eltdf-outer-space clearfix\">\n<article class=\"eltdf-ll-item eltdf-item-space post-6553 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-saskatchewan-rehabs listing-location-regina\" data-id=\"6553\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/north-wind-healing-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/saskatchewan-rehabs/\" itemprop=\"url\">\n\t\t\t\tSaskatchewan Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tGraham Rd, Regina, SK S4N, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/north-wind-healing-centre/\" itemprop=\"url\">North Wind Healing Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The North Wind Healing Centre is a drug trea</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6553\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7291\" name=\"findall_listing_nonce_wishlist_functionality_7291\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/saskatchewan-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-16055 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-saskatchewan-rehabs listing-tag-private-rehab listing-location-wilkie\" data-id=\"16055\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/prairie-sky-recovery/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"800\" loading=\"lazy\" sizes=\"(max-width: 1400px) 100vw, 1400px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1.webp 1400w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1-300x171.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1-1024x585.webp 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1-768x439.webp 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Prairie1-600x343.webp 600w\" width=\"1400\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/saskatchewan-rehabs/\" itemprop=\"url\">\n\t\t\t\tSaskatchewan Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tWilkie, SK S0K 4W0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/prairie-sky-recovery/\" itemprop=\"url\">Prairie Sky Recovery</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Unique Therapies at Prairie Sky Recovery At </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"16055\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5483\" name=\"findall_listing_nonce_wishlist_functionality_5483\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/saskatchewan-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article> </div>\n<div class=\"eltdf-ll-loading\">\n<div class=\"eltdf-findall-spinner\"></div>\n</div> </div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e0367e3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e0367e3\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-564efd8\" data-element_type=\"column\" data-id=\"564efd8\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-c928ae7 elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"c928ae7\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div></body>"
+}

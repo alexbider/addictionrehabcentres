@@ -1,0 +1,895 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__fresh-start-recovery-centre",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+  "path": "/fresh-start-recovery-centre/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/fresh-start-recovery-centre/",
+ "seo": {
+  "meta_title": "Review - Fresh Start Recovery Centre | Addictionrehabcenters",
+  "meta_description": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support.",
+  "canonical_source": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+  "og": {
+   "title": "Review - Fresh Start Recovery Centre | Addictionrehabcenters",
+   "description": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+      "url": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/",
+      "name": "Review - Fresh Start Recovery Centre | Addictionrehabcenters",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+      "datePublished": "2021-09-28T15:42:43+00:00",
+      "dateModified": "2022-11-22T04:31:31+00:00",
+      "description": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/fresh-start-recovery-centre/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "Fresh Start Recovery Centre-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/fresh-start-recovery-centre/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Fresh Start Recovery Centre"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 661,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Center"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-2.png",
+   "local_path": "images/centre__fresh-start-recovery-centre/Fresh-Start-Recovery-Centre-2.png",
+   "alt": "Fresh Start Recovery Centre-2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-3.png",
+   "local_path": "images/centre__fresh-start-recovery-centre/Fresh-Start-Recovery-Centre-3.png",
+   "alt": "Fresh Start Recovery Centre-3",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-1.png",
+   "local_path": "images/centre__fresh-start-recovery-centre/Fresh-Start-Recovery-Centre-1.png",
+   "alt": "Fresh Start Recovery Centre-1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-0.png",
+   "local_path": "images/centre__fresh-start-recovery-centre/Fresh-Start-Recovery-Centre-0.png",
+   "alt": "Fresh Start Recovery Centre-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "tel:(403) 387-6266",
+   "text": "(403) 387-6266",
+   "kind": "tel",
+   "new": "tel:(403) 387-6266"
+  },
+  {
+   "old_href": "mailto:info@freshstartrecovery.ca",
+   "text": "info@freshstartrecovery.ca",
+   "kind": "mailto",
+   "new": "mailto:info@freshstartrecovery.ca"
+  },
+  {
+   "old_href": "http://www.freshstartrecovery.ca/",
+   "text": "http://www.freshstartrecovery.ca/",
+   "kind": "external",
+   "new": "http://www.freshstartrecovery.ca/"
+  },
+  {
+   "old_href": "https://www.facebook.com/FreshStartRecovery/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/FreshStartRecovery/"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Center",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!",
+     "html": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "12 Step Programs",
+         "html": "12 Step Programs",
+         "links": []
+        },
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        },
+        {
+         "text": "Residential Drug Rehab",
+         "html": "Residential Drug Rehab",
+         "links": []
+        },
+        {
+         "text": "Outpatient Drug Rehab",
+         "html": "Outpatient Drug Rehab",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "12 Step Programs",
+         "html": "12 Step Programs",
+         "links": []
+        },
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        },
+        {
+         "text": "Residential Drug Rehab",
+         "html": "Residential Drug Rehab",
+         "links": []
+        },
+        {
+         "text": "Outpatient Drug Rehab",
+         "html": "Outpatient Drug Rehab",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "(403) 387-6266",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(403) 387-6266\" itemprop=\"url\">(403) 387-6266</a>",
+       "links": [
+        {
+         "old": "tel:(403) 387-6266",
+         "text": "(403) 387-6266"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "info@freshstartrecovery.ca",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@freshstartrecovery.ca\" itemprop=\"url\">info@freshstartrecovery.ca</a>",
+       "links": [
+        {
+         "old": "mailto:info@freshstartrecovery.ca",
+         "text": "info@freshstartrecovery.ca"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "http://www.freshstartrecovery.ca/",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.freshstartrecovery.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.freshstartrecovery.ca/</a>",
+       "links": [
+        {
+         "old": "http://www.freshstartrecovery.ca/",
+         "text": "http://www.freshstartrecovery.ca/"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "Social",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Center",
+   "html": "<strong>About</strong> Center",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!",
+   "html": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "12 Step Programs",
+     "html": "12 Step Programs",
+     "links": []
+    },
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    },
+    {
+     "text": "Residential Drug Rehab",
+     "html": "Residential Drug Rehab",
+     "links": []
+    },
+    {
+     "text": "Outpatient Drug Rehab",
+     "html": "Outpatient Drug Rehab",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "12 Step Programs",
+     "html": "12 Step Programs",
+     "links": []
+    },
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    },
+    {
+     "text": "Residential Drug Rehab",
+     "html": "Residential Drug Rehab",
+     "links": []
+    },
+    {
+     "text": "Outpatient Drug Rehab",
+     "html": "Outpatient Drug Rehab",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "(403) 387-6266",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(403) 387-6266\" itemprop=\"url\">(403) 387-6266</a>",
+   "links": [
+    {
+     "old": "tel:(403) 387-6266",
+     "text": "(403) 387-6266"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@freshstartrecovery.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@freshstartrecovery.ca\" itemprop=\"url\">info@freshstartrecovery.ca</a>",
+   "links": [
+    {
+     "old": "mailto:info@freshstartrecovery.ca",
+     "text": "info@freshstartrecovery.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.freshstartrecovery.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.freshstartrecovery.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.freshstartrecovery.ca/</a>",
+   "links": [
+    {
+     "old": "http://www.freshstartrecovery.ca/",
+     "text": "http://www.freshstartrecovery.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Fresh Start Recovery Centre",
+  "categories": [
+   "Alberta Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h3><strong>About</strong> Center</h3>\n<p>The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>12 Step Programs</li>\n<li>Substance Abuse Treatmental</li>\n<li>Residential Drug Rehab</li>\n<li>Outpatient Drug Rehab</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>12 Step Programs</li>\n<li>Substance Abuse Treatmental</li>\n<li>Residential Drug Rehab</li>\n<li>Outpatient Drug Rehab</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>",
+  "specialties": [
+   "12 Step Programs",
+   "Substance Abuse Treatmental",
+   "Residential Drug Rehab",
+   "Outpatient Drug Rehab"
+  ],
+  "amenities": [
+   "12 Step Programs",
+   "Substance Abuse Treatmental",
+   "Residential Drug Rehab",
+   "Outpatient Drug Rehab"
+  ],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(403) 387-6266",
+  "email": "info@freshstartrecovery.ca",
+  "website": "http://www.freshstartrecovery.ca/",
+  "address": "411 41 Ave NE, Calgary, AB T2E 2N4, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/FreshStartRecovery/",
+   "twitter": ""
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-2.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-2.png",
+    "alt": "Fresh Start Recovery Centre-2",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-3.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-3.png",
+    "alt": "Fresh Start Recovery Centre-3",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-1.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Fresh-Start-Recovery-Centre-1.png",
+    "alt": "Fresh Start Recovery Centre-1",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Center",
+    "html": "<strong>About</strong> Center",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!",
+    "html": "The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [
+     "12 Step Programs",
+     "Substance Abuse Treatmental",
+     "Residential Drug Rehab",
+     "Outpatient Drug Rehab"
+    ],
+    "text": ""
+   },
+   {
+    "heading": "Amenities",
+    "items": [
+     "12 Step Programs",
+     "Substance Abuse Treatmental",
+     "Residential Drug Rehab",
+     "Outpatient Drug Rehab"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(403) 387-6266",
+  "phone_href": "tel:(403) 387-6266",
+  "website_text": "http://www.freshstartrecovery.ca/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Center</h3>\n<p>The Fresh Start Recovery Centre is an all men drug and alcohol treatment centre. They provide a safe and secure environment in which the addicts can receive the help and support they need to go through their withdrawal. The program lasts on average 12 weeks . We offer residential treatment and Out-patient which includes counselling, on a one-on-one basis and a group basis. In order for the addicts to participate in the long-term rehab program, they have to show abstinence. In addition to the 50-bed primary treatment centre, Fresh Start currently has three second stage houses that are home to 24 men needing affordable, supported housing to successfully continue their journey of long term recovery and integrate back into community. Two of these homes were built in the 1970’s and the original roof needs to be replaced in order to to continue to provide a warm, dry, comfortable home. Everyday Fresh Start works with people to give them the tools they need to break free from. As our participants go through their lifelong journey of active recovery, each one regains trust and independence and in doing so rebuilds relationships with family, employers and friends and returns to community as an active, engaged, contributing member of society. At Fresh Start we recognize addictions as a chronic disease and our program is designed to eliminate the bad habits associated with drinking and drug use and model good habits consistent with healthy lifestyles. This view of addiction is gaining acceptance in mainstream Canadian medicine, after many years of being viewed by many as a moral deficiency. HOW WE DO IT: Fresh Start is an abstinence based men’s alcohol and drug addiction treatment centre grounded on a proven 12 step model of recovery with a formal program that typically lasts between 9 to 16 weeks. Fresh Start recognizes, respects and works with each individual and their unique set of circumstances to create and manage a recovery plan that increases their odds of succeeding. Personal responsibility, accountability and honesty are the cornerstones of the program and people tend to live up to our expectations of them and – more importantly – their expectations of themselves. Throughout the program, participants are equipped with additional life skills and tools that help them to model and continue to lead a healthy lifestyle once they have completed their program. These skills include a better understanding of the importance of nutrition, exercise, meditation, career search skills, cultural sensitivity and a number of other practical skills in their recovery process. The duration of the program is as important as the program’s content as it has proven to provide participants sufficient time to model and adopt new behaviours while decreasing the danger of them reverting to their old, familiar, destructive behaviours. Our program is longer than many other treatment programs that are characteristically prone to the “Spin Dry” effect – living drug and/or alcohol free for a shorter time period with increased risk of relapse shortly after the program ends. With limited space in our residential program and a wait list running 30 to 90 days, we offer a day Program for people who have safe, affordable housing to return to each night. OUR TRACK RECORD: • Fresh Start has an 85% completion rate and a long-term success rate that is 4.6 times the sector average of 10% (from all treatment centres). • The staff at Fresh Start collectively has more than 250 years of firsthand active recovery experience. • We know addictions, we know what’s involved in successful recovery, we take our job of helping others recover every day very seriously and we are effective, efficient and successful!</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>12 Step Programs</li>\n<li>Substance Abuse Treatmental</li>\n<li>Residential Drug Rehab</li>\n<li>Outpatient Drug Rehab</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>12 Step Programs</li>\n<li>Substance Abuse Treatmental</li>\n<li>Residential Drug Rehab</li>\n<li>Outpatient Drug Rehab</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(403) 387-6266\" itemprop=\"url\">(403) 387-6266</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@freshstartrecovery.ca\" itemprop=\"url\">info@freshstartrecovery.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.freshstartrecovery.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.freshstartrecovery.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    411 41 Ave NE, Calgary, AB T2E 2N4, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/FreshStartRecovery/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"internal\" href=\"\" itemprop=\"url\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

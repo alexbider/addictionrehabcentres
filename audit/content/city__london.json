@@ -1,0 +1,631 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__london",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/london/",
+  "path": "/listing-location/london/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/london/",
+ "seo": {
+  "meta_title": "London Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/london/",
+  "og": {
+   "title": "London Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/london/",
+      "url": "https://addictionrehabcenters.ca/listing-location/london/",
+      "name": "London Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/london/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/london/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/london/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/london/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+      "width": 680,
+      "height": 382,
+      "caption": "Teen Challenge Canada"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/london/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "London"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "London",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in London Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+   "local_path": "images/city__london/Teen-Challenge-Canada-3.jpg",
+   "alt": "Teen Challenge Canada",
+   "width": 680,
+   "height": 382,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg",
+   "local_path": "images/city__london/Mission-Services-Of-London.jpg",
+   "alt": "Mission Services Of London",
+   "width": 1200,
+   "height": 577,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/teen-challenge-canada-ontario-mens-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/london/",
+   "text": "London",
+   "kind": "internal",
+   "new": "/listing-location/london/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/",
+   "text": "Teen Challenge Canada – Ontario Men’s Centre",
+   "kind": "internal",
+   "new": "/teen-challenge-canada-ontario-mens-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/mission-services-of-london/",
+   "text": "",
+   "kind": "internal",
+   "new": "/mission-services-of-london/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/london/",
+   "text": "London",
+   "kind": "internal",
+   "new": "/listing-location/london/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/mission-services-of-london/",
+   "text": "Mission Services Of London",
+   "kind": "internal",
+   "new": "/mission-services-of-london/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/vanier-childrens-services/",
+   "text": "",
+   "kind": "internal",
+   "new": "/vanier-childrens-services/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/london/",
+   "text": "London",
+   "kind": "internal",
+   "new": "/listing-location/london/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/vanier-childrens-services/",
+   "text": "Vanier Childrens Services",
+   "kind": "internal",
+   "new": "/vanier-childrens-services/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in London Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in London Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+     "alt": "Teen Challenge Canada",
+     "width": "680",
+     "height": "382",
+     "link_href": "https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/"
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab"
+    },
+    {
+     "type": "link",
+     "text": "London",
+     "href": "https://addictionrehabcenters.ca/listing-location/london/",
+     "new_href": "/listing-location/london/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Teen Challenge Canada – Ontario Men’s Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "9340 Sharon Rd, London, ON N6P 1P3, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9340 Sharon Rd, London, ON N6P 1P3, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg",
+       "alt": "Mission Services Of London",
+       "width": "1200",
+       "height": "577",
+       "link_href": "https://addictionrehabcenters.ca/mission-services-of-london/"
+      },
+      {
+       "type": "text",
+       "text": "Private Rehab"
+      },
+      {
+       "type": "link",
+       "text": "London",
+       "href": "https://addictionrehabcenters.ca/listing-location/london/",
+       "new_href": "/listing-location/london/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Mission Services Of London",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "415 Hamilton Rd, London, ON N5Z 1S1, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    415 Hamilton Rd, London, ON N5Z 1S1, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+       "alt": "Clsc Alberta Health Services",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/vanier-childrens-services/"
+      },
+      {
+       "type": "link",
+       "text": "London",
+       "href": "https://addictionrehabcenters.ca/listing-location/london/",
+       "new_href": "/listing-location/london/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Vanier Childrens Services",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "871 Trafalgar St, London, ON N5Z 1E6, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    871 Trafalgar St, London, ON N5Z 1E6, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in London Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in London Results",
+   "html": "More Rehab Centres in London Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+   "alt": "Teen Challenge Canada",
+   "width": "680",
+   "height": "382",
+   "link_href": "https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "London",
+   "href": "https://addictionrehabcenters.ca/listing-location/london/",
+   "new_href": "/listing-location/london/"
+  },
+  {
+   "type": "h5",
+   "text": "Teen Challenge Canada – Ontario Men’s Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/teen-challenge-canada-ontario-mens-centre/\" itemprop=\"url\">Teen Challenge Canada – Ontario Men’s Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "9340 Sharon Rd, London, ON N6P 1P3, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9340 Sharon Rd, London, ON N6P 1P3, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg",
+   "alt": "Mission Services Of London",
+   "width": "1200",
+   "height": "577",
+   "link_href": "https://addictionrehabcenters.ca/mission-services-of-london/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "London",
+   "href": "https://addictionrehabcenters.ca/listing-location/london/",
+   "new_href": "/listing-location/london/"
+  },
+  {
+   "type": "h5",
+   "text": "Mission Services Of London",
+   "html": "<a data-wpel-link=\"internal\" href=\"/mission-services-of-london/\" itemprop=\"url\">Mission Services Of London</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "415 Hamilton Rd, London, ON N5Z 1S1, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    415 Hamilton Rd, London, ON N5Z 1S1, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/vanier-childrens-services/"
+  },
+  {
+   "type": "link",
+   "text": "London",
+   "href": "https://addictionrehabcenters.ca/listing-location/london/",
+   "new_href": "/listing-location/london/"
+  },
+  {
+   "type": "h5",
+   "text": "Vanier Childrens Services",
+   "html": "<a data-wpel-link=\"internal\" href=\"/vanier-childrens-services/\" itemprop=\"url\">Vanier Childrens Services</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "871 Trafalgar St, London, ON N5Z 1E6, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    871 Trafalgar St, London, ON N5Z 1E6, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Teen Challenge Canada – Ontario Men’s Centre",
+   "href": "https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/",
+   "address": "9340 Sharon Rd, London, ON N6P 1P3, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg",
+    "alt": "Teen Challenge Canada",
+    "width": "680",
+    "height": "382"
+   }
+  },
+  {
+   "name": "Mission Services Of London",
+   "href": "https://addictionrehabcenters.ca/mission-services-of-london/",
+   "address": "415 Hamilton Rd, London, ON N5Z 1S1, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg",
+    "alt": "Mission Services Of London",
+    "width": "1200",
+    "height": "577"
+   }
+  },
+  {
+   "name": "Vanier Childrens Services",
+   "href": "https://addictionrehabcenters.ca/vanier-childrens-services/",
+   "address": "871 Trafalgar St, London, ON N5Z 1E6, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Teen Challenge Canada – Ontario Men’s Centre",
+    "teen-challenge-canada-ontario-mens-centre",
+    "9340 Sharon Rd, London, ON N6P 1P3, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "Mission Services Of London",
+    "mission-services-of-london",
+    "415 Hamilton Rd, London, ON N5Z 1S1, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "Vanier Childrens Services",
+    "vanier-childrens-services",
+    "871 Trafalgar St, London, ON N5Z 1E6, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "London",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in London Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in London Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-14730\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/\">\n<picture class=\"attachment-full size-full wp-post-image\" decoding=\"async\" loading=\"lazy\">\n<source sizes=\"(max-width: 680px) 100vw, 680px\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg.webp 680w, https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3-300x169.jpg.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3-600x337.jpg.webp 600w\" type=\"image/webp\"/>\n<img alt=\"Teen Challenge Canada\" decoding=\"async\" height=\"382\" loading=\"lazy\" sizes=\"(max-width: 680px) 100vw, 680px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3.jpg 680w, https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Teen-Challenge-Canada-3-600x337.jpg 600w\" width=\"680\"/>\n</picture>\n</a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/london/\">London</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/teen-challenge-canada-ontario-mens-centre/\" itemprop=\"url\">Teen Challenge Canada – Ontario Men’s Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9340 Sharon Rd, London, ON N6P 1P3, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6837\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mission-services-of-london/\">\n<img alt=\"Mission Services Of London\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"577\" loading=\"lazy\" sizes=\"(max-width: 1200px) 100vw, 1200px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London.jpg 1200w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London-300x144.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London-1024x492.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London-768x369.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mission-Services-Of-London-600x289.jpg 600w\" width=\"1200\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/london/\">London</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mission-services-of-london/\" itemprop=\"url\">Mission Services Of London</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    415 Hamilton Rd, London, ON N5Z 1S1, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6822\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/vanier-childrens-services/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/london/\">London</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/vanier-childrens-services/\" itemprop=\"url\">Vanier Childrens Services</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    871 Trafalgar St, London, ON N5Z 1E6, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

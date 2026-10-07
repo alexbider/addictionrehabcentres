@@ -1,0 +1,918 @@
+{
+ "schema": "arc-content/1",
+ "slug": "understanding-addiction-to-drugs",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+  "path": "/understanding-addiction-to-drugs/",
+  "wp_items": [
+   {
+    "id": 950,
+    "type": "post",
+    "title": "Understanding Addiction to Drugs",
+    "date": "2015-08-14T21:10:35",
+    "modified": "2022-08-19T13:05:37",
+    "status": "publish",
+    "yoast_title": "Understanding Addiction to Drugs - Addiction Rehab Centers",
+    "words_rest": 1197
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/understanding-addiction-to-drugs/",
+ "seo": {
+  "meta_title": "Understanding Addiction to Drugs - Addiction Rehab Centers",
+  "meta_description": "Read this article about understanding addiction to drugs for an explanation of drug addiction as a disease and why exactly treatment is so necessary to society.",
+  "canonical_source": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+  "og": {
+   "title": "Understanding Addiction to Drugs - Addiction Rehab Centers",
+   "description": "Read this article about understanding addiction to drugs for an explanation of drug addiction as a disease and why exactly treatment is so necessary to society.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Understanding Addiction to Drugs",
+      "datePublished": "2015-08-14T21:10:35+00:00",
+      "dateModified": "2022-08-19T13:05:37+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/"
+      },
+      "wordCount": 1205,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+      "keywords": [
+       "addiction",
+       "Addiction to Drugs",
+       "cravings",
+       "disease",
+       "drugs",
+       "treatment"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+      "url": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+      "name": "Understanding Addiction to Drugs - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+      "datePublished": "2015-08-14T21:10:35+00:00",
+      "dateModified": "2022-08-19T13:05:37+00:00",
+      "description": "Read this article about understanding addiction to drugs for an explanation of drug addiction as a disease and why exactly treatment is so necessary to society.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "addiction to drugs"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Understanding Addiction to Drugs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Understanding Addiction to Drugs",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 1206,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Understanding Addiction to Drugs"
+  ],
+  [
+   "h2",
+   "Why is Drug Addiction Considered a Disease?"
+  ],
+  [
+   "h2",
+   "How Does Addiction to Drugs Affect Society?"
+  ],
+  [
+   "h2",
+   "Am I a Drug Addict?"
+  ],
+  [
+   "h2",
+   "What Should I Look for When I Seek Treatment?"
+  ],
+  [
+   "h2",
+   "How Long Does Drug Addiction Treatment Take?"
+  ],
+  [
+   "h2",
+   "Will I Always Have Drug Cravings?"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+   "local_path": "images/understanding-addiction-to-drugs/addiction-to-drugs.jpg",
+   "alt": "addiction to drugs",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "August 14, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics",
+   "text": "nearly 25 million Americans",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/related-topics/trends-statistics",
+   "text": "National Institute on Drug Abuse:",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/related-topics/trends-statistics"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
+   "text": "40% and 60%.",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+     "alt": "addiction to drugs",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "August 14, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Understanding Addiction to Drugs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In 2009, nearly 25 million Americans needed treatment for drug addiction, but only 2 million sought the help they needed for their addiction to drugs. Many drug addicts avoid treatment because they don’t want to admit they have a problem. And that thought makes good sense, especially given how drug addicts are portrayed in the popular media: as selfish, angry, and possibly dangerous monsters.",
+     "html": "In 2009, <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/treatment-statistics\" rel=\"external noopener noreferrer\">nearly 25 million Americans</a> needed treatment for drug addiction, but only 2 million sought the help they needed for their addiction to drugs. Many drug addicts avoid treatment because they don’t want to admit they have a problem. And that thought makes good sense, especially given how drug addicts are portrayed in the popular media: as selfish, angry, and possibly dangerous monsters.",
+     "links": [
+      {
+       "old": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics",
+       "text": "nearly 25 million Americans"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The truth, though, is that drug addiction is a disease. Addiction to drugs is not something people willingly choose, but instead the product of a complex cascade of processes in the brain and body. Because addiction is a disease, it’s highly unlikely that it will go away on its own. Comprehensive drug treatment for your drug addiction, though, can save your life.",
+     "html": "The truth, though, is that drug addiction is a disease. Addiction to drugs is not something people willingly choose, but instead the product of a complex cascade of processes in the brain and body. Because addiction is a disease, it’s highly unlikely that it will go away on its own. Comprehensive drug treatment for your drug addiction, though, can save your life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Why is Drug Addiction Considered a Disease?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "To an outsider looking in, addiction looks a whole lot like a choice. After all, no one puts a needle in the addict’s arm, or holds a gun to his or her head and demands the use of drugs. But much of what we do in life, from getting depressed to suffering through a bad divorce, is not within our control, and addiction is no exception.",
+       "html": "To an outsider looking in, addiction looks a whole lot like a choice. After all, no one puts a needle in the addict’s arm, or holds a gun to his or her head and demands the use of drugs. But much of what we do in life, from getting depressed to suffering through a bad divorce, is not within our control, and addiction is no exception.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The disease of addiction begins with a chemical process called dependency. The more frequently you use drugs and alcohol, the more convinced your body becomes that you need these substances not just to function, but to stay alive. Coupled with tolerance—a progressively more significant ability to take larger and larger quantities of drugs—dependency keeps you going back for more drugs, even when those drugs have already wrecked your life. Just as you might steal if you were desperate for water, so too will an addict steal when no other viable options for obtaining drugs present themselves.",
+       "html": "The disease of addiction begins with a chemical process called dependency. The more frequently you use drugs and alcohol, the more convinced your body becomes that you need these substances not just to function, but to stay alive. Coupled with tolerance—a progressively more significant ability to take larger and larger quantities of drugs—dependency keeps you going back for more drugs, even when those drugs have already wrecked your life. Just as you might steal if you were desperate for water, so too will an addict steal when no other viable options for obtaining drugs present themselves.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction also causes other diseases. It can lead to a host of mental illnesses, including depression, anxiety, hallucinations, and uncontrollable anger. Addiction is implicated in suicide, community violence, headaches, chronic pain, and more serious conditions such as cancer, heart attacks, strokes, and a host of other ailments. Some research suggests that prolonged drug addiction can shorten life expectancy by as much as 15 to 20 years. And for addicts unlucky enough to suffer an unintentional overdose or sudden cardiac arrest, drug addiction can cause irreversible suffering.",
+       "html": "Addiction also causes other diseases. It can lead to a host of mental illnesses, including depression, anxiety, hallucinations, and uncontrollable anger. Addiction is implicated in suicide, community violence, headaches, chronic pain, and more serious conditions such as cancer, heart attacks, strokes, and a host of other ailments. Some research suggests that prolonged drug addiction can shorten life expectancy by as much as 15 to 20 years. And for addicts unlucky enough to suffer an unintentional overdose or sudden cardiac arrest, drug addiction can cause irreversible suffering.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "How Does Addiction to Drugs Affect Society?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction is far more than a problematic personal choice. It steadily erodes the community, and perhaps even the larger society. Check out these frightening statistics from the National Institute on Drug Abuse:",
+       "html": "Drug addiction is far more than a problematic personal choice. It steadily erodes the community, and perhaps even the larger society. Check out these frightening statistics from the <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/related-topics/trends-statistics\" rel=\"external noopener noreferrer\">National Institute on Drug Abuse:</a>",
+       "links": [
+        {
+         "old": "https://www.drugabuse.gov/related-topics/trends-statistics",
+         "text": "National Institute on Drug Abuse:"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance abuse costs the US economy $700 billion annually.",
+         "html": "Substance abuse costs the US economy $700 billion annually.",
+         "links": []
+        },
+        {
+         "text": "Drug use is rising, with 36% of college students using marijuana on a regular basis.",
+         "html": "Drug use is rising, with 36% of college students using marijuana on a regular basis.",
+         "links": []
+        },
+        {
+         "text": "Prescription drug addiction is now the leading cause of drug-related overdose, and prescription drugs kill more Americans than all other drugs except for alcohol.",
+         "html": "Prescription drug addiction is now the leading cause of drug-related overdose, and prescription drugs kill more Americans than all other drugs except for alcohol.",
+         "links": []
+        },
+        {
+         "text": "Sixty-six percent of 12th graders report using alcohol or drugs at least once.",
+         "html": "Sixty-six percent of 12<sup>th</sup> graders report using alcohol or drugs at least once.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Drug addiction fundamentally alters the way you interact with others, but the effects extend far beyond your own life. Many drugs are connected to organized crime, and even terrorism. For instance, opium is a major sponsor of terrorism, so abuse of opiate drugs directly contributes to human rights abuses and wars abroad.",
+       "html": "Drug addiction fundamentally alters the way you interact with others, but the effects extend far beyond your own life. Many drugs are connected to organized crime, and even terrorism. For instance, opium is a major sponsor of terrorism, so abuse of opiate drugs directly contributes to human rights abuses and wars abroad.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Am I a Drug Addict?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Like other diseases, addiction has more than just one symptoms. Most addicts struggle, to some degree or another, with the challenges of denial. Denial convinces you that your addiction isn’t a problem, even when there’s overwhelming evidence that your use of drugs is destroying your life and family. It doesn’t matter whether the drug you use is legal or not, how infrequently you use it, or whether you’ve broken the law to get it. If you feel like you “need” drugs to get through your life or to survive the day, then you need treatment for a drug addiction.",
+       "html": "Like other diseases, addiction has more than just one symptoms. Most addicts struggle, to some degree or another, with the challenges of denial. Denial convinces you that your addiction isn’t a problem, even when there’s overwhelming evidence that your use of drugs is destroying your life and family. It doesn’t matter whether the drug you use is legal or not, how infrequently you use it, or whether you’ve broken the law to get it. If you feel like you “need” drugs to get through your life or to survive the day, then you need treatment for a drug addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Some common symptoms of drug addiction include:",
+       "html": "Some common symptoms of drug addiction include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Ongoing conflicts with your loved ones about your use of drugs, or relationship problems that appeared around the time you started using.",
+         "html": "Ongoing conflicts with your loved ones about your use of drugs, or relationship problems that appeared around the time you started using.",
+         "links": []
+        },
+        {
+         "text": "Endangering yourself or others because of drugs, or in an attempt to access drugs.",
+         "html": "Endangering yourself or others because of drugs, or in an attempt to access drugs.",
+         "links": []
+        },
+        {
+         "text": "Breaking the law to get drugs.",
+         "html": "Breaking the law to get drugs.",
+         "links": []
+        },
+        {
+         "text": "Lying to yourself, to loved ones, or to your doctor about your drug use.",
+         "html": "Lying to yourself, to loved ones, or to your doctor about your drug use.",
+         "links": []
+        },
+        {
+         "text": "Difficulty imagining yourself getting through the day without drugs.",
+         "html": "Difficulty imagining yourself getting through the day without drugs.",
+         "links": []
+        },
+        {
+         "text": "New or worsening health problems, including mental health problems.",
+         "html": "New or worsening health problems, including mental health problems.",
+         "links": []
+        },
+        {
+         "text": "Using drugs to mask the symptoms of physical or mental health problems.",
+         "html": "Using drugs to mask the symptoms of physical or mental health problems.",
+         "links": []
+        },
+        {
+         "text": "Experiencing intense physiological withdrawal symptoms when you attempt to quit using alcohol or drugs.",
+         "html": "Experiencing intense physiological withdrawal symptoms when you attempt to quit using alcohol or drugs.",
+         "links": []
+        },
+        {
+         "text": "Using drugs to feel “normal.”",
+         "html": "Using drugs to feel “normal.”",
+         "links": []
+        },
+        {
+         "text": "Neglecting people or beloved hobbies in favor of drug use.",
+         "html": "Neglecting people or beloved hobbies in favor of drug use.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "What Should I Look for When I Seek Treatment?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Every addict has a story. Whether you know the reason or not, something brought you to addiction. Perhaps a history of trauma or abuse, boredom with a frustrating life, or the demise of a close relationship encouraged you to use drugs. Maybe your doctor’s failure to help you manage your medical condition, or the overwhelming stress of a challenging job caused you to give up hope.",
+       "html": "Every addict has a story. Whether you know the reason or not, something brought you to addiction. Perhaps a history of trauma or abuse, boredom with a frustrating life, or the demise of a close relationship encouraged you to use drugs. Maybe your doctor’s failure to help you manage your medical condition, or the overwhelming stress of a challenging job caused you to give up hope.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Whatever the reason for your substance abuse, the best drug addiction treatment is treatment that honors your story, explores why you became an addict, and treats your mind, body, and spirit. Addiction to drugs deserves and demands holistic treatment that, at minimum, includes:",
+       "html": "Whatever the reason for your substance abuse, the best drug addiction treatment is treatment that honors your story, explores why you became an addict, and treats your mind, body, and spirit. Addiction to drugs deserves and demands holistic treatment that, at minimum, includes:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Individual therapy to help you explore why you became an addict, offer you support on your sobriety journey, and help you establish coping skills that keep you sober.",
+         "html": "Individual therapy to help you explore why you became an addict, offer you support on your sobriety journey, and help you establish coping skills that keep you sober.",
+         "links": []
+        },
+        {
+         "text": "Group support sessions, including group therapy or 12-step programs. These programs help you feel less alone, and allow you to benefit from the hard-won wisdom of other struggling addicts.",
+         "html": "Group support sessions, including group therapy or 12-step programs. These programs help you feel less alone, and allow you to benefit from the hard-won wisdom of other struggling addicts.",
+         "links": []
+        },
+        {
+         "text": "Medical care. Addiction is a disease, and you’ll need help managing withdrawal symptoms. If you take other medications, have health problems, or are addicted to prescription drugs, your physician should be able to help you find safer treatment options.",
+         "html": "Medical care. Addiction is a disease, and you’ll need help managing withdrawal symptoms. If you take other medications, have health problems, or are addicted to prescription drugs, your physician should be able to help you find safer treatment options.",
+         "links": []
+        },
+        {
+         "text": "Education about the disease of addiction, so that you can be a strong advocate for yourself and your needs.",
+         "html": "Education about the disease of addiction, so that you can be a strong advocate for yourself and your needs.",
+         "links": []
+        },
+        {
+         "text": "Lifestyle skills building. Exercise, meditation, and a healthy lifestyle can all help you get back on track. Good rehab programs help you cultivate the skills that can distract you from your cravings while building a healthier life.",
+         "html": "Lifestyle skills building. Exercise, meditation, and a healthy lifestyle can all help you get back on track. Good rehab programs help you cultivate the skills that can distract you from your cravings while building a healthier life.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "How Long Does Drug Addiction Treatment Take?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The length of treatment depends on your addiction history, how quickly you recover, and which program you choose. It’s best to talk to your addiction treatment team before checking out, though, since the people charged with treating your addiction are the ones best equipped to help you determine when you’re ready to face the “real world.”",
+       "html": "The length of treatment depends on your addiction history, how quickly you recover, and which program you choose. It’s best to talk to your addiction treatment team before checking out, though, since the people charged with treating your addiction are the ones best equipped to help you determine when you’re ready to face the “real world.”",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Will I Always Have Drug Cravings?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Some well-meaning drug counselors tell drug addicts they’ll always have cravings. And cravings are common, particularly in the early months, resulting in a drug addiction relapse rate between 40% and 60%. But most people relapse within the first 90 days after recovering; you don’t have to struggle with cravings forever.",
+       "html": "Some well-meaning drug counselors tell drug addicts they’ll always have cravings. And cravings are common, particularly in the early months, resulting in a drug addiction relapse rate between <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery\" rel=\"external noopener noreferrer\">40% and 60%. </a>But most people relapse within the first 90 days after recovering; you don’t have to struggle with cravings forever.",
+       "links": [
+        {
+         "old": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
+         "text": "40% and 60%."
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Cravings are usually at their worst in the first weeks after you quit. As drugs exit your system, you can expect cravings to become progressively less severe. Over time, you may find that you no longer have any cravings at all!",
+       "html": "Cravings are usually at their worst in the first weeks after you quit. As drugs exit your system, you can expect cravings to become progressively less severe. Over time, you may find that you no longer have any cravings at all!",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Contact Addiction Rehab Centres Canada today!",
+       "html": "Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+   "alt": "addiction to drugs",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "August 14, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Understanding Addiction to Drugs",
+   "html": "Understanding Addiction to Drugs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "In 2009, nearly 25 million Americans needed treatment for drug addiction, but only 2 million sought the help they needed for their addiction to drugs. Many drug addicts avoid treatment because they don’t want to admit they have a problem. And that thought makes good sense, especially given how drug addicts are portrayed in the popular media: as selfish, angry, and possibly dangerous monsters.",
+   "html": "In 2009, <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/treatment-statistics\" rel=\"external noopener noreferrer\">nearly 25 million Americans</a> needed treatment for drug addiction, but only 2 million sought the help they needed for their addiction to drugs. Many drug addicts avoid treatment because they don’t want to admit they have a problem. And that thought makes good sense, especially given how drug addicts are portrayed in the popular media: as selfish, angry, and possibly dangerous monsters.",
+   "links": [
+    {
+     "old": "https://www.drugabuse.gov/publications/drugfacts/treatment-statistics",
+     "text": "nearly 25 million Americans"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The truth, though, is that drug addiction is a disease. Addiction to drugs is not something people willingly choose, but instead the product of a complex cascade of processes in the brain and body. Because addiction is a disease, it’s highly unlikely that it will go away on its own. Comprehensive drug treatment for your drug addiction, though, can save your life.",
+   "html": "The truth, though, is that drug addiction is a disease. Addiction to drugs is not something people willingly choose, but instead the product of a complex cascade of processes in the brain and body. Because addiction is a disease, it’s highly unlikely that it will go away on its own. Comprehensive drug treatment for your drug addiction, though, can save your life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Why is Drug Addiction Considered a Disease?",
+   "html": "<strong>Why is Drug Addiction Considered a Disease?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "To an outsider looking in, addiction looks a whole lot like a choice. After all, no one puts a needle in the addict’s arm, or holds a gun to his or her head and demands the use of drugs. But much of what we do in life, from getting depressed to suffering through a bad divorce, is not within our control, and addiction is no exception.",
+   "html": "To an outsider looking in, addiction looks a whole lot like a choice. After all, no one puts a needle in the addict’s arm, or holds a gun to his or her head and demands the use of drugs. But much of what we do in life, from getting depressed to suffering through a bad divorce, is not within our control, and addiction is no exception.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The disease of addiction begins with a chemical process called dependency. The more frequently you use drugs and alcohol, the more convinced your body becomes that you need these substances not just to function, but to stay alive. Coupled with tolerance—a progressively more significant ability to take larger and larger quantities of drugs—dependency keeps you going back for more drugs, even when those drugs have already wrecked your life. Just as you might steal if you were desperate for water, so too will an addict steal when no other viable options for obtaining drugs present themselves.",
+   "html": "The disease of addiction begins with a chemical process called dependency. The more frequently you use drugs and alcohol, the more convinced your body becomes that you need these substances not just to function, but to stay alive. Coupled with tolerance—a progressively more significant ability to take larger and larger quantities of drugs—dependency keeps you going back for more drugs, even when those drugs have already wrecked your life. Just as you might steal if you were desperate for water, so too will an addict steal when no other viable options for obtaining drugs present themselves.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction also causes other diseases. It can lead to a host of mental illnesses, including depression, anxiety, hallucinations, and uncontrollable anger. Addiction is implicated in suicide, community violence, headaches, chronic pain, and more serious conditions such as cancer, heart attacks, strokes, and a host of other ailments. Some research suggests that prolonged drug addiction can shorten life expectancy by as much as 15 to 20 years. And for addicts unlucky enough to suffer an unintentional overdose or sudden cardiac arrest, drug addiction can cause irreversible suffering.",
+   "html": "Addiction also causes other diseases. It can lead to a host of mental illnesses, including depression, anxiety, hallucinations, and uncontrollable anger. Addiction is implicated in suicide, community violence, headaches, chronic pain, and more serious conditions such as cancer, heart attacks, strokes, and a host of other ailments. Some research suggests that prolonged drug addiction can shorten life expectancy by as much as 15 to 20 years. And for addicts unlucky enough to suffer an unintentional overdose or sudden cardiac arrest, drug addiction can cause irreversible suffering.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "How Does Addiction to Drugs Affect Society?",
+   "html": "<strong>How Does Addiction to Drugs Affect Society?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is far more than a problematic personal choice. It steadily erodes the community, and perhaps even the larger society. Check out these frightening statistics from the National Institute on Drug Abuse:",
+   "html": "Drug addiction is far more than a problematic personal choice. It steadily erodes the community, and perhaps even the larger society. Check out these frightening statistics from the <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/related-topics/trends-statistics\" rel=\"external noopener noreferrer\">National Institute on Drug Abuse:</a>",
+   "links": [
+    {
+     "old": "https://www.drugabuse.gov/related-topics/trends-statistics",
+     "text": "National Institute on Drug Abuse:"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance abuse costs the US economy $700 billion annually.",
+     "html": "Substance abuse costs the US economy $700 billion annually.",
+     "links": []
+    },
+    {
+     "text": "Drug use is rising, with 36% of college students using marijuana on a regular basis.",
+     "html": "Drug use is rising, with 36% of college students using marijuana on a regular basis.",
+     "links": []
+    },
+    {
+     "text": "Prescription drug addiction is now the leading cause of drug-related overdose, and prescription drugs kill more Americans than all other drugs except for alcohol.",
+     "html": "Prescription drug addiction is now the leading cause of drug-related overdose, and prescription drugs kill more Americans than all other drugs except for alcohol.",
+     "links": []
+    },
+    {
+     "text": "Sixty-six percent of 12th graders report using alcohol or drugs at least once.",
+     "html": "Sixty-six percent of 12<sup>th</sup> graders report using alcohol or drugs at least once.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction fundamentally alters the way you interact with others, but the effects extend far beyond your own life. Many drugs are connected to organized crime, and even terrorism. For instance, opium is a major sponsor of terrorism, so abuse of opiate drugs directly contributes to human rights abuses and wars abroad.",
+   "html": "Drug addiction fundamentally alters the way you interact with others, but the effects extend far beyond your own life. Many drugs are connected to organized crime, and even terrorism. For instance, opium is a major sponsor of terrorism, so abuse of opiate drugs directly contributes to human rights abuses and wars abroad.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Am I a Drug Addict?",
+   "html": "<strong>Am I a Drug Addict?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Like other diseases, addiction has more than just one symptoms. Most addicts struggle, to some degree or another, with the challenges of denial. Denial convinces you that your addiction isn’t a problem, even when there’s overwhelming evidence that your use of drugs is destroying your life and family. It doesn’t matter whether the drug you use is legal or not, how infrequently you use it, or whether you’ve broken the law to get it. If you feel like you “need” drugs to get through your life or to survive the day, then you need treatment for a drug addiction.",
+   "html": "Like other diseases, addiction has more than just one symptoms. Most addicts struggle, to some degree or another, with the challenges of denial. Denial convinces you that your addiction isn’t a problem, even when there’s overwhelming evidence that your use of drugs is destroying your life and family. It doesn’t matter whether the drug you use is legal or not, how infrequently you use it, or whether you’ve broken the law to get it. If you feel like you “need” drugs to get through your life or to survive the day, then you need treatment for a drug addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Some common symptoms of drug addiction include:",
+   "html": "Some common symptoms of drug addiction include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Ongoing conflicts with your loved ones about your use of drugs, or relationship problems that appeared around the time you started using.",
+     "html": "Ongoing conflicts with your loved ones about your use of drugs, or relationship problems that appeared around the time you started using.",
+     "links": []
+    },
+    {
+     "text": "Endangering yourself or others because of drugs, or in an attempt to access drugs.",
+     "html": "Endangering yourself or others because of drugs, or in an attempt to access drugs.",
+     "links": []
+    },
+    {
+     "text": "Breaking the law to get drugs.",
+     "html": "Breaking the law to get drugs.",
+     "links": []
+    },
+    {
+     "text": "Lying to yourself, to loved ones, or to your doctor about your drug use.",
+     "html": "Lying to yourself, to loved ones, or to your doctor about your drug use.",
+     "links": []
+    },
+    {
+     "text": "Difficulty imagining yourself getting through the day without drugs.",
+     "html": "Difficulty imagining yourself getting through the day without drugs.",
+     "links": []
+    },
+    {
+     "text": "New or worsening health problems, including mental health problems.",
+     "html": "New or worsening health problems, including mental health problems.",
+     "links": []
+    },
+    {
+     "text": "Using drugs to mask the symptoms of physical or mental health problems.",
+     "html": "Using drugs to mask the symptoms of physical or mental health problems.",
+     "links": []
+    },
+    {
+     "text": "Experiencing intense physiological withdrawal symptoms when you attempt to quit using alcohol or drugs.",
+     "html": "Experiencing intense physiological withdrawal symptoms when you attempt to quit using alcohol or drugs.",
+     "links": []
+    },
+    {
+     "text": "Using drugs to feel “normal.”",
+     "html": "Using drugs to feel “normal.”",
+     "links": []
+    },
+    {
+     "text": "Neglecting people or beloved hobbies in favor of drug use.",
+     "html": "Neglecting people or beloved hobbies in favor of drug use.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "What Should I Look for When I Seek Treatment?",
+   "html": "<strong>What Should I Look for When I Seek Treatment?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Every addict has a story. Whether you know the reason or not, something brought you to addiction. Perhaps a history of trauma or abuse, boredom with a frustrating life, or the demise of a close relationship encouraged you to use drugs. Maybe your doctor’s failure to help you manage your medical condition, or the overwhelming stress of a challenging job caused you to give up hope.",
+   "html": "Every addict has a story. Whether you know the reason or not, something brought you to addiction. Perhaps a history of trauma or abuse, boredom with a frustrating life, or the demise of a close relationship encouraged you to use drugs. Maybe your doctor’s failure to help you manage your medical condition, or the overwhelming stress of a challenging job caused you to give up hope.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Whatever the reason for your substance abuse, the best drug addiction treatment is treatment that honors your story, explores why you became an addict, and treats your mind, body, and spirit. Addiction to drugs deserves and demands holistic treatment that, at minimum, includes:",
+   "html": "Whatever the reason for your substance abuse, the best drug addiction treatment is treatment that honors your story, explores why you became an addict, and treats your mind, body, and spirit. Addiction to drugs deserves and demands holistic treatment that, at minimum, includes:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Individual therapy to help you explore why you became an addict, offer you support on your sobriety journey, and help you establish coping skills that keep you sober.",
+     "html": "Individual therapy to help you explore why you became an addict, offer you support on your sobriety journey, and help you establish coping skills that keep you sober.",
+     "links": []
+    },
+    {
+     "text": "Group support sessions, including group therapy or 12-step programs. These programs help you feel less alone, and allow you to benefit from the hard-won wisdom of other struggling addicts.",
+     "html": "Group support sessions, including group therapy or 12-step programs. These programs help you feel less alone, and allow you to benefit from the hard-won wisdom of other struggling addicts.",
+     "links": []
+    },
+    {
+     "text": "Medical care. Addiction is a disease, and you’ll need help managing withdrawal symptoms. If you take other medications, have health problems, or are addicted to prescription drugs, your physician should be able to help you find safer treatment options.",
+     "html": "Medical care. Addiction is a disease, and you’ll need help managing withdrawal symptoms. If you take other medications, have health problems, or are addicted to prescription drugs, your physician should be able to help you find safer treatment options.",
+     "links": []
+    },
+    {
+     "text": "Education about the disease of addiction, so that you can be a strong advocate for yourself and your needs.",
+     "html": "Education about the disease of addiction, so that you can be a strong advocate for yourself and your needs.",
+     "links": []
+    },
+    {
+     "text": "Lifestyle skills building. Exercise, meditation, and a healthy lifestyle can all help you get back on track. Good rehab programs help you cultivate the skills that can distract you from your cravings while building a healthier life.",
+     "html": "Lifestyle skills building. Exercise, meditation, and a healthy lifestyle can all help you get back on track. Good rehab programs help you cultivate the skills that can distract you from your cravings while building a healthier life.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How Long Does Drug Addiction Treatment Take?",
+   "html": "<strong>How Long Does Drug Addiction Treatment Take?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The length of treatment depends on your addiction history, how quickly you recover, and which program you choose. It’s best to talk to your addiction treatment team before checking out, though, since the people charged with treating your addiction are the ones best equipped to help you determine when you’re ready to face the “real world.”",
+   "html": "The length of treatment depends on your addiction history, how quickly you recover, and which program you choose. It’s best to talk to your addiction treatment team before checking out, though, since the people charged with treating your addiction are the ones best equipped to help you determine when you’re ready to face the “real world.”",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Will I Always Have Drug Cravings?",
+   "html": "<strong>Will I Always Have Drug Cravings? </strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Some well-meaning drug counselors tell drug addicts they’ll always have cravings. And cravings are common, particularly in the early months, resulting in a drug addiction relapse rate between 40% and 60%. But most people relapse within the first 90 days after recovering; you don’t have to struggle with cravings forever.",
+   "html": "Some well-meaning drug counselors tell drug addicts they’ll always have cravings. And cravings are common, particularly in the early months, resulting in a drug addiction relapse rate between <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery\" rel=\"external noopener noreferrer\">40% and 60%. </a>But most people relapse within the first 90 days after recovering; you don’t have to struggle with cravings forever.",
+   "links": [
+    {
+     "old": "https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery",
+     "text": "40% and 60%."
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Cravings are usually at their worst in the first weeks after you quit. As drugs exit your system, you can expect cravings to become progressively less severe. Over time, you may find that you no longer have any cravings at all!",
+   "html": "Cravings are usually at their worst in the first weeks after you quit. As drugs exit your system, you can expect cravings to become progressively less severe. Over time, you may find that you no longer have any cravings at all!",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Contact Addiction Rehab Centres Canada today!",
+   "html": "Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-08-14T21:10:35+00:00",
+  "modified": "2022-08-19T13:05:37+00:00",
+  "date_label": "August 14, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 1205,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"addiction to drugs\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/addiction-to-drugs-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                August 14, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Understanding Addiction to Drugs    </h1> <p>In 2009, <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/treatment-statistics\" rel=\"external noopener noreferrer\">nearly 25 million Americans</a> needed treatment for drug addiction, but only 2 million sought the help they needed for their addiction to drugs. Many drug addicts avoid treatment because they don’t want to admit they have a problem. And that thought makes good sense, especially given how drug addicts are portrayed in the popular media: as selfish, angry, and possibly dangerous monsters.</p>\n<p>The truth, though, is that drug addiction is a disease. Addiction to drugs is not something people willingly choose, but instead the product of a complex cascade of processes in the brain and body. Because addiction is a disease, it’s highly unlikely that it will go away on its own. Comprehensive drug treatment for your drug addiction, though, can save your life.</p>\n<h2><strong>Why is Drug Addiction Considered a Disease?</strong></h2>\n<p>To an outsider looking in, addiction looks a whole lot like a choice. After all, no one puts a needle in the addict’s arm, or holds a gun to his or her head and demands the use of drugs. But much of what we do in life, from getting depressed to suffering through a bad divorce, is not within our control, and addiction is no exception.</p>\n<p>The disease of addiction begins with a chemical process called dependency. The more frequently you use drugs and alcohol, the more convinced your body becomes that you need these substances not just to function, but to stay alive. Coupled with tolerance—a progressively more significant ability to take larger and larger quantities of drugs—dependency keeps you going back for more drugs, even when those drugs have already wrecked your life. Just as you might steal if you were desperate for water, so too will an addict steal when no other viable options for obtaining drugs present themselves.</p>\n<p>Addiction also causes other diseases. It can lead to a host of mental illnesses, including depression, anxiety, hallucinations, and uncontrollable anger. Addiction is implicated in suicide, community violence, headaches, chronic pain, and more serious conditions such as cancer, heart attacks, strokes, and a host of other ailments. Some research suggests that prolonged drug addiction can shorten life expectancy by as much as 15 to 20 years. And for addicts unlucky enough to suffer an unintentional overdose or sudden cardiac arrest, drug addiction can cause irreversible suffering.</p>\n<h2><strong>How Does Addiction to Drugs Affect Society?</strong></h2>\n<p>Drug addiction is far more than a problematic personal choice. It steadily erodes the community, and perhaps even the larger society. Check out these frightening statistics from the <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/related-topics/trends-statistics\" rel=\"external noopener noreferrer\">National Institute on Drug Abuse:</a></p>\n<ul>\n<li>Substance abuse costs the US economy $700 billion annually.</li>\n<li>Drug use is rising, with 36% of college students using marijuana on a regular basis.</li>\n<li>Prescription drug addiction is now the leading cause of drug-related overdose, and prescription drugs kill more Americans than all other drugs except for alcohol.</li>\n<li>Sixty-six percent of 12<sup>th</sup> graders report using alcohol or drugs at least once.</li>\n</ul>\n<p>Drug addiction fundamentally alters the way you interact with others, but the effects extend far beyond your own life. Many drugs are connected to organized crime, and even terrorism. For instance, opium is a major sponsor of terrorism, so abuse of opiate drugs directly contributes to human rights abuses and wars abroad.</p>\n<h2><strong>Am I a Drug Addict?</strong></h2>\n<p>Like other diseases, addiction has more than just one symptoms. Most addicts struggle, to some degree or another, with the challenges of denial. Denial convinces you that your addiction isn’t a problem, even when there’s overwhelming evidence that your use of drugs is destroying your life and family. It doesn’t matter whether the drug you use is legal or not, how infrequently you use it, or whether you’ve broken the law to get it. If you feel like you “need” drugs to get through your life or to survive the day, then you need treatment for a drug addiction.</p>\n<p>Some common symptoms of drug addiction include:</p>\n<ul>\n<li>Ongoing conflicts with your loved ones about your use of drugs, or relationship problems that appeared around the time you started using.</li>\n<li>Endangering yourself or others because of drugs, or in an attempt to access drugs.</li>\n<li>Breaking the law to get drugs.</li>\n<li>Lying to yourself, to loved ones, or to your doctor about your drug use.</li>\n<li>Difficulty imagining yourself getting through the day without drugs.</li>\n<li>New or worsening health problems, including mental health problems.</li>\n<li>Using drugs to mask the symptoms of physical or mental health problems.</li>\n<li>Experiencing intense physiological withdrawal symptoms when you attempt to quit using alcohol or drugs.</li>\n<li>Using drugs to feel “normal.”</li>\n<li>Neglecting people or beloved hobbies in favor of drug use.</li>\n</ul>\n<h2><strong>What Should I Look for When I Seek Treatment?</strong></h2>\n<p>Every addict has a story. Whether you know the reason or not, something brought you to addiction. Perhaps a history of trauma or abuse, boredom with a frustrating life, or the demise of a close relationship encouraged you to use drugs. Maybe your doctor’s failure to help you manage your medical condition, or the overwhelming stress of a challenging job caused you to give up hope.</p>\n<p>Whatever the reason for your substance abuse, the best drug addiction treatment is treatment that honors your story, explores why you became an addict, and treats your mind, body, and spirit. Addiction to drugs deserves and demands holistic treatment that, at minimum, includes:</p>\n<ul>\n<li>Individual therapy to help you explore why you became an addict, offer you support on your sobriety journey, and help you establish coping skills that keep you sober.</li>\n<li>Group support sessions, including group therapy or 12-step programs. These programs help you feel less alone, and allow you to benefit from the hard-won wisdom of other struggling addicts.</li>\n<li>Medical care. Addiction is a disease, and you’ll need help managing withdrawal symptoms. If you take other medications, have health problems, or are addicted to prescription drugs, your physician should be able to help you find safer treatment options.</li>\n<li>Education about the disease of addiction, so that you can be a strong advocate for yourself and your needs.</li>\n<li>Lifestyle skills building. Exercise, meditation, and a healthy lifestyle can all help you get back on track. Good rehab programs help you cultivate the skills that can distract you from your cravings while building a healthier life.</li>\n</ul>\n<h2><strong>How Long Does Drug Addiction Treatment Take?</strong></h2>\n<p>The length of treatment depends on your addiction history, how quickly you recover, and which program you choose. It’s best to talk to your addiction treatment team before checking out, though, since the people charged with treating your addiction are the ones best equipped to help you determine when you’re ready to face the “real world.”</p>\n<h2><strong>Will I Always Have Drug Cravings? </strong></h2>\n<p>Some well-meaning drug counselors tell drug addicts they’ll always have cravings. And cravings are common, particularly in the early months, resulting in a drug addiction relapse rate between <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugs-brains-behavior-science-addiction/treatment-recovery\" rel=\"external noopener noreferrer\">40% and 60%. </a>But most people relapse within the first 90 days after recovering; you don’t have to struggle with cravings forever.</p>\n<p>Cravings are usually at their worst in the first weeks after you quit. As drugs exit your system, you can expect cravings to become progressively less severe. Over time, you may find that you no longer have any cravings at all!</p>\n<p>Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

@@ -1,0 +1,1139 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__red-road-rise",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/red-road-rise/",
+  "path": "/red-road-rise/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/red-road-rise/",
+ "seo": {
+  "meta_title": "Red Road Rise - Addiction Rehab Centers",
+  "meta_description": "Red Road Rise offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/red-road-rise/",
+  "og": {
+   "title": "Red Road Rise - Addiction Rehab Centers",
+   "description": "Red Road Rise offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/red-road-rise/",
+      "url": "https://addictionrehabcenters.ca/red-road-rise/",
+      "name": "Red Road Rise - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/red-road-rise/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/red-road-rise/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1.jpg",
+      "datePublished": "2025-06-05T21:17:01+00:00",
+      "dateModified": "2025-06-05T21:19:45+00:00",
+      "description": "Red Road Rise offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/red-road-rise/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/red-road-rise/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/red-road-rise/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1.jpg",
+      "width": 2048,
+      "height": 1536
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/red-road-rise/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Red Road Rise"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 90,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1-1.jpg",
+   "local_path": "images/centre__red-road-rise/house1-1.jpg",
+   "alt": "",
+   "width": 2048,
+   "height": 1536,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house3-scaled.jpg",
+   "local_path": "images/centre__red-road-rise/house3-scaled.jpg",
+   "alt": "",
+   "width": 2560,
+   "height": 1920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/IMG_2263-scaled.jpg",
+   "local_path": "images/centre__red-road-rise/IMG_2263-scaled.jpg",
+   "alt": "",
+   "width": 2560,
+   "height": 1920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/IMG_2271-scaled.jpg",
+   "local_path": "images/centre__red-road-rise/IMG_2271-scaled.jpg",
+   "alt": "",
+   "width": 2560,
+   "height": 1920,
+   "download": "ok"
+  },
+  {
+   "role": "og",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1.jpg",
+   "local_path": "images/centre__red-road-rise/house1.jpg",
+   "alt": "",
+   "width": 2048,
+   "height": 1536,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/access-to-nature/",
+   "text": "Access to Nature",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/access-to-nature/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/desk/",
+   "text": "Desk",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/desk/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/fitness-center/",
+   "text": "Fitness Center",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/fitness-center/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/gardens/",
+   "text": "Gardens",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/gardens/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/gourmet-dining/",
+   "text": "Gourmet Dining",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/gourmet-dining/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/outdoor-lounge/",
+   "text": "Outdoor Lounge",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/outdoor-lounge/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/shared-bathroom/",
+   "text": "Shared Bathroom",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/shared-bathroom/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/smoking-area/",
+   "text": "Smoking Area",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/smoking-area/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/snacks/",
+   "text": "Snacks",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/snacks/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-amenity/walking-trails/",
+   "text": "Walking Trails",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-amenity/walking-trails/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/aftercare/",
+   "text": "Aftercare",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/aftercare/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/alcohol-addiction/",
+   "text": "Alcohol Addiction",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/alcohol-addiction/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/alcohol-treatment-program/",
+   "text": "Alcohol Treatment Program",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/alcohol-treatment-program/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/anxiety/",
+   "text": "Anxiety",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/anxiety/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/depression/",
+   "text": "Depression",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/depression/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/drug-addiction/",
+   "text": "Drug Addiction",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/drug-addiction/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/family-counselling/",
+   "text": "Family Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/family-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/group-counselling/",
+   "text": "Group Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/group-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/individual-counselling/",
+   "text": "Individual Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/individual-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/intensive-outpatient-program/",
+   "text": "Intensive Outpatient Program",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/intensive-outpatient-program/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/outpatient-drug-rehab/",
+   "text": "Outpatient Drug Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/outpatient-drug-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/outpatient-treatment/",
+   "text": "Outpatient Treatment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/outpatient-treatment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/prevention-education/",
+   "text": "Prevention / Education",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/prevention-education/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/residential-alcohol-rehab/",
+   "text": "Residential Alcohol Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/residential-alcohol-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/residential-drug-rehab/",
+   "text": "Residential Drug Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/residential-drug-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/residential-treatment/",
+   "text": "Residential Treatment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/residential-treatment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/substance-abuse-treatment/",
+   "text": "Substance Abuse Treatment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/substance-abuse-treatment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/trauma/",
+   "text": "Trauma",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/trauma/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:2508003190",
+   "text": "2508003190",
+   "kind": "tel",
+   "new": "tel:2508003190"
+  },
+  {
+   "old_href": "mailto:contact@redroadrecovery.com",
+   "text": "contact@redroadrecovery.com",
+   "kind": "mailto",
+   "new": "mailto:contact@redroadrecovery.com"
+  },
+  {
+   "old_href": "http://www.redroadrecovery.com",
+   "text": "http://www.redroadrecovery.com",
+   "kind": "external",
+   "new": "http://www.redroadrecovery.com"
+  },
+  {
+   "old_href": "https://www.facebook.com/RedRoadRecoveryTreatment",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/RedRoadRecoveryTreatment"
+  },
+  {
+   "old_href": "https://www.instagram.com/redroadrecovery/?fbclid=IwAR1fJvnQveQJx7GFNPP0TOMUpQrdvtIXmE2FKWcGVhd2PisGqxggrlOx8PE",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/redroadrecovery/?fbclid=IwAR1fJvnQveQJx7GFNPP0TOMUpQrdvtIXmE2FKWcGVhd2PisGqxggrlOx8PE"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.",
+     "html": "Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 4,
+   "heading": "Amenities",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Access to Nature",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Desk",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Fitness Center",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Gardens",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Gourmet Dining",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Outdoor Lounge",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Shared Bathroom",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Smoking Area",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Snacks",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Walking Trails",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 4,
+   "heading": "More Tags",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Aftercare",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Addiction",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Treatment Program",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Anxiety",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Depression",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Drug Addiction",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Family Counselling",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Group Counselling",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Individual Counselling",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Intensive Outpatient Program",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Outpatient Drug Rehab",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Outpatient Treatment",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Prevention / Education",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Residential Alcohol Rehab",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Residential Drug Rehab",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Residential Treatment",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Substance Abuse Treatment",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Trauma",
+     "was_link": true
+    },
+    {
+     "type": "p",
+     "text": "2508003190",
+     "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:2508003190\" itemprop=\"url\">2508003190</a>",
+     "links": [
+      {
+       "old": "tel:2508003190",
+       "text": "2508003190"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "contact@redroadrecovery.com",
+     "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:contact@redroadrecovery.com\" itemprop=\"url\">contact@redroadrecovery.com</a>",
+     "links": [
+      {
+       "old": "mailto:contact@redroadrecovery.com",
+       "text": "contact@redroadrecovery.com"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "http://www.redroadrecovery.com",
+     "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.redroadrecovery.com\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.redroadrecovery.com</a>",
+     "links": [
+      {
+       "old": "http://www.redroadrecovery.com",
+       "text": "http://www.redroadrecovery.com"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+     "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Social",
+     "blocks": [],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 4,
+   "heading": "Sponsored Ad",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+     "alt": "addiction rehab centres",
+     "width": "970",
+     "height": "920",
+     "link_href": "tel:1-855-885-4747"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.",
+   "html": "Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Access to Nature",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Desk",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Fitness Center",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Gardens",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Gourmet Dining",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Outdoor Lounge",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Shared Bathroom",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Smoking Area",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Snacks",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Walking Trails",
+   "was_link": true
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Aftercare",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Treatment Program",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Anxiety",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Depression",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Drug Addiction",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Family Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Group Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Individual Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Intensive Outpatient Program",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Outpatient Drug Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Outpatient Treatment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Prevention / Education",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Residential Alcohol Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Residential Drug Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Residential Treatment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Substance Abuse Treatment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Trauma",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "2508003190",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:2508003190\" itemprop=\"url\">2508003190</a>",
+   "links": [
+    {
+     "old": "tel:2508003190",
+     "text": "2508003190"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "contact@redroadrecovery.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:contact@redroadrecovery.com\" itemprop=\"url\">contact@redroadrecovery.com</a>",
+   "links": [
+    {
+     "old": "mailto:contact@redroadrecovery.com",
+     "text": "contact@redroadrecovery.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.redroadrecovery.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.redroadrecovery.com\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.redroadrecovery.com</a>",
+   "links": [
+    {
+     "old": "http://www.redroadrecovery.com",
+     "text": "http://www.redroadrecovery.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Red Road Rise",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<p>Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.</p>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "2508003190",
+  "email": "contact@redroadrecovery.com",
+  "website": "http://www.redroadrecovery.com",
+  "address": "4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/RedRoadRecoveryTreatment",
+   "instagram": "https://www.instagram.com/redroadrecovery/?fbclid=IwAR1fJvnQveQJx7GFNPP0TOMUpQrdvtIXmE2FKWcGVhd2PisGqxggrlOx8PE"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house1-1.jpg",
+    "alt": "",
+    "width": "2048",
+    "height": "1536"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house3-scaled.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/house3-scaled.jpg",
+    "alt": "",
+    "width": "2560",
+    "height": "1920"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/IMG_2263-scaled.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/IMG_2263-scaled.jpg",
+    "alt": "",
+    "width": "2560",
+    "height": "1920"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/IMG_2271-scaled.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2025/06/IMG_2271-scaled.jpg",
+    "alt": "",
+    "width": "2560",
+    "height": "1920"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Aftercare Alcohol Addiction Alcohol Treatment Program Anxiety Depression Drug Addiction Family Counselling Group Counselling Individual Counselling Intensive Outpatient Program Outpatient Drug Rehab Outpatient Treatment Prevention / Education Private Rehab Residential Alcohol Rehab Residential Drug Rehab Residential Treatment Substance Abuse Treatment Trauma",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.",
+    "html": "Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.",
+    "links": [],
+    "images": []
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Amenities",
+    "items": [
+     "Access to Nature",
+     "Desk",
+     "Fitness Center",
+     "Gardens",
+     "Gourmet Dining",
+     "Outdoor Lounge",
+     "Shared Bathroom",
+     "Smoking Area",
+     "Snacks",
+     "Walking Trails"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "2508003190",
+  "phone_href": "tel:2508003190",
+  "website_text": "http://www.redroadrecovery.com",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Aftercare",
+    "Alcohol Addiction",
+    "Alcohol Treatment Program",
+    "Anxiety",
+    "Depression",
+    "Drug Addiction",
+    "Family Counselling",
+    "Group Counselling",
+    "Individual Counselling",
+    "Intensive Outpatient Program",
+    "Outpatient Drug Rehab",
+    "Outpatient Treatment",
+    "Prevention / Education",
+    "Private Rehab",
+    "Residential Alcohol Rehab",
+    "Residential Drug Rehab",
+    "Residential Treatment",
+    "Substance Abuse Treatment",
+    "Trauma"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<p>Red Road Recovery is an addictions treatment centre for substance abuse and concurrent disorders located in Sorrento BC. Our rehabilitation program focuses on healing the mind, body and spirit through the bio/pyscho-social model, integrated with traditional indigenous healing practices and recovery through the 12 Steps. We believe everyone is different with their own underlying issues and needs, hence why we believe in building individualized treatment plans structured to address each client specifically. We have two other locations currently: Red Road Ranch in Lumby and Red Road Recovery in Sorrento BC.</p>\n</div>\n</div> <div class=\"eltdf-ls-amenities\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-paperclip\"></i> <h4 class=\"eltdf-ls-parts-title\">Amenities</h4> </div>\n<div class=\"eltdf-ls-amenities-items\">\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/access-to-nature/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Access to Nature</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/desk/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Desk</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/fitness-center/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Fitness Center</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/gardens/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Gardens</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/gourmet-dining/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Gourmet Dining</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/outdoor-lounge/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Outdoor Lounge</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/shared-bathroom/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Shared Bathroom</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/smoking-area/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Smoking Area</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/snacks/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Snacks</span>\n</a>\n</div>\n<div class=\"eltdf-ls-combined-item\">\n<a class=\"eltdf-ls-amenity eltdf-ls-included-item\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-amenity/walking-trails/\" itemprop=\"url\">\n<i class=\"eltdf-ls-combined-icon fas fa-check\"></i>\n<span class=\"eltdf-ls-amenity-label\">Walking Trails</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/aftercare/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Aftercare</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/alcohol-addiction/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Alcohol Addiction</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/alcohol-treatment-program/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Alcohol Treatment Program</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/anxiety/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Anxiety</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/depression/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Depression</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/drug-addiction/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Drug Addiction</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/family-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Family Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/group-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Group Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/individual-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Individual Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/intensive-outpatient-program/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Intensive Outpatient Program</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/outpatient-drug-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Outpatient Drug Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/outpatient-treatment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Outpatient Treatment</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/prevention-education/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Prevention / Education</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/residential-alcohol-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Residential Alcohol Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/residential-drug-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Residential Drug Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/residential-treatment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Residential Treatment</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/substance-abuse-treatment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Substance Abuse Treatment</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/trauma/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Trauma</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:2508003190\" itemprop=\"url\">2508003190</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:contact@redroadrecovery.com\" itemprop=\"url\">contact@redroadrecovery.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.redroadrecovery.com\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.redroadrecovery.com</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada\t                </p>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/RedRoadRecoveryTreatment\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/redroadrecovery/?fbclid=IwAR1fJvnQveQJx7GFNPP0TOMUpQrdvtIXmE2FKWcGVhd2PisGqxggrlOx8PE\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

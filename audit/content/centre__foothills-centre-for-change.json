@@ -1,0 +1,2777 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__foothills-centre-for-change",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/foothills-centre-for-change/",
+  "path": "/foothills-centre-for-change/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/foothills-centre-for-change/",
+ "seo": {
+  "meta_title": "Foothills Centre for Change - Addiction Rehab Centers",
+  "meta_description": "Foothills Centre for Change offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/foothills-centre-for-change/",
+  "og": {
+   "title": "Foothills Centre for Change - Addiction Rehab Centers",
+   "description": "Foothills Centre for Change offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/foothills-centre-for-change/",
+      "url": "https://addictionrehabcenters.ca/foothills-centre-for-change/",
+      "name": "Foothills Centre for Change - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/foothills-centre-for-change/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/foothills-centre-for-change/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+      "datePublished": "2023-04-26T10:19:14+00:00",
+      "dateModified": "2023-04-26T11:13:44+00:00",
+      "description": "Foothills Centre for Change offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/foothills-centre-for-change/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/foothills-centre-for-change/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/foothills-centre-for-change/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+      "width": 450,
+      "height": 340
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/foothills-centre-for-change/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Foothills Centre for Change"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 923,
+ "features": [
+  "iframe",
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Personalized Addiction Treatment in the Mountains of British Columbia"
+  ],
+  [
+   "h3",
+   "Comprehensive And Personalized Treatment"
+  ],
+  [
+   "h3",
+   "Recover in a Serene Location"
+  ],
+  [
+   "h3",
+   "Cost and Insurance Coverage"
+  ],
+  [
+   "h2",
+   "Foothills Centre for Change- Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near British Columbia, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Foothills Centre for Change"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-7.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-7.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-6.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-6.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-5.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-5.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-4.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-4.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-3.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-3.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-2.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-2.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-1.webp",
+   "local_path": "images/centre__foothills-centre-for-change/Foothills-Centre-for-Change-1.webp",
+   "alt": "",
+   "width": 450,
+   "height": 340,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/british-columbia-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/british-columbia-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:+1 250-804-6549",
+   "text": "+1 250-804-6549",
+   "kind": "tel",
+   "new": "tel:+1 250-804-6549"
+  },
+  {
+   "old_href": "mailto: info@foothillscentre.com",
+   "text": "info@foothillscentre.com",
+   "kind": "mailto",
+   "new": "mailto: info@foothillscentre.com"
+  },
+  {
+   "old_href": "http://www.foothillscentre.com/",
+   "text": "http://www.foothillscentre.com/",
+   "kind": "external",
+   "new": "http://www.foothillscentre.com/"
+  },
+  {
+   "old_href": "https://www.facebook.com/FoothillsRecovery",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/FoothillsRecovery"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "Personalized Addiction Treatment in the Mountains of British Columbia",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.",
+     "html": "Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Comprehensive And Personalized Treatment",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.",
+     "html": "At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Recover in a Serene Location",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages.",
+     "html": "Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Cost and Insurance Coverage",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment.",
+     "html": "Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "iframe",
+     "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2FFoothillsRecovery%2Fvideos%2F379669055490529%2F&show_text=false&width=560&t=0",
+     "title": "",
+     "width": "560",
+     "height": "314"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Foothills Centre for Change- Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.",
+     "html": "Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.",
+     "html": "The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Foothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Foothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near British Columbia, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Foothills Centre for Change",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is Foothills Centre for Change?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+       "html": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What programs does Foothills Centre offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+       "html": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What services are included in the treatment program at Foothills Centre?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+       "html": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the focus of the treatment experience at Foothills Centre for Change?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+       "html": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What type of therapy is used at Foothills Centre for Change?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+       "html": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What amenities are offered at Foothills Centre for Change?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+       "html": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Are there aftercare services provided by Foothills Centre for Change?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+       "html": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Does Foothills Centre for Change accept insurance?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Foothills Centre accepts most private insurance.",
+       "html": "Foothills Centre accepts most private insurance.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "+1 250-804-6549",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 250-804-6549\" itemprop=\"url\">+1 250-804-6549</a>",
+         "links": [
+          {
+           "old": "tel:+1 250-804-6549",
+           "text": "+1 250-804-6549"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@foothillscentre.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto: info@foothillscentre.com\" itemprop=\"url\"> info@foothillscentre.com</a>",
+         "links": [
+          {
+           "old": "mailto: info@foothillscentre.com",
+           "text": "info@foothillscentre.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "http://www.foothillscentre.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.foothillscentre.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.foothillscentre.com/</a>",
+         "links": [
+          {
+           "old": "http://www.foothillscentre.com/",
+           "text": "http://www.foothillscentre.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:39pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "Personalized Addiction Treatment in the Mountains of British Columbia",
+   "html": "Personalized Addiction Treatment in the Mountains of British Columbia",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.",
+   "html": "Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Comprehensive And Personalized Treatment",
+   "html": "Comprehensive And Personalized Treatment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.",
+   "html": "At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Recover in a Serene Location",
+   "html": "Recover in a Serene Location",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages.",
+   "html": "Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Cost and Insurance Coverage",
+   "html": "Cost and Insurance Coverage",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment.",
+   "html": "Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "iframe",
+   "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2FFoothillsRecovery%2Fvideos%2F379669055490529%2F&show_text=false&width=560&t=0",
+   "title": "",
+   "width": "560",
+   "height": "314"
+  },
+  {
+   "type": "h2",
+   "text": "Foothills Centre for Change- Center Overview",
+   "html": "Foothills Centre for Change- Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.",
+   "html": "Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.",
+   "html": "The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Foothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near British Columbia, Click here",
+   "html": "If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Foothills Centre for Change",
+   "html": "Frequently Asked Questions About Foothills Centre for Change",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is Foothills Centre for Change?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+   "html": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What programs does Foothills Centre offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+   "html": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What services are included in the treatment program at Foothills Centre?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+   "html": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the focus of the treatment experience at Foothills Centre for Change?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+   "html": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What type of therapy is used at Foothills Centre for Change?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+   "html": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What amenities are offered at Foothills Centre for Change?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+   "html": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Are there aftercare services provided by Foothills Centre for Change?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+   "html": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Does Foothills Centre for Change accept insurance?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Foothills Centre accepts most private insurance.",
+   "html": "Foothills Centre accepts most private insurance.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "+1 250-804-6549",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 250-804-6549\" itemprop=\"url\">+1 250-804-6549</a>",
+   "links": [
+    {
+     "old": "tel:+1 250-804-6549",
+     "text": "+1 250-804-6549"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@foothillscentre.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto: info@foothillscentre.com\" itemprop=\"url\"> info@foothillscentre.com</a>",
+   "links": [
+    {
+     "old": "mailto: info@foothillscentre.com",
+     "text": "info@foothillscentre.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.foothillscentre.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.foothillscentre.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.foothillscentre.com/</a>",
+   "links": [
+    {
+     "old": "http://www.foothillscentre.com/",
+     "text": "http://www.foothillscentre.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:39pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Foothills Centre for Change",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-15332\" data-elementor-id=\"15332\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6b1d8764 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6b1d8764\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-436ec2d\" data-element_type=\"column\" data-id=\"436ec2d\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4d0109b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4d0109b8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-31e90fb7\" data-element_type=\"column\" data-id=\"31e90fb7\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3565c19b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3565c19b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Personalized Addiction Treatment in the Mountains of British Columbia</h3><p>Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.</p><h3>Comprehensive And Personalized Treatment </h3><p>At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.</p><h3>Recover in a Serene Location </h3><p>Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages. </p><h3>Cost and Insurance Coverage </h3><p>Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment. </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-28e0e01 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"28e0e01\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3beab62\" data-element_type=\"column\" data-id=\"3beab62\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-544c79e elementor-widget elementor-widget-shortcode\" data-element_type=\"widget\" data-id=\"544c79e\" data-widget_type=\"shortcode.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-shortcode\"><iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"314\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fweb.facebook.com%2FFoothillsRecovery%2Fvideos%2F379669055490529%2F&amp;show_text=false&amp;width=560&amp;t=0\" style=\"border:none;overflow:hidden\" width=\"560\"></iframe></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4c8a14c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4c8a14c6\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61bc761f\" data-element_type=\"column\" data-id=\"61bc761f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-460fdc85 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"460fdc85\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-21b4b2bb elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"21b4b2bb\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Foothills Centre for Change- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-27230282 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"27230282\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.</p><p>The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-48485259 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"48485259\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-616898a3\" data-element_type=\"column\" data-id=\"616898a3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5cf1f454 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5cf1f454\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a67c63a\" data-element_type=\"column\" data-id=\"5a67c63a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7fb14a68 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7fb14a68\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-243b5a28 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"243b5a28\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e696732\" data-element_type=\"column\" data-id=\"3e696732\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-13f1e504 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"13f1e504\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tFoothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-138ab5da elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"138ab5da\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-21cd9400 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"21cd9400\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-ee05bf4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"ee05bf4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ed06b22\" data-element_type=\"column\" data-id=\"ed06b22\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d16bfda elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"d16bfda\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7b8f01d8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7b8f01d8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-395d858d\" data-element_type=\"column\" data-id=\"395d858d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-45001484 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"45001484\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Foothills Centre for Change</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-49236329 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"49236329\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1221\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1221\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Foothills Centre for Change? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1221\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1221\" role=\"region\"><p>Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1222\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1222\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What programs does Foothills Centre offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1222\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1222\" role=\"region\"><p>Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1223\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1223\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What services are included in the treatment program at Foothills Centre?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1223\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1223\" role=\"region\"><p>Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1224\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1224\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the focus of the treatment experience at Foothills Centre for Change?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1224\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1224\" role=\"region\"><p>The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1225\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1225\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What type of therapy is used at Foothills Centre for Change?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1225\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1225\" role=\"region\"><p>Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1226\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1226\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What amenities are offered at Foothills Centre for Change? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1226\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1226\" role=\"region\"><p>Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1227\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1227\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are there aftercare services provided by Foothills Centre for Change? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1227\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1227\" role=\"region\"><p>Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1228\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"8\" id=\"elementor-tab-title-1228\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does Foothills Centre for Change accept insurance? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1228\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"8\" id=\"elementor-tab-content-1228\" role=\"region\"><p>Foothills Centre accepts most private insurance.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "+1 250-804-6549",
+  "email": " info@foothillscentre.com",
+  "website": "http://www.foothillscentre.com/",
+  "address": "4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/FoothillsRecovery"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-7.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-7.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-6.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-6.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-5.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-5.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-4.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-4.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-3.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-3.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-2.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-1.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Foothills-Centre-for-Change-1.webp",
+    "alt": "",
+    "width": "450",
+    "height": "340"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "Personalized Addiction Treatment in the Mountains of British Columbia",
+    "html": "Personalized Addiction Treatment in the Mountains of British Columbia",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.",
+    "html": "Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Comprehensive And Personalized Treatment",
+    "html": "Comprehensive And Personalized Treatment",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.",
+    "html": "At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Recover in a Serene Location",
+    "html": "Recover in a Serene Location",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages.",
+    "html": "Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Cost and Insurance Coverage",
+    "html": "Cost and Insurance Coverage",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment.",
+    "html": "Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "iframe",
+    "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fweb.facebook.com%2FFoothillsRecovery%2Fvideos%2F379669055490529%2F&show_text=false&width=560&t=0",
+    "title": "",
+    "width": "560",
+    "height": "314"
+   },
+   {
+    "type": "h2",
+    "text": "Foothills Centre for Change- Center Overview",
+    "html": "Foothills Centre for Change- Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.",
+    "html": "Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.",
+    "html": "The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Foothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Foothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near British Columbia, Click here",
+    "html": "If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Foothills Centre for Change",
+  "faqs": [
+   {
+    "question": "What is Foothills Centre for Change?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+      "html": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia."
+   },
+   {
+    "question": "What programs does Foothills Centre offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+      "html": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package."
+   },
+   {
+    "question": "What services are included in the treatment program at Foothills Centre?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+      "html": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection."
+   },
+   {
+    "question": "What is the focus of the treatment experience at Foothills Centre for Change?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+      "html": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction."
+   },
+   {
+    "question": "What type of therapy is used at Foothills Centre for Change?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+      "html": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction."
+   },
+   {
+    "question": "What amenities are offered at Foothills Centre for Change?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+      "html": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre."
+   },
+   {
+    "question": "Are there aftercare services provided by Foothills Centre for Change?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+      "html": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment."
+   },
+   {
+    "question": "Does Foothills Centre for Change accept insurance?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Foothills Centre accepts most private insurance.",
+      "html": "Foothills Centre accepts most private insurance.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Foothills Centre accepts most private insurance."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "+1 250-804-6549",
+  "phone_href": "tel:+1 250-804-6549",
+  "website_text": "http://www.foothillscentre.com/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What is Foothills Centre for Change?",
+   "answer_text": "Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.",
+   "answer_html": "<p>Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What programs does Foothills Centre offer?",
+   "answer_text": "Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.",
+   "answer_html": "<p>Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What services are included in the treatment program at Foothills Centre?",
+   "answer_text": "Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.",
+   "answer_html": "<p>Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the focus of the treatment experience at Foothills Centre for Change?",
+   "answer_text": "The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.",
+   "answer_html": "<p>The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What type of therapy is used at Foothills Centre for Change?",
+   "answer_text": "Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.",
+   "answer_html": "<p>Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What amenities are offered at Foothills Centre for Change?",
+   "answer_text": "Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.",
+   "answer_html": "<p>Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Are there aftercare services provided by Foothills Centre for Change?",
+   "answer_text": "Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.",
+   "answer_html": "<p>Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Does Foothills Centre for Change accept insurance?",
+   "answer_text": "Foothills Centre accepts most private insurance.",
+   "answer_html": "<p>Foothills Centre accepts most private insurance.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-15332\" data-elementor-id=\"15332\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6b1d8764 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6b1d8764\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-436ec2d\" data-element_type=\"column\" data-id=\"436ec2d\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4d0109b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4d0109b8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-31e90fb7\" data-element_type=\"column\" data-id=\"31e90fb7\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3565c19b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3565c19b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Personalized Addiction Treatment in the Mountains of British Columbia</h3><p>Foothills Centre for Change offers a personalized approach to addiction treatment in the serene mountains of British Columbia. The facility offers 30, 60, or 90 day programs with comprehensive medical detox, evidence-based therapies, and holistic services. For those who cannot commit to the typical 30 day program, Foothills Centre also offers a 14-day intensive residential package. The treatment experience at Foothills Centre is well-rounded, including individual and group therapy sessions, 12-Step facilitation, social activities, exercise, healthy meals, and time for relaxation and reflection.</p><h3>Comprehensive And Personalized Treatment </h3><p>At Foothills Centre for Change, the focus is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction. Through therapeutic and educational groups, clients learn how to communicate honestly with themselves and others. Cognitive behavioral therapy (CBT) addresses negative thoughts and actions related to addiction. Further, Foothills Centre treats the root of addiction by addressing co-occurring disorders such as personality disorders, grief, trauma, and anxiety. Foothills Centre also offers a wellness program, which includes yoga, meditation, amino acid therapy, and social connection.</p><h3>Recover in a Serene Location </h3><p>Surrounded by the serene mountains of British Columbia, Foothills Centre for Change provides a peaceful setting for clients to recover. Private accommodations, weekly massages, and infra-red saunas are just a few of the amenities clients can enjoy during their stay. Family therapy sessions help reconnect clients with their support systems, and private aftercare sessions are included in all treatment packages. </p><h3>Cost and Insurance Coverage </h3><p>Foothills Centre for Change accepts most private insurance, and treatment packages are arranged by length of stay. Clients can choose from 30, 60, or 90 day programs, as well as a 14-day intensive residential package. Private aftercare sessions are provided for all clients to ensure ongoing support after treatment. </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-28e0e01 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"28e0e01\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3beab62\" data-element_type=\"column\" data-id=\"3beab62\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-544c79e elementor-widget elementor-widget-shortcode\" data-element_type=\"widget\" data-id=\"544c79e\" data-widget_type=\"shortcode.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-shortcode\"><iframe allow=\"autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share\" allowfullscreen=\"true\" frameborder=\"0\" height=\"314\" scrolling=\"no\" src=\"https://www.facebook.com/plugins/video.php?height=314&amp;href=https%3A%2F%2Fweb.facebook.com%2FFoothillsRecovery%2Fvideos%2F379669055490529%2F&amp;show_text=false&amp;width=560&amp;t=0\" style=\"border:none;overflow:hidden\" width=\"560\"></iframe></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4c8a14c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4c8a14c6\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-61bc761f\" data-element_type=\"column\" data-id=\"61bc761f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-460fdc85 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"460fdc85\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-21b4b2bb elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"21b4b2bb\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Foothills Centre for Change- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-27230282 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"27230282\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Foothills Centre for Change is a leading rehab center dedicated to offering individuals a holistic approach to wellness. The center focuses on providing compassionate care, encouragement, and comprehensive support to help patients get their lives back on track. At Foothills, patients can repair relationships, regain confidence, and rediscover their true selves through a range of programs and therapies tailored to meet their unique needs. With the right guidance and support, change is possible, and healing can begin today at Foothills.</p><p>The center provides a peaceful and comfortable environment where patients can receive world-class education, therapy, and wellness services. The team at Foothills understands that patients need a balance of self-care, therapy, and education to ensure a complete recovery. Therefore, patients are treated in a home-like setting designed to foster a calm and supportive atmosphere. Whether it’s addiction or mental health issues, Foothills Center for Change has the resources and expertise to help patients achieve positive outcomes and regain control of their lives.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-48485259 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"48485259\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-616898a3\" data-element_type=\"column\" data-id=\"616898a3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5cf1f454 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"5cf1f454\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5a67c63a\" data-element_type=\"column\" data-id=\"5a67c63a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7fb14a68 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"7fb14a68\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-243b5a28 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"243b5a28\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3e696732\" data-element_type=\"column\" data-id=\"3e696732\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-13f1e504 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"13f1e504\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tFoothills Centre for Change has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-138ab5da elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"138ab5da\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-21cd9400 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"21cd9400\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-ee05bf4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"ee05bf4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ed06b22\" data-element_type=\"column\" data-id=\"ed06b22\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d16bfda elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"d16bfda\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near British Columbia, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/british-columbia-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7b8f01d8 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7b8f01d8\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-395d858d\" data-element_type=\"column\" data-id=\"395d858d\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-45001484 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"45001484\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Foothills Centre for Change</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-49236329 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"49236329\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1221\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1221\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Foothills Centre for Change? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1221\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1221\" role=\"region\"><p>Foothills Centre for Change is a personalized addiction treatment facility located in the mountains of British Columbia.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1222\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1222\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What programs does Foothills Centre offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1222\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1222\" role=\"region\"><p>Foothills Centre for Change offers 30, 60, or 90 day programs, as well as a 14-day intensive residential package.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1223\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1223\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What services are included in the treatment program at Foothills Centre?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1223\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1223\" role=\"region\"><p>Foothills Centre offers medical detox, evidence-based therapies, and holistic services. They also have a wellness program including yoga, meditation, amino acid therapy, and social connection.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1224\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1224\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the focus of the treatment experience at Foothills Centre for Change?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1224\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1224\" role=\"region\"><p>The focus at Foothills Centre is on treating the whole person, addressing the physical, mental, emotional, and spiritual aspects of addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1225\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1225\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What type of therapy is used at Foothills Centre for Change?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1225\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1225\" role=\"region\"><p>Foothills Centre uses cognitive behavioral therapy (CBT) and other evidence-based therapies to help clients address negative thoughts and actions related to addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1226\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1226\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What amenities are offered at Foothills Centre for Change? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1226\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1226\" role=\"region\"><p>Clients can enjoy private accommodations, weekly massages, and infra-red saunas during their stay at Foothills Centre.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1227\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1227\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are there aftercare services provided by Foothills Centre for Change? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1227\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1227\" role=\"region\"><p>Foothills Centre provides private aftercare sessions for all clients to ensure ongoing support after treatment.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1228\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"8\" id=\"elementor-tab-title-1228\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does Foothills Centre for Change accept insurance? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1228\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"8\" id=\"elementor-tab-content-1228\" role=\"region\"><p>Foothills Centre accepts most private insurance.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:+1 250-804-6549\" itemprop=\"url\">+1 250-804-6549</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto: info@foothillscentre.com\" itemprop=\"url\"> info@foothillscentre.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.foothillscentre.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.foothillscentre.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    4891 Foothill Rd SW, Salmon Arm, BC V1E 3C2, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:39pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/FoothillsRecovery\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

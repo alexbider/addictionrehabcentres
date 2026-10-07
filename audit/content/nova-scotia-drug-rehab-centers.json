@@ -1,0 +1,2081 @@
+{
+ "schema": "arc-content/1",
+ "slug": "nova-scotia-drug-rehab-centers",
+ "status": "REMAINING",
+ "page_type": "province",
+ "wp_type": "page",
+ "template": "Province",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "P1-P5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/nova-scotia-drug-rehab-centers/",
+  "path": "/nova-scotia-drug-rehab-centers/",
+  "wp_items": [
+   {
+    "id": 11437,
+    "type": "page",
+    "title": "Nova Scotia Drug Rehab Centers",
+    "date": "2022-02-04T18:46:32",
+    "modified": "2022-02-07T16:03:16",
+    "status": "publish",
+    "yoast_title": "Nova Scotia Drug Rehab Centers | Rehab Nova Scotia",
+    "words_rest": 528
+   }
+  ],
+  "in_sitemap": false,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/nova-scotia-drug-rehab-centers/",
+ "seo": {
+  "meta_title": "Nova Scotia Rehabs | 55 Best Rehab Centres in Nova Scotia",
+  "meta_description": "Browse the 55 Best Rehab Centres in Nova Scotia with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Nova Scotia Rehab Centres.",
+  "canonical_source": "https://addictionrehabcenters.ca/nova-scotia-rehabs/",
+  "og": {
+   "title": "Nova Scotia Rehabs | 55 Best Rehab Centres in Nova Scotia",
+   "description": "Browse the 55 Best Rehab Centres in Nova Scotia with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Nova Scotia Rehab Centres.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Nova Scotia Rehabs",
+      "datePublished": "2021-11-23T17:37:05+00:00",
+      "dateModified": "2026-03-28T14:51:52+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/"
+      },
+      "wordCount": 70,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/",
+      "url": "https://addictionrehabcenters.ca/nova-scotia-rehabs/",
+      "name": "Nova Scotia Rehabs | 55 Best Rehab Centres in Nova Scotia",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2021-11-23T17:37:05+00:00",
+      "dateModified": "2026-03-28T14:51:52+00:00",
+      "description": "Browse the 55 Best Rehab Centres in Nova Scotia with reviews, locations, and phone numbers. Call 1-855-885-4747 to get in contact with Nova Scotia Rehab Centres.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/nova-scotia-rehabs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nova Scotia Rehabs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/#webpage",
+      "url": "https://addictionrehabcenters.ca/nova-scotia-rehabs/",
+      "name": "Nova Scotia Rehabs | Best Rehab Centres in Nova Scotia",
+      "description": "Discover top addiction and rehab treatment centres in Nova Scotia including alcohol rehab, drug rehab, and recovery programs.",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      }
+     },
+     {
+      "@type": "ItemList",
+      "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/#rehablist",
+      "name": "Addiction Treatment Centres in Nova Scotia",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://addictionrehabcenters.ca/hope-centre-addiction-treatment/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://addictionrehabcenters.ca/phoenix-house-nova-scotia/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://addictionrehabcenters.ca/south-shore-health-bedford/"
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/nova-scotia-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Nova Scotia Rehabs",
+        "item": "https://addictionrehabcenters.ca/nova-scotia-rehabs/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Nova Scotia Rehabs",
+ "title_bar_h1": "Nova Scotia Rehabs",
+ "word_count": 5,
+ "features": [
+  "listing-cards:24"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Nova Scotia Rehabs"
+  ],
+  [
+   "h5",
+   "Cole Harbour Place"
+  ],
+  [
+   "h5",
+   "Belmont House"
+  ],
+  [
+   "h5",
+   "Hants Community Hospital"
+  ],
+  [
+   "h5",
+   "Bayers Road Centre"
+  ],
+  [
+   "h5",
+   "Freedom Foundation"
+  ],
+  [
+   "h5",
+   "Digby General Hospital"
+  ],
+  [
+   "h5",
+   "Native Alcohol And Drug Abuse Counselling Association Of Nova Scotia (Nadaca)"
+  ],
+  [
+   "h5",
+   "Cape Breton Community Housing"
+  ],
+  [
+   "h5",
+   "New Horizon Addiction Rehabilitation Centers"
+  ],
+  [
+   "h5",
+   "Capital Health – Addiction Prevention & Treatment Services"
+  ],
+  [
+   "h5",
+   "Mental Health And Addictions Annapolis Valley"
+  ],
+  [
+   "h5",
+   "Sir Sanford Fleming House"
+  ],
+  [
+   "h5",
+   "Christian Counselling"
+  ],
+  [
+   "h5",
+   "Strait – Richmond Hospital"
+  ],
+  [
+   "h5",
+   "Crosbie House Society"
+  ],
+  [
+   "h5",
+   "Family Service Association"
+  ],
+  [
+   "h5",
+   "Direction 180"
+  ],
+  [
+   "h5",
+   "Yarmouth Mental Health"
+  ],
+  [
+   "h5",
+   "South Shore Psychological Services"
+  ],
+  [
+   "h5",
+   "Paul Cashman – The Group Clinic"
+  ],
+  [
+   "h5",
+   "Roseway Hospital"
+  ],
+  [
+   "h5",
+   "South Shore Health"
+  ],
+  [
+   "h5",
+   "Bryson Counseling And Consulting"
+  ],
+  [
+   "h5",
+   "Cedar Centre"
+  ]
+ ],
+ "images": [],
+ "links": [
+  {
+   "old_href": "",
+   "text": "Load More",
+   "kind": "empty",
+   "new": ""
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Nova Scotia Rehabs",
+   "blocks": [
+    {
+     "type": "cards",
+     "hrefs": [
+      "https://addictionrehabcenters.ca/cole-harbour-place/",
+      "https://addictionrehabcenters.ca/belmont-house/",
+      "https://addictionrehabcenters.ca/hants-community-hospital/",
+      "https://addictionrehabcenters.ca/bayers-road-centre/",
+      "https://addictionrehabcenters.ca/freedom-foundation/",
+      "https://addictionrehabcenters.ca/digby-general-hospital/",
+      "https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/",
+      "https://addictionrehabcenters.ca/cape-breton-community-housing/",
+      "https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/",
+      "https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/",
+      "https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/",
+      "https://addictionrehabcenters.ca/sir-sanford-fleming-house/",
+      "https://addictionrehabcenters.ca/christian-counselling/",
+      "https://addictionrehabcenters.ca/strait-richmond-hospital/",
+      "https://addictionrehabcenters.ca/crosbie-house-society/",
+      "https://addictionrehabcenters.ca/family-service-association/",
+      "https://addictionrehabcenters.ca/direction-180/",
+      "https://addictionrehabcenters.ca/yarmouth-mental-health/",
+      "https://addictionrehabcenters.ca/south-shore-psychological-services/",
+      "https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/",
+      "https://addictionrehabcenters.ca/roseway-hospital/",
+      "https://addictionrehabcenters.ca/south-shore-health/",
+      "https://addictionrehabcenters.ca/bryson-counseling-and-consulting/",
+      "https://addictionrehabcenters.ca/cedar-centre/",
+      "https://addictionrehabcenters.ca/v-and-e-patton-counselling/",
+      "https://addictionrehabcenters.ca/howard-house-of-cape-breton/",
+      "https://addictionrehabcenters.ca/mental-health-and-addiction-services/",
+      "https://addictionrehabcenters.ca/elizabeth-fry-satellite-apartment/",
+      "https://addictionrehabcenters.ca/railton-house/",
+      "https://addictionrehabcenters.ca/al-anon-and-al-ateen/",
+      "https://addictionrehabcenters.ca/chebucto-art-therapy-and-counselling/",
+      "https://addictionrehabcenters.ca/cathy-macdougall-private-counselling-consultation-services/",
+      "https://addictionrehabcenters.ca/talbot-house/",
+      "https://addictionrehabcenters.ca/cumberland-mental-health-authority-mental-health-addictions-services/",
+      "https://addictionrehabcenters.ca/health-promotion-and-prevention-cape-breton/",
+      "https://addictionrehabcenters.ca/shelburne-mental-health-centre/",
+      "https://addictionrehabcenters.ca/nadaca-eagle-nest-recovery-house/",
+      "https://addictionrehabcenters.ca/new-hope-site/",
+      "https://addictionrehabcenters.ca/new-waterford-physiotherapy/",
+      "https://addictionrehabcenters.ca/halifax-centre-of-hope/",
+      "https://addictionrehabcenters.ca/bailey-associates/",
+      "https://addictionrehabcenters.ca/singleton-associates/",
+      "https://addictionrehabcenters.ca/alcare-place/",
+      "https://addictionrehabcenters.ca/eagles-nest-recovery-house/",
+      "https://addictionrehabcenters.ca/addictionservicessouthwesthealth/",
+      "https://addictionrehabcenters.ca/mikmaw-lodge-treatment-centre/",
+      "https://addictionrehabcenters.ca/evolution-addiction-counselling/",
+      "https://addictionrehabcenters.ca/searidge-foundation/",
+      "https://addictionrehabcenters.ca/terradyne-wellness-center/",
+      "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+      "https://addictionrehabcenters.ca/ledgehill-treatment-centre/"
+     ]
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Nova Scotia Rehabs",
+   "html": "Nova Scotia Rehabs",
+   "id": ""
+  },
+  {
+   "type": "cards",
+   "hrefs": [
+    "https://addictionrehabcenters.ca/cole-harbour-place/",
+    "https://addictionrehabcenters.ca/belmont-house/",
+    "https://addictionrehabcenters.ca/hants-community-hospital/",
+    "https://addictionrehabcenters.ca/bayers-road-centre/",
+    "https://addictionrehabcenters.ca/freedom-foundation/",
+    "https://addictionrehabcenters.ca/digby-general-hospital/",
+    "https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/",
+    "https://addictionrehabcenters.ca/cape-breton-community-housing/",
+    "https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/",
+    "https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/",
+    "https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/",
+    "https://addictionrehabcenters.ca/sir-sanford-fleming-house/",
+    "https://addictionrehabcenters.ca/christian-counselling/",
+    "https://addictionrehabcenters.ca/strait-richmond-hospital/",
+    "https://addictionrehabcenters.ca/crosbie-house-society/",
+    "https://addictionrehabcenters.ca/family-service-association/",
+    "https://addictionrehabcenters.ca/direction-180/",
+    "https://addictionrehabcenters.ca/yarmouth-mental-health/",
+    "https://addictionrehabcenters.ca/south-shore-psychological-services/",
+    "https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/",
+    "https://addictionrehabcenters.ca/roseway-hospital/",
+    "https://addictionrehabcenters.ca/south-shore-health/",
+    "https://addictionrehabcenters.ca/bryson-counseling-and-consulting/",
+    "https://addictionrehabcenters.ca/cedar-centre/",
+    "https://addictionrehabcenters.ca/v-and-e-patton-counselling/",
+    "https://addictionrehabcenters.ca/howard-house-of-cape-breton/",
+    "https://addictionrehabcenters.ca/mental-health-and-addiction-services/",
+    "https://addictionrehabcenters.ca/elizabeth-fry-satellite-apartment/",
+    "https://addictionrehabcenters.ca/railton-house/",
+    "https://addictionrehabcenters.ca/al-anon-and-al-ateen/",
+    "https://addictionrehabcenters.ca/chebucto-art-therapy-and-counselling/",
+    "https://addictionrehabcenters.ca/cathy-macdougall-private-counselling-consultation-services/",
+    "https://addictionrehabcenters.ca/talbot-house/",
+    "https://addictionrehabcenters.ca/cumberland-mental-health-authority-mental-health-addictions-services/",
+    "https://addictionrehabcenters.ca/health-promotion-and-prevention-cape-breton/",
+    "https://addictionrehabcenters.ca/shelburne-mental-health-centre/",
+    "https://addictionrehabcenters.ca/nadaca-eagle-nest-recovery-house/",
+    "https://addictionrehabcenters.ca/new-hope-site/",
+    "https://addictionrehabcenters.ca/new-waterford-physiotherapy/",
+    "https://addictionrehabcenters.ca/halifax-centre-of-hope/",
+    "https://addictionrehabcenters.ca/bailey-associates/",
+    "https://addictionrehabcenters.ca/singleton-associates/",
+    "https://addictionrehabcenters.ca/alcare-place/",
+    "https://addictionrehabcenters.ca/eagles-nest-recovery-house/",
+    "https://addictionrehabcenters.ca/addictionservicessouthwesthealth/",
+    "https://addictionrehabcenters.ca/mikmaw-lodge-treatment-centre/",
+    "https://addictionrehabcenters.ca/evolution-addiction-counselling/",
+    "https://addictionrehabcenters.ca/searidge-foundation/",
+    "https://addictionrehabcenters.ca/terradyne-wellness-center/",
+    "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+    "https://addictionrehabcenters.ca/ledgehill-treatment-centre/"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "kind": "listing-banner",
+   "classes": [
+    "innerBanner"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Nova Scotia Rehabs",
+       "html": "Nova Scotia Rehabs",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "listing",
+   "classes": [
+    "innerListingBox"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/cole-harbour-place/",
+        "https://addictionrehabcenters.ca/belmont-house/",
+        "https://addictionrehabcenters.ca/hants-community-hospital/",
+        "https://addictionrehabcenters.ca/bayers-road-centre/",
+        "https://addictionrehabcenters.ca/freedom-foundation/",
+        "https://addictionrehabcenters.ca/digby-general-hospital/",
+        "https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/",
+        "https://addictionrehabcenters.ca/cape-breton-community-housing/",
+        "https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/",
+        "https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/",
+        "https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/",
+        "https://addictionrehabcenters.ca/sir-sanford-fleming-house/",
+        "https://addictionrehabcenters.ca/christian-counselling/",
+        "https://addictionrehabcenters.ca/strait-richmond-hospital/",
+        "https://addictionrehabcenters.ca/crosbie-house-society/",
+        "https://addictionrehabcenters.ca/family-service-association/",
+        "https://addictionrehabcenters.ca/direction-180/",
+        "https://addictionrehabcenters.ca/yarmouth-mental-health/",
+        "https://addictionrehabcenters.ca/south-shore-psychological-services/",
+        "https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/",
+        "https://addictionrehabcenters.ca/roseway-hospital/",
+        "https://addictionrehabcenters.ca/south-shore-health/",
+        "https://addictionrehabcenters.ca/bryson-counseling-and-consulting/",
+        "https://addictionrehabcenters.ca/cedar-centre/",
+        "https://addictionrehabcenters.ca/v-and-e-patton-counselling/",
+        "https://addictionrehabcenters.ca/howard-house-of-cape-breton/",
+        "https://addictionrehabcenters.ca/mental-health-and-addiction-services/",
+        "https://addictionrehabcenters.ca/elizabeth-fry-satellite-apartment/",
+        "https://addictionrehabcenters.ca/railton-house/",
+        "https://addictionrehabcenters.ca/al-anon-and-al-ateen/",
+        "https://addictionrehabcenters.ca/chebucto-art-therapy-and-counselling/",
+        "https://addictionrehabcenters.ca/cathy-macdougall-private-counselling-consultation-services/",
+        "https://addictionrehabcenters.ca/talbot-house/",
+        "https://addictionrehabcenters.ca/cumberland-mental-health-authority-mental-health-addictions-services/",
+        "https://addictionrehabcenters.ca/health-promotion-and-prevention-cape-breton/",
+        "https://addictionrehabcenters.ca/shelburne-mental-health-centre/",
+        "https://addictionrehabcenters.ca/nadaca-eagle-nest-recovery-house/",
+        "https://addictionrehabcenters.ca/new-hope-site/",
+        "https://addictionrehabcenters.ca/new-waterford-physiotherapy/",
+        "https://addictionrehabcenters.ca/halifax-centre-of-hope/",
+        "https://addictionrehabcenters.ca/bailey-associates/",
+        "https://addictionrehabcenters.ca/singleton-associates/",
+        "https://addictionrehabcenters.ca/alcare-place/",
+        "https://addictionrehabcenters.ca/eagles-nest-recovery-house/",
+        "https://addictionrehabcenters.ca/addictionservicessouthwesthealth/",
+        "https://addictionrehabcenters.ca/mikmaw-lodge-treatment-centre/",
+        "https://addictionrehabcenters.ca/evolution-addiction-counselling/",
+        "https://addictionrehabcenters.ca/searidge-foundation/",
+        "https://addictionrehabcenters.ca/terradyne-wellness-center/",
+        "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+        "https://addictionrehabcenters.ca/ledgehill-treatment-centre/"
+       ]
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Nova Scotia Rehabs",
+  "background_image": ""
+ },
+ "cards": [
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/cole-harbour-place/",
+   "address": "51 Forest Hills Pkwy, Dartmouth, NS B2W 6C6, Canada",
+   "excerpt": "Cole Harbour Place is a Dartmouth, Nova Scot",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place.jpg",
+    "alt": "cole harbour place",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/belmont-house/",
+   "address": "Belmont House, 33 Alderney Dr, Dartmouth, NS B2Y 2N4, Canada",
+   "excerpt": "Belmont House is a Dartmouth, Nova Scotia-ba",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/hants-community-hospital/",
+   "address": "89 Payzant Dr, Windsor, NS B0N 2T0, Canada",
+   "excerpt": "Windsor, Nova Scotia's Hants Community Hospi",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community.jpg",
+    "alt": "hants community",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/bayers-road-centre/",
+   "address": "7071 Bayers Rd, Halifax, NS B3L 2C2, Canada",
+   "excerpt": "Bayers Road Centre is a public rehabilitatio",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road.jpg",
+    "alt": "bayers road",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/freedom-foundation/",
+   "address": "15 Brule St, Dartmouth, NS B3A 4G2, Canada",
+   "excerpt": "Freedom Foundation is a Dartmouth, Nova Scot",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation.jpg",
+    "alt": "freedom foundation",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/digby-general-hospital/",
+   "address": "75 Warwick St, Digby, NS B0V 1A0, Canada",
+   "excerpt": "Digby General Hospital does not just serve a",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1.jpg",
+    "alt": "digby general 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/",
+   "address": "44 Eagle Nest Ave, Shubenacadie, NS B0N 2H0, Canada",
+   "excerpt": "NADACA is a private rehab in Shubenacadie, N",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca.jpg",
+    "alt": "nadaca",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/cape-breton-community-housing/",
+   "address": "50 Dorchester St, Sydney, NS B1P 5Z1, Canada",
+   "excerpt": "Cape Breton Community Housing is a non-profi",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community.jpg",
+    "alt": "cape breton community",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/",
+   "address": "101 Bentinck St, Sydney, NS B1P 1G3, Canada",
+   "excerpt": "New Horizon Addiction Rehabilitation Centers",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation.jpg",
+    "alt": "new horizon addiction rehabilitation",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/",
+   "address": "Marshall Building, 300 Pleasant St, Dartmouth, NS B2Y 0A5, Canada",
+   "excerpt": "Capital Health – Addiction Prevention & Trea",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/",
+   "address": "462 Main St, Middleton, NS B0S 1P0, Canada",
+   "excerpt": "Addictions and Mental Health Middleton, Nova",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/sir-sanford-fleming-house/",
+   "address": "2549 Brunswick St, Halifax, NS B3K 2Z5, Canada",
+   "excerpt": "Sir Sanford Fleming House is a non-profit re",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming.jpg",
+    "alt": "sir sanford fleming",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/christian-counselling/",
+   "address": "883 Prince St, Truro, NS B2N 1H2, Canada",
+   "excerpt": "Christian Counselling is a private rehab In",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling.jpg",
+    "alt": "christian counselling",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/strait-richmond-hospital/",
+   "address": "138 Hospital Rd, Cleveland, NS B0E 1J0, Canada",
+   "excerpt": "Cleveland, Nova Scotia's Strait – Richmond H",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital.jpg",
+    "alt": "richmond hospital",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/crosbie-house-society/",
+   "address": "113 Cornwallis Ave, New Minas, NS B4N 3M9, Canada",
+   "excerpt": "Crosbie House Society is a non-profit drug a",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society.jpg",
+    "alt": "crosbie house society",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/family-service-association/",
+   "address": "Young Tower, 6080 Young St #105, Halifax, NS B3K 5L2, Canada",
+   "excerpt": "The Family Service Association is a non-prof",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/direction-180/",
+   "address": "2158 Gottingen St, Halifax, NS B3K 3B4, Canada",
+   "excerpt": "Direction 180 is a non-profit rehab in Halif",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction.jpg",
+    "alt": "direction",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/yarmouth-mental-health/",
+   "address": "60 Vancouver St, Yarmouth, NS B5A 2P5, Canada",
+   "excerpt": "Yarmouth Mental Health is a Yarmouth, Nova S",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health.jpg",
+    "alt": "yarmouth mental health",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/south-shore-psychological-services/",
+   "address": "926 King St, Bridgewater, NS B4V 3E6, Canada",
+   "excerpt": "South Shore Psychological Services is a Priv",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological.jpg",
+    "alt": "south shore psychological",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/",
+   "address": "1161 Hollis St 6, Halifax, Nova Scotia",
+   "excerpt": "The Group Clinic by Paul Cashman is a privat",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/roseway-hospital/",
+   "address": "162 Mowatt St, Shelburne, NS B0T 1W0, Canada",
+   "excerpt": "Shelburne, Nova Scotia's Roseway Hospital is",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/south-shore-health/",
+   "address": "Hwy 3, Port Joli, NS B0T 1S0, Canada",
+   "excerpt": "South Shore Health is a private rehab in Che",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/bryson-counseling-and-consulting/",
+   "address": "1 Valence St, Howie Centre, NS B1L 1G5, Canada",
+   "excerpt": "Bryson Counseling and Consulting is a Howie",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/cedar-centre/",
+   "address": "69 Cedar St, Windsor, NS B0N 2T0, Canada",
+   "excerpt": "Windsor, Nova Scotia's Cedar Centre is a pri",
+   "category": "Nova Scotia Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre.jpg",
+    "alt": "cedar centre",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "",
+    "cole-harbour-place",
+    "51 Forest Hills Pkwy, Dartmouth, NS B2W 6C6, Canada",
+    "Cole Harbour Place is a Dartmouth, Nova Scot",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "belmont-house",
+    "Belmont House, 33 Alderney Dr, Dartmouth, NS B2Y 2N4, Canada",
+    "Belmont House is a Dartmouth, Nova Scotia-ba",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "hants-community-hospital",
+    "89 Payzant Dr, Windsor, NS B0N 2T0, Canada",
+    "Windsor, Nova Scotia's Hants Community Hospi",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "bayers-road-centre",
+    "7071 Bayers Rd, Halifax, NS B3L 2C2, Canada",
+    "Bayers Road Centre is a public rehabilitatio",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "freedom-foundation",
+    "15 Brule St, Dartmouth, NS B3A 4G2, Canada",
+    "Freedom Foundation is a Dartmouth, Nova Scot",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "digby-general-hospital",
+    "75 Warwick St, Digby, NS B0V 1A0, Canada",
+    "Digby General Hospital does not just serve a",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca",
+    "44 Eagle Nest Ave, Shubenacadie, NS B0N 2H0, Canada",
+    "NADACA is a private rehab in Shubenacadie, N",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "cape-breton-community-housing",
+    "50 Dorchester St, Sydney, NS B1P 5Z1, Canada",
+    "Cape Breton Community Housing is a non-profi",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "new-horizon-addiction-rehabilitation-centers",
+    "101 Bentinck St, Sydney, NS B1P 1G3, Canada",
+    "New Horizon Addiction Rehabilitation Centers",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "capital-health-addiction-prevention-treatment-services",
+    "Marshall Building, 300 Pleasant St, Dartmouth, NS B2Y 0A5, Canada",
+    "Capital Health – Addiction Prevention & Trea",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "mental-health-and-addictions-annapolis-valley",
+    "462 Main St, Middleton, NS B0S 1P0, Canada",
+    "Addictions and Mental Health Middleton, Nova",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "sir-sanford-fleming-house",
+    "2549 Brunswick St, Halifax, NS B3K 2Z5, Canada",
+    "Sir Sanford Fleming House is a non-profit re",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "christian-counselling",
+    "883 Prince St, Truro, NS B2N 1H2, Canada",
+    "Christian Counselling is a private rehab In",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "strait-richmond-hospital",
+    "138 Hospital Rd, Cleveland, NS B0E 1J0, Canada",
+    "Cleveland, Nova Scotia's Strait – Richmond H",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "crosbie-house-society",
+    "113 Cornwallis Ave, New Minas, NS B4N 3M9, Canada",
+    "Crosbie House Society is a non-profit drug a",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "family-service-association",
+    "Young Tower, 6080 Young St #105, Halifax, NS B3K 5L2, Canada",
+    "The Family Service Association is a non-prof",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "direction-180",
+    "2158 Gottingen St, Halifax, NS B3K 3B4, Canada",
+    "Direction 180 is a non-profit rehab in Halif",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "yarmouth-mental-health",
+    "60 Vancouver St, Yarmouth, NS B5A 2P5, Canada",
+    "Yarmouth Mental Health is a Yarmouth, Nova S",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "south-shore-psychological-services",
+    "926 King St, Bridgewater, NS B4V 3E6, Canada",
+    "South Shore Psychological Services is a Priv",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "search-listing/paul-cashman-the-group-clinic",
+    "1161 Hollis St 6, Halifax, Nova Scotia",
+    "The Group Clinic by Paul Cashman is a privat",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "roseway-hospital",
+    "162 Mowatt St, Shelburne, NS B0T 1W0, Canada",
+    "Shelburne, Nova Scotia's Roseway Hospital is",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "south-shore-health",
+    "Hwy 3, Port Joli, NS B0T 1S0, Canada",
+    "South Shore Health is a private rehab in Che",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "bryson-counseling-and-consulting",
+    "1 Valence St, Howie Centre, NS B1L 1G5, Canada",
+    "Bryson Counseling and Consulting is a Howie",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ],
+   [
+    "",
+    "cedar-centre",
+    "69 Cedar St, Windsor, NS B0N 2T0, Canada",
+    "Windsor, Nova Scotia's Cedar Centre is a pri",
+    "0",
+    0,
+    "",
+    [
+     "Nova Scotia Rehabs"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "listing": {
+  "cards": [
+   {
+    "name": "Cole Harbour Place",
+    "href": "https://addictionrehabcenters.ca/cole-harbour-place/",
+    "slug": "cole-harbour-place",
+    "address": "51 Forest Hills Pkwy, Dartmouth, NS B2W 6C6, Canada",
+    "excerpt": "Cole Harbour Place is a Dartmouth, Nova Scot",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/cole-harbour-place/cole-harbour-place.jpg",
+     "alt": "cole harbour place",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place.jpg"
+    }
+   },
+   {
+    "name": "Belmont House",
+    "href": "https://addictionrehabcenters.ca/belmont-house/",
+    "slug": "belmont-house",
+    "address": "Belmont House, 33 Alderney Dr, Dartmouth, NS B2Y 2N4, Canada",
+    "excerpt": "Belmont House is a Dartmouth, Nova Scotia-ba",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/belmont-house/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Hants Community Hospital",
+    "href": "https://addictionrehabcenters.ca/hants-community-hospital/",
+    "slug": "hants-community-hospital",
+    "address": "89 Payzant Dr, Windsor, NS B0N 2T0, Canada",
+    "excerpt": "Windsor, Nova Scotia's Hants Community Hospi",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/hants-community-hospital/hants-community.jpg",
+     "alt": "hants community",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community.jpg"
+    }
+   },
+   {
+    "name": "Bayers Road Centre",
+    "href": "https://addictionrehabcenters.ca/bayers-road-centre/",
+    "slug": "bayers-road-centre",
+    "address": "7071 Bayers Rd, Halifax, NS B3L 2C2, Canada",
+    "excerpt": "Bayers Road Centre is a public rehabilitatio",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/bayers-road-centre/bayers-road.jpg",
+     "alt": "bayers road",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road.jpg"
+    }
+   },
+   {
+    "name": "Freedom Foundation",
+    "href": "https://addictionrehabcenters.ca/freedom-foundation/",
+    "slug": "freedom-foundation",
+    "address": "15 Brule St, Dartmouth, NS B3A 4G2, Canada",
+    "excerpt": "Freedom Foundation is a Dartmouth, Nova Scot",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/freedom-foundation/freedom-foundation.jpg",
+     "alt": "freedom foundation",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation.jpg"
+    }
+   },
+   {
+    "name": "Digby General Hospital",
+    "href": "https://addictionrehabcenters.ca/digby-general-hospital/",
+    "slug": "digby-general-hospital",
+    "address": "75 Warwick St, Digby, NS B0V 1A0, Canada",
+    "excerpt": "Digby General Hospital does not just serve a",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/digby-general-hospital/digby-general-1.jpg",
+     "alt": "digby general 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1.jpg"
+    }
+   },
+   {
+    "name": "Native Alcohol And Drug Abuse Counselling Association Of Nova Scotia (Nadaca)",
+    "href": "https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/",
+    "slug": "native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca",
+    "address": "44 Eagle Nest Ave, Shubenacadie, NS B0N 2H0, Canada",
+    "excerpt": "NADACA is a private rehab in Shubenacadie, N",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/nadaca.jpg",
+     "alt": "nadaca",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca.jpg"
+    }
+   },
+   {
+    "name": "Cape Breton Community Housing",
+    "href": "https://addictionrehabcenters.ca/cape-breton-community-housing/",
+    "slug": "cape-breton-community-housing",
+    "address": "50 Dorchester St, Sydney, NS B1P 5Z1, Canada",
+    "excerpt": "Cape Breton Community Housing is a non-profi",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/cape-breton-community-housing/cape-breton-community.jpg",
+     "alt": "cape breton community",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community.jpg"
+    }
+   },
+   {
+    "name": "New Horizon Addiction Rehabilitation Centers",
+    "href": "https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/",
+    "slug": "new-horizon-addiction-rehabilitation-centers",
+    "address": "101 Bentinck St, Sydney, NS B1P 1G3, Canada",
+    "excerpt": "New Horizon Addiction Rehabilitation Centers",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/new-horizon-addiction-rehabilitation-centers/new-horizon-addiction-rehabilitation.jpg",
+     "alt": "new horizon addiction rehabilitation",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation.jpg"
+    }
+   },
+   {
+    "name": "Capital Health – Addiction Prevention & Treatment Services",
+    "href": "https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/",
+    "slug": "capital-health-addiction-prevention-treatment-services",
+    "address": "Marshall Building, 300 Pleasant St, Dartmouth, NS B2Y 0A5, Canada",
+    "excerpt": "Capital Health – Addiction Prevention & Trea",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/capital-health-addiction-prevention-treatment-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Mental Health And Addictions Annapolis Valley",
+    "href": "https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/",
+    "slug": "mental-health-and-addictions-annapolis-valley",
+    "address": "462 Main St, Middleton, NS B0S 1P0, Canada",
+    "excerpt": "Addictions and Mental Health Middleton, Nova",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/mental-health-and-addictions-annapolis-valley/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Sir Sanford Fleming House",
+    "href": "https://addictionrehabcenters.ca/sir-sanford-fleming-house/",
+    "slug": "sir-sanford-fleming-house",
+    "address": "2549 Brunswick St, Halifax, NS B3K 2Z5, Canada",
+    "excerpt": "Sir Sanford Fleming House is a non-profit re",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/sir-sanford-fleming-house/sir-sanford-fleming.jpg",
+     "alt": "sir sanford fleming",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming.jpg"
+    }
+   },
+   {
+    "name": "Christian Counselling",
+    "href": "https://addictionrehabcenters.ca/christian-counselling/",
+    "slug": "christian-counselling",
+    "address": "883 Prince St, Truro, NS B2N 1H2, Canada",
+    "excerpt": "Christian Counselling is a private rehab In",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/christian-counselling/christian-counselling.jpg",
+     "alt": "christian counselling",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling.jpg"
+    }
+   },
+   {
+    "name": "Strait – Richmond Hospital",
+    "href": "https://addictionrehabcenters.ca/strait-richmond-hospital/",
+    "slug": "strait-richmond-hospital",
+    "address": "138 Hospital Rd, Cleveland, NS B0E 1J0, Canada",
+    "excerpt": "Cleveland, Nova Scotia's Strait – Richmond H",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/strait-richmond-hospital/richmond-hospital.jpg",
+     "alt": "richmond hospital",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital.jpg"
+    }
+   },
+   {
+    "name": "Crosbie House Society",
+    "href": "https://addictionrehabcenters.ca/crosbie-house-society/",
+    "slug": "crosbie-house-society",
+    "address": "113 Cornwallis Ave, New Minas, NS B4N 3M9, Canada",
+    "excerpt": "Crosbie House Society is a non-profit drug a",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/crosbie-house-society/crosbie-house-society.jpg",
+     "alt": "crosbie house society",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society.jpg"
+    }
+   },
+   {
+    "name": "Family Service Association",
+    "href": "https://addictionrehabcenters.ca/family-service-association/",
+    "slug": "family-service-association",
+    "address": "Young Tower, 6080 Young St #105, Halifax, NS B3K 5L2, Canada",
+    "excerpt": "The Family Service Association is a non-prof",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/family-service-association/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Direction 180",
+    "href": "https://addictionrehabcenters.ca/direction-180/",
+    "slug": "direction-180",
+    "address": "2158 Gottingen St, Halifax, NS B3K 3B4, Canada",
+    "excerpt": "Direction 180 is a non-profit rehab in Halif",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/direction-180/direction.jpg",
+     "alt": "direction",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction.jpg"
+    }
+   },
+   {
+    "name": "Yarmouth Mental Health",
+    "href": "https://addictionrehabcenters.ca/yarmouth-mental-health/",
+    "slug": "yarmouth-mental-health",
+    "address": "60 Vancouver St, Yarmouth, NS B5A 2P5, Canada",
+    "excerpt": "Yarmouth Mental Health is a Yarmouth, Nova S",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/yarmouth-mental-health/yarmouth-mental-health.jpg",
+     "alt": "yarmouth mental health",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health.jpg"
+    }
+   },
+   {
+    "name": "South Shore Psychological Services",
+    "href": "https://addictionrehabcenters.ca/south-shore-psychological-services/",
+    "slug": "south-shore-psychological-services",
+    "address": "926 King St, Bridgewater, NS B4V 3E6, Canada",
+    "excerpt": "South Shore Psychological Services is a Priv",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/south-shore-psychological-services/south-shore-psychological.jpg",
+     "alt": "south shore psychological",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological.jpg"
+    }
+   },
+   {
+    "name": "Paul Cashman – The Group Clinic",
+    "href": "https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/",
+    "slug": "paul-cashman-the-group-clinic",
+    "address": "1161 Hollis St 6, Halifax, Nova Scotia",
+    "excerpt": "The Group Clinic by Paul Cashman is a privat",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/paul-cashman-the-group-clinic/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Roseway Hospital",
+    "href": "https://addictionrehabcenters.ca/roseway-hospital/",
+    "slug": "roseway-hospital",
+    "address": "162 Mowatt St, Shelburne, NS B0T 1W0, Canada",
+    "excerpt": "Shelburne, Nova Scotia's Roseway Hospital is",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/roseway-hospital/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "South Shore Health",
+    "href": "https://addictionrehabcenters.ca/south-shore-health/",
+    "slug": "south-shore-health",
+    "address": "Hwy 3, Port Joli, NS B0T 1S0, Canada",
+    "excerpt": "South Shore Health is a private rehab in Che",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/south-shore-health/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Bryson Counseling And Consulting",
+    "href": "https://addictionrehabcenters.ca/bryson-counseling-and-consulting/",
+    "slug": "bryson-counseling-and-consulting",
+    "address": "1 Valence St, Howie Centre, NS B1L 1G5, Canada",
+    "excerpt": "Bryson Counseling and Consulting is a Howie",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/bryson-counseling-and-consulting/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Cedar Centre",
+    "href": "https://addictionrehabcenters.ca/cedar-centre/",
+    "slug": "cedar-centre",
+    "address": "69 Cedar St, Windsor, NS B0N 2T0, Canada",
+    "excerpt": "Windsor, Nova Scotia's Cedar Centre is a pri",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/cedar-centre/cedar-centre.jpg",
+     "alt": "cedar centre",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre.jpg"
+    }
+   },
+   {
+    "name": "V And E Patton Counselling",
+    "href": "https://addictionrehabcenters.ca/v-and-e-patton-counselling/",
+    "slug": "v-and-e-patton-counselling",
+    "address": "Kentville, NS, Canada",
+    "excerpt": "V and E Patton Counselling is a private reha",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/v-and-e-patton-counselling/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Howard House Of Cape Breton",
+    "href": "https://addictionrehabcenters.ca/howard-house-of-cape-breton/",
+    "slug": "howard-house-of-cape-breton",
+    "address": "262 Bentinck St, Sydney, NS B1P 1G9, Canada",
+    "excerpt": "The Howard House Association of Cape Breton",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/howard-house-of-cape-breton/howard-house-3.jpg",
+     "alt": "howard house",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house-3.jpg"
+    }
+   },
+   {
+    "name": "Mental Health And Addiction Services",
+    "href": "https://addictionrehabcenters.ca/mental-health-and-addiction-services/",
+    "slug": "mental-health-and-addiction-services",
+    "address": "235 Townsend St, Sydney, NS B1P 5E7, Canada",
+    "excerpt": "Mental Health and Addiction Services In Sydn",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/mental-health-and-addiction-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Elizabeth Fry Satellite Apartment",
+    "href": "https://addictionrehabcenters.ca/elizabeth-fry-satellite-apartment/",
+    "slug": "elizabeth-fry-satellite-apartment",
+    "address": "16 C Levatte Crescent, Lingan Road, NS B1N 3K3, Canada",
+    "excerpt": "The Elizabeth Fry Satellite Apartment Progra",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/elizabeth-fry-satellite-apartment/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Railton House",
+    "href": "https://addictionrehabcenters.ca/railton-house/",
+    "slug": "railton-house",
+    "address": "318 Windmill Rd, Dartmouth, NS B3A 1H5, Canada",
+    "excerpt": "Railton House, located on Gottingen Street i",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/railton-house/railton-house.jpg",
+     "alt": "railton house",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/railton-house.jpg"
+    }
+   },
+   {
+    "name": "Al – Anon And Al – Ateen",
+    "href": "https://addictionrehabcenters.ca/al-anon-and-al-ateen/",
+    "slug": "al-anon-and-al-ateen",
+    "address": "3 Dundas St, Dartmouth, NS B2Y 2T6, Canada",
+    "excerpt": "Al-Anon and Al - Ateen is a Dartmouth, Nova",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/al-anon-and-al-ateen/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Chebucto Art Therapy And Counselling",
+    "href": "https://addictionrehabcenters.ca/chebucto-art-therapy-and-counselling/",
+    "slug": "chebucto-art-therapy-and-counselling",
+    "address": "3621 Dutch Village Rd, Halifax, NS B3N 2T1, Canada",
+    "excerpt": "Chebucto Art Therapy and Counselling is a pr",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/chebucto-art-therapy-and-counselling/chebucto-art-therapy.jpg",
+     "alt": "chebucto art therapy",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/chebucto-art-therapy.jpg"
+    }
+   },
+   {
+    "name": "Cathy Macdougall Private Counselling & Consultation Services",
+    "href": "https://addictionrehabcenters.ca/cathy-macdougall-private-counselling-consultation-services/",
+    "slug": "cathy-macdougall-private-counselling-consultation-services",
+    "address": "440 George St, Sydney, NS B1P 1K3, Canada",
+    "excerpt": "Cathy MacDougall Private Counselling & Consu",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/cathy-macdougall-private-counselling-consultation-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Talbot House",
+    "href": "https://addictionrehabcenters.ca/talbot-house/",
+    "slug": "talbot-house",
+    "address": "1777 Frenchvale Rd, Frenchvale, NS B2A 4E2, Canada",
+    "excerpt": "Talbot House is a non-profit rehab center in",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/talbot-house/talbot-house.jpg",
+     "alt": "talbot house",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/talbot-house.jpg"
+    }
+   },
+   {
+    "name": "Cumberland Mental Health Authority – Mental Health & Addictions Services",
+    "href": "https://addictionrehabcenters.ca/cumberland-mental-health-authority-mental-health-addictions-services/",
+    "slug": "cumberland-mental-health-authority-mental-health-addictions-services",
+    "address": "34 Prince Arthur St, Amherst, NS B4H 1V6, Canada",
+    "excerpt": "Cumberland Mental Health Services is a Cumbe",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/cumberland-mental-health-authority-mental-health-addictions-services/cumberland-mental-health-1.jpg",
+     "alt": "cumberland mental health 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cumberland-mental-health-1.jpg"
+    }
+   },
+   {
+    "name": "Health Promotion And Prevention Cape Breton",
+    "href": "https://addictionrehabcenters.ca/health-promotion-and-prevention-cape-breton/",
+    "slug": "health-promotion-and-prevention-cape-breton",
+    "address": "850 Grand Lake Rd, Sydney, NS B1P 5T9, Canada",
+    "excerpt": "Prevention and Promotion of Health In Sydney",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/health-promotion-and-prevention-cape-breton/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Shelburne Mental Health Centre",
+    "href": "https://addictionrehabcenters.ca/shelburne-mental-health-centre/",
+    "slug": "shelburne-mental-health-centre",
+    "address": "1606 Lake Rd, Shelburne, NS B0T 1W0, Canada",
+    "excerpt": "Shelburne Mental Health Centre is a private",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/shelburne-mental-health-centre/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Nadaca – Eagle Nest Recovery House",
+    "href": "https://addictionrehabcenters.ca/nadaca-eagle-nest-recovery-house/",
+    "slug": "nadaca-eagle-nest-recovery-house",
+    "address": "44 Eagle Point Dr, Shubenacadie, NS B0N 2H0, Canada",
+    "excerpt": "Eagle Nest Recovery House is a private rehab",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/nadaca-eagle-nest-recovery-house/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "New Hope Site",
+    "href": "https://addictionrehabcenters.ca/new-hope-site/",
+    "slug": "new-hope-site",
+    "address": "483 E River Rd, New Glasgow, NS B2H 4Y7, Canada",
+    "excerpt": "New Glasgow, Nova Scotia's New Hope Site is",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/new-hope-site/new-hope.jpg",
+     "alt": "new hope",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-hope.jpg"
+    }
+   },
+   {
+    "name": "New Waterford Physiotherapy",
+    "href": "https://addictionrehabcenters.ca/new-waterford-physiotherapy/",
+    "slug": "new-waterford-physiotherapy",
+    "address": "505 King St, New Waterford, NS B1H 3Y8, Canada",
+    "excerpt": "New Waterford Physiotherapy is a New Waterfo",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/new-waterford-physiotherapy/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Halifax Centre Of Hope",
+    "href": "https://addictionrehabcenters.ca/halifax-centre-of-hope/",
+    "slug": "halifax-centre-of-hope",
+    "address": "2044 Gottingen St, Halifax, NS B3K 3A9, Canada",
+    "excerpt": "Halifax Centre of Hope offers a six-month re",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/halifax-centre-of-hope/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Bailey & Associates",
+    "href": "https://addictionrehabcenters.ca/bailey-associates/",
+    "slug": "bailey-associates",
+    "address": "46 Portland St #800, Dartmouth, NS B2Y 1H3, Canada",
+    "excerpt": "Bailey and Associacuiates can assist clients",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/bailey-associates/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Singleton Associates",
+    "href": "https://addictionrehabcenters.ca/singleton-associates/",
+    "slug": "singleton-associates",
+    "address": "1809 Barrington St #1100, Halifax, NS B3J 3K8, Canada",
+    "excerpt": "Thomas J. Singleton is an experienced crimin",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/singleton-associates/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Alcare Place",
+    "href": "https://addictionrehabcenters.ca/alcare-place/",
+    "slug": "alcare-place",
+    "address": "1374 Robie St, Halifax, NS B3H 3E2, Canada",
+    "excerpt": "Alcare Place is a non-profit organization de",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alcare-place/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Eagles Nest Recovery House",
+    "href": "https://addictionrehabcenters.ca/eagles-nest-recovery-house/",
+    "slug": "eagles-nest-recovery-house",
+    "address": "Nova Scotia, Canada",
+    "excerpt": "Eagles' Nest Recovery House's mission is to",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/eagles-nest-recovery-house/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Addiction services southwest health",
+    "href": "https://addictionrehabcenters.ca/addictionservicessouthwesthealth/",
+    "slug": "addictionservicessouthwesthealth",
+    "address": "60 Vancouver St, Yarmouth, NS B5A 2P5, Canada",
+    "excerpt": "Addiction Services Southwest Health provided",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/addictionservicessouthwesthealth/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "MiKmaw Lodge Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/mikmaw-lodge-treatment-centre/",
+    "slug": "mikmaw-lodge-treatment-centre",
+    "address": "70 Gabriel St, Eskasoni, NS B1T, Canada",
+    "excerpt": "Mi'Kmaw Lodge Treatment Center offers a tran",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/mikmaw-lodge-treatment-centre/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Evolution Addiction Counselling",
+    "href": "https://addictionrehabcenters.ca/evolution-addiction-counselling/",
+    "slug": "evolution-addiction-counselling",
+    "address": "1687 Bedford Hwy #2a, Bedford, NS B4A 1G1, Canada",
+    "excerpt": "Evolution Addiction Counselling is a virtual",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/evolution-addiction-counselling/Evolution-Addiction-Counselling.jpg",
+     "alt": "Evolution Addiction Counselling nova scotia",
+     "width": "768",
+     "height": "432",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/07/Evolution-Addiction-Counselling.jpg"
+    }
+   },
+   {
+    "name": "Searidge Foundation",
+    "href": "https://addictionrehabcenters.ca/searidge-foundation/",
+    "slug": "searidge-foundation",
+    "address": "3289 Evangeline Trail, Annapolis Royal, NS B0S 1A0, Canada",
+    "excerpt": "Searidge Foundation is a leading residential",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/searidge-foundation/Searidge-Foundation1.webp",
+     "alt": "",
+     "width": "873",
+     "height": "727",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Searidge-Foundation1.webp"
+    }
+   },
+   {
+    "name": "Terradyne Wellness Center",
+    "href": "https://addictionrehabcenters.ca/terradyne-wellness-center/",
+    "slug": "terradyne-wellness-center",
+    "address": "610 Myers Point Rd, Head of Jeddore, NS B0J 1P0, Canada",
+    "excerpt": "Terradyne Wellness Center is a renowned faci",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/terradyne-wellness-center/Terradyne-Wellness-Center6.webp",
+     "alt": "",
+     "width": "800",
+     "height": "500",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Terradyne-Wellness-Center6.webp"
+    }
+   },
+   {
+    "name": "Atlantic Centre for Trauma",
+    "href": "https://addictionrehabcenters.ca/atlantic-centre-for-trauma/",
+    "slug": "atlantic-centre-for-trauma",
+    "address": "201 Nictaux Road, Middleton, Nova Scotia B0S 1P0, Canada",
+    "excerpt": "Atlantic Centre for Trauma is dedicated to p",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/atlantic-centre-for-trauma/Atlantic-Centre-for-Trauma1.webp",
+     "alt": "",
+     "width": "700",
+     "height": "467",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Atlantic-Centre-for-Trauma1.webp"
+    }
+   },
+   {
+    "name": "Ledgehill Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/ledgehill-treatment-centre/",
+    "slug": "ledgehill-treatment-centre",
+    "address": "7608 NS-201 #1, Lawrencetown, NS B0S 1M0, Canada",
+    "excerpt": "A Holistic Approach to Addiction Recovery Le",
+    "category": "Nova Scotia Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/ledgehill-treatment-centre/Ledgehill-Treatment-Centre1.webp",
+     "alt": "",
+     "width": "800",
+     "height": "500",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Ledgehill-Treatment-Centre1.webp"
+    }
+   }
+  ],
+  "source_listing_count": 58,
+  "duplicates_removed": 7
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"elementor elementor-8269\" data-elementor-id=\"8269\" data-elementor-post-type=\"page\" data-elementor-type=\"wp-page\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-114481a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"114481a4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2326af0\" data-element_type=\"column\" data-id=\"2326af0\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3c8b7aea elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3c8b7aea\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"vc_row wpb_row vc_row-fluid innerBanner\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1>Nova Scotia Rehabs</h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerListingBox\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"eltdf-listing-list-holder eltdf-ll-gallery eltdf-ll-layout-standard eltdf-grid-list eltdf-disable-bottom-space eltdf-three-columns eltdf-normal-space eltdf-ll-no-map eltdf-ll-no-filter eltdf-ll-pag-load-more eltdf-ll-category-set\" data-category=\"660\" data-enable-category=\"yes\" data-enable-excerpt=\"yes\" data-enable-filter=\"no\" data-enable-filter-category=\"yes\" data-enable-filter-custom-search=\"yes\" data-enable-filter-location=\"yes\" data-enable-filter-order-by=\"yes\" data-enable-filter-switch-layout=\"yes\" data-enable-filter-tag=\"yes\" data-enable-location=\"yes\" data-enable-map=\"no\" data-enable-map-switcher=\"no\" data-enable-price-range=\"yes\" data-enable-reviews-count=\"yes\" data-filter-location-field-type=\"select\" data-hide-active-filter=\"yes\" data-image-proportions=\"full\" data-item-layout=\"standard\" data-load-more-top-margin=\"50px\" data-max-num-pages=\"3\" data-next-page=\"2\" data-number-of-columns=\"three\" data-number-of-items=\"24\" data-order=\"ASC\" data-order-by=\"date\" data-pagination-type=\"load-more\" data-space-between-items=\"normal\" data-title-tag=\"h5\" data-type=\"gallery\">\n<div class=\"eltdf-listing-list-items-part\">\n<div class=\"eltdf-ll-inner eltdf-outer-space clearfix\">\n<article class=\"eltdf-ll-item eltdf-item-space post-6725 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-dartmouth\" data-id=\"6725\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cole-harbour-place/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"cole harbour place\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cole-harbour-place-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t51 Forest Hills Pkwy, Dartmouth, NS B2W 6C6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cole-harbour-place/\" itemprop=\"url\">Cole Harbour Place</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Cole Harbour Place is a Dartmouth, Nova Scot</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6725\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5880\" name=\"findall_listing_nonce_wishlist_functionality_5880\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6726 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-dartmouth\" data-id=\"6726\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/belmont-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tBelmont House, 33 Alderney Dr, Dartmouth, NS B2Y 2N4, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/belmont-house/\" itemprop=\"url\">Belmont House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Belmont House is a Dartmouth, Nova Scotia-ba</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6726\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2929\" name=\"findall_listing_nonce_wishlist_functionality_2929\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6727 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-windsor\" data-id=\"6727\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/hants-community-hospital/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"hants community\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/hants-community-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t89 Payzant Dr, Windsor, NS B0N 2T0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/hants-community-hospital/\" itemprop=\"url\">Hants Community Hospital</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Windsor, Nova Scotia's Hants Community Hospi</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6727\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3927\" name=\"findall_listing_nonce_wishlist_functionality_3927\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6728 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-halifax\" data-id=\"6728\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bayers-road-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"bayers road\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bayers-road-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t7071 Bayers Rd, Halifax, NS B3L 2C2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bayers-road-centre/\" itemprop=\"url\">Bayers Road Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Bayers Road Centre is a public rehabilitatio</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6728\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1570\" name=\"findall_listing_nonce_wishlist_functionality_1570\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6729 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-dartmouth\" data-id=\"6729\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/freedom-foundation/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"freedom foundation\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/freedom-foundation-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t15 Brule St, Dartmouth, NS B3A 4G2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/freedom-foundation/\" itemprop=\"url\">Freedom Foundation</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Freedom Foundation is a Dartmouth, Nova Scot</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6729\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7905\" name=\"findall_listing_nonce_wishlist_functionality_7905\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6730 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-digby\" data-id=\"6730\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/digby-general-hospital/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"digby general 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/digby-general-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t75 Warwick St, Digby, NS B0V 1A0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/digby-general-hospital/\" itemprop=\"url\">Digby General Hospital</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Digby General Hospital does not just serve a</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6730\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3747\" name=\"findall_listing_nonce_wishlist_functionality_3747\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6731 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-shubenacadie\" data-id=\"6731\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"nadaca\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/nadaca-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t44 Eagle Nest Ave, Shubenacadie, NS B0N 2H0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/native-alcohol-and-drug-abuse-counselling-association-of-nova-scotia-nadaca/\" itemprop=\"url\">Native Alcohol And Drug Abuse Counselling Association Of Nova Scotia (Nadaca)</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">NADACA is a private rehab in Shubenacadie, N</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6731\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2367\" name=\"findall_listing_nonce_wishlist_functionality_2367\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6732 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-sydney\" data-id=\"6732\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cape-breton-community-housing/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"cape breton community\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cape-breton-community-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t50 Dorchester St, Sydney, NS B1P 5Z1, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cape-breton-community-housing/\" itemprop=\"url\">Cape Breton Community Housing</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Cape Breton Community Housing is a non-profi</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6732\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_6934\" name=\"findall_listing_nonce_wishlist_functionality_6934\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6717 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-sydney\" data-id=\"6717\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"new horizon addiction rehabilitation\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/new-horizon-addiction-rehabilitation-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t101 Bentinck St, Sydney, NS B1P 1G3, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/new-horizon-addiction-rehabilitation-centers/\" itemprop=\"url\">New Horizon Addiction Rehabilitation Centers</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">New Horizon Addiction Rehabilitation Centers</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6717\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9559\" name=\"findall_listing_nonce_wishlist_functionality_9559\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6733 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-dartmouth\" data-id=\"6733\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tMarshall Building, 300 Pleasant St, Dartmouth, NS B2Y 0A5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/capital-health-addiction-prevention-treatment-services/\" itemprop=\"url\">Capital Health – Addiction Prevention &amp; Treatment Services</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Capital Health – Addiction Prevention &amp; Trea</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6733\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7761\" name=\"findall_listing_nonce_wishlist_functionality_7761\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6718 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-middleton\" data-id=\"6718\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t462 Main St, Middleton, NS B0S 1P0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mental-health-and-addictions-annapolis-valley/\" itemprop=\"url\">Mental Health And Addictions Annapolis Valley</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Addictions and Mental Health Middleton, Nova</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6718\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3555\" name=\"findall_listing_nonce_wishlist_functionality_3555\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6734 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-halifax\" data-id=\"6734\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/sir-sanford-fleming-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"sir sanford fleming\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/sir-sanford-fleming-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t2549 Brunswick St, Halifax, NS B3K 2Z5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/sir-sanford-fleming-house/\" itemprop=\"url\">Sir Sanford Fleming House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Sir Sanford Fleming House is a non-profit re</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6734\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2957\" name=\"findall_listing_nonce_wishlist_functionality_2957\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6719 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-truro\" data-id=\"6719\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/christian-counselling/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"christian counselling\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/christian-counselling-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t883 Prince St, Truro, NS B2N 1H2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/christian-counselling/\" itemprop=\"url\">Christian Counselling</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Christian Counselling is a private rehab In </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6719\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5269\" name=\"findall_listing_nonce_wishlist_functionality_5269\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6735 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-cleveland\" data-id=\"6735\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/strait-richmond-hospital/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"richmond hospital\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/richmond-hospital-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t138 Hospital Rd, Cleveland, NS B0E 1J0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/strait-richmond-hospital/\" itemprop=\"url\">Strait – Richmond Hospital</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Cleveland, Nova Scotia's Strait – Richmond H</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6735\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5273\" name=\"findall_listing_nonce_wishlist_functionality_5273\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6720 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-tag-private-rehab listing-location-new-minas\" data-id=\"6720\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/crosbie-house-society/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"crosbie house society\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/crosbie-house-society-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t113 Cornwallis Ave, New Minas, NS B4N 3M9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/crosbie-house-society/\" itemprop=\"url\">Crosbie House Society</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Crosbie House Society is a non-profit drug a</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6720\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5434\" name=\"findall_listing_nonce_wishlist_functionality_5434\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6736 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-halifax\" data-id=\"6736\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/family-service-association/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tYoung Tower, 6080 Young St #105, Halifax, NS B3K 5L2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/family-service-association/\" itemprop=\"url\">Family Service Association</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Family Service Association is a non-prof</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6736\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3326\" name=\"findall_listing_nonce_wishlist_functionality_3326\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6721 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-halifax\" data-id=\"6721\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/direction-180/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"direction\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/direction-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t2158 Gottingen St, Halifax, NS B3K 3B4, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/direction-180/\" itemprop=\"url\">Direction 180</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Direction 180 is a non-profit rehab in Halif</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6721\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8547\" name=\"findall_listing_nonce_wishlist_functionality_8547\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6722 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-yarmouth\" data-id=\"6722\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/yarmouth-mental-health/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"yarmouth mental health\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/yarmouth-mental-health-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t60 Vancouver St, Yarmouth, NS B5A 2P5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/yarmouth-mental-health/\" itemprop=\"url\">Yarmouth Mental Health</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Yarmouth Mental Health is a Yarmouth, Nova S</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6722\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1977\" name=\"findall_listing_nonce_wishlist_functionality_1977\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6723 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-bridgewater\" data-id=\"6723\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/south-shore-psychological-services/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"south shore psychological\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/south-shore-psychological-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t926 King St, Bridgewater, NS B4V 3E6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/south-shore-psychological-services/\" itemprop=\"url\">South Shore Psychological Services</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">South Shore Psychological Services is a Priv</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6723\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9216\" name=\"findall_listing_nonce_wishlist_functionality_9216\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6724 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-halifax\" data-id=\"6724\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t1161 Hollis St 6, Halifax, Nova Scotia\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/search-listing/paul-cashman-the-group-clinic/\" itemprop=\"url\">Paul Cashman – The Group Clinic</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Group Clinic by Paul Cashman is a privat</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6724\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2732\" name=\"findall_listing_nonce_wishlist_functionality_2732\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6741 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-shelburne\" data-id=\"6741\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/roseway-hospital/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t162 Mowatt St, Shelburne, NS B0T 1W0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/roseway-hospital/\" itemprop=\"url\">Roseway Hospital</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Shelburne, Nova Scotia's Roseway Hospital is</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6741\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7754\" name=\"findall_listing_nonce_wishlist_functionality_7754\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6742 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-saint-jean-port-joli\" data-id=\"6742\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/south-shore-health/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tHwy 3, Port Joli, NS B0T 1S0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/south-shore-health/\" itemprop=\"url\">South Shore Health</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">South Shore Health is a private rehab in Che</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6742\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7875\" name=\"findall_listing_nonce_wishlist_functionality_7875\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6743 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs\" data-id=\"6743\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bryson-counseling-and-consulting/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t1 Valence St, Howie Centre, NS B1L 1G5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bryson-counseling-and-consulting/\" itemprop=\"url\">Bryson Counseling And Consulting</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Bryson Counseling and Consulting is a Howie </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6743\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8376\" name=\"findall_listing_nonce_wishlist_functionality_8376\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6744 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-nova-scotia-rehabs listing-location-windsor\" data-id=\"6744\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cedar-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"cedar centre\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/cedar-centre-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/nova-scotia-rehabs/\" itemprop=\"url\">\n\t\t\t\tNova Scotia Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t69 Cedar St, Windsor, NS B0N 2T0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cedar-centre/\" itemprop=\"url\">Cedar Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Windsor, Nova Scotia's Cedar Centre is a pri</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6744\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7985\" name=\"findall_listing_nonce_wishlist_functionality_7985\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/nova-scotia-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article> </div>\n<div class=\"eltdf-ll-loading\">\n<div class=\"eltdf-findall-spinner\"></div>\n</div> <div class=\"eltdf-ll-load-more-holder\">\n<div class=\"eltdf-ll-load-more\" style=\"margin-top: 50px\">\n<a class=\"eltdf-btn eltdf-btn-small eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"\" itemprop=\"url\" target=\"_self\"> <span class=\"eltdf-btn-text\">Load More</span> <svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg> </a> </div>\n</div>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b6884a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b6884a3\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba0dd24\" data-element_type=\"column\" data-id=\"ba0dd24\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-d935cb2 elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"d935cb2\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div></body>"
+}

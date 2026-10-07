@@ -1,0 +1,337 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__happy-valley-goose-bay",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+  "path": "/listing-location/happy-valley-goose-bay/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/happy-valley-goose-bay/",
+ "seo": {
+  "meta_title": "Happy Valley-Goose Bay Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+  "og": {
+   "title": "Happy Valley-Goose Bay Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+      "url": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+      "name": "Happy Valley-Goose Bay Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "labrador health 2"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Happy Valley-Goose Bay"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Happy Valley-Goose Bay",
+ "title_bar_h1": "",
+ "word_count": 3,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Happy Valley-Goose Bay Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+   "local_path": "images/city__happy-valley-goose-bay/labrador-health-2.jpg",
+   "alt": "labrador health 2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/",
+   "text": "",
+   "kind": "internal",
+   "new": "/mental-health-and-addictions-services-community-health/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+   "text": "Happy Valley-Goose Bay",
+   "kind": "internal",
+   "new": "/listing-location/happy-valley-goose-bay/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/",
+   "text": "Mental Health And Addictions Services Community Health",
+   "kind": "internal",
+   "new": "/mental-health-and-addictions-services-community-health/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Happy Valley-Goose Bay Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Happy Valley-Goose Bay Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+     "alt": "labrador health 2",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/"
+    },
+    {
+     "type": "link",
+     "text": "Happy Valley-Goose Bay",
+     "href": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+     "new_href": "/listing-location/happy-valley-goose-bay/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Mental Health And Addictions Services Community Health",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Happy Valley-Goose Bay Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Happy Valley-Goose Bay Results",
+   "html": "More Rehab Centres in Happy Valley-Goose Bay Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+   "alt": "labrador health 2",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/"
+  },
+  {
+   "type": "link",
+   "text": "Happy Valley-Goose Bay",
+   "href": "https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/",
+   "new_href": "/listing-location/happy-valley-goose-bay/"
+  },
+  {
+   "type": "h5",
+   "text": "Mental Health And Addictions Services Community Health",
+   "html": "<a data-wpel-link=\"internal\" href=\"/mental-health-and-addictions-services-community-health/\" itemprop=\"url\">Mental Health And Addictions Services Community Health</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Mental Health And Addictions Services Community Health",
+   "href": "https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/",
+   "address": "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg",
+    "alt": "labrador health 2",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Mental Health And Addictions Services Community Health",
+    "mental-health-and-addictions-services-community-health",
+    "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Happy Valley-Goose Bay",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Happy Valley-Goose Bay Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Happy Valley-Goose Bay Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6699\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/\">\n<img alt=\"labrador health 2\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-2-768x512.jpg 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/happy-valley-goose-bay/\">Happy Valley-Goose Bay</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mental-health-and-addictions-services-community-health/\" itemprop=\"url\">Mental Health And Addictions Services Community Health</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

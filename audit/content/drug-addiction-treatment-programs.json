@@ -1,0 +1,1472 @@
+{
+ "schema": "arc-content/1",
+ "slug": "drug-addiction-treatment-programs",
+ "status": "REMAINING",
+ "page_type": "treatment-support",
+ "wp_type": "page",
+ "template": "Drug (L1 layout)",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "D1-D6,G1",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+  "path": "/drug-addiction-treatment-programs/",
+  "wp_items": [
+   {
+    "id": 11343,
+    "type": "page",
+    "title": "Drug Addiction Treatment Programs",
+    "date": "2022-02-04T15:11:49",
+    "modified": "2025-09-09T07:09:34",
+    "status": "publish",
+    "yoast_title": "Drug Addiction | Drug Treatment Programs | Drugs Canada",
+    "words_rest": 910
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/drug-addiction-treatment-programs/",
+ "seo": {
+  "meta_title": "Drug Addiction | Drug Treatment Programs | Drugs Canada",
+  "meta_description": "Let us help you find the best drug addiction rehab facility that can work with you to chart a course to permanent, content sobriety.",
+  "canonical_source": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+  "og": {
+   "title": "Drug Addiction | Drug Treatment Programs | Drugs Canada",
+   "description": "Let us help you find the best drug addiction rehab facility that can work with you to chart a course to permanent, content sobriety.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Drug Addiction Treatment Programs",
+      "datePublished": "2022-02-04T15:11:49+00:00",
+      "dateModified": "2025-09-09T07:09:34+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/"
+      },
+      "wordCount": 1204,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+      "url": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/",
+      "name": "Drug Addiction | Drug Treatment Programs | Drugs Canada",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-04T15:11:49+00:00",
+      "dateModified": "2025-09-09T07:09:34+00:00",
+      "description": "Let us help you find the best drug addiction rehab facility that can work with you to chart a course to permanent, content sobriety.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/drug-addiction-treatment-programs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Drug Addiction Treatment Programs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Drug Addiction",
+ "title_bar_h1": "Drug Addiction Treatment Programs",
+ "word_count": 859,
+ "features": [
+  "form"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Drug Addiction"
+  ],
+  [
+   "h3",
+   "Let Us Help You"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Drug-Addiction-rehab.jpg",
+   "local_path": "images/drug-addiction-treatment-programs/Drug-Addiction-rehab.jpg",
+   "alt": "",
+   "width": 900,
+   "height": 520,
+   "download": "ok"
+  },
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/contact-addictions-rehab.jpg",
+   "local_path": "images/_shared/contact-addictions-rehab.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 600,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts.jpg",
+   "local_path": "images/drug-addiction-treatment-programs/Many-addicts.jpg",
+   "alt": "",
+   "width": 515,
+   "height": 647,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue.jpg",
+   "local_path": "images/drug-addiction-treatment-programs/Community-Issue.jpg",
+   "alt": "Community Issue",
+   "width": 515,
+   "height": 436,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey.jpg",
+   "local_path": "images/drug-addiction-treatment-programs/Sobriety-Journey.jpg",
+   "alt": "Sobriety Journey",
+   "width": 515,
+   "height": 599,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab.jpg",
+   "local_path": "images/drug-addiction-treatment-programs/Time-for-Drug-Rehab.jpg",
+   "alt": "",
+   "width": 567,
+   "height": 591,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/treatment-programs/",
+   "text": "drug treatment program",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /treatment-programs/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/contact/",
+   "text": "Contact Us Today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/am-i-an-addict/",
+   "text": "Am I an Addict",
+   "kind": "internal",
+   "new": "/am-i-an-addict/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+   "text": "Drug Addiction Explained",
+   "kind": "internal",
+   "new": "/drug-addiction-explained/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-to-methamphetamine/",
+   "text": "Addiction to Methamphetamine",
+   "kind": "internal",
+   "new": "/addiction-to-methamphetamine/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+   "text": "Addiction to Cocaine",
+   "kind": "internal",
+   "new": "/addiction-to-cocaine/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+   "text": "Addiction to Heroin",
+   "kind": "internal",
+   "new": "/addiction-to-heroin/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-to-marijuana/",
+   "text": "Addiction to Marijuana",
+   "kind": "internal",
+   "new": "/addiction-to-marijuana/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-to-designer-drugs/",
+   "text": "Addiction to Designer Drugs",
+   "kind": "internal",
+   "new": "/addiction-to-designer-drugs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://en.wikipedia.org/wiki/Drug_rehabilitation",
+   "text": "Drug Rehabilitation Explained",
+   "kind": "external",
+   "new": "https://en.wikipedia.org/wiki/Drug_rehabilitation"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Drug Addiction",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.",
+     "html": "Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "What is Drug Addiction?",
+     "html": "<strong>What is Drug Addiction?</strong>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.",
+     "html": "Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a drug treatment program to get clean.",
+     "html": "Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a <a data-wpel-link=\"internal\" href=\"/\">drug treatment program</a> to get clean.",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/treatment-programs/",
+       "text": "drug treatment program"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "link",
+     "text": "Find A Drug Rehab",
+     "href": "/rehab/",
+     "new_href": "/"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts.jpg",
+     "alt": "",
+     "width": "515",
+     "height": "647"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue.jpg",
+     "alt": "Community Issue",
+     "width": "515",
+     "height": "436"
+    },
+    {
+     "type": "p",
+     "text": "Drug Addiction: A Community Issue",
+     "html": "<strong>Drug Addiction: A Community Issue</strong>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.",
+     "html": "Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "ul",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Drugs are associated with organized crime, mass incarceration, violence, and community blight.",
+       "html": "Drugs are associated with organized crime, mass incarceration, violence, and community blight.",
+       "links": []
+      },
+      {
+       "text": "The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.",
+       "html": "The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.",
+       "links": []
+      },
+      {
+       "text": "Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).",
+       "html": "Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).",
+       "links": []
+      },
+      {
+       "text": "Addiction costs the economy millions of dollars each year.",
+       "html": "Addiction costs the economy millions of dollars each year.",
+       "links": []
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "text": "Find A Drug Rehab",
+     "href": "/rehab/",
+     "new_href": "/"
+    },
+    {
+     "type": "p",
+     "text": "The Sobriety Journey",
+     "html": "<strong>The Sobriety Journey</strong>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.",
+     "html": "The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.",
+     "html": "After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.",
+     "html": "Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "link",
+     "text": "Find A Drug Rehab",
+     "href": "/rehab/",
+     "new_href": "/"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey.jpg",
+     "alt": "Sobriety Journey",
+     "width": "515",
+     "height": "599"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab.jpg",
+     "alt": "",
+     "width": "567",
+     "height": "591"
+    },
+    {
+     "type": "p",
+     "text": "Is it Time for Drug Rehab?",
+     "html": "<strong>Is it Time for Drug Rehab?</strong>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:",
+     "html": "Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "ul",
+     "ordered": false,
+     "items": [
+      {
+       "text": "Intense cravings when you can’t use.",
+       "html": "Intense cravings when you can’t use.",
+       "links": []
+      },
+      {
+       "text": "Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.",
+       "html": "Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.",
+       "links": []
+      },
+      {
+       "text": "Changes in your relationships with loved ones.",
+       "html": "Changes in your relationships with loved ones.",
+       "links": []
+      },
+      {
+       "text": "Financial, career, health, or legal problems associated with your drug use.",
+       "html": "Financial, career, health, or legal problems associated with your drug use.",
+       "links": []
+      },
+      {
+       "text": "Lying to others about your drug use.",
+       "html": "Lying to others about your drug use.",
+       "links": []
+      },
+      {
+       "text": "Using a prescription drug to get high.",
+       "html": "Using a prescription drug to get high.",
+       "links": []
+      },
+      {
+       "text": "Difficulty concentrating or feeling “normal” without drugs.",
+       "html": "Difficulty concentrating or feeling “normal” without drugs.",
+       "links": []
+      },
+      {
+       "text": "Feeling hopeless about your ability to get sober.",
+       "html": "Feeling hopeless about your ability to get sober.",
+       "links": []
+      }
+     ]
+    },
+    {
+     "type": "link",
+     "text": "Contact Us Today",
+     "href": "/contact/",
+     "new_href": "/contact/"
+    },
+    {
+     "type": "p",
+     "text": "rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let Addiction Rehab Centres Canada help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.",
+     "html": "rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let <strong><a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a></strong> help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/",
+       "text": "Addiction Rehab Centres Canada"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Further Reading:",
+     "html": "<strong>Further Reading:</strong>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Am I an Addict",
+     "html": "<a data-wpel-link=\"internal\" href=\"/am-i-an-addict/\">Am I an Addict</a>",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/am-i-an-addict/",
+       "text": "Am I an Addict"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Drug Addiction Explained Addiction to Methamphetamine Addiction to Cocaine Addiction to Heroin Addiction to Marijuana Addiction to Designer Drugs Drug Rehabilitation Explained",
+     "html": "<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\">Drug Addiction Explained<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-methamphetamine/\">Addiction to Methamphetamine<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-cocaine/\">Addiction to Cocaine<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-heroin/\">Addiction to Heroin<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-marijuana/\">Addiction to Marijuana<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-designer-drugs/\">Addiction to Designer Drugs<br/>\n</a><a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Drug_rehabilitation\" rel=\"nofollow external noopener noreferrer\">Drug Rehabilitation Explained</a>",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+       "text": "Drug Addiction Explained"
+      },
+      {
+       "old": "https://addictionrehabcenters.ca/addiction-to-methamphetamine/",
+       "text": "Addiction to Methamphetamine"
+      },
+      {
+       "old": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+       "text": "Addiction to Cocaine"
+      },
+      {
+       "old": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+       "text": "Addiction to Heroin"
+      },
+      {
+       "old": "https://addictionrehabcenters.ca/addiction-to-marijuana/",
+       "text": "Addiction to Marijuana"
+      },
+      {
+       "old": "https://addictionrehabcenters.ca/addiction-to-designer-drugs/",
+       "text": "Addiction to Designer Drugs"
+      },
+      {
+       "old": "https://en.wikipedia.org/wiki/Drug_rehabilitation",
+       "text": "Drug Rehabilitation Explained"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+     "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+     "links": [
+      {
+       "old": "tel:1-855-885-4747",
+       "text": "1-855-885-4747"
+      }
+     ],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Let Us Help You",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Drug Addiction",
+   "html": "<strong>Drug Addiction</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.",
+   "html": "Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "What is Drug Addiction?",
+   "html": "<strong>What is Drug Addiction?</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.",
+   "html": "Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a drug treatment program to get clean.",
+   "html": "Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a <a data-wpel-link=\"internal\" href=\"/\">drug treatment program</a> to get clean.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/treatment-programs/",
+     "text": "drug treatment program"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts.jpg",
+   "alt": "",
+   "width": "515",
+   "height": "647"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue.jpg",
+   "alt": "Community Issue",
+   "width": "515",
+   "height": "436"
+  },
+  {
+   "type": "p",
+   "text": "Drug Addiction: A Community Issue",
+   "html": "<strong>Drug Addiction: A Community Issue</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.",
+   "html": "Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Drugs are associated with organized crime, mass incarceration, violence, and community blight.",
+     "html": "Drugs are associated with organized crime, mass incarceration, violence, and community blight.",
+     "links": []
+    },
+    {
+     "text": "The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.",
+     "html": "The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.",
+     "links": []
+    },
+    {
+     "text": "Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).",
+     "html": "Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).",
+     "links": []
+    },
+    {
+     "text": "Addiction costs the economy millions of dollars each year.",
+     "html": "Addiction costs the economy millions of dollars each year.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "p",
+   "text": "The Sobriety Journey",
+   "html": "<strong>The Sobriety Journey</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.",
+   "html": "The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.",
+   "html": "After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.",
+   "html": "Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey.jpg",
+   "alt": "Sobriety Journey",
+   "width": "515",
+   "height": "599"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab.jpg",
+   "alt": "",
+   "width": "567",
+   "height": "591"
+  },
+  {
+   "type": "p",
+   "text": "Is it Time for Drug Rehab?",
+   "html": "<strong>Is it Time for Drug Rehab?</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:",
+   "html": "Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Intense cravings when you can’t use.",
+     "html": "Intense cravings when you can’t use.",
+     "links": []
+    },
+    {
+     "text": "Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.",
+     "html": "Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.",
+     "links": []
+    },
+    {
+     "text": "Changes in your relationships with loved ones.",
+     "html": "Changes in your relationships with loved ones.",
+     "links": []
+    },
+    {
+     "text": "Financial, career, health, or legal problems associated with your drug use.",
+     "html": "Financial, career, health, or legal problems associated with your drug use.",
+     "links": []
+    },
+    {
+     "text": "Lying to others about your drug use.",
+     "html": "Lying to others about your drug use.",
+     "links": []
+    },
+    {
+     "text": "Using a prescription drug to get high.",
+     "html": "Using a prescription drug to get high.",
+     "links": []
+    },
+    {
+     "text": "Difficulty concentrating or feeling “normal” without drugs.",
+     "html": "Difficulty concentrating or feeling “normal” without drugs.",
+     "links": []
+    },
+    {
+     "text": "Feeling hopeless about your ability to get sober.",
+     "html": "Feeling hopeless about your ability to get sober.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "link",
+   "text": "Contact Us Today",
+   "href": "/contact/",
+   "new_href": "/contact/"
+  },
+  {
+   "type": "p",
+   "text": "rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let Addiction Rehab Centres Canada help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.",
+   "html": "rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let <strong><a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a></strong> help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Further Reading:",
+   "html": "<strong>Further Reading:</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Am I an Addict",
+   "html": "<a data-wpel-link=\"internal\" href=\"/am-i-an-addict/\">Am I an Addict</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/am-i-an-addict/",
+     "text": "Am I an Addict"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug Addiction Explained Addiction to Methamphetamine Addiction to Cocaine Addiction to Heroin Addiction to Marijuana Addiction to Designer Drugs Drug Rehabilitation Explained",
+   "html": "<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\">Drug Addiction Explained<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-methamphetamine/\">Addiction to Methamphetamine<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-cocaine/\">Addiction to Cocaine<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-heroin/\">Addiction to Heroin<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-marijuana/\">Addiction to Marijuana<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-designer-drugs/\">Addiction to Designer Drugs<br/>\n</a><a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Drug_rehabilitation\" rel=\"nofollow external noopener noreferrer\">Drug Rehabilitation Explained</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+     "text": "Drug Addiction Explained"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/addiction-to-methamphetamine/",
+     "text": "Addiction to Methamphetamine"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+     "text": "Addiction to Cocaine"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+     "text": "Addiction to Heroin"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/addiction-to-marijuana/",
+     "text": "Addiction to Marijuana"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/addiction-to-designer-drugs/",
+     "text": "Addiction to Designer Drugs"
+    },
+    {
+     "old": "https://en.wikipedia.org/wiki/Drug_rehabilitation",
+     "text": "Drug Rehabilitation Explained"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+   "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Let Us Help You",
+   "html": "Let Us Help You",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1644265835928",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Drug Addiction",
+       "html": "<strong>Drug Addiction</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Drug-Addiction-rehab.jpg?id=11812"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_custom_1644247519703",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.",
+       "html": "Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "What is Drug Addiction?",
+       "html": "<strong>What is Drug Addiction?</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.",
+       "html": "Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a drug treatment program to get clean.",
+       "html": "Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a <a data-wpel-link=\"internal\" href=\"/\">drug treatment program</a> to get clean.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/treatment-programs/",
+         "text": "drug treatment program"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts.jpg",
+       "alt": "",
+       "width": "515",
+       "height": "647"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue.jpg",
+       "alt": "Community Issue",
+       "width": "515",
+       "height": "436"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug Addiction: A Community Issue",
+       "html": "<strong>Drug Addiction: A Community Issue</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.",
+       "html": "Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Drugs are associated with organized crime, mass incarceration, violence, and community blight.",
+         "html": "Drugs are associated with organized crime, mass incarceration, violence, and community blight.",
+         "links": []
+        },
+        {
+         "text": "The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.",
+         "html": "The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.",
+         "links": []
+        },
+        {
+         "text": "Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).",
+         "html": "Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).",
+         "links": []
+        },
+        {
+         "text": "Addiction costs the economy millions of dollars each year.",
+         "html": "Addiction costs the economy millions of dollars each year.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The Sobriety Journey",
+       "html": "<strong>The Sobriety Journey</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.",
+       "html": "The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.",
+       "html": "After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.",
+       "html": "Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey.jpg",
+       "alt": "Sobriety Journey",
+       "width": "515",
+       "height": "599"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "cta-banner",
+   "classes": [
+    "newHomeBanner",
+    "bottomHomeBanner",
+    "innerBottomBanner",
+    "vc_row-no-padding",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab.jpg",
+       "alt": "",
+       "width": "567",
+       "height": "591"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Is it Time for Drug Rehab?",
+       "html": "<strong>Is it Time for Drug Rehab?</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:",
+       "html": "Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Intense cravings when you can’t use.",
+         "html": "Intense cravings when you can’t use.",
+         "links": []
+        },
+        {
+         "text": "Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.",
+         "html": "Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.",
+         "links": []
+        },
+        {
+         "text": "Changes in your relationships with loved ones.",
+         "html": "Changes in your relationships with loved ones.",
+         "links": []
+        },
+        {
+         "text": "Financial, career, health, or legal problems associated with your drug use.",
+         "html": "Financial, career, health, or legal problems associated with your drug use.",
+         "links": []
+        },
+        {
+         "text": "Lying to others about your drug use.",
+         "html": "Lying to others about your drug use.",
+         "links": []
+        },
+        {
+         "text": "Using a prescription drug to get high.",
+         "html": "Using a prescription drug to get high.",
+         "links": []
+        },
+        {
+         "text": "Difficulty concentrating or feeling “normal” without drugs.",
+         "html": "Difficulty concentrating or feeling “normal” without drugs.",
+         "links": []
+        },
+        {
+         "text": "Feeling hopeless about your ability to get sober.",
+         "html": "Feeling hopeless about your ability to get sober.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "help-block",
+   "classes": [
+    "innerBlueContent"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let Addiction Rehab Centres Canada help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.",
+       "html": "rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let <strong><a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a></strong> help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Further Reading:",
+       "html": "<strong>Further Reading:</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Am I an Addict",
+       "html": "<a data-wpel-link=\"internal\" href=\"/am-i-an-addict/\">Am I an Addict</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/am-i-an-addict/",
+         "text": "Am I an Addict"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug Addiction Explained Addiction to Methamphetamine Addiction to Cocaine Addiction to Heroin Addiction to Marijuana Addiction to Designer Drugs Drug Rehabilitation Explained",
+       "html": "<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\">Drug Addiction Explained<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-methamphetamine/\">Addiction to Methamphetamine<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-cocaine/\">Addiction to Cocaine<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-heroin/\">Addiction to Heroin<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-marijuana/\">Addiction to Marijuana<br/>\n</a><a data-wpel-link=\"internal\" href=\"/addiction-to-designer-drugs/\">Addiction to Designer Drugs<br/>\n</a><a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Drug_rehabilitation\" rel=\"nofollow external noopener noreferrer\">Drug Rehabilitation Explained</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+         "text": "Drug Addiction Explained"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/addiction-to-methamphetamine/",
+         "text": "Addiction to Methamphetamine"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+         "text": "Addiction to Cocaine"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/addiction-to-heroin/",
+         "text": "Addiction to Heroin"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/addiction-to-marijuana/",
+         "text": "Addiction to Marijuana"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/addiction-to-designer-drugs/",
+         "text": "Addiction to Designer Drugs"
+        },
+        {
+         "old": "https://en.wikipedia.org/wiki/Drug_rehabilitation",
+         "text": "Drug Rehabilitation Explained"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [
+    "bottomWidget"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Let Us Help You",
+       "html": "Let Us Help You",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Drug Addiction",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Drug-Addiction-rehab.jpg?id=11812"
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1644265835928 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>Drug Addiction</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_custom_1644247519703 vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Drug addiction is a common challenge that affects hundreds of thousands of Canadians each year. Many addicts will never seek the help they need. The stigma of addiction, fear of the unknown, and the mistaken belief that the pain of drug cravings will last forever all conspire to keep addicts away from the help they so richly deserve. We know it’s not easy to seek help, but the hardest part is that first step. Reach out to us, and we will point you in the direction of a drug rehab facility that can help you reconnect with long-forgotten parts of yourself, rediscover the beauty of life without drugs, and finally achieve the peace you’ve sought.</p>\n<p><strong>What is Drug Addiction?</strong></p>\n<p>Drug addiction is a disease, not something anyone willingly chooses. The process begins when you develop a tolerance for your drug of choice, thereby enabling you to take larger and larger doses. After that, your body begins nurturing a chemical dependency on drugs. It is this dependency that keeps you coming back for more, since quitting drugs at this point will yield painful side effects and intense cravings.</p>\n<p>Any drug, ranging from marijuana to crack cocaine, can become addictive if it alters the way you think or perceive the world. Addicts behave in substantially similar ways, regardless of which drug they use. Many of them make the mistake of convincing themselves that the drug they use is less dangerous than others. If you “need” a drug to feel normal, you need a <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/treatment-programs/\">drug treatment program</a> to get clean.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"647\" loading=\"lazy\" sizes=\"(max-width: 515px) 100vw, 515px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts.jpg 515w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Many-addicts-239x300.jpg 239w\" width=\"515\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"Community Issue\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"436\" loading=\"lazy\" sizes=\"(max-width: 515px) 100vw, 515px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue.jpg 515w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Community-Issue-300x254.jpg 300w\" width=\"515\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>Drug Addiction: A Community Issue</strong></p>\n<p>Some drug addicts feel so hopeless about their ability to get sober that they are prepared to give up. But drug addiction has a much wider impact than the individual who is addicted.</p>\n<p> </p>\n<ul>\n<li>Drugs are associated with organized crime, mass incarceration, violence, and community blight.</li>\n<li>The families of addicts suffer immensely. Some addicts steal from their family members, and almost all lie to or neglect loved ones.</li>\n<li>Children of drug addicts are more likely to use drugs themselves, and more likely to develop mental health issues such as depression and anxiety (see dual diagnosis).</li>\n<li>Addiction costs the economy millions of dollars each year.</li>\n</ul>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>The Sobriety Journey</strong></p>\n<p>The walk to sobriety is a process, not something you can do overnight. It often begins with a medical detox – a one or two week period during which drugs exit your system. Though the severity and length of detox varies depending on the specific drugs you use, most addicts report unpleasant symptoms such as headaches, muscle pain, sweating, insomnia, depression, and mood swings. These symptoms typically peak when the drug is fully flushed from your body, then steadily improve over subsequent days.</p>\n<p>After drug detox, your cravings will be markedly less severe, but they may still be frequent. Cravings tend to be most severe when the addict is “triggered.” Triggers are environmental reminders to use drugs. For instance, if you always smoke marijuana during times of stress, stress may trigger intense marijuana cravings.</p>\n<p>Every time you resist a trigger, you get better at sobriety. Over time, the number of triggers you experience will diminish. Eventually, you will experience few or no cravings, though the time to reach this point varies from addict to addict. The good news is that as time passes, the cravings you experience are progressively less severe than those you experienced prior to starting your medical detox.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"Sobriety Journey\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"599\" loading=\"lazy\" sizes=\"(max-width: 515px) 100vw, 515px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey.jpg 515w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Sobriety-Journey-258x300.jpg 258w\" width=\"515\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid newHomeBanner bottomHomeBanner innerBottomBanner vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\" data-vc-stretch-content=\"true\"><div class=\"homeImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"591\" loading=\"lazy\" sizes=\"(max-width: 567px) 100vw, 567px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab.jpg 567w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Time-for-Drug-Rehab-288x300.jpg 288w\" width=\"567\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"newHomeBannerContent wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>Is it Time for Drug Rehab?</strong></p>\n<p>Drugs cloud your judgment and alter the way your brain works. It is no wonder, then, that one of the primary symptoms of drug addiction is denial. Denial keeps you using, and the sooner you rid yourself of it, the better your chances at sobriety will be. Denial is powerful medicine, though, so it is helpful to note some of the most common symptoms of addiction. If you experience three or more of these symptoms, it is time to consider drug treatment:</p>\n<ul style=\"color: #fff;\">\n<li>Intense cravings when you can’t use.</li>\n<li>Psychological or physical withdrawal symptoms in between doses or when you attempt to quit.</li>\n<li>Changes in your relationships with loved ones.</li>\n<li>Financial, career, health, or legal problems associated with your drug use.</li>\n<li>Lying to others about your drug use.</li>\n<li>Using a prescription drug to get high.</li>\n<li>Difficulty concentrating or feeling “normal” without drugs.</li>\n<li>Feeling hopeless about your ability to get sober.</li>\n</ul>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid bannerBtn\" data-wpel-link=\"internal\" href=\"/contact/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Contact Us Today</span>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerBlueContent\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>rug addiction produces symptoms that keep the addict using. The “reality” drug addiction convinces you of is not real at all. The world does not have to be miserable, and you do not have to spend your life as an addict. Let <strong><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a></strong> help you find a rehab facility that can work with you to chart a course to permanent, content sobriety.</p>\n<p> </p>\n<p><strong>Further Reading:</strong></p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/am-i-an-addict/\">Am I an Addict</a></p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-explained/\">Drug Addiction Explained<br/>\n</a><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-to-methamphetamine/\">Addiction to Methamphetamine<br/>\n</a><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-to-cocaine/\">Addiction to Cocaine<br/>\n</a><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-to-heroin/\">Addiction to Heroin<br/>\n</a><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-to-marijuana/\">Addiction to Marijuana<br/>\n</a><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-to-designer-drugs/\">Addiction to Designer Drugs<br/>\n</a><a data-wpel-link=\"external\" href=\"https://en.wikipedia.org/wiki/Drug_rehabilitation\" rel=\"nofollow external noopener noreferrer\">Drug Rehabilitation Explained</a></p>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element callSpecialist\">\n<div class=\"wpb_wrapper\">\n<p>Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a></p>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row wpb_row vc_row-fluid bottomWidget\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_widgetised_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"widget eltdf-sidearea widget_text\" id=\"text-9\"> <div class=\"textwidget\">\n</div>\n</div><div class=\"widget eltdf-sidearea widget_text\" id=\"text-13\"> <div class=\"textwidget\"><div class=\"eltdf-container eltdf-default-page-template wp7\">\n<div class=\"eltdf-container-inner clearfix\">\n<div class=\"eltdf-grid-row\">\n<div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid vc_custom_1644327284934 vc_row-has-fill vc_row-o-equal-height vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"true\" data-vc-stretch-content=\"true\" style=\"position: relative; left: -140.25px; box-sizing: border-box; width: 1511px;\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner\">\n<div class=\"wpb_wrapper\">\n<h3 class=\"eltdf-widget-title\" style=\"text-align: center;color: #fff;font-size: 16px;/* margin-bottom: 16px !important; *//* background: #27AAE1; */color: #fff;padding: 14px;/* text-align: left; */margin-top: 0;\">Let Us Help You</h3>\n<div class=\"wpcf7 no-js\" data-wpcf7-id=\"12092\" dir=\"ltr\" id=\"wpcf7-f12092-p11343-o1\" lang=\"en-US\">\n<div class=\"screen-reader-response\"><p aria-atomic=\"true\" aria-live=\"polite\" role=\"status\"></p> <ul></ul></div>\n<form action=\"/drug-addiction-treatment-programs/#wpcf7-f12092-p11343-o1\" aria-label=\"Contact form\" class=\"wpcf7-form init\" data-status=\"init\" method=\"post\" novalidate=\"novalidate\">\n<fieldset class=\"hidden-fields-container\"><input name=\"_wpcf7\" type=\"hidden\" value=\"12092\"/><input name=\"_wpcf7_version\" type=\"hidden\" value=\"6.1.6\"/><input name=\"_wpcf7_locale\" type=\"hidden\" value=\"en_US\"/><input name=\"_wpcf7_unit_tag\" type=\"hidden\" value=\"wpcf7-f12092-p11343-o1\"/><input name=\"_wpcf7_container_post\" type=\"hidden\" value=\"11343\"/><input name=\"_wpcf7_posted_data_hash\" type=\"hidden\" value=\"\"/>\n</fieldset>\n<p class=\"marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"your-name\" placeholder=\"Your Name*\" size=\"40\" type=\"text\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"email-address\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" maxlength=\"400\" name=\"email-address\" placeholder=\"E-mail Address*\" size=\"40\" type=\"email\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"phone-number\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" maxlength=\"400\" name=\"phone-number\" placeholder=\"Phone Number*\" size=\"40\" type=\"tel\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"type-of-addiction\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"type-of-addiction\" placeholder=\"Type Of Addiction*\" size=\"40\" type=\"text\" value=\"\"/></span>\n</p>\n<p class=\"checkbox-text marbot5\">Is this for yourself or a loved one?\n</p>\n<p class=\"checkbox-text marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"person\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first\"><input name=\"person[]\" type=\"checkbox\" value=\"Yourself\"/><span class=\"wpcf7-list-item-label\">Yourself</span></span><span class=\"wpcf7-list-item last\"><input name=\"person[]\" type=\"checkbox\" value=\"Loved One\"/><span class=\"wpcf7-list-item-label\">Loved One</span></span></span></span>\n</p>\n<p><span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required\" cols=\"40\" maxlength=\"2000\" name=\"your-message\" placeholder=\"Your Questions / Comments*\" rows=\"10\"></textarea></span><button class=\"wpcf7-form-control wpcf7-submit submit-btn eltdf-btn eltdf-btn-medium eltdf-btn-solid\" type=\"submit\"><span class=\"eltdf-btn-text\">Submit</span></button>\n</p><div aria-hidden=\"true\" class=\"wpcf7-response-output\"></div>\n</form>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"vc_row-full-width vc_clearfix\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

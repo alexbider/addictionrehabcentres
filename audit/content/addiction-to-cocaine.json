@@ -1,0 +1,752 @@
+{
+ "schema": "arc-content/1",
+ "slug": "addiction-to-cocaine",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+  "path": "/addiction-to-cocaine/",
+  "wp_items": [
+   {
+    "id": 11006,
+    "type": "post",
+    "title": "Addiction to Cocaine",
+    "date": "2015-07-13T15:58:04",
+    "modified": "2022-09-13T14:05:28",
+    "status": "publish",
+    "yoast_title": "Addiction to Cocaine - Addiction Rehab Centers",
+    "words_rest": 668
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/addiction-to-cocaine/",
+ "seo": {
+  "meta_title": "Addiction to Cocaine - Addiction Rehab Centers",
+  "meta_description": "Learn everything there is to know about addiction to cocaine from this in-depth article, and contact us for information about recovering from cocaine addiction.",
+  "canonical_source": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+  "og": {
+   "title": "Addiction to Cocaine - Addiction Rehab Centers",
+   "description": "Learn everything there is to know about addiction to cocaine from this in-depth article, and contact us for information about recovering from cocaine addiction.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Addiction to Cocaine",
+      "datePublished": "2015-07-13T15:58:04+00:00",
+      "dateModified": "2022-09-13T14:05:28+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/"
+      },
+      "wordCount": 675,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+      "keywords": [
+       "Addiction to Cocaine"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+      "url": "https://addictionrehabcenters.ca/addiction-to-cocaine/",
+      "name": "Addiction to Cocaine - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+      "datePublished": "2015-07-13T15:58:04+00:00",
+      "dateModified": "2022-09-13T14:05:28+00:00",
+      "description": "Learn everything there is to know about addiction to cocaine from this in-depth article, and contact us for information about recovering from cocaine addiction.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/addiction-to-cocaine/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "addiction to cocaine"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/addiction-to-cocaine/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Addiction to Cocaine"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Addiction to Cocaine",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 676,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Addiction to Cocaine"
+  ],
+  [
+   "h3",
+   "How Cocaine Affects Your Brain and Body"
+  ],
+  [
+   "h3",
+   "Who is at Risk for Cocaine Addiction?"
+  ],
+  [
+   "h3",
+   "Am I Addicted to Cocaine?"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+   "local_path": "images/addiction-to-cocaine/addiction-to-cocaine.jpg",
+   "alt": "addiction to cocaine",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "July 13, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html",
+   "text": "About 7% of young adults",
+   "kind": "external",
+   "new": "https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+     "alt": "addiction to cocaine",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "July 13, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Addiction to Cocaine",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Cocaine was once widely available, and marketed as a virtual panacea for ailments ranging from depression to headaches. But the libertine use of cocaine quickly gave rise to a national addiction epidemic, spurring authorities to ban the drug, prohibiting even medical use of cocaine. About 7% of young adults have used cocaine, and about a quarter of users will eventually develop an addiction.",
+     "html": "Cocaine was once widely available, and marketed as a virtual panacea for ailments ranging from depression to headaches. But the libertine use of cocaine quickly gave rise to a national addiction epidemic, spurring authorities to ban the drug, prohibiting even medical use of cocaine. <a data-wpel-link=\"external\" href=\"https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html\" rel=\"external noopener noreferrer\">About 7% of young adults</a> have used cocaine, and about a quarter of users will eventually develop an addiction.",
+     "links": [
+      {
+       "old": "https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html",
+       "text": "About 7% of young adults"
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The 1980s saw a resurgence in cocaine use, due in part to glamorized portrayals in the media. But just as powdered cocaine gained popularity in the early 20th century, a new form of cocaine began to make the rounds. Crack, a smokable freebase variant of cocaine, decimated inner cities, destroyed families, and sparked an epidemic of so-called “crack babies.” These children were born with a host of birth defects due to their mothers’ use of crack during pregnancy. So destructive was the crack boom that some crack addicts speculated that a CIA conspiracy led to its destruction of inner cities and families.",
+     "html": "The 1980s saw a resurgence in cocaine use, due in part to glamorized portrayals in the media. But just as powdered cocaine gained popularity in the early 20<sup>th</sup> century, a new form of cocaine began to make the rounds. Crack, a smokable freebase variant of cocaine, decimated inner cities, destroyed families, and sparked an epidemic of so-called “crack babies.” These children were born with a host of birth defects due to their mothers’ use of crack during pregnancy. So destructive was the crack boom that some crack addicts speculated that a CIA conspiracy led to its destruction of inner cities and families.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Whether it’s traditional powdered cocaine, or the newer freebase form of cocaine known as crack, we can help you overcome your cocaine addiction and live a meaningful, sober life.",
+     "html": "Whether it’s traditional powdered cocaine, or the newer freebase form of cocaine known as crack, we can help you overcome your cocaine addiction and live a meaningful, sober life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "How Cocaine Affects Your Brain and Body",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Cocaine is a stimulant, which means it increases activity in your brain and spinal cord. The result is an amplified, “speedy” feeling that can cause you to feel smarter, faster, more competent, and better equipped to tackle the world. This doesn’t mean that cocaine actually makes you smarter, though. Instead, it merely makes you feel like you’re doing things more quickly. Over time, cocaine destroys brain function and eats away at your health.",
+       "html": "Cocaine is a stimulant, which means it increases activity in your brain and spinal cord. The result is an amplified, “speedy” feeling that can cause you to feel smarter, faster, more competent, and better equipped to tackle the world. This doesn’t mean that cocaine actually makes you smarter, though. Instead, it merely makes you feel like you’re doing things more quickly. Over time, cocaine destroys brain function and eats away at your health.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Some of the effects of cocaine use include:",
+       "html": "Some of the effects of cocaine use include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Chronic nosebleeds, sinus issues, and respiratory problems",
+         "html": "Chronic nosebleeds, sinus issues, and respiratory problems",
+         "links": []
+        },
+        {
+         "text": "Anxiety, paranoia, mania, anger, and aggression",
+         "html": "Anxiety, paranoia, mania, anger, and aggression",
+         "links": []
+        },
+        {
+         "text": "Cardiovascular problems, especially rapid heart rate and high blood pressure",
+         "html": "Cardiovascular problems, especially rapid heart rate and high blood pressure",
+         "links": []
+        },
+        {
+         "text": "Mental health issues. Over time, cocaine can destroy brain connections and undermine the functioning of neurotransmitters, leading to hallucinations, delusions, depression, and other serious mental health issues.",
+         "html": "Mental health issues. Over time, cocaine can destroy brain connections and undermine the functioning of neurotransmitters, leading to hallucinations, delusions, depression, and other serious mental health issues.",
+         "links": []
+        },
+        {
+         "text": "Lack of sleep",
+         "html": "Lack of sleep",
+         "links": []
+        },
+        {
+         "text": "Changes in appetite or nutrition. Many cocaine users don’t feel hungry, and end up malnourished.",
+         "html": "Changes in appetite or nutrition. Many cocaine users don’t feel hungry, and end up malnourished.",
+         "links": []
+        },
+        {
+         "text": "Difficulty concentrating without the assistance of cocaine.",
+         "html": "Difficulty concentrating without the assistance of cocaine.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Who is at Risk for Cocaine Addiction?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Cocaine addiction is the inevitable result of chemical dependency. Over time, your body becomes more and more dependent on cocaine, eventually treating it like food or water. The amount of time dependency takes to build varies depending on a host of issues, but the most significant risk factor for addiction remains the same: use of cocaine. The more frequently you use this drug, the more likely you are to become an addict. Some other risk factors for cocaine addiction include, but are not limited to:",
+       "html": "Cocaine addiction is the inevitable result of chemical dependency. Over time, your body becomes more and more dependent on cocaine, eventually treating it like food or water. The amount of time dependency takes to build varies depending on a host of issues, but the most significant risk factor for addiction remains the same: use of cocaine. The more frequently you use this drug, the more likely you are to become an addict. Some other risk factors for cocaine addiction include, but are not limited to:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Mental illness, especially depression and ADHD, which the stimulating effects of cocaine can temporarily mitigate.",
+         "html": "Mental illness, especially depression and ADHD, which the stimulating effects of cocaine can temporarily mitigate.",
+         "links": []
+        },
+        {
+         "text": "A history of low energy and difficulty concentrating.",
+         "html": "A history of low energy and difficulty concentrating.",
+         "links": []
+        },
+        {
+         "text": "A history of trauma or abuse.",
+         "html": "A history of trauma or abuse.",
+         "links": []
+        },
+        {
+         "text": "Exposure to cocaine from a young age; childhood cocaine users are significantly more likely to become addicts.",
+         "html": "Exposure to cocaine from a young age; childhood cocaine users are significantly more likely to become addicts.",
+         "links": []
+        },
+        {
+         "text": "A family history of mental illness or cocaine addiction.",
+         "html": "A family history of mental illness or cocaine addiction.",
+         "links": []
+        },
+        {
+         "text": "Feelings of hopelessness about your life, health, or relationship.",
+         "html": "Feelings of hopelessness about your life, health, or relationship.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Am I Addicted to Cocaine?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The most central hallmarks of addiction are continuing to use cocaine in spite of negative life consequences, and feeling like you need cocaine to feel normal. Some other common symptoms of cocaine addiction include:",
+       "html": "The most central hallmarks of addiction are continuing to use cocaine in spite of negative life consequences, and feeling like you need cocaine to feel normal. Some other common symptoms of cocaine addiction include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Increasingly aggressive or hostile behavior.",
+         "html": "Increasingly aggressive or hostile behavior.",
+         "links": []
+        },
+        {
+         "text": "Friends or family members who have asked you to quit cocaine.",
+         "html": "Friends or family members who have asked you to quit cocaine.",
+         "links": []
+        },
+        {
+         "text": "Using larger and larger doses of cocaine.",
+         "html": "Using larger and larger doses of cocaine.",
+         "links": []
+        },
+        {
+         "text": "Getting in legal or financial trouble because of your addiction.",
+         "html": "Getting in legal or financial trouble because of your addiction.",
+         "links": []
+        },
+        {
+         "text": "Health problems especially change in cardiovascular or respiratory health.",
+         "html": "Health problems especially change in cardiovascular or respiratory health.",
+         "links": []
+        },
+        {
+         "text": "Prioritizing cocaine over all other pursuits.",
+         "html": "Prioritizing cocaine over all other pursuits.",
+         "links": []
+        },
+        {
+         "text": "Lying to loved ones about your use of cocaine.",
+         "html": "Lying to loved ones about your use of cocaine.",
+         "links": []
+        },
+        {
+         "text": "Doing things you regret while under the influence of cocaine.",
+         "html": "Doing things you regret while under the influence of cocaine.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Cocaine addiction is a disease, not something you chose. It’s not your fault, but it’s up to you to seek the help you deserve. Let us show you a path out of the darkness of addiction and into the light of sobriety. Contact Addiction Rehab Centres Canada today!",
+       "html": "Cocaine addiction is a disease, not something you chose. It’s not your fault, but it’s up to you to seek the help you deserve. Let us show you a path out of the darkness of addiction and into the light of sobriety. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+   "alt": "addiction to cocaine",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "July 13, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Addiction to Cocaine",
+   "html": "Addiction to Cocaine",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Cocaine was once widely available, and marketed as a virtual panacea for ailments ranging from depression to headaches. But the libertine use of cocaine quickly gave rise to a national addiction epidemic, spurring authorities to ban the drug, prohibiting even medical use of cocaine. About 7% of young adults have used cocaine, and about a quarter of users will eventually develop an addiction.",
+   "html": "Cocaine was once widely available, and marketed as a virtual panacea for ailments ranging from depression to headaches. But the libertine use of cocaine quickly gave rise to a national addiction epidemic, spurring authorities to ban the drug, prohibiting even medical use of cocaine. <a data-wpel-link=\"external\" href=\"https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html\" rel=\"external noopener noreferrer\">About 7% of young adults</a> have used cocaine, and about a quarter of users will eventually develop an addiction.",
+   "links": [
+    {
+     "old": "https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html",
+     "text": "About 7% of young adults"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The 1980s saw a resurgence in cocaine use, due in part to glamorized portrayals in the media. But just as powdered cocaine gained popularity in the early 20th century, a new form of cocaine began to make the rounds. Crack, a smokable freebase variant of cocaine, decimated inner cities, destroyed families, and sparked an epidemic of so-called “crack babies.” These children were born with a host of birth defects due to their mothers’ use of crack during pregnancy. So destructive was the crack boom that some crack addicts speculated that a CIA conspiracy led to its destruction of inner cities and families.",
+   "html": "The 1980s saw a resurgence in cocaine use, due in part to glamorized portrayals in the media. But just as powdered cocaine gained popularity in the early 20<sup>th</sup> century, a new form of cocaine began to make the rounds. Crack, a smokable freebase variant of cocaine, decimated inner cities, destroyed families, and sparked an epidemic of so-called “crack babies.” These children were born with a host of birth defects due to their mothers’ use of crack during pregnancy. So destructive was the crack boom that some crack addicts speculated that a CIA conspiracy led to its destruction of inner cities and families.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Whether it’s traditional powdered cocaine, or the newer freebase form of cocaine known as crack, we can help you overcome your cocaine addiction and live a meaningful, sober life.",
+   "html": "Whether it’s traditional powdered cocaine, or the newer freebase form of cocaine known as crack, we can help you overcome your cocaine addiction and live a meaningful, sober life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "How Cocaine Affects Your Brain and Body",
+   "html": "How Cocaine Affects Your Brain and Body",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Cocaine is a stimulant, which means it increases activity in your brain and spinal cord. The result is an amplified, “speedy” feeling that can cause you to feel smarter, faster, more competent, and better equipped to tackle the world. This doesn’t mean that cocaine actually makes you smarter, though. Instead, it merely makes you feel like you’re doing things more quickly. Over time, cocaine destroys brain function and eats away at your health.",
+   "html": "Cocaine is a stimulant, which means it increases activity in your brain and spinal cord. The result is an amplified, “speedy” feeling that can cause you to feel smarter, faster, more competent, and better equipped to tackle the world. This doesn’t mean that cocaine actually makes you smarter, though. Instead, it merely makes you feel like you’re doing things more quickly. Over time, cocaine destroys brain function and eats away at your health.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Some of the effects of cocaine use include:",
+   "html": "Some of the effects of cocaine use include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Chronic nosebleeds, sinus issues, and respiratory problems",
+     "html": "Chronic nosebleeds, sinus issues, and respiratory problems",
+     "links": []
+    },
+    {
+     "text": "Anxiety, paranoia, mania, anger, and aggression",
+     "html": "Anxiety, paranoia, mania, anger, and aggression",
+     "links": []
+    },
+    {
+     "text": "Cardiovascular problems, especially rapid heart rate and high blood pressure",
+     "html": "Cardiovascular problems, especially rapid heart rate and high blood pressure",
+     "links": []
+    },
+    {
+     "text": "Mental health issues. Over time, cocaine can destroy brain connections and undermine the functioning of neurotransmitters, leading to hallucinations, delusions, depression, and other serious mental health issues.",
+     "html": "Mental health issues. Over time, cocaine can destroy brain connections and undermine the functioning of neurotransmitters, leading to hallucinations, delusions, depression, and other serious mental health issues.",
+     "links": []
+    },
+    {
+     "text": "Lack of sleep",
+     "html": "Lack of sleep",
+     "links": []
+    },
+    {
+     "text": "Changes in appetite or nutrition. Many cocaine users don’t feel hungry, and end up malnourished.",
+     "html": "Changes in appetite or nutrition. Many cocaine users don’t feel hungry, and end up malnourished.",
+     "links": []
+    },
+    {
+     "text": "Difficulty concentrating without the assistance of cocaine.",
+     "html": "Difficulty concentrating without the assistance of cocaine.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Who is at Risk for Cocaine Addiction?",
+   "html": "Who is at Risk for Cocaine Addiction?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Cocaine addiction is the inevitable result of chemical dependency. Over time, your body becomes more and more dependent on cocaine, eventually treating it like food or water. The amount of time dependency takes to build varies depending on a host of issues, but the most significant risk factor for addiction remains the same: use of cocaine. The more frequently you use this drug, the more likely you are to become an addict. Some other risk factors for cocaine addiction include, but are not limited to:",
+   "html": "Cocaine addiction is the inevitable result of chemical dependency. Over time, your body becomes more and more dependent on cocaine, eventually treating it like food or water. The amount of time dependency takes to build varies depending on a host of issues, but the most significant risk factor for addiction remains the same: use of cocaine. The more frequently you use this drug, the more likely you are to become an addict. Some other risk factors for cocaine addiction include, but are not limited to:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Mental illness, especially depression and ADHD, which the stimulating effects of cocaine can temporarily mitigate.",
+     "html": "Mental illness, especially depression and ADHD, which the stimulating effects of cocaine can temporarily mitigate.",
+     "links": []
+    },
+    {
+     "text": "A history of low energy and difficulty concentrating.",
+     "html": "A history of low energy and difficulty concentrating.",
+     "links": []
+    },
+    {
+     "text": "A history of trauma or abuse.",
+     "html": "A history of trauma or abuse.",
+     "links": []
+    },
+    {
+     "text": "Exposure to cocaine from a young age; childhood cocaine users are significantly more likely to become addicts.",
+     "html": "Exposure to cocaine from a young age; childhood cocaine users are significantly more likely to become addicts.",
+     "links": []
+    },
+    {
+     "text": "A family history of mental illness or cocaine addiction.",
+     "html": "A family history of mental illness or cocaine addiction.",
+     "links": []
+    },
+    {
+     "text": "Feelings of hopelessness about your life, health, or relationship.",
+     "html": "Feelings of hopelessness about your life, health, or relationship.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Am I Addicted to Cocaine?",
+   "html": "Am I Addicted to Cocaine?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The most central hallmarks of addiction are continuing to use cocaine in spite of negative life consequences, and feeling like you need cocaine to feel normal. Some other common symptoms of cocaine addiction include:",
+   "html": "The most central hallmarks of addiction are continuing to use cocaine in spite of negative life consequences, and feeling like you need cocaine to feel normal. Some other common symptoms of cocaine addiction include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Increasingly aggressive or hostile behavior.",
+     "html": "Increasingly aggressive or hostile behavior.",
+     "links": []
+    },
+    {
+     "text": "Friends or family members who have asked you to quit cocaine.",
+     "html": "Friends or family members who have asked you to quit cocaine.",
+     "links": []
+    },
+    {
+     "text": "Using larger and larger doses of cocaine.",
+     "html": "Using larger and larger doses of cocaine.",
+     "links": []
+    },
+    {
+     "text": "Getting in legal or financial trouble because of your addiction.",
+     "html": "Getting in legal or financial trouble because of your addiction.",
+     "links": []
+    },
+    {
+     "text": "Health problems especially change in cardiovascular or respiratory health.",
+     "html": "Health problems especially change in cardiovascular or respiratory health.",
+     "links": []
+    },
+    {
+     "text": "Prioritizing cocaine over all other pursuits.",
+     "html": "Prioritizing cocaine over all other pursuits.",
+     "links": []
+    },
+    {
+     "text": "Lying to loved ones about your use of cocaine.",
+     "html": "Lying to loved ones about your use of cocaine.",
+     "links": []
+    },
+    {
+     "text": "Doing things you regret while under the influence of cocaine.",
+     "html": "Doing things you regret while under the influence of cocaine.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Cocaine addiction is a disease, not something you chose. It’s not your fault, but it’s up to you to seek the help you deserve. Let us show you a path out of the darkness of addiction and into the light of sobriety. Contact Addiction Rehab Centres Canada today!",
+   "html": "Cocaine addiction is a disease, not something you chose. It’s not your fault, but it’s up to you to seek the help you deserve. Let us show you a path out of the darkness of addiction and into the light of sobriety. Contact <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-07-13T15:58:04+00:00",
+  "modified": "2022-09-13T14:05:28+00:00",
+  "date_label": "July 13, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 675,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"addiction to cocaine\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/addiction-to-cocaine-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                July 13, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Addiction to Cocaine    </h1> <p>Cocaine was once widely available, and marketed as a virtual panacea for ailments ranging from depression to headaches. But the libertine use of cocaine quickly gave rise to a national addiction epidemic, spurring authorities to ban the drug, prohibiting even medical use of cocaine. <a data-wpel-link=\"external\" href=\"https://www.drugfreeworld.org/drugfacts/cocaine/international-statistics.html\" rel=\"external noopener noreferrer\">About 7% of young adults</a> have used cocaine, and about a quarter of users will eventually develop an addiction.</p>\n<p>The 1980s saw a resurgence in cocaine use, due in part to glamorized portrayals in the media. But just as powdered cocaine gained popularity in the early 20<sup>th</sup> century, a new form of cocaine began to make the rounds. Crack, a smokable freebase variant of cocaine, decimated inner cities, destroyed families, and sparked an epidemic of so-called “crack babies.” These children were born with a host of birth defects due to their mothers’ use of crack during pregnancy. So destructive was the crack boom that some crack addicts speculated that a CIA conspiracy led to its destruction of inner cities and families.</p>\n<p>Whether it’s traditional powdered cocaine, or the newer freebase form of cocaine known as crack, we can help you overcome your cocaine addiction and live a meaningful, sober life.</p>\n<h3>How Cocaine Affects Your Brain and Body</h3>\n<p>Cocaine is a stimulant, which means it increases activity in your brain and spinal cord. The result is an amplified, “speedy” feeling that can cause you to feel smarter, faster, more competent, and better equipped to tackle the world. This doesn’t mean that cocaine actually makes you smarter, though. Instead, it merely makes you feel like you’re doing things more quickly. Over time, cocaine destroys brain function and eats away at your health.</p>\n<p>Some of the effects of cocaine use include:</p>\n<ul>\n<li>Chronic nosebleeds, sinus issues, and respiratory problems</li>\n<li>Anxiety, paranoia, mania, anger, and aggression</li>\n<li>Cardiovascular problems, especially rapid heart rate and high blood pressure</li>\n<li>Mental health issues. Over time, cocaine can destroy brain connections and undermine the functioning of neurotransmitters, leading to hallucinations, delusions, depression, and other serious mental health issues.</li>\n<li>Lack of sleep</li>\n<li>Changes in appetite or nutrition. Many cocaine users don’t feel hungry, and end up malnourished.</li>\n<li>Difficulty concentrating without the assistance of cocaine.</li>\n</ul>\n<h3>Who is at Risk for Cocaine Addiction?</h3>\n<p>Cocaine addiction is the inevitable result of chemical dependency. Over time, your body becomes more and more dependent on cocaine, eventually treating it like food or water. The amount of time dependency takes to build varies depending on a host of issues, but the most significant risk factor for addiction remains the same: use of cocaine. The more frequently you use this drug, the more likely you are to become an addict. Some other risk factors for cocaine addiction include, but are not limited to:</p>\n<ul>\n<li>Mental illness, especially depression and ADHD, which the stimulating effects of cocaine can temporarily mitigate.</li>\n<li>A history of low energy and difficulty concentrating.</li>\n<li>A history of trauma or abuse.</li>\n<li>Exposure to cocaine from a young age; childhood cocaine users are significantly more likely to become addicts.</li>\n<li>A family history of mental illness or cocaine addiction.</li>\n<li>Feelings of hopelessness about your life, health, or relationship.</li>\n</ul>\n<h3>Am I Addicted to Cocaine?</h3>\n<p>The most central hallmarks of addiction are continuing to use cocaine in spite of negative life consequences, and feeling like you need cocaine to feel normal. Some other common symptoms of cocaine addiction include:</p>\n<ul>\n<li>Increasingly aggressive or hostile behavior.</li>\n<li>Friends or family members who have asked you to quit cocaine.</li>\n<li>Using larger and larger doses of cocaine.</li>\n<li>Getting in legal or financial trouble because of your addiction.</li>\n<li>Health problems especially change in cardiovascular or respiratory health.</li>\n<li>Prioritizing cocaine over all other pursuits.</li>\n<li>Lying to loved ones about your use of cocaine.</li>\n<li>Doing things you regret while under the influence of cocaine.</li>\n</ul>\n<p>Cocaine addiction is a disease, not something you chose. It’s not your fault, but it’s up to you to seek the help you deserve. Let us show you a path out of the darkness of addiction and into the light of sobriety. Contact <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

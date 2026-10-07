@@ -1,0 +1,485 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__fort-mcmurray",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+  "path": "/listing-location/fort-mcmurray/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/fort-mcmurray/",
+ "seo": {
+  "meta_title": "Fort McMurray Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+  "og": {
+   "title": "Fort McMurray Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+      "url": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+      "name": "Fort McMurray Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "drivercheck-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Fort McMurray"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Fort McMurray",
+ "title_bar_h1": "",
+ "word_count": 2,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Fort McMurray Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+   "local_path": "images/city__fort-mcmurray/Mark-Amy-Treatment-Centre-0.png",
+   "alt": "Mark Amy Treatment Centre-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+   "local_path": "images/city__fort-mcmurray/drivercheck-0.png",
+   "alt": "drivercheck-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/mark-amy-treatment-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+   "text": "Mark Amy Treatment Centre",
+   "kind": "internal",
+   "new": "/mark-amy-treatment-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/canadawide-mobile/",
+   "text": "",
+   "kind": "internal",
+   "new": "/canadawide-mobile/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+   "text": "Fort McMurray",
+   "kind": "internal",
+   "new": "/listing-location/fort-mcmurray/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/canadawide-mobile/",
+   "text": "Canadawide Mobile",
+   "kind": "internal",
+   "new": "/canadawide-mobile/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Fort McMurray Results"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+     "alt": "Mark Amy Treatment Centre-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Fort McMurray"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Mark Amy Treatment Centre",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "The Mark Amy Treatment Center offers a 28-day treatment program that takes a more comprehensive approach to alcohol and drug addiction. They take..."
+    },
+    {
+     "type": "p",
+     "text": "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Fort McMurray Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+     "alt": "drivercheck-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/canadawide-mobile/"
+    },
+    {
+     "type": "link",
+     "text": "Fort McMurray",
+     "href": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+     "new_href": "/listing-location/fort-mcmurray/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Canadawide Mobile",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "1"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Fort McMurray Results"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+   "alt": "Mark Amy Treatment Centre-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Fort McMurray"
+  },
+  {
+   "type": "h5",
+   "text": "Mark Amy Treatment Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/mark-amy-treatment-centre/\" itemprop=\"url\">Mark Amy Treatment Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "The Mark Amy Treatment Center offers a 28-day treatment program that takes a more comprehensive approach to alcohol and drug addiction. They take..."
+  },
+  {
+   "type": "p",
+   "text": "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Fort McMurray Results",
+   "html": "More Rehab Centres in Fort McMurray Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+   "alt": "drivercheck-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/canadawide-mobile/"
+  },
+  {
+   "type": "link",
+   "text": "Fort McMurray",
+   "href": "https://addictionrehabcenters.ca/listing-location/fort-mcmurray/",
+   "new_href": "/listing-location/fort-mcmurray/"
+  },
+  {
+   "type": "h5",
+   "text": "Canadawide Mobile",
+   "html": "<a data-wpel-link=\"internal\" href=\"/canadawide-mobile/\" itemprop=\"url\">Canadawide Mobile</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Mark Amy Treatment Centre",
+   "href": "https://addictionrehabcenters.ca/mark-amy-treatment-centre/",
+   "address": "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png",
+    "alt": "Mark Amy Treatment Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Canadawide Mobile",
+   "href": "https://addictionrehabcenters.ca/canadawide-mobile/",
+   "address": "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png",
+    "alt": "drivercheck-0",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Mark Amy Treatment Centre",
+    "mark-amy-treatment-centre",
+    "9914 King St, Fort McMurray, AB T9H 5A8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Canadawide Mobile",
+    "canadawide-mobile",
+    "9815 Main St, Fort McMurray, AB T9H 1T7, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Fort McMurray",
+  "result_count": "1",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">1</span>\n                                    Top Rehab Centres in Fort McMurray Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n<div class=\"place-item layout-02 golo-place-featured place-6482\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mark-amy-treatment-centre/\">\n<img alt=\"Mark Amy Treatment Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Mark-Amy-Treatment-Centre-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n                                                    Fort McMurray                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mark-amy-treatment-centre/\" itemprop=\"url\">Mark Amy Treatment Centre</a>\n</h5>\n<!-- post excerpt -->\n                                            The Mark Amy Treatment Center offers a 28-day treatment program that takes a more comprehensive approach to alcohol and drug addiction. They take...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9914 King St, Fort McMurray, AB T9H 5A8, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br/>\n<h2>More Rehab Centres in Fort McMurray Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6506\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadawide-mobile/\">\n<img alt=\"drivercheck-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/drivercheck-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/fort-mcmurray/\">Fort McMurray</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadawide-mobile/\" itemprop=\"url\">Canadawide Mobile</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    9815 Main St, Fort McMurray, AB T9H 1T7, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

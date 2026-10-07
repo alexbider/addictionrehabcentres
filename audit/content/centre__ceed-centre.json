@@ -1,0 +1,917 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__ceed-centre",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/ceed-centre/",
+  "path": "/ceed-centre/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/ceed-centre/",
+ "seo": {
+  "meta_title": "Ceed Centre - Addiction Rehab Centers",
+  "meta_description": "Ceed Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/ceed-centre/",
+  "og": {
+   "title": "Ceed Centre - Addiction Rehab Centers",
+   "description": "Ceed Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-0.png",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/ceed-centre/",
+      "url": "https://addictionrehabcenters.ca/ceed-centre/",
+      "name": "Ceed Centre - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/ceed-centre/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/ceed-centre/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-0.png",
+      "datePublished": "2021-09-28T15:44:18+00:00",
+      "dateModified": "2022-11-28T19:06:33+00:00",
+      "description": "Ceed Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/ceed-centre/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/ceed-centre/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/ceed-centre/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-0.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-0.png",
+      "width": 1000,
+      "height": 667,
+      "caption": "CEED Centre Society-0"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/ceed-centre/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Ceed Centre"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 220,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Ceed Centre"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-1.png",
+   "local_path": "images/centre__ceed-centre/CEED-Centre-Society-1.png",
+   "alt": "CEED Centre Society-1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-2.png",
+   "local_path": "images/centre__ceed-centre/CEED-Centre-Society-2.png",
+   "alt": "CEED Centre Society-2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-3.png",
+   "local_path": "images/centre__ceed-centre/CEED-Centre-Society-3.png",
+   "alt": "CEED Centre Society-3",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-0.png",
+   "local_path": "images/centre__ceed-centre/CEED-Centre-Society-0.png",
+   "alt": "CEED Centre Society-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays",
+   "text": "here.",
+   "kind": "external",
+   "new": "http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays"
+  },
+  {
+   "old_href": "tel:(778) 280-6954",
+   "text": "(778) 280-6954",
+   "kind": "tel",
+   "new": "tel:(778) 280-6954"
+  },
+  {
+   "old_href": "mailto:vancouver@liferingcanada.org",
+   "text": "vancouver@liferingcanada.org",
+   "kind": "mailto",
+   "new": "mailto:vancouver@liferingcanada.org"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Ceed Centre",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.",
+     "html": "The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.",
+     "html": "Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.",
+     "html": "We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.",
+     "html": "We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Focus: How Was Your Week? Always confirm date and time here.",
+     "html": "Focus: How Was Your Week? Always confirm date and time <a data-wpel-link=\"external\" href=\"http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays\" rel=\"noopener external noreferrer\" target=\"_blank\">here.</a>",
+     "links": [
+      {
+       "old": "http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays",
+       "text": "here."
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "We believe:",
+     "html": "We believe:",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "ul",
+     "ordered": false,
+     "items": [
+      {
+       "text": "that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;",
+       "html": "that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;",
+       "links": []
+      },
+      {
+       "text": "that all human endeavors should fit within the earth’s natural carrying capacity;",
+       "html": "that all human endeavors should fit within the earth’s natural carrying capacity;",
+       "links": []
+      },
+      {
+       "text": "that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.",
+       "html": "that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.",
+       "links": []
+      }
+     ]
+    },
+    {
+     "type": "p",
+     "text": "We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.",
+     "html": "We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "(778) 280-6954",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(778) 280-6954\" itemprop=\"url\">(778) 280-6954</a>",
+       "links": [
+        {
+         "old": "tel:(778) 280-6954",
+         "text": "(778) 280-6954"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "vancouver@liferingcanada.org",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:vancouver@liferingcanada.org\" itemprop=\"url\">vancouver@liferingcanada.org</a>",
+       "links": [
+        {
+         "old": "mailto:vancouver@liferingcanada.org",
+         "text": "vancouver@liferingcanada.org"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "11739 223 St, Maple Ridge, BC V2X 5X6, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    11739 223 St, Maple Ridge, BC V2X 5X6, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Ceed Centre",
+   "html": "<strong>About</strong> Ceed Centre",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.",
+   "html": "The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.",
+   "html": "Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.",
+   "html": "We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.",
+   "html": "We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Focus: How Was Your Week? Always confirm date and time here.",
+   "html": "Focus: How Was Your Week? Always confirm date and time <a data-wpel-link=\"external\" href=\"http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays\" rel=\"noopener external noreferrer\" target=\"_blank\">here.</a>",
+   "links": [
+    {
+     "old": "http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays",
+     "text": "here."
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "We believe:",
+   "html": "We believe:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;",
+     "html": "that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;",
+     "links": []
+    },
+    {
+     "text": "that all human endeavors should fit within the earth’s natural carrying capacity;",
+     "html": "that all human endeavors should fit within the earth’s natural carrying capacity;",
+     "links": []
+    },
+    {
+     "text": "that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.",
+     "html": "that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.",
+   "html": "We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "(778) 280-6954",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(778) 280-6954\" itemprop=\"url\">(778) 280-6954</a>",
+   "links": [
+    {
+     "old": "tel:(778) 280-6954",
+     "text": "(778) 280-6954"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "vancouver@liferingcanada.org",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:vancouver@liferingcanada.org\" itemprop=\"url\">vancouver@liferingcanada.org</a>",
+   "links": [
+    {
+     "old": "mailto:vancouver@liferingcanada.org",
+     "text": "vancouver@liferingcanada.org"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "11739 223 St, Maple Ridge, BC V2X 5X6, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    11739 223 St, Maple Ridge, BC V2X 5X6, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Ceed Centre",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h3><strong>About</strong> Ceed Centre</h3>\n<p>The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.</p>\n<p>Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.</p>\n<p>We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.</p>\n<p>We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.</p>\n<p>Focus: How Was Your Week? Always confirm date and time <a data-wpel-link=\"external\" href=\"http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays\" rel=\"noopener external noreferrer\" target=\"_blank\">here.</a></p>\n<p>We believe:</p>\n<ul>\n<li>that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;</li>\n<li>that all human endeavors should fit within the earth’s natural carrying capacity;</li>\n<li>that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.</li>\n</ul>\n<p>We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(778) 280-6954",
+  "email": "vancouver@liferingcanada.org",
+  "website": "",
+  "address": "11739 223 St, Maple Ridge, BC V2X 5X6, Canada",
+  "social": {},
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-1.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-1.png",
+    "alt": "CEED Centre Society-1",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-2.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-2.png",
+    "alt": "CEED Centre Society-2",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-3.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/CEED-Centre-Society-3.png",
+    "alt": "CEED Centre Society-3",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Ceed Centre",
+    "html": "<strong>About</strong> Ceed Centre",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.",
+    "html": "The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.",
+    "html": "Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.",
+    "html": "We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.",
+    "html": "We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Focus: How Was Your Week? Always confirm date and time here.",
+    "html": "Focus: How Was Your Week? Always confirm date and time <a data-wpel-link=\"external\" href=\"http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays\" rel=\"noopener external noreferrer\" target=\"_blank\">here.</a>",
+    "links": [
+     {
+      "old": "http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays",
+      "text": "here."
+     }
+    ],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "We believe:",
+    "html": "We believe:",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;",
+      "html": "that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;",
+      "links": []
+     },
+     {
+      "text": "that all human endeavors should fit within the earth’s natural carrying capacity;",
+      "html": "that all human endeavors should fit within the earth’s natural carrying capacity;",
+      "links": []
+     },
+     {
+      "text": "that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.",
+      "html": "that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.",
+      "links": []
+     }
+    ]
+   },
+   {
+    "type": "p",
+    "text": "We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.",
+    "html": "We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [],
+    "text": ""
+   },
+   {
+    "heading": "Amenities",
+    "items": [],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(778) 280-6954",
+  "phone_href": "tel:(778) 280-6954",
+  "website_text": "",
+  "social_title": "",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Ceed Centre</h3>\n<p>The CEED Centre Society works to promote environmental and development education in the community. The Fraser Information Society was founded in 1984 as a non-profit organization and is now recognized as a non-profit organization.</p>\n<p>Throughout the communities of Maple Ridge and Pitt Meadows, we promote the development of social connections and sustainable living practices.</p>\n<p>We operate as the Centre Neighbourhood House, a drop-in community center, and we own and maintain a registered heritage building.</p>\n<p>We provide programs and services in the areas of community development and food security. Our partners provide additional programs and services.</p>\n<p>Focus: How Was Your Week? Always confirm date and time <a data-wpel-link=\"external\" href=\"http://www.liferingcanada.org/meeting/maple-ridge-ceed-centre-fridays\" rel=\"noopener external noreferrer\" target=\"_blank\">here.</a></p>\n<p>We believe:</p>\n<ul>\n<li>that community should be built “from the inside out” by mobilizing the talents, skills, and knowledge of the people, organizations, and institutions in the community;</li>\n<li>that all human endeavors should fit within the earth’s natural carrying capacity;</li>\n<li>that all people should be treated with dignity and respect, standing equal and valued in the eyes and deeds of the community.</li>\n</ul>\n<p>We acknowledge the financial support of the Province of British Columbia, the Government of Canada and members of our local business community.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(778) 280-6954\" itemprop=\"url\">(778) 280-6954</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:vancouver@liferingcanada.org\" itemprop=\"url\">vancouver@liferingcanada.org</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    11739 223 St, Maple Ridge, BC V2X 5X6, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

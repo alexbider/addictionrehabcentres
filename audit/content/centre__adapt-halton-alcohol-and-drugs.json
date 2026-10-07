@@ -1,0 +1,2493 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__adapt-halton-alcohol-and-drugs",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/",
+  "path": "/adapt-halton-alcohol-and-drugs/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/adapt-halton-alcohol-and-drugs/",
+ "seo": {
+  "meta_title": "Adapt Halton Alcohol And Drugs - Addiction Rehab Centers",
+  "meta_description": "Adapt Halton Alcohol And Drugs offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/",
+  "og": {
+   "title": "Adapt Halton Alcohol And Drugs - Addiction Rehab Centers",
+   "description": "Adapt Halton Alcohol And Drugs offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adapt-Halton-Alcohol-And-Drugs.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/",
+      "url": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/",
+      "name": "Adapt Halton Alcohol And Drugs - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adapt-Halton-Alcohol-And-Drugs.jpg",
+      "datePublished": "2021-09-28T15:44:14+00:00",
+      "dateModified": "2023-04-14T11:36:17+00:00",
+      "description": "Adapt Halton Alcohol And Drugs offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adapt-Halton-Alcohol-And-Drugs.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adapt-Halton-Alcohol-And-Drugs.jpg",
+      "width": 768,
+      "height": 576,
+      "caption": "Adapt Halton Alcohol And Drugs"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/adapt-halton-alcohol-and-drugs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Adapt Halton Alcohol And Drugs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "What services does Adapt Halton Alcohol and Drugs offer?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is Adapt Halton Alcohol and Drugs a non-profit organization?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What age group does Adapt Halton Alcohol and Drugs serve? ",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What types of addiction does Adapt Halton Alcohol and Drugs treat?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p>Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "What types of therapies does Adapt Halton Alcohol and Drugs offer? ",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is there a cost for Adapt Halton Alcohol and Drugs services?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.</p>"
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Where is Adapt Halton Alcohol and Drugs located? ",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "<p> Adapt Halton Alcohol and Drugs is located in Acton, Ontario.</p>"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 977,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "Adapt Halton Alcohol And Drugs - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h4",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Adapt Halton Alcohol And Drugs"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+   "local_path": "images/_shared/Rehabs-01.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+   "local_path": "images/_shared/Rehabs-02.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+   "local_path": "images/_shared/Rehabs-03.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adapt-Halton-Alcohol-And-Drugs.jpg",
+   "local_path": "images/centre__adapt-halton-alcohol-and-drugs/Adapt-Halton-Alcohol-And-Drugs.jpg",
+   "alt": "Adapt Halton Alcohol And Drugs",
+   "width": 768,
+   "height": 576,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/toronto-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/toronto-rehabs/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(519) 853-8222",
+   "text": "(519) 853-8222",
+   "kind": "tel",
+   "new": "tel:(519) 853-8222"
+  },
+  {
+   "old_href": "mailto:adapt@haltonadapt.org",
+   "text": "adapt@haltonadapt.org",
+   "kind": "mailto",
+   "new": "mailto:adapt@haltonadapt.org"
+  },
+  {
+   "old_href": "https://haltonadapt.org/",
+   "text": "https://haltonadapt.org/",
+   "kind": "external",
+   "new": "https://haltonadapt.org/"
+  },
+  {
+   "old_href": "https://www.facebook.com/ADAPT-149964638688403/",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/ADAPT-149964638688403/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.",
+     "html": "Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.",
+     "html": "The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.",
+     "html": "The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+     "html": "The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.",
+     "html": "Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.",
+     "html": "In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Adapt Halton Alcohol And Drugs - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.",
+     "html": "ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.",
+     "html": "ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Adapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Adapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Adapt Halton Alcohol And Drugs",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What services does Adapt Halton Alcohol and Drugs offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+       "html": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Is Adapt Halton Alcohol and Drugs a non-profit organization?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+       "html": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What age group does Adapt Halton Alcohol and Drugs serve?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+       "html": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of addiction does Adapt Halton Alcohol and Drugs treat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+       "html": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of therapies does Adapt Halton Alcohol and Drugs offer?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+       "html": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Is there a cost for Adapt Halton Alcohol and Drugs services?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+       "html": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Where is Adapt Halton Alcohol and Drugs located?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+       "html": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(519) 853-8222",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(519) 853-8222\" itemprop=\"url\">(519) 853-8222</a>",
+         "links": [
+          {
+           "old": "tel:(519) 853-8222",
+           "text": "(519) 853-8222"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "adapt@haltonadapt.org",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:adapt@haltonadapt.org\" itemprop=\"url\">adapt@haltonadapt.org</a>",
+         "links": [
+          {
+           "old": "mailto:adapt@haltonadapt.org",
+           "text": "adapt@haltonadapt.org"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://haltonadapt.org/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://haltonadapt.org/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://haltonadapt.org/</a>",
+         "links": [
+          {
+           "old": "https://haltonadapt.org/",
+           "text": "https://haltonadapt.org/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "25 Main St N, Acton, ON L7J 1V9, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    25 Main St N, Acton, ON L7J 1V9, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.",
+   "html": "Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.",
+   "html": "The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.",
+   "html": "The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+   "html": "The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.",
+   "html": "Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.",
+   "html": "In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Adapt Halton Alcohol And Drugs - Center Overview",
+   "html": "Adapt Halton Alcohol And Drugs - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.",
+   "html": "ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.",
+   "html": "ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Adapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Adapt Halton Alcohol And Drugs",
+   "html": "Frequently Asked Questions About Adapt Halton Alcohol And Drugs",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What services does Adapt Halton Alcohol and Drugs offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+   "html": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Is Adapt Halton Alcohol and Drugs a non-profit organization?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+   "html": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What age group does Adapt Halton Alcohol and Drugs serve?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+   "html": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of addiction does Adapt Halton Alcohol and Drugs treat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+   "html": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of therapies does Adapt Halton Alcohol and Drugs offer?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+   "html": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Is there a cost for Adapt Halton Alcohol and Drugs services?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+   "html": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Where is Adapt Halton Alcohol and Drugs located?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+   "html": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(519) 853-8222",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(519) 853-8222\" itemprop=\"url\">(519) 853-8222</a>",
+   "links": [
+    {
+     "old": "tel:(519) 853-8222",
+     "text": "(519) 853-8222"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "adapt@haltonadapt.org",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:adapt@haltonadapt.org\" itemprop=\"url\">adapt@haltonadapt.org</a>",
+   "links": [
+    {
+     "old": "mailto:adapt@haltonadapt.org",
+     "text": "adapt@haltonadapt.org"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://haltonadapt.org/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://haltonadapt.org/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://haltonadapt.org/</a>",
+   "links": [
+    {
+     "old": "https://haltonadapt.org/",
+     "text": "https://haltonadapt.org/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "25 Main St N, Acton, ON L7J 1V9, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    25 Main St N, Acton, ON L7J 1V9, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Adapt Halton Alcohol And Drugs",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6851\" data-elementor-id=\"6851\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-c2cd22e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"c2cd22e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c65c955\" data-element_type=\"column\" data-id=\"c65c955\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-793073f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"793073f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4028c71\" data-element_type=\"column\" data-id=\"4028c71\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1b67ac4 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1b67ac4\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.</p><p>The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.</p><p>The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.</p><p>The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.</p><p>Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.</p><p>In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e916f60 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e916f60\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-004678f\" data-element_type=\"column\" data-id=\"004678f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-0f6905c elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"0f6905c\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4d20448 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"4d20448\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/LiiuGxHnFsk\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-53f9972 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"53f9972\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-01984ec\" data-element_type=\"column\" data-id=\"01984ec\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6313106 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"6313106\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-f4a2ff2 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"f4a2ff2\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Adapt Halton Alcohol And Drugs - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-6ce0a1f elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6ce0a1f\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.</p><p>ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e4f4ba0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e4f4ba0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d11f094\" data-element_type=\"column\" data-id=\"d11f094\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-57bb5ac elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"57bb5ac\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-92e3302\" data-element_type=\"column\" data-id=\"92e3302\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-b39864e elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"b39864e\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a3a045d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"a3a045d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-601bca7\" data-element_type=\"column\" data-id=\"601bca7\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4189690 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"4189690\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tAdapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-6427c08 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"6427c08\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-87c0674 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"87c0674\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-29eb8f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"29eb8f3\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-775e64a\" data-element_type=\"column\" data-id=\"775e64a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3a8120c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3a8120c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3b6b8c1 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3b6b8c1\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74d3808\" data-element_type=\"column\" data-id=\"74d3808\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-04b92c9 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"04b92c9\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Adapt Halton Alcohol And Drugs</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-3e880c9 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"3e880c9\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6551\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-6551\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What services does Adapt Halton Alcohol and Drugs offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6551\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-6551\" role=\"region\"><p>Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6552\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-6552\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Adapt Halton Alcohol and Drugs a non-profit organization?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6552\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-6552\" role=\"region\"><p>Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6553\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-6553\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What age group does Adapt Halton Alcohol and Drugs serve? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6553\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-6553\" role=\"region\"><p> Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6554\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-6554\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of addiction does Adapt Halton Alcohol and Drugs treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6554\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-6554\" role=\"region\"><p>Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6555\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-6555\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapies does Adapt Halton Alcohol and Drugs offer? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6555\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-6555\" role=\"region\"><p> Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6556\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-6556\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is there a cost for Adapt Halton Alcohol and Drugs services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6556\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-6556\" role=\"region\"><p> The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6557\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-6557\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Where is Adapt Halton Alcohol and Drugs located? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6557\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-6557\" role=\"region\"><p> Adapt Halton Alcohol and Drugs is located in Acton, Ontario.</p></div>\n</div>\n\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(519) 853-8222",
+  "email": "adapt@haltonadapt.org",
+  "website": "https://haltonadapt.org/",
+  "address": "25 Main St N, Acton, ON L7J 1V9, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/ADAPT-149964638688403/"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-02.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-03.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.",
+    "html": "Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.",
+    "html": "The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.",
+    "html": "The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+    "html": "The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.",
+    "html": "Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.",
+    "html": "In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://youtu.be/LiiuGxHnFsk",
+    "id": "LiiuGxHnFsk"
+   },
+   {
+    "type": "h2",
+    "text": "Adapt Halton Alcohol And Drugs - Center Overview",
+    "html": "Adapt Halton Alcohol And Drugs - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.",
+    "html": "ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.",
+    "html": "ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Adapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Adapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Adapt Halton Alcohol And Drugs",
+  "faqs": [
+   {
+    "question": "What services does Adapt Halton Alcohol and Drugs offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+      "html": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis."
+   },
+   {
+    "question": "Is Adapt Halton Alcohol and Drugs a non-profit organization?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+      "html": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way."
+   },
+   {
+    "question": "What age group does Adapt Halton Alcohol and Drugs serve?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+      "html": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use."
+   },
+   {
+    "question": "What types of addiction does Adapt Halton Alcohol and Drugs treat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+      "html": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction."
+   },
+   {
+    "question": "What types of therapies does Adapt Halton Alcohol and Drugs offer?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+      "html": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy."
+   },
+   {
+    "question": "Is there a cost for Adapt Halton Alcohol and Drugs services?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+      "html": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay."
+   },
+   {
+    "question": "Where is Adapt Halton Alcohol and Drugs located?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+      "html": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(519) 853-8222",
+  "phone_href": "tel:(519) 853-8222",
+  "website_text": "https://haltonadapt.org/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What services does Adapt Halton Alcohol and Drugs offer?",
+   "answer_text": "Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.",
+   "answer_html": "<p>Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Is Adapt Halton Alcohol and Drugs a non-profit organization?",
+   "answer_text": "Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health & Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.",
+   "answer_html": "<p>Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What age group does Adapt Halton Alcohol and Drugs serve?",
+   "answer_text": "Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.",
+   "answer_html": "<p> Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of addiction does Adapt Halton Alcohol and Drugs treat?",
+   "answer_text": "Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.",
+   "answer_html": "<p>Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of therapies does Adapt Halton Alcohol and Drugs offer?",
+   "answer_text": "Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.",
+   "answer_html": "<p> Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Is there a cost for Adapt Halton Alcohol and Drugs services?",
+   "answer_text": "The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.",
+   "answer_html": "<p> The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Where is Adapt Halton Alcohol and Drugs located?",
+   "answer_text": "Adapt Halton Alcohol and Drugs is located in Acton, Ontario.",
+   "answer_html": "<p> Adapt Halton Alcohol and Drugs is located in Acton, Ontario.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6851\" data-elementor-id=\"6851\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-c2cd22e elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"c2cd22e\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c65c955\" data-element_type=\"column\" data-id=\"c65c955\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-793073f elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"793073f\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4028c71\" data-element_type=\"column\" data-id=\"4028c71\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1b67ac4 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1b67ac4\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Adapt Halton Alcohol and Drugs is a non-profit rehab center located in Acton, Ontario. This center specializes in treating individuals who are struggling with substance abuse, drug addiction, and alcoholism. They also provide services for those who are facing gambling addiction. Adapt Halton Alcohol and Drugs offer comprehensive assessment and treatment services to individuals and families, helping them to manage these concerns and lead more satisfying lives.</p><p>The center offers limited services such as presentations on alcohol consumption, drug consumption, and gambling. These services are available at schools or through special requests, free of charge. ADAPT also welcomes anyone who wants to organize a community event.</p><p>The mission of ADAPT is to provide the least intrusive and cost-effective assistance to those who are suffering from alcohol, drugs, or gambling. Their aim is to enable individuals with alcohol, drug, and gambling problems, as well as their families, to manage these problems and lead happier lives.</p><p>The center offers a variety of programs and services, including 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab. In addition, Adapt Halton Alcohol and Drugs provides various therapies such as holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.</p><p>Brochures about their programs and services are also available on request. The center provides amenities such as 12 Step Programs, Family Services, Substance Abuse Treatment, and Outpatient Drug Rehab.</p><p>In conclusion, Adapt Halton Alcohol and Drugs Center is dedicated to providing support and services to individuals and families struggling with addiction. The center’s comprehensive assessment and treatment services, combined with their evidence-based practices and holistic therapies, offer individuals the tools they need to manage their addiction and lead a more fulfilling life. If you or someone you know needs help, contact Adapt Halton Alcohol and Drugs today.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e916f60 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e916f60\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-004678f\" data-element_type=\"column\" data-id=\"004678f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-0f6905c elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"0f6905c\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4d20448 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"4d20448\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/LiiuGxHnFsk\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-53f9972 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"53f9972\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-01984ec\" data-element_type=\"column\" data-id=\"01984ec\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6313106 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"6313106\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-f4a2ff2 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"f4a2ff2\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Adapt Halton Alcohol And Drugs - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-6ce0a1f elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6ce0a1f\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>ADAPT is a non-profit, community-based, outpatient addiction agency that offers a range of services throughout the Halton Region. The center is funded by the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, the Ministry of Community Safety and Correctional Services, and the United Way. Their services include drug addiction treatment, alcohol addiction treatment, gambling addiction treatment, and more.</p><p>ADAPT provides programs for youths aged 24 and under who are affected by substance or alcohol use. They also offer concurrent disorders treatment to those in need. Additionally, their addiction counselors provide ongoing counseling and support to adults struggling with their own substance use. Adult programs include drug addiction treatment, alcohol addiction treatment, and addictions supportive housing.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-e4f4ba0 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"e4f4ba0\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d11f094\" data-element_type=\"column\" data-id=\"d11f094\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-57bb5ac elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"57bb5ac\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-92e3302\" data-element_type=\"column\" data-id=\"92e3302\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-b39864e elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"b39864e\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-a3a045d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"a3a045d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-601bca7\" data-element_type=\"column\" data-id=\"601bca7\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-4189690 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"4189690\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tAdapt Halton Alcohol And Drugs has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-6427c08 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"6427c08\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-87c0674 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"87c0674\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-29eb8f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"29eb8f3\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-775e64a\" data-element_type=\"column\" data-id=\"775e64a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3a8120c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3a8120c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h4>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/toronto-rehabs/\" style=\"color: #00ccff;\">here</a></span></h4> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-3b6b8c1 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"3b6b8c1\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74d3808\" data-element_type=\"column\" data-id=\"74d3808\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-04b92c9 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"04b92c9\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Adapt Halton Alcohol And Drugs</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-3e880c9 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"3e880c9\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6551\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-6551\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What services does Adapt Halton Alcohol and Drugs offer?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6551\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-6551\" role=\"region\"><p>Adapt Halton Alcohol and Drugs offers a range of comprehensive assessment and treatment services to individuals and families who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction. They also offer presentations on alcohol consumption, drug consumption, and gambling on a limited basis.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6552\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-6552\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Adapt Halton Alcohol and Drugs a non-profit organization?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6552\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-6552\" role=\"region\"><p>Yes, Adapt Halton Alcohol and Drugs is a non-profit, community-based, outpatient addiction agency funded by various government agencies, including the Ministry of Health &amp; Long Term Care, the Ministry of Children and Youth Services, and the Ministry of Community Safety and Correctional Services, and the United Way.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6553\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-6553\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What age group does Adapt Halton Alcohol and Drugs serve? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6553\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-6553\" role=\"region\"><p> Adapt Halton Alcohol and Drugs offers services for youths aged 24 and under who are affected by substance or alcohol use. They also provide ongoing counseling and support to adults who are struggling with their own substance use.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6554\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-6554\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of addiction does Adapt Halton Alcohol and Drugs treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6554\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-6554\" role=\"region\"><p>Adapt Halton Alcohol and Drugs specializes in treating individuals who are struggling with substance abuse, drug addiction, alcoholism, and gambling addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6555\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-6555\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapies does Adapt Halton Alcohol and Drugs offer? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6555\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-6555\" role=\"region\"><p> Adapt Halton Alcohol and Drugs offers a variety of therapies, including holistic therapy, evidence-based practices, yoga, meditation, individual therapy, family therapy, group therapy, nutritional counseling, art therapy, and nature therapy.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6556\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-6556\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is there a cost for Adapt Halton Alcohol and Drugs services?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6556\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-6556\" role=\"region\"><p> The presentations provided by Adapt Halton Alcohol and Drugs are free of charge. Their other services may be covered by insurance or government-funded programs, and they also offer sliding scale fees for those who do not have insurance or cannot afford to pay.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-6557\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-6557\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Where is Adapt Halton Alcohol and Drugs located? </a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-6557\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-6557\" role=\"region\"><p> Adapt Halton Alcohol and Drugs is located in Acton, Ontario.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(519) 853-8222\" itemprop=\"url\">(519) 853-8222</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:adapt@haltonadapt.org\" itemprop=\"url\">adapt@haltonadapt.org</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://haltonadapt.org/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://haltonadapt.org/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    25 Main St N, Acton, ON L7J 1V9, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/ADAPT-149964638688403/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

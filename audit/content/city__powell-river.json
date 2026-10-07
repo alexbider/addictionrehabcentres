@@ -1,0 +1,370 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__powell-river",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+  "path": "/listing-location/powell-river/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/powell-river/",
+ "seo": {
+  "meta_title": "Powell River Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+  "og": {
+   "title": "Powell River Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+      "url": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+      "name": "Powell River Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/powell-river/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/powell-river/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Miklat-Recovery-Society.webp",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/powell-river/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/powell-river/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Miklat-Recovery-Society.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Miklat-Recovery-Society.webp",
+      "width": 1360,
+      "height": 800
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/powell-river/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Powell River"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Powell River",
+ "title_bar_h1": "",
+ "word_count": 2,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Powell River Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg",
+   "local_path": "images/city__powell-river/Sunshine_Coast_HC_building.jpg",
+   "alt": "",
+   "width": 700,
+   "height": 467,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/sunshine-coast-health-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/sunshine-coast-health-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+   "text": "Powell River",
+   "kind": "internal",
+   "new": "/listing-location/powell-river/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/sunshine-coast-health-centre/",
+   "text": "Sunshine Coast Health Centre",
+   "kind": "internal",
+   "new": "/sunshine-coast-health-centre/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Powell River Results"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Powell River Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg",
+     "alt": "",
+     "width": "700",
+     "height": "467",
+     "link_href": "https://addictionrehabcenters.ca/sunshine-coast-health-centre/"
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Addiction"
+    },
+    {
+     "type": "text",
+     "text": "Drug Addiction"
+    },
+    {
+     "type": "text",
+     "text": "Men Only"
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab"
+    },
+    {
+     "type": "link",
+     "text": "Powell River",
+     "href": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+     "new_href": "/listing-location/powell-river/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Sunshine Coast Health Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "2174 Fleury Rd, Powell River, BC V8A 0H8, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2174 Fleury Rd, Powell River, BC V8A 0H8, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Powell River Results"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Powell River Results",
+   "html": "More Rehab Centres in Powell River Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg",
+   "alt": "",
+   "width": "700",
+   "height": "467",
+   "link_href": "https://addictionrehabcenters.ca/sunshine-coast-health-centre/"
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction"
+  },
+  {
+   "type": "text",
+   "text": "Drug Addiction"
+  },
+  {
+   "type": "text",
+   "text": "Men Only"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "Powell River",
+   "href": "https://addictionrehabcenters.ca/listing-location/powell-river/",
+   "new_href": "/listing-location/powell-river/"
+  },
+  {
+   "type": "h5",
+   "text": "Sunshine Coast Health Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/sunshine-coast-health-centre/\" itemprop=\"url\">Sunshine Coast Health Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "2174 Fleury Rd, Powell River, BC V8A 0H8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2174 Fleury Rd, Powell River, BC V8A 0H8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Sunshine Coast Health Centre",
+   "href": "https://addictionrehabcenters.ca/sunshine-coast-health-centre/",
+   "address": "2174 Fleury Rd, Powell River, BC V8A 0H8, Canada",
+   "category": "Alcohol AddictionDrug AddictionMen OnlyPrivate Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg",
+    "alt": "",
+    "width": "700",
+    "height": "467"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Sunshine Coast Health Centre",
+    "sunshine-coast-health-centre",
+    "2174 Fleury Rd, Powell River, BC V8A 0H8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Alcohol AddictionDrug AddictionMen OnlyPrivate Rehab"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Powell River",
+  "result_count": "0",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">0</span>\n                                    Top Rehab Centres in Powell River Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n</div>\n<br/>\n<h2>More Rehab Centres in Powell River Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-13768\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/sunshine-coast-health-centre/\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"467\" loading=\"lazy\" sizes=\"(max-width: 700px) 100vw, 700px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building.jpg 700w, https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/12/Sunshine_Coast_HC_building-600x400.jpg 600w\" width=\"700\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Alcohol Addiction</span><span>Drug Addiction</span><span>Men Only</span><span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/powell-river/\">Powell River</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/sunshine-coast-health-centre/\" itemprop=\"url\">Sunshine Coast Health Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2174 Fleury Rd, Powell River, BC V8A 0H8, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

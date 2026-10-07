@@ -1,0 +1,899 @@
+{
+ "schema": "arc-content/1",
+ "slug": "heroin-addiction",
+ "status": "REMAINING",
+ "page_type": "drug",
+ "wp_type": "page",
+ "template": "Drug",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "D1-D6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/heroin-addiction/",
+  "path": "/heroin-addiction/",
+  "wp_items": [
+   {
+    "id": 10769,
+    "type": "page",
+    "title": "Heroin Addiction",
+    "date": "2022-02-02T13:02:07",
+    "modified": "2026-03-03T20:37:06",
+    "status": "publish",
+    "yoast_title": "Heroin Addiction Treatment | Heroin Rehab Centres Canada",
+    "words_rest": 570
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/heroin-addiction/",
+ "seo": {
+  "meta_title": "Heroin Addiction Treatment | Heroin Rehab Centres Canada",
+  "meta_description": "Find heroin addiction signs, treatment & support options in Canada. Get help and begin recovery with trusted rehab resources today!",
+  "canonical_source": "https://addictionrehabcenters.ca/heroin-addiction/",
+  "og": {
+   "title": "Heroin Addiction Treatment | Heroin Rehab Centres Canada",
+   "description": "Find the best Heroin rehab centre near you for Heroin addiction treatment. If you or someone you know is struggling with this addiction please call us today at 1-855-885-4747",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/heroin-addiction/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/heroin-addiction/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Heroin Addiction",
+      "datePublished": "2022-02-02T13:02:07+00:00",
+      "dateModified": "2026-03-03T20:37:06+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/heroin-addiction/"
+      },
+      "wordCount": 865,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/heroin-addiction/",
+      "url": "https://addictionrehabcenters.ca/heroin-addiction/",
+      "name": "Heroin Addiction Treatment | Heroin Rehab Centres Canada",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-02T13:02:07+00:00",
+      "dateModified": "2026-03-03T20:37:06+00:00",
+      "description": "Find heroin addiction signs, treatment & support options in Canada. Get help and begin recovery with trusted rehab resources today!",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/heroin-addiction/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/heroin-addiction/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/heroin-addiction/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Heroin Addiction"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Heroin Addiction",
+ "title_bar_h1": "Heroin Addiction",
+ "word_count": 506,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Heroin Addiction"
+  ],
+  [
+   "h2",
+   "Heroin Addiction: What is it?"
+  ],
+  [
+   "h2",
+   "What is Heroin?"
+  ],
+  [
+   "h2",
+   "The Effects"
+  ],
+  [
+   "h2",
+   "Finding a Treatment for Heroin Addiction"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-banner.jpg",
+   "local_path": "images/heroin-addiction/heroin-addiction-banner.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction.jpg",
+   "local_path": "images/heroin-addiction/heroin-addiction.jpg",
+   "alt": "heroin addiction",
+   "width": 545,
+   "height": 460,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin.jpg",
+   "local_path": "images/heroin-addiction/heroin.jpg",
+   "alt": "heroin",
+   "width": 545,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin.jpg",
+   "local_path": "images/heroin-addiction/ways-of-taking-heroin.jpg",
+   "alt": "ways of taking heroin",
+   "width": 545,
+   "height": 315,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects.jpg",
+   "local_path": "images/heroin-addiction/heroin-addiction-effects.jpg",
+   "alt": "heroin addiction effects",
+   "width": 567,
+   "height": 593,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/contact/",
+   "text": "Contact Us Today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Heroin Addiction",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Heroin Addiction: What is it?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Heroin addiction is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.",
+       "html": "<strong>Heroin addiction</strong> is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.",
+       "html": "Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction.jpg",
+       "alt": "heroin addiction",
+       "width": "545",
+       "height": "460"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin.jpg",
+       "alt": "heroin",
+       "width": "545",
+       "height": "315"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "What is Heroin?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.",
+       "html": "Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "p",
+       "text": "Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.",
+       "html": "Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin.jpg",
+       "alt": "ways of taking heroin",
+       "width": "545",
+       "height": "315"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects.jpg",
+       "alt": "heroin addiction effects",
+       "width": "567",
+       "height": "593"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "The Effects",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.",
+       "html": "When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Finding a Treatment for Heroin Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, Addiction Rehab Centres Canada is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.",
+       "html": "If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Heroin Addiction",
+   "html": "<strong>Heroin Addiction</strong>",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "Heroin Addiction: What is it?",
+   "html": "<strong>Heroin Addiction: What is it?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Heroin addiction is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.",
+   "html": "<strong>Heroin addiction</strong> is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.",
+   "html": "Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction.jpg",
+   "alt": "heroin addiction",
+   "width": "545",
+   "height": "460"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin.jpg",
+   "alt": "heroin",
+   "width": "545",
+   "height": "315"
+  },
+  {
+   "type": "h2",
+   "text": "What is Heroin?",
+   "html": "<strong>What is Heroin?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.",
+   "html": "Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "p",
+   "text": "Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.",
+   "html": "Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin.jpg",
+   "alt": "ways of taking heroin",
+   "width": "545",
+   "height": "315"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects.jpg",
+   "alt": "heroin addiction effects",
+   "width": "567",
+   "height": "593"
+  },
+  {
+   "type": "h2",
+   "text": "The Effects",
+   "html": "<strong>The Effects</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.",
+   "html": "When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Contact Us Today",
+   "href": "/contact/",
+   "new_href": "/contact/"
+  },
+  {
+   "type": "h2",
+   "text": "Finding a Treatment for Heroin Addiction",
+   "html": "<strong>Finding a Treatment for Heroin Addiction</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, Addiction Rehab Centres Canada is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.",
+   "html": "If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+   "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1643896773682",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Heroin Addiction",
+       "html": "<strong>Heroin Addiction</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-banner.jpg?id=10975"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12",
+      "innerContentIntro"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Heroin Addiction: What is it?",
+       "html": "<strong>Heroin Addiction: What is it?</strong>",
+       "id": ""
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Heroin addiction is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.",
+       "html": "<strong>Heroin addiction</strong> is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.",
+       "html": "Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction.jpg",
+       "alt": "heroin addiction",
+       "width": "545",
+       "height": "460"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin.jpg",
+       "alt": "heroin",
+       "width": "545",
+       "height": "315"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "What is Heroin?",
+       "html": "<strong>What is Heroin?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.",
+       "html": "Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.",
+       "html": "Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin.jpg",
+       "alt": "ways of taking heroin",
+       "width": "545",
+       "height": "315"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "cta-banner",
+   "classes": [
+    "newHomeBanner",
+    "bottomHomeBanner",
+    "innerBottomBanner",
+    "vc_row-no-padding",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects.jpg",
+       "alt": "heroin addiction effects",
+       "width": "567",
+       "height": "593"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "The Effects",
+       "html": "<strong>The Effects</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.",
+       "html": "When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "help-block",
+   "classes": [
+    "innerBlueContent"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Finding a Treatment for Heroin Addiction",
+       "html": "<strong>Finding a Treatment for Heroin Addiction</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, Addiction Rehab Centres Canada is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.",
+       "html": "If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a> is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Heroin Addiction",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-banner.jpg?id=10975"
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1643896773682 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>Heroin Addiction</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element innerContentIntro\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Heroin Addiction: What is it?</strong></h2>\n</div>\n</div>\n</div></div></div><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>Heroin addiction</strong> is known as one of the most common drug-related problems in Canada through the years. In 2004, a survey was conducted and it appeared that 1 percent of the country’s population had made use of this kind of illegal drug. In 1999, a survey was conducted in Toronto and discovered that 11 percent of the youth here are struggling from heroin addiction.</p>\n<p>Compared to all the other provinces in Canada, British Columbia placed itself at the top rank being the home of many people who were addicted to heroin. Higher numbers of heroin addiction are also found in the Northwest Territories and this problem also exists in Alberta, Edmonton and Calgary. ON the other hand, the province of Quebec has a situation with heroin addiction and people who are addicted to heroin are in dire need of help and support. Users of heroin in Canada are found in boys and girls ranging from 12 to 17 years old. Many of these individuals have had prolonged use of the drug, making them addicted to it over time.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"heroin addiction\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"460\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-300x253.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"heroin\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"315\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-300x173.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>What is Heroin?</strong></h2>\n<p>Heroin is known as one of the most highly addictive drugs and the most abused substance in the streets of Canada. It is commonly made from morphine which is derived from the Asian poppy plant extracts. When sold, heroin comes in the form of a brownish or whitish powder or as a blackish and sticky substance which is popularly known as black tar heroin in the Canadian streets.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Heroin is usually taken by users in three different ways which include injecting, snorting (sniffing) and smoking (chasing). Since heroin travels fast through the blood stream, users of this drug choose the injection method to get the effects in a quicker manner. Once the heroin is injected, its entire amount enters the blood stream, thereby increasing the chances of suffering from heroin overdose. Heroin is otherwise known in the following street names: dope, junk and smack.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"ways of taking heroin\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"315\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/ways-of-taking-heroin-300x173.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid newHomeBanner bottomHomeBanner innerBottomBanner vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\" data-vc-stretch-content=\"true\"><div class=\"homeImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"heroin addiction effects\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"593\" loading=\"lazy\" sizes=\"(max-width: 567px) 100vw, 567px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects.jpg 567w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/heroin-addiction-effects-287x300.jpg 287w\" width=\"567\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"newHomeBannerContent wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>The Effects</strong></h2>\n<p>When a person takes heroin in any way, feelings of euphoria, warmth, contentment and well-being are often reported. Other known effects also include anxiety, confusion, paranoia, mood swings, a rush type of feeling or sensation followed by a relaxed and contented state. Since opiates are known as painkillers, heroin can also be used to reduce or stop pains. However, this drug can also cause unconsciousness to a person. Long-term effects of heroin use can cause loss of sex drive, infertility and menstrual irregularity among women, constipation, cognitive impairment and extreme sadness.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid bannerBtn\" data-wpel-link=\"internal\" href=\"/contact/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Contact Us Today</span>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerBlueContent\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Finding a Treatment for Heroin Addiction</strong></h2>\n<p>If you are struggling with heroin addiction and you want something that will treat you the safe and effective way, <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\"><strong>Addiction Rehab Centres Canada</strong></a> is the path to follow. Equipped with the best facilities and professionals, this rehab center will surely lead you to live a life that’s free from drugs.</p>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element callSpecialist\">\n<div class=\"wpb_wrapper\">\n<p>Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a></p>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

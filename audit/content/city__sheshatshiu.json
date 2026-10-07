@@ -1,0 +1,485 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__sheshatshiu",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+  "path": "/listing-location/sheshatshiu/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/sheshatshiu/",
+ "seo": {
+  "meta_title": "Sheshatshiu Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+  "og": {
+   "title": "Sheshatshiu Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+      "url": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+      "name": "Sheshatshiu Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "charles"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Sheshatshiu"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Sheshatshiu",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Sheshatshiu Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+   "local_path": "images/city__sheshatshiu/charles.jpg",
+   "alt": "charles",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+   "local_path": "images/city__sheshatshiu/peguis.jpg",
+   "alt": "peguis",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/charles-j-andrew-youth-treatment-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+   "text": "Charles J. Andrew Youth Treatment Centre",
+   "kind": "internal",
+   "new": "/charles-j-andrew-youth-treatment-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/peguis-al-care-treatment-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+   "text": "Sheshatshiu",
+   "kind": "internal",
+   "new": "/listing-location/sheshatshiu/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+   "text": "Peguis Al-Care Treatment Centre",
+   "kind": "internal",
+   "new": "/peguis-al-care-treatment-centre/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Sheshatshiu Results"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+     "alt": "charles",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Sheshatshiu"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Charles J. Andrew Youth Treatment Centre",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "In response to the crisis of gas-sniffing and suicides between many Innu youths in Sheshatshiu, Labrador, the Charles J Andrew Youth Treatment Centre..."
+    },
+    {
+     "type": "p",
+     "text": "North West River, NL, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    North West River, NL, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Sheshatshiu Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+     "alt": "peguis",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/"
+    },
+    {
+     "type": "link",
+     "text": "Sheshatshiu",
+     "href": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+     "new_href": "/listing-location/sheshatshiu/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Peguis Al-Care Treatment Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Peguis, MB R0C, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    Peguis, MB R0C, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "1"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Sheshatshiu Results"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+   "alt": "charles",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Sheshatshiu"
+  },
+  {
+   "type": "h5",
+   "text": "Charles J. Andrew Youth Treatment Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/charles-j-andrew-youth-treatment-centre/\" itemprop=\"url\">Charles J. Andrew Youth Treatment Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "In response to the crisis of gas-sniffing and suicides between many Innu youths in Sheshatshiu, Labrador, the Charles J Andrew Youth Treatment Centre..."
+  },
+  {
+   "type": "p",
+   "text": "North West River, NL, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    North West River, NL, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Sheshatshiu Results",
+   "html": "More Rehab Centres in Sheshatshiu Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+   "alt": "peguis",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/"
+  },
+  {
+   "type": "link",
+   "text": "Sheshatshiu",
+   "href": "https://addictionrehabcenters.ca/listing-location/sheshatshiu/",
+   "new_href": "/listing-location/sheshatshiu/"
+  },
+  {
+   "type": "h5",
+   "text": "Peguis Al-Care Treatment Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/peguis-al-care-treatment-centre/\" itemprop=\"url\">Peguis Al-Care Treatment Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Peguis, MB R0C, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    Peguis, MB R0C, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Charles J. Andrew Youth Treatment Centre",
+   "href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+   "address": "North West River, NL, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+    "alt": "charles",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Peguis Al-Care Treatment Centre",
+   "href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+   "address": "Peguis, MB R0C, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+    "alt": "peguis",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Charles J. Andrew Youth Treatment Centre",
+    "charles-j-andrew-youth-treatment-centre",
+    "North West River, NL, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Peguis Al-Care Treatment Centre",
+    "peguis-al-care-treatment-centre",
+    "Peguis, MB R0C, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Sheshatshiu",
+  "result_count": "1",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">1</span>\n                                    Top Rehab Centres in Sheshatshiu Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n<div class=\"place-item layout-02 golo-place-featured place-6656\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/\">\n<img alt=\"charles\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles-768x512.jpg 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n                                                    Sheshatshiu                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/\" itemprop=\"url\">Charles J. Andrew Youth Treatment Centre</a>\n</h5>\n<!-- post excerpt -->\n                                            In response to the crisis of gas-sniffing and suicides between many Innu youths in Sheshatshiu, Labrador, the Charles J Andrew Youth Treatment Centre...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    North West River, NL, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br/>\n<h2>More Rehab Centres in Sheshatshiu Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6610\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/\">\n<img alt=\"peguis\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis-768x512.jpg 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/sheshatshiu/\">Sheshatshiu</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/\" itemprop=\"url\">Peguis Al-Care Treatment Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    Peguis, MB R0C, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

@@ -1,0 +1,2554 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__breton-house-algoma-substance-abuse-rehabilitation-centre",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/",
+  "path": "/breton-house-algoma-substance-abuse-rehabilitation-centre/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/breton-house-algoma-substance-abuse-rehabilitation-centre/",
+ "seo": {
+  "meta_title": "Breton House – Algoma Substance Abuse Rehabilitation Centre - Addiction Rehab Centers",
+  "meta_description": "Breton House – Algoma Substance Abuse Rehabilitation Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/",
+  "og": {
+   "title": "Breton House – Algoma Substance Abuse Rehabilitation Centre - Addiction Rehab Centers",
+   "description": "Breton House – Algoma Substance Abuse Rehabilitation Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Blue-Skies-Recovery-1.jpeg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/",
+      "url": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/",
+      "name": "Breton House – Algoma Substance Abuse Rehabilitation Centre - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Blue-Skies-Recovery-1.jpeg",
+      "datePublished": "2023-04-18T08:44:04+00:00",
+      "description": "Breton House – Algoma Substance Abuse Rehabilitation Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Blue-Skies-Recovery-1.jpeg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Blue-Skies-Recovery-1.jpeg",
+      "width": 1360,
+      "height": 783,
+      "caption": "Blue Skies Recovery"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/breton-house-algoma-substance-abuse-rehabilitation-centre/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Breton House – Algoma Substance Abuse Rehabilitation Centre"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 977,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "General Information"
+  ],
+  [
+   "h3",
+   "Mission & Vision"
+  ],
+  [
+   "h3",
+   "Admission Criteria"
+  ],
+  [
+   "h3",
+   "Key Points"
+  ],
+  [
+   "h2",
+   "Breton House - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Breton House"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Blue-Skies-Recovery-1.jpeg",
+   "local_path": "images/centre__breton-house-algoma-substance-abuse-rehabilitation-centre/Blue-Skies-Recovery-1.jpeg",
+   "alt": "Blue Skies Recovery",
+   "width": 1360,
+   "height": 783,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(705) 759-4891",
+   "text": "(705) 759-4891",
+   "kind": "tel",
+   "new": "tel:(705) 759-4891"
+  },
+  {
+   "old_href": "mailto:mainoffice@bretonhouse.ca",
+   "text": "mainoffice@bretonhouse.ca",
+   "kind": "mailto",
+   "new": "mailto:mainoffice@bretonhouse.ca"
+  },
+  {
+   "old_href": "https://bretonhouse.ca/",
+   "text": "https://bretonhouse.ca/",
+   "kind": "external",
+   "new": "https://bretonhouse.ca/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "General Information",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings.",
+     "html": "<span style=\"font-weight: 500;\">Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings. </span>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions.",
+     "html": "<span style=\"font-weight: 500;\">Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions. </span>",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Mission & Vision",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.",
+     "html": "<span style=\"font-weight: 500;\">Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.</span>",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Admission Criteria",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues.",
+     "html": "<span style=\"font-weight: 500;\">Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues. </span>",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Key Points",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process.",
+     "html": "<span style=\"font-weight: 500;\">Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process. </span>",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.",
+     "html": "<span style=\"font-weight: 500;\">Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.</span>",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Breton House - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.",
+     "html": "The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.",
+     "html": "The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Breton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Breton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Breton House",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is Breton House and who is it designed to support?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+       "html": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What types of groups are available at Breton House?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+       "html": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the smoking policy at Breton House?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+       "html": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is Breton House's mission?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+       "html": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the admission process for Breton House?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+       "html": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Are there any restrictions on medications at Breton House?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+       "html": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(705) 759-4891",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(705) 759-4891\" itemprop=\"url\">(705) 759-4891</a>",
+         "links": [
+          {
+           "old": "tel:(705) 759-4891",
+           "text": "(705) 759-4891"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "mainoffice@bretonhouse.ca",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:mainoffice@bretonhouse.ca\" itemprop=\"url\">mainoffice@bretonhouse.ca</a>",
+         "links": [
+          {
+           "old": "mailto:mainoffice@bretonhouse.ca",
+           "text": "mainoffice@bretonhouse.ca"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://bretonhouse.ca/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://bretonhouse.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://bretonhouse.ca/</a>",
+         "links": [
+          {
+           "old": "https://bretonhouse.ca/",
+           "text": "https://bretonhouse.ca/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "91 Breton Rd, Sault Ste. Marie, Ontario, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    91 Breton Rd, Sault Ste. Marie, Ontario, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:38pm"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "General Information",
+   "html": "<span style=\"font-weight: 400;\">General Information</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings.",
+   "html": "<span style=\"font-weight: 500;\">Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions.",
+   "html": "<span style=\"font-weight: 500;\">Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Mission & Vision",
+   "html": "<span style=\"font-weight: 400;\">Mission &amp; Vision</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.",
+   "html": "<span style=\"font-weight: 500;\">Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Admission Criteria",
+   "html": "<span style=\"font-weight: 400;\">Admission Criteria</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues.",
+   "html": "<span style=\"font-weight: 500;\">Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Key Points",
+   "html": "<span style=\"font-weight: 400;\">Key Points</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process.",
+   "html": "<span style=\"font-weight: 500;\">Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process. </span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.",
+   "html": "<span style=\"font-weight: 500;\">Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Breton House - Center Overview",
+   "html": "Breton House - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.",
+   "html": "The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.",
+   "html": "The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Breton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Breton House",
+   "html": "Frequently Asked Questions About Breton House",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is Breton House and who is it designed to support?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+   "html": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What types of groups are available at Breton House?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+   "html": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the smoking policy at Breton House?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+   "html": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is Breton House's mission?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+   "html": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the admission process for Breton House?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+   "html": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Are there any restrictions on medications at Breton House?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+   "html": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(705) 759-4891",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(705) 759-4891\" itemprop=\"url\">(705) 759-4891</a>",
+   "links": [
+    {
+     "old": "tel:(705) 759-4891",
+     "text": "(705) 759-4891"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "mainoffice@bretonhouse.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:mainoffice@bretonhouse.ca\" itemprop=\"url\">mainoffice@bretonhouse.ca</a>",
+   "links": [
+    {
+     "old": "mailto:mainoffice@bretonhouse.ca",
+     "text": "mainoffice@bretonhouse.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://bretonhouse.ca/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://bretonhouse.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://bretonhouse.ca/</a>",
+   "links": [
+    {
+     "old": "https://bretonhouse.ca/",
+     "text": "https://bretonhouse.ca/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "91 Breton Rd, Sault Ste. Marie, Ontario, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    91 Breton Rd, Sault Ste. Marie, Ontario, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:38pm"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Breton House – Algoma Substance Abuse Rehabilitation Centre",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-14728\" data-elementor-id=\"14728\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-22250ec4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"22250ec4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39979a54\" data-element_type=\"column\" data-id=\"39979a54\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-612ea028 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"612ea028\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-720319ab\" data-element_type=\"column\" data-id=\"720319ab\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-648ac0c2 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"648ac0c2\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3><span style=\"font-weight: 400;\">General Information</span></h3><p><span style=\"font-weight: 500;\">Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings. </span></p><p><span style=\"font-weight: 500;\">Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions. </span></p><h3><span style=\"font-weight: 400;\">Mission &amp; Vision</span></h3><p><span style=\"font-weight: 500;\">Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.</span></p><h3><span style=\"font-weight: 400;\">Admission Criteria</span></h3><p><span style=\"font-weight: 500;\">Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues. </span></p><h3><span style=\"font-weight: 400;\">Key Points</span></h3><p><span style=\"font-weight: 500;\">Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process. </span></p><p><span style=\"font-weight: 500;\">Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.</span></p><p> </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-48e326d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"48e326d2\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49e2aa41\" data-element_type=\"column\" data-id=\"49e2aa41\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-59f94775 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"59f94775\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-292825c2 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"292825c2\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Breton House - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-72461839 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"72461839\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.</p><p>The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b22653a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b22653a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3c317735\" data-element_type=\"column\" data-id=\"3c317735\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-f6f7004 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f6f7004\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5b025156\" data-element_type=\"column\" data-id=\"5b025156\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3497470b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3497470b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-25095840 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"25095840\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4535ce85\" data-element_type=\"column\" data-id=\"4535ce85\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-ad5bd26 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"ad5bd26\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tBreton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4ada79fa elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"4ada79fa\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-16fd4f5d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"16fd4f5d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-65ded166 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"65ded166\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac900d6\" data-element_type=\"column\" data-id=\"ac900d6\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-68e4830a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"68e4830a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-53d7632a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"53d7632a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3f7d26af\" data-element_type=\"column\" data-id=\"3f7d26af\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-468e8e63 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"468e8e63\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Breton House</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-70c2d591 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"70c2d591\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1891\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1891\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Breton House and who is it designed to support?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1891\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1891\" role=\"region\"><p>Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1892\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1892\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of groups are available at Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1892\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1892\" role=\"region\"><p>Residents can participate in both on-site and community-based groups while staying at Breton House.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1893\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1893\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the smoking policy at Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1893\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1893\" role=\"region\"><p>Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1894\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1894\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Breton House's mission?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1894\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1894\" role=\"region\"><p>Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1895\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1895\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the admission process for Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1895\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1895\" role=\"region\"><p>Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1896\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1896\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are there any restrictions on medications at Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1896\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1896\" role=\"region\"><p>All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(705) 759-4891",
+  "email": "mainoffice@bretonhouse.ca",
+  "website": "https://bretonhouse.ca/",
+  "address": "91 Breton Rd, Sault Ste. Marie, Ontario, Canada",
+  "social": {},
+  "gallery": [],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "General Information",
+    "html": "<span style=\"font-weight: 400;\">General Information</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings.",
+    "html": "<span style=\"font-weight: 500;\">Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings. </span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions.",
+    "html": "<span style=\"font-weight: 500;\">Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions. </span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Mission & Vision",
+    "html": "<span style=\"font-weight: 400;\">Mission &amp; Vision</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.",
+    "html": "<span style=\"font-weight: 500;\">Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Admission Criteria",
+    "html": "<span style=\"font-weight: 400;\">Admission Criteria</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues.",
+    "html": "<span style=\"font-weight: 500;\">Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues. </span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Key Points",
+    "html": "<span style=\"font-weight: 400;\">Key Points</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process.",
+    "html": "<span style=\"font-weight: 500;\">Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process. </span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.",
+    "html": "<span style=\"font-weight: 500;\">Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "Breton House - Center Overview",
+    "html": "Breton House - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.",
+    "html": "The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.",
+    "html": "The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Breton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Breton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Breton House",
+  "faqs": [
+   {
+    "question": "What is Breton House and who is it designed to support?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+      "html": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use."
+   },
+   {
+    "question": "What types of groups are available at Breton House?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+      "html": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Residents can participate in both on-site and community-based groups while staying at Breton House."
+   },
+   {
+    "question": "What is the smoking policy at Breton House?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+      "html": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility."
+   },
+   {
+    "question": "What is Breton House's mission?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+      "html": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change."
+   },
+   {
+    "question": "What is the admission process for Breton House?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+      "html": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria."
+   },
+   {
+    "question": "Are there any restrictions on medications at Breton House?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+      "html": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(705) 759-4891",
+  "phone_href": "tel:(705) 759-4891",
+  "website_text": "https://bretonhouse.ca/",
+  "social_title": "",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What is Breton House and who is it designed to support?",
+   "answer_text": "Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.",
+   "answer_html": "<p>Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of groups are available at Breton House?",
+   "answer_text": "Residents can participate in both on-site and community-based groups while staying at Breton House.",
+   "answer_html": "<p>Residents can participate in both on-site and community-based groups while staying at Breton House.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the smoking policy at Breton House?",
+   "answer_text": "Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.",
+   "answer_html": "<p>Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is Breton House's mission?",
+   "answer_text": "Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.",
+   "answer_html": "<p>Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the admission process for Breton House?",
+   "answer_text": "Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.",
+   "answer_html": "<p>Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Are there any restrictions on medications at Breton House?",
+   "answer_text": "All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.",
+   "answer_html": "<p>All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-14728\" data-elementor-id=\"14728\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-22250ec4 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"22250ec4\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-39979a54\" data-element_type=\"column\" data-id=\"39979a54\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-612ea028 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"612ea028\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-720319ab\" data-element_type=\"column\" data-id=\"720319ab\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-648ac0c2 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"648ac0c2\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3><span style=\"font-weight: 400;\">General Information</span></h3><p><span style=\"font-weight: 500;\">Breton House is a residential facility that is specifically designed to support women aged 19 years and over who are seeking to make positive changes regarding their substance use. The facility offers six to eight beds, and residents can look forward to participating in groups both at Breton House and within the community. The facility also offers access to 12-Step meetings. </span></p><p><span style=\"font-weight: 500;\">Breton House is a scent-free and smoke-free zone, with a special designated area for smoking outside. The safety of all residents is paramount, and as such, the facility maintains a zero-tolerance policy towards drug and alcohol use on the premises, as well as toward violent threats or actions. </span></p><h3><span style=\"font-weight: 400;\">Mission &amp; Vision</span></h3><p><span style=\"font-weight: 500;\">Breton House’s mission is straightforward: to support women with substance abuse issues in achieving better health and truly becoming empowered, with opportunities for both growth and change. Meanwhile, the Breton House vision is one of empowering hope, allowing women to seize control of their lives and take positive strides forward, leaving substance abuse behind.</span></p><h3><span style=\"font-weight: 400;\">Admission Criteria</span></h3><p><span style=\"font-weight: 500;\">Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once the assessment is evaluated, prospective residents will be contacted at their provided number. If out of town, an initial interview will be conducted over the phone, or in person if residing in the area. This intake process is designed to assess potential residents’ needs and gather necessary information. To gain admission, prospective residents must have addiction-specific issues. </span></p><h3><span style=\"font-weight: 400;\">Key Points</span></h3><p><span style=\"font-weight: 500;\">Breton House maintains a no-smoking, no-scent policy. Additionally, all medications must be in properly labeled containers and mood-altering medications are considered on a case-by-case basis. Residents who are on methadone or suboxone will be required to be on a stable dose; specific information relevant to methadone and suboxone can be discussed with staff during the initial intake process. </span></p><p><span style=\"font-weight: 500;\">Overall, Breton House provides specialized support for women seeking to make positive strides forward in their lives. Its evidence-based treatment options, emphasis on community involvement, and zero-tolerance policies combine to create a nurturing environment that promotes growth and change.</span></p><p> </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-48e326d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"48e326d2\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-49e2aa41\" data-element_type=\"column\" data-id=\"49e2aa41\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-59f94775 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"59f94775\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-292825c2 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"292825c2\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Breton House - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-72461839 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"72461839\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>The Algoma Substance Abuse Rehabilitation Centre has a rich history of providing a safe and supportive environment for women seeking recovery from chemical dependency. Founded in the early 1980s, this rehabilitation centre evolved from a local chapter of Women for Sobriety into a fully operational recovery home for women. With funding secured from the Ministry of Health and contributions made by the Federal Government, the United Way of Sault Ste. Marie and other community supporters, the agency was able to purchase property and establish Breton House in 1986.</p><p>The centre’s mission is to offer opportunities for women to grow and change in their pursuit of recovery from addiction. The centre is governed by a volunteer board of directors chosen from the community for their qualifications and skills to ensure policy-setting and governance of the programs are of a high standard, while the staff implements and provides the service delivery of the programs. Today, the Algoma Substance Abuse Rehabilitation Centre continues to provide a safe, structured and supportive environment for women seeking recovery from chemical dependency, going beyond treating addiction itself, the centre looks at uncovering the underlying issues that have led to the addiction to give the clients the best chance for a sustainable recovery.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-b22653a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"b22653a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3c317735\" data-element_type=\"column\" data-id=\"3c317735\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-f6f7004 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"f6f7004\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5b025156\" data-element_type=\"column\" data-id=\"5b025156\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-3497470b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"3497470b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-25095840 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"25095840\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4535ce85\" data-element_type=\"column\" data-id=\"4535ce85\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-ad5bd26 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"ad5bd26\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tBreton House has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4ada79fa elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"4ada79fa\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-16fd4f5d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"16fd4f5d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-65ded166 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"65ded166\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ac900d6\" data-element_type=\"column\" data-id=\"ac900d6\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-68e4830a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"68e4830a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-53d7632a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"53d7632a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3f7d26af\" data-element_type=\"column\" data-id=\"3f7d26af\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-468e8e63 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"468e8e63\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Breton House</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-70c2d591 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"70c2d591\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1891\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1891\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Breton House and who is it designed to support?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1891\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1891\" role=\"region\"><p>Breton House is a residential facility designed specifically for women aged 19 years and over who are seeking to make positive changes regarding their substance use.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1892\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1892\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of groups are available at Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1892\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1892\" role=\"region\"><p>Residents can participate in both on-site and community-based groups while staying at Breton House.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1893\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1893\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the smoking policy at Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1893\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1893\" role=\"region\"><p>Breton House is a scent-free and smoke-free zone, with a designated smoking area outside of the facility.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1894\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1894\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is Breton House's mission?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1894\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1894\" role=\"region\"><p>Breton House’s mission is to help support women with substance abuse issues in achieving better health, empowerment, and opportunities for growth and positive change.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1895\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1895\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the admission process for Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1895\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1895\" role=\"region\"><p>Prospective residents will need to undergo a provincial assessment, with the results faxed to Breton House. Once evaluated, potential residents will be contacted, either over the phone or in person, to determine if they meet the admission criteria.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1896\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1896\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are there any restrictions on medications at Breton House?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1896\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1896\" role=\"region\"><p>All medications must be in properly labeled containers, and mood-altering medications are considered on a case-by-case basis at Breton House.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(705) 759-4891\" itemprop=\"url\">(705) 759-4891</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:mainoffice@bretonhouse.ca\" itemprop=\"url\">mainoffice@bretonhouse.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://bretonhouse.ca/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://bretonhouse.ca/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    91 Breton Rd, Sault Ste. Marie, Ontario, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:38pm</span>\n</div>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

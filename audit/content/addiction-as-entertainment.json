@@ -1,0 +1,597 @@
+{
+ "schema": "arc-content/1",
+ "slug": "addiction-as-entertainment",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/addiction-as-entertainment/",
+  "path": "/addiction-as-entertainment/",
+  "wp_items": [
+   {
+    "id": 12773,
+    "type": "post",
+    "title": "Addiction as Entertainment",
+    "date": "2022-08-05T11:56:25",
+    "modified": "2022-08-11T09:28:17",
+    "status": "publish",
+    "yoast_title": "Addiction as Entertainment - Addiction Rehab Centers",
+    "words_rest": 647
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/addiction-as-entertainment/",
+ "seo": {
+  "meta_title": "Addiction as Entertainment - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/addiction-as-entertainment/",
+  "og": {
+   "title": "Addiction as Entertainment - Addiction Rehab Centers",
+   "description": "We are completely attracted to misfortunes – both big and small. Simply take a gander at any interstate when there is a fender bender. Not only does the side with the accident slow down to maneuver around the cars, but […]",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Addiction as Entertainment",
+      "datePublished": "2022-08-05T11:56:25+00:00",
+      "dateModified": "2022-08-11T09:28:17+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/"
+      },
+      "wordCount": 653,
+      "commentCount": 0,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+      "keywords": [
+       "Addiction as Entertainment",
+       "Celebrity Rehab"
+      ],
+      "articleSection": [
+       "Addiction Rehab",
+       "Alcohol Addiction Treatment",
+       "Drug Addiction Treatment"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "CommentAction",
+        "name": "Comment",
+        "target": [
+         "https://addictionrehabcenters.ca/addiction-as-entertainment/#respond"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/",
+      "url": "https://addictionrehabcenters.ca/addiction-as-entertainment/",
+      "name": "Addiction as Entertainment - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+      "datePublished": "2022-08-05T11:56:25+00:00",
+      "dateModified": "2022-08-11T09:28:17+00:00",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/addiction-as-entertainment/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "addiction as entertainment"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/addiction-as-entertainment/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Addiction as Entertainment"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Addiction as Entertainment",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 665,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Addiction as Entertainment"
+  ],
+  [
+   "h2",
+   "Celebrity Rehab"
+  ],
+  [
+   "h2",
+   "Addiction as Entertainment"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+   "local_path": "images/addiction-as-entertainment/addiction-as-entertainment.jpg",
+   "alt": "addiction as entertainment",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg",
+   "local_path": "images/addiction-as-entertainment/celebrity-rehab.jpg",
+   "alt": "celebrity rehab",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2022/00/",
+   "text": "August 5, 2022",
+   "kind": "taxonomy-dropped",
+   "new": "/2022/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/addiction-rehab/",
+   "text": "Addiction Rehab",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/alcohol-addiction-treatment/",
+   "text": "Alcohol Addiction Treatment",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/drug-addiction-treatment/",
+   "text": "Drug Addiction Treatment",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg",
+   "text": "",
+   "kind": "external",
+   "new": "https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/addiction-as-entertainment/#respond",
+   "text": "0 Comments",
+   "kind": "internal",
+   "new": "/addiction-as-entertainment/#respond",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+     "alt": "addiction as entertainment",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "August 5, 2022",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Addiction Rehab",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "/"
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Addiction Treatment",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "/"
+    },
+    {
+     "type": "text",
+     "text": "Drug Addiction Treatment",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Addiction as Entertainment",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "We are completely attracted to misfortunes – both big and small. Simply take a gander at any interstate when there is a fender bender. Not only does the side with the accident slow down to maneuver around the cars, but so too does the other side of the highway. Why? Well, to look at the accident of course.",
+     "html": "We are completely attracted to misfortunes – both big and small. Simply take a gander at any interstate when there is a fender bender. Not only does the side with the accident slow down to maneuver around the cars, but so too does the other side of the highway. Why? Well, to look at the accident of course.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "This draw to check out what might be happening on the other side of the highway is the same draw we have to reality shows such as Dr. Phil or Celebrity Rehab. Both of these shows use scenes of individuals at their most exceedingly terrible to draw a group of people. They promote the human show, with clasps of crying individuals or vicious showdowns and guarantee the watcher’s emotional goals to individuals’ very own battles.",
+     "html": "This draw to check out what might be happening on the other side of the highway is the same draw we have to reality shows such as Dr. Phil or Celebrity Rehab. Both of these shows use scenes of individuals at their most exceedingly terrible to draw a group of people. They promote the human show, with clasps of crying individuals or vicious showdowns and guarantee the watcher’s emotional goals to individuals’ very own battles.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Despite the fact that Dr. Phil has various topics on his show a well-known one is that of individuals requiring help with dependence and is regularly encouraging individuals free recovery in the event that they consent to go immediately (after the taping of the show that is). Celebrity Rehab is exactly that, taking celebrities into their rehab centre and filming the entire thing.",
+     "html": "Despite the fact that Dr. Phil has various topics on his show a well-known one is that of individuals requiring help with dependence and is regularly encouraging individuals free recovery in the event that they consent to go immediately (after the taping of the show that is). Celebrity Rehab is exactly that, taking celebrities into their rehab centre and filming the entire thing.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "The question becomes – are these programs actually helping the people they serve or are they simply dramatizing their stories in order to get ratings? If they were being fully sincere in their efforts, perhaps they would also be successful at reaching addicts in their homes and shining a light on the problems they might be encountering in their own life.",
+     "html": "The question becomes – are these programs actually helping the people they serve or are they simply dramatizing their stories in order to get ratings? If they were being fully sincere in their efforts, perhaps they would also be successful at reaching addicts in their homes and shining a light on the problems they might be encountering in their own life.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Celebrity Rehab",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Turning our attention to Celebrity Rehab, the same drama is advertised but through the professional lens of Dr. Drew, a long-time addictions doctor. By using Dr. Drew as an expert, the show chronicles celebrities who are going through treatment at the Pasadena Rehabilitation Centre. Like Dr. Phil, dramatic scenes of confrontations and crying are the mainstay of the show and are how they build their audience.",
+       "html": "Turning our attention to Celebrity Rehab, the same drama is advertised but through the professional lens of Dr. Drew, a long-time addictions doctor. By using Dr. Drew as an expert, the show chronicles celebrities who are going through treatment at the Pasadena Rehabilitation Centre. Like Dr. Phil, dramatic scenes of confrontations and crying are the mainstay of the show and are how they build their audience.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Unlike Dr. Phil, it can be relatively easy to find out if these treatments worked, as the subjects are known to the public. Many of the celebrities who did the show relapsed and six of the participants died of drug or alcohol-related overdoses. This certainly makes the show seem not very successful and there have been questions about Dr. Drew exploiting people’s vulnerabilities for profit.",
+       "html": "Unlike Dr. Phil, it can be relatively easy to find out if these treatments worked, as the subjects are known to the public. Many of the celebrities who did the show relapsed and six of the participants died of drug or alcohol-related overdoses. This certainly makes the show seem not very successful and there have been questions about Dr. Drew exploiting people’s vulnerabilities for profit.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "When comparing the show to actual rehab facilities we can also see that the success rate is much higher in the “real” world. The fact that the show has a higher relapse rate than a regular rehabilitation centre is a pretty bleak reality. It certainly seems as though Celebrity Rehab really does only care about one thing: ratings.",
+       "html": "When comparing the show to actual rehab facilities we can also see that the success rate is much higher in the “real” world. The fact that the show has a higher relapse rate than a regular rehabilitation centre is a pretty bleak reality. It certainly seems as though Celebrity Rehab really does only care about one thing: ratings.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 1,
+   "heading": "",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Addiction as Entertainment",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Both Dr. Phil and Celebrity Rehab perpetuate the stigma that is placed on addicts. In both shows, the addicts are shown in a state of disarray, often being portrayed as confrontational or violent. By showing these people at their worst, the shows can gain viewers, which after all is the main goal of the Entertainment Industry.",
+       "html": "Both Dr. Phil and Celebrity Rehab perpetuate the stigma that is placed on addicts. In both shows, the addicts are shown in a state of disarray, often being portrayed as confrontational or violent. By showing these people at their worst, the shows can gain viewers, which after all is the main goal of the Entertainment Industry.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "It is not very clear whether either show has any “success” stories and long-term recovery does not seem to be in the picture. Though seeing an addict’s story on Dr. Phil or witnessing a celebrity go through the rehab process may inspire some to seek treatment for themselves, it is not likely to help anyone understand the difficulty of becoming sober. Going from addiction to sobriety is not an easy journey and for those seeking long-term recovery, the Entertainment Industry is not the place to turn for inspiration.",
+       "html": "It is not very clear whether either show has any “success” stories and long-term recovery does not seem to be in the picture. Though seeing an addict’s story on Dr. Phil or witnessing a celebrity go through the rehab process may inspire some to seek treatment for themselves, it is not likely to help anyone understand the difficulty of becoming sober. Going from addiction to sobriety is not an easy journey and for those seeking long-term recovery, the Entertainment Industry is not the place to turn for inspiration.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Watching shows such as Dr. Phil and Celebrity Rehab is best done by those seeking entertainment, as the reality they portray is questionable. And unfortunately, until we are able to turn away from the car accident, addicts will continue to be stigmatized and these types of shows will continue to be popular.",
+       "html": "Watching shows such as Dr. Phil and Celebrity Rehab is best done by those seeking entertainment, as the reality they portray is questionable. And unfortunately, until we are able to turn away from the car accident, addicts will continue to be stigmatized and these types of shows will continue to be popular.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "0 Comments",
+       "href": "https://addictionrehabcenters.ca/addiction-as-entertainment/#respond",
+       "new_href": "/addiction-as-entertainment/#respond"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+   "alt": "addiction as entertainment",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "August 5, 2022",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Addiction Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "/"
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction Treatment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "/"
+  },
+  {
+   "type": "text",
+   "text": "Drug Addiction Treatment",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Addiction as Entertainment",
+   "html": "Addiction as Entertainment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We are completely attracted to misfortunes – both big and small. Simply take a gander at any interstate when there is a fender bender. Not only does the side with the accident slow down to maneuver around the cars, but so too does the other side of the highway. Why? Well, to look at the accident of course.",
+   "html": "We are completely attracted to misfortunes – both big and small. Simply take a gander at any interstate when there is a fender bender. Not only does the side with the accident slow down to maneuver around the cars, but so too does the other side of the highway. Why? Well, to look at the accident of course.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This draw to check out what might be happening on the other side of the highway is the same draw we have to reality shows such as Dr. Phil or Celebrity Rehab. Both of these shows use scenes of individuals at their most exceedingly terrible to draw a group of people. They promote the human show, with clasps of crying individuals or vicious showdowns and guarantee the watcher’s emotional goals to individuals’ very own battles.",
+   "html": "This draw to check out what might be happening on the other side of the highway is the same draw we have to reality shows such as Dr. Phil or Celebrity Rehab. Both of these shows use scenes of individuals at their most exceedingly terrible to draw a group of people. They promote the human show, with clasps of crying individuals or vicious showdowns and guarantee the watcher’s emotional goals to individuals’ very own battles.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Despite the fact that Dr. Phil has various topics on his show a well-known one is that of individuals requiring help with dependence and is regularly encouraging individuals free recovery in the event that they consent to go immediately (after the taping of the show that is). Celebrity Rehab is exactly that, taking celebrities into their rehab centre and filming the entire thing.",
+   "html": "Despite the fact that Dr. Phil has various topics on his show a well-known one is that of individuals requiring help with dependence and is regularly encouraging individuals free recovery in the event that they consent to go immediately (after the taping of the show that is). Celebrity Rehab is exactly that, taking celebrities into their rehab centre and filming the entire thing.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The question becomes – are these programs actually helping the people they serve or are they simply dramatizing their stories in order to get ratings? If they were being fully sincere in their efforts, perhaps they would also be successful at reaching addicts in their homes and shining a light on the problems they might be encountering in their own life.",
+   "html": "The question becomes – are these programs actually helping the people they serve or are they simply dramatizing their stories in order to get ratings? If they were being fully sincere in their efforts, perhaps they would also be successful at reaching addicts in their homes and shining a light on the problems they might be encountering in their own life.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Celebrity Rehab",
+   "html": "Celebrity Rehab",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Turning our attention to Celebrity Rehab, the same drama is advertised but through the professional lens of Dr. Drew, a long-time addictions doctor. By using Dr. Drew as an expert, the show chronicles celebrities who are going through treatment at the Pasadena Rehabilitation Centre. Like Dr. Phil, dramatic scenes of confrontations and crying are the mainstay of the show and are how they build their audience.",
+   "html": "Turning our attention to Celebrity Rehab, the same drama is advertised but through the professional lens of Dr. Drew, a long-time addictions doctor. By using Dr. Drew as an expert, the show chronicles celebrities who are going through treatment at the Pasadena Rehabilitation Centre. Like Dr. Phil, dramatic scenes of confrontations and crying are the mainstay of the show and are how they build their audience.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Unlike Dr. Phil, it can be relatively easy to find out if these treatments worked, as the subjects are known to the public. Many of the celebrities who did the show relapsed and six of the participants died of drug or alcohol-related overdoses. This certainly makes the show seem not very successful and there have been questions about Dr. Drew exploiting people’s vulnerabilities for profit.",
+   "html": "Unlike Dr. Phil, it can be relatively easy to find out if these treatments worked, as the subjects are known to the public. Many of the celebrities who did the show relapsed and six of the participants died of drug or alcohol-related overdoses. This certainly makes the show seem not very successful and there have been questions about Dr. Drew exploiting people’s vulnerabilities for profit.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "When comparing the show to actual rehab facilities we can also see that the success rate is much higher in the “real” world. The fact that the show has a higher relapse rate than a regular rehabilitation centre is a pretty bleak reality. It certainly seems as though Celebrity Rehab really does only care about one thing: ratings.",
+   "html": "When comparing the show to actual rehab facilities we can also see that the success rate is much higher in the “real” world. The fact that the show has a higher relapse rate than a regular rehabilitation centre is a pretty bleak reality. It certainly seems as though Celebrity Rehab really does only care about one thing: ratings.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h1",
+   "text": "",
+   "html": "<a data-wpel-link=\"external\" href=\"https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg\" rel=\"external noopener noreferrer\"><img alt=\"celebrity rehab\" class=\"aligncenter size-full wp-image-9211\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" src=\"https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg\" width=\"1000\"/></a>",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "Addiction as Entertainment",
+   "html": "Addiction as Entertainment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Both Dr. Phil and Celebrity Rehab perpetuate the stigma that is placed on addicts. In both shows, the addicts are shown in a state of disarray, often being portrayed as confrontational or violent. By showing these people at their worst, the shows can gain viewers, which after all is the main goal of the Entertainment Industry.",
+   "html": "Both Dr. Phil and Celebrity Rehab perpetuate the stigma that is placed on addicts. In both shows, the addicts are shown in a state of disarray, often being portrayed as confrontational or violent. By showing these people at their worst, the shows can gain viewers, which after all is the main goal of the Entertainment Industry.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "It is not very clear whether either show has any “success” stories and long-term recovery does not seem to be in the picture. Though seeing an addict’s story on Dr. Phil or witnessing a celebrity go through the rehab process may inspire some to seek treatment for themselves, it is not likely to help anyone understand the difficulty of becoming sober. Going from addiction to sobriety is not an easy journey and for those seeking long-term recovery, the Entertainment Industry is not the place to turn for inspiration.",
+   "html": "It is not very clear whether either show has any “success” stories and long-term recovery does not seem to be in the picture. Though seeing an addict’s story on Dr. Phil or witnessing a celebrity go through the rehab process may inspire some to seek treatment for themselves, it is not likely to help anyone understand the difficulty of becoming sober. Going from addiction to sobriety is not an easy journey and for those seeking long-term recovery, the Entertainment Industry is not the place to turn for inspiration.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Watching shows such as Dr. Phil and Celebrity Rehab is best done by those seeking entertainment, as the reality they portray is questionable. And unfortunately, until we are able to turn away from the car accident, addicts will continue to be stigmatized and these types of shows will continue to be popular.",
+   "html": "Watching shows such as Dr. Phil and Celebrity Rehab is best done by those seeking entertainment, as the reality they portray is questionable. And unfortunately, until we are able to turn away from the car accident, addicts will continue to be stigmatized and these types of shows will continue to be popular.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "0 Comments",
+   "href": "https://addictionrehabcenters.ca/addiction-as-entertainment/#respond",
+   "new_href": "/addiction-as-entertainment/#respond"
+  }
+ ],
+ "post": {
+  "published": "2022-08-05T11:56:25+00:00",
+  "modified": "2022-08-11T09:28:17+00:00",
+  "date_label": "August 5, 2022",
+  "categories": [
+   "Addiction Rehab",
+   "Alcohol Addiction Treatment",
+   "Drug Addiction Treatment"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg",
+  "jsonld_author": "Addiction Rehab Centre",
+  "jsonld_wordCount": 653,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"addiction as entertainment\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2022/08/addiction-as-entertainment-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2022/00/\" itemprop=\"url\">\n                August 5, 2022        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/addiction-rehab/\" rel=\"category tag\">Addiction Rehab</a> / <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/alcohol-addiction-treatment/\" rel=\"category tag\">Alcohol Addiction Treatment</a> / <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/drug-addiction-treatment/\" rel=\"category tag\">Drug Addiction Treatment</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Addiction as Entertainment    </h1> <p>We are completely attracted to misfortunes – both big and small. Simply take a gander at any interstate when there is a fender bender. Not only does the side with the accident slow down to maneuver around the cars, but so too does the other side of the highway. Why? Well, to look at the accident of course.</p>\n<p>This draw to check out what might be happening on the other side of the highway is the same draw we have to reality shows such as Dr. Phil or Celebrity Rehab. Both of these shows use scenes of individuals at their most exceedingly terrible to draw a group of people. They promote the human show, with clasps of crying individuals or vicious showdowns and guarantee the watcher’s emotional goals to individuals’ very own battles.</p>\n<p>Despite the fact that Dr. Phil has various topics on his show a well-known one is that of individuals requiring help with dependence and is regularly encouraging individuals free recovery in the event that they consent to go immediately (after the taping of the show that is). Celebrity Rehab is exactly that, taking celebrities into their rehab centre and filming the entire thing.</p>\n<p>The question becomes – are these programs actually helping the people they serve or are they simply dramatizing their stories in order to get ratings? If they were being fully sincere in their efforts, perhaps they would also be successful at reaching addicts in their homes and shining a light on the problems they might be encountering in their own life.</p>\n<h2>Celebrity Rehab</h2>\n<p>Turning our attention to Celebrity Rehab, the same drama is advertised but through the professional lens of Dr. Drew, a long-time addictions doctor. By using Dr. Drew as an expert, the show chronicles celebrities who are going through treatment at the Pasadena Rehabilitation Centre. Like Dr. Phil, dramatic scenes of confrontations and crying are the mainstay of the show and are how they build their audience.</p>\n<p>Unlike Dr. Phil, it can be relatively easy to find out if these treatments worked, as the subjects are known to the public. Many of the celebrities who did the show relapsed and six of the participants died of drug or alcohol-related overdoses. This certainly makes the show seem not very successful and there have been questions about Dr. Drew exploiting people’s vulnerabilities for profit.</p>\n<p>When comparing the show to actual rehab facilities we can also see that the success rate is much higher in the “real” world. The fact that the show has a higher relapse rate than a regular rehabilitation centre is a pretty bleak reality. It certainly seems as though Celebrity Rehab really does only care about one thing: ratings.</p>\n<h1><a data-wpel-link=\"external\" href=\"https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg\" rel=\"external noopener noreferrer\"><img alt=\"celebrity rehab\" class=\"aligncenter size-full wp-image-9211\" decoding=\"async\" fetchpriority=\"high\" height=\"450\" src=\"https://addictionrehabtoronto.ca/wp-content/uploads/2022/08/celebrity-rehab.jpg\" width=\"1000\"/></a></h1>\n<h2>Addiction as Entertainment</h2>\n<p>Both Dr. Phil and Celebrity Rehab perpetuate the stigma that is placed on addicts. In both shows, the addicts are shown in a state of disarray, often being portrayed as confrontational or violent. By showing these people at their worst, the shows can gain viewers, which after all is the main goal of the Entertainment Industry.</p>\n<p>It is not very clear whether either show has any “success” stories and long-term recovery does not seem to be in the picture. Though seeing an addict’s story on Dr. Phil or witnessing a celebrity go through the rehab process may inspire some to seek treatment for themselves, it is not likely to help anyone understand the difficulty of becoming sober. Going from addiction to sobriety is not an easy journey and for those seeking long-term recovery, the Entertainment Industry is not the place to turn for inspiration.</p>\n<p>Watching shows such as Dr. Phil and Celebrity Rehab is best done by those seeking entertainment, as the reality they portray is questionable. And unfortunately, until we are able to turn away from the car accident, addicts will continue to be stigmatized and these types of shows will continue to be popular.</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n<div class=\"eltdf-post-info-comments-holder\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_comment_alt\"></span> <a class=\"eltdf-post-info-comments\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/addiction-as-entertainment/#respond\" itemprop=\"url\">\n\t\t\t0 Comments\t\t</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

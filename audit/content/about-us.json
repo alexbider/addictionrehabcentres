@@ -1,0 +1,1714 @@
+{
+ "schema": "arc-content/1",
+ "slug": "about-us",
+ "status": "REMAINING",
+ "page_type": "about-info",
+ "wp_type": "page",
+ "template": "(none) fallback: Drug L1 layout",
+ "fit": "NO TEMPLATE",
+ "template_change_codes": "G1-G3",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/about-us/",
+  "path": "/about-us/",
+  "wp_items": [
+   {
+    "id": 10885,
+    "type": "page",
+    "title": "About Us",
+    "date": "2022-02-02T19:03:11",
+    "modified": "2026-02-27T05:16:20",
+    "status": "publish",
+    "yoast_title": "About Us - Addiction Rehab Centres Canada",
+    "words_rest": 908
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/about-us/",
+ "seo": {
+  "meta_title": "About Us - Addiction Rehab Centres Canada",
+  "meta_description": "We at Addiction Rehab Centres Canada aim to connect people suffering from addictions to help, no matter the location. Call us today to find out more about our services.",
+  "canonical_source": "https://addictionrehabcenters.ca/about-us/",
+  "og": {
+   "title": "About Us - Addiction Rehab Centres Canada",
+   "description": "We at Addiction Rehab Centres Canada aim to connect people suffering from addictions to help, no matter the location. Call us today to find out more about our services.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/about-us/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/about-us/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "About Us",
+      "datePublished": "2022-02-02T19:03:11+00:00",
+      "dateModified": "2026-02-27T05:16:20+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/about-us/"
+      },
+      "wordCount": 1254,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/about-us/",
+      "url": "https://addictionrehabcenters.ca/about-us/",
+      "name": "About Us - Addiction Rehab Centres Canada",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-02T19:03:11+00:00",
+      "dateModified": "2026-02-27T05:16:20+00:00",
+      "description": "We at Addiction Rehab Centres Canada aim to connect people suffering from addictions to help, no matter the location. Call us today to find out more about our services.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/about-us/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/about-us/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/about-us/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "About Us"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "About Us",
+ "title_bar_h1": "About Us",
+ "word_count": 850,
+ "features": [
+  "form"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "About Us"
+  ],
+  [
+   "h2",
+   "Who are we?"
+  ],
+  [
+   "h2",
+   "How do we operate?"
+  ],
+  [
+   "h2",
+   "What facilities do we refer our clients to?"
+  ],
+  [
+   "h2",
+   "Addiction Recovery: Done the Holistic Way"
+  ],
+  [
+   "h2",
+   "When Does One Need a Treatment?"
+  ],
+  [
+   "h3",
+   "Let Us Help You"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-us-banner.jpg",
+   "local_path": "images/about-us/about-us-banner.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/contact-addictions-rehab.jpg",
+   "local_path": "images/_shared/contact-addictions-rehab.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 600,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab.jpg",
+   "local_path": "images/about-us/about-rehab.jpg",
+   "alt": "about rehab",
+   "width": 554,
+   "height": 524,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client.jpg",
+   "local_path": "images/about-us/facilities-to-client.jpg",
+   "alt": "facilities to client",
+   "width": 585,
+   "height": 534,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case.jpg",
+   "local_path": "images/about-us/about-different-case.jpg",
+   "alt": "about different case",
+   "width": 554,
+   "height": 421,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities.jpg",
+   "local_path": "images/about-us/activities.jpg",
+   "alt": "activities",
+   "width": 585,
+   "height": 645,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta.jpg",
+   "local_path": "images/about-us/about-cta.jpg",
+   "alt": "about cta",
+   "width": 567,
+   "height": 593,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/treatment-programs/",
+   "text": "addiction treatment",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /treatment-programs/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/faqs/",
+   "text": "addiction",
+   "kind": "internal",
+   "new": "/faqs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/our-programs/",
+   "text": "addiction recovery program",
+   "kind": "internal",
+   "new": "/our-programs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/contact/",
+   "text": "rehab center",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/",
+   "text": "treatment for addiction",
+   "kind": "internal",
+   "new": "/30-days-treatment-by-canadian-provinces/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-rehabilitation-in-canada/",
+   "text": "drug",
+   "kind": "internal",
+   "new": "/drug-rehabilitation-in-canada/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "/contact/",
+   "text": "Contact Us Today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/cocaine-addiction/",
+   "text": "cocaine",
+   "kind": "internal",
+   "new": "/cocaine-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/heroin-addiction/",
+   "text": "heroin",
+   "kind": "internal",
+   "new": "/heroin-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/marijuana-addiction/",
+   "text": "marijuana",
+   "kind": "internal",
+   "new": "/marijuana-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/prescription-drugs-addiction/",
+   "text": "prescription drugs",
+   "kind": "internal",
+   "new": "/prescription-drugs-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/contact/",
+   "text": "Contact us",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "About Us",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Who are we?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.",
+       "html": "Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "How do we operate?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.",
+       "html": "We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.",
+       "html": "When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab.jpg",
+       "alt": "about rehab",
+       "width": "554",
+       "height": "524"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client.jpg",
+       "alt": "facilities to client",
+       "width": "585",
+       "height": "534"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "What facilities do we refer our clients to?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Although we are based in Toronto, we are well-connected with all kinds of addiction treatment and rehab programs across the country. We refer our clients to a variety of facilities, including the following:",
+       "html": "Although we are based in Toronto, we are well-connected with all kinds of <a data-wpel-link=\"internal\" href=\"/\">addiction treatment</a> and rehab programs across the country. We refer our clients to a variety of facilities, including the following:",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/treatment-programs/",
+         "text": "addiction treatment"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Medical detox centres that help clients cope with the rigours of withdrawal",
+         "html": "Medical detox centres that help clients cope with the rigours of withdrawal",
+         "links": []
+        },
+        {
+         "text": "Support-based services like individual, group and family therapy",
+         "html": "Support-based services like individual, group and family therapy",
+         "links": []
+        },
+        {
+         "text": "Inpatient addiction treatment and rehab facilities",
+         "html": "Inpatient addiction treatment and rehab facilities",
+         "links": []
+        },
+        {
+         "text": "Trauma management centres to help clients manage addiction that arises as a result of PTSD",
+         "html": "Trauma management centres to help clients manage addiction that arises as a result of PTSD",
+         "links": []
+        },
+        {
+         "text": "Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves",
+         "html": "Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves",
+         "links": []
+        },
+        {
+         "text": "Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction",
+         "html": "Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "p",
+       "text": "In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.",
+       "html": "In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "If you or someone close to your heart struggles with addiction, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.",
+       "html": "If you or someone close to your heart struggles with <a data-wpel-link=\"internal\" href=\"/faqs/\">addiction</a>, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/faqs/",
+         "text": "addiction"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.",
+       "html": "But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case.jpg",
+       "alt": "about different case",
+       "width": "554",
+       "height": "421"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities.jpg",
+       "alt": "activities",
+       "width": "585",
+       "height": "645"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Addiction Recovery: Done the Holistic Way",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our addiction recovery program centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our rehab center offers include the following:",
+       "html": "Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our <a data-wpel-link=\"internal\" href=\"/our-programs/\">addiction recovery program</a> centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our <a data-wpel-link=\"internal\" href=\"/contact/\">rehab center</a> offers include the following:",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/our-programs/",
+         "text": "addiction recovery program"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/contact/",
+         "text": "rehab center"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Physical and recreational activities",
+         "html": "Physical and recreational activities",
+         "links": []
+        },
+        {
+         "text": "Family counseling",
+         "html": "Family counseling",
+         "links": []
+        },
+        {
+         "text": "Individual counseling",
+         "html": "Individual counseling",
+         "links": []
+        },
+        {
+         "text": "Group counseling",
+         "html": "Group counseling",
+         "links": []
+        },
+        {
+         "text": "Yoga and meditation",
+         "html": "Yoga and meditation",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.",
+       "html": "In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta.jpg",
+       "alt": "about cta",
+       "width": "567",
+       "height": "593"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "When Does One Need a Treatment?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Are you uncertain whether you or your loved needs a treatment for addiction? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.",
+       "html": "Are you uncertain whether you or your loved needs a <a data-wpel-link=\"internal\" href=\"/30-days-treatment-by-canadian-provinces/\">treatment for addiction</a>? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/",
+         "text": "treatment for addiction"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "What are the indications that a person already needs an addiction treatment?",
+       "html": "What are the indications that a person already needs an addiction treatment?",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "The person often lies and steals to get the substance or drug he wants",
+         "html": "The person often lies and steals to get the substance or <a data-wpel-link=\"internal\" href=\"/drug-rehabilitation-in-canada/\">drug</a> he wants",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/drug-rehabilitation-in-canada/",
+           "text": "drug"
+          }
+         ]
+        },
+        {
+         "text": "The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy",
+         "html": "The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy",
+         "links": []
+        },
+        {
+         "text": "The person acts differently",
+         "html": "The person acts differently",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      },
+      {
+       "type": "p",
+       "text": "If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of Addiction Rehab Centres Canada. With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as cocaine, heroin, marijuana, prescription drugs etc.",
+       "html": "If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of <strong><a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a>.</strong> With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as <a data-wpel-link=\"internal\" href=\"/cocaine-addiction/\">cocaine</a>, <a data-wpel-link=\"internal\" href=\"/heroin-addiction/\">heroin</a>, <a data-wpel-link=\"internal\" href=\"/marijuana-addiction/\">marijuana</a>, <a data-wpel-link=\"internal\" href=\"/prescription-drugs-addiction/\">prescription drugs</a> etc.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/cocaine-addiction/",
+         "text": "cocaine"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/heroin-addiction/",
+         "text": "heroin"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/marijuana-addiction/",
+         "text": "marijuana"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/prescription-drugs-addiction/",
+         "text": "prescription drugs"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Contact us today to learn more information about our addiction treatment services.",
+       "html": "<a data-wpel-link=\"internal\" href=\"/contact/\">Contact us</a> today to learn more information about our addiction treatment services.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/contact/",
+         "text": "Contact us"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Let Us Help You",
+       "blocks": [
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": []
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "About Us",
+   "html": "<strong>About Us</strong>",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "Who are we?",
+   "html": "<strong>Who are we?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.",
+   "html": "Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "How do we operate?",
+   "html": "<strong>How do we operate?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.",
+   "html": "We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.",
+   "html": "When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab.jpg",
+   "alt": "about rehab",
+   "width": "554",
+   "height": "524"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client.jpg",
+   "alt": "facilities to client",
+   "width": "585",
+   "height": "534"
+  },
+  {
+   "type": "h2",
+   "text": "What facilities do we refer our clients to?",
+   "html": "<strong>What facilities do we refer our clients to?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Although we are based in Toronto, we are well-connected with all kinds of addiction treatment and rehab programs across the country. We refer our clients to a variety of facilities, including the following:",
+   "html": "Although we are based in Toronto, we are well-connected with all kinds of <a data-wpel-link=\"internal\" href=\"/\">addiction treatment</a> and rehab programs across the country. We refer our clients to a variety of facilities, including the following:",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/treatment-programs/",
+     "text": "addiction treatment"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Medical detox centres that help clients cope with the rigours of withdrawal",
+     "html": "Medical detox centres that help clients cope with the rigours of withdrawal",
+     "links": []
+    },
+    {
+     "text": "Support-based services like individual, group and family therapy",
+     "html": "Support-based services like individual, group and family therapy",
+     "links": []
+    },
+    {
+     "text": "Inpatient addiction treatment and rehab facilities",
+     "html": "Inpatient addiction treatment and rehab facilities",
+     "links": []
+    },
+    {
+     "text": "Trauma management centres to help clients manage addiction that arises as a result of PTSD",
+     "html": "Trauma management centres to help clients manage addiction that arises as a result of PTSD",
+     "links": []
+    },
+    {
+     "text": "Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves",
+     "html": "Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves",
+     "links": []
+    },
+    {
+     "text": "Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction",
+     "html": "Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "p",
+   "text": "In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.",
+   "html": "In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you or someone close to your heart struggles with addiction, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.",
+   "html": "If you or someone close to your heart struggles with <a data-wpel-link=\"internal\" href=\"/faqs/\">addiction</a>, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/faqs/",
+     "text": "addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.",
+   "html": "But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case.jpg",
+   "alt": "about different case",
+   "width": "554",
+   "height": "421"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities.jpg",
+   "alt": "activities",
+   "width": "585",
+   "height": "645"
+  },
+  {
+   "type": "h2",
+   "text": "Addiction Recovery: Done the Holistic Way",
+   "html": "<strong>Addiction Recovery: Done the Holistic Way</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our addiction recovery program centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our rehab center offers include the following:",
+   "html": "Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our <a data-wpel-link=\"internal\" href=\"/our-programs/\">addiction recovery program</a> centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our <a data-wpel-link=\"internal\" href=\"/contact/\">rehab center</a> offers include the following:",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/our-programs/",
+     "text": "addiction recovery program"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/contact/",
+     "text": "rehab center"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Physical and recreational activities",
+     "html": "Physical and recreational activities",
+     "links": []
+    },
+    {
+     "text": "Family counseling",
+     "html": "Family counseling",
+     "links": []
+    },
+    {
+     "text": "Individual counseling",
+     "html": "Individual counseling",
+     "links": []
+    },
+    {
+     "text": "Group counseling",
+     "html": "Group counseling",
+     "links": []
+    },
+    {
+     "text": "Yoga and meditation",
+     "html": "Yoga and meditation",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.",
+   "html": "In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta.jpg",
+   "alt": "about cta",
+   "width": "567",
+   "height": "593"
+  },
+  {
+   "type": "h2",
+   "text": "When Does One Need a Treatment?",
+   "html": "<strong>When Does One Need a Treatment?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you uncertain whether you or your loved needs a treatment for addiction? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.",
+   "html": "Are you uncertain whether you or your loved needs a <a data-wpel-link=\"internal\" href=\"/30-days-treatment-by-canadian-provinces/\">treatment for addiction</a>? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/",
+     "text": "treatment for addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "What are the indications that a person already needs an addiction treatment?",
+   "html": "What are the indications that a person already needs an addiction treatment?",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "The person often lies and steals to get the substance or drug he wants",
+     "html": "The person often lies and steals to get the substance or <a data-wpel-link=\"internal\" href=\"/drug-rehabilitation-in-canada/\">drug</a> he wants",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/drug-rehabilitation-in-canada/",
+       "text": "drug"
+      }
+     ]
+    },
+    {
+     "text": "The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy",
+     "html": "The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy",
+     "links": []
+    },
+    {
+     "text": "The person acts differently",
+     "html": "The person acts differently",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "link",
+   "text": "Contact Us Today",
+   "href": "/contact/",
+   "new_href": "/contact/"
+  },
+  {
+   "type": "p",
+   "text": "If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of Addiction Rehab Centres Canada. With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as cocaine, heroin, marijuana, prescription drugs etc.",
+   "html": "If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of <strong><a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a>.</strong> With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as <a data-wpel-link=\"internal\" href=\"/cocaine-addiction/\">cocaine</a>, <a data-wpel-link=\"internal\" href=\"/heroin-addiction/\">heroin</a>, <a data-wpel-link=\"internal\" href=\"/marijuana-addiction/\">marijuana</a>, <a data-wpel-link=\"internal\" href=\"/prescription-drugs-addiction/\">prescription drugs</a> etc.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/cocaine-addiction/",
+     "text": "cocaine"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/heroin-addiction/",
+     "text": "heroin"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/marijuana-addiction/",
+     "text": "marijuana"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/prescription-drugs-addiction/",
+     "text": "prescription drugs"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Contact us today to learn more information about our addiction treatment services.",
+   "html": "<a data-wpel-link=\"internal\" href=\"/contact/\">Contact us</a> today to learn more information about our addiction treatment services.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/contact/",
+     "text": "Contact us"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+   "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Let Us Help You",
+   "html": "Let Us Help You",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1643982777287",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "About Us",
+       "html": "<strong>About Us</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-us-banner.jpg?id=11294"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12",
+      "innerContentIntro"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Who are we?",
+       "html": "<strong>Who are we?</strong>",
+       "id": ""
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.",
+       "html": "Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "h2",
+       "text": "How do we operate?",
+       "html": "<strong>How do we operate?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.",
+       "html": "We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.",
+       "html": "When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab.jpg",
+       "alt": "about rehab",
+       "width": "554",
+       "height": "524"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client.jpg",
+       "alt": "facilities to client",
+       "width": "585",
+       "height": "534"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "What facilities do we refer our clients to?",
+       "html": "<strong>What facilities do we refer our clients to?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Although we are based in Toronto, we are well-connected with all kinds of addiction treatment and rehab programs across the country. We refer our clients to a variety of facilities, including the following:",
+       "html": "Although we are based in Toronto, we are well-connected with all kinds of <a data-wpel-link=\"internal\" href=\"/\">addiction treatment</a> and rehab programs across the country. We refer our clients to a variety of facilities, including the following:",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/treatment-programs/",
+         "text": "addiction treatment"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Medical detox centres that help clients cope with the rigours of withdrawal",
+         "html": "Medical detox centres that help clients cope with the rigours of withdrawal",
+         "links": []
+        },
+        {
+         "text": "Support-based services like individual, group and family therapy",
+         "html": "Support-based services like individual, group and family therapy",
+         "links": []
+        },
+        {
+         "text": "Inpatient addiction treatment and rehab facilities",
+         "html": "Inpatient addiction treatment and rehab facilities",
+         "links": []
+        },
+        {
+         "text": "Trauma management centres to help clients manage addiction that arises as a result of PTSD",
+         "html": "Trauma management centres to help clients manage addiction that arises as a result of PTSD",
+         "links": []
+        },
+        {
+         "text": "Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves",
+         "html": "Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves",
+         "links": []
+        },
+        {
+         "text": "Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction",
+         "html": "Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.",
+       "html": "In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "If you or someone close to your heart struggles with addiction, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.",
+       "html": "If you or someone close to your heart struggles with <a data-wpel-link=\"internal\" href=\"/faqs/\">addiction</a>, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/faqs/",
+         "text": "addiction"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.",
+       "html": "But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case.jpg",
+       "alt": "about different case",
+       "width": "554",
+       "height": "421"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities.jpg",
+       "alt": "activities",
+       "width": "585",
+       "height": "645"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Addiction Recovery: Done the Holistic Way",
+       "html": "<strong>Addiction Recovery: Done the Holistic Way</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our addiction recovery program centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our rehab center offers include the following:",
+       "html": "Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our <a data-wpel-link=\"internal\" href=\"/our-programs/\">addiction recovery program</a> centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our <a data-wpel-link=\"internal\" href=\"/contact/\">rehab center</a> offers include the following:",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/our-programs/",
+         "text": "addiction recovery program"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/contact/",
+         "text": "rehab center"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Physical and recreational activities",
+         "html": "Physical and recreational activities",
+         "links": []
+        },
+        {
+         "text": "Family counseling",
+         "html": "Family counseling",
+         "links": []
+        },
+        {
+         "text": "Individual counseling",
+         "html": "Individual counseling",
+         "links": []
+        },
+        {
+         "text": "Group counseling",
+         "html": "Group counseling",
+         "links": []
+        },
+        {
+         "text": "Yoga and meditation",
+         "html": "Yoga and meditation",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.",
+       "html": "In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "cta-banner",
+   "classes": [
+    "newHomeBanner",
+    "bottomHomeBanner",
+    "innerBottomBanner",
+    "vc_row-no-padding",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta.jpg",
+       "alt": "about cta",
+       "width": "567",
+       "height": "593"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "When Does One Need a Treatment?",
+       "html": "<strong>When Does One Need a Treatment?</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "Are you uncertain whether you or your loved needs a treatment for addiction? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.",
+       "html": "Are you uncertain whether you or your loved needs a <a data-wpel-link=\"internal\" href=\"/30-days-treatment-by-canadian-provinces/\">treatment for addiction</a>? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/",
+         "text": "treatment for addiction"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "What are the indications that a person already needs an addiction treatment?",
+       "html": "What are the indications that a person already needs an addiction treatment?",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "The person often lies and steals to get the substance or drug he wants",
+         "html": "The person often lies and steals to get the substance or <a data-wpel-link=\"internal\" href=\"/drug-rehabilitation-in-canada/\">drug</a> he wants",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/drug-rehabilitation-in-canada/",
+           "text": "drug"
+          }
+         ]
+        },
+        {
+         "text": "The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy",
+         "html": "The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy",
+         "links": []
+        },
+        {
+         "text": "The person acts differently",
+         "html": "The person acts differently",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "help-block",
+   "classes": [
+    "innerBlueContent"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of Addiction Rehab Centres Canada. With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as cocaine, heroin, marijuana, prescription drugs etc.",
+       "html": "If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of <strong><a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a>.</strong> With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as <a data-wpel-link=\"internal\" href=\"/cocaine-addiction/\">cocaine</a>, <a data-wpel-link=\"internal\" href=\"/heroin-addiction/\">heroin</a>, <a data-wpel-link=\"internal\" href=\"/marijuana-addiction/\">marijuana</a>, <a data-wpel-link=\"internal\" href=\"/prescription-drugs-addiction/\">prescription drugs</a> etc.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/cocaine-addiction/",
+         "text": "cocaine"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/heroin-addiction/",
+         "text": "heroin"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/marijuana-addiction/",
+         "text": "marijuana"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/prescription-drugs-addiction/",
+         "text": "prescription drugs"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Contact us today to learn more information about our addiction treatment services.",
+       "html": "<a data-wpel-link=\"internal\" href=\"/contact/\">Contact us</a> today to learn more information about our addiction treatment services.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/contact/",
+         "text": "Contact us"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "row",
+   "classes": [
+    "bottomWidget"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h3",
+       "text": "Let Us Help You",
+       "html": "Let Us Help You",
+       "id": ""
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "About Us",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-us-banner.jpg?id=11294"
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1643982777287 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>About Us</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element innerContentIntro\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Who are we?</strong></h2>\n</div>\n</div>\n</div></div></div><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Toronto Addiction Centers is an organization committed to ensuring that people suffering from addictions have access to the help they need. No matter where you are in Canada or what your drug and alcohol recovery needs are, we will match you with a facility that is right for you.</p>\n<h2><strong>How do we operate?</strong></h2>\n<p>We understand that no two addictions are the same, and we do not believe in a cookie-cutter approach to addiction recovery. There are many excellent drug and alcohol addiction treatment facilities in Canada, and the ones we recommend for you will depend on what your individual needs are.</p>\n<p>When you get in touch with us, we will work with you to determine what kind of program is right for you. Whether your best option is a group support program similar to Alcoholics Anonymous or an extended inpatient rehab program, we will do our best to set you on the path to recovery.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"about rehab\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"524\" loading=\"lazy\" sizes=\"(max-width: 554px) 100vw, 554px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab.jpg 554w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-rehab-300x284.jpg 300w\" width=\"554\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"facilities to client\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"534\" loading=\"lazy\" sizes=\"(max-width: 585px) 100vw, 585px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client.jpg 585w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/facilities-to-client-300x274.jpg 300w\" width=\"585\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>What facilities do we refer our clients to?</strong></h2>\n<p>Although we are based in Toronto, we are well-connected with all kinds of <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/treatment-programs/\">addiction treatment</a> and rehab programs across the country. We refer our clients to a variety of facilities, including the following:</p>\n<ul>\n<li>Medical detox centres that help clients cope with the rigours of withdrawal</li>\n<li>Support-based services like individual, group and family therapy</li>\n<li>Inpatient addiction treatment and rehab facilities</li>\n<li>Trauma management centres to help clients manage addiction that arises as a result of PTSD</li>\n<li>Aftercare providers that provide support to clients who are emerging from inpatient rehab and reintegrating themselves</li>\n<li>Professional interventionists who will help you make a loved one understand the benefits of seeking help for an addiction</li>\n</ul>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>In some cases, we may refer you to different providers to ensure that all of your needs are taken care of. More commonly, we will refer you to a single treatment and rehab facility that has all of the features that will benefit you and your family.</p>\n<p>If you or someone close to your heart struggles with <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/faqs/\">addiction</a>, it is more likely that you are aware of the difficulty this situation entails. This also gives you the understanding that when it comes to overcoming addiction, the help and support of professionals are highly necessary.</p>\n<p>But you have to keep in mind that not all rehab centers are created the same. Prior to this, you need to spend some of your time to find the right place where proper addiction treatments are made. If so, you are good to go to walk the path of full, effective and long-term recovery from addiction.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"about different case\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"421\" loading=\"lazy\" sizes=\"(max-width: 554px) 100vw, 554px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case.jpg 554w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-different-case-300x228.jpg 300w\" width=\"554\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"activities\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"645\" loading=\"lazy\" sizes=\"(max-width: 585px) 100vw, 585px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities.jpg 585w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/activities-272x300.jpg 272w\" width=\"585\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Addiction Recovery: Done the Holistic Way</strong></h2>\n<p>Addiction Rehab Centres Canada is composed of professional staff members and experienced personnel who work in a dedicated manner to provide long-term, safe and effective recovery for every patient. Our center offers a holistic approach so as to achieve full recovery without the relapse. Our <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/our-programs/\">addiction recovery program</a> centers on essential things other than treating your addiction. Today, our center offers various kinds of programs that are designed to work effectively in treating addiction in the long-term and safe way possible. Treatment services that our <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/contact/\">rehab center</a> offers include the following:</p>\n<ul>\n<li>Physical and recreational activities</li>\n<li>Family counseling</li>\n<li>Individual counseling</li>\n<li>Group counseling</li>\n<li>Yoga and meditation</li>\n</ul>\n<p>In fact, the list of services that we offer goes on and on. No matter what your addiction care is, we are ready to give you the kind of treatment you need to ensure complete and successful recovery at your end.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid newHomeBanner bottomHomeBanner innerBottomBanner vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\" data-vc-stretch-content=\"true\"><div class=\"homeImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"about cta\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"593\" loading=\"lazy\" sizes=\"(max-width: 567px) 100vw, 567px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta.jpg 567w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/about-cta-287x300.jpg 287w\" width=\"567\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"newHomeBannerContent wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>When Does One Need a Treatment?</strong></h2>\n<p>Are you uncertain whether you or your loved needs a <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/30-days-treatment-by-canadian-provinces/\">treatment for addiction</a>? Talk to us and we are more than happy to help you determine the level and severity of your addiction. As a result, you will be able to know if addiction treatment is necessary for you, or come up with an idea on what specific treatment is highly advised for your addiction case. So, before your condition gets worse, you are already treated in our facility.</p>\n<p>What are the indications that a person already needs an addiction treatment?</p>\n<ul style=\"color: #fff;\">\n<li>The person often lies and steals to get the substance or <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehabilitation-in-canada/\">drug</a> he wants</li>\n<li>The person seems withdrawn from his surroundings and no longer participates in things and activities he used to do and enjoy</li>\n<li>The person acts differently</li>\n</ul>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid bannerBtn\" data-wpel-link=\"internal\" href=\"/contact/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Contact Us Today</span>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerBlueContent\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>If any of these symptoms is seen on a person, or you noticed these are exactly what you are manifesting these days, then it is high time to call for the aid of <strong><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a>.</strong> With us, you are not only in the right place but you are also in good hands as yourself treated from your addiction to certain kinds of drugs such as <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/cocaine-addiction/\">cocaine</a>, <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/heroin-addiction/\">heroin</a>, <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/marijuana-addiction/\">marijuana</a>, <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/prescription-drugs-addiction/\">prescription drugs</a> etc.</p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/contact/\">Contact us</a> today to learn more information about our addiction treatment services.</p>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element callSpecialist\">\n<div class=\"wpb_wrapper\">\n<p>Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a></p>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row wpb_row vc_row-fluid bottomWidget\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\"><div class=\"wpb_widgetised_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<div class=\"widget eltdf-sidearea widget_text\" id=\"text-9\"> <div class=\"textwidget\">\n</div>\n</div><div class=\"widget eltdf-sidearea widget_text\" id=\"text-13\"> <div class=\"textwidget\"><div class=\"eltdf-container eltdf-default-page-template wp7\">\n<div class=\"eltdf-container-inner clearfix\">\n<div class=\"eltdf-grid-row\">\n<div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid vc_custom_1644327284934 vc_row-has-fill vc_row-o-equal-height vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"true\" data-vc-stretch-content=\"true\" style=\"position: relative; left: -140.25px; box-sizing: border-box; width: 1511px;\">\n<div class=\"wpb_column vc_column_container vc_col-sm-12\">\n<div class=\"vc_column-inner\">\n<div class=\"wpb_wrapper\">\n<h3 class=\"eltdf-widget-title\" style=\"text-align: center;color: #fff;font-size: 16px;/* margin-bottom: 16px !important; *//* background: #27AAE1; */color: #fff;padding: 14px;/* text-align: left; */margin-top: 0;\">Let Us Help You</h3>\n<div class=\"wpcf7 no-js\" data-wpcf7-id=\"12092\" dir=\"ltr\" id=\"wpcf7-f12092-p10885-o1\" lang=\"en-US\">\n<div class=\"screen-reader-response\"><p aria-atomic=\"true\" aria-live=\"polite\" role=\"status\"></p> <ul></ul></div>\n<form action=\"/about-us/#wpcf7-f12092-p10885-o1\" aria-label=\"Contact form\" class=\"wpcf7-form init\" data-status=\"init\" method=\"post\" novalidate=\"novalidate\">\n<fieldset class=\"hidden-fields-container\"><input name=\"_wpcf7\" type=\"hidden\" value=\"12092\"/><input name=\"_wpcf7_version\" type=\"hidden\" value=\"6.1.6\"/><input name=\"_wpcf7_locale\" type=\"hidden\" value=\"en_US\"/><input name=\"_wpcf7_unit_tag\" type=\"hidden\" value=\"wpcf7-f12092-p10885-o1\"/><input name=\"_wpcf7_container_post\" type=\"hidden\" value=\"10885\"/><input name=\"_wpcf7_posted_data_hash\" type=\"hidden\" value=\"\"/>\n</fieldset>\n<p class=\"marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"your-name\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"your-name\" placeholder=\"Your Name*\" size=\"40\" type=\"text\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"email-address\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email\" maxlength=\"400\" name=\"email-address\" placeholder=\"E-mail Address*\" size=\"40\" type=\"email\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"phone-number\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-tel wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-tel\" maxlength=\"400\" name=\"phone-number\" placeholder=\"Phone Number*\" size=\"40\" type=\"tel\" value=\"\"/></span><span class=\"wpcf7-form-control-wrap\" data-name=\"type-of-addiction\"><input aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-text wpcf7-validates-as-required\" maxlength=\"400\" name=\"type-of-addiction\" placeholder=\"Type Of Addiction*\" size=\"40\" type=\"text\" value=\"\"/></span>\n</p>\n<p class=\"checkbox-text marbot5\">Is this for yourself or a loved one?\n</p>\n<p class=\"checkbox-text marbot5\"><span class=\"wpcf7-form-control-wrap\" data-name=\"person\"><span class=\"wpcf7-form-control wpcf7-checkbox\"><span class=\"wpcf7-list-item first\"><input name=\"person[]\" type=\"checkbox\" value=\"Yourself\"/><span class=\"wpcf7-list-item-label\">Yourself</span></span><span class=\"wpcf7-list-item last\"><input name=\"person[]\" type=\"checkbox\" value=\"Loved One\"/><span class=\"wpcf7-list-item-label\">Loved One</span></span></span></span>\n</p>\n<p><span class=\"wpcf7-form-control-wrap\" data-name=\"your-message\"><textarea aria-invalid=\"false\" aria-required=\"true\" class=\"wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required\" cols=\"40\" maxlength=\"2000\" name=\"your-message\" placeholder=\"Your Questions / Comments*\" rows=\"10\"></textarea></span><button class=\"wpcf7-form-control wpcf7-submit submit-btn eltdf-btn eltdf-btn-medium eltdf-btn-solid\" type=\"submit\"><span class=\"eltdf-btn-text\">Submit</span></button>\n</p><div aria-hidden=\"true\" class=\"wpcf7-response-output\"></div>\n</form>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"vc_row-full-width vc_clearfix\"></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

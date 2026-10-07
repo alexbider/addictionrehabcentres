@@ -1,0 +1,1056 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__chilliwack-addictions-and-prevention-services",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/",
+  "path": "/chilliwack-addictions-and-prevention-services/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/chilliwack-addictions-and-prevention-services/",
+ "seo": {
+  "meta_title": "Chilliwack Addictions And Prevention Services",
+  "meta_description": "Pacific Community Resources - Chilliwack Addictions And Prevention Services offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/",
+  "og": {
+   "title": "Chilliwack Addictions And Prevention Services",
+   "description": "Pacific Community Resources - Chilliwack Addictions And Prevention Services offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/",
+      "url": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/",
+      "name": "Chilliwack Addictions And Prevention Services",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources.jpg",
+      "datePublished": "2021-09-28T15:42:54+00:00",
+      "dateModified": "2022-04-12T04:59:37+00:00",
+      "description": "Pacific Community Resources - Chilliwack Addictions And Prevention Services offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "pacific community resources"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/chilliwack-addictions-and-prevention-services/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pacific Community Resources &#8211; Chilliwack Addictions And Prevention Services"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 116,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Center"
+  ],
+  [
+   "h4",
+   "Specialties"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-1.jpg",
+   "local_path": "images/centre__chilliwack-addictions-and-prevention-services/pacific-community-resources-1.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-2.jpg",
+   "local_path": "images/centre__chilliwack-addictions-and-prevention-services/pacific-community-resources-2.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-3.jpg",
+   "local_path": "images/centre__chilliwack-addictions-and-prevention-services/pacific-community-resources-3.jpg",
+   "alt": "",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources.jpg",
+   "local_path": "images/centre__chilliwack-addictions-and-prevention-services/pacific-community-resources.jpg",
+   "alt": "pacific community resources",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/assessment/",
+   "text": "Assessment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/assessment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/chilliwack/",
+   "text": "Chilliwack",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/chilliwack/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/group-counselling/",
+   "text": "Group Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/group-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/holistic-treatment-services/",
+   "text": "Holistic Treatment Services",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/holistic-treatment-services/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/individual-counselling/",
+   "text": "Individual Counselling",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/individual-counselling/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/interventionists/",
+   "text": "Interventionists",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/interventionists/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/outpatient-drug-rehab/",
+   "text": "Outpatient Drug Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/outpatient-drug-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/prevention-education/",
+   "text": "Prevention / Education",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/prevention-education/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/substance-abuse-treatment/",
+   "text": "Substance Abuse Treatment",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/substance-abuse-treatment/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/youth-drug-rehab-centers/",
+   "text": "Youth Drug Rehab Centers",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/youth-drug-rehab-centers/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(604) 795-5994",
+   "text": "(604) 795-5994",
+   "kind": "tel",
+   "new": "tel:(604) 795-5994"
+  },
+  {
+   "old_href": "mailto:caps@pcrs.ca",
+   "text": "caps@pcrs.ca",
+   "kind": "mailto",
+   "new": "mailto:caps@pcrs.ca"
+  },
+  {
+   "old_href": "http://www.pcrs.ca/caps",
+   "text": "http://www.pcrs.ca/caps",
+   "kind": "external",
+   "new": "http://www.pcrs.ca/caps"
+  },
+  {
+   "old_href": "https://www.facebook.com/pages/Pacific-Community-Resources-Society/366121901135",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/pages/Pacific-Community-Resources-Society/366121901135"
+  },
+  {
+   "old_href": "https://twitter.com/PCRS_",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/PCRS_"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Center",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.",
+     "html": "CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "Specialties",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        },
+        {
+         "text": "Assessment",
+         "html": "Assessment",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Substance Abuse Treatmental",
+         "html": "Substance Abuse Treatmental",
+         "links": []
+        },
+        {
+         "text": "Assessment",
+         "html": "Assessment",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Holistic Therapy",
+         "html": "Holistic Therapy",
+         "links": []
+        },
+        {
+         "text": "Evidence-Based Practices",
+         "html": "Evidence-Based Practices",
+         "links": []
+        },
+        {
+         "text": "Yoga & Meditation",
+         "html": "Yoga &amp; Meditation",
+         "links": []
+        },
+        {
+         "text": "Individual Therapy & Counseling",
+         "html": "Individual Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Family Therapy & Counseling",
+         "html": "Family Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Group Therapy & Counseling",
+         "html": "Group Therapy &amp; Counseling",
+         "links": []
+        },
+        {
+         "text": "Nutritional Counseling",
+         "html": "Nutritional Counseling",
+         "links": []
+        },
+        {
+         "text": "Art & Nature Therapy",
+         "html": "Art &amp; Nature Therapy",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "More Tags",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Assessment",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Chilliwack",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Group Counselling",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Holistic Treatment Services",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Individual Counselling",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Interventionists",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Outpatient Drug Rehab",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Prevention / Education",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Substance Abuse Treatment",
+       "was_link": true
+      },
+      {
+       "type": "text",
+       "text": "Youth Drug Rehab Centers",
+       "was_link": true
+      },
+      {
+       "type": "p",
+       "text": "(604) 795-5994",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(604) 795-5994\" itemprop=\"url\">(604) 795-5994</a>",
+       "links": [
+        {
+         "old": "tel:(604) 795-5994",
+         "text": "(604) 795-5994"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "caps@pcrs.ca",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:caps@pcrs.ca\" itemprop=\"url\">caps@pcrs.ca</a>",
+       "links": [
+        {
+         "old": "mailto:caps@pcrs.ca",
+         "text": "caps@pcrs.ca"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "http://www.pcrs.ca/caps",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.pcrs.ca/caps\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.pcrs.ca/caps</a>",
+       "links": [
+        {
+         "old": "http://www.pcrs.ca/caps",
+         "text": "http://www.pcrs.ca/caps"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "45921 Hocking Ave, Chilliwack, BC V2P 1B5, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    45921 Hocking Ave, Chilliwack, BC V2P 1B5, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "Social",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Center",
+   "html": "<strong>About</strong> Center",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.",
+   "html": "CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Specialties",
+   "html": "Specialties",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    },
+    {
+     "text": "Assessment",
+     "html": "Assessment",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Substance Abuse Treatmental",
+     "html": "Substance Abuse Treatmental",
+     "links": []
+    },
+    {
+     "text": "Assessment",
+     "html": "Assessment",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Holistic Therapy",
+     "html": "Holistic Therapy",
+     "links": []
+    },
+    {
+     "text": "Evidence-Based Practices",
+     "html": "Evidence-Based Practices",
+     "links": []
+    },
+    {
+     "text": "Yoga & Meditation",
+     "html": "Yoga &amp; Meditation",
+     "links": []
+    },
+    {
+     "text": "Individual Therapy & Counseling",
+     "html": "Individual Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Family Therapy & Counseling",
+     "html": "Family Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Group Therapy & Counseling",
+     "html": "Group Therapy &amp; Counseling",
+     "links": []
+    },
+    {
+     "text": "Nutritional Counseling",
+     "html": "Nutritional Counseling",
+     "links": []
+    },
+    {
+     "text": "Art & Nature Therapy",
+     "html": "Art &amp; Nature Therapy",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Assessment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Chilliwack",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Group Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Holistic Treatment Services",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Individual Counselling",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Interventionists",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Outpatient Drug Rehab",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Prevention / Education",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Substance Abuse Treatment",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Youth Drug Rehab Centers",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(604) 795-5994",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(604) 795-5994\" itemprop=\"url\">(604) 795-5994</a>",
+   "links": [
+    {
+     "old": "tel:(604) 795-5994",
+     "text": "(604) 795-5994"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "caps@pcrs.ca",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:caps@pcrs.ca\" itemprop=\"url\">caps@pcrs.ca</a>",
+   "links": [
+    {
+     "old": "mailto:caps@pcrs.ca",
+     "text": "caps@pcrs.ca"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "http://www.pcrs.ca/caps",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.pcrs.ca/caps\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.pcrs.ca/caps</a>",
+   "links": [
+    {
+     "old": "http://www.pcrs.ca/caps",
+     "text": "http://www.pcrs.ca/caps"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "45921 Hocking Ave, Chilliwack, BC V2P 1B5, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    45921 Hocking Ave, Chilliwack, BC V2P 1B5, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Pacific Community Resources – Chilliwack Addictions And Prevention Services",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<h3><strong>About</strong> Center</h3>\n<p>CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n<li>Assessment</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n<li>Assessment</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>",
+  "specialties": [
+   "Substance Abuse Treatmental",
+   "Assessment"
+  ],
+  "amenities": [
+   "Substance Abuse Treatmental",
+   "Assessment"
+  ],
+  "other_lists": {
+   "Therapies": [
+    "Holistic Therapy",
+    "Evidence-Based Practices",
+    "Yoga & Meditation",
+    "Individual Therapy & Counseling",
+    "Family Therapy & Counseling",
+    "Group Therapy & Counseling",
+    "Nutritional Counseling",
+    "Art & Nature Therapy"
+   ]
+  },
+  "phone": "(604) 795-5994",
+  "email": "caps@pcrs.ca",
+  "website": "http://www.pcrs.ca/caps",
+  "address": "45921 Hocking Ave, Chilliwack, BC V2P 1B5, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/pages/Pacific-Community-Resources-Society/366121901135",
+   "twitter": "https://twitter.com/PCRS_"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-1.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-2.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-3.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pacific-community-resources-3.jpg",
+    "alt": "",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Assessment Chilliwack Group Counselling Holistic Treatment Services Individual Counselling Interventionists Outpatient Drug Rehab Prevention / Education Substance Abuse Treatment Youth Drug Rehab Centers",
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Center",
+    "html": "<strong>About</strong> Center",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.",
+    "html": "CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "ul",
+    "ordered": false,
+    "items": [
+     {
+      "text": "Holistic Therapy",
+      "html": "Holistic Therapy",
+      "links": []
+     },
+     {
+      "text": "Evidence-Based Practices",
+      "html": "Evidence-Based Practices",
+      "links": []
+     },
+     {
+      "text": "Yoga & Meditation",
+      "html": "Yoga &amp; Meditation",
+      "links": []
+     },
+     {
+      "text": "Individual Therapy & Counseling",
+      "html": "Individual Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Family Therapy & Counseling",
+      "html": "Family Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Group Therapy & Counseling",
+      "html": "Group Therapy &amp; Counseling",
+      "links": []
+     },
+     {
+      "text": "Nutritional Counseling",
+      "html": "Nutritional Counseling",
+      "links": []
+     },
+     {
+      "text": "Art & Nature Therapy",
+      "html": "Art &amp; Nature Therapy",
+      "links": []
+     }
+    ]
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Specialties",
+    "items": [
+     "Substance Abuse Treatmental",
+     "Assessment"
+    ],
+    "text": ""
+   },
+   {
+    "heading": "Amenities",
+    "items": [
+     "Substance Abuse Treatmental",
+     "Assessment"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(604) 795-5994",
+  "phone_href": "tel:(604) 795-5994",
+  "website_text": "http://www.pcrs.ca/caps",
+  "social_title": "Social",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Assessment",
+    "Chilliwack",
+    "Group Counselling",
+    "Holistic Treatment Services",
+    "Individual Counselling",
+    "Interventionists",
+    "Outpatient Drug Rehab",
+    "Prevention / Education",
+    "Substance Abuse Treatment",
+    "Youth Drug Rehab Centers"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Center</h3>\n<p>CAPS provides effective and coordinated alcohol and drug prevention, intervention, and treatment services for children, youth, and families living in Chilliwack. We follow a bio-psycho-social-spiritual model that aims to meet the individual seeking service where they are at, with a non-judgemental and compassionate view. People will be assessed and heard concerning their needs, then matched with the appropriate service. Individual counselling is offered to people negotiating goal focused plans. Group counselling, office-based and outreach counselling are also offered.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4>Specialties</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n<li>Assessment</li>\n</ul>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<ul>\n<li>Substance Abuse Treatmental</li>\n<li>Assessment</li>\n</ul>\n</div>\n</div>\n<h4>Therapies</h4>\n<ul>\n<li>Holistic Therapy</li>\n<li>Evidence-Based Practices</li>\n<li>Yoga &amp; Meditation</li>\n<li>Individual Therapy &amp; Counseling</li>\n<li>Family Therapy &amp; Counseling</li>\n<li>Group Therapy &amp; Counseling</li>\n<li>Nutritional Counseling</li>\n<li>Art &amp; Nature Therapy</li>\n</ul>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/assessment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Assessment</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/chilliwack/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Chilliwack</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/group-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Group Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/holistic-treatment-services/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Holistic Treatment Services</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/individual-counselling/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Individual Counselling</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/interventionists/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Interventionists</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/outpatient-drug-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Outpatient Drug Rehab</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/prevention-education/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Prevention / Education</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/substance-abuse-treatment/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Substance Abuse Treatment</span>\n</a>\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/youth-drug-rehab-centers/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Youth Drug Rehab Centers</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(604) 795-5994\" itemprop=\"url\">(604) 795-5994</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:caps@pcrs.ca\" itemprop=\"url\">caps@pcrs.ca</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"http://www.pcrs.ca/caps\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">http://www.pcrs.ca/caps</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    45921 Hocking Ave, Chilliwack, BC V2P 1B5, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/pages/Pacific-Community-Resources-Society/366121901135\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/PCRS_\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

@@ -1,0 +1,1905 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__abbotsford",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+  "path": "/listing-location/abbotsford/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/abbotsford/",
+ "seo": {
+  "meta_title": "Abbotsford Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+  "og": {
+   "title": "Abbotsford Archives - Addiction Rehab Centers",
+   "description": "Rehab Centres in Abbotsford, British Columbia Are you or a loved one in Abbotsford, British Columbia, struggling with addiction and seeking professional help? You’ve come to the right place. The Addiction Rehab Centre Directory is your ultimate resource for finding reputable rehab centres in Abbotsford. Our mission is to connect individuals in need with the best addiction treatment facilities available. Why Choose Abbotsford for Addiction Recovery? Abbotsford, a picturesque city nestled in the heart of the Fraser Valley, is a welcoming and supportive community for individuals on the path to recovery. Choosing a rehab centre in Abbotsford means immersing yourself in an environment that fosters healing, growth, and a fresh start. Diverse Treatment Options Abbotsford boasts a range of rehab centres, each offering unique treatment programs tailored to various needs. Whether you’re struggling with substance abuse, alcohol addiction, or a dual diagnosis, you can find specialized care to address your specific challenges. Caring and Professional Staff The rehab centres in Abbotsford are staffed with dedicated and experienced professionals who are committed to helping you overcome addiction. From skilled therapists and medical experts to compassionate support staff, you’ll be in good hands throughout your recovery journey. What to Expect from Rehab Centres in Abbotsford When you choose one of the rehab centres in Abbotsford listed in our directory, you can anticipate the following key benefits: Personalized Treatment Plans Each individual’s journey through addiction recovery is unique. Rehab centres in Abbotsford recognize this and craft personalized treatment plans that address your specific needs and circumstances. Holistic Healing Abbotsford rehab centres embrace a holistic approach to recovery, focusing on both your physical and mental well-being. From detoxification and therapy to fitness and nutrition, your overall health is a top priority. Supportive Community In Abbotsford, you’ll find a supportive and tight-knit recovery community. This network of peers, along with the caring professionals at the rehab centres, creates a strong foundation for your journey to sobriety. Finding the Right Rehab Centre in Abbotsford Locating the ideal rehab centre for your needs is a crucial step in your recovery process. Our directory simplifies this task by offering comprehensive listings of rehab centres in Abbotsford. Here’s how to get started: Browse Our Listings Explore our directory to view a curated list of rehab centres in Abbotsford. Each listing includes detailed information about the facility, their treatment programs, and contact details. Read Reviews and Testimonials Discover the experiences of others who have sought help from Abbotsford’s rehab centres. Reading reviews and testimonials can offer valuable insights into what you can expect from each facility. Contact the Facilities Reach out to the rehab centres you’re interested in. Discuss your situation, treatment options, and any questions you may have. This step helps you make an informed decision about your recovery journey. Begin Your Journey to Recovery Addiction recovery is a challenging, but ultimately rewarding journey. By choosing one of the rehab centres in Abbotsford listed in our directory, you’re taking the first step towards a healthier and happier life. Don’t wait—start your recovery journey today.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+      "url": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+      "name": "Abbotsford Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/abbotsford/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/abbotsford/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/abbotsford/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/abbotsford/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+      "width": 640,
+      "height": 480
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/abbotsford/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Abbotsford"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Abbotsford",
+ "title_bar_h1": "",
+ "word_count": 43,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Abbotsford Results"
+  ],
+  [
+   "h3",
+   "Common Questions About Abbotsford Treatment Centres"
+  ],
+  [
+   "h2",
+   "Why Choose Abbotsford for Addiction Recovery?"
+  ],
+  [
+   "h3",
+   "What to Expect from Rehab Centres in Abbotsford"
+  ],
+  [
+   "h2",
+   "Finding the Right Rehab Centre in Abbotsford"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+   "local_path": "images/city__abbotsford/Awakenings-Health-and-Wellness-Centre2.webp",
+   "alt": "",
+   "width": 640,
+   "height": 480,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png",
+   "local_path": "images/city__abbotsford/Trinity-Memorial-United-Church-0.png",
+   "alt": "Trinity Memorial United Church-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png",
+   "local_path": "images/city__abbotsford/PeardonvilleHouse-0.png",
+   "alt": "PeardonvilleHouse-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png",
+   "local_path": "images/city__abbotsford/Adult-Teen-Challenge-BC-0.png",
+   "alt": "Adult & Teen Challenge BC-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png",
+   "local_path": "images/city__abbotsford/Archway-Community-Services-0.png",
+   "alt": "Archway Community Services-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "local_path": "images/_shared/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png",
+   "local_path": "images/city__abbotsford/The-Salvation-Army-0.png",
+   "alt": "The Salvation Army-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png",
+   "local_path": "images/city__abbotsford/LIFE-Recovery-Association-0.png",
+   "alt": "LIFE Recovery Association-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png",
+   "local_path": "images/city__abbotsford/Peardonville-House-Treatment-Centre-0.png",
+   "alt": "Peardonville House Treatment Centre-0",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Learn More: Bedrock Recovery Center",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/awakenings-health-and-wellness-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/",
+   "text": "Awakenings Health and Wellness Centre",
+   "kind": "internal",
+   "new": "/awakenings-health-and-wellness-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+   "text": "",
+   "kind": "internal",
+   "new": "/12-step-group-trinity-united-church/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+   "text": "12 Step Group Trinity United Church",
+   "kind": "internal",
+   "new": "/12-step-group-trinity-united-church/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+   "text": "",
+   "kind": "internal",
+   "new": "/peardonville-treatment-centre-meeting/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+   "text": "Peardonville Treatment Centre Meeting",
+   "kind": "internal",
+   "new": "/peardonville-treatment-centre-meeting/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/teen-challenge-bc-abbotsford-womens-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/",
+   "text": "Teen Challenge Bc – Abbotsford Women’S Centre",
+   "kind": "internal",
+   "new": "/teen-challenge-bc-abbotsford-womens-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/abbotsford-community-services-addiction-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "text": "Abbotsford",
+   "kind": "internal",
+   "new": "/listing-location/abbotsford/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/",
+   "text": "Abbotsford Community Services – Addiction Centre",
+   "kind": "internal",
+   "new": "/abbotsford-community-services-addiction-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/impact-society/",
+   "text": "",
+   "kind": "internal",
+   "new": "/impact-society/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "text": "Abbotsford",
+   "kind": "internal",
+   "new": "/listing-location/abbotsford/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/impact-society/",
+   "text": "Impact Society",
+   "kind": "internal",
+   "new": "/impact-society/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/",
+   "text": "",
+   "kind": "internal",
+   "new": "/the-salvation-army-centre-of-hope/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "text": "Abbotsford",
+   "kind": "internal",
+   "new": "/listing-location/abbotsford/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/",
+   "text": "The Salvation Army Centre Of Hope",
+   "kind": "internal",
+   "new": "/the-salvation-army-centre-of-hope/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/life-recovery/",
+   "text": "",
+   "kind": "internal",
+   "new": "/life-recovery/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "text": "Abbotsford",
+   "kind": "internal",
+   "new": "/listing-location/abbotsford/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/life-recovery/",
+   "text": "Life Recovery",
+   "kind": "internal",
+   "new": "/life-recovery/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/peardonville-house-treatment-centre/",
+   "text": "",
+   "kind": "internal",
+   "new": "/peardonville-house-treatment-centre/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "text": "Abbotsford",
+   "kind": "internal",
+   "new": "/listing-location/abbotsford/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/peardonville-house-treatment-centre/",
+   "text": "Peardonville House Treatment Centre",
+   "kind": "internal",
+   "new": "/peardonville-house-treatment-centre/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "https://addictionrehabcenters.ca/"
+    },
+    {
+     "type": "text",
+     "text": "Hotel-Style Rehab in Massachusetts"
+    },
+    {
+     "type": "text",
+     "text": "Just outside of downtown Boston, Bedrock Recovery Center offers a renovated 1.5-acre hotel-style rehab on 6 acres of greenery. Bedrock Recovery uses a blend of evidence-based therapies and 12-Step programming, focusing on early recovery and trauma treatment. They tailor treatment plans for each client, providing detox, medication-assisted treatment (MAT) for opioid and alcohol use disorders, residential care, and aftercare."
+    },
+    {
+     "type": "link",
+     "text": "Learn More: Bedrock Recovery Center",
+     "href": "https://addictionrehabcenters.ca/",
+     "new_href": "/"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/10/yh7btw9jq6nkaom0ryuz.webp",
+     "alt": "",
+     "width": null,
+     "height": null,
+     "link_href": "https://addictionrehabcenters.ca/"
+    },
+    {
+     "type": "text",
+     "text": "4"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Abbotsford Results"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+     "alt": "",
+     "width": "640",
+     "height": "480",
+     "link_href": "https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Abbotsford"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Awakenings Health and Wellness Centre",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Addiction Treatment at Awakenings Health and Wellness Center Awakenings Health and Wellness Center for Men is dedicated to providing effective..."
+    },
+    {
+     "type": "p",
+     "text": "4125 Sumas Way, Abbotsford, BC, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4125 Sumas Way, Abbotsford, BC, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png",
+     "alt": "Trinity Memorial United Church-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Abbotsford"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "12 Step Group Trinity United Church",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "The Trinity United Church facilitates an open meeting every Tuesday at 2:00"
+    },
+    {
+     "type": "p",
+     "text": "33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png",
+     "alt": "PeardonvilleHouse-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Abbotsford"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Peardonville Treatment Centre Meeting",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "The facility acc an open meeting every Wednesday at 7:30 pm and Fridays at 1:00 pm"
+    },
+    {
+     "type": "p",
+     "text": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png",
+     "alt": "Adult & Teen Challenge BC-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Abbotsford"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Teen Challenge Bc – Abbotsford Women’S Centre",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Teen Challenge BC is a residential faith-based addiction recovery program for men and women aged 19 and up that takes around a year to complete..."
+    },
+    {
+     "type": "p",
+     "text": "4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "0"
+    },
+    {
+     "type": "text",
+     "text": "(0 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Abbotsford Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png",
+     "alt": "Archway Community Services-0",
+     "width": "1000",
+     "height": "667",
+     "link_href": "https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/"
+    },
+    {
+     "type": "link",
+     "text": "Abbotsford",
+     "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+     "new_href": "/listing-location/abbotsford/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "Abbotsford Community Services – Addiction Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+       "alt": "Clsc Alberta Health Services",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/impact-society/"
+      },
+      {
+       "type": "text",
+       "text": "Private Rehab"
+      },
+      {
+       "type": "link",
+       "text": "Abbotsford",
+       "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+       "new_href": "/listing-location/abbotsford/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Impact Society",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png",
+       "alt": "The Salvation Army-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/"
+      },
+      {
+       "type": "link",
+       "text": "Abbotsford",
+       "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+       "new_href": "/listing-location/abbotsford/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "The Salvation Army Centre Of Hope",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png",
+       "alt": "LIFE Recovery Association-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/life-recovery/"
+      },
+      {
+       "type": "link",
+       "text": "Abbotsford",
+       "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+       "new_href": "/listing-location/abbotsford/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Life Recovery",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "2693 Braeside St, Abbotsford, BC V2T 2R5, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2693 Braeside St, Abbotsford, BC V2T 2R5, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png",
+       "alt": "Peardonville House Treatment Centre-0",
+       "width": "1000",
+       "height": "667",
+       "link_href": "https://addictionrehabcenters.ca/peardonville-house-treatment-centre/"
+      },
+      {
+       "type": "link",
+       "text": "Abbotsford",
+       "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+       "new_href": "/listing-location/abbotsford/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 5,
+     "heading": "Peardonville House Treatment Centre",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Common Questions About Abbotsford Treatment Centres",
+     "blocks": [],
+     "children": [
+      {
+       "level": 4,
+       "heading": "01 Question",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "01 Answer.",
+         "html": "01 Answer.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "02 Question",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "02 Answer.",
+         "html": "02 Answer.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Rehab Centres in Abbotsford, British Columbia"
+        },
+        {
+         "type": "text",
+         "text": "Are you or a loved one in Abbotsford, British Columbia, struggling with addiction and seeking professional help? You've come to the right place. The Addiction Rehab Centre Directory is your ultimate resource for finding reputable rehab centres in Abbotsford. Our mission is to connect individuals in need with the best addiction treatment facilities available."
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Why Choose Abbotsford for Addiction Recovery?",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Abbotsford, a picturesque city nestled in the heart of the Fraser Valley, is a welcoming and supportive community for individuals on the path to recovery. Choosing a rehab centre in Abbotsford means immersing yourself in an environment that fosters healing, growth, and a fresh start."
+    },
+    {
+     "type": "text",
+     "text": "Diverse Treatment Options"
+    },
+    {
+     "type": "text",
+     "text": "Abbotsford boasts a range of rehab centres, each offering unique treatment programs tailored to various needs. Whether you're struggling with substance abuse, alcohol addiction, or a dual diagnosis, you can find specialized care to address your specific challenges."
+    },
+    {
+     "type": "text",
+     "text": "Caring and Professional Staff"
+    },
+    {
+     "type": "text",
+     "text": "The rehab centres in Abbotsford are staffed with dedicated and experienced professionals who are committed to helping you overcome addiction. From skilled therapists and medical experts to compassionate support staff, you'll be in good hands throughout your recovery journey."
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "What to Expect from Rehab Centres in Abbotsford",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "When you choose one of the rehab centres in Abbotsford listed in our directory, you can anticipate the following key benefits:"
+      },
+      {
+       "type": "text",
+       "text": "Personalized Treatment Plans"
+      },
+      {
+       "type": "text",
+       "text": "Each individual's journey through addiction recovery is unique. Rehab centres in Abbotsford recognize this and craft personalized treatment plans that address your specific needs and circumstances."
+      },
+      {
+       "type": "text",
+       "text": "Holistic Healing"
+      },
+      {
+       "type": "text",
+       "text": "Abbotsford rehab centres embrace a holistic approach to recovery, focusing on both your physical and mental well-being. From detoxification and therapy to fitness and nutrition, your overall health is a top priority."
+      },
+      {
+       "type": "text",
+       "text": "Supportive Community"
+      },
+      {
+       "type": "text",
+       "text": "In Abbotsford, you'll find a supportive and tight-knit recovery community. This network of peers, along with the caring professionals at the rehab centres, creates a strong foundation for your journey to sobriety."
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Finding the Right Rehab Centre in Abbotsford",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Locating the ideal rehab centre for your needs is a crucial step in your recovery process. Our directory simplifies this task by offering comprehensive listings of rehab centres in Abbotsford. Here's how to get started:"
+    },
+    {
+     "type": "text",
+     "text": "Browse Our Listings"
+    },
+    {
+     "type": "text",
+     "text": "Explore our directory to view a curated list of rehab centres in Abbotsford. Each listing includes detailed information about the facility, their treatment programs, and contact details."
+    },
+    {
+     "type": "text",
+     "text": "Read Reviews and Testimonials"
+    },
+    {
+     "type": "text",
+     "text": "Discover the experiences of others who have sought help from Abbotsford's rehab centres. Reading reviews and testimonials can offer valuable insights into what you can expect from each facility."
+    },
+    {
+     "type": "text",
+     "text": "Contact the Facilities"
+    },
+    {
+     "type": "text",
+     "text": "Reach out to the rehab centres you're interested in. Discuss your situation, treatment options, and any questions you may have. This step helps you make an informed decision about your recovery journey."
+    },
+    {
+     "type": "text",
+     "text": "Begin Your Journey to Recovery"
+    },
+    {
+     "type": "text",
+     "text": "Addiction recovery is a challenging, but ultimately rewarding journey. By choosing one of the rehab centres in Abbotsford listed in our directory, you're taking the first step towards a healthier and happier life. Don't wait—start your recovery journey today."
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "https://addictionrehabcenters.ca/"
+  },
+  {
+   "type": "text",
+   "text": "Hotel-Style Rehab in Massachusetts"
+  },
+  {
+   "type": "text",
+   "text": "Just outside of downtown Boston, Bedrock Recovery Center offers a renovated 1.5-acre hotel-style rehab on 6 acres of greenery. Bedrock Recovery uses a blend of evidence-based therapies and 12-Step programming, focusing on early recovery and trauma treatment. They tailor treatment plans for each client, providing detox, medication-assisted treatment (MAT) for opioid and alcohol use disorders, residential care, and aftercare."
+  },
+  {
+   "type": "link",
+   "text": "Learn More: Bedrock Recovery Center",
+   "href": "https://addictionrehabcenters.ca/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/10/yh7btw9jq6nkaom0ryuz.webp",
+   "alt": "",
+   "width": null,
+   "height": null,
+   "link_href": "https://addictionrehabcenters.ca/"
+  },
+  {
+   "type": "text",
+   "text": "4"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Abbotsford Results"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+   "alt": "",
+   "width": "640",
+   "height": "480",
+   "link_href": "https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford"
+  },
+  {
+   "type": "h5",
+   "text": "Awakenings Health and Wellness Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/awakenings-health-and-wellness-centre/\" itemprop=\"url\">Awakenings Health and Wellness Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Addiction Treatment at Awakenings Health and Wellness Center Awakenings Health and Wellness Center for Men is dedicated to providing effective..."
+  },
+  {
+   "type": "p",
+   "text": "4125 Sumas Way, Abbotsford, BC, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4125 Sumas Way, Abbotsford, BC, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png",
+   "alt": "Trinity Memorial United Church-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford"
+  },
+  {
+   "type": "h5",
+   "text": "12 Step Group Trinity United Church",
+   "html": "<a data-wpel-link=\"internal\" href=\"/12-step-group-trinity-united-church/\" itemprop=\"url\">12 Step Group Trinity United Church</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "The Trinity United Church facilitates an open meeting every Tuesday at 2:00"
+  },
+  {
+   "type": "p",
+   "text": "33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png",
+   "alt": "PeardonvilleHouse-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford"
+  },
+  {
+   "type": "h5",
+   "text": "Peardonville Treatment Centre Meeting",
+   "html": "<a data-wpel-link=\"internal\" href=\"/peardonville-treatment-centre-meeting/\" itemprop=\"url\">Peardonville Treatment Centre Meeting</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "The facility acc an open meeting every Wednesday at 7:30 pm and Fridays at 1:00 pm"
+  },
+  {
+   "type": "p",
+   "text": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png",
+   "alt": "Adult & Teen Challenge BC-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford"
+  },
+  {
+   "type": "h5",
+   "text": "Teen Challenge Bc – Abbotsford Women’S Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/teen-challenge-bc-abbotsford-womens-centre/\" itemprop=\"url\">Teen Challenge Bc – Abbotsford Women’S Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Teen Challenge BC is a residential faith-based addiction recovery program for men and women aged 19 and up that takes around a year to complete..."
+  },
+  {
+   "type": "p",
+   "text": "4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Abbotsford Results",
+   "html": "More Rehab Centres in Abbotsford Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png",
+   "alt": "Archway Community Services-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/"
+  },
+  {
+   "type": "link",
+   "text": "Abbotsford",
+   "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "new_href": "/listing-location/abbotsford/"
+  },
+  {
+   "type": "h5",
+   "text": "Abbotsford Community Services – Addiction Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/abbotsford-community-services-addiction-centre/\" itemprop=\"url\">Abbotsford Community Services – Addiction Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+   "alt": "Clsc Alberta Health Services",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/impact-society/"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "link",
+   "text": "Abbotsford",
+   "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "new_href": "/listing-location/abbotsford/"
+  },
+  {
+   "type": "h5",
+   "text": "Impact Society",
+   "html": "<a data-wpel-link=\"internal\" href=\"/impact-society/\" itemprop=\"url\">Impact Society</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png",
+   "alt": "The Salvation Army-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/"
+  },
+  {
+   "type": "link",
+   "text": "Abbotsford",
+   "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "new_href": "/listing-location/abbotsford/"
+  },
+  {
+   "type": "h5",
+   "text": "The Salvation Army Centre Of Hope",
+   "html": "<a data-wpel-link=\"internal\" href=\"/the-salvation-army-centre-of-hope/\" itemprop=\"url\">The Salvation Army Centre Of Hope</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png",
+   "alt": "LIFE Recovery Association-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/life-recovery/"
+  },
+  {
+   "type": "link",
+   "text": "Abbotsford",
+   "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "new_href": "/listing-location/abbotsford/"
+  },
+  {
+   "type": "h5",
+   "text": "Life Recovery",
+   "html": "<a data-wpel-link=\"internal\" href=\"/life-recovery/\" itemprop=\"url\">Life Recovery</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "2693 Braeside St, Abbotsford, BC V2T 2R5, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2693 Braeside St, Abbotsford, BC V2T 2R5, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png",
+   "alt": "Peardonville House Treatment Centre-0",
+   "width": "1000",
+   "height": "667",
+   "link_href": "https://addictionrehabcenters.ca/peardonville-house-treatment-centre/"
+  },
+  {
+   "type": "link",
+   "text": "Abbotsford",
+   "href": "https://addictionrehabcenters.ca/listing-location/abbotsford/",
+   "new_href": "/listing-location/abbotsford/"
+  },
+  {
+   "type": "h5",
+   "text": "Peardonville House Treatment Centre",
+   "html": "<a data-wpel-link=\"internal\" href=\"/peardonville-house-treatment-centre/\" itemprop=\"url\">Peardonville House Treatment Centre</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h3",
+   "text": "Common Questions About Abbotsford Treatment Centres",
+   "html": "Common Questions About Abbotsford Treatment Centres",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "01 Question",
+   "html": "01 Question",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "01 Answer.",
+   "html": "01 Answer.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "02 Question",
+   "html": "02 Question",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "02 Answer.",
+   "html": "02 Answer.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Rehab Centres in Abbotsford, British Columbia"
+  },
+  {
+   "type": "text",
+   "text": "Are you or a loved one in Abbotsford, British Columbia, struggling with addiction and seeking professional help? You've come to the right place. The Addiction Rehab Centre Directory is your ultimate resource for finding reputable rehab centres in Abbotsford. Our mission is to connect individuals in need with the best addiction treatment facilities available."
+  },
+  {
+   "type": "h2",
+   "text": "Why Choose Abbotsford for Addiction Recovery?",
+   "html": "Why Choose Abbotsford for Addiction Recovery?",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford, a picturesque city nestled in the heart of the Fraser Valley, is a welcoming and supportive community for individuals on the path to recovery. Choosing a rehab centre in Abbotsford means immersing yourself in an environment that fosters healing, growth, and a fresh start."
+  },
+  {
+   "type": "text",
+   "text": "Diverse Treatment Options"
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford boasts a range of rehab centres, each offering unique treatment programs tailored to various needs. Whether you're struggling with substance abuse, alcohol addiction, or a dual diagnosis, you can find specialized care to address your specific challenges."
+  },
+  {
+   "type": "text",
+   "text": "Caring and Professional Staff"
+  },
+  {
+   "type": "text",
+   "text": "The rehab centres in Abbotsford are staffed with dedicated and experienced professionals who are committed to helping you overcome addiction. From skilled therapists and medical experts to compassionate support staff, you'll be in good hands throughout your recovery journey."
+  },
+  {
+   "type": "h3",
+   "text": "What to Expect from Rehab Centres in Abbotsford",
+   "html": "What to Expect from Rehab Centres in Abbotsford",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "When you choose one of the rehab centres in Abbotsford listed in our directory, you can anticipate the following key benefits:"
+  },
+  {
+   "type": "text",
+   "text": "Personalized Treatment Plans"
+  },
+  {
+   "type": "text",
+   "text": "Each individual's journey through addiction recovery is unique. Rehab centres in Abbotsford recognize this and craft personalized treatment plans that address your specific needs and circumstances."
+  },
+  {
+   "type": "text",
+   "text": "Holistic Healing"
+  },
+  {
+   "type": "text",
+   "text": "Abbotsford rehab centres embrace a holistic approach to recovery, focusing on both your physical and mental well-being. From detoxification and therapy to fitness and nutrition, your overall health is a top priority."
+  },
+  {
+   "type": "text",
+   "text": "Supportive Community"
+  },
+  {
+   "type": "text",
+   "text": "In Abbotsford, you'll find a supportive and tight-knit recovery community. This network of peers, along with the caring professionals at the rehab centres, creates a strong foundation for your journey to sobriety."
+  },
+  {
+   "type": "h2",
+   "text": "Finding the Right Rehab Centre in Abbotsford",
+   "html": "Finding the Right Rehab Centre in Abbotsford",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Locating the ideal rehab centre for your needs is a crucial step in your recovery process. Our directory simplifies this task by offering comprehensive listings of rehab centres in Abbotsford. Here's how to get started:"
+  },
+  {
+   "type": "text",
+   "text": "Browse Our Listings"
+  },
+  {
+   "type": "text",
+   "text": "Explore our directory to view a curated list of rehab centres in Abbotsford. Each listing includes detailed information about the facility, their treatment programs, and contact details."
+  },
+  {
+   "type": "text",
+   "text": "Read Reviews and Testimonials"
+  },
+  {
+   "type": "text",
+   "text": "Discover the experiences of others who have sought help from Abbotsford's rehab centres. Reading reviews and testimonials can offer valuable insights into what you can expect from each facility."
+  },
+  {
+   "type": "text",
+   "text": "Contact the Facilities"
+  },
+  {
+   "type": "text",
+   "text": "Reach out to the rehab centres you're interested in. Discuss your situation, treatment options, and any questions you may have. This step helps you make an informed decision about your recovery journey."
+  },
+  {
+   "type": "text",
+   "text": "Begin Your Journey to Recovery"
+  },
+  {
+   "type": "text",
+   "text": "Addiction recovery is a challenging, but ultimately rewarding journey. By choosing one of the rehab centres in Abbotsford listed in our directory, you're taking the first step towards a healthier and happier life. Don't wait—start your recovery journey today."
+  }
+ ],
+ "cards": [
+  {
+   "name": "Awakenings Health and Wellness Centre",
+   "href": "https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/",
+   "address": "4125 Sumas Way, Abbotsford, BC, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp",
+    "alt": "",
+    "width": "640",
+    "height": "480"
+   }
+  },
+  {
+   "name": "12 Step Group Trinity United Church",
+   "href": "https://addictionrehabcenters.ca/12-step-group-trinity-united-church/",
+   "address": "33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png",
+    "alt": "Trinity Memorial United Church-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Peardonville Treatment Centre Meeting",
+   "href": "https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/",
+   "address": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png",
+    "alt": "PeardonvilleHouse-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Teen Challenge Bc – Abbotsford Women’S Centre",
+   "href": "https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/",
+   "address": "4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png",
+    "alt": "Adult & Teen Challenge BC-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Abbotsford Community Services – Addiction Centre",
+   "href": "https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/",
+   "address": "2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png",
+    "alt": "Archway Community Services-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Impact Society",
+   "href": "https://addictionrehabcenters.ca/impact-society/",
+   "address": "33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada",
+   "category": "Private Rehab",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "The Salvation Army Centre Of Hope",
+   "href": "https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/",
+   "address": "34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png",
+    "alt": "The Salvation Army-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Life Recovery",
+   "href": "https://addictionrehabcenters.ca/life-recovery/",
+   "address": "2693 Braeside St, Abbotsford, BC V2T 2R5, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png",
+    "alt": "LIFE Recovery Association-0",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "Peardonville House Treatment Centre",
+   "href": "https://addictionrehabcenters.ca/peardonville-house-treatment-centre/",
+   "address": "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+   "category": "",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png",
+    "alt": "Peardonville House Treatment Centre-0",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Awakenings Health and Wellness Centre",
+    "awakenings-health-and-wellness-centre",
+    "4125 Sumas Way, Abbotsford, BC, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "12 Step Group Trinity United Church",
+    "12-step-group-trinity-united-church",
+    "33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Peardonville Treatment Centre Meeting",
+    "peardonville-treatment-centre-meeting",
+    "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Teen Challenge Bc – Abbotsford Women’S Centre",
+    "teen-challenge-bc-abbotsford-womens-centre",
+    "4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Abbotsford Community Services – Addiction Centre",
+    "abbotsford-community-services-addiction-centre",
+    "2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Impact Society",
+    "impact-society",
+    "33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "Private Rehab"
+    ]
+   ],
+   [
+    "The Salvation Army Centre Of Hope",
+    "the-salvation-army-centre-of-hope",
+    "34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Life Recovery",
+    "life-recovery",
+    "2693 Braeside St, Abbotsford, BC V2T 2R5, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ],
+   [
+    "Peardonville House Treatment Centre",
+    "peardonville-house-treatment-centre",
+    "825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    []
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Abbotsford Discover top-rated rehab centres in Abbotsford, BC. Our comprehensive directory provides valuable information on addiction treatment facilities in Abbotsford. Find the help you need to overcome addiction today.",
+  "result_count": "4",
+  "faq_text_placeholder": "Common Questions About Abbotsford Treatment Centres 01 Question 01 Answer. 02 Question 02 Answer."
+ },
+ "faqs": [
+  {
+   "question": "01 Question",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "01 Answer.",
+     "html": "01 Answer.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "answer_text": "01 Answer."
+  },
+  {
+   "question": "02 Question",
+   "answer_blocks": [
+    {
+     "type": "p",
+     "text": "02 Answer.",
+     "html": "02 Answer.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "Rehab Centres in Abbotsford, British Columbia"
+    },
+    {
+     "type": "text",
+     "text": "Are you or a loved one in Abbotsford, British Columbia, struggling with addiction and seeking professional help? You've come to the right place. The Addiction Rehab Centre Directory is your ultimate resource for finding reputable rehab centres in Abbotsford. Our mission is to connect individuals in need with the best addiction treatment facilities available."
+    }
+   ],
+   "answer_text": "02 Answer. Rehab Centres in Abbotsford, British Columbia Are you or a loved one in Abbotsford, British Columbia, struggling with addiction and seeking professional help? You've come to the right place. The Addiction Rehab Centre Directory is your ultimate resource for finding reputable rehab centres in Abbotsford. Our mission is to connect individuals in need with the best addiction treatment facilities available."
+  }
+ ],
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"location-top-ads\">\n<div class=\"ad-left\">\n<span class=\"location-top-ads-ad_site_url\">https://addictionrehabcenters.ca/</span>\n<div class=\"location-top-ads-ad_title\">Hotel-Style Rehab in Massachusetts</div>\n<div class=\"location-top-ads-ad_description\">Just outside of downtown Boston, Bedrock Recovery Center offers a renovated 1.5-acre hotel-style rehab on 6 acres of greenery. Bedrock Recovery uses a blend of evidence-based therapies and 12-Step programming, focusing on early recovery and trauma treatment. They tailor treatment plans for each client, providing detox, medication-assisted treatment (MAT) for opioid and alcohol use disorders, residential care, and aftercare.</div>\n<a class=\"location-top-ads-ad_button_label\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Learn More: Bedrock Recovery Center</a>\n</div>\n<div class=\"ad-right\"><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\"><img src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/10/yh7btw9jq6nkaom0ryuz.webp\"/></a></div>\n</div>\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">4</span>\n                                    Top Rehab Centres in Abbotsford Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n<div class=\"place-item layout-02 golo-place-featured place-15650\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/\">\n<img alt=\"\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"480\" loading=\"lazy\" sizes=\"(max-width: 640px) 100vw, 640px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2.webp 640w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2-300x225.webp 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/05/Awakenings-Health-and-Wellness-Centre2-600x450.webp 600w\" width=\"640\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n                                                    Abbotsford                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/awakenings-health-and-wellness-centre/\" itemprop=\"url\">Awakenings Health and Wellness Centre</a>\n</h5>\n<!-- post excerpt -->\n                                            Addiction Treatment at Awakenings Health and Wellness Center Awakenings Health and Wellness Center for Men is dedicated to providing effective...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4125 Sumas Way, Abbotsford, BC, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-02 golo-place-featured place-6593\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/12-step-group-trinity-united-church/\">\n<img alt=\"Trinity Memorial United Church-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Trinity-Memorial-United-Church-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n                                                    Abbotsford                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/12-step-group-trinity-united-church/\" itemprop=\"url\">12 Step Group Trinity United Church</a>\n</h5>\n<!-- post excerpt -->\n                                            The Trinity United Church facilitates an open meeting every Tuesday at 2:00 \n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    33737 George Ferguson Way, Abbotsford, BC V2S 2M4, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-02 golo-place-featured place-6595\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/\">\n<img alt=\"PeardonvilleHouse-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/PeardonvilleHouse-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n                                                    Abbotsford                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peardonville-treatment-centre-meeting/\" itemprop=\"url\">Peardonville Treatment Centre Meeting</a>\n</h5>\n<!-- post excerpt -->\n                                            The facility acc an open meeting every Wednesday at 7:30 pm and Fridays at 1:00 pm \n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-02 golo-place-featured place-6571\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/\">\n<img alt=\"Adult &amp; Teen Challenge BC-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Adult-Teen-Challenge-BC-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n                                                    Abbotsford                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/teen-challenge-bc-abbotsford-womens-centre/\" itemprop=\"url\">Teen Challenge Bc – Abbotsford Women’S Centre</a>\n</h5>\n<!-- post excerpt -->\n                                            Teen Challenge BC is a residential faith-based addiction recovery program for men and women aged 19 and up that takes around a year to complete...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4131 Lakemount Rd, Abbotsford, BC V3G 2J1, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br/>\n<h2>More Rehab Centres in Abbotsford Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-6543\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/\">\n<img alt=\"Archway Community Services-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Archway-Community-Services-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/abbotsford/\">Abbotsford</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/abbotsford-community-services-addiction-centre/\" itemprop=\"url\">Abbotsford Community Services – Addiction Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2420 Montrose Ave, Abbotsford, BC V2S 3S9, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6544\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/impact-society/\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Private Rehab</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/abbotsford/\">Abbotsford</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/impact-society/\" itemprop=\"url\">Impact Society</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    33228 Walsh Ave, Abbotsford, BC V2S 1Z8, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6522\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/\">\n<img alt=\"The Salvation Army-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/The-Salvation-Army-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/abbotsford/\">Abbotsford</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/the-salvation-army-centre-of-hope/\" itemprop=\"url\">The Salvation Army Centre Of Hope</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    34081 Gladys Ave, Abbotsford, BC V2S 2E8, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6511\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/life-recovery/\">\n<img alt=\"LIFE Recovery Association-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/LIFE-Recovery-Association-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/abbotsford/\">Abbotsford</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/life-recovery/\" itemprop=\"url\">Life Recovery</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    2693 Braeside St, Abbotsford, BC V2T 2R5, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"place-item layout-list golo-place-featured place-6512\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peardonville-house-treatment-centre/\">\n<img alt=\"Peardonville House Treatment Centre-0\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0.png 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0-300x200.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Peardonville-House-Treatment-Centre-0-768x512.png 768w\" width=\"1000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n</div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/abbotsford/\">Abbotsford</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peardonville-house-treatment-centre/\" itemprop=\"url\">Peardonville House Treatment Centre</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    825 Peardonville Rd, Abbotsford, BC V4X 2L8, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n<h3>Common Questions About Abbotsford Treatment Centres</h3>\n<div class=\"row\"> <div class=\"eachFaq\">\n<h4 class=\"title\">01 Question</h4>\n<div class=\"accordion-content\">\n<p>01 Answer.</p>\n</div> <!-- //.accordion-content -->\n</div> <!-- //.eachFaq -->\n<div class=\"eachFaq\">\n<h4 class=\"title\">02 Question</h4>\n<div class=\"accordion-content\">\n<p>02 Answer.</p>\n</div> <!-- //.accordion-content -->\n</div> <!-- //.eachFaq -->\n</div> </div>\n<div class=\"ad-container\">\n<span style=\"color: #000000;font-size: 40px\">Rehab Centres in Abbotsford, British Columbia</span>\n</div>\nAre you or a loved one in Abbotsford, British Columbia, struggling with addiction and seeking professional help? You've come to the right place. The Addiction Rehab Centre Directory is your ultimate resource for finding reputable rehab centres in Abbotsford. Our mission is to connect individuals in need with the best addiction treatment facilities available.\n<h2>Why Choose Abbotsford for Addiction Recovery?</h2>\nAbbotsford, a picturesque city nestled in the heart of the Fraser Valley, is a welcoming and supportive community for individuals on the path to recovery. Choosing a rehab centre in Abbotsford means immersing yourself in an environment that fosters healing, growth, and a fresh start.\n\n<strong>Diverse Treatment Options</strong>\n\nAbbotsford boasts a range of rehab centres, each offering unique treatment programs tailored to various needs. Whether you're struggling with substance abuse, alcohol addiction, or a dual diagnosis, you can find specialized care to address your specific challenges.\n\n<strong>Caring and Professional Staff</strong>\n\nThe rehab centres in Abbotsford are staffed with dedicated and experienced professionals who are committed to helping you overcome addiction. From skilled therapists and medical experts to compassionate support staff, you'll be in good hands throughout your recovery journey.\n<h3>What to Expect from Rehab Centres in Abbotsford</h3>\nWhen you choose one of the rehab centres in Abbotsford listed in our directory, you can anticipate the following key benefits:\n\n<strong>Personalized Treatment Plans</strong>\n\nEach individual's journey through addiction recovery is unique. Rehab centres in Abbotsford recognize this and craft personalized treatment plans that address your specific needs and circumstances.\n\n<strong>Holistic Healing</strong>\n\nAbbotsford rehab centres embrace a holistic approach to recovery, focusing on both your physical and mental well-being. From detoxification and therapy to fitness and nutrition, your overall health is a top priority.\n\n<strong>Supportive Community</strong>\n\nIn Abbotsford, you'll find a supportive and tight-knit recovery community. This network of peers, along with the caring professionals at the rehab centres, creates a strong foundation for your journey to sobriety.\n<h2>Finding the Right Rehab Centre in Abbotsford</h2>\nLocating the ideal rehab centre for your needs is a crucial step in your recovery process. Our directory simplifies this task by offering comprehensive listings of rehab centres in Abbotsford. Here's how to get started:\n\n<strong>Browse Our Listings</strong>\n\nExplore our directory to view a curated list of rehab centres in Abbotsford. Each listing includes detailed information about the facility, their treatment programs, and contact details.\n\n<strong>Read Reviews and Testimonials</strong>\n\nDiscover the experiences of others who have sought help from Abbotsford's rehab centres. Reading reviews and testimonials can offer valuable insights into what you can expect from each facility.\n\n<strong>Contact the Facilities</strong>\n\nReach out to the rehab centres you're interested in. Discuss your situation, treatment options, and any questions you may have. This step helps you make an informed decision about your recovery journey.\n\n<strong>Begin Your Journey to Recovery</strong>\n\nAddiction recovery is a challenging, but ultimately rewarding journey. By choosing one of the rehab centres in Abbotsford listed in our directory, you're taking the first step towards a healthier and happier life. Don't wait—start your recovery journey today.                    </main>\n</div>\n</div>\n</div></body>"
+}

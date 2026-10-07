@@ -1,0 +1,1374 @@
+{
+ "schema": "arc-content/1",
+ "slug": "effects-of-drug-addiction",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+  "path": "/effects-of-drug-addiction/",
+  "wp_items": [
+   {
+    "id": 953,
+    "type": "post",
+    "title": "Effects of Drug Addiction",
+    "date": "2015-08-19T21:40:15",
+    "modified": "2022-09-12T19:16:34",
+    "status": "publish",
+    "yoast_title": "Effects of Drug Addiction - Addiction Rehab Centers",
+    "words_rest": 839
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/effects-of-drug-addiction/",
+ "seo": {
+  "meta_title": "Effects of Drug Addiction - Addiction Rehab Centers",
+  "meta_description": "Read about the emotional, physical, legal, financial, social, and other effects of drug addiction here. Contact us today to learn more about getting treatment.",
+  "canonical_source": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+  "og": {
+   "title": "Effects of Drug Addiction - Addiction Rehab Centers",
+   "description": "Read about the emotional, physical, legal, financial, social, and other effects of drug addiction here. Contact us today to learn more about getting treatment.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Effects of Drug Addiction",
+      "datePublished": "2015-08-19T21:40:15+00:00",
+      "dateModified": "2022-09-12T19:16:34+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/"
+      },
+      "wordCount": 846,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+      "keywords": [
+       "abuse",
+       "addiction",
+       "drugs"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+      "url": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+      "name": "Effects of Drug Addiction - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+      "datePublished": "2015-08-19T21:40:15+00:00",
+      "dateModified": "2022-09-12T19:16:34+00:00",
+      "description": "Read about the emotional, physical, legal, financial, social, and other effects of drug addiction here. Contact us today to learn more about getting treatment.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/effects-of-drug-addiction/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "deadly drug"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/effects-of-drug-addiction/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Effects of Drug Addiction"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Effects of Drug Addiction",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 848,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Effects of Drug Addiction"
+  ],
+  [
+   "h3",
+   "Emotional Effects of Drug Addiction"
+  ],
+  [
+   "h3",
+   "Physical Effects of Drug Addiction"
+  ],
+  [
+   "h3",
+   "Legal Effects of Drug Addiction"
+  ],
+  [
+   "h3",
+   "Financial and Lifestyle Effects of Drug Addiction"
+  ],
+  [
+   "h2",
+   "How Drug Addiction Affects Your Family"
+  ],
+  [
+   "h2",
+   "How Drug Addiction Affects Society"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+   "local_path": "images/effects-of-drug-addiction/deadly-drug.jpg",
+   "alt": "deadly drug",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "August 19, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs",
+   "text": "50,000 people",
+   "kind": "external",
+   "new": "https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs"
+  },
+  {
+   "old_href": "https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm",
+   "text": "00,000 lives every year",
+   "kind": "external",
+   "new": "https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/related-topics/trends-statistics",
+   "text": "$700 billion annually.",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/related-topics/trends-statistics"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm",
+   "text": "The Effects of Drugs on US Society",
+   "kind": "external",
+   "new": "https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm"
+  },
+  {
+   "old_href": "https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/",
+   "text": "Impact of Drug Abuse on Health & Society",
+   "kind": "external",
+   "new": "https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+   "text": "Drug Addiction Explained",
+   "kind": "internal",
+   "new": "/drug-addiction-explained/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+   "text": "Top 10 Drug Addiction Facts You Should Know",
+   "kind": "internal",
+   "new": "/10-drug-addiction-facts-you-need-to-know/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+   "text": "Understanding Drug Addiction",
+   "kind": "internal",
+   "new": "/understanding-addiction-to-drugs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/",
+   "text": "Effects of Drug Addiction (physical and psychological)",
+   "kind": "external",
+   "new": "https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/"
+  },
+  {
+   "old_href": "https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction",
+   "text": "PBS: Drug Addiction",
+   "kind": "external",
+   "new": "https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+     "alt": "deadly drug",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "August 19, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Effects of Drug Addiction",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "In 2013, drugs killed nearly 50,000 people. Alcohol, the most deadly drug of all, claims almost 100,000 lives every year, with various addictions collectively costing the U.S. economy approximately $700 billion annually. Drug addiction might feel like a personal problem, but it’s a serious public health issue with far-reaching impacts.",
+     "html": "In 2013, drugs killed nearly <a data-wpel-link=\"external\" href=\"https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs\" rel=\"external noopener noreferrer\">50,000 people</a>. Alcohol, the most deadly drug of all, claims almost 1<a data-wpel-link=\"external\" href=\"https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm\" rel=\"external noopener noreferrer\">00,000 lives every year</a>, with various addictions collectively costing the U.S. economy approximately <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/related-topics/trends-statistics\" rel=\"external noopener noreferrer\">$700 billion annually. </a>Drug addiction might feel like a personal problem, but it’s a serious public health issue with far-reaching impacts.",
+     "links": [
+      {
+       "old": "https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs",
+       "text": "50,000 people"
+      },
+      {
+       "old": "https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm",
+       "text": "00,000 lives every year"
+      },
+      {
+       "old": "https://www.drugabuse.gov/related-topics/trends-statistics",
+       "text": "$700 billion annually."
+      }
+     ],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "If you’re struggling with an addiction to drugs, don’t lull yourself into a sense of complacency with vague reassurances that your addiction harms only yourself. Addiction is not a victimless act, and knowing just how far the consequences of addiction extend may encourage you to finally seek the help you need.",
+     "html": "If you’re struggling with an addiction to drugs, don’t lull yourself into a sense of complacency with vague reassurances that your addiction harms only yourself. Addiction is not a victimless act, and knowing just how far the consequences of addiction extend may encourage you to finally seek the help you need.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Emotional Effects of Drug Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction directly undermines your short and long-term emotional health. The effects vary depending on which drug you use, whether you have any pre-existing conditions, and how effectively you manage your psychological health. But some of the most common emotional effects of drug addiction include:",
+       "html": "Drug addiction directly undermines your short and long-term emotional health. The effects vary depending on which drug you use, whether you have any pre-existing conditions, and how effectively you manage your psychological health. But some of the most common emotional effects of drug addiction include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Decreased intelligence",
+         "html": "Decreased intelligence",
+         "links": []
+        },
+        {
+         "text": "Delusions and hallucinations",
+         "html": "Delusions and hallucinations",
+         "links": []
+        },
+        {
+         "text": "Psychotic behavior",
+         "html": "Psychotic behavior",
+         "links": []
+        },
+        {
+         "text": "Abusive behavior",
+         "html": "Abusive behavior",
+         "links": []
+        },
+        {
+         "text": "New or worsening depression or anxiety",
+         "html": "New or worsening depression or anxiety",
+         "links": []
+        },
+        {
+         "text": "Loss of motivation",
+         "html": "Loss of motivation",
+         "links": []
+        },
+        {
+         "text": "Difficulty completing daily tasks",
+         "html": "Difficulty completing daily tasks",
+         "links": []
+        },
+        {
+         "text": "Unexplained mood swings",
+         "html": "Unexplained mood swings",
+         "links": []
+        },
+        {
+         "text": "Persistent insomnia or sleepiness",
+         "html": "Persistent insomnia or sleepiness",
+         "links": []
+        },
+        {
+         "text": "Changes in your personality",
+         "html": "Changes in your personality",
+         "links": []
+        },
+        {
+         "text": "Feelings or thoughts of suicide",
+         "html": "Feelings or thoughts of suicide",
+         "links": []
+        },
+        {
+         "text": "Feeling hopeless about your ability to get sober",
+         "html": "Feeling hopeless about your ability to get sober",
+         "links": []
+        },
+        {
+         "text": "Intense cravings when you attempt to quit using",
+         "html": "Intense cravings when you attempt to quit using",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Physical Effects of Drug Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction is one of the surest and quickest ways to destroy your health. Different drugs affect your health in different ways. For instance, stimulants such as Adderall are more likely to induce heart attacks, while opiates such as heroin are more likely to slow your breathing. Some of the most common physiological effects of drug use include:",
+       "html": "Drug addiction is one of the surest and quickest ways to destroy your health. Different drugs affect your health in different ways. For instance, stimulants such as Adderall are more likely to induce heart attacks, while opiates such as heroin are more likely to slow your breathing. Some of the most common physiological effects of drug use include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Organ failure, especially of the heart, liver, and kidneys",
+         "html": "Organ failure, especially of the heart, liver, and kidneys",
+         "links": []
+        },
+        {
+         "text": "The transmission of communicable diseases such as HIV/AIDS",
+         "html": "The transmission of communicable diseases such as HIV/AIDS",
+         "links": []
+        },
+        {
+         "text": "Changes in heart rate or blood pressure",
+         "html": "Changes in heart rate or blood pressure",
+         "links": []
+        },
+        {
+         "text": "Difficulty breathing",
+         "html": "Difficulty breathing",
+         "links": []
+        },
+        {
+         "text": "Weight gain or weight loss",
+         "html": "Weight gain or weight loss",
+         "links": []
+        },
+        {
+         "text": "Malnutrition and changes in appetite",
+         "html": "Malnutrition and changes in appetite",
+         "links": []
+        },
+        {
+         "text": "Chronic headaches and muscle pain",
+         "html": "Chronic headaches and muscle pain",
+         "links": []
+        },
+        {
+         "text": "Sudden death",
+         "html": "Sudden death",
+         "links": []
+        },
+        {
+         "text": "Seizures, tremors, fainting, and shakiness",
+         "html": "Seizures, tremors, fainting, and shakiness",
+         "links": []
+        },
+        {
+         "text": "Chronic gastrointestinal problems, including nausea, vomiting, diarrhea, and stomach pain",
+         "html": "Chronic gastrointestinal problems, including nausea, vomiting, diarrhea, and stomach pain",
+         "links": []
+        },
+        {
+         "text": "Decreased immunity",
+         "html": "Decreased immunity",
+         "links": []
+        },
+        {
+         "text": "Sinus problems and allergies",
+         "html": "Sinus problems and allergies",
+         "links": []
+        },
+        {
+         "text": "Increased sensitivity to light and sound",
+         "html": "Increased sensitivity to light and sound",
+         "links": []
+        },
+        {
+         "text": "Permanent brain injury or loss of intelligence",
+         "html": "Permanent brain injury or loss of intelligence",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Legal Effects of Drug Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction is almost always illegal, whether you’re abusing street drugs or illegally gaining access to more prescription drugs than your doctor prescribes. Many users suffer legal consequences, including:",
+       "html": "Drug addiction is almost always illegal, whether you’re abusing street drugs or illegally gaining access to more prescription drugs than your doctor prescribes. Many users suffer legal consequences, including:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Loss of access to government programs such as student loans and welfare",
+         "html": "Loss of access to government programs such as student loans and welfare",
+         "links": []
+        },
+        {
+         "text": "Incurring massive legal expenses, including attorney’s fees, bail, fines, and penalties",
+         "html": "Incurring massive legal expenses, including attorney’s fees, bail, fines, and penalties",
+         "links": []
+        },
+        {
+         "text": "Developing a criminal record",
+         "html": "Developing a criminal record",
+         "links": []
+        },
+        {
+         "text": "Loss of your right to drive",
+         "html": "Loss of your right to drive",
+         "links": []
+        },
+        {
+         "text": "Being placed on probation and forced to submit to random drug and alcohol screenings",
+         "html": "Being placed on probation and forced to submit to random drug and alcohol screenings",
+         "links": []
+        },
+        {
+         "text": "Loss of your freedom",
+         "html": "Loss of your freedom",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Financial and Lifestyle Effects of Drug Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Addiction experts often remark that addiction is a lifestyle disease. If you persist with your drug and alcohol abuse, no area of your life will remain untouched. Some of the lifestyle changes you can expect include:",
+       "html": "Addiction experts often remark that addiction is a lifestyle disease. If you persist with your drug and alcohol abuse, no area of your life will remain untouched. Some of the lifestyle changes you can expect include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Financial problems due to legal bills, mounting health care costs, or the expense of buying drugs",
+         "html": "Financial problems due to legal bills, mounting health care costs, or the expense of buying drugs",
+         "links": []
+        },
+        {
+         "text": "The loss of important relationships",
+         "html": "The loss of important relationships",
+         "links": []
+        },
+        {
+         "text": "A sidelined career",
+         "html": "A sidelined career",
+         "links": []
+        },
+        {
+         "text": "Difficulty at work or school",
+         "html": "Difficulty at work or school",
+         "links": []
+        },
+        {
+         "text": "Being sued in your professional or personal life",
+         "html": "Being sued in your professional or personal life",
+         "links": []
+        },
+        {
+         "text": "Chronic stress and anxiety",
+         "html": "Chronic stress and anxiety",
+         "links": []
+        },
+        {
+         "text": "Increased conflict with loved ones",
+         "html": "Increased conflict with loved ones",
+         "links": []
+        },
+        {
+         "text": "Neglecting or abusing your children or spouse",
+         "html": "Neglecting or abusing your children or spouse",
+         "links": []
+        },
+        {
+         "text": "Neglecting hobbies you once loved",
+         "html": "Neglecting hobbies you once loved",
+         "links": []
+        },
+        {
+         "text": "Spending all or most of your time pursuing access to drugs",
+         "html": "Spending all or most of your time pursuing access to drugs",
+         "links": []
+        },
+        {
+         "text": "Endangering your loved ones because of your drug and alcohol use",
+         "html": "Endangering your loved ones because of your drug and alcohol use",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "How Drug Addiction Affects Your Family",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "No matter how well you attempt to conceal your addiction, your family will still be harmed by your decision to continue abusing alcohol and drugs. Family members of addicts suffer innumerable hurts, including:",
+       "html": "No matter how well you attempt to conceal your addiction, your family will still be harmed by your decision to continue abusing alcohol and drugs. Family members of addicts suffer innumerable hurts, including:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Abuse at the hands of the addict",
+         "html": "Abuse at the hands of the addict",
+         "links": []
+        },
+        {
+         "text": "The dissolution of the relationship with the addict",
+         "html": "The dissolution of the relationship with the addict",
+         "links": []
+        },
+        {
+         "text": "Being exposed to the threat of arrest or incarceration",
+         "html": "Being exposed to the threat of arrest or incarceration",
+         "links": []
+        },
+        {
+         "text": "Poor self-esteem",
+         "html": "Poor self-esteem",
+         "links": []
+        },
+        {
+         "text": "Depression and anxiety",
+         "html": "Depression and anxiety",
+         "links": []
+        },
+        {
+         "text": "Addiction; research consistently shows that the children of addicts are more likely to become addicts themselves. Addicts’ spouses sometimes turn to drugs and alcohol to cope with the pain and stress of caring for an addict.",
+         "html": "Addiction; research consistently shows that the children of addicts are more likely to become addicts themselves. Addicts’ spouses sometimes turn to drugs and alcohol to cope with the pain and stress of caring for an addict.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "How Drug Addiction Affects Society",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Drug addiction is more than just a personal or family problem. The effects of addiction extend outward to the larger culture, and include:",
+       "html": "Drug addiction is more than just a personal or family problem. The effects of addiction extend outward to the larger culture, and include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Contributing to organized crime, since a significant portion of drug sales are illegal transactions that fund gang or mafia activity.",
+         "html": "Contributing to organized crime, since a significant portion of drug sales are illegal transactions that fund gang or mafia activity.",
+         "links": []
+        },
+        {
+         "text": "Playing a role in terrorism, since the opium that makes opioids such as heroin is the leading crop of the Taliban and Al Qaeda.",
+         "html": "Playing a role in terrorism, since the opium that makes opioids such as heroin is the leading crop of the Taliban and Al Qaeda.",
+         "links": []
+        },
+        {
+         "text": "Creating a less safe world.",
+         "html": "Creating a less safe world.",
+         "links": []
+        },
+        {
+         "text": "Contributing to pollution and environmental degradation, since many drugs are toxic products containing dangerous chemicals",
+         "html": "Contributing to pollution and environmental degradation, since many drugs are toxic products containing dangerous chemicals",
+         "links": []
+        },
+        {
+         "text": "Destroying the US economy.",
+         "html": "Destroying the US economy.",
+         "links": []
+        },
+        {
+         "text": "Decreasing workplace productivity.",
+         "html": "Decreasing workplace productivity.",
+         "links": []
+        },
+        {
+         "text": "Tearing apart families",
+         "html": "Tearing apart families",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Drug addiction is a very real problem, but it’s not your fault. If you’re ready to escape the effects of drug addiction, we’re ready to help, so don’t hesitate to call Addiction Rehab Centres Canada today!",
+       "html": "Drug addiction is a very real problem, but it’s not your fault. If you’re ready to escape the effects of drug addiction, we’re ready to help, so don’t hesitate to call <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Further Reading:",
+       "html": "<strong>Further Reading:</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The Effects of Drugs on US Society Impact of Drug Abuse on Health & Society Drug Addiction Explained Top 10 Drug Addiction Facts You Should Know Understanding Drug Addiction Effects of Drug Addiction (physical and psychological) PBS: Drug Addiction",
+       "html": "<a data-wpel-link=\"external\" href=\"https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">The Effects of Drugs on US Society</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/\" rel=\"noopener external noreferrer\" target=\"_blank\">Impact of Drug Abuse on Health &amp; Society</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\">Drug Addiction Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"/10-drug-addiction-facts-you-need-to-know/\">Top 10 Drug Addiction Facts You Should Know</a><br/>\n<a data-wpel-link=\"internal\" href=\"/understanding-addiction-to-drugs/\">Understanding Drug Addiction</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/\" rel=\"noopener external noreferrer\" target=\"_blank\">Effects of Drug Addiction (physical and psychological)</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction\" rel=\"noopener external noreferrer\" target=\"_blank\">PBS: Drug Addiction</a>",
+       "links": [
+        {
+         "old": "https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm",
+         "text": "The Effects of Drugs on US Society"
+        },
+        {
+         "old": "https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/",
+         "text": "Impact of Drug Abuse on Health & Society"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+         "text": "Drug Addiction Explained"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+         "text": "Top 10 Drug Addiction Facts You Should Know"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+         "text": "Understanding Drug Addiction"
+        },
+        {
+         "old": "https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/",
+         "text": "Effects of Drug Addiction (physical and psychological)"
+        },
+        {
+         "old": "https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction",
+         "text": "PBS: Drug Addiction"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+   "alt": "deadly drug",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "August 19, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Effects of Drug Addiction",
+   "html": "Effects of Drug Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "In 2013, drugs killed nearly 50,000 people. Alcohol, the most deadly drug of all, claims almost 100,000 lives every year, with various addictions collectively costing the U.S. economy approximately $700 billion annually. Drug addiction might feel like a personal problem, but it’s a serious public health issue with far-reaching impacts.",
+   "html": "In 2013, drugs killed nearly <a data-wpel-link=\"external\" href=\"https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs\" rel=\"external noopener noreferrer\">50,000 people</a>. Alcohol, the most deadly drug of all, claims almost 1<a data-wpel-link=\"external\" href=\"https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm\" rel=\"external noopener noreferrer\">00,000 lives every year</a>, with various addictions collectively costing the U.S. economy approximately <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/related-topics/trends-statistics\" rel=\"external noopener noreferrer\">$700 billion annually. </a>Drug addiction might feel like a personal problem, but it’s a serious public health issue with far-reaching impacts.",
+   "links": [
+    {
+     "old": "https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs",
+     "text": "50,000 people"
+    },
+    {
+     "old": "https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm",
+     "text": "00,000 lives every year"
+    },
+    {
+     "old": "https://www.drugabuse.gov/related-topics/trends-statistics",
+     "text": "$700 billion annually."
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you’re struggling with an addiction to drugs, don’t lull yourself into a sense of complacency with vague reassurances that your addiction harms only yourself. Addiction is not a victimless act, and knowing just how far the consequences of addiction extend may encourage you to finally seek the help you need.",
+   "html": "If you’re struggling with an addiction to drugs, don’t lull yourself into a sense of complacency with vague reassurances that your addiction harms only yourself. Addiction is not a victimless act, and knowing just how far the consequences of addiction extend may encourage you to finally seek the help you need.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Emotional Effects of Drug Addiction",
+   "html": "Emotional Effects of Drug Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction directly undermines your short and long-term emotional health. The effects vary depending on which drug you use, whether you have any pre-existing conditions, and how effectively you manage your psychological health. But some of the most common emotional effects of drug addiction include:",
+   "html": "Drug addiction directly undermines your short and long-term emotional health. The effects vary depending on which drug you use, whether you have any pre-existing conditions, and how effectively you manage your psychological health. But some of the most common emotional effects of drug addiction include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Decreased intelligence",
+     "html": "Decreased intelligence",
+     "links": []
+    },
+    {
+     "text": "Delusions and hallucinations",
+     "html": "Delusions and hallucinations",
+     "links": []
+    },
+    {
+     "text": "Psychotic behavior",
+     "html": "Psychotic behavior",
+     "links": []
+    },
+    {
+     "text": "Abusive behavior",
+     "html": "Abusive behavior",
+     "links": []
+    },
+    {
+     "text": "New or worsening depression or anxiety",
+     "html": "New or worsening depression or anxiety",
+     "links": []
+    },
+    {
+     "text": "Loss of motivation",
+     "html": "Loss of motivation",
+     "links": []
+    },
+    {
+     "text": "Difficulty completing daily tasks",
+     "html": "Difficulty completing daily tasks",
+     "links": []
+    },
+    {
+     "text": "Unexplained mood swings",
+     "html": "Unexplained mood swings",
+     "links": []
+    },
+    {
+     "text": "Persistent insomnia or sleepiness",
+     "html": "Persistent insomnia or sleepiness",
+     "links": []
+    },
+    {
+     "text": "Changes in your personality",
+     "html": "Changes in your personality",
+     "links": []
+    },
+    {
+     "text": "Feelings or thoughts of suicide",
+     "html": "Feelings or thoughts of suicide",
+     "links": []
+    },
+    {
+     "text": "Feeling hopeless about your ability to get sober",
+     "html": "Feeling hopeless about your ability to get sober",
+     "links": []
+    },
+    {
+     "text": "Intense cravings when you attempt to quit using",
+     "html": "Intense cravings when you attempt to quit using",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Physical Effects of Drug Addiction",
+   "html": "Physical Effects of Drug Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is one of the surest and quickest ways to destroy your health. Different drugs affect your health in different ways. For instance, stimulants such as Adderall are more likely to induce heart attacks, while opiates such as heroin are more likely to slow your breathing. Some of the most common physiological effects of drug use include:",
+   "html": "Drug addiction is one of the surest and quickest ways to destroy your health. Different drugs affect your health in different ways. For instance, stimulants such as Adderall are more likely to induce heart attacks, while opiates such as heroin are more likely to slow your breathing. Some of the most common physiological effects of drug use include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Organ failure, especially of the heart, liver, and kidneys",
+     "html": "Organ failure, especially of the heart, liver, and kidneys",
+     "links": []
+    },
+    {
+     "text": "The transmission of communicable diseases such as HIV/AIDS",
+     "html": "The transmission of communicable diseases such as HIV/AIDS",
+     "links": []
+    },
+    {
+     "text": "Changes in heart rate or blood pressure",
+     "html": "Changes in heart rate or blood pressure",
+     "links": []
+    },
+    {
+     "text": "Difficulty breathing",
+     "html": "Difficulty breathing",
+     "links": []
+    },
+    {
+     "text": "Weight gain or weight loss",
+     "html": "Weight gain or weight loss",
+     "links": []
+    },
+    {
+     "text": "Malnutrition and changes in appetite",
+     "html": "Malnutrition and changes in appetite",
+     "links": []
+    },
+    {
+     "text": "Chronic headaches and muscle pain",
+     "html": "Chronic headaches and muscle pain",
+     "links": []
+    },
+    {
+     "text": "Sudden death",
+     "html": "Sudden death",
+     "links": []
+    },
+    {
+     "text": "Seizures, tremors, fainting, and shakiness",
+     "html": "Seizures, tremors, fainting, and shakiness",
+     "links": []
+    },
+    {
+     "text": "Chronic gastrointestinal problems, including nausea, vomiting, diarrhea, and stomach pain",
+     "html": "Chronic gastrointestinal problems, including nausea, vomiting, diarrhea, and stomach pain",
+     "links": []
+    },
+    {
+     "text": "Decreased immunity",
+     "html": "Decreased immunity",
+     "links": []
+    },
+    {
+     "text": "Sinus problems and allergies",
+     "html": "Sinus problems and allergies",
+     "links": []
+    },
+    {
+     "text": "Increased sensitivity to light and sound",
+     "html": "Increased sensitivity to light and sound",
+     "links": []
+    },
+    {
+     "text": "Permanent brain injury or loss of intelligence",
+     "html": "Permanent brain injury or loss of intelligence",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Legal Effects of Drug Addiction",
+   "html": "Legal Effects of Drug Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is almost always illegal, whether you’re abusing street drugs or illegally gaining access to more prescription drugs than your doctor prescribes. Many users suffer legal consequences, including:",
+   "html": "Drug addiction is almost always illegal, whether you’re abusing street drugs or illegally gaining access to more prescription drugs than your doctor prescribes. Many users suffer legal consequences, including:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Loss of access to government programs such as student loans and welfare",
+     "html": "Loss of access to government programs such as student loans and welfare",
+     "links": []
+    },
+    {
+     "text": "Incurring massive legal expenses, including attorney’s fees, bail, fines, and penalties",
+     "html": "Incurring massive legal expenses, including attorney’s fees, bail, fines, and penalties",
+     "links": []
+    },
+    {
+     "text": "Developing a criminal record",
+     "html": "Developing a criminal record",
+     "links": []
+    },
+    {
+     "text": "Loss of your right to drive",
+     "html": "Loss of your right to drive",
+     "links": []
+    },
+    {
+     "text": "Being placed on probation and forced to submit to random drug and alcohol screenings",
+     "html": "Being placed on probation and forced to submit to random drug and alcohol screenings",
+     "links": []
+    },
+    {
+     "text": "Loss of your freedom",
+     "html": "Loss of your freedom",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Financial and Lifestyle Effects of Drug Addiction",
+   "html": "Financial and Lifestyle Effects of Drug Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Addiction experts often remark that addiction is a lifestyle disease. If you persist with your drug and alcohol abuse, no area of your life will remain untouched. Some of the lifestyle changes you can expect include:",
+   "html": "Addiction experts often remark that addiction is a lifestyle disease. If you persist with your drug and alcohol abuse, no area of your life will remain untouched. Some of the lifestyle changes you can expect include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Financial problems due to legal bills, mounting health care costs, or the expense of buying drugs",
+     "html": "Financial problems due to legal bills, mounting health care costs, or the expense of buying drugs",
+     "links": []
+    },
+    {
+     "text": "The loss of important relationships",
+     "html": "The loss of important relationships",
+     "links": []
+    },
+    {
+     "text": "A sidelined career",
+     "html": "A sidelined career",
+     "links": []
+    },
+    {
+     "text": "Difficulty at work or school",
+     "html": "Difficulty at work or school",
+     "links": []
+    },
+    {
+     "text": "Being sued in your professional or personal life",
+     "html": "Being sued in your professional or personal life",
+     "links": []
+    },
+    {
+     "text": "Chronic stress and anxiety",
+     "html": "Chronic stress and anxiety",
+     "links": []
+    },
+    {
+     "text": "Increased conflict with loved ones",
+     "html": "Increased conflict with loved ones",
+     "links": []
+    },
+    {
+     "text": "Neglecting or abusing your children or spouse",
+     "html": "Neglecting or abusing your children or spouse",
+     "links": []
+    },
+    {
+     "text": "Neglecting hobbies you once loved",
+     "html": "Neglecting hobbies you once loved",
+     "links": []
+    },
+    {
+     "text": "Spending all or most of your time pursuing access to drugs",
+     "html": "Spending all or most of your time pursuing access to drugs",
+     "links": []
+    },
+    {
+     "text": "Endangering your loved ones because of your drug and alcohol use",
+     "html": "Endangering your loved ones because of your drug and alcohol use",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How Drug Addiction Affects Your Family",
+   "html": "How Drug Addiction Affects Your Family",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "No matter how well you attempt to conceal your addiction, your family will still be harmed by your decision to continue abusing alcohol and drugs. Family members of addicts suffer innumerable hurts, including:",
+   "html": "No matter how well you attempt to conceal your addiction, your family will still be harmed by your decision to continue abusing alcohol and drugs. Family members of addicts suffer innumerable hurts, including:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Abuse at the hands of the addict",
+     "html": "Abuse at the hands of the addict",
+     "links": []
+    },
+    {
+     "text": "The dissolution of the relationship with the addict",
+     "html": "The dissolution of the relationship with the addict",
+     "links": []
+    },
+    {
+     "text": "Being exposed to the threat of arrest or incarceration",
+     "html": "Being exposed to the threat of arrest or incarceration",
+     "links": []
+    },
+    {
+     "text": "Poor self-esteem",
+     "html": "Poor self-esteem",
+     "links": []
+    },
+    {
+     "text": "Depression and anxiety",
+     "html": "Depression and anxiety",
+     "links": []
+    },
+    {
+     "text": "Addiction; research consistently shows that the children of addicts are more likely to become addicts themselves. Addicts’ spouses sometimes turn to drugs and alcohol to cope with the pain and stress of caring for an addict.",
+     "html": "Addiction; research consistently shows that the children of addicts are more likely to become addicts themselves. Addicts’ spouses sometimes turn to drugs and alcohol to cope with the pain and stress of caring for an addict.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "text": "How Drug Addiction Affects Society",
+   "html": "How Drug Addiction Affects Society",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is more than just a personal or family problem. The effects of addiction extend outward to the larger culture, and include:",
+   "html": "Drug addiction is more than just a personal or family problem. The effects of addiction extend outward to the larger culture, and include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Contributing to organized crime, since a significant portion of drug sales are illegal transactions that fund gang or mafia activity.",
+     "html": "Contributing to organized crime, since a significant portion of drug sales are illegal transactions that fund gang or mafia activity.",
+     "links": []
+    },
+    {
+     "text": "Playing a role in terrorism, since the opium that makes opioids such as heroin is the leading crop of the Taliban and Al Qaeda.",
+     "html": "Playing a role in terrorism, since the opium that makes opioids such as heroin is the leading crop of the Taliban and Al Qaeda.",
+     "links": []
+    },
+    {
+     "text": "Creating a less safe world.",
+     "html": "Creating a less safe world.",
+     "links": []
+    },
+    {
+     "text": "Contributing to pollution and environmental degradation, since many drugs are toxic products containing dangerous chemicals",
+     "html": "Contributing to pollution and environmental degradation, since many drugs are toxic products containing dangerous chemicals",
+     "links": []
+    },
+    {
+     "text": "Destroying the US economy.",
+     "html": "Destroying the US economy.",
+     "links": []
+    },
+    {
+     "text": "Decreasing workplace productivity.",
+     "html": "Decreasing workplace productivity.",
+     "links": []
+    },
+    {
+     "text": "Tearing apart families",
+     "html": "Tearing apart families",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Drug addiction is a very real problem, but it’s not your fault. If you’re ready to escape the effects of drug addiction, we’re ready to help, so don’t hesitate to call Addiction Rehab Centres Canada today!",
+   "html": "Drug addiction is a very real problem, but it’s not your fault. If you’re ready to escape the effects of drug addiction, we’re ready to help, so don’t hesitate to call <a data-wpel-link=\"internal\" href=\"/\">Addiction Rehab Centres Canada</a> today!",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Further Reading:",
+   "html": "<strong>Further Reading:</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The Effects of Drugs on US Society Impact of Drug Abuse on Health & Society Drug Addiction Explained Top 10 Drug Addiction Facts You Should Know Understanding Drug Addiction Effects of Drug Addiction (physical and psychological) PBS: Drug Addiction",
+   "html": "<a data-wpel-link=\"external\" href=\"https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">The Effects of Drugs on US Society</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/\" rel=\"noopener external noreferrer\" target=\"_blank\">Impact of Drug Abuse on Health &amp; Society</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-explained/\">Drug Addiction Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"/10-drug-addiction-facts-you-need-to-know/\">Top 10 Drug Addiction Facts You Should Know</a><br/>\n<a data-wpel-link=\"internal\" href=\"/understanding-addiction-to-drugs/\">Understanding Drug Addiction</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/\" rel=\"noopener external noreferrer\" target=\"_blank\">Effects of Drug Addiction (physical and psychological)</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction\" rel=\"noopener external noreferrer\" target=\"_blank\">PBS: Drug Addiction</a>",
+   "links": [
+    {
+     "old": "https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm",
+     "text": "The Effects of Drugs on US Society"
+    },
+    {
+     "old": "https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/",
+     "text": "Impact of Drug Abuse on Health & Society"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-explained/",
+     "text": "Drug Addiction Explained"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+     "text": "Top 10 Drug Addiction Facts You Should Know"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/understanding-addiction-to-drugs/",
+     "text": "Understanding Drug Addiction"
+    },
+    {
+     "old": "https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/",
+     "text": "Effects of Drug Addiction (physical and psychological)"
+    },
+    {
+     "old": "https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction",
+     "text": "PBS: Drug Addiction"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-08-19T21:40:15+00:00",
+  "modified": "2022-09-12T19:16:34+00:00",
+  "date_label": "August 19, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 846,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"deadly drug\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/08/deadly-drug-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                August 19, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Effects of Drug Addiction    </h1> <p>In 2013, drugs killed nearly <a data-wpel-link=\"external\" href=\"https://www.drugwarfacts.org/cms/Causes_of_Death#sthash.DUadZZRv.dpbs\" rel=\"external noopener noreferrer\">50,000 people</a>. Alcohol, the most deadly drug of all, claims almost 1<a data-wpel-link=\"external\" href=\"https://www.cdc.gov/alcohol/fact-sheets/alcohol-use.htm\" rel=\"external noopener noreferrer\">00,000 lives every year</a>, with various addictions collectively costing the U.S. economy approximately <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/related-topics/trends-statistics\" rel=\"external noopener noreferrer\">$700 billion annually. </a>Drug addiction might feel like a personal problem, but it’s a serious public health issue with far-reaching impacts.</p>\n<p>If you’re struggling with an addiction to drugs, don’t lull yourself into a sense of complacency with vague reassurances that your addiction harms only yourself. Addiction is not a victimless act, and knowing just how far the consequences of addiction extend may encourage you to finally seek the help you need.</p>\n<h3>Emotional Effects of Drug Addiction</h3>\n<p>Drug addiction directly undermines your short and long-term emotional health. The effects vary depending on which drug you use, whether you have any pre-existing conditions, and how effectively you manage your psychological health. But some of the most common emotional effects of drug addiction include:</p>\n<ul>\n<li>Decreased intelligence</li>\n<li>Delusions and hallucinations</li>\n<li>Psychotic behavior</li>\n<li>Abusive behavior</li>\n<li>New or worsening depression or anxiety</li>\n<li>Loss of motivation</li>\n<li>Difficulty completing daily tasks</li>\n<li>Unexplained mood swings</li>\n<li>Persistent insomnia or sleepiness</li>\n<li>Changes in your personality</li>\n<li>Feelings or thoughts of suicide</li>\n<li>Feeling hopeless about your ability to get sober</li>\n<li>Intense cravings when you attempt to quit using</li>\n</ul>\n<h3>Physical Effects of Drug Addiction</h3>\n<p>Drug addiction is one of the surest and quickest ways to destroy your health. Different drugs affect your health in different ways. For instance, stimulants such as Adderall are more likely to induce heart attacks, while opiates such as heroin are more likely to slow your breathing. Some of the most common physiological effects of drug use include:</p>\n<ul>\n<li>Organ failure, especially of the heart, liver, and kidneys</li>\n<li>The transmission of communicable diseases such as HIV/AIDS</li>\n<li>Changes in heart rate or blood pressure</li>\n<li>Difficulty breathing</li>\n<li>Weight gain or weight loss</li>\n<li>Malnutrition and changes in appetite</li>\n<li>Chronic headaches and muscle pain</li>\n<li>Sudden death</li>\n<li>Seizures, tremors, fainting, and shakiness</li>\n<li>Chronic gastrointestinal problems, including nausea, vomiting, diarrhea, and stomach pain</li>\n<li>Decreased immunity</li>\n<li>Sinus problems and allergies</li>\n<li>Increased sensitivity to light and sound</li>\n<li>Permanent brain injury or loss of intelligence</li>\n</ul>\n<h3>Legal Effects of Drug Addiction</h3>\n<p>Drug addiction is almost always illegal, whether you’re abusing street drugs or illegally gaining access to more prescription drugs than your doctor prescribes. Many users suffer legal consequences, including:</p>\n<ul>\n<li>Loss of access to government programs such as student loans and welfare</li>\n<li>Incurring massive legal expenses, including attorney’s fees, bail, fines, and penalties</li>\n<li>Developing a criminal record</li>\n<li>Loss of your right to drive</li>\n<li>Being placed on probation and forced to submit to random drug and alcohol screenings</li>\n<li>Loss of your freedom</li>\n</ul>\n<h3>Financial and Lifestyle Effects of Drug Addiction</h3>\n<p>Addiction experts often remark that addiction is a lifestyle disease. If you persist with your drug and alcohol abuse, no area of your life will remain untouched. Some of the lifestyle changes you can expect include:</p>\n<ul>\n<li>Financial problems due to legal bills, mounting health care costs, or the expense of buying drugs</li>\n<li>The loss of important relationships</li>\n<li>A sidelined career</li>\n<li>Difficulty at work or school</li>\n<li>Being sued in your professional or personal life</li>\n<li>Chronic stress and anxiety</li>\n<li>Increased conflict with loved ones</li>\n<li>Neglecting or abusing your children or spouse</li>\n<li>Neglecting hobbies you once loved</li>\n<li>Spending all or most of your time pursuing access to drugs</li>\n<li>Endangering your loved ones because of your drug and alcohol use</li>\n</ul>\n<h2>How Drug Addiction Affects Your Family</h2>\n<p>No matter how well you attempt to conceal your addiction, your family will still be harmed by your decision to continue abusing alcohol and drugs. Family members of addicts suffer innumerable hurts, including:</p>\n<ul>\n<li>Abuse at the hands of the addict</li>\n<li>The dissolution of the relationship with the addict</li>\n<li>Being exposed to the threat of arrest or incarceration</li>\n<li>Poor self-esteem</li>\n<li>Depression and anxiety</li>\n<li>Addiction; research consistently shows that the children of addicts are more likely to become addicts themselves. Addicts’ spouses sometimes turn to drugs and alcohol to cope with the pain and stress of caring for an addict.</li>\n</ul>\n<h2>How Drug Addiction Affects Society</h2>\n<p>Drug addiction is more than just a personal or family problem. The effects of addiction extend outward to the larger culture, and include:</p>\n<ul>\n<li>Contributing to organized crime, since a significant portion of drug sales are illegal transactions that fund gang or mafia activity.</li>\n<li>Playing a role in terrorism, since the opium that makes opioids such as heroin is the leading crop of the Taliban and Al Qaeda.</li>\n<li>Creating a less safe world.</li>\n<li>Contributing to pollution and environmental degradation, since many drugs are toxic products containing dangerous chemicals</li>\n<li>Destroying the US economy.</li>\n<li>Decreasing workplace productivity.</li>\n<li>Tearing apart families</li>\n</ul>\n<p>Drug addiction is a very real problem, but it’s not your fault. If you’re ready to escape the effects of drug addiction, we’re ready to help, so don’t hesitate to call <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Addiction Rehab Centres Canada</a> today!</p>\n<p><strong>Further Reading:</strong></p>\n<p><a data-wpel-link=\"external\" href=\"https://www.justice.gov/archive/ndic/pubs11/18862/impact.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">The Effects of Drugs on US Society</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.livestrong.com/article/161381-effects-of-drug-addiction-on-society/\" rel=\"noopener external noreferrer\" target=\"_blank\">Impact of Drug Abuse on Health &amp; Society</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-explained/\">Drug Addiction Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/\">Top 10 Drug Addiction Facts You Should Know</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/understanding-addiction-to-drugs/\">Understanding Drug Addiction</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.healthyplace.com/addictions/drug-addiction/effects-of-drug-addiction-physical-and-psychological/\" rel=\"noopener external noreferrer\" target=\"_blank\">Effects of Drug Addiction (physical and psychological)</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.pbs.org/thisemotionallife/topic/addiction/drug-addiction\" rel=\"noopener external noreferrer\" target=\"_blank\">PBS: Drug Addiction</a></p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

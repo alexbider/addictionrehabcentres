@@ -1,0 +1,858 @@
+{
+ "schema": "arc-content/1",
+ "slug": "ancestors-for-addiction-recovery",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/",
+  "path": "/ancestors-for-addiction-recovery/",
+  "wp_items": [
+   {
+    "id": 13023,
+    "type": "post",
+    "title": "Ancestors for Addiction Recovery",
+    "date": "2022-08-31T11:38:36",
+    "modified": "2025-05-11T17:40:54",
+    "status": "publish",
+    "yoast_title": "Ancestors for Addiction Recovery | Addiction Rehab Centre",
+    "words_rest": 978
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/ancestors-for-addiction-recovery/",
+ "seo": {
+  "meta_title": "Ancestors for Addiction Recovery | Addiction Rehab Centre",
+  "meta_description": "Learn more about your ancestors for addiction recovery. Discover the many reasons why ancestry can play a role in addiction recovery and read about ways to get started on your journey.",
+  "canonical_source": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/",
+  "og": {
+   "title": "Ancestors for Addiction Recovery | Addiction Rehab Centre",
+   "description": "Learn more about your ancestors for addiction recovery. Discover the many reasons why ancestry can play a role in addiction recovery and read about ways to get started on your journey.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Ancestors for Addiction Recovery",
+      "datePublished": "2022-08-31T11:38:36+00:00",
+      "dateModified": "2025-05-11T17:40:54+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/"
+      },
+      "wordCount": 992,
+      "commentCount": 0,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+      "keywords": [
+       "Addiction Recovery"
+      ],
+      "articleSection": [
+       "Addictions"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "CommentAction",
+        "name": "Comment",
+        "target": [
+         "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#respond"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/",
+      "url": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/",
+      "name": "Ancestors for Addiction Recovery | Addiction Rehab Centre",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+      "datePublished": "2022-08-31T11:38:36+00:00",
+      "dateModified": "2025-05-11T17:40:54+00:00",
+      "description": "Learn more about your ancestors for addiction recovery. Discover the many reasons why ancestry can play a role in addiction recovery and read about ways to get started on your journey.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "ancestors addiction recovery"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Ancestors for Addiction Recovery"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Ancestors for Addiction Recovery",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 988,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Ancestors for Addiction Recovery"
+  ],
+  [
+   "h2",
+   "Ancestral Doctors"
+  ],
+  [
+   "h2",
+   "To Counsel or Prosecute?"
+  ],
+  [
+   "h2",
+   "Scary Medicine"
+  ],
+  [
+   "h3",
+   "Blood Draining"
+  ],
+  [
+   "h3",
+   "Leech Therapy"
+  ],
+  [
+   "h3",
+   "Maggot Treatment"
+  ],
+  [
+   "h3",
+   "Body Fluid and Fecal Medicaments"
+  ],
+  [
+   "h3",
+   "Hysterical Paroxysm"
+  ],
+  [
+   "h3",
+   "Pre-lobotomy"
+  ],
+  [
+   "h3",
+   "Poppy Relatives"
+  ],
+  [
+   "h3",
+   "Aloe Vera"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+   "local_path": "images/ancestors-for-addiction-recovery/ancestors-addiction-recovery.jpg",
+   "alt": "ancestors addiction recovery",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine.jpg",
+   "local_path": "images/ancestors-for-addiction-recovery/scary-medicine.jpg",
+   "alt": "scary medicine",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives.jpg",
+   "local_path": "images/ancestors-for-addiction-recovery/poppy-relatives.jpg",
+   "alt": "poppy relatives",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2022/00/",
+   "text": "August 31, 2022",
+   "kind": "taxonomy-dropped",
+   "new": "/2022/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/addictions/",
+   "text": "Addictions",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25.",
+   "text": "The survival rate for trepanned patients was 78% in Late Iron Age Switzerland",
+   "kind": "external",
+   "new": "https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25."
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "substance abuse",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#respond",
+   "text": "0 Comments",
+   "kind": "internal",
+   "new": "/ancestors-for-addiction-recovery/#respond",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+     "alt": "ancestors addiction recovery",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "August 31, 2022",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Addictions",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Ancestors for Addiction Recovery",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "A month ago, we introduced scraps of procedures our precursors used to manage enslavement and whether these habit cures can be applied in current occasions. This is a continuation.",
+     "html": "A month ago, we introduced scraps of procedures our precursors used to manage enslavement and whether these habit cures can be applied in current occasions. This is a continuation.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Substance misuse is certifiably not an ongoing illness. Analysts have recorded the utilization of, and inordinate guilty pleasure in liquor, sedatives, hashish, cannabis, cocaine, energizers, and drugs in North Africa, Asia Minor, Persia, and India for a huge number of years. Psychotropic substance use was accepted to have existed more than 20,000 years prior. Authentic records, including the Book of scriptures, report liquor inebriation even among the regarded citizenry. Antiquated clinical writings uncover opium use in Syria in the seventh century BC. To get by in the good countries of the Andes, the Incas utilized energizer coca leaves to expand their oxygen consumption 5,000 years back.",
+     "html": "Substance misuse is certifiably not an ongoing illness. Analysts have recorded the utilization of, and inordinate guilty pleasure in liquor, sedatives, hashish, cannabis, cocaine, energizers, and drugs in North Africa, Asia Minor, Persia, and India for a huge number of years. Psychotropic substance use was accepted to have existed more than 20,000 years prior. Authentic records, including the Book of scriptures, report liquor inebriation even among the regarded citizenry. Antiquated clinical writings uncover opium use in Syria in the seventh century BC. To get by in the good countries of the Andes, the Incas utilized energizer coca leaves to expand their oxygen consumption 5,000 years back.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Ancestral Doctors",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Users of folk addiction remedies included hakims, physicians from India, Pakistan, and other Muslim countries; Burmese healers who specialized in heroin and opium addiction; Buddhist monks in Thailand; bomohs, Malay and Sumatran shamans believed to have magical powers who treated heroin addicts; and dukuns, Indonesian traditional medicine practitioners.",
+       "html": "Users of folk addiction remedies included hakims, physicians from India, Pakistan, and other Muslim countries; Burmese healers who specialized in heroin and opium addiction; Buddhist monks in Thailand; bomohs, Malay and Sumatran shamans believed to have magical powers who treated heroin addicts; and dukuns, Indonesian traditional medicine practitioners.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "To Counsel or Prosecute?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Substances we now view as ‘illicit’ were commonly used in sacred rituals, nutritional supplements, medicaments, and social gatherings. Many ancient cultures and organized religions, however, have condemned their excessive use through punishment or incarceration. Groups vocal against the dangers of substance abuse included the ancient Egyptians, the Greeks, the Romans, the Hindus, Dutch scientists, the Catholics, and the Protestants. The last two were lenient towards moderate drinking but viewed drunkenness as a sin. Calvinistic theologians offered only prayer as a solution.",
+       "html": "Substances we now view as ‘illicit’ were commonly used in sacred rituals, nutritional supplements, medicaments, and social gatherings. Many ancient cultures and organized religions, however, have condemned their excessive use through punishment or incarceration. Groups vocal against the dangers of substance abuse included the ancient Egyptians, the Greeks, the Romans, the Hindus, Dutch scientists, the Catholics, and the Protestants. The last two were lenient towards moderate drinking but viewed drunkenness as a sin. Calvinistic theologians offered only prayer as a solution.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Much earlier, the Oracle at Delphi (in Apollo’s temple) may have been the world’s first rehabilitation centre based on wall inscriptions, such as “Know thyself”—a tenet of 12-Step programs. People in crisis were known to have visited this monument to seek advice. So historians thought it possible that addicts of yesteryear would have also gone there for guidance and treatment.",
+       "html": "Much earlier, the Oracle at Delphi (in Apollo’s temple) may have been the world’s first rehabilitation centre based on wall inscriptions, such as “Know thyself”—a tenet of 12-Step programs. People in crisis were known to have visited this monument to seek advice. So historians thought it possible that addicts of yesteryear would have also gone there for guidance and treatment.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Scary Medicine",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Since the discovery of the negative effects of substance abuse, ancestral healers searched for solutions but had to settle for what was available then. Mental health disorders, as well as physiological illnesses related to substance abuse—including lesions, cirrhosis of the liver, and respiratory, cardiac, neurological and gastrointestinal ailments—led to practices and “addiction remedies” that would horrify us today. Here are some of them:",
+       "html": "Since the discovery of the negative effects of substance abuse, ancestral healers searched for solutions but had to settle for what was available then. Mental health disorders, as well as physiological illnesses related to substance abuse—including lesions, cirrhosis of the liver, and respiratory, cardiac, neurological and gastrointestinal ailments—led to practices and “addiction remedies” that would horrify us today. Here are some of them:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine.jpg",
+       "alt": "scary medicine",
+       "width": "1000",
+       "height": "450"
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "Blood Draining",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Ancient clinicians practiced bloodletting (the precursor to modern phlebotomy) in the belief that illness was caused by “bad blood.” Historians surmise that the Egyptians and Sumerians were the ones who started it, but the Greeks, Romans, Arabs, and Asians made it prominent. Hippocrates, the father of medicine, believed that our bodies contained four substances: yellow bile, black bile, phlegm, and blood, which needed to be in balance for optimum health. So the sick, say, those showing signs of inebriation, were diagnosed to have extra blood—which rationalized the technique.",
+         "html": "Ancient clinicians practiced bloodletting (the precursor to modern phlebotomy) in the belief that illness was caused by “bad blood.” Historians surmise that the Egyptians and Sumerians were the ones who started it, but the Greeks, Romans, Arabs, and Asians made it prominent. Hippocrates, the father of medicine, believed that our bodies contained four substances: yellow bile, black bile, phlegm, and blood, which needed to be in balance for optimum health. So the sick, say, those showing signs of inebriation, were diagnosed to have extra blood—which rationalized the technique.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Leech Therapy",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "For those afraid of needles, leeches, nature’s bloodsuckers, make excellent substitutes. Leech treatment and bloodletting are still practiced today for uncommon diseases.",
+         "html": "For those afraid of needles, leeches, nature’s bloodsuckers, make excellent substitutes. Leech treatment and bloodletting are still practiced today for uncommon diseases.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Maggot Treatment",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "These larvae were useful for treating wounds in wartime. They ate decaying tissue but left healthy ones intact, staving off infection. Because of its efficacy, this method is still in practice today, especially in forensic entomology and entomotoxicology to determine the cause of death or the presence of drugs and toxins in corpses in advanced stages of decomposition.",
+         "html": "These larvae were useful for treating wounds in wartime. They ate decaying tissue but left healthy ones intact, staving off infection. Because of its efficacy, this method is still in practice today, especially in forensic entomology and entomotoxicology to determine the cause of death or the presence of drugs and toxins in corpses in advanced stages of decomposition.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Body Fluid and Fecal Medicaments",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Historical texts reveal that human and animal excrement and body liquids were commonly used in remedies for most diseases, including addiction symptoms. Science Direct defines body fluids as those including blood, lymph, tissue fluid, milk, and saliva. The ancient Egyptians were believed to have started the practice. They used the components in ointments, dressings, and antibiotics.",
+         "html": "Historical texts reveal that human and animal excrement and body liquids were commonly used in remedies for most diseases, including addiction symptoms. Science Direct defines body fluids as those including blood, lymph, tissue fluid, milk, and saliva. The ancient Egyptians were believed to have started the practice. They used the components in ointments, dressings, and antibiotics.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Hysterical Paroxysm",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Colloquially, orgasm. ‘Hysteria’, the catch-all term for women’s ailments in the 19th century, was resolved using a cure-all—the inducement of orgasm. Manual sexual stimulation by doctors to treat hysteria (which included mental health disorders and addictive behaviour) gave rise to the invention of the vibrator.",
+         "html": "Colloquially, orgasm. ‘Hysteria’, the catch-all term for women’s ailments in the 19th century, was resolved using a cure-all—the inducement of orgasm. Manual sexual stimulation by doctors to treat hysteria (which included mental health disorders and addictive behaviour) gave rise to the invention of the vibrator.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Pre-lobotomy",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Trepanation, considered man’s oldest form of surgery, involved drilling holes into the skull to cure disease. Historians theorize that it may have been a technique for driving away demons that possessed the mentally ill.",
+         "html": "Trepanation, considered man’s oldest form of surgery, involved drilling holes into the skull to cure disease. Historians theorize that it may have been a technique for driving away demons that possessed the mentally ill.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Robin Wylie’s BBC report revealed that the earliest evidence of trepanation was about 7,000 years ago. Ancient residents of Greece, North and South America, Africa, Polynesia, and the Far East practiced it independently of each other.",
+         "html": "Robin Wylie’s BBC report revealed that the earliest evidence of trepanation was about 7,000 years ago. Ancient residents of Greece, North and South America, Africa, Polynesia, and the Far East practiced it independently of each other.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "According to a study by Moghaddam et al, trepanation was practiced in Europe since the Neolithic period and is still employed today by native East African tribes. The survival rate for trepanned patients was 78% in Late Iron Age Switzerland, indicating that many surgeries were successful.",
+         "html": "According to a study by Moghaddam et al, trepanation was practiced in Europe since the Neolithic period and is still employed today by native East African tribes. <a data-wpel-link=\"external\" href=\"https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25.\" rel=\"noopener external noreferrer\" target=\"_blank\">The survival rate for trepanned patients was 78% in Late Iron Age Switzerland</a>, indicating that many surgeries were successful.",
+         "links": [
+          {
+           "old": "https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25.",
+           "text": "The survival rate for trepanned patients was 78% in Late Iron Age Switzerland"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Not all methods were grisly. Herbal medications and addiction remedies provided welcome relief.",
+         "html": "Not all methods were grisly. Herbal medications and addiction remedies provided welcome relief.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Poppy Relatives",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "The ancient Chinese harnessed the power of Corydalis yanhusuo, a member of the poppy family, as a painkiller. A recent study showed its effectiveness in relieving inflammatory, acute, and chronic pain. It’s a bonus for addicts? Despite its poppy origin, it’s not addictive. When boiled in vinegar, its roots produce a substance that acts like morphine but doesn’t have its negative effects—a boon for painful withdrawal symptoms.",
+         "html": "The ancient Chinese harnessed the power of Corydalis yanhusuo, a member of the poppy family, as a painkiller. A recent study showed its effectiveness in relieving inflammatory, acute, and chronic pain. It’s a bonus for addicts? Despite its poppy origin, it’s not addictive. When boiled in vinegar, its roots produce a substance that acts like morphine but doesn’t have its negative effects—a boon for painful withdrawal symptoms.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives.jpg",
+         "alt": "poppy relatives",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Aloe Vera",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "This plant may be dismissed as just a remedy for skin and hair conditions, but the ancient Egyptians used it for more than 50 medical conditions, including obesity, diabetes, and leprosy. For the addict, its antibiotic and anti-inflammatory properties aid in detoxification. Its 200-plus compounds and mineral-rich components help absorb nutrients—useful for the nourishment-draining action of substance abuse.",
+         "html": "This plant may be dismissed as just a remedy for skin and hair conditions, but the ancient Egyptians used it for more than 50 medical conditions, including obesity, diabetes, and leprosy. For the addict, its antibiotic and anti-inflammatory properties aid in detoxification. Its 200-plus compounds and mineral-rich components help absorb nutrients—useful for the nourishment-draining action of <a data-wpel-link=\"internal\" href=\"/\">substance abuse</a>.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/",
+           "text": "substance abuse"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Macabre or not, ancient addiction remedies were instrumental in paving the way for technological advances in medicine. So before we sniff at a smelly elixir for addiction, let’s consider its efficacy. After all, our ancestors were its legitimate guinea pigs.",
+         "html": "Macabre or not, ancient addiction remedies were instrumental in paving the way for technological advances in medicine. So before we sniff at a smelly elixir for addiction, let’s consider its efficacy. After all, our ancestors were its legitimate guinea pigs.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "link",
+         "text": "0 Comments",
+         "href": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#respond",
+         "new_href": "/ancestors-for-addiction-recovery/#respond"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+   "alt": "ancestors addiction recovery",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "August 31, 2022",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Addictions",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Ancestors for Addiction Recovery",
+   "html": "Ancestors for Addiction Recovery",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A month ago, we introduced scraps of procedures our precursors used to manage enslavement and whether these habit cures can be applied in current occasions. This is a continuation.",
+   "html": "A month ago, we introduced scraps of procedures our precursors used to manage enslavement and whether these habit cures can be applied in current occasions. This is a continuation.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Substance misuse is certifiably not an ongoing illness. Analysts have recorded the utilization of, and inordinate guilty pleasure in liquor, sedatives, hashish, cannabis, cocaine, energizers, and drugs in North Africa, Asia Minor, Persia, and India for a huge number of years. Psychotropic substance use was accepted to have existed more than 20,000 years prior. Authentic records, including the Book of scriptures, report liquor inebriation even among the regarded citizenry. Antiquated clinical writings uncover opium use in Syria in the seventh century BC. To get by in the good countries of the Andes, the Incas utilized energizer coca leaves to expand their oxygen consumption 5,000 years back.",
+   "html": "Substance misuse is certifiably not an ongoing illness. Analysts have recorded the utilization of, and inordinate guilty pleasure in liquor, sedatives, hashish, cannabis, cocaine, energizers, and drugs in North Africa, Asia Minor, Persia, and India for a huge number of years. Psychotropic substance use was accepted to have existed more than 20,000 years prior. Authentic records, including the Book of scriptures, report liquor inebriation even among the regarded citizenry. Antiquated clinical writings uncover opium use in Syria in the seventh century BC. To get by in the good countries of the Andes, the Incas utilized energizer coca leaves to expand their oxygen consumption 5,000 years back.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Ancestral Doctors",
+   "html": "Ancestral Doctors",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Users of folk addiction remedies included hakims, physicians from India, Pakistan, and other Muslim countries; Burmese healers who specialized in heroin and opium addiction; Buddhist monks in Thailand; bomohs, Malay and Sumatran shamans believed to have magical powers who treated heroin addicts; and dukuns, Indonesian traditional medicine practitioners.",
+   "html": "Users of folk addiction remedies included hakims, physicians from India, Pakistan, and other Muslim countries; Burmese healers who specialized in heroin and opium addiction; Buddhist monks in Thailand; bomohs, Malay and Sumatran shamans believed to have magical powers who treated heroin addicts; and dukuns, Indonesian traditional medicine practitioners.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "To Counsel or Prosecute?",
+   "html": "To Counsel or Prosecute?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Substances we now view as ‘illicit’ were commonly used in sacred rituals, nutritional supplements, medicaments, and social gatherings. Many ancient cultures and organized religions, however, have condemned their excessive use through punishment or incarceration. Groups vocal against the dangers of substance abuse included the ancient Egyptians, the Greeks, the Romans, the Hindus, Dutch scientists, the Catholics, and the Protestants. The last two were lenient towards moderate drinking but viewed drunkenness as a sin. Calvinistic theologians offered only prayer as a solution.",
+   "html": "Substances we now view as ‘illicit’ were commonly used in sacred rituals, nutritional supplements, medicaments, and social gatherings. Many ancient cultures and organized religions, however, have condemned their excessive use through punishment or incarceration. Groups vocal against the dangers of substance abuse included the ancient Egyptians, the Greeks, the Romans, the Hindus, Dutch scientists, the Catholics, and the Protestants. The last two were lenient towards moderate drinking but viewed drunkenness as a sin. Calvinistic theologians offered only prayer as a solution.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Much earlier, the Oracle at Delphi (in Apollo’s temple) may have been the world’s first rehabilitation centre based on wall inscriptions, such as “Know thyself”—a tenet of 12-Step programs. People in crisis were known to have visited this monument to seek advice. So historians thought it possible that addicts of yesteryear would have also gone there for guidance and treatment.",
+   "html": "Much earlier, the Oracle at Delphi (in Apollo’s temple) may have been the world’s first rehabilitation centre based on wall inscriptions, such as “Know thyself”—a tenet of 12-Step programs. People in crisis were known to have visited this monument to seek advice. So historians thought it possible that addicts of yesteryear would have also gone there for guidance and treatment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Scary Medicine",
+   "html": "Scary Medicine",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Since the discovery of the negative effects of substance abuse, ancestral healers searched for solutions but had to settle for what was available then. Mental health disorders, as well as physiological illnesses related to substance abuse—including lesions, cirrhosis of the liver, and respiratory, cardiac, neurological and gastrointestinal ailments—led to practices and “addiction remedies” that would horrify us today. Here are some of them:",
+   "html": "Since the discovery of the negative effects of substance abuse, ancestral healers searched for solutions but had to settle for what was available then. Mental health disorders, as well as physiological illnesses related to substance abuse—including lesions, cirrhosis of the liver, and respiratory, cardiac, neurological and gastrointestinal ailments—led to practices and “addiction remedies” that would horrify us today. Here are some of them:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine.jpg",
+   "alt": "scary medicine",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Blood Draining",
+   "html": "Blood Draining",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Ancient clinicians practiced bloodletting (the precursor to modern phlebotomy) in the belief that illness was caused by “bad blood.” Historians surmise that the Egyptians and Sumerians were the ones who started it, but the Greeks, Romans, Arabs, and Asians made it prominent. Hippocrates, the father of medicine, believed that our bodies contained four substances: yellow bile, black bile, phlegm, and blood, which needed to be in balance for optimum health. So the sick, say, those showing signs of inebriation, were diagnosed to have extra blood—which rationalized the technique.",
+   "html": "Ancient clinicians practiced bloodletting (the precursor to modern phlebotomy) in the belief that illness was caused by “bad blood.” Historians surmise that the Egyptians and Sumerians were the ones who started it, but the Greeks, Romans, Arabs, and Asians made it prominent. Hippocrates, the father of medicine, believed that our bodies contained four substances: yellow bile, black bile, phlegm, and blood, which needed to be in balance for optimum health. So the sick, say, those showing signs of inebriation, were diagnosed to have extra blood—which rationalized the technique.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Leech Therapy",
+   "html": "Leech Therapy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "For those afraid of needles, leeches, nature’s bloodsuckers, make excellent substitutes. Leech treatment and bloodletting are still practiced today for uncommon diseases.",
+   "html": "For those afraid of needles, leeches, nature’s bloodsuckers, make excellent substitutes. Leech treatment and bloodletting are still practiced today for uncommon diseases.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Maggot Treatment",
+   "html": "Maggot Treatment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "These larvae were useful for treating wounds in wartime. They ate decaying tissue but left healthy ones intact, staving off infection. Because of its efficacy, this method is still in practice today, especially in forensic entomology and entomotoxicology to determine the cause of death or the presence of drugs and toxins in corpses in advanced stages of decomposition.",
+   "html": "These larvae were useful for treating wounds in wartime. They ate decaying tissue but left healthy ones intact, staving off infection. Because of its efficacy, this method is still in practice today, especially in forensic entomology and entomotoxicology to determine the cause of death or the presence of drugs and toxins in corpses in advanced stages of decomposition.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Body Fluid and Fecal Medicaments",
+   "html": "Body Fluid and Fecal Medicaments",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Historical texts reveal that human and animal excrement and body liquids were commonly used in remedies for most diseases, including addiction symptoms. Science Direct defines body fluids as those including blood, lymph, tissue fluid, milk, and saliva. The ancient Egyptians were believed to have started the practice. They used the components in ointments, dressings, and antibiotics.",
+   "html": "Historical texts reveal that human and animal excrement and body liquids were commonly used in remedies for most diseases, including addiction symptoms. Science Direct defines body fluids as those including blood, lymph, tissue fluid, milk, and saliva. The ancient Egyptians were believed to have started the practice. They used the components in ointments, dressings, and antibiotics.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Hysterical Paroxysm",
+   "html": "Hysterical Paroxysm",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Colloquially, orgasm. ‘Hysteria’, the catch-all term for women’s ailments in the 19th century, was resolved using a cure-all—the inducement of orgasm. Manual sexual stimulation by doctors to treat hysteria (which included mental health disorders and addictive behaviour) gave rise to the invention of the vibrator.",
+   "html": "Colloquially, orgasm. ‘Hysteria’, the catch-all term for women’s ailments in the 19th century, was resolved using a cure-all—the inducement of orgasm. Manual sexual stimulation by doctors to treat hysteria (which included mental health disorders and addictive behaviour) gave rise to the invention of the vibrator.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Pre-lobotomy",
+   "html": "Pre-lobotomy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Trepanation, considered man’s oldest form of surgery, involved drilling holes into the skull to cure disease. Historians theorize that it may have been a technique for driving away demons that possessed the mentally ill.",
+   "html": "Trepanation, considered man’s oldest form of surgery, involved drilling holes into the skull to cure disease. Historians theorize that it may have been a technique for driving away demons that possessed the mentally ill.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Robin Wylie’s BBC report revealed that the earliest evidence of trepanation was about 7,000 years ago. Ancient residents of Greece, North and South America, Africa, Polynesia, and the Far East practiced it independently of each other.",
+   "html": "Robin Wylie’s BBC report revealed that the earliest evidence of trepanation was about 7,000 years ago. Ancient residents of Greece, North and South America, Africa, Polynesia, and the Far East practiced it independently of each other.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "According to a study by Moghaddam et al, trepanation was practiced in Europe since the Neolithic period and is still employed today by native East African tribes. The survival rate for trepanned patients was 78% in Late Iron Age Switzerland, indicating that many surgeries were successful.",
+   "html": "According to a study by Moghaddam et al, trepanation was practiced in Europe since the Neolithic period and is still employed today by native East African tribes. <a data-wpel-link=\"external\" href=\"https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25.\" rel=\"noopener external noreferrer\" target=\"_blank\">The survival rate for trepanned patients was 78% in Late Iron Age Switzerland</a>, indicating that many surgeries were successful.",
+   "links": [
+    {
+     "old": "https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25.",
+     "text": "The survival rate for trepanned patients was 78% in Late Iron Age Switzerland"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Not all methods were grisly. Herbal medications and addiction remedies provided welcome relief.",
+   "html": "Not all methods were grisly. Herbal medications and addiction remedies provided welcome relief.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Poppy Relatives",
+   "html": "Poppy Relatives",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The ancient Chinese harnessed the power of Corydalis yanhusuo, a member of the poppy family, as a painkiller. A recent study showed its effectiveness in relieving inflammatory, acute, and chronic pain. It’s a bonus for addicts? Despite its poppy origin, it’s not addictive. When boiled in vinegar, its roots produce a substance that acts like morphine but doesn’t have its negative effects—a boon for painful withdrawal symptoms.",
+   "html": "The ancient Chinese harnessed the power of Corydalis yanhusuo, a member of the poppy family, as a painkiller. A recent study showed its effectiveness in relieving inflammatory, acute, and chronic pain. It’s a bonus for addicts? Despite its poppy origin, it’s not addictive. When boiled in vinegar, its roots produce a substance that acts like morphine but doesn’t have its negative effects—a boon for painful withdrawal symptoms.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives.jpg",
+   "alt": "poppy relatives",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Aloe Vera",
+   "html": "Aloe Vera",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "This plant may be dismissed as just a remedy for skin and hair conditions, but the ancient Egyptians used it for more than 50 medical conditions, including obesity, diabetes, and leprosy. For the addict, its antibiotic and anti-inflammatory properties aid in detoxification. Its 200-plus compounds and mineral-rich components help absorb nutrients—useful for the nourishment-draining action of substance abuse.",
+   "html": "This plant may be dismissed as just a remedy for skin and hair conditions, but the ancient Egyptians used it for more than 50 medical conditions, including obesity, diabetes, and leprosy. For the addict, its antibiotic and anti-inflammatory properties aid in detoxification. Its 200-plus compounds and mineral-rich components help absorb nutrients—useful for the nourishment-draining action of <a data-wpel-link=\"internal\" href=\"/\">substance abuse</a>.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "substance abuse"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Macabre or not, ancient addiction remedies were instrumental in paving the way for technological advances in medicine. So before we sniff at a smelly elixir for addiction, let’s consider its efficacy. After all, our ancestors were its legitimate guinea pigs.",
+   "html": "Macabre or not, ancient addiction remedies were instrumental in paving the way for technological advances in medicine. So before we sniff at a smelly elixir for addiction, let’s consider its efficacy. After all, our ancestors were its legitimate guinea pigs.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "0 Comments",
+   "href": "https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#respond",
+   "new_href": "/ancestors-for-addiction-recovery/#respond"
+  }
+ ],
+ "post": {
+  "published": "2022-08-31T11:38:36+00:00",
+  "modified": "2025-05-11T17:40:54+00:00",
+  "date_label": "August 31, 2022",
+  "categories": [
+   "Addictions"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg",
+  "jsonld_author": "Addiction Rehab Centre",
+  "jsonld_wordCount": 992,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"ancestors addiction recovery\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/ancestors-addiction-recovery-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2022/00/\" itemprop=\"url\">\n                August 31, 2022        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/addictions/\" rel=\"category tag\">Addictions</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Ancestors for Addiction Recovery    </h1> <p>A month ago, we introduced scraps of procedures our precursors used to manage enslavement and whether these habit cures can be applied in current occasions. This is a continuation.</p>\n<p>Substance misuse is certifiably not an ongoing illness. Analysts have recorded the utilization of, and inordinate guilty pleasure in liquor, sedatives, hashish, cannabis, cocaine, energizers, and drugs in North Africa, Asia Minor, Persia, and India for a huge number of years. Psychotropic substance use was accepted to have existed more than 20,000 years prior. Authentic records, including the Book of scriptures, report liquor inebriation even among the regarded citizenry. Antiquated clinical writings uncover opium use in Syria in the seventh century BC. To get by in the good countries of the Andes, the Incas utilized energizer coca leaves to expand their oxygen consumption 5,000 years back.</p>\n<h2>Ancestral Doctors</h2>\n<p>Users of folk addiction remedies included hakims, physicians from India, Pakistan, and other Muslim countries; Burmese healers who specialized in heroin and opium addiction; Buddhist monks in Thailand; bomohs, Malay and Sumatran shamans believed to have magical powers who treated heroin addicts; and dukuns, Indonesian traditional medicine practitioners.</p>\n<h2>To Counsel or Prosecute?</h2>\n<p>Substances we now view as ‘illicit’ were commonly used in sacred rituals, nutritional supplements, medicaments, and social gatherings. Many ancient cultures and organized religions, however, have condemned their excessive use through punishment or incarceration. Groups vocal against the dangers of substance abuse included the ancient Egyptians, the Greeks, the Romans, the Hindus, Dutch scientists, the Catholics, and the Protestants. The last two were lenient towards moderate drinking but viewed drunkenness as a sin. Calvinistic theologians offered only prayer as a solution.</p>\n<p>Much earlier, the Oracle at Delphi (in Apollo’s temple) may have been the world’s first rehabilitation centre based on wall inscriptions, such as “Know thyself”—a tenet of 12-Step programs. People in crisis were known to have visited this monument to seek advice. So historians thought it possible that addicts of yesteryear would have also gone there for guidance and treatment.</p>\n<h2>Scary Medicine</h2>\n<p>Since the discovery of the negative effects of substance abuse, ancestral healers searched for solutions but had to settle for what was available then. Mental health disorders, as well as physiological illnesses related to substance abuse—including lesions, cirrhosis of the liver, and respiratory, cardiac, neurological and gastrointestinal ailments—led to practices and “addiction remedies” that would horrify us today. Here are some of them:</p>\n<p><img alt=\"scary medicine\" class=\"alignnone wp-image-13027 size-full\" decoding=\"async\" height=\"450\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine-300x135.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine-768x346.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/scary-medicine-600x270.jpg 600w\" title=\"Ancestors for Addiction Recovery\" width=\"1000\"/></p>\n<h3>Blood Draining</h3>\n<p>Ancient clinicians practiced bloodletting (the precursor to modern phlebotomy) in the belief that illness was caused by “bad blood.” Historians surmise that the Egyptians and Sumerians were the ones who started it, but the Greeks, Romans, Arabs, and Asians made it prominent. Hippocrates, the father of medicine, believed that our bodies contained four substances: yellow bile, black bile, phlegm, and blood, which needed to be in balance for optimum health. So the sick, say, those showing signs of inebriation, were diagnosed to have extra blood—which rationalized the technique.</p>\n<h3>Leech Therapy</h3>\n<p>For those afraid of needles, leeches, nature’s bloodsuckers, make excellent substitutes. Leech treatment and bloodletting are still practiced today for uncommon diseases.</p>\n<h3>Maggot Treatment</h3>\n<p>These larvae were useful for treating wounds in wartime. They ate decaying tissue but left healthy ones intact, staving off infection. Because of its efficacy, this method is still in practice today, especially in forensic entomology and entomotoxicology to determine the cause of death or the presence of drugs and toxins in corpses in advanced stages of decomposition.</p>\n<h3>Body Fluid and Fecal Medicaments</h3>\n<p>Historical texts reveal that human and animal excrement and body liquids were commonly used in remedies for most diseases, including addiction symptoms. Science Direct defines body fluids as those including blood, lymph, tissue fluid, milk, and saliva. The ancient Egyptians were believed to have started the practice. They used the components in ointments, dressings, and antibiotics.</p>\n<h3>Hysterical Paroxysm</h3>\n<p>Colloquially, orgasm. ‘Hysteria’, the catch-all term for women’s ailments in the 19th century, was resolved using a cure-all—the inducement of orgasm. Manual sexual stimulation by doctors to treat hysteria (which included mental health disorders and addictive behaviour) gave rise to the invention of the vibrator.</p>\n<h3>Pre-lobotomy</h3>\n<p>Trepanation, considered man’s oldest form of surgery, involved drilling holes into the skull to cure disease. Historians theorize that it may have been a technique for driving away demons that possessed the mentally ill.</p>\n<p>Robin Wylie’s BBC report revealed that the earliest evidence of trepanation was about 7,000 years ago. Ancient residents of Greece, North and South America, Africa, Polynesia, and the Far East practiced it independently of each other.</p>\n<p>According to a study by Moghaddam et al, trepanation was practiced in Europe since the Neolithic period and is still employed today by native East African tribes. <a data-wpel-link=\"external\" href=\"https://www.sciencedirect.com/science/article/pii/S1879981715300085#:~:text=In%20Switzerland%2C%20a%20total%20of,the%20Iron%20Age%20is%2078%25.\" rel=\"noopener external noreferrer\" target=\"_blank\">The survival rate for trepanned patients was 78% in Late Iron Age Switzerland</a>, indicating that many surgeries were successful.</p>\n<p>Not all methods were grisly. Herbal medications and addiction remedies provided welcome relief.</p>\n<h3>Poppy Relatives</h3>\n<p>The ancient Chinese harnessed the power of Corydalis yanhusuo, a member of the poppy family, as a painkiller. A recent study showed its effectiveness in relieving inflammatory, acute, and chronic pain. It’s a bonus for addicts? Despite its poppy origin, it’s not addictive. When boiled in vinegar, its roots produce a substance that acts like morphine but doesn’t have its negative effects—a boon for painful withdrawal symptoms.</p>\n<p><img alt=\"poppy relatives\" class=\"alignnone wp-image-13026 size-full\" decoding=\"async\" height=\"450\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives-300x135.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives-768x346.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/09/poppy-relatives-600x270.jpg 600w\" title=\"Ancestors\" width=\"1000\"/></p>\n<h3>Aloe Vera</h3>\n<p>This plant may be dismissed as just a remedy for skin and hair conditions, but the ancient Egyptians used it for more than 50 medical conditions, including obesity, diabetes, and leprosy. For the addict, its antibiotic and anti-inflammatory properties aid in detoxification. Its 200-plus compounds and mineral-rich components help absorb nutrients—useful for the nourishment-draining action of <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">substance abuse</a>.</p>\n<p>Macabre or not, ancient addiction remedies were instrumental in paving the way for technological advances in medicine. So before we sniff at a smelly elixir for addiction, let’s consider its efficacy. After all, our ancestors were its legitimate guinea pigs.</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n<div class=\"eltdf-post-info-comments-holder\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_comment_alt\"></span> <a class=\"eltdf-post-info-comments\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ancestors-for-addiction-recovery/#respond\" itemprop=\"url\">\n\t\t\t0 Comments\t\t</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

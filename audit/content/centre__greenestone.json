@@ -1,0 +1,2611 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__greenestone",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/greenestone/",
+  "path": "/greenestone/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/greenestone/",
+ "seo": {
+  "meta_title": "Greenestone - Addiction Rehab Centers",
+  "meta_description": "Greenestone offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/greenestone/",
+  "og": {
+   "title": "Greenestone - Addiction Rehab Centers",
+   "description": "Greenestone offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/greenestone/",
+      "url": "https://addictionrehabcenters.ca/greenestone/",
+      "name": "Greenestone - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/greenestone/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/greenestone/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone.jpg",
+      "datePublished": "2021-09-28T15:43:51+00:00",
+      "dateModified": "2023-04-18T15:12:01+00:00",
+      "description": "Greenestone offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/greenestone/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/greenestone/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/greenestone/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "greenestone"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/greenestone/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Greenestone"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 810,
+ "features": [
+  "iframe",
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Private Environment and Outdoor Activities"
+  ],
+  [
+   "h3",
+   "Medical Detoxification and Residential Treatment"
+  ],
+  [
+   "h3",
+   "Second Stage Recovery Program"
+  ],
+  [
+   "h2",
+   "GreenStone - Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About GreenStone"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-3.jpg",
+   "local_path": "images/centre__greenestone/greenestone-3.jpg",
+   "alt": "greenestone 3",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-1.jpg",
+   "local_path": "images/centre__greenestone/greenestone-1.jpg",
+   "alt": "greenestone 1",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-2.jpg",
+   "local_path": "images/centre__greenestone/greenestone-2.jpg",
+   "alt": "greenestone 2",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone.jpg",
+   "local_path": "images/centre__greenestone/greenestone.jpg",
+   "alt": "greenestone",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(705) 762-5501",
+   "text": "(705) 762-5501",
+   "kind": "tel",
+   "new": "tel:(705) 762-5501"
+  },
+  {
+   "old_href": "mailto:information@greenestone.net",
+   "text": "information@greenestone.net",
+   "kind": "mailto",
+   "new": "mailto:information@greenestone.net"
+  },
+  {
+   "old_href": "https://greenestone.net/",
+   "text": "https://greenestone.net/",
+   "kind": "external",
+   "new": "https://greenestone.net/"
+  },
+  {
+   "old_href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgreenestone.net%2F&t=Home",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgreenestone.net%2F&t=Home"
+  },
+  {
+   "old_href": "https://twitter.com/intent/tweet?text=Home&url=https%3A%2F%2Fgreenestone.net%2F",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/intent/tweet?text=Home&url=https%3A%2F%2Fgreenestone.net%2F"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "Private Environment and Outdoor Activities",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.",
+     "html": "GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Medical Detoxification and Residential Treatment",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.",
+     "html": "The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Second Stage Recovery Program",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.",
+     "html": "The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "iframe",
+     "src": "https://www.youtube.com/embed/K3NhHfnqg2g",
+     "title": "YouTube video player",
+     "width": "560",
+     "height": "315"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "GreenStone - Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.",
+     "html": "GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.",
+     "html": "GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "GreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "GreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About GreenStone",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What is the age range of clients accepted at GreeneStone Centre for Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+       "html": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "The length of the program depends on the client's individual needs and progress.",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "text",
+       "text": "Toggle Content"
+      },
+      {
+       "type": "link",
+       "text": "What types of therapy are provided at GreeneStone Centre for Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+       "html": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Does GreeneStone Centre for Recovery provide aftercare support?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+       "html": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Are family members allowed to visit clients at GreeneStone Centre for Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, family members are allowed to visit clients at certain times during the program.",
+       "html": "Yes, family members are allowed to visit clients at certain times during the program.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Does GreeneStone Centre for Recovery accept insurance?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+       "html": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Are there any medical facilities near GreeneStone Centre for Recovery?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+       "html": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(705) 762-5501",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(705) 762-5501\" itemprop=\"url\">(705) 762-5501</a>",
+         "links": [
+          {
+           "old": "tel:(705) 762-5501",
+           "text": "(705) 762-5501"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "information@greenestone.net",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:information@greenestone.net\" itemprop=\"url\">information@greenestone.net</a>",
+         "links": [
+          {
+           "old": "mailto:information@greenestone.net",
+           "text": "information@greenestone.net"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://greenestone.net/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://greenestone.net/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://greenestone.net/</a>",
+         "links": [
+          {
+           "old": "https://greenestone.net/",
+           "text": "https://greenestone.net/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "3571 Muskoka District Road 169, Bala, ON P0C 1A0, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    3571 Muskoka District Road 169, Bala, ON P0C 1A0, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:38pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "Private Environment and Outdoor Activities",
+   "html": "Private Environment and Outdoor Activities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.",
+   "html": "GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Medical Detoxification and Residential Treatment",
+   "html": "Medical Detoxification and Residential Treatment",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.",
+   "html": "The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Second Stage Recovery Program",
+   "html": "Second Stage Recovery Program",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.",
+   "html": "The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "iframe",
+   "src": "https://www.youtube.com/embed/K3NhHfnqg2g",
+   "title": "YouTube video player",
+   "width": "560",
+   "height": "315"
+  },
+  {
+   "type": "h2",
+   "text": "GreenStone - Center Overview",
+   "html": "GreenStone - Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.",
+   "html": "GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.",
+   "html": "GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "GreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "GreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About GreenStone",
+   "html": "Frequently Asked Questions About GreenStone",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What is the age range of clients accepted at GreeneStone Centre for Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+   "html": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "The length of the program depends on the client's individual needs and progress.",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "text",
+   "text": "Toggle Content"
+  },
+  {
+   "type": "link",
+   "text": "What types of therapy are provided at GreeneStone Centre for Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+   "html": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Does GreeneStone Centre for Recovery provide aftercare support?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+   "html": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Are family members allowed to visit clients at GreeneStone Centre for Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, family members are allowed to visit clients at certain times during the program.",
+   "html": "Yes, family members are allowed to visit clients at certain times during the program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Does GreeneStone Centre for Recovery accept insurance?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+   "html": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Are there any medical facilities near GreeneStone Centre for Recovery?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+   "html": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(705) 762-5501",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(705) 762-5501\" itemprop=\"url\">(705) 762-5501</a>",
+   "links": [
+    {
+     "old": "tel:(705) 762-5501",
+     "text": "(705) 762-5501"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "information@greenestone.net",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:information@greenestone.net\" itemprop=\"url\">information@greenestone.net</a>",
+   "links": [
+    {
+     "old": "mailto:information@greenestone.net",
+     "text": "information@greenestone.net"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://greenestone.net/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://greenestone.net/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://greenestone.net/</a>",
+   "links": [
+    {
+     "old": "https://greenestone.net/",
+     "text": "https://greenestone.net/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "3571 Muskoka District Road 169, Bala, ON P0C 1A0, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    3571 Muskoka District Road 169, Bala, ON P0C 1A0, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:38pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Greenestone",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-6771\" data-elementor-id=\"6771\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2a82d1e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2a82d1e5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4273bc74\" data-element_type=\"column\" data-id=\"4273bc74\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6a9687bc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6a9687bc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74ba7066\" data-element_type=\"column\" data-id=\"74ba7066\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-79f75579 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"79f75579\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Private Environment and Outdoor Activities</h3><p>GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.</p><h3>Medical Detoxification and Residential Treatment </h3><p>The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.</p><h3>Second Stage Recovery Program</h3><p>The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.</p><p> </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6282e5d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6282e5d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22497a9\" data-element_type=\"column\" data-id=\"22497a9\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-f43cc4d elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"f43cc4d\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/K3NhHfnqg2g\" title=\"YouTube video player\" width=\"560\"></iframe> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2b36e794 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2b36e794\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10090206\" data-element_type=\"column\" data-id=\"10090206\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-401b8592 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"401b8592\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-70563e75 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"70563e75\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">GreenStone - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-407f985a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"407f985a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.</p><p>GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1fc96293 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1fc96293\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3b935bd2\" data-element_type=\"column\" data-id=\"3b935bd2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-734276ad elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"734276ad\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7f8b590\" data-element_type=\"column\" data-id=\"7f8b590\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-79d41d6c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"79d41d6c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2038a431 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2038a431\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78eec013\" data-element_type=\"column\" data-id=\"78eec013\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6ac7a15c elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"6ac7a15c\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tGreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4eee4265 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"4eee4265\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-174da8c0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"174da8c0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5fe1ecb6 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5fe1ecb6\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7e12b83e\" data-element_type=\"column\" data-id=\"7e12b83e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-69e28437 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"69e28437\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-293a3ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"293a3ea5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4f755300\" data-element_type=\"column\" data-id=\"4f755300\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-2429718f elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"2429718f\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About GreenStone</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-72eb64dc elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"72eb64dc\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1921\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1921\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the age range of clients accepted at GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1921\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1921\" role=\"region\"><p>GreeneStone Centre for Recovery accepts clients aged 18 and over.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1922\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1922\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">The length of the program depends on the client's individual needs and progress.</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1922\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1922\" role=\"region\">Toggle Content</div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1923\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1923\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapy are provided at GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1923\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1923\" role=\"region\"><p>GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1924\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1924\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does GreeneStone Centre for Recovery provide aftercare support?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1924\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1924\" role=\"region\"><p>Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1925\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1925\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> Are family members allowed to visit clients at GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1925\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1925\" role=\"region\"><p>Yes, family members are allowed to visit clients at certain times during the program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1926\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1926\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does GreeneStone Centre for Recovery accept insurance?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1926\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1926\" role=\"region\"><p>Yes, GreeneStone Centre for Recovery accepts most major insurance plans.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1927\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1927\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are there any medical facilities near GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1927\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1927\" role=\"region\"><p>Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(705) 762-5501",
+  "email": "information@greenestone.net",
+  "website": "https://greenestone.net/",
+  "address": "3571 Muskoka District Road 169, Bala, ON P0C 1A0, Canada",
+  "social": {
+   "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgreenestone.net%2F&t=Home",
+   "twitter": "https://twitter.com/intent/tweet?text=Home&url=https%3A%2F%2Fgreenestone.net%2F"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-3.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-3.jpg",
+    "alt": "greenestone 3",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-1.jpg",
+    "alt": "greenestone 1",
+    "width": "1000",
+    "height": "667"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-2.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/greenestone-2.jpg",
+    "alt": "greenestone 2",
+    "width": "1000",
+    "height": "667"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "Private Environment and Outdoor Activities",
+    "html": "Private Environment and Outdoor Activities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.",
+    "html": "GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Medical Detoxification and Residential Treatment",
+    "html": "Medical Detoxification and Residential Treatment",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.",
+    "html": "The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Second Stage Recovery Program",
+    "html": "Second Stage Recovery Program",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.",
+    "html": "The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "iframe",
+    "src": "https://www.youtube.com/embed/K3NhHfnqg2g",
+    "title": "YouTube video player",
+    "width": "560",
+    "height": "315"
+   },
+   {
+    "type": "h2",
+    "text": "GreenStone - Center Overview",
+    "html": "GreenStone - Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.",
+    "html": "GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.",
+    "html": "GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "GreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "GreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About GreenStone",
+  "faqs": [
+   {
+    "question": "What is the age range of clients accepted at GreeneStone Centre for Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+      "html": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "GreeneStone Centre for Recovery accepts clients aged 18 and over."
+   },
+   {
+    "question": "The length of the program depends on the client's individual needs and progress.",
+    "answer_blocks": [
+     {
+      "type": "text",
+      "text": "Toggle Content"
+     }
+    ],
+    "answer_text": "Toggle Content"
+   },
+   {
+    "question": "What types of therapy are provided at GreeneStone Centre for Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+      "html": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy."
+   },
+   {
+    "question": "Does GreeneStone Centre for Recovery provide aftercare support?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+      "html": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients."
+   },
+   {
+    "question": "Are family members allowed to visit clients at GreeneStone Centre for Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, family members are allowed to visit clients at certain times during the program.",
+      "html": "Yes, family members are allowed to visit clients at certain times during the program.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, family members are allowed to visit clients at certain times during the program."
+   },
+   {
+    "question": "Does GreeneStone Centre for Recovery accept insurance?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+      "html": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans."
+   },
+   {
+    "question": "Are there any medical facilities near GreeneStone Centre for Recovery?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+      "html": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(705) 762-5501",
+  "phone_href": "tel:(705) 762-5501",
+  "website_text": "https://greenestone.net/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What is the age range of clients accepted at GreeneStone Centre for Recovery?",
+   "answer_text": "GreeneStone Centre for Recovery accepts clients aged 18 and over.",
+   "answer_html": "<p>GreeneStone Centre for Recovery accepts clients aged 18 and over.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "The length of the program depends on the client's individual needs and progress.",
+   "answer_text": "Toggle Content",
+   "answer_html": "Toggle Content",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What types of therapy are provided at GreeneStone Centre for Recovery?",
+   "answer_text": "GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.",
+   "answer_html": "<p>GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Does GreeneStone Centre for Recovery provide aftercare support?",
+   "answer_text": "Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.",
+   "answer_html": "<p>Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Are family members allowed to visit clients at GreeneStone Centre for Recovery?",
+   "answer_text": "Yes, family members are allowed to visit clients at certain times during the program.",
+   "answer_html": "<p>Yes, family members are allowed to visit clients at certain times during the program.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Does GreeneStone Centre for Recovery accept insurance?",
+   "answer_text": "Yes, GreeneStone Centre for Recovery accepts most major insurance plans.",
+   "answer_html": "<p>Yes, GreeneStone Centre for Recovery accepts most major insurance plans.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Are there any medical facilities near GreeneStone Centre for Recovery?",
+   "answer_text": "Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.",
+   "answer_html": "<p>Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-6771\" data-elementor-id=\"6771\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2a82d1e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2a82d1e5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4273bc74\" data-element_type=\"column\" data-id=\"4273bc74\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6a9687bc elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6a9687bc\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-74ba7066\" data-element_type=\"column\" data-id=\"74ba7066\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-79f75579 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"79f75579\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h3>Private Environment and Outdoor Activities</h3><p>GreeneStone Centre for Recovery is located on a private, 40-acre property that offers a safe and peaceful environment for clients seeking recovery. The serene setting provides a space for relaxation, reflection, and healing. Clients have access to the beautiful lake, where they can enjoy canoeing, fishing, and other water activities. The property also offers various outdoor activities such as hiking, nature walks, and bonfires, providing clients with a healthy outlet for physical exercise and social interaction.</p><h3>Medical Detoxification and Residential Treatment </h3><p>The medical detoxification program at GreeneStone Centre for Recovery is designed to help clients safely and comfortably manage the uncomfortable symptoms of withdrawal. The program provides medically assisted treatment with medication and nursing care to help ease the symptoms. Residential treatment at GreeneStone involves staying at the facility 24/7, with a focus on individual and group therapy, meeting and connecting with peers, and developing self-care skills. Clients in residential treatment are given a structured daily routine, which includes therapy groups, one on one sessions, and wellness activities.</p><h3>Second Stage Recovery Program</h3><p>The Second Stage Recovery Program at GreeneStone Centre for Recovery offers a comprehensive treatment plan to clients who have completed residential treatment. The program provides a comfortable, home-like setting for clients and includes both group and individual therapy to promote continued recovery. Clients receive 24/7 support and guidance from staff and peers, along with access to various wellness activities and workshops. The second-stage program’s goal is to provide clients with a safe and supportive environment to help them transition back into everyday life while maintaining sobriety.</p><p> </p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-6282e5d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"6282e5d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-22497a9\" data-element_type=\"column\" data-id=\"22497a9\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-f43cc4d elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"f43cc4d\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n<iframe allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"\" frameborder=\"0\" height=\"315\" src=\"https://www.youtube.com/embed/K3NhHfnqg2g\" title=\"YouTube video player\" width=\"560\"></iframe> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2b36e794 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2b36e794\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10090206\" data-element_type=\"column\" data-id=\"10090206\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-401b8592 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"401b8592\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-70563e75 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"70563e75\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">GreenStone - Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-407f985a elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"407f985a\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>GreeneStone Centre for Recovery is a private addiction treatment facility located in Ontario that specializes in helping individuals overcome addiction and alcoholism. The experienced team at GreeneStone collaborates with each client to develop an individualized treatment plan that targets their specific needs and goals. The Centre’s CARF accreditation attests to the high standard of care provided, and clients can expect a supportive and nurturing environment conducive to healing and sustained recovery.</p><p>GreeneStone Centre for Recovery offers a comprehensive range of addiction treatment services catered to different stages of recovery. The Centre’s programs include Medical Detox, Primary Treatment, Young Adult Track, and Second Stage Treatment. These multi-disciplinary treatment plans incorporate a variety of evidence-based therapies, such as cognitive-behavioural therapy, motivational interviewing, and mindfulness meditation. By providing a range of options to choose from, GreeneStone aims to meet the diverse needs of its clients and provide the right level of support they need to achieve long-term recovery.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1fc96293 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1fc96293\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-3b935bd2\" data-element_type=\"column\" data-id=\"3b935bd2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-734276ad elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"734276ad\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7f8b590\" data-element_type=\"column\" data-id=\"7f8b590\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-79d41d6c elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"79d41d6c\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2038a431 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2038a431\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78eec013\" data-element_type=\"column\" data-id=\"78eec013\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6ac7a15c elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"6ac7a15c\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tGreenStone has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-4eee4265 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"4eee4265\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-174da8c0 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"174da8c0\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5fe1ecb6 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5fe1ecb6\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7e12b83e\" data-element_type=\"column\" data-id=\"7e12b83e\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-69e28437 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"69e28437\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-293a3ea5 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"293a3ea5\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-4f755300\" data-element_type=\"column\" data-id=\"4f755300\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-2429718f elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"2429718f\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About GreenStone</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-72eb64dc elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"72eb64dc\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1921\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1921\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the age range of clients accepted at GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1921\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1921\" role=\"region\"><p>GreeneStone Centre for Recovery accepts clients aged 18 and over.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1922\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1922\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">The length of the program depends on the client's individual needs and progress.</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1922\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1922\" role=\"region\">Toggle Content</div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1923\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1923\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What types of therapy are provided at GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1923\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1923\" role=\"region\"><p>GreeneStone Centre for Recovery provides various therapies, including cognitive-behavioral therapy, dialectical-behavioral therapy, eye movement therapy, and trauma-informed therapy.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1924\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1924\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does GreeneStone Centre for Recovery provide aftercare support?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1924\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1924\" role=\"region\"><p>Yes, GreeneStone Centre for Recovery provides aftercare support for its clients.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1925\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1925\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> Are family members allowed to visit clients at GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1925\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1925\" role=\"region\"><p>Yes, family members are allowed to visit clients at certain times during the program.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1926\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1926\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Does GreeneStone Centre for Recovery accept insurance?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1926\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1926\" role=\"region\"><p>Yes, GreeneStone Centre for Recovery accepts most major insurance plans.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1927\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1927\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Are there any medical facilities near GreeneStone Centre for Recovery?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1927\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1927\" role=\"region\"><p>Yes, there are medical facilities near GreeneStone Centre for Recovery in case of any medical emergencies.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(705) 762-5501\" itemprop=\"url\">(705) 762-5501</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:information@greenestone.net\" itemprop=\"url\">information@greenestone.net</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://greenestone.net/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://greenestone.net/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    3571 Muskoka District Road 169, Bala, ON P0C 1A0, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:38pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgreenestone.net%2F&amp;t=Home\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/intent/tweet?text=Home&amp;url=https%3A%2F%2Fgreenestone.net%2F\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

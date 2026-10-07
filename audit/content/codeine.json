@@ -1,0 +1,1544 @@
+{
+ "schema": "arc-content/1",
+ "slug": "codeine",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/codeine/",
+  "path": "/codeine/",
+  "wp_items": [
+   {
+    "id": 13649,
+    "type": "post",
+    "title": "Codeine",
+    "date": "2022-11-27T19:57:54",
+    "modified": "2026-08-09T10:19:25",
+    "status": "publish",
+    "yoast_title": "Codeine - Addiction Rehab Centers",
+    "words_rest": 1776
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/codeine/",
+ "seo": {
+  "meta_title": "Codeine - Addiction Rehab Centers",
+  "meta_description": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines. Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+  "canonical_source": "https://addictionrehabcenters.ca/codeine/",
+  "og": {
+   "title": "Codeine - Addiction Rehab Centers",
+   "description": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines. Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/codeine/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/codeine/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Codeine",
+      "datePublished": "2022-11-27T19:57:54+00:00",
+      "dateModified": "2026-08-09T10:19:25+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/codeine/"
+      },
+      "wordCount": 1787,
+      "commentCount": 0,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/codeine/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+      "keywords": [
+       "codeine"
+      ],
+      "articleSection": [
+       "Drugs"
+      ],
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "CommentAction",
+        "name": "Comment",
+        "target": [
+         "https://addictionrehabcenters.ca/codeine/#respond"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/codeine/",
+      "url": "https://addictionrehabcenters.ca/codeine/",
+      "name": "Codeine - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/codeine/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/codeine/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+      "datePublished": "2022-11-27T19:57:54+00:00",
+      "dateModified": "2026-08-09T10:19:25+00:00",
+      "description": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines. Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/codeine/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/codeine/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/codeine/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "codeine"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/codeine/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Codeine"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Codeine",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 1783,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Codeine"
+  ],
+  [
+   "h2",
+   "Understanding Codeine"
+  ],
+  [
+   "h3",
+   "The History of Codeine"
+  ],
+  [
+   "h3",
+   "Codeine Signs and Symptoms of Use"
+  ],
+  [
+   "h3",
+   "Codeine Withdrawal"
+  ],
+  [
+   "h3",
+   "Codeine Timeline & Codeine Abuse Symptoms"
+  ],
+  [
+   "h3",
+   "Codeine Overdose Potential"
+  ],
+  [
+   "h3",
+   "Mental Health and Codeine Addiction"
+  ],
+  [
+   "h2",
+   "Effective Codeine Addiction Treatment Options"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+   "local_path": "images/codeine/codeine-.jpg",
+   "alt": "codeine",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion.jpg",
+   "local_path": "images/codeine/exhaustion.jpg",
+   "alt": "exhaustion",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation.jpg",
+   "local_path": "images/codeine/stomach-pain-or-constipation.jpg",
+   "alt": "stomach pain or constipation",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction.jpg",
+   "local_path": "images/codeine/codeine-addiction.jpg",
+   "alt": "codeine addiction",
+   "width": 1000,
+   "height": 450,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2022/00/",
+   "text": "November 27, 2022",
+   "kind": "taxonomy-dropped",
+   "new": "/2022/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/drugs/",
+   "text": "Drugs",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/codeine-addiction-treatment/",
+   "text": "codeine addiction",
+   "kind": "internal",
+   "new": "/codeine-addiction-treatment/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/",
+   "text": "tramadol addiction",
+   "kind": "internal",
+   "new": "/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/codeine-addiction-treatment/",
+   "text": "Treatment for codeine addiction",
+   "kind": "internal",
+   "new": "/codeine-addiction-treatment/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/codeine/#respond",
+   "text": "0 Comments",
+   "kind": "internal",
+   "new": "/codeine/#respond",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+     "alt": "codeine",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "November 27, 2022",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Drugs",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Codeine",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines.",
+     "html": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Although this doctor-prescribed medication is given as a painkiller with a specific dose and uses instruction, codeine (like many other pain management medications) has a high risk of dependence and abuse.",
+     "html": "Although this doctor-prescribed medication is given as a painkiller with a specific dose and uses instruction, codeine (like many other pain management medications) has a high risk of dependence and abuse.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "An estimated 33 million people use codeine every year. According to a 2008 survey, approximately 4.7 million Americans reported non-medicinal use of painkillers, including codeine.",
+     "html": "An estimated 33 million people use codeine every year. According to a 2008 survey, approximately 4.7 million Americans reported non-medicinal use of painkillers, including codeine.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Codeine cough syrup has even been mixed with various soft drinks such as Sprite or Mountain Dew, in order to consume it in larger doses – this mixture is referred to as “purple drank”, “syrup” or “sizzurp”.",
+     "html": "Codeine cough syrup has even been mixed with various soft drinks such as Sprite or Mountain Dew, in order to consume it in larger doses – this mixture is referred to as “purple drank”, “syrup” or “sizzurp”.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 2,
+     "heading": "Understanding Codeine",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+       "html": "Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "For example, say you have a severe injury and are prescribed codeine. Codeine will work as an effective form of pain management because the messages from your body to your brain are being disrupted by the medication. This is how painkillers work to relieve pain.",
+       "html": "For example, say you have a severe injury and are prescribed codeine. Codeine will work as an effective form of pain management because the messages from your body to your brain are being disrupted by the medication. This is how painkillers work to relieve pain.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "While codeine (and other pain management medications) can be extremely helpful, they also carry a heavy risk of dependency and addiction. You could argue that painkiller addiction is not only physical (when our bodies grow to crave the substance) but it can be psychological, too.",
+       "html": "While codeine (and other pain management medications) can be extremely helpful, they also carry a heavy risk of dependency and addiction. You could argue that painkiller addiction is not only physical (when our bodies grow to crave the substance) but it can be psychological, too.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Think of it this way: if you’re in pain, and you can take this medication to not be in nearly as much pain – you do it. After a while, you feel like you want to take more of the medication or doses closer together to prevent any pain from resurfacing at all. This is how painkiller dependency begins – this is how codeine addiction starts.",
+       "html": "Think of it this way: if you’re in pain, and you can take this medication to not be in nearly as much pain – you do it. After a while, you feel like you want to take more of the medication or doses closer together to prevent any pain from resurfacing at all. This is how painkiller dependency begins – this is how codeine addiction starts.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 3,
+       "heading": "The History of Codeine",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Opium comes from the opium poppy plant and was sold in elixirs and tonics as early as the 1700s. These were marketed as “pain soothers”, and in the early 1800s, a German discovered how to isolate morphine from the opium plant. This made further research into opium more popular and eventually, in 1832, codeine was invented by a French chemist named Pierre Robiquet.",
+         "html": "Opium comes from the opium poppy plant and was sold in elixirs and tonics as early as the 1700s. These were marketed as “pain soothers”, and in the early 1800s, a German discovered how to isolate morphine from the opium plant. This made further research into opium more popular and eventually, in 1832, codeine was invented by a French chemist named Pierre Robiquet.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "“Codeine” comes from a Greek word that refers to the head of the poppy plant from which opium originates.",
+         "html": "“Codeine” comes from a Greek word that refers to the head of the poppy plant from which opium originates.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "In today’s world, codeine is used in cough syrups or prescribed as a mild pain killer. Almost every prescription cough medicine in the US contains some amount of codeine because the compounds in opiates help to reduce nausea and/or diarrhea.",
+         "html": "In today’s world, codeine is used in cough syrups or prescribed as a mild pain killer. Almost every prescription cough medicine in the US contains some amount of codeine because the compounds in opiates help to reduce nausea and/or diarrhea.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Codeine Signs and Symptoms of Use",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Codeine is prescribed by a doctor, and when prescribed, certain things are taken into consideration to determine the correct dose: your size, weight, overall health, if you have previously used a narcotic or opioid pain killer before, etc.",
+         "html": "Codeine is prescribed by a doctor, and when prescribed, certain things are taken into consideration to determine the correct dose: your size, weight, overall health, if you have previously used a narcotic or opioid pain killer before, etc.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Some side effects of codeine can include:",
+         "html": "<strong>Some side effects of codeine can include: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Dizziness",
+           "html": "Dizziness",
+           "links": []
+          },
+          {
+           "text": "Euphoria",
+           "html": "Euphoria",
+           "links": []
+          },
+          {
+           "text": "Confusion/difficulty concentrating",
+           "html": "Confusion/difficulty concentrating",
+           "links": []
+          },
+          {
+           "text": "Sweating, skin irritation",
+           "html": "Sweating, skin irritation",
+           "links": []
+          },
+          {
+           "text": "Decreased heart rate",
+           "html": "Decreased heart rate",
+           "links": []
+          },
+          {
+           "text": "Stomach pains, nausea, constipation",
+           "html": "Stomach pains, nausea, constipation",
+           "links": []
+          },
+          {
+           "text": "Blurred vision",
+           "html": "Blurred vision",
+           "links": []
+          },
+          {
+           "text": "Dry mouth",
+           "html": "Dry mouth",
+           "links": []
+          },
+          {
+           "text": "Exhaustion",
+           "html": "Exhaustion",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "As a depressant, codeine works to slow a person’s breathing and heart rate. In large enough doses, the effects of codeine can range from mild to potentially life-threatening.",
+         "html": "As a depressant, codeine works to slow a person’s breathing and heart rate. In large enough doses, the effects of codeine can range from mild to potentially life-threatening.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion.jpg",
+         "alt": "exhaustion",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Codeine Withdrawal",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Codeine withdrawal symptoms can vary from person to person and depend on a few different factors such as how long they have been using codeine, the average dose they regularly take, mental health and medical history and method of use.",
+         "html": "Codeine withdrawal symptoms can vary from person to person and depend on a few different factors such as how long they have been using codeine, the average dose they regularly take, mental health and medical history and method of use.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Things such as your gender, body weight and if you have been mixing codeine with other substances also play a factor in how severe your withdrawal symptoms can be.",
+         "html": "Things such as your gender, body weight and if you have been mixing codeine with other substances also play a factor in how severe your withdrawal symptoms can be.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "A typical codeine withdrawal can look like this:",
+         "html": "<strong>A typical codeine withdrawal can look like this: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "The first 1-4 days are when the user will experience uncomfortable symptoms such as muscle pain, insomnia, sweating, headaches, diarrhea, and vomiting.",
+         "html": "The first 1-4 days are when the user will experience uncomfortable symptoms such as muscle pain, insomnia, sweating, headaches, diarrhea, and vomiting.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "This is the hard part. Getting over these first few days can be difficult, but it can be much easier if you choose to detox in a medical detox facility.",
+         "html": "This is the hard part. Getting over these first few days can be difficult, but it can be much easier if you choose to detox in a medical detox facility.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "After the first four days, there is some relief from the more physical symptoms of withdrawal – but the user may now begin to experience more psychological withdrawal symptoms. Heightened depression or anxiety, mood swings, and insomnia may set in.",
+         "html": "After the first four days, there is some relief from the more physical symptoms of withdrawal – but the user may now begin to experience more psychological withdrawal symptoms. Heightened depression or anxiety, mood swings, and insomnia may set in.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "It’s also possible to feel extremely dehydrated during this time due to the loss of fluids in the first days of withdrawal (from sweating, vomiting and/or diarrhea).",
+         "html": "It’s also possible to feel extremely dehydrated during this time due to the loss of fluids in the first days of withdrawal (from sweating, vomiting and/or diarrhea).",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Depression, anxiety, and cravings can stick around for months after a user quits. The temptation of relapse can feel almost unbearable.",
+         "html": "Depression, anxiety, and cravings can stick around for months after a user quits. The temptation of relapse can feel almost unbearable.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "This is where rehab treatment facilities come into play. You’re not alone in fighting this addiction – and finding healthy ways to combat your urges to use and cope with pain, trauma and/or cravings without the use and abuse of drugs is very possible if you choose to enter a treatment program.",
+         "html": "This is where rehab treatment facilities come into play. You’re not alone in fighting this addiction – and finding healthy ways to combat your urges to use and cope with pain, trauma and/or cravings without the use and abuse of drugs is very possible if you choose to enter a treatment program.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Due to the medication initially being used to treat pain, you may not just experience the withdrawal symptoms listed below, you may also feel that initial pain again once the codeine has tapered off. This is why it’s so difficult for people to stop their codeine use, and why treatment programs for codeine addiction are tailored for each individual to help them overcome their addiction.",
+         "html": "Due to the medication initially being used to treat pain, you may not just experience the withdrawal symptoms listed below, you may also feel that initial pain again once the codeine has tapered off. This is why it’s so difficult for people to stop their codeine use, and why treatment programs for <a data-wpel-link=\"internal\" href=\"/codeine-addiction-treatment/\">codeine addiction</a> are tailored for each individual to help them overcome their addiction.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/codeine-addiction-treatment/",
+           "text": "codeine addiction"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Many people are afraid to lessen their codeine use because they assume once they stop taking painkillers, their pain will return. While this is possible, there are solutions to ensure you don’t experience as much pain as you were prior to your codeine use.",
+         "html": "Many people are afraid to lessen their codeine use because they assume once they stop taking painkillers, their pain will return. While this is possible, there are solutions to ensure you don’t experience as much pain as you were prior to your codeine use.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Your medical professional or physician may suggest using milder (non-narcotic) painkillers such as acetaminophen (Tylenol) and/or Ibuprofen (Advil) to help reduce the pain you were previously treated with.",
+         "html": "Your medical professional or physician may suggest using milder (non-narcotic) painkillers such as acetaminophen (Tylenol) and/or Ibuprofen (Advil) to help reduce the pain you were previously treated with.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Codeine Timeline & Codeine Abuse Symptoms",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "With painkillers, there is no safe level of continued use. The use of any painkiller will always carry with it a risk of abuse, dependency, and addiction.",
+         "html": "With painkillers, there is no safe level of continued use. The use of any painkiller will always carry with it a risk of abuse, dependency, and addiction.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Do you think someone you know may be abusing their codeine prescription? Maybe you are considering if you may have a codeine addiction.",
+         "html": "Do you think someone you know may be abusing their codeine prescription? Maybe you are considering if you may have a codeine addiction.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Some signs that a person is abusing their codeine medication and could become dependent or addicted are:",
+         "html": "<strong>Some signs that a person is abusing their codeine medication and could become dependent or addicted are: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Constant drowsiness",
+           "html": "Constant drowsiness",
+           "links": []
+          },
+          {
+           "text": "A shortened attention span",
+           "html": "A shortened attention span",
+           "links": []
+          },
+          {
+           "text": "Dilated pupils",
+           "html": "Dilated pupils",
+           "links": []
+          },
+          {
+           "text": "Impaired judgment",
+           "html": "Impaired judgment",
+           "links": []
+          },
+          {
+           "text": "Slurred speech",
+           "html": "Slurred speech",
+           "links": []
+          },
+          {
+           "text": "Mood swings or limited emotions – can appear indifferent or uninterested in things around them",
+           "html": "Mood swings or limited emotions – can appear indifferent or uninterested in things around them",
+           "links": []
+          },
+          {
+           "text": "Stomach pain or constipation",
+           "html": "Stomach pain or constipation",
+           "links": []
+          },
+          {
+           "text": "Weight loss",
+           "html": "Weight loss",
+           "links": []
+          },
+          {
+           "text": "Clammy hands and feet",
+           "html": "Clammy hands and feet",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "Codeine is less potent than other opiates (like oxycodone or hydrocodone) – but this thought that codeine is less harmful is often what leads people to experiment with their prescriptions. The same false sense of safety surrounds tramadol addiction, another prescription opioid people wrongly assume is harmless because it was marketed as a milder painkiller.",
+         "html": "Codeine is less potent than other opiates (like oxycodone or hydrocodone) – but this thought that codeine is less harmful is often what leads people to experiment with their prescriptions. The same false sense of safety surrounds <a data-wpel-link=\"internal\" href=\"/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/\" style=\"color:#1b6ec2;text-decoration:underline;\">tramadol addiction</a>, another prescription opioid people wrongly assume is harmless because it was marketed as a milder painkiller.",
+         "links": [
+          {
+           "old": "https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/",
+           "text": "tramadol addiction"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Even if you are following a prescription for codeine, prolonged use of painkillers very often makes it more difficult to quit. Your body builds up a tolerance, meaning you think you need higher doses of the drug to feel the same kind of pain relief.",
+         "html": "Even if you are following a prescription for codeine, prolonged use of painkillers very often makes it more difficult to quit. Your body builds up a tolerance, meaning you think you need higher doses of the drug to feel the same kind of pain relief.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "When a person becomes dependent on codeine or any other painkiller medication, the cells in the body begin needing the drug to function properly.",
+         "html": "When a person becomes dependent on codeine or any other painkiller medication, the cells in the body begin needing the drug to function properly.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "If you have been using codeine for a prolonged period of time (more than a few weeks) and are finding it difficult to get through the prescribed time between doses before using more – you may be developing a codeine addiction.",
+         "html": "If you have been using codeine for a prolonged period of time (more than a few weeks) and are finding it difficult to get through the prescribed time between doses before using more – you may be developing a codeine addiction.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation.jpg",
+         "alt": "stomach pain or constipation",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Codeine Overdose Potential",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "A codeine overdose can happen when the user’s dose is too high or if they take multiple doses without waiting for the appropriate amount of time.",
+         "html": "A codeine overdose can happen when the user’s dose is too high or if they take multiple doses without waiting for the appropriate amount of time.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "A codeine overdose can have these signs:",
+         "html": "<strong>A codeine overdose can have these signs: </strong>",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "ul",
+         "ordered": false,
+         "items": [
+          {
+           "text": "Inability to urinate, severe constipation",
+           "html": "Inability to urinate, severe constipation",
+           "links": []
+          },
+          {
+           "text": "Agitation",
+           "html": "Agitation",
+           "links": []
+          },
+          {
+           "text": "Cold/clammy skin with a blue tinge",
+           "html": "Cold/clammy skin with a blue tinge",
+           "links": []
+          },
+          {
+           "text": "Mental numbness/lethargy",
+           "html": "Mental numbness/lethargy",
+           "links": []
+          },
+          {
+           "text": "Slow, shallow breathing",
+           "html": "Slow, shallow breathing",
+           "links": []
+          },
+          {
+           "text": "Hallucinations or seizures",
+           "html": "Hallucinations or seizures",
+           "links": []
+          }
+         ]
+        },
+        {
+         "type": "p",
+         "text": "A user who is experiencing an overdose will also present as confused, and tired, and may even lose consciousness.",
+         "html": "A user who is experiencing an overdose will also present as confused, and tired, and may even lose consciousness.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "It’s important to note that a codeine overdose can have fatal results such as a coma or in some cases, even death. If you suspect you or someone you know is going through a codeine overdose, contact 911 immediately.",
+         "html": "It’s important to note that a codeine overdose can have fatal results such as a coma or in some cases, even death. If you suspect you or someone you know is going through a codeine overdose, contact 911 immediately.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "When you contact emergency services, you will need to explain how much the user has ingested, and when and if the medicine is actually prescribed to the person. Giving as much information about the user can also help, such as their age, weight and any health conditions they may have.",
+         "html": "When you contact emergency services, you will need to explain how much the user has ingested, and when and if the medicine is actually prescribed to the person. Giving as much information about the user can also help, such as their age, weight and any health conditions they may have.",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 3,
+       "heading": "Mental Health and Codeine Addiction",
+       "blocks": [
+        {
+         "type": "p",
+         "text": "Prolonged use of codeine (over 6 months) can be linked to depressive symptoms, according to a community survey performed by the NCBI.",
+         "html": "Prolonged use of codeine (over 6 months) can be linked to depressive symptoms, according to a community survey performed by the NCBI.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Over 300 people completed the survey, and the DSM-IV criteria for codeine abuse/dependence were present in 41% of the participants. Of those who were abusing their codeine prescriptions, ⅔ of those people were seeking help for mental health issues (70% citing depression as the main concern).",
+         "html": "Over 300 people completed the survey, and the DSM-IV criteria for codeine abuse/dependence were present in 41% of the participants. Of those who were abusing their codeine prescriptions, ⅔ of those people were seeking help for mental health issues (70% citing depression as the main concern).",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "Another concern with prolonged painkiller abuse is the psychological effects and how we label pain in our minds. Many people who are abusing their painkiller prescriptions aren’t just dealing with physical pain, but their painkiller use could be masking a kind of emotional pain as well – oftentimes the pain becomes psychological.",
+         "html": "Another concern with prolonged painkiller abuse is the psychological effects and how we label pain in our minds. Many people who are abusing their painkiller prescriptions aren’t just dealing with physical pain, but their painkiller use could be masking a kind of emotional pain as well – oftentimes the pain becomes psychological.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "When the symptoms of codeine abuse include things like mental numbness, drowsiness, and a suppressed mood – it can be tempting for people to misuse painkillers to essentially numb themselves to the problems in their lives.",
+         "html": "When the symptoms of codeine abuse include things like mental numbness, drowsiness, and a suppressed mood – it can be tempting for people to misuse painkillers to essentially numb themselves to the problems in their lives.",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction.jpg",
+         "alt": "codeine addiction",
+         "width": "1000",
+         "height": "450"
+        }
+       ],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 2,
+     "heading": "Effective Codeine Addiction Treatment Options",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Treatment for codeine addiction will not only focus on helping you safely stop your codeine use, but it will also help you find healthy coping strategies to deal with the pain you were prescribed codeine for.",
+       "html": "<a data-wpel-link=\"internal\" href=\"/codeine-addiction-treatment/\">Treatment for codeine addiction</a> will not only focus on helping you safely stop your codeine use, but it will also help you find healthy coping strategies to deal with the pain you were prescribed codeine for.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/codeine-addiction-treatment/",
+         "text": "Treatment for codeine addiction"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "The first step to any treatment will be a detox, and when you come down from a painkiller medication, medical detox is going to be the safest option. Quitting “cold turkey” can be extremely difficult and will be uncomfortable. Seeking help from a medical detox center can ensure you come off the drug in the safest way possible with the least amount of discomfort.",
+       "html": "The first step to any treatment will be a detox, and when you come down from a painkiller medication, medical detox is going to be the safest option. Quitting “cold turkey” can be extremely difficult and will be uncomfortable. Seeking help from a medical detox center can ensure you come off the drug in the safest way possible with the least amount of discomfort.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "From a detox center, you can be given options for treatment that include inpatient programs, outpatient programs, 12-step programs, and group/individual counselling.",
+       "html": "From a detox center, you can be given options for treatment that include inpatient programs, outpatient programs, 12-step programs, and group/individual counselling.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Inpatient treatment centers are often the best choice for people struggling with codeine addiction, as they can provide medical assistance in managing the pain you experience due to withdrawal.",
+       "html": "Inpatient treatment centers are often the best choice for people struggling with codeine addiction, as they can provide medical assistance in managing the pain you experience due to withdrawal.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Along with managing your addiction, inpatient treatment centers also offer group/individual counselling sessions, 12-step programs and behavioural therapies that are designed to help you find coping strategies and healthy habits that will help you live a substance-free lifestyle once you return home.",
+       "html": "Along with managing your addiction, inpatient treatment centers also offer group/individual counselling sessions, 12-step programs and behavioural therapies that are designed to help you find coping strategies and healthy habits that will help you live a substance-free lifestyle once you return home.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Many inpatient treatment programs for opiate addiction are between 30-90 days in length, depending on the severity of your addiction. Many programs also offer some kind of follow-up aftercare program that will ensure you don’t relapse.",
+       "html": "Many inpatient treatment programs for opiate addiction are between 30-90 days in length, depending on the severity of your addiction. Many programs also offer some kind of follow-up aftercare program that will ensure you don’t relapse.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "0 Comments",
+       "href": "https://addictionrehabcenters.ca/codeine/#respond",
+       "new_href": "/codeine/#respond"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+   "alt": "codeine",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "November 27, 2022",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Drugs",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Codeine",
+   "html": "Codeine",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines.",
+   "html": "Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Although this doctor-prescribed medication is given as a painkiller with a specific dose and uses instruction, codeine (like many other pain management medications) has a high risk of dependence and abuse.",
+   "html": "Although this doctor-prescribed medication is given as a painkiller with a specific dose and uses instruction, codeine (like many other pain management medications) has a high risk of dependence and abuse.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "An estimated 33 million people use codeine every year. According to a 2008 survey, approximately 4.7 million Americans reported non-medicinal use of painkillers, including codeine.",
+   "html": "An estimated 33 million people use codeine every year. According to a 2008 survey, approximately 4.7 million Americans reported non-medicinal use of painkillers, including codeine.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Codeine cough syrup has even been mixed with various soft drinks such as Sprite or Mountain Dew, in order to consume it in larger doses – this mixture is referred to as “purple drank”, “syrup” or “sizzurp”.",
+   "html": "Codeine cough syrup has even been mixed with various soft drinks such as Sprite or Mountain Dew, in order to consume it in larger doses – this mixture is referred to as “purple drank”, “syrup” or “sizzurp”.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Understanding Codeine",
+   "html": "Understanding Codeine",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+   "html": "Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "For example, say you have a severe injury and are prescribed codeine. Codeine will work as an effective form of pain management because the messages from your body to your brain are being disrupted by the medication. This is how painkillers work to relieve pain.",
+   "html": "For example, say you have a severe injury and are prescribed codeine. Codeine will work as an effective form of pain management because the messages from your body to your brain are being disrupted by the medication. This is how painkillers work to relieve pain.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "While codeine (and other pain management medications) can be extremely helpful, they also carry a heavy risk of dependency and addiction. You could argue that painkiller addiction is not only physical (when our bodies grow to crave the substance) but it can be psychological, too.",
+   "html": "While codeine (and other pain management medications) can be extremely helpful, they also carry a heavy risk of dependency and addiction. You could argue that painkiller addiction is not only physical (when our bodies grow to crave the substance) but it can be psychological, too.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Think of it this way: if you’re in pain, and you can take this medication to not be in nearly as much pain – you do it. After a while, you feel like you want to take more of the medication or doses closer together to prevent any pain from resurfacing at all. This is how painkiller dependency begins – this is how codeine addiction starts.",
+   "html": "Think of it this way: if you’re in pain, and you can take this medication to not be in nearly as much pain – you do it. After a while, you feel like you want to take more of the medication or doses closer together to prevent any pain from resurfacing at all. This is how painkiller dependency begins – this is how codeine addiction starts.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "The History of Codeine",
+   "html": "The History of Codeine",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Opium comes from the opium poppy plant and was sold in elixirs and tonics as early as the 1700s. These were marketed as “pain soothers”, and in the early 1800s, a German discovered how to isolate morphine from the opium plant. This made further research into opium more popular and eventually, in 1832, codeine was invented by a French chemist named Pierre Robiquet.",
+   "html": "Opium comes from the opium poppy plant and was sold in elixirs and tonics as early as the 1700s. These were marketed as “pain soothers”, and in the early 1800s, a German discovered how to isolate morphine from the opium plant. This made further research into opium more popular and eventually, in 1832, codeine was invented by a French chemist named Pierre Robiquet.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "“Codeine” comes from a Greek word that refers to the head of the poppy plant from which opium originates.",
+   "html": "“Codeine” comes from a Greek word that refers to the head of the poppy plant from which opium originates.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "In today’s world, codeine is used in cough syrups or prescribed as a mild pain killer. Almost every prescription cough medicine in the US contains some amount of codeine because the compounds in opiates help to reduce nausea and/or diarrhea.",
+   "html": "In today’s world, codeine is used in cough syrups or prescribed as a mild pain killer. Almost every prescription cough medicine in the US contains some amount of codeine because the compounds in opiates help to reduce nausea and/or diarrhea.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Codeine Signs and Symptoms of Use",
+   "html": "Codeine Signs and Symptoms of Use",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Codeine is prescribed by a doctor, and when prescribed, certain things are taken into consideration to determine the correct dose: your size, weight, overall health, if you have previously used a narcotic or opioid pain killer before, etc.",
+   "html": "Codeine is prescribed by a doctor, and when prescribed, certain things are taken into consideration to determine the correct dose: your size, weight, overall health, if you have previously used a narcotic or opioid pain killer before, etc.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Some side effects of codeine can include:",
+   "html": "<strong>Some side effects of codeine can include: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Dizziness",
+     "html": "Dizziness",
+     "links": []
+    },
+    {
+     "text": "Euphoria",
+     "html": "Euphoria",
+     "links": []
+    },
+    {
+     "text": "Confusion/difficulty concentrating",
+     "html": "Confusion/difficulty concentrating",
+     "links": []
+    },
+    {
+     "text": "Sweating, skin irritation",
+     "html": "Sweating, skin irritation",
+     "links": []
+    },
+    {
+     "text": "Decreased heart rate",
+     "html": "Decreased heart rate",
+     "links": []
+    },
+    {
+     "text": "Stomach pains, nausea, constipation",
+     "html": "Stomach pains, nausea, constipation",
+     "links": []
+    },
+    {
+     "text": "Blurred vision",
+     "html": "Blurred vision",
+     "links": []
+    },
+    {
+     "text": "Dry mouth",
+     "html": "Dry mouth",
+     "links": []
+    },
+    {
+     "text": "Exhaustion",
+     "html": "Exhaustion",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "As a depressant, codeine works to slow a person’s breathing and heart rate. In large enough doses, the effects of codeine can range from mild to potentially life-threatening.",
+   "html": "As a depressant, codeine works to slow a person’s breathing and heart rate. In large enough doses, the effects of codeine can range from mild to potentially life-threatening.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion.jpg",
+   "alt": "exhaustion",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Codeine Withdrawal",
+   "html": "Codeine Withdrawal",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Codeine withdrawal symptoms can vary from person to person and depend on a few different factors such as how long they have been using codeine, the average dose they regularly take, mental health and medical history and method of use.",
+   "html": "Codeine withdrawal symptoms can vary from person to person and depend on a few different factors such as how long they have been using codeine, the average dose they regularly take, mental health and medical history and method of use.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Things such as your gender, body weight and if you have been mixing codeine with other substances also play a factor in how severe your withdrawal symptoms can be.",
+   "html": "Things such as your gender, body weight and if you have been mixing codeine with other substances also play a factor in how severe your withdrawal symptoms can be.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A typical codeine withdrawal can look like this:",
+   "html": "<strong>A typical codeine withdrawal can look like this: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The first 1-4 days are when the user will experience uncomfortable symptoms such as muscle pain, insomnia, sweating, headaches, diarrhea, and vomiting.",
+   "html": "The first 1-4 days are when the user will experience uncomfortable symptoms such as muscle pain, insomnia, sweating, headaches, diarrhea, and vomiting.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This is the hard part. Getting over these first few days can be difficult, but it can be much easier if you choose to detox in a medical detox facility.",
+   "html": "This is the hard part. Getting over these first few days can be difficult, but it can be much easier if you choose to detox in a medical detox facility.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "After the first four days, there is some relief from the more physical symptoms of withdrawal – but the user may now begin to experience more psychological withdrawal symptoms. Heightened depression or anxiety, mood swings, and insomnia may set in.",
+   "html": "After the first four days, there is some relief from the more physical symptoms of withdrawal – but the user may now begin to experience more psychological withdrawal symptoms. Heightened depression or anxiety, mood swings, and insomnia may set in.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "It’s also possible to feel extremely dehydrated during this time due to the loss of fluids in the first days of withdrawal (from sweating, vomiting and/or diarrhea).",
+   "html": "It’s also possible to feel extremely dehydrated during this time due to the loss of fluids in the first days of withdrawal (from sweating, vomiting and/or diarrhea).",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Depression, anxiety, and cravings can stick around for months after a user quits. The temptation of relapse can feel almost unbearable.",
+   "html": "Depression, anxiety, and cravings can stick around for months after a user quits. The temptation of relapse can feel almost unbearable.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This is where rehab treatment facilities come into play. You’re not alone in fighting this addiction – and finding healthy ways to combat your urges to use and cope with pain, trauma and/or cravings without the use and abuse of drugs is very possible if you choose to enter a treatment program.",
+   "html": "This is where rehab treatment facilities come into play. You’re not alone in fighting this addiction – and finding healthy ways to combat your urges to use and cope with pain, trauma and/or cravings without the use and abuse of drugs is very possible if you choose to enter a treatment program.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Due to the medication initially being used to treat pain, you may not just experience the withdrawal symptoms listed below, you may also feel that initial pain again once the codeine has tapered off. This is why it’s so difficult for people to stop their codeine use, and why treatment programs for codeine addiction are tailored for each individual to help them overcome their addiction.",
+   "html": "Due to the medication initially being used to treat pain, you may not just experience the withdrawal symptoms listed below, you may also feel that initial pain again once the codeine has tapered off. This is why it’s so difficult for people to stop their codeine use, and why treatment programs for <a data-wpel-link=\"internal\" href=\"/codeine-addiction-treatment/\">codeine addiction</a> are tailored for each individual to help them overcome their addiction.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/codeine-addiction-treatment/",
+     "text": "codeine addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Many people are afraid to lessen their codeine use because they assume once they stop taking painkillers, their pain will return. While this is possible, there are solutions to ensure you don’t experience as much pain as you were prior to your codeine use.",
+   "html": "Many people are afraid to lessen their codeine use because they assume once they stop taking painkillers, their pain will return. While this is possible, there are solutions to ensure you don’t experience as much pain as you were prior to your codeine use.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Your medical professional or physician may suggest using milder (non-narcotic) painkillers such as acetaminophen (Tylenol) and/or Ibuprofen (Advil) to help reduce the pain you were previously treated with.",
+   "html": "Your medical professional or physician may suggest using milder (non-narcotic) painkillers such as acetaminophen (Tylenol) and/or Ibuprofen (Advil) to help reduce the pain you were previously treated with.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Codeine Timeline & Codeine Abuse Symptoms",
+   "html": "Codeine Timeline &amp; Codeine Abuse Symptoms",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "With painkillers, there is no safe level of continued use. The use of any painkiller will always carry with it a risk of abuse, dependency, and addiction.",
+   "html": "With painkillers, there is no safe level of continued use. The use of any painkiller will always carry with it a risk of abuse, dependency, and addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Do you think someone you know may be abusing their codeine prescription? Maybe you are considering if you may have a codeine addiction.",
+   "html": "Do you think someone you know may be abusing their codeine prescription? Maybe you are considering if you may have a codeine addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Some signs that a person is abusing their codeine medication and could become dependent or addicted are:",
+   "html": "<strong>Some signs that a person is abusing their codeine medication and could become dependent or addicted are: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Constant drowsiness",
+     "html": "Constant drowsiness",
+     "links": []
+    },
+    {
+     "text": "A shortened attention span",
+     "html": "A shortened attention span",
+     "links": []
+    },
+    {
+     "text": "Dilated pupils",
+     "html": "Dilated pupils",
+     "links": []
+    },
+    {
+     "text": "Impaired judgment",
+     "html": "Impaired judgment",
+     "links": []
+    },
+    {
+     "text": "Slurred speech",
+     "html": "Slurred speech",
+     "links": []
+    },
+    {
+     "text": "Mood swings or limited emotions – can appear indifferent or uninterested in things around them",
+     "html": "Mood swings or limited emotions – can appear indifferent or uninterested in things around them",
+     "links": []
+    },
+    {
+     "text": "Stomach pain or constipation",
+     "html": "Stomach pain or constipation",
+     "links": []
+    },
+    {
+     "text": "Weight loss",
+     "html": "Weight loss",
+     "links": []
+    },
+    {
+     "text": "Clammy hands and feet",
+     "html": "Clammy hands and feet",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Codeine is less potent than other opiates (like oxycodone or hydrocodone) – but this thought that codeine is less harmful is often what leads people to experiment with their prescriptions. The same false sense of safety surrounds tramadol addiction, another prescription opioid people wrongly assume is harmless because it was marketed as a milder painkiller.",
+   "html": "Codeine is less potent than other opiates (like oxycodone or hydrocodone) – but this thought that codeine is less harmful is often what leads people to experiment with their prescriptions. The same false sense of safety surrounds <a data-wpel-link=\"internal\" href=\"/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/\" style=\"color:#1b6ec2;text-decoration:underline;\">tramadol addiction</a>, another prescription opioid people wrongly assume is harmless because it was marketed as a milder painkiller.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/",
+     "text": "tramadol addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Even if you are following a prescription for codeine, prolonged use of painkillers very often makes it more difficult to quit. Your body builds up a tolerance, meaning you think you need higher doses of the drug to feel the same kind of pain relief.",
+   "html": "Even if you are following a prescription for codeine, prolonged use of painkillers very often makes it more difficult to quit. Your body builds up a tolerance, meaning you think you need higher doses of the drug to feel the same kind of pain relief.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "When a person becomes dependent on codeine or any other painkiller medication, the cells in the body begin needing the drug to function properly.",
+   "html": "When a person becomes dependent on codeine or any other painkiller medication, the cells in the body begin needing the drug to function properly.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "If you have been using codeine for a prolonged period of time (more than a few weeks) and are finding it difficult to get through the prescribed time between doses before using more – you may be developing a codeine addiction.",
+   "html": "If you have been using codeine for a prolonged period of time (more than a few weeks) and are finding it difficult to get through the prescribed time between doses before using more – you may be developing a codeine addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation.jpg",
+   "alt": "stomach pain or constipation",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h3",
+   "text": "Codeine Overdose Potential",
+   "html": "Codeine Overdose Potential",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "A codeine overdose can happen when the user’s dose is too high or if they take multiple doses without waiting for the appropriate amount of time.",
+   "html": "A codeine overdose can happen when the user’s dose is too high or if they take multiple doses without waiting for the appropriate amount of time.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "A codeine overdose can have these signs:",
+   "html": "<strong>A codeine overdose can have these signs: </strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Inability to urinate, severe constipation",
+     "html": "Inability to urinate, severe constipation",
+     "links": []
+    },
+    {
+     "text": "Agitation",
+     "html": "Agitation",
+     "links": []
+    },
+    {
+     "text": "Cold/clammy skin with a blue tinge",
+     "html": "Cold/clammy skin with a blue tinge",
+     "links": []
+    },
+    {
+     "text": "Mental numbness/lethargy",
+     "html": "Mental numbness/lethargy",
+     "links": []
+    },
+    {
+     "text": "Slow, shallow breathing",
+     "html": "Slow, shallow breathing",
+     "links": []
+    },
+    {
+     "text": "Hallucinations or seizures",
+     "html": "Hallucinations or seizures",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "A user who is experiencing an overdose will also present as confused, and tired, and may even lose consciousness.",
+   "html": "A user who is experiencing an overdose will also present as confused, and tired, and may even lose consciousness.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "It’s important to note that a codeine overdose can have fatal results such as a coma or in some cases, even death. If you suspect you or someone you know is going through a codeine overdose, contact 911 immediately.",
+   "html": "It’s important to note that a codeine overdose can have fatal results such as a coma or in some cases, even death. If you suspect you or someone you know is going through a codeine overdose, contact 911 immediately.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "When you contact emergency services, you will need to explain how much the user has ingested, and when and if the medicine is actually prescribed to the person. Giving as much information about the user can also help, such as their age, weight and any health conditions they may have.",
+   "html": "When you contact emergency services, you will need to explain how much the user has ingested, and when and if the medicine is actually prescribed to the person. Giving as much information about the user can also help, such as their age, weight and any health conditions they may have.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Mental Health and Codeine Addiction",
+   "html": "Mental Health and Codeine Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Prolonged use of codeine (over 6 months) can be linked to depressive symptoms, according to a community survey performed by the NCBI.",
+   "html": "Prolonged use of codeine (over 6 months) can be linked to depressive symptoms, according to a community survey performed by the NCBI.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Over 300 people completed the survey, and the DSM-IV criteria for codeine abuse/dependence were present in 41% of the participants. Of those who were abusing their codeine prescriptions, ⅔ of those people were seeking help for mental health issues (70% citing depression as the main concern).",
+   "html": "Over 300 people completed the survey, and the DSM-IV criteria for codeine abuse/dependence were present in 41% of the participants. Of those who were abusing their codeine prescriptions, ⅔ of those people were seeking help for mental health issues (70% citing depression as the main concern).",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Another concern with prolonged painkiller abuse is the psychological effects and how we label pain in our minds. Many people who are abusing their painkiller prescriptions aren’t just dealing with physical pain, but their painkiller use could be masking a kind of emotional pain as well – oftentimes the pain becomes psychological.",
+   "html": "Another concern with prolonged painkiller abuse is the psychological effects and how we label pain in our minds. Many people who are abusing their painkiller prescriptions aren’t just dealing with physical pain, but their painkiller use could be masking a kind of emotional pain as well – oftentimes the pain becomes psychological.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "When the symptoms of codeine abuse include things like mental numbness, drowsiness, and a suppressed mood – it can be tempting for people to misuse painkillers to essentially numb themselves to the problems in their lives.",
+   "html": "When the symptoms of codeine abuse include things like mental numbness, drowsiness, and a suppressed mood – it can be tempting for people to misuse painkillers to essentially numb themselves to the problems in their lives.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction.jpg",
+   "alt": "codeine addiction",
+   "width": "1000",
+   "height": "450"
+  },
+  {
+   "type": "h2",
+   "text": "Effective Codeine Addiction Treatment Options",
+   "html": "Effective Codeine Addiction Treatment Options",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Treatment for codeine addiction will not only focus on helping you safely stop your codeine use, but it will also help you find healthy coping strategies to deal with the pain you were prescribed codeine for.",
+   "html": "<a data-wpel-link=\"internal\" href=\"/codeine-addiction-treatment/\">Treatment for codeine addiction</a> will not only focus on helping you safely stop your codeine use, but it will also help you find healthy coping strategies to deal with the pain you were prescribed codeine for.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/codeine-addiction-treatment/",
+     "text": "Treatment for codeine addiction"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "The first step to any treatment will be a detox, and when you come down from a painkiller medication, medical detox is going to be the safest option. Quitting “cold turkey” can be extremely difficult and will be uncomfortable. Seeking help from a medical detox center can ensure you come off the drug in the safest way possible with the least amount of discomfort.",
+   "html": "The first step to any treatment will be a detox, and when you come down from a painkiller medication, medical detox is going to be the safest option. Quitting “cold turkey” can be extremely difficult and will be uncomfortable. Seeking help from a medical detox center can ensure you come off the drug in the safest way possible with the least amount of discomfort.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "From a detox center, you can be given options for treatment that include inpatient programs, outpatient programs, 12-step programs, and group/individual counselling.",
+   "html": "From a detox center, you can be given options for treatment that include inpatient programs, outpatient programs, 12-step programs, and group/individual counselling.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Inpatient treatment centers are often the best choice for people struggling with codeine addiction, as they can provide medical assistance in managing the pain you experience due to withdrawal.",
+   "html": "Inpatient treatment centers are often the best choice for people struggling with codeine addiction, as they can provide medical assistance in managing the pain you experience due to withdrawal.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Along with managing your addiction, inpatient treatment centers also offer group/individual counselling sessions, 12-step programs and behavioural therapies that are designed to help you find coping strategies and healthy habits that will help you live a substance-free lifestyle once you return home.",
+   "html": "Along with managing your addiction, inpatient treatment centers also offer group/individual counselling sessions, 12-step programs and behavioural therapies that are designed to help you find coping strategies and healthy habits that will help you live a substance-free lifestyle once you return home.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Many inpatient treatment programs for opiate addiction are between 30-90 days in length, depending on the severity of your addiction. Many programs also offer some kind of follow-up aftercare program that will ensure you don’t relapse.",
+   "html": "Many inpatient treatment programs for opiate addiction are between 30-90 days in length, depending on the severity of your addiction. Many programs also offer some kind of follow-up aftercare program that will ensure you don’t relapse.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "0 Comments",
+   "href": "https://addictionrehabcenters.ca/codeine/#respond",
+   "new_href": "/codeine/#respond"
+  }
+ ],
+ "post": {
+  "published": "2022-11-27T19:57:54+00:00",
+  "modified": "2026-08-09T10:19:25+00:00",
+  "date_label": "November 27, 2022",
+  "categories": [
+   "Drugs"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg",
+  "jsonld_author": "Addiction Rehab Centre",
+  "jsonld_wordCount": 1787,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"codeine\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine--300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine--1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine--768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine--1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine--600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2022/00/\" itemprop=\"url\">\n                November 27, 2022        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/drugs/\" rel=\"category tag\">Drugs</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Codeine    </h1> <p>Codeine is a prescription narcotic painkiller medication that is used for moderate pain relief. Codeine can also be found (in small amounts) in some cough medicines.</p>\n<p>Although this doctor-prescribed medication is given as a painkiller with a specific dose and uses instruction, codeine (like many other pain management medications) has a high risk of dependence and abuse.</p>\n<p>An estimated 33 million people use codeine every year. According to a 2008 survey, approximately 4.7 million Americans reported non-medicinal use of painkillers, including codeine.</p>\n<p>Codeine cough syrup has even been mixed with various soft drinks such as Sprite or Mountain Dew, in order to consume it in larger doses – this mixture is referred to as “purple drank”, “syrup” or “sizzurp”.</p>\n<h2>Understanding Codeine</h2>\n<p>Codeine is an opioid prescription pain killer, and how it works is relatively simple: opioids attach themselves to the opioid receptors in your brain, spinal cord and other parts of your body.</p>\n<p>For example, say you have a severe injury and are prescribed codeine. Codeine will work as an effective form of pain management because the messages from your body to your brain are being disrupted by the medication. This is how painkillers work to relieve pain.</p>\n<p>While codeine (and other pain management medications) can be extremely helpful, they also carry a heavy risk of dependency and addiction. You could argue that painkiller addiction is not only physical (when our bodies grow to crave the substance) but it can be psychological, too.</p>\n<p>Think of it this way: if you’re in pain, and you can take this medication to not be in nearly as much pain – you do it. After a while, you feel like you want to take more of the medication or doses closer together to prevent any pain from resurfacing at all. This is how painkiller dependency begins – this is how codeine addiction starts.</p>\n<h3>The History of Codeine</h3>\n<p>Opium comes from the opium poppy plant and was sold in elixirs and tonics as early as the 1700s. These were marketed as “pain soothers”, and in the early 1800s, a German discovered how to isolate morphine from the opium plant. This made further research into opium more popular and eventually, in 1832, codeine was invented by a French chemist named Pierre Robiquet.</p>\n<p>“Codeine” comes from a Greek word that refers to the head of the poppy plant from which opium originates.</p>\n<p>In today’s world, codeine is used in cough syrups or prescribed as a mild pain killer. Almost every prescription cough medicine in the US contains some amount of codeine because the compounds in opiates help to reduce nausea and/or diarrhea.</p>\n<h3>Codeine Signs and Symptoms of Use</h3>\n<p>Codeine is prescribed by a doctor, and when prescribed, certain things are taken into consideration to determine the correct dose: your size, weight, overall health, if you have previously used a narcotic or opioid pain killer before, etc.</p>\n<p><strong>Some side effects of codeine can include: </strong></p>\n<ul>\n<li>Dizziness</li>\n<li>Euphoria</li>\n<li>Confusion/difficulty concentrating</li>\n<li>Sweating, skin irritation</li>\n<li>Decreased heart rate</li>\n<li>Stomach pains, nausea, constipation</li>\n<li>Blurred vision</li>\n<li>Dry mouth</li>\n<li>Exhaustion</li>\n</ul>\n<p>As a depressant, codeine works to slow a person’s breathing and heart rate. In large enough doses, the effects of codeine can range from mild to potentially life-threatening.</p>\n<p><img alt=\"exhaustion\" class=\"alignnone wp-image-13651 size-full\" decoding=\"async\" height=\"450\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion-300x135.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion-768x346.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/exhaustion-600x270.jpg 600w\" width=\"1000\"/></p>\n<h3>Codeine Withdrawal</h3>\n<p>Codeine withdrawal symptoms can vary from person to person and depend on a few different factors such as how long they have been using codeine, the average dose they regularly take, mental health and medical history and method of use.</p>\n<p>Things such as your gender, body weight and if you have been mixing codeine with other substances also play a factor in how severe your withdrawal symptoms can be.</p>\n<p><strong>A typical codeine withdrawal can look like this: </strong></p>\n<p>The first 1-4 days are when the user will experience uncomfortable symptoms such as muscle pain, insomnia, sweating, headaches, diarrhea, and vomiting.</p>\n<p>This is the hard part. Getting over these first few days can be difficult, but it can be much easier if you choose to detox in a medical detox facility.</p>\n<p>After the first four days, there is some relief from the more physical symptoms of withdrawal – but the user may now begin to experience more psychological withdrawal symptoms. Heightened depression or anxiety, mood swings, and insomnia may set in.</p>\n<p>It’s also possible to feel extremely dehydrated during this time due to the loss of fluids in the first days of withdrawal (from sweating, vomiting and/or diarrhea).</p>\n<p>Depression, anxiety, and cravings can stick around for months after a user quits. The temptation of relapse can feel almost unbearable.</p>\n<p>This is where rehab treatment facilities come into play. You’re not alone in fighting this addiction – and finding healthy ways to combat your urges to use and cope with pain, trauma and/or cravings without the use and abuse of drugs is very possible if you choose to enter a treatment program.</p>\n<p>Due to the medication initially being used to treat pain, you may not just experience the withdrawal symptoms listed below, you may also feel that initial pain again once the codeine has tapered off. This is why it’s so difficult for people to stop their codeine use, and why treatment programs for <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/codeine-addiction-treatment/\">codeine addiction</a> are tailored for each individual to help them overcome their addiction.</p>\n<p>Many people are afraid to lessen their codeine use because they assume once they stop taking painkillers, their pain will return. While this is possible, there are solutions to ensure you don’t experience as much pain as you were prior to your codeine use.</p>\n<p>Your medical professional or physician may suggest using milder (non-narcotic) painkillers such as acetaminophen (Tylenol) and/or Ibuprofen (Advil) to help reduce the pain you were previously treated with.</p>\n<h3>Codeine Timeline &amp; Codeine Abuse Symptoms</h3>\n<p>With painkillers, there is no safe level of continued use. The use of any painkiller will always carry with it a risk of abuse, dependency, and addiction.</p>\n<p>Do you think someone you know may be abusing their codeine prescription? Maybe you are considering if you may have a codeine addiction.</p>\n<p><strong>Some signs that a person is abusing their codeine medication and could become dependent or addicted are: </strong></p>\n<ul>\n<li>Constant drowsiness</li>\n<li>A shortened attention span</li>\n<li>Dilated pupils</li>\n<li>Impaired judgment</li>\n<li>Slurred speech</li>\n<li>Mood swings or limited emotions – can appear indifferent or uninterested in things around them</li>\n<li>Stomach pain or constipation</li>\n<li>Weight loss</li>\n<li>Clammy hands and feet</li>\n</ul>\n<p>Codeine is less potent than other opiates (like oxycodone or hydrocodone) – but this thought that codeine is less harmful is often what leads people to experiment with their prescriptions. The same false sense of safety surrounds <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/tramadol-addiction-in-canada-signs-withdrawal-timeline-and-treatment/\" style=\"color:#1b6ec2;text-decoration:underline;\">tramadol addiction</a>, another prescription opioid people wrongly assume is harmless because it was marketed as a milder painkiller.</p>\n<p>Even if you are following a prescription for codeine, prolonged use of painkillers very often makes it more difficult to quit. Your body builds up a tolerance, meaning you think you need higher doses of the drug to feel the same kind of pain relief.</p>\n<p>When a person becomes dependent on codeine or any other painkiller medication, the cells in the body begin needing the drug to function properly.</p>\n<p>If you have been using codeine for a prolonged period of time (more than a few weeks) and are finding it difficult to get through the prescribed time between doses before using more – you may be developing a codeine addiction.</p>\n<p><img alt=\"stomach pain or constipation\" class=\"alignnone wp-image-13652 size-full\" decoding=\"async\" height=\"450\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation-300x135.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation-768x346.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/stomach-pain-or-constipation-600x270.jpg 600w\" width=\"1000\"/></p>\n<h3>Codeine Overdose Potential</h3>\n<p>A codeine overdose can happen when the user’s dose is too high or if they take multiple doses without waiting for the appropriate amount of time.</p>\n<p><strong>A codeine overdose can have these signs: </strong></p>\n<ul>\n<li>Inability to urinate, severe constipation</li>\n<li>Agitation</li>\n<li>Cold/clammy skin with a blue tinge</li>\n<li>Mental numbness/lethargy</li>\n<li>Slow, shallow breathing</li>\n<li>Hallucinations or seizures</li>\n</ul>\n<p>A user who is experiencing an overdose will also present as confused, and tired, and may even lose consciousness.</p>\n<p>It’s important to note that a codeine overdose can have fatal results such as a coma or in some cases, even death. If you suspect you or someone you know is going through a codeine overdose, contact 911 immediately.</p>\n<p>When you contact emergency services, you will need to explain how much the user has ingested, and when and if the medicine is actually prescribed to the person. Giving as much information about the user can also help, such as their age, weight and any health conditions they may have.</p>\n<h3>Mental Health and Codeine Addiction</h3>\n<p>Prolonged use of codeine (over 6 months) can be linked to depressive symptoms, according to a community survey performed by the NCBI.</p>\n<p>Over 300 people completed the survey, and the DSM-IV criteria for codeine abuse/dependence were present in 41% of the participants. Of those who were abusing their codeine prescriptions, ⅔ of those people were seeking help for mental health issues (70% citing depression as the main concern).</p>\n<p>Another concern with prolonged painkiller abuse is the psychological effects and how we label pain in our minds. Many people who are abusing their painkiller prescriptions aren’t just dealing with physical pain, but their painkiller use could be masking a kind of emotional pain as well – oftentimes the pain becomes psychological.</p>\n<p>When the symptoms of codeine abuse include things like mental numbness, drowsiness, and a suppressed mood – it can be tempting for people to misuse painkillers to essentially numb themselves to the problems in their lives.</p>\n<p><img alt=\"codeine addiction\" class=\"alignnone wp-image-13653 size-full\" decoding=\"async\" height=\"450\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction-300x135.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction-768x346.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/11/codeine-addiction-600x270.jpg 600w\" width=\"1000\"/></p>\n<h2>Effective Codeine Addiction Treatment Options</h2>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/codeine-addiction-treatment/\">Treatment for codeine addiction</a> will not only focus on helping you safely stop your codeine use, but it will also help you find healthy coping strategies to deal with the pain you were prescribed codeine for.</p>\n<p>The first step to any treatment will be a detox, and when you come down from a painkiller medication, medical detox is going to be the safest option. Quitting “cold turkey” can be extremely difficult and will be uncomfortable. Seeking help from a medical detox center can ensure you come off the drug in the safest way possible with the least amount of discomfort.</p>\n<p>From a detox center, you can be given options for treatment that include inpatient programs, outpatient programs, 12-step programs, and group/individual counselling.</p>\n<p>Inpatient treatment centers are often the best choice for people struggling with codeine addiction, as they can provide medical assistance in managing the pain you experience due to withdrawal.</p>\n<p>Along with managing your addiction, inpatient treatment centers also offer group/individual counselling sessions, 12-step programs and behavioural therapies that are designed to help you find coping strategies and healthy habits that will help you live a substance-free lifestyle once you return home.</p>\n<p>Many inpatient treatment programs for opiate addiction are between 30-90 days in length, depending on the severity of your addiction. Many programs also offer some kind of follow-up aftercare program that will ensure you don’t relapse.</p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n<div class=\"eltdf-post-info-comments-holder\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_comment_alt\"></span> <a class=\"eltdf-post-info-comments\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/codeine/#respond\" itemprop=\"url\">\n\t\t\t0 Comments\t\t</a>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

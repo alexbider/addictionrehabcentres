@@ -1,0 +1,897 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__emergo-recovery",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/emergo-recovery/",
+  "path": "/emergo-recovery/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/emergo-recovery/",
+ "seo": {
+  "meta_title": "Emergo Recovery - Addiction Rehab Centers",
+  "meta_description": "Emergo Recovery offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/emergo-recovery/",
+  "og": {
+   "title": "Emergo Recovery - Addiction Rehab Centers",
+   "description": "Emergo Recovery offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Emergo-Recovery-banner.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/emergo-recovery/",
+      "url": "https://addictionrehabcenters.ca/emergo-recovery/",
+      "name": "Emergo Recovery - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/emergo-recovery/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/emergo-recovery/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Emergo-Recovery-banner.jpg",
+      "datePublished": "2021-09-28T15:43:51+00:00",
+      "dateModified": "2022-09-25T13:05:24+00:00",
+      "description": "Emergo Recovery offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/emergo-recovery/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/emergo-recovery/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/emergo-recovery/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Emergo-Recovery-banner.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Emergo-Recovery-banner.jpg",
+      "width": 1000,
+      "height": 667,
+      "caption": "Emergo Recovery"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/emergo-recovery/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Emergo Recovery"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 97,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "About Emergo Recovery"
+  ],
+  [
+   "h4",
+   "Amenities"
+  ],
+  [
+   "h4",
+   "Admissions"
+  ],
+  [
+   "h4",
+   "Therapies"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "featured",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Emergo-Recovery-banner.jpg",
+   "local_path": "images/centre__emergo-recovery/Emergo-Recovery-banner.jpg",
+   "alt": "Emergo Recovery",
+   "width": 1000,
+   "height": 667,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "tel:(249) 877-8776",
+   "text": "(249) 877-8776",
+   "kind": "tel",
+   "new": "tel:(249) 877-8776"
+  },
+  {
+   "old_href": "mailto:info@emergorecovery.com",
+   "text": "info@emergorecovery.com",
+   "kind": "mailto",
+   "new": "mailto:info@emergorecovery.com"
+  },
+  {
+   "old_href": "https://emergorecovery.com/",
+   "text": "https://emergorecovery.com/",
+   "kind": "external",
+   "new": "https://emergorecovery.com/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 3,
+   "heading": "About Emergo Recovery",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.",
+     "html": "Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 4,
+     "heading": "",
+     "blocks": [],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Resort Setting",
+       "html": "Resort Setting",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Private Setting"
+      },
+      {
+       "type": "text",
+       "text": "Residential Setting"
+      },
+      {
+       "type": "text",
+       "text": "Lakeside"
+      },
+      {
+       "type": "text",
+       "text": "Acupuncture"
+      },
+      {
+       "type": "text",
+       "text": "Art Activities"
+      },
+      {
+       "type": "text",
+       "text": "Business Center"
+      },
+      {
+       "type": "text",
+       "text": "Gym"
+      },
+      {
+       "type": "text",
+       "text": "Outdoor Activities"
+      },
+      {
+       "type": "text",
+       "text": "Massage"
+      },
+      {
+       "type": "text",
+       "text": "Meditation"
+      },
+      {
+       "type": "text",
+       "text": "Music Therapy"
+      },
+      {
+       "type": "text",
+       "text": "Recreation Room"
+      },
+      {
+       "type": "text",
+       "text": "Private Transportation"
+      },
+      {
+       "type": "text",
+       "text": "Yoga Studio"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Admissions",
+     "blocks": [
+      {
+       "type": "text",
+       "text": "Programs for Women"
+      },
+      {
+       "type": "text",
+       "text": "Programs for Men"
+      },
+      {
+       "type": "text",
+       "text": "Adult Programs"
+      },
+      {
+       "type": "text",
+       "text": "Young Adult Programs"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Holistic Therapy",
+       "html": "Holistic Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Evidence-Based Practices",
+       "html": "Evidence-Based Practices",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Yoga & Meditation",
+       "html": "Yoga &amp; Meditation",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Individual Therapy & Counseling",
+       "html": "Individual Therapy &amp; Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Family Therapy & Counseling",
+       "html": "Family Therapy &amp; Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Group Therapy & Counseling",
+       "html": "Group Therapy &amp; Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Nutritional Counseling",
+       "html": "Nutritional Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Art & Nature Therapy",
+       "html": "Art &amp; Nature Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "(249) 877-8776",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(249) 877-8776\" itemprop=\"url\">(249) 877-8776</a>",
+       "links": [
+        {
+         "old": "tel:(249) 877-8776",
+         "text": "(249) 877-8776"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "info@emergorecovery.com",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@emergorecovery.com\" itemprop=\"url\">info@emergorecovery.com</a>",
+       "links": [
+        {
+         "old": "mailto:info@emergorecovery.com",
+         "text": "info@emergorecovery.com"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "https://emergorecovery.com/",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://emergorecovery.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://emergorecovery.com/</a>",
+       "links": [
+        {
+         "old": "https://emergorecovery.com/",
+         "text": "https://emergorecovery.com/"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "92 Caplan Ave #603, Barrie, ON L4N 0Z7, Canada",
+       "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    92 Caplan Ave #603, Barrie, ON L4N 0Z7, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "Contact Business"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 4,
+     "heading": "Sponsored Ad",
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+       "alt": "addiction rehab centres",
+       "width": "970",
+       "height": "920",
+       "link_href": "tel:1-855-885-4747"
+      }
+     ],
+     "children": []
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h3",
+   "text": "About Emergo Recovery",
+   "html": "<strong>About</strong> Emergo Recovery",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.",
+   "html": "Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "",
+   "html": "",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Resort Setting",
+   "html": "Resort Setting",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Private Setting"
+  },
+  {
+   "type": "text",
+   "text": "Residential Setting"
+  },
+  {
+   "type": "text",
+   "text": "Lakeside"
+  },
+  {
+   "type": "text",
+   "text": "Acupuncture"
+  },
+  {
+   "type": "text",
+   "text": "Art Activities"
+  },
+  {
+   "type": "text",
+   "text": "Business Center"
+  },
+  {
+   "type": "text",
+   "text": "Gym"
+  },
+  {
+   "type": "text",
+   "text": "Outdoor Activities"
+  },
+  {
+   "type": "text",
+   "text": "Massage"
+  },
+  {
+   "type": "text",
+   "text": "Meditation"
+  },
+  {
+   "type": "text",
+   "text": "Music Therapy"
+  },
+  {
+   "type": "text",
+   "text": "Recreation Room"
+  },
+  {
+   "type": "text",
+   "text": "Private Transportation"
+  },
+  {
+   "type": "text",
+   "text": "Yoga Studio"
+  },
+  {
+   "type": "h4",
+   "text": "Admissions",
+   "html": "Admissions",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Programs for Women"
+  },
+  {
+   "type": "text",
+   "text": "Programs for Men"
+  },
+  {
+   "type": "text",
+   "text": "Adult Programs"
+  },
+  {
+   "type": "text",
+   "text": "Young Adult Programs"
+  },
+  {
+   "type": "h4",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Holistic Therapy",
+   "html": "Holistic Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Evidence-Based Practices",
+   "html": "Evidence-Based Practices",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Yoga & Meditation",
+   "html": "Yoga &amp; Meditation",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Individual Therapy & Counseling",
+   "html": "Individual Therapy &amp; Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Family Therapy & Counseling",
+   "html": "Family Therapy &amp; Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Group Therapy & Counseling",
+   "html": "Group Therapy &amp; Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Nutritional Counseling",
+   "html": "Nutritional Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Art & Nature Therapy",
+   "html": "Art &amp; Nature Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "(249) 877-8776",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(249) 877-8776\" itemprop=\"url\">(249) 877-8776</a>",
+   "links": [
+    {
+     "old": "tel:(249) 877-8776",
+     "text": "(249) 877-8776"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@emergorecovery.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@emergorecovery.com\" itemprop=\"url\">info@emergorecovery.com</a>",
+   "links": [
+    {
+     "old": "mailto:info@emergorecovery.com",
+     "text": "info@emergorecovery.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://emergorecovery.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://emergorecovery.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://emergorecovery.com/</a>",
+   "links": [
+    {
+     "old": "https://emergorecovery.com/",
+     "text": "https://emergorecovery.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "92 Caplan Ave #603, Barrie, ON L4N 0Z7, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    92 Caplan Ave #603, Barrie, ON L4N 0Z7, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Emergo Recovery",
+  "categories": [
+   "Ontario Rehabs"
+  ],
+  "reviews_count": "1",
+  "rating_stars_filled": 3,
+  "about_html": "<h3><strong>About</strong> Emergo Recovery</h3>\n<p>Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4></h4>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<div class=\"block\">\n<p>Resort Setting</p>\n</div>\n<div class=\"block\">\n<div class=\"text\">Private Setting</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Residential Setting</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Lakeside</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Acupuncture</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Art Activities</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Business Center</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Gym</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Outdoor Activities</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Massage</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Meditation</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Music Therapy</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Recreation Room</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Private Transportation</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Yoga Studio</div>\n</div>\n<h4 class=\"subtitle\">Admissions</h4>\n<div class=\"row section-content\">\n<div class=\"data-container title-only\">\n<div class=\"block\">\n<div class=\"text\">Programs for Women</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Programs for Men</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Adult Programs</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Young Adult Programs</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<h4>Therapies</h4>\n<p>Holistic Therapy</p>\n<p>Evidence-Based Practices</p>\n<p>Yoga &amp; Meditation</p>\n<p>Individual Therapy &amp; Counseling</p>\n<p>Family Therapy &amp; Counseling</p>\n<p>Group Therapy &amp; Counseling</p>\n<p>Nutritional Counseling</p>\n<p>Art &amp; Nature Therapy</p>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(249) 877-8776",
+  "email": "info@emergorecovery.com",
+  "website": "https://emergorecovery.com/",
+  "address": "92 Caplan Ave #603, Barrie, ON L4N 0Z7, Canada",
+  "social": {},
+  "gallery": [],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "about_blocks": [
+   {
+    "type": "h3",
+    "text": "About Emergo Recovery",
+    "html": "<strong>About</strong> Emergo Recovery",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.",
+    "html": "Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h4",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Holistic Therapy",
+    "html": "Holistic Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Evidence-Based Practices",
+    "html": "Evidence-Based Practices",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Yoga & Meditation",
+    "html": "Yoga &amp; Meditation",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Individual Therapy & Counseling",
+    "html": "Individual Therapy &amp; Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Family Therapy & Counseling",
+    "html": "Family Therapy &amp; Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Group Therapy & Counseling",
+    "html": "Group Therapy &amp; Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Nutritional Counseling",
+    "html": "Nutritional Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Art & Nature Therapy",
+    "html": "Art &amp; Nature Therapy",
+    "links": [],
+    "images": []
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [
+   {
+    "heading": "Amenities",
+    "items": [
+     "Resort Setting",
+     "Private Setting",
+     "Residential Setting",
+     "Lakeside",
+     "Acupuncture",
+     "Art Activities",
+     "Business Center",
+     "Gym",
+     "Outdoor Activities",
+     "Massage",
+     "Meditation",
+     "Music Therapy",
+     "Recreation Room",
+     "Private Transportation",
+     "Yoga Studio"
+    ],
+    "text": ""
+   },
+   {
+    "heading": "Admissions",
+    "items": [
+     "Programs for Women",
+     "Programs for Men",
+     "Adult Programs",
+     "Young Adult Programs"
+    ],
+    "text": ""
+   }
+  ],
+  "info_items": [],
+  "phone_text": "(249) 877-8776",
+  "phone_href": "tel:(249) 877-8776",
+  "website_text": "https://emergorecovery.com/",
+  "social_title": "",
+  "hours": {
+   "heading": "",
+   "rows": []
+  },
+  "tags": {
+   "heading": "",
+   "items": []
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<h3><strong>About</strong> Emergo Recovery</h3>\n<p>Emergo Recovery offers inpatient treatment for individuals with alcohol and/or substance addiction. The program includes individual counselling, group therapy, recreational therapy and more. Emergo Recovery is located at Barrie, Ontario.</p>\n<div class=\"specialAmenities\">\n<div class=\"specialties\">\n<h4></h4>\n</div>\n<div class=\"allamenities\">\n<h4>Amenities</h4>\n<div class=\"block\">\n<p>Resort Setting</p>\n</div>\n<div class=\"block\">\n<div class=\"text\">Private Setting</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Residential Setting</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Lakeside</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Acupuncture</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Art Activities</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Business Center</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Gym</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Outdoor Activities</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Massage</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Meditation</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Music Therapy</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Recreation Room</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Private Transportation</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Yoga Studio</div>\n</div>\n<h4 class=\"subtitle\">Admissions</h4>\n<div class=\"row section-content\">\n<div class=\"data-container title-only\">\n<div class=\"block\">\n<div class=\"text\">Programs for Women</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Programs for Men</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Adult Programs</div>\n</div>\n<div class=\"block\">\n<div class=\"text\">Young Adult Programs</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<h4>Therapies</h4>\n<p>Holistic Therapy</p>\n<p>Evidence-Based Practices</p>\n<p>Yoga &amp; Meditation</p>\n<p>Individual Therapy &amp; Counseling</p>\n<p>Family Therapy &amp; Counseling</p>\n<p>Group Therapy &amp; Counseling</p>\n<p>Nutritional Counseling</p>\n<p>Art &amp; Nature Therapy</p>\n</div>\n</div> </div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(249) 877-8776\" itemprop=\"url\">(249) 877-8776</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@emergorecovery.com\" itemprop=\"url\">info@emergorecovery.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://emergorecovery.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://emergorecovery.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    92 Caplan Ave #603, Barrie, ON L4N 0Z7, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

@@ -1,0 +1,746 @@
+{
+ "schema": "arc-content/1",
+ "slug": "opioids-addiction",
+ "status": "REMAINING",
+ "page_type": "drug",
+ "wp_type": "page",
+ "template": "Drug",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "D1-D6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/opioids-addiction/",
+  "path": "/opioids-addiction/",
+  "wp_items": [
+   {
+    "id": 10822,
+    "type": "page",
+    "title": "Opioids Addiction",
+    "date": "2022-02-02T16:23:58",
+    "modified": "2026-03-03T20:48:26",
+    "status": "publish",
+    "yoast_title": "Opioids Addiction Treatment | Opioids Rehab Centres Canada",
+    "words_rest": 527
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/opioids-addiction/",
+ "seo": {
+  "meta_title": "Opioids Addiction Treatment | Opioids Rehab Centres Canada",
+  "meta_description": "Learn about opioid addiction signs, treatment & support in Canada. Find help now and start your recovery journey with trusted rehab resources today!",
+  "canonical_source": "https://addictionrehabcenters.ca/opioids-addiction/",
+  "og": {
+   "title": "Opioids Addiction Treatment | Opioids Rehab Centres Canada",
+   "description": "Find the best Opioids rehab centre near you for Opioids addiction treatment. If you or someone you know is struggling with this addiction please call us today at 1-855-885-4747",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/opioids-addiction/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/opioids-addiction/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Opioids Addiction",
+      "datePublished": "2022-02-02T16:23:58+00:00",
+      "dateModified": "2026-03-03T20:48:26+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/opioids-addiction/"
+      },
+      "wordCount": 777,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/opioids-addiction/",
+      "url": "https://addictionrehabcenters.ca/opioids-addiction/",
+      "name": "Opioids Addiction Treatment | Opioids Rehab Centres Canada",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2022-02-02T16:23:58+00:00",
+      "dateModified": "2026-03-03T20:48:26+00:00",
+      "description": "Learn about opioid addiction signs, treatment & support in Canada. Find help now and start your recovery journey with trusted rehab resources today!",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/opioids-addiction/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/opioids-addiction/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/opioids-addiction/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Opioids Addiction"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Opioids Addiction",
+ "title_bar_h1": "Opioids Addiction",
+ "word_count": 477,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Opioids Addiction"
+  ],
+  [
+   "h2",
+   "What is Opioids?"
+  ],
+  [
+   "h2",
+   "Finding a Treatment for Opioid Addiction"
+  ]
+ ],
+ "images": [
+  {
+   "role": "row-background",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-banner.jpg",
+   "local_path": "images/opioids-addiction/opioids-addiction-banner.jpg",
+   "alt": "",
+   "width": 1400,
+   "height": 550,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction.jpg",
+   "local_path": "images/opioids-addiction/opioids-addiction.jpg",
+   "alt": "opioids addiction",
+   "width": 545,
+   "height": 353,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects.jpg",
+   "local_path": "images/opioids-addiction/opioids-addiction-effects.jpg",
+   "alt": "opioids addiction effects",
+   "width": 545,
+   "height": 387,
+   "download": "ok"
+  },
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment.jpg",
+   "local_path": "images/opioids-addiction/opioids-addiction-treatment.jpg",
+   "alt": "opioids addiction treatment",
+   "width": 567,
+   "height": 551,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/rehab/",
+   "text": "Find A Drug Rehab",
+   "kind": "source-redirect",
+   "new": "/",
+   "target_status": "redirected on source",
+   "note": "source 301s /rehab/ -> /"
+  },
+  {
+   "old_href": "/contact/",
+   "text": "Contact Us Today",
+   "kind": "internal",
+   "new": "/contact/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Addiction Rehab Centres Canada",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "1-855-885-4747",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Opioids Addiction",
+   "blocks": [],
+   "children": [
+    {
+     "level": 2,
+     "heading": "What is Opioids?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Opioid addiction comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.",
+       "html": "<strong>Opioid addiction</strong> comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction.jpg",
+       "alt": "opioids addiction",
+       "width": "545",
+       "height": "353"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects.jpg",
+       "alt": "opioids addiction effects",
+       "width": "545",
+       "height": "387"
+      },
+      {
+       "type": "p",
+       "text": "Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.",
+       "html": "Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.",
+       "html": "This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      },
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment.jpg",
+       "alt": "opioids addiction treatment",
+       "width": "567",
+       "height": "551"
+      },
+      {
+       "type": "p",
+       "text": "Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal",
+       "html": "Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Finding a Treatment for Opioid Addiction",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include Addiction Rehab Centres Canada. Find out more of the ways to treat opioid addiction the safe and effective way possible.",
+       "html": "The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a>. Find out more of the ways to treat opioid addiction the safe and effective way possible.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Opioids Addiction",
+   "html": "<strong>Opioids Addiction</strong>",
+   "id": ""
+  },
+  {
+   "type": "h2",
+   "text": "What is Opioids?",
+   "html": "<strong>What is Opioids?</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Opioid addiction comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.",
+   "html": "<strong>Opioid addiction</strong> comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction.jpg",
+   "alt": "opioids addiction",
+   "width": "545",
+   "height": "353"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects.jpg",
+   "alt": "opioids addiction effects",
+   "width": "545",
+   "height": "387"
+  },
+  {
+   "type": "p",
+   "text": "Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.",
+   "html": "Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.",
+   "html": "This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Find A Drug Rehab",
+   "href": "/rehab/",
+   "new_href": "/"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment.jpg",
+   "alt": "opioids addiction treatment",
+   "width": "567",
+   "height": "551"
+  },
+  {
+   "type": "p",
+   "text": "Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal",
+   "html": "Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Contact Us Today",
+   "href": "/contact/",
+   "new_href": "/contact/"
+  },
+  {
+   "type": "h2",
+   "text": "Finding a Treatment for Opioid Addiction",
+   "html": "<strong>Finding a Treatment for Opioid Addiction</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include Addiction Rehab Centres Canada. Find out more of the ways to treat opioid addiction the safe and effective way possible.",
+   "html": "The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a>. Find out more of the ways to treat opioid addiction the safe and effective way possible.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Addiction Rehab Centres Canada"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+   "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+   "links": [
+    {
+     "old": "tel:1-855-885-4747",
+     "text": "1-855-885-4747"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "rows": [
+  {
+   "kind": "hero-banner",
+   "classes": [
+    "newInnerBanner",
+    "vc_custom_1643908102882",
+    "vc_row-has-fill"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Opioids Addiction",
+       "html": "<strong>Opioids Addiction</strong>",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-banner.jpg?id=11101"
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12",
+      "innerContentIntro"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "What is Opioids?",
+       "html": "<strong>What is Opioids?</strong>",
+       "id": ""
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentLeft",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Opioid addiction comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.",
+       "html": "<strong>Opioid addiction</strong> comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRightImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction.jpg",
+       "alt": "opioids addiction",
+       "width": "545",
+       "height": "353"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "content",
+   "classes": [
+    "innerContent",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "innerContentLeftImg",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects.jpg",
+       "alt": "opioids addiction effects",
+       "width": "545",
+       "height": "387"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "innerContentRight",
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.",
+       "html": "Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.",
+       "html": "This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Find A Drug Rehab",
+       "href": "/rehab/",
+       "new_href": "/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "cta-banner",
+   "classes": [
+    "newHomeBanner",
+    "bottomHomeBanner",
+    "innerBottomBanner",
+    "vc_row-no-padding",
+    "vc_row-o-equal-height",
+    "vc_row-o-content-middle",
+    "vc_row-flex"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "image",
+       "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment.jpg",
+       "alt": "opioids addiction treatment",
+       "width": "567",
+       "height": "551"
+      }
+     ]
+    },
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-6"
+     ],
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal",
+       "html": "Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Contact Us Today",
+       "href": "/contact/",
+       "new_href": "/contact/"
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "help-block",
+   "classes": [
+    "innerBlueContent"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h2",
+       "text": "Finding a Treatment for Opioid Addiction",
+       "html": "<strong>Finding a Treatment for Opioid Addiction</strong>",
+       "id": ""
+      },
+      {
+       "type": "p",
+       "text": "The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include Addiction Rehab Centres Canada. Find out more of the ways to treat opioid addiction the safe and effective way possible.",
+       "html": "The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include <a data-wpel-link=\"internal\" href=\"/\"><strong>Addiction Rehab Centres Canada</strong></a>. Find out more of the ways to treat opioid addiction the safe and effective way possible.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Addiction Rehab Centres Canada"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Talk To One Of Our Specialists By Calling 1-855-885-4747",
+       "html": "Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a>",
+       "links": [
+        {
+         "old": "tel:1-855-885-4747",
+         "text": "1-855-885-4747"
+        }
+       ],
+       "images": []
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Opioids Addiction",
+  "background_image": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-banner.jpg?id=11101"
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"vc_row wpb_row vc_row-fluid newInnerBanner vc_custom_1643908102882 vc_row-has-fill\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1><strong>Opioids Addiction</strong></h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element innerContentIntro\">\n<div class=\"wpb_wrapper\">\n<h2><strong>What is Opioids?</strong></h2>\n</div>\n</div>\n</div></div></div><div class=\"innerContentLeft wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p><strong>Opioid addiction</strong> comes with many familiar stories and one of these is the story of a person who has almost everything in this life: a great career, loving family, money, etc. Then all of a sudden, an accident happened and this has put a very traumatic experience at the end of the person. Good thing is that the victim is going to make it and with the help of a medical expert, opioids are prescribed and given for his recuperation. As the body heals, opioid plays its role in relieving pain and this proves to be very wonderful for the patient. Unfortunately, the brain doesn’t always understand the infusion of opioid to the body and it suggests having more and more and more until the patient is already addicted to it.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div><div class=\"innerContentRightImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"opioids addiction\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"353\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-300x194.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerContent vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"innerContentLeftImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"opioids addiction effects\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"387\" loading=\"lazy\" sizes=\"(max-width: 545px) 100vw, 545px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects.jpg 545w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-effects-300x213.jpg 300w\" width=\"545\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"innerContentRight wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Opioid addiction happens when the body becomes immune to the drug, thereby creating an urge to get more of the drug to get the pain relief it needs. While this kind of drug is easily availed with a doctor’s prescription, a person who is addicted to it simply makes his way to deal with different doctors to get multiple prescriptions as a way to support his uncontrolled carvings.</p>\n<p>This is a phenomenon that clearly suggests an opioid addiction. On the other hand, the person who is taking more of the drug is not realizing that while his pain is relieved by the drug, he is also putting himself in the pit of addiction where different kinds of consequences simply await. Basically, this a common story about opioid addiction that could happen to anyone including you.</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"/rehab/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Find A Drug Rehab</span>\n<svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid newHomeBanner bottomHomeBanner innerBottomBanner vc_row-no-padding vc_row-o-equal-height vc_row-o-content-middle vc_row-flex\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\" data-vc-stretch-content=\"true\"><div class=\"homeImg wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_single_image wpb_content_element vc_align_center\">\n<figure class=\"wpb_wrapper vc_figure\">\n<div class=\"vc_single_image-wrapper vc_box_border_grey\"><img alt=\"opioids addiction treatment\" class=\"vc_single_image-img attachment-full\" decoding=\"async\" height=\"551\" loading=\"lazy\" sizes=\"(max-width: 567px) 100vw, 567px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment.jpg 567w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/opioids-addiction-treatment-300x292.jpg 300w\" width=\"567\"/></div>\n</figure>\n</div>\n</div></div></div><div class=\"newHomeBannerContent wpb_column vc_column_container vc_col-sm-6\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<p>Opioid addiction is real and once you are hooked to it, it would be very difficult to get off of it especially when you do it on your own. This is why you need the guidance of a professional in the treatment of your addiction so that you can have your brain re-trained especially in making it understand that your body does not need opioid in order to survive. With a professional, you will also get the assistance you need especially when you are already dealing with all the different kinds of symptoms that follows after your withdrawal</p>\n</div>\n</div>\n<a class=\"eltdf-btn eltdf-btn-medium eltdf-btn-solid bannerBtn\" data-wpel-link=\"internal\" href=\"/contact/\" itemprop=\"url\" target=\"_self\">\n<span class=\"eltdf-btn-text\">Contact Us Today</span>\n</a></div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerBlueContent\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h2><strong>Finding a Treatment for Opioid Addiction</strong></h2>\n<p>The consequences of opioid addiction and incorrect intakes of the drug commonly lead to various kinds of health problems, not to mention death. The body usually develops tolerance for the drug that leads to a much higher dosage, and thereby causing negative effects in the process. Canada comes with many places where different kinds of addictions are treated and these include <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\"><strong>Addiction Rehab Centres Canada</strong></a>. Find out more of the ways to treat opioid addiction the safe and effective way possible.</p>\n</div>\n</div>\n<div class=\"wpb_text_column wpb_content_element callSpecialist\">\n<div class=\"wpb_wrapper\">\n<p>Talk To One Of Our Specialists By Calling <a class=\"inner-footer-call\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\">1-855-885-4747</a></p>\n</div>\n</div>\n</div></div></div></div>\n</div></body>"
+}

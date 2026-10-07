@@ -1,0 +1,1568 @@
+{
+ "schema": "arc-content/1",
+ "slug": "newfoundland-and-labrador-rehabs",
+ "status": "REMAINING",
+ "page_type": "province",
+ "wp_type": "page",
+ "template": "Province",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "P1-P5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/",
+  "path": "/newfoundland-and-labrador-rehabs/",
+  "wp_items": [
+   {
+    "id": 8265,
+    "type": "page",
+    "title": "Newfoundland and Labrador Rehabs",
+    "date": "2021-11-23T17:35:54",
+    "modified": "2026-03-28T14:49:54",
+    "status": "publish",
+    "yoast_title": "28 Best Rehab Centres in Newfoundland And Labrador",
+    "words_rest": 749
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": true,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/newfoundland-and-labrador-rehabs/",
+ "seo": {
+  "meta_title": "28 Best Rehab Centres in Newfoundland And Labrador",
+  "meta_description": "Browse the 28 Best Rehab Centres in Newfoundland And Labrador with locations. Call 1-855-885-4747 to get in contact with Newfoundland And Labrador Rehab Centres.",
+  "canonical_source": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/",
+  "og": {
+   "title": "28 Best Rehab Centres in Newfoundland And Labrador",
+   "description": "Browse the 28 Best Rehab Centres in Newfoundland And Labrador with locations. Call 1-855-885-4747 to get in contact with Newfoundland And Labrador Rehab Centres.",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": [
+       "Article",
+       "BlogPosting"
+      ],
+      "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/"
+      },
+      "author": {
+       "name": "Addiction Rehab Centre",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be"
+      },
+      "headline": "Newfoundland and Labrador Rehabs",
+      "datePublished": "2021-11-23T17:35:54+00:00",
+      "dateModified": "2026-03-28T14:49:54+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/"
+      },
+      "wordCount": 72,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/",
+      "url": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/",
+      "name": "28 Best Rehab Centres in Newfoundland And Labrador",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "datePublished": "2021-11-23T17:35:54+00:00",
+      "dateModified": "2026-03-28T14:49:54+00:00",
+      "description": "Browse the 28 Best Rehab Centres in Newfoundland And Labrador with locations. Call 1-855-885-4747 to get in contact with Newfoundland And Labrador Rehab Centres.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Newfoundland and Labrador Rehabs"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e2c38ca6f7164e75ada6f27b48e204be",
+      "name": "Addiction Rehab Centre",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/baf99c8b7f658a29704c4e21807deaf1eb577b39380cd3b81919c1726f05dc42?s=96&d=mm&r=g",
+       "caption": "Addiction Rehab Centre"
+      }
+     }
+    ]
+   },
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/#webpage",
+      "url": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/",
+      "name": "Newfoundland and Labrador Rehabs | Best Rehab Centres in Newfoundland and Labrador",
+      "description": "Explore the top addiction and rehab centres in Newfoundland and Labrador for drug rehab, alcohol rehab, and recovery support programs.",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      }
+     },
+     {
+      "@type": "ItemList",
+      "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/#rehablist",
+      "name": "Addiction Treatment Centres in Newfoundland and Labrador",
+      "itemListOrder": "https://schema.org/ItemListUnordered",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://addictionrehabcenters.ca/newfoundland-addiction-services/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://addictionrehabcenters.ca/st-claire-addiction-treatment-centre/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://addictionrehabcenters.ca/labrador-health-centre-addiction-program/"
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Newfoundland and Labrador Rehabs",
+        "item": "https://addictionrehabcenters.ca/newfoundland-and-labrador-rehabs/"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Newfoundland and Labrador Rehabs",
+ "title_bar_h1": "Newfoundland and Labrador Rehabs",
+ "word_count": 6,
+ "features": [
+  "listing-cards:24"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Newfoundland and Labrador Rehabs"
+  ],
+  [
+   "h5",
+   "Peguis Al-Care Treatment Centre"
+  ],
+  [
+   "h5",
+   "Labrador Health Centre"
+  ],
+  [
+   "h5",
+   "Charles J. Andrew Youth Treatment Centre"
+  ],
+  [
+   "h5",
+   "H Khalili And Associates"
+  ],
+  [
+   "h5",
+   "Emmanuel House"
+  ],
+  [
+   "h5",
+   "Canadian Mental Health Associaton"
+  ],
+  [
+   "h5",
+   "Portage Newfoundland And Labrador"
+  ],
+  [
+   "h5",
+   "Atlantic Counselling Services"
+  ],
+  [
+   "h5",
+   "Neville’S Counselling"
+  ],
+  [
+   "h5",
+   "Aspen & Oaks Counselling Services And Solutions"
+  ],
+  [
+   "h5",
+   "Newfound Hope Counselling Centre"
+  ],
+  [
+   "h5",
+   "Bonne Bay Health Centre"
+  ],
+  [
+   "h5",
+   "Hope Valley"
+  ],
+  [
+   "h5",
+   "West Bridge House"
+  ],
+  [
+   "h5",
+   "Le Marchant House"
+  ],
+  [
+   "h5",
+   "Howard House"
+  ],
+  [
+   "h5",
+   "U – Turn"
+  ],
+  [
+   "h5",
+   "Denise Sargeant Therapy Services"
+  ],
+  [
+   "h5",
+   "Recovery Centre"
+  ],
+  [
+   "h5",
+   "Pleasant Manor"
+  ],
+  [
+   "h5",
+   "Alcoholics Anonymous – St John’S Inter Group"
+  ],
+  [
+   "h5",
+   "Mb Counselling Services"
+  ],
+  [
+   "h5",
+   "Innu Uauitshitun Alcohol And Drug Treatment"
+  ],
+  [
+   "h5",
+   "Channal"
+  ]
+ ],
+ "images": [],
+ "links": [
+  {
+   "old_href": "",
+   "text": "Load More",
+   "kind": "empty",
+   "new": ""
+  }
+ ],
+ "sections": [
+  {
+   "level": 1,
+   "heading": "Newfoundland and Labrador Rehabs",
+   "blocks": [
+    {
+     "type": "cards",
+     "hrefs": [
+      "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+      "https://addictionrehabcenters.ca/labrador-health-centre/",
+      "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+      "https://addictionrehabcenters.ca/h-khalili-and-associates/",
+      "https://addictionrehabcenters.ca/emmanuel-house/",
+      "https://addictionrehabcenters.ca/canadian-mental-health-associaton/",
+      "https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/",
+      "https://addictionrehabcenters.ca/atlantic-counselling-services/",
+      "https://addictionrehabcenters.ca/nevilles-counselling/",
+      "https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/",
+      "https://addictionrehabcenters.ca/newfound-hope-counselling-centre/",
+      "https://addictionrehabcenters.ca/bonne-bay-health-centre/",
+      "https://addictionrehabcenters.ca/search-listing/hope-valley/",
+      "https://addictionrehabcenters.ca/west-bridge-house/",
+      "https://addictionrehabcenters.ca/search-listing/le-marchant-house/",
+      "https://addictionrehabcenters.ca/howard-house/",
+      "https://addictionrehabcenters.ca/u-turn/",
+      "https://addictionrehabcenters.ca/denise-sargeant-therapy-services/",
+      "https://addictionrehabcenters.ca/recovery-centre/",
+      "https://addictionrehabcenters.ca/pleasant-manor/",
+      "https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/",
+      "https://addictionrehabcenters.ca/mb-counselling-services/",
+      "https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/",
+      "https://addictionrehabcenters.ca/channal/"
+     ]
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h1",
+   "text": "Newfoundland and Labrador Rehabs",
+   "html": "Newfoundland and Labrador Rehabs",
+   "id": ""
+  },
+  {
+   "type": "cards",
+   "hrefs": [
+    "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+    "https://addictionrehabcenters.ca/labrador-health-centre/",
+    "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+    "https://addictionrehabcenters.ca/h-khalili-and-associates/",
+    "https://addictionrehabcenters.ca/emmanuel-house/",
+    "https://addictionrehabcenters.ca/canadian-mental-health-associaton/",
+    "https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/",
+    "https://addictionrehabcenters.ca/atlantic-counselling-services/",
+    "https://addictionrehabcenters.ca/nevilles-counselling/",
+    "https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/",
+    "https://addictionrehabcenters.ca/newfound-hope-counselling-centre/",
+    "https://addictionrehabcenters.ca/bonne-bay-health-centre/",
+    "https://addictionrehabcenters.ca/search-listing/hope-valley/",
+    "https://addictionrehabcenters.ca/west-bridge-house/",
+    "https://addictionrehabcenters.ca/search-listing/le-marchant-house/",
+    "https://addictionrehabcenters.ca/howard-house/",
+    "https://addictionrehabcenters.ca/u-turn/",
+    "https://addictionrehabcenters.ca/denise-sargeant-therapy-services/",
+    "https://addictionrehabcenters.ca/recovery-centre/",
+    "https://addictionrehabcenters.ca/pleasant-manor/",
+    "https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/",
+    "https://addictionrehabcenters.ca/mb-counselling-services/",
+    "https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/",
+    "https://addictionrehabcenters.ca/channal/"
+   ]
+  }
+ ],
+ "rows": [
+  {
+   "kind": "listing-banner",
+   "classes": [
+    "innerBanner"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "h1",
+       "text": "Newfoundland and Labrador Rehabs",
+       "html": "Newfoundland and Labrador Rehabs",
+       "id": ""
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  },
+  {
+   "kind": "listing",
+   "classes": [
+    "innerListingBox"
+   ],
+   "columns": [
+    {
+     "classes": [
+      "vc_column_container",
+      "vc_col-sm-12"
+     ],
+     "blocks": [
+      {
+       "type": "cards",
+       "hrefs": [
+        "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+        "https://addictionrehabcenters.ca/labrador-health-centre/",
+        "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+        "https://addictionrehabcenters.ca/h-khalili-and-associates/",
+        "https://addictionrehabcenters.ca/emmanuel-house/",
+        "https://addictionrehabcenters.ca/canadian-mental-health-associaton/",
+        "https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/",
+        "https://addictionrehabcenters.ca/atlantic-counselling-services/",
+        "https://addictionrehabcenters.ca/nevilles-counselling/",
+        "https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/",
+        "https://addictionrehabcenters.ca/newfound-hope-counselling-centre/",
+        "https://addictionrehabcenters.ca/bonne-bay-health-centre/",
+        "https://addictionrehabcenters.ca/search-listing/hope-valley/",
+        "https://addictionrehabcenters.ca/west-bridge-house/",
+        "https://addictionrehabcenters.ca/search-listing/le-marchant-house/",
+        "https://addictionrehabcenters.ca/howard-house/",
+        "https://addictionrehabcenters.ca/u-turn/",
+        "https://addictionrehabcenters.ca/denise-sargeant-therapy-services/",
+        "https://addictionrehabcenters.ca/recovery-centre/",
+        "https://addictionrehabcenters.ca/pleasant-manor/",
+        "https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/",
+        "https://addictionrehabcenters.ca/mb-counselling-services/",
+        "https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/",
+        "https://addictionrehabcenters.ca/channal/"
+       ]
+      }
+     ]
+    }
+   ],
+   "background_image": ""
+  }
+ ],
+ "hero": {
+  "h1": "Newfoundland and Labrador Rehabs",
+  "background_image": ""
+ },
+ "cards": [
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+   "address": "Peguis, MB R0C, Canada",
+   "excerpt": "Peguis Al-Care Treatment Centre is a 20-bed",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg",
+    "alt": "peguis",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/labrador-health-centre/",
+   "address": "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+   "excerpt": "Labrador Health Center offers intake/screeni",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health.jpg",
+    "alt": "labrador health",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+   "address": "North West River, NL, Canada",
+   "excerpt": "In response to the crisis of gas-sniffing an",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg",
+    "alt": "charles",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/h-khalili-and-associates/",
+   "address": "391 Empire Ave #4, St. John's, NL A1E 1W6, Canada",
+   "excerpt": "H Khalili and Associates is a private rehab",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/emmanuel-house/",
+   "address": "83 Cochrane St, St. John's, NL A1C 3L7, Canada",
+   "excerpt": "The Emmanuel House provides men with overnig",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1.jpg",
+    "alt": "emmanuel house 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/canadian-mental-health-associaton/",
+   "address": "70 The Blvd, St. John's, NL A1A 1K2, Canada",
+   "excerpt": "In St. John's, Newfoundland and Labrador lie",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton.jpg",
+    "alt": "canadian mental health associaton",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/",
+   "address": "21 James Ln, St. John's, NL A1E 3H3, Canada",
+   "excerpt": "Portage Newfoundland and Labrador is a non-p",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland.jpg",
+    "alt": "portage newfoundland",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/atlantic-counselling-services/",
+   "address": "48 St Thomas Line, Paradise, NL A1L 2L6, Canada",
+   "excerpt": "Atlantic Counselling Services is a private r",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services.jpg",
+    "alt": "atlantic counselling services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/nevilles-counselling/",
+   "address": "17 Topsail Heights, Conception Bay South, NL A1W 5S6, Canada",
+   "excerpt": "Neville's Counselling is a private rehab tha",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/",
+   "address": "23 Cashin Ave, St. John's, NL A1E 3A9, Canada",
+   "excerpt": "Aspen and Oaks Counselling Services and Solu",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling.jpg",
+    "alt": "aspen and oaks counselling",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/newfound-hope-counselling-centre/",
+   "address": "28 Castors Dr, Mount Pearl, NL A1N 4Y7, Canada",
+   "excerpt": "The Newfound Hope Counselling Centre is a pr",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1.jpg",
+    "alt": "newfound hope counselling 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/bonne-bay-health-centre/",
+   "address": "212 Main St, Norris Point, NL A0K 3V0, Canada",
+   "excerpt": "Bonne Bay Health Centre is a Newfoundland an",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay.jpg",
+    "alt": "bonne bay",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/search-listing/hope-valley/",
+   "address": "50 Union Street, Grand Falls-Windsor, Newfoundland and Labrador",
+   "excerpt": "Hope Valley is a charitable rehabilitation f",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/west-bridge-house/",
+   "address": "92 West St, Stephenville, NL A2N 1E6, Canada",
+   "excerpt": "West Bridge House is a non-profit rehabilita",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1.jpg",
+    "alt": "west bridge 1",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/search-listing/le-marchant-house/",
+   "address": "192 Lemarchant Rd, St. John's, Newfoundland and Labrador",
+   "excerpt": "Le Marchant House is a non-profit rehabilita",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/howard-house/",
+   "address": "7 Garrison Hill, St. John's, NL A1C 3Y7, Canada",
+   "excerpt": "Howard House is a non-profit rehabilitation",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house.jpg",
+    "alt": "howard house",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/u-turn/",
+   "address": "46 Powell Dr, Carbonear, NL A1Y 1A5, Canada",
+   "excerpt": "U-Turn is a non-profit rehabilitation center",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn.jpg",
+    "alt": "u-turn",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/denise-sargeant-therapy-services/",
+   "address": "148 Marine Dr, Torbay, NL A1K 1G1, Canada",
+   "excerpt": "Denise Sargeant Therapy Services is a privat",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/recovery-centre/",
+   "address": "532 Charter Ave, St. John's, NL A1A 1P8, Canada",
+   "excerpt": "St. John's, Newfoundland and Labrador's Reco",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre.jpg",
+    "alt": "recovery centre",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/pleasant-manor/",
+   "address": "44 Bennett Ave, St. John's, NL A1E 2Y6, Canada",
+   "excerpt": "Pleasant Manor is a non-profit drug and alco",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor.jpg",
+    "alt": "pleasant manor",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/",
+   "address": "183 Kenmount Rd #117, St. John's, NL A1B 3P9, Canada",
+   "excerpt": "The St. John's Inter Group of Alcoholics Ano",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous.jpg",
+    "alt": "alcoholics anonymous",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/mb-counselling-services/",
+   "address": "49 Elizabeth Ave, St. John's, NL A1A 1W9, Canada",
+   "excerpt": "St. John's, Newfoundland and Labrador-based",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/",
+   "address": "North West River Beach, North West River, NL A0P 1M0, Canada",
+   "excerpt": "North West River, Newfoundland and Labrador-",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  },
+  {
+   "name": "",
+   "href": "https://addictionrehabcenters.ca/channal/",
+   "address": "284 Lemarchant Rd, St. John's, NL A1E 1R2, Canada",
+   "excerpt": "Channal is a non-profit drug and alcohol reh",
+   "category": "Newfoundland and Labrador Rehabs",
+   "reviews": "0",
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg",
+    "alt": "Clsc Alberta Health Services",
+    "width": "1000",
+    "height": "667"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "",
+    "peguis-al-care-treatment-centre",
+    "Peguis, MB R0C, Canada",
+    "Peguis Al-Care Treatment Centre is a 20-bed",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "labrador-health-centre",
+    "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+    "Labrador Health Center offers intake/screeni",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "charles-j-andrew-youth-treatment-centre",
+    "North West River, NL, Canada",
+    "In response to the crisis of gas-sniffing an",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "h-khalili-and-associates",
+    "391 Empire Ave #4, St. John's, NL A1E 1W6, Canada",
+    "H Khalili and Associates is a private rehab",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "emmanuel-house",
+    "83 Cochrane St, St. John's, NL A1C 3L7, Canada",
+    "The Emmanuel House provides men with overnig",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "canadian-mental-health-associaton",
+    "70 The Blvd, St. John's, NL A1A 1K2, Canada",
+    "In St. John's, Newfoundland and Labrador lie",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "portage-newfoundland-and-labrador",
+    "21 James Ln, St. John's, NL A1E 3H3, Canada",
+    "Portage Newfoundland and Labrador is a non-p",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "atlantic-counselling-services",
+    "48 St Thomas Line, Paradise, NL A1L 2L6, Canada",
+    "Atlantic Counselling Services is a private r",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "nevilles-counselling",
+    "17 Topsail Heights, Conception Bay South, NL A1W 5S6, Canada",
+    "Neville's Counselling is a private rehab tha",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "aspen-and-oaks-counselling-services-and-solutions",
+    "23 Cashin Ave, St. John's, NL A1E 3A9, Canada",
+    "Aspen and Oaks Counselling Services and Solu",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "newfound-hope-counselling-centre",
+    "28 Castors Dr, Mount Pearl, NL A1N 4Y7, Canada",
+    "The Newfound Hope Counselling Centre is a pr",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "bonne-bay-health-centre",
+    "212 Main St, Norris Point, NL A0K 3V0, Canada",
+    "Bonne Bay Health Centre is a Newfoundland an",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "search-listing/hope-valley",
+    "50 Union Street, Grand Falls-Windsor, Newfoundland and Labrador",
+    "Hope Valley is a charitable rehabilitation f",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "west-bridge-house",
+    "92 West St, Stephenville, NL A2N 1E6, Canada",
+    "West Bridge House is a non-profit rehabilita",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "search-listing/le-marchant-house",
+    "192 Lemarchant Rd, St. John's, Newfoundland and Labrador",
+    "Le Marchant House is a non-profit rehabilita",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "howard-house",
+    "7 Garrison Hill, St. John's, NL A1C 3Y7, Canada",
+    "Howard House is a non-profit rehabilitation",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "u-turn",
+    "46 Powell Dr, Carbonear, NL A1Y 1A5, Canada",
+    "U-Turn is a non-profit rehabilitation center",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "denise-sargeant-therapy-services",
+    "148 Marine Dr, Torbay, NL A1K 1G1, Canada",
+    "Denise Sargeant Therapy Services is a privat",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "recovery-centre",
+    "532 Charter Ave, St. John's, NL A1A 1P8, Canada",
+    "St. John's, Newfoundland and Labrador's Reco",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "pleasant-manor",
+    "44 Bennett Ave, St. John's, NL A1E 2Y6, Canada",
+    "Pleasant Manor is a non-profit drug and alco",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "alcoholics-anonymous-st-johns-inter-group",
+    "183 Kenmount Rd #117, St. John's, NL A1B 3P9, Canada",
+    "The St. John's Inter Group of Alcoholics Ano",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "mb-counselling-services",
+    "49 Elizabeth Ave, St. John's, NL A1A 1W9, Canada",
+    "St. John's, Newfoundland and Labrador-based",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "innu-uauitshitun-alcohol-and-drug-treatment",
+    "North West River Beach, North West River, NL A0P 1M0, Canada",
+    "North West River, Newfoundland and Labrador-",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ],
+   [
+    "",
+    "channal",
+    "284 Lemarchant Rd, St. John's, NL A1E 1R2, Canada",
+    "Channal is a non-profit drug and alcohol reh",
+    "0",
+    0,
+    "",
+    [
+     "Newfoundland and Labrador Rehabs"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "listing": {
+  "cards": [
+   {
+    "name": "Peguis Al-Care Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/",
+    "slug": "peguis-al-care-treatment-centre",
+    "address": "Peguis, MB R0C, Canada",
+    "excerpt": "Peguis Al-Care Treatment Centre is a 20-bed",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/peguis-al-care-treatment-centre/peguis.jpg",
+     "alt": "peguis",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg"
+    }
+   },
+   {
+    "name": "Labrador Health Centre",
+    "href": "https://addictionrehabcenters.ca/labrador-health-centre/",
+    "slug": "labrador-health-centre",
+    "address": "227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada",
+    "excerpt": "Labrador Health Center offers intake/screeni",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/labrador-health-centre/labrador-health.jpg",
+     "alt": "labrador health",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health.jpg"
+    }
+   },
+   {
+    "name": "Charles J. Andrew Youth Treatment Centre",
+    "href": "https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/",
+    "slug": "charles-j-andrew-youth-treatment-centre",
+    "address": "North West River, NL, Canada",
+    "excerpt": "In response to the crisis of gas-sniffing an",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/charles-j-andrew-youth-treatment-centre/charles.jpg",
+     "alt": "charles",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg"
+    }
+   },
+   {
+    "name": "H Khalili And Associates",
+    "href": "https://addictionrehabcenters.ca/h-khalili-and-associates/",
+    "slug": "h-khalili-and-associates",
+    "address": "391 Empire Ave #4, St. John's, NL A1E 1W6, Canada",
+    "excerpt": "H Khalili and Associates is a private rehab",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/h-khalili-and-associates/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Emmanuel House",
+    "href": "https://addictionrehabcenters.ca/emmanuel-house/",
+    "slug": "emmanuel-house",
+    "address": "83 Cochrane St, St. John's, NL A1C 3L7, Canada",
+    "excerpt": "The Emmanuel House provides men with overnig",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/emmanuel-house/emmanuel-house-1.jpg",
+     "alt": "emmanuel house 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1.jpg"
+    }
+   },
+   {
+    "name": "Canadian Mental Health Associaton",
+    "href": "https://addictionrehabcenters.ca/canadian-mental-health-associaton/",
+    "slug": "canadian-mental-health-associaton",
+    "address": "70 The Blvd, St. John's, NL A1A 1K2, Canada",
+    "excerpt": "In St. John's, Newfoundland and Labrador lie",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/canadian-mental-health-associaton/canadian-mental-health-associaton.jpg",
+     "alt": "canadian mental health associaton",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton.jpg"
+    }
+   },
+   {
+    "name": "Portage Newfoundland And Labrador",
+    "href": "https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/",
+    "slug": "portage-newfoundland-and-labrador",
+    "address": "21 James Ln, St. John's, NL A1E 3H3, Canada",
+    "excerpt": "Portage Newfoundland and Labrador is a non-p",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/portage-newfoundland-and-labrador/portage-newfoundland.jpg",
+     "alt": "portage newfoundland",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland.jpg"
+    }
+   },
+   {
+    "name": "Atlantic Counselling Services",
+    "href": "https://addictionrehabcenters.ca/atlantic-counselling-services/",
+    "slug": "atlantic-counselling-services",
+    "address": "48 St Thomas Line, Paradise, NL A1L 2L6, Canada",
+    "excerpt": "Atlantic Counselling Services is a private r",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/atlantic-counselling-services/atlantic-counselling-services.jpg",
+     "alt": "atlantic counselling services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services.jpg"
+    }
+   },
+   {
+    "name": "Neville’S Counselling",
+    "href": "https://addictionrehabcenters.ca/nevilles-counselling/",
+    "slug": "nevilles-counselling",
+    "address": "17 Topsail Heights, Conception Bay South, NL A1W 5S6, Canada",
+    "excerpt": "Neville's Counselling is a private rehab tha",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/nevilles-counselling/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Aspen & Oaks Counselling Services And Solutions",
+    "href": "https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/",
+    "slug": "aspen-and-oaks-counselling-services-and-solutions",
+    "address": "23 Cashin Ave, St. John's, NL A1E 3A9, Canada",
+    "excerpt": "Aspen and Oaks Counselling Services and Solu",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/aspen-and-oaks-counselling-services-and-solutions/aspen-and-oaks-counselling.jpg",
+     "alt": "aspen and oaks counselling",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling.jpg"
+    }
+   },
+   {
+    "name": "Newfound Hope Counselling Centre",
+    "href": "https://addictionrehabcenters.ca/newfound-hope-counselling-centre/",
+    "slug": "newfound-hope-counselling-centre",
+    "address": "28 Castors Dr, Mount Pearl, NL A1N 4Y7, Canada",
+    "excerpt": "The Newfound Hope Counselling Centre is a pr",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/newfound-hope-counselling-centre/newfound-hope-counselling-1.jpg",
+     "alt": "newfound hope counselling 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1.jpg"
+    }
+   },
+   {
+    "name": "Bonne Bay Health Centre",
+    "href": "https://addictionrehabcenters.ca/bonne-bay-health-centre/",
+    "slug": "bonne-bay-health-centre",
+    "address": "212 Main St, Norris Point, NL A0K 3V0, Canada",
+    "excerpt": "Bonne Bay Health Centre is a Newfoundland an",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/bonne-bay-health-centre/bonne-bay.jpg",
+     "alt": "bonne bay",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay.jpg"
+    }
+   },
+   {
+    "name": "Hope Valley",
+    "href": "https://addictionrehabcenters.ca/search-listing/hope-valley/",
+    "slug": "hope-valley",
+    "address": "50 Union Street, Grand Falls-Windsor, Newfoundland and Labrador",
+    "excerpt": "Hope Valley is a charitable rehabilitation f",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/hope-valley/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "West Bridge House",
+    "href": "https://addictionrehabcenters.ca/west-bridge-house/",
+    "slug": "west-bridge-house",
+    "address": "92 West St, Stephenville, NL A2N 1E6, Canada",
+    "excerpt": "West Bridge House is a non-profit rehabilita",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/west-bridge-house/west-bridge-1.jpg",
+     "alt": "west bridge 1",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1.jpg"
+    }
+   },
+   {
+    "name": "Le Marchant House",
+    "href": "https://addictionrehabcenters.ca/search-listing/le-marchant-house/",
+    "slug": "le-marchant-house",
+    "address": "192 Lemarchant Rd, St. John's, Newfoundland and Labrador",
+    "excerpt": "Le Marchant House is a non-profit rehabilita",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/le-marchant-house/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Howard House",
+    "href": "https://addictionrehabcenters.ca/howard-house/",
+    "slug": "howard-house",
+    "address": "7 Garrison Hill, St. John's, NL A1C 3Y7, Canada",
+    "excerpt": "Howard House is a non-profit rehabilitation",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/howard-house/howard-house.jpg",
+     "alt": "howard house",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house.jpg"
+    }
+   },
+   {
+    "name": "U – Turn",
+    "href": "https://addictionrehabcenters.ca/u-turn/",
+    "slug": "u-turn",
+    "address": "46 Powell Dr, Carbonear, NL A1Y 1A5, Canada",
+    "excerpt": "U-Turn is a non-profit rehabilitation center",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/u-turn/u-turn.jpg",
+     "alt": "u-turn",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn.jpg"
+    }
+   },
+   {
+    "name": "Denise Sargeant Therapy Services",
+    "href": "https://addictionrehabcenters.ca/denise-sargeant-therapy-services/",
+    "slug": "denise-sargeant-therapy-services",
+    "address": "148 Marine Dr, Torbay, NL A1K 1G1, Canada",
+    "excerpt": "Denise Sargeant Therapy Services is a privat",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/denise-sargeant-therapy-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Recovery Centre",
+    "href": "https://addictionrehabcenters.ca/recovery-centre/",
+    "slug": "recovery-centre",
+    "address": "532 Charter Ave, St. John's, NL A1A 1P8, Canada",
+    "excerpt": "St. John's, Newfoundland and Labrador's Reco",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/recovery-centre/recovery-centre.jpg",
+     "alt": "recovery centre",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre.jpg"
+    }
+   },
+   {
+    "name": "Pleasant Manor",
+    "href": "https://addictionrehabcenters.ca/pleasant-manor/",
+    "slug": "pleasant-manor",
+    "address": "44 Bennett Ave, St. John's, NL A1E 2Y6, Canada",
+    "excerpt": "Pleasant Manor is a non-profit drug and alco",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/pleasant-manor/pleasant-manor.jpg",
+     "alt": "pleasant manor",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor.jpg"
+    }
+   },
+   {
+    "name": "Alcoholics Anonymous – St John’S Inter Group",
+    "href": "https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/",
+    "slug": "alcoholics-anonymous-st-johns-inter-group",
+    "address": "183 Kenmount Rd #117, St. John's, NL A1B 3P9, Canada",
+    "excerpt": "The St. John's Inter Group of Alcoholics Ano",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/alcoholics-anonymous-st-johns-inter-group/alcoholics-anonymous.jpg",
+     "alt": "alcoholics anonymous",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous.jpg"
+    }
+   },
+   {
+    "name": "Mb Counselling Services",
+    "href": "https://addictionrehabcenters.ca/mb-counselling-services/",
+    "slug": "mb-counselling-services",
+    "address": "49 Elizabeth Ave, St. John's, NL A1A 1W9, Canada",
+    "excerpt": "St. John's, Newfoundland and Labrador-based",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/mb-counselling-services/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Innu Uauitshitun Alcohol And Drug Treatment",
+    "href": "https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/",
+    "slug": "innu-uauitshitun-alcohol-and-drug-treatment",
+    "address": "North West River Beach, North West River, NL A0P 1M0, Canada",
+    "excerpt": "North West River, Newfoundland and Labrador-",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/innu-uauitshitun-alcohol-and-drug-treatment/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   },
+   {
+    "name": "Channal",
+    "href": "https://addictionrehabcenters.ca/channal/",
+    "slug": "channal",
+    "address": "284 Lemarchant Rd, St. John's, NL A1E 1R2, Canada",
+    "excerpt": "Channal is a non-profit drug and alcohol reh",
+    "category": "Newfoundland and Labrador Rehabs",
+    "reviews": 0,
+    "image": {
+     "local_path": "images/channal/Rehabs-01-1.jpg",
+     "alt": "Clsc Alberta Health Services",
+     "width": "1000",
+     "height": "667",
+     "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg"
+    }
+   }
+  ],
+  "source_listing_count": 27,
+  "duplicates_removed": 3
+ },
+ "raw_html": "<body><div class=\"eltdf-page-content-holder eltdf-grid-col-12\">\n<div class=\"elementor elementor-8265\" data-elementor-id=\"8265\" data-elementor-post-type=\"page\" data-elementor-type=\"wp-page\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-294f2e76 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"294f2e76\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-54563a8f\" data-element_type=\"column\" data-id=\"54563a8f\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-152cbe6 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"152cbe6\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"vc_row wpb_row vc_row-fluid innerBanner\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"wpb_text_column wpb_content_element\">\n<div class=\"wpb_wrapper\">\n<h1>Newfoundland and Labrador Rehabs</h1>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div><div class=\"vc_row wpb_row vc_row-fluid innerListingBox\" data-vc-full-width=\"true\" data-vc-full-width-init=\"false\"><div class=\"wpb_column vc_column_container vc_col-sm-12\"><div class=\"vc_column-inner\"><div class=\"wpb_wrapper\">\n<div class=\"eltdf-listing-list-holder eltdf-ll-gallery eltdf-ll-layout-standard eltdf-grid-list eltdf-disable-bottom-space eltdf-three-columns eltdf-normal-space eltdf-ll-no-map eltdf-ll-no-filter eltdf-ll-pag-load-more eltdf-ll-category-set\" data-category=\"606\" data-enable-category=\"yes\" data-enable-excerpt=\"yes\" data-enable-filter=\"no\" data-enable-filter-category=\"yes\" data-enable-filter-custom-search=\"yes\" data-enable-filter-location=\"yes\" data-enable-filter-order-by=\"yes\" data-enable-filter-switch-layout=\"yes\" data-enable-filter-tag=\"yes\" data-enable-location=\"yes\" data-enable-map=\"no\" data-enable-map-switcher=\"no\" data-enable-price-range=\"yes\" data-enable-reviews-count=\"yes\" data-filter-location-field-type=\"select\" data-hide-active-filter=\"yes\" data-image-proportions=\"full\" data-item-layout=\"standard\" data-load-more-top-margin=\"50px\" data-max-num-pages=\"2\" data-next-page=\"2\" data-number-of-columns=\"three\" data-number-of-items=\"24\" data-order=\"ASC\" data-order-by=\"date\" data-pagination-type=\"load-more\" data-space-between-items=\"normal\" data-title-tag=\"h5\" data-type=\"gallery\">\n<div class=\"eltdf-listing-list-items-part\">\n<div class=\"eltdf-ll-inner eltdf-outer-space clearfix\">\n<article class=\"eltdf-ll-item eltdf-item-space post-6610 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-sheshatshiu\" data-id=\"6610\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"peguis\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/peguis-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tPeguis, MB R0C, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/peguis-al-care-treatment-centre/\" itemprop=\"url\">Peguis Al-Care Treatment Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Peguis Al-Care Treatment Centre is a 20-bed </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6610\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5921\" name=\"findall_listing_nonce_wishlist_functionality_5921\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6655 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-hamilton\" data-id=\"6655\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/labrador-health-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"labrador health\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/labrador-health-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t227 Hamilton River Rd, Happy Valley-Goose Bay, NL A0P 1C0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/labrador-health-centre/\" itemprop=\"url\">Labrador Health Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Labrador Health Center offers intake/screeni</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6655\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2530\" name=\"findall_listing_nonce_wishlist_functionality_2530\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space eltdf-featured-item post-6656 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-sheshatshiu\" data-id=\"6656\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"charles\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/charles-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tNorth West River, NL, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"eltdf-lli-featured-mark\">\n<span class=\"eltdf-lli-featured-label\">Featured</span>\n</div>\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/charles-j-andrew-youth-treatment-centre/\" itemprop=\"url\">Charles J. Andrew Youth Treatment Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">In response to the crisis of gas-sniffing an</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6656\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9016\" name=\"findall_listing_nonce_wishlist_functionality_9016\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6688 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6688\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/h-khalili-and-associates/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t391 Empire Ave #4, St. John's, NL A1E 1W6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/h-khalili-and-associates/\" itemprop=\"url\">H Khalili And Associates</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">H Khalili and Associates is a private rehab </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6688\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1714\" name=\"findall_listing_nonce_wishlist_functionality_1714\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6689 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6689\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/emmanuel-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"emmanuel house 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/emmanuel-house-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t83 Cochrane St, St. John's, NL A1C 3L7, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/emmanuel-house/\" itemprop=\"url\">Emmanuel House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Emmanuel House provides men with overnig</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6689\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1306\" name=\"findall_listing_nonce_wishlist_functionality_1306\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6690 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6690\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadian-mental-health-associaton/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"canadian mental health associaton\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/canadian-mental-health-associaton-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t70 The Blvd, St. John's, NL A1A 1K2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/canadian-mental-health-associaton/\" itemprop=\"url\">Canadian Mental Health Associaton</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">In St. John's, Newfoundland and Labrador lie</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6690\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_4006\" name=\"findall_listing_nonce_wishlist_functionality_4006\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6691 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6691\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"portage newfoundland\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/portage-newfoundland-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t21 James Ln, St. John's, NL A1E 3H3, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/portage-newfoundland-and-labrador/\" itemprop=\"url\">Portage Newfoundland And Labrador</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Portage Newfoundland and Labrador is a non-p</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6691\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_5874\" name=\"findall_listing_nonce_wishlist_functionality_5874\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space eltdf-featured-item post-6692 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-paradise\" data-id=\"6692\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/atlantic-counselling-services/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"atlantic counselling services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/atlantic-counselling-services-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t48 St Thomas Line, Paradise, NL A1L 2L6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"eltdf-lli-featured-mark\">\n<span class=\"eltdf-lli-featured-label\">Featured</span>\n</div>\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/atlantic-counselling-services/\" itemprop=\"url\">Atlantic Counselling Services</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Atlantic Counselling Services is a private r</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6692\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2683\" name=\"findall_listing_nonce_wishlist_functionality_2683\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6693 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-conception-bay-south\" data-id=\"6693\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/nevilles-counselling/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t17 Topsail Heights, Conception Bay South, NL A1W 5S6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/nevilles-counselling/\" itemprop=\"url\">Neville’S Counselling</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Neville's Counselling is a private rehab tha</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6693\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_4369\" name=\"findall_listing_nonce_wishlist_functionality_4369\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6694 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6694\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"aspen and oaks counselling\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/aspen-and-oaks-counselling-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t23 Cashin Ave, St. John's, NL A1E 3A9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/aspen-and-oaks-counselling-services-and-solutions/\" itemprop=\"url\">Aspen &amp; Oaks Counselling Services And Solutions</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Aspen and Oaks Counselling Services and Solu</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6694\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9620\" name=\"findall_listing_nonce_wishlist_functionality_9620\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6695 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6695\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/newfound-hope-counselling-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"newfound hope counselling 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/newfound-hope-counselling-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t28 Castors Dr, Mount Pearl, NL A1N 4Y7, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/newfound-hope-counselling-centre/\" itemprop=\"url\">Newfound Hope Counselling Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The Newfound Hope Counselling Centre is a pr</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6695\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9918\" name=\"findall_listing_nonce_wishlist_functionality_9918\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6696 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-norris-point\" data-id=\"6696\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bonne-bay-health-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"bonne bay\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/bonne-bay-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t212 Main St, Norris Point, NL A0K 3V0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/bonne-bay-health-centre/\" itemprop=\"url\">Bonne Bay Health Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Bonne Bay Health Centre is a Newfoundland an</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6696\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9369\" name=\"findall_listing_nonce_wishlist_functionality_9369\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6700 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-grand-falls-windsor\" data-id=\"6700\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/search-listing/hope-valley/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t50 Union Street, Grand Falls-Windsor, Newfoundland and Labrador\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/search-listing/hope-valley/\" itemprop=\"url\">Hope Valley</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Hope Valley is a charitable rehabilitation f</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6700\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2944\" name=\"findall_listing_nonce_wishlist_functionality_2944\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6701 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-stephenville\" data-id=\"6701\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/west-bridge-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"west bridge 1\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/west-bridge-1-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t92 West St, Stephenville, NL A2N 1E6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/west-bridge-house/\" itemprop=\"url\">West Bridge House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">West Bridge House is a non-profit rehabilita</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6701\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_6158\" name=\"findall_listing_nonce_wishlist_functionality_6158\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6702 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6702\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/search-listing/le-marchant-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t192 Lemarchant Rd, St. John's, Newfoundland and Labrador\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/search-listing/le-marchant-house/\" itemprop=\"url\">Le Marchant House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Le Marchant House is a non-profit rehabilita</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6702\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2351\" name=\"findall_listing_nonce_wishlist_functionality_2351\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6703 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6703\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/howard-house/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"howard house\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/howard-house-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t7 Garrison Hill, St. John's, NL A1C 3Y7, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/howard-house/\" itemprop=\"url\">Howard House</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Howard House is a non-profit rehabilitation </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6703\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_2632\" name=\"findall_listing_nonce_wishlist_functionality_2632\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6704 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-carbonear\" data-id=\"6704\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/u-turn/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"u-turn\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/u-turn-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t46 Powell Dr, Carbonear, NL A1Y 1A5, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/u-turn/\" itemprop=\"url\">U – Turn</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">U-Turn is a non-profit rehabilitation center</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6704\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7918\" name=\"findall_listing_nonce_wishlist_functionality_7918\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6706 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-torbay\" data-id=\"6706\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/denise-sargeant-therapy-services/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t148 Marine Dr, Torbay, NL A1K 1G1, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/denise-sargeant-therapy-services/\" itemprop=\"url\">Denise Sargeant Therapy Services</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Denise Sargeant Therapy Services is a privat</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6706\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8994\" name=\"findall_listing_nonce_wishlist_functionality_8994\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6707 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6707\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/recovery-centre/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"recovery centre\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/recovery-centre-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t532 Charter Ave, St. John's, NL A1A 1P8, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/recovery-centre/\" itemprop=\"url\">Recovery Centre</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">St. John's, Newfoundland and Labrador's Reco</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6707\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_8577\" name=\"findall_listing_nonce_wishlist_functionality_8577\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6708 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6708\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/pleasant-manor/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"pleasant manor\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/pleasant-manor-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t44 Bennett Ave, St. John's, NL A1E 2Y6, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/pleasant-manor/\" itemprop=\"url\">Pleasant Manor</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Pleasant Manor is a non-profit drug and alco</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6708\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_9782\" name=\"findall_listing_nonce_wishlist_functionality_9782\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6709 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6709\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"alcoholics anonymous\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/alcoholics-anonymous-768x512.jpg 768w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t183 Kenmount Rd #117, St. John's, NL A1B 3P9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/alcoholics-anonymous-st-johns-inter-group/\" itemprop=\"url\">Alcoholics Anonymous – St John’S Inter Group</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">The St. John's Inter Group of Alcoholics Ano</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6709\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_7613\" name=\"findall_listing_nonce_wishlist_functionality_7613\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6710 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6710\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mb-counselling-services/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t49 Elizabeth Ave, St. John's, NL A1A 1W9, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/mb-counselling-services/\" itemprop=\"url\">Mb Counselling Services</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">St. John's, Newfoundland and Labrador-based </p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6710\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_1277\" name=\"findall_listing_nonce_wishlist_functionality_1277\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6711 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-north-west-river\" data-id=\"6711\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\tNorth West River Beach, North West River, NL A0P 1M0, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/innu-uauitshitun-alcohol-and-drug-treatment/\" itemprop=\"url\">Innu Uauitshitun Alcohol And Drug Treatment</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">North West River, Newfoundland and Labrador-</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6711\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_3422\" name=\"findall_listing_nonce_wishlist_functionality_3422\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article><article class=\"eltdf-ll-item eltdf-item-space post-6712 listing-item type-listing-item status-publish has-post-thumbnail hentry listing-category-newfoundland-and-labrador-rehabs listing-location-st-johns\" data-id=\"6712\">\n<div class=\"eltdf-ll-item-inner\">\n<div class=\"eltdf-lli-image-holder\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/channal/\" itemprop=\"url\"></a>\n<div class=\"eltdf-lli-image\">\n<img alt=\"Clsc Alberta Health Services\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"667\" loading=\"lazy\" sizes=\"(max-width: 1000px) 100vw, 1000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1.jpg 1000w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-300x200.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-768x512.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2021/09/Rehabs-01-1-600x400.jpg 600w\" width=\"1000\"/> </div> <div class=\"eltdf-lli-category-holder\">\n<a class=\"eltdf-lli-category eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-category/newfoundland-and-labrador-rehabs/\" itemprop=\"url\">\n\t\t\t\tNewfoundland and Labrador Rehabs\t\t\t</a>\n</div>\n<div class=\"eltdf-lli-location-holder\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>\t\t\t284 Lemarchant Rd, St. John's, NL A1E 1R2, Canada\t\t</p>\n</div>\n</div>\n<div class=\"eltdf-lli-content\">\n<div class=\"both\">\n<h5 class=\"eltdf-lli-title entry-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/channal/\" itemprop=\"url\">Channal</a>\n</h5> </div>\n<p class=\"eltdf-lli-excerpt\" itemprop=\"description\">Channal is a non-profit drug and alcohol reh</p>\n<div class=\"eltdf-lli-bottom-info\">\n<div class=\"eltdf-lli-reviews-count\">\n<div class=\"eltdf-reviews-list-info eltdf-reviews-average-count\">\n<span class=\"eltdf-reviews-number\">\n            0        </span>\n<span class=\"eltdf-reviews-label\">\n            Reviews        </span>\n<span class=\"eltdf-stars\">\n<span class=\"eltdf-stars-wrapper-inner\">\n<span class=\"eltdf-stars-items\">\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n<i aria-hidden=\"true\" class=\"icon ion-android-star-outline\"></i>\n</span>\n</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-wishlist-holder\">\n<a class=\"eltdf-wishlist-link\" data-id=\"6712\" href=\"#\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart_alt\"></span> <span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_heart\"></span> </a>\n<input id=\"findall_listing_nonce_wishlist_functionality_4606\" name=\"findall_listing_nonce_wishlist_functionality_4606\" type=\"hidden\" value=\"176ad2d99e\"/><input name=\"_wp_http_referer\" type=\"hidden\" value=\"/newfoundland-and-labrador-rehabs/\"/> <div class=\"eltdf-wishlist-response\"></div>\n</div> </div>\n</div> </div>\n</article> </div>\n<div class=\"eltdf-ll-loading\">\n<div class=\"eltdf-findall-spinner\"></div>\n</div> <div class=\"eltdf-ll-load-more-holder\">\n<div class=\"eltdf-ll-load-more\" style=\"margin-top: 50px\">\n<a class=\"eltdf-btn eltdf-btn-small eltdf-btn-solid\" data-wpel-link=\"internal\" href=\"\" itemprop=\"url\" target=\"_self\"> <span class=\"eltdf-btn-text\">Load More</span> <svg class=\"eltdf-arrow-svg\" enable-background=\"new 0 0 17.917 18\" height=\"18px\" version=\"1.1\" viewbox=\"0 0 17.917 18\" width=\"17.917px\" x=\"0px\" xml:space=\"preserve\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" y=\"0px\"><circle cx=\"8.997\" cy=\"9.012\" fill=\"none\" r=\"7.875\" stroke=\"#000000\" stroke-miterlimit=\"10\"></circle><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"12.547\" y2=\"8.947\"></line><line fill=\"none\" stroke=\"#000000\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" x1=\"7.572\" x2=\"11.172\" y1=\"5.289\" y2=\"8.889\"></line></svg> </a> </div>\n</div>\n</div>\n</div>\n</div></div></div></div><div class=\"vc_row-full-width vc_clearfix\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-f1bd2fa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"f1bd2fa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d9f0ac4\" data-element_type=\"column\" data-id=\"d9f0ac4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-41df905 elementor-widget elementor-widget-html\" data-element_type=\"widget\" data-id=\"41df905\" data-widget_type=\"html.default\">\n<div class=\"elementor-widget-container\">\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div></body>"
+}

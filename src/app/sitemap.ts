@@ -1,0 +1,9 @@
+import type { MetadataRoute } from 'next';
+import { getPublished, SITE } from '@/lib/content';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    { url: SITE + '/' },
+    ...getPublished().filter((e) => !e.noindex).map((e) => ({ url: SITE + e.route, ...(e.modified ? { lastModified: e.modified } : {}) })),
+  ];
+}

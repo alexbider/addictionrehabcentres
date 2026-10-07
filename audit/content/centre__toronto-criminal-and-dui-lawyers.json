@@ -1,0 +1,905 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__toronto-criminal-and-dui-lawyers",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/",
+  "path": "/toronto-criminal-and-dui-lawyers/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/toronto-criminal-and-dui-lawyers/",
+ "seo": {
+  "meta_title": "Toronto Criminal and DUI Lawyers - Addiction Rehab Centers",
+  "meta_description": "Explore Toronto Criminal and DUI Lawyers, Ontario's elite with 10+ years in DUI and criminal law. Renowned for unmatched expertise, they're the top pick for defense in Criminal, Quasi-Criminal, and traffic offenses. Experience the difference with a firm whose name echoes its prowess.",
+  "canonical_source": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/",
+  "og": {
+   "title": "Toronto Criminal and DUI Lawyers - Addiction Rehab Centers",
+   "description": "Explore Toronto Criminal and DUI Lawyers, Ontario's elite with 10+ years in DUI and criminal law. Renowned for unmatched expertise, they're the top pick for defense in Criminal, Quasi-Criminal, and traffic offenses. Experience the difference with a firm whose name echoes its prowess.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/",
+      "url": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/",
+      "name": "Toronto Criminal and DUI Lawyers - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+      "datePublished": "2023-09-07T05:22:51+00:00",
+      "dateModified": "2023-09-07T05:31:38+00:00",
+      "description": "Explore Toronto Criminal and DUI Lawyers, Ontario's elite with 10+ years in DUI and criminal law. Renowned for unmatched expertise, they're the top pick for defense in Criminal, Quasi-Criminal, and traffic offenses. Experience the difference with a firm whose name echoes its prowess.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+      "width": 1156,
+      "height": 903,
+      "caption": "Toronto Criminal and DUI Lawyers"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/toronto-criminal-and-dui-lawyers/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Toronto Criminal and DUI Lawyers"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 629,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "Toronto Criminal and DUI Lawyers"
+  ],
+  [
+   "h2",
+   "Toronto Criminal and DUI Lawyers - Overview"
+  ],
+  [
+   "h2",
+   "Expertise"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+   "local_path": "images/centre__toronto-criminal-and-dui-lawyers/orontocriminalandduilawyers.jpg",
+   "alt": "Toronto Criminal and DUI Lawyers",
+   "width": 1156,
+   "height": 903,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/dui-lawyers/",
+   "text": "DUI Lawyers",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/dui-lawyers/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:(416) 400-6668",
+   "text": "(416) 400-6668",
+   "kind": "tel",
+   "new": "tel:(416) 400-6668"
+  },
+  {
+   "old_href": "https://www.torontocriminalandduilawyers.com/",
+   "text": "https://www.torontocriminalandduilawyers.com/",
+   "kind": "external",
+   "new": "https://www.torontocriminalandduilawyers.com/"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 2,
+   "heading": "Toronto Criminal and DUI Lawyers",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.",
+     "html": "With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.",
+     "html": "Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.",
+     "html": "This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.",
+     "html": "While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.",
+     "html": "What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.",
+     "html": "Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Toronto Criminal and DUI Lawyers - Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.",
+     "html": "Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.",
+     "html": "Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Expertise",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.",
+     "html": "Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Toronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Toronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "DUI Lawyers",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "(416) 400-6668",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(416) 400-6668\" itemprop=\"url\">(416) 400-6668</a>",
+         "links": [
+          {
+           "old": "tel:(416) 400-6668",
+           "text": "(416) 400-6668"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://www.torontocriminalandduilawyers.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.torontocriminalandduilawyers.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.torontocriminalandduilawyers.com/</a>",
+         "links": [
+          {
+           "old": "https://www.torontocriminalandduilawyers.com/",
+           "text": "https://www.torontocriminalandduilawyers.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "20 Bay St. #1100, Toronto, ON M5J 2N8, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    20 Bay St. #1100, Toronto, ON M5J 2N8, Canada",
+         "links": [],
+         "images": []
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 07:41am"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "Toronto Criminal and DUI Lawyers",
+   "html": "<strong>Toronto Criminal and DUI Lawyers</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.",
+   "html": "With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.",
+   "html": "Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.",
+   "html": "This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.",
+   "html": "While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.",
+   "html": "What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.",
+   "html": "Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Toronto Criminal and DUI Lawyers - Overview",
+   "html": "Toronto Criminal and DUI Lawyers - Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.",
+   "html": "Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.",
+   "html": "Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Expertise",
+   "html": "<span aria-level=\"1\" class=\"yKMVIe\" role=\"heading\">Expertise</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.",
+   "html": "Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Toronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Toronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "DUI Lawyers",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "(416) 400-6668",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(416) 400-6668\" itemprop=\"url\">(416) 400-6668</a>",
+   "links": [
+    {
+     "old": "tel:(416) 400-6668",
+     "text": "(416) 400-6668"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://www.torontocriminalandduilawyers.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.torontocriminalandduilawyers.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.torontocriminalandduilawyers.com/</a>",
+   "links": [
+    {
+     "old": "https://www.torontocriminalandduilawyers.com/",
+     "text": "https://www.torontocriminalandduilawyers.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "20 Bay St. #1100, Toronto, ON M5J 2N8, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    20 Bay St. #1100, Toronto, ON M5J 2N8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 07:41am"
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Toronto Criminal and DUI Lawyers",
+  "categories": [
+   "DUI Lawyers Ontario"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-16269\" data-elementor-id=\"16269\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-69234d8d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"69234d8d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-76703af3\" data-element_type=\"column\" data-id=\"76703af3\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-323026fa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"323026fa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63371ac5\" data-element_type=\"column\" data-id=\"63371ac5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-69a65fba elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"69a65fba\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2><strong>Toronto Criminal and DUI Lawyers</strong></h2><p>With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.</p><p>Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.</p><p>This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.</p><p>While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.</p><p>What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.</p><p>Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-759b247c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"759b247c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dae82cd\" data-element_type=\"column\" data-id=\"dae82cd\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-52aa1b2c elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"52aa1b2c\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-38fc2e47 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"38fc2e47\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Toronto Criminal and DUI Lawyers - Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-44dc3f7b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"44dc3f7b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.</p><p>Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.</p><div class=\"hHq9Z\"><div data-hveid=\"CA4QAA\"><div class=\"gyEfO\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-hveid=\"CBQQAA\" data-md=\"221\" data-ved=\"2ahUKEwi3rd3s4ZeBAxWegf0HHXsZD7sQnKEBegQIFBAA\"><div class=\"ZxoDOe yGdMVd UoezFf\"><div class=\"UFE1qd\"><h2 class=\"PyJv1b gsmt PZPZlf qRofMd\" data-attrid=\"title\" data-hveid=\"CBQQAQ\"><span aria-level=\"1\" class=\"yKMVIe\" role=\"heading\">Expertise</span></h2><p>Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.</p><div class=\"EGmpye Mf9fnc\"> </div><div class=\"oQDTXb\"><div data-ias=\"false\"><div class=\"IpDT1d\"><div aria-expanded=\"false\" aria-haspopup=\"true\" class=\"CcNe6e v4Zpbe\" role=\"button\" tabindex=\"0\"> </div></div></div></div></div></div></div></div></div></div><div class=\"GRl5yb a8pxAe\"><div class=\"FJIcp\" data-hveid=\"CBAQAA\" id=\"JTPWx\" role=\"tablist\"> </div></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2533ee7c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2533ee7c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-633c30a5\" data-element_type=\"column\" data-id=\"633c30a5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7e5ce892 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"7e5ce892\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tToronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-21d9542f elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"21d9542f\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-150d510a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"150d510a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dd46fc8\" data-element_type=\"column\" data-id=\"dd46fc8\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "(416) 400-6668",
+  "email": "",
+  "website": "https://www.torontocriminalandduilawyers.com/",
+  "address": "20 Bay St. #1100, Toronto, ON M5J 2N8, Canada",
+  "social": {},
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/09/orontocriminalandduilawyers.jpg",
+    "alt": "Toronto Criminal and DUI Lawyers",
+    "width": "1156",
+    "height": "903"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "DUI Lawyers",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "h2",
+    "text": "Toronto Criminal and DUI Lawyers",
+    "html": "<strong>Toronto Criminal and DUI Lawyers</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.",
+    "html": "With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.",
+    "html": "Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.",
+    "html": "This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.",
+    "html": "While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.",
+    "html": "What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.",
+    "html": "Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "Toronto Criminal and DUI Lawyers - Overview",
+    "html": "Toronto Criminal and DUI Lawyers - Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.",
+    "html": "Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.",
+    "html": "Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h2",
+    "text": "Expertise",
+    "html": "<span aria-level=\"1\" class=\"yKMVIe\" role=\"heading\">Expertise</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.",
+    "html": "Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Toronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Toronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   }
+  ],
+  "faq_heading": "",
+  "faqs": [],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "(416) 400-6668",
+  "phone_href": "tel:(416) 400-6668",
+  "website_text": "https://www.torontocriminalandduilawyers.com/",
+  "social_title": "",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "DUI Lawyers"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-16269\" data-elementor-id=\"16269\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-69234d8d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"69234d8d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-76703af3\" data-element_type=\"column\" data-id=\"76703af3\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-323026fa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"323026fa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-63371ac5\" data-element_type=\"column\" data-id=\"63371ac5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-69a65fba elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"69a65fba\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h2><strong>Toronto Criminal and DUI Lawyers</strong></h2><p>With a decade-spanning legacy in the realm of DUI and criminal law, Toronto Criminal and DUI Lawyers stand out as one of Ontario’s distinguished criminal litigation houses. If the specificity of their firm’s name hasn’t already captured your attention, their expertise surely will. They are the go-to choice for clients facing Criminal, Quasi-Criminal, and traffic-related offenses.</p><p>Their specialization extends to an expansive range of areas including DUI and Impaired Driving, Refusals for Breath Sample, Driving-related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offences, Violent Crimes, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, and matters concerning Part I, Part II, and Part III. Additionally, their seasoned approach to bail processes is unparalleled.</p><p>This team embodies the spirit of tenacious defense attorneys who never waver from their mission – securing optimal results for their clientele. Recognized for their undying advocacy, they champion the belief that every individual, irrespective of the nature of the charge, deserves an uncompromising defense. These attorneys are often the first port of call for individuals at critical junctures in their lives due to criminal charges. They grasp the gravity of such charges and the potential life-altering repercussions of a conviction. With a meticulous, all-encompassing approach, they craft defenses that stand the test of the courtroom.</p><p>While their digital footprint might be modest, they are taking strides to share more client testimonials, offering a clearer picture of their unparalleled legal prowess. Their modus operandi uniquely melds discretion and exclusivity with unparalleled legal acumen, ensuring stellar results. In essence, they are the embodiment of professional excellence.</p><p>What sets them apart is not just their unmatched expertise but their genuine concern for their clients. Their adeptness at criminal law and procedures often culminates in optimal outcomes, including the withdrawal of charges. Their unparalleled understanding of the judicial machinery ensures clients are always a step ahead. With a communication strategy par excellence, they guarantee that clients are consistently in the loop—akin to having a legal powerhouse at one’s beck and call around the clock.</p><p>Considering reaching out? They offer complimentary, exclusive, and confidential consultations—a testament to their client-centric approach. And with their 24/7 availability, they assure that expert legal assistance is always within reach. Their candor is refreshing, ensuring clients get an unvarnished perspective. Furthermore, their client-friendly financing options ensure that top-tier legal defense is accessible to all. Choose Toronto Criminal and DUI Lawyers: where unparalleled expertise meets unwavering dedication.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-759b247c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"759b247c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dae82cd\" data-element_type=\"column\" data-id=\"dae82cd\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-52aa1b2c elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"52aa1b2c\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-38fc2e47 elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"38fc2e47\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Toronto Criminal and DUI Lawyers - Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-44dc3f7b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"44dc3f7b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Situated in the heart of Toronto, we are a leading criminal litigation firm, proficient in managing a diverse range of criminal, quasi-criminal, and traffic-ticket offenses. From DUI and driving offenses to assault, theft, fraud, and more intricate cases involving domestic and sexual assault or drug offenses, we’ve got you covered.</p><p>Our dedication knows no bounds. At our core, we believe in a robust defense for every individual, irrespective of the charge. Our client-first approach, coupled with unparalleled expertise, drives us to deliver optimal results. If you find yourself facing DUI charges or any other criminal offenses, allow us to provide you with a complimentary, obligation-free, confidential consultation. You can count on us for an honest assessment of your situation, and should you need it, we offer flexible financing solutions to support your defense journey.</p><div class=\"hHq9Z\"><div data-hveid=\"CA4QAA\"><div class=\"gyEfO\"><div class=\"wDYxhc NFQFxe viOShc LKPcQc\" data-hveid=\"CBQQAA\" data-md=\"221\" data-ved=\"2ahUKEwi3rd3s4ZeBAxWegf0HHXsZD7sQnKEBegQIFBAA\"><div class=\"ZxoDOe yGdMVd UoezFf\"><div class=\"UFE1qd\"><h2 class=\"PyJv1b gsmt PZPZlf qRofMd\" data-attrid=\"title\" data-hveid=\"CBQQAQ\"><span aria-level=\"1\" class=\"yKMVIe\" role=\"heading\">Expertise</span></h2><p>Criminal Law, DUI, Impaired Driving, Failing/Refusing to Provide a Breath Sample, Dangerous Driving and Driving Related Offences, Drug Crimes, Assault, Domestic Violence, Sexual Offenses, Violent Crime, Weapons Offences, Theft and Fraud, Regulatory Offences, Professional Regulation and Discipline, White-Collar Crime, Bail.</p><div class=\"EGmpye Mf9fnc\"> </div><div class=\"oQDTXb\"><div data-ias=\"false\"><div class=\"IpDT1d\"><div aria-expanded=\"false\" aria-haspopup=\"true\" class=\"CcNe6e v4Zpbe\" role=\"button\" tabindex=\"0\"> </div></div></div></div></div></div></div></div></div></div><div class=\"GRl5yb a8pxAe\"><div class=\"FJIcp\" data-hveid=\"CBAQAA\" id=\"JTPWx\" role=\"tablist\"> </div></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2533ee7c elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2533ee7c\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-633c30a5\" data-element_type=\"column\" data-id=\"633c30a5\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-7e5ce892 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"7e5ce892\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tToronto Criminal and DUI Lawyers has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-21d9542f elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"21d9542f\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-150d510a elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"150d510a\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-dd46fc8\" data-element_type=\"column\" data-id=\"dd46fc8\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/dui-lawyers/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">DUI Lawyers</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:(416) 400-6668\" itemprop=\"url\">(416) 400-6668</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.torontocriminalandduilawyers.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.torontocriminalandduilawyers.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    20 Bay St. #1100, Toronto, ON M5J 2N8, Canada\t                </p>\n</div>\n<div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 07:41am</span>\n</div>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

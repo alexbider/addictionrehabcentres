@@ -1,0 +1,697 @@
+{
+ "schema": "arc-content/1",
+ "slug": "city__vaughan",
+ "status": "REMAINING",
+ "page_type": "city-archive",
+ "wp_type": "listing-location",
+ "template": "City",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "A1-A5",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+  "path": "/listing-location/vaughan/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/listing-location/vaughan/",
+ "seo": {
+  "meta_title": "Vaughan Archives - Addiction Rehab Centers",
+  "meta_description": "",
+  "canonical_source": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+  "og": {
+   "title": "Vaughan Archives - Addiction Rehab Centers",
+   "description": "",
+   "image": "",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+      "url": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+      "name": "Vaughan Archives - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/vaughan/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/vaughan/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/listing-location/vaughan/#breadcrumb"
+      },
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/listing-location/vaughan/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+      "width": 2112,
+      "height": 1404,
+      "caption": "UMATTERCARE"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/listing-location/vaughan/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Vaughan"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Vaughan",
+ "title_bar_h1": "",
+ "word_count": 1,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h2",
+   "More Rehab Centres in Vaughan Results"
+  ]
+ ],
+ "images": [
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg",
+   "local_path": "images/city__vaughan/iqjxscgqbfvlh7vc6puh.jpeg",
+   "alt": "Centres for Health and Healing",
+   "width": 2000,
+   "height": 800,
+   "download": "ok"
+  },
+  {
+   "role": "card",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+   "local_path": "images/city__vaughan/UMATTERCARE3.png",
+   "alt": "UMATTERCARE",
+   "width": 2112,
+   "height": 1404,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/centres-for-health-and-healing/",
+   "text": "",
+   "kind": "internal",
+   "new": "/centres-for-health-and-healing/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "",
+   "text": "",
+   "kind": "empty",
+   "new": ""
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/centres-for-health-and-healing/",
+   "text": "Centres for Health and Healing",
+   "kind": "internal",
+   "new": "/centres-for-health-and-healing/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/",
+   "text": "",
+   "kind": "internal",
+   "new": "/umattercare-mental-health-and-addiction-services/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+   "text": "Vaughan",
+   "kind": "internal",
+   "new": "/listing-location/vaughan/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/",
+   "text": "UMATTERCARE- Mental Health and Addiction Services",
+   "kind": "internal",
+   "new": "/umattercare-mental-health-and-addiction-services/",
+   "target_status": "REMAINING"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "text",
+     "text": "1"
+    },
+    {
+     "type": "text",
+     "text": "Top Rehab Centres in Vaughan Results"
+    },
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg",
+     "alt": "Centres for Health and Healing",
+     "width": "2000",
+     "height": "800",
+     "link_href": "https://addictionrehabcenters.ca/centres-for-health-and-healing/"
+    },
+    {
+     "type": "text",
+     "text": "Featured"
+    },
+    {
+     "type": "text",
+     "text": "Aftercare"
+    },
+    {
+     "type": "text",
+     "text": "Alcohol Addiction"
+    },
+    {
+     "type": "text",
+     "text": "Assessment"
+    },
+    {
+     "type": "text",
+     "text": "Drug Addiction"
+    },
+    {
+     "type": "text",
+     "text": "Family Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Group Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Holistic Treatment Services"
+    },
+    {
+     "type": "text",
+     "text": "Individual Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Interventionists"
+    },
+    {
+     "type": "text",
+     "text": "Prevention / Education"
+    },
+    {
+     "type": "text",
+     "text": "Residential Drug Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Residential Treatment"
+    },
+    {
+     "type": "text",
+     "text": "Sober Living"
+    },
+    {
+     "type": "text",
+     "text": "Substance Abuse Treatment"
+    },
+    {
+     "type": "text",
+     "text": "Vaughan"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 5,
+   "heading": "Centres for Health and Healing",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Centres for Health and Healing (CFHH), experience a luxurious retreat-style sanctuary, complete with a private indoor swimming pool, outdoor lounge,..."
+    },
+    {
+     "type": "p",
+     "text": "4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada",
+     "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "text",
+     "text": "5"
+    },
+    {
+     "type": "text",
+     "text": "(2 Reviews)"
+    },
+    {
+     "type": "text",
+     "text": "$$$"
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "More Rehab Centres in Vaughan Results",
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+     "alt": "UMATTERCARE",
+     "width": "2112",
+     "height": "1404",
+     "link_href": "https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/"
+    },
+    {
+     "type": "text",
+     "text": "Aftercare"
+    },
+    {
+     "type": "text",
+     "text": "Assessment"
+    },
+    {
+     "type": "text",
+     "text": "Family Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Group Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Holistic Treatment Services"
+    },
+    {
+     "type": "text",
+     "text": "Individual Counselling"
+    },
+    {
+     "type": "text",
+     "text": "Interventionists"
+    },
+    {
+     "type": "text",
+     "text": "Prevention / Education"
+    },
+    {
+     "type": "text",
+     "text": "Private Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Residential Drug Rehab"
+    },
+    {
+     "type": "text",
+     "text": "Sober Living"
+    },
+    {
+     "type": "text",
+     "text": "Substance Abuse Treatment"
+    },
+    {
+     "type": "link",
+     "text": "Vaughan",
+     "href": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+     "new_href": "/listing-location/vaughan/"
+    }
+   ],
+   "children": [
+    {
+     "level": 5,
+     "heading": "UMATTERCARE- Mental Health and Addiction Services",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada",
+       "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "text",
+       "text": "0"
+      },
+      {
+       "type": "text",
+       "text": "(0 Reviews)"
+      },
+      {
+       "type": "text",
+       "text": "$$$"
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "text",
+   "text": "1"
+  },
+  {
+   "type": "text",
+   "text": "Top Rehab Centres in Vaughan Results"
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg",
+   "alt": "Centres for Health and Healing",
+   "width": "2000",
+   "height": "800",
+   "link_href": "https://addictionrehabcenters.ca/centres-for-health-and-healing/"
+  },
+  {
+   "type": "text",
+   "text": "Featured"
+  },
+  {
+   "type": "text",
+   "text": "Aftercare"
+  },
+  {
+   "type": "text",
+   "text": "Alcohol Addiction"
+  },
+  {
+   "type": "text",
+   "text": "Assessment"
+  },
+  {
+   "type": "text",
+   "text": "Drug Addiction"
+  },
+  {
+   "type": "text",
+   "text": "Family Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Group Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Holistic Treatment Services"
+  },
+  {
+   "type": "text",
+   "text": "Individual Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Interventionists"
+  },
+  {
+   "type": "text",
+   "text": "Prevention / Education"
+  },
+  {
+   "type": "text",
+   "text": "Residential Drug Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Residential Treatment"
+  },
+  {
+   "type": "text",
+   "text": "Sober Living"
+  },
+  {
+   "type": "text",
+   "text": "Substance Abuse Treatment"
+  },
+  {
+   "type": "text",
+   "text": "Vaughan"
+  },
+  {
+   "type": "h5",
+   "text": "Centres for Health and Healing",
+   "html": "<a data-wpel-link=\"internal\" href=\"/centres-for-health-and-healing/\" itemprop=\"url\">Centres for Health and Healing</a>",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Centres for Health and Healing (CFHH), experience a luxurious retreat-style sanctuary, complete with a private indoor swimming pool, outdoor lounge,..."
+  },
+  {
+   "type": "p",
+   "text": "4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "5"
+  },
+  {
+   "type": "text",
+   "text": "(2 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  },
+  {
+   "type": "h2",
+   "text": "More Rehab Centres in Vaughan Results",
+   "html": "More Rehab Centres in Vaughan Results",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+   "alt": "UMATTERCARE",
+   "width": "2112",
+   "height": "1404",
+   "link_href": "https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/"
+  },
+  {
+   "type": "text",
+   "text": "Aftercare"
+  },
+  {
+   "type": "text",
+   "text": "Assessment"
+  },
+  {
+   "type": "text",
+   "text": "Family Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Group Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Holistic Treatment Services"
+  },
+  {
+   "type": "text",
+   "text": "Individual Counselling"
+  },
+  {
+   "type": "text",
+   "text": "Interventionists"
+  },
+  {
+   "type": "text",
+   "text": "Prevention / Education"
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Residential Drug Rehab"
+  },
+  {
+   "type": "text",
+   "text": "Sober Living"
+  },
+  {
+   "type": "text",
+   "text": "Substance Abuse Treatment"
+  },
+  {
+   "type": "link",
+   "text": "Vaughan",
+   "href": "https://addictionrehabcenters.ca/listing-location/vaughan/",
+   "new_href": "/listing-location/vaughan/"
+  },
+  {
+   "type": "h5",
+   "text": "UMATTERCARE- Mental Health and Addiction Services",
+   "html": "<a data-wpel-link=\"internal\" href=\"/umattercare-mental-health-and-addiction-services/\" itemprop=\"url\">UMATTERCARE- Mental Health and Addiction Services</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada",
+   "html": "<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "0"
+  },
+  {
+   "type": "text",
+   "text": "(0 Reviews)"
+  },
+  {
+   "type": "text",
+   "text": "$$$"
+  }
+ ],
+ "cards": [
+  {
+   "name": "Centres for Health and Healing",
+   "href": "https://addictionrehabcenters.ca/centres-for-health-and-healing/",
+   "address": "4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada",
+   "category": "AftercareAlcohol AddictionAssessmentDrug AddictionFamily CounsellingGroup CounsellingHolistic Treatment ServicesIndividual CounsellingInterventionistsPrevention / EducationResidential Drug RehabResidential TreatmentSober LivingSubstance Abuse Treatment",
+   "reviews": "(2 Reviews)",
+   "rating": "5",
+   "price_tier": "$$$",
+   "featured": true,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg",
+    "alt": "Centres for Health and Healing",
+    "width": "2000",
+    "height": "800"
+   }
+  },
+  {
+   "name": "UMATTERCARE- Mental Health and Addiction Services",
+   "href": "https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/",
+   "address": "97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada",
+   "category": "AftercareAssessmentFamily CounsellingGroup CounsellingHolistic Treatment ServicesIndividual CounsellingInterventionistsPrevention / EducationPrivate RehabResidential Drug RehabSober LivingSubstance Abuse Treatment",
+   "reviews": "(0 Reviews)",
+   "rating": "0",
+   "price_tier": "$$$",
+   "featured": false,
+   "image": {
+    "role": "card",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png",
+    "alt": "UMATTERCARE",
+    "width": "2112",
+    "height": "1404"
+   }
+  }
+ ],
+ "template_data": {
+  "raw": [
+   [
+    "Centres for Health and Healing",
+    "centres-for-health-and-healing",
+    "4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada",
+    "",
+    "(2 Reviews)",
+    "5",
+    "",
+    [
+     "AftercareAlcohol AddictionAssessmentDrug AddictionFamily CounsellingGroup CounsellingHolistic Treatment ServicesIndividual CounsellingInterventionistsPrevention / EducationResidential Drug RehabResidential TreatmentSober LivingSubstance Abuse Treatment"
+    ]
+   ],
+   [
+    "UMATTERCARE- Mental Health and Addiction Services",
+    "umattercare-mental-health-and-addiction-services",
+    "97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada",
+    "",
+    "(0 Reviews)",
+    "0",
+    "",
+    [
+     "AftercareAssessmentFamily CounsellingGroup CounsellingHolistic Treatment ServicesIndividual CounsellingInterventionistsPrevention / EducationPrivate RehabResidential Drug RehabSober LivingSubstance Abuse Treatment"
+    ]
+   ]
+  ],
+  "note": "tuple order = Province.jsx raw: [name, slug, address, excerpt, reviewsLabel, rating, city, tags]"
+ },
+ "city": {
+  "intro_text": "Vaughan",
+  "result_count": "1",
+  "faq_text_placeholder": ""
+ },
+ "raw_html": "<body><div class=\"inner-content no-map\">\n<div class=\"col-left\">\n<div id=\"primary\">\n<main class=\"site-main\" id=\"main\" role=\"main\">\n<div class=\"top-area\">\n<div class=\"entry-left\"><span class=\"result-count\"><span class=\"count\">1</span>\n                                    Top Rehab Centres in Vaughan Results </span>\n</div>\n</div>\n<div class=\"area-places grid columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-1\">\n<div class=\"place-item layout-02 golo-place-featured place-12344\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/centres-for-health-and-healing/\">\n<img alt=\"Centres for Health and Healing\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"800\" loading=\"lazy\" sizes=\"(max-width: 2000px) 100vw, 2000px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh.jpeg 2000w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh-300x120.jpeg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh-1024x410.jpeg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh-768x307.jpeg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2022/02/iqjxscgqbfvlh7vc6puh-1536x614.jpeg 1536w\" width=\"2000\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<span class=\"place-featured\">\n                                            Featured </span>\n<div class=\"entry-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Aftercare</span><span>Alcohol Addiction</span><span>Assessment</span><span>Drug Addiction</span><span>Family Counselling</span><span>Group Counselling</span><span>Holistic Treatment Services</span><span>Individual Counselling</span><span>Interventionists</span><span>Prevention / Education</span><span>Residential Drug Rehab</span><span>Residential Treatment</span><span>Sober Living</span><span>Substance Abuse Treatment</span> </div>\n<div class=\"place-city\">\n                                                    Vaughan                                                    <a data-wpel-link=\"internal\" href=\"\"></a>\n</div>\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/centres-for-health-and-healing/\" itemprop=\"url\">Centres for Health and Healing</a>\n</h5>\n<!-- post excerpt -->\n                                            Centres for Health and Healing (CFHH), experience a luxurious retreat-style sanctuary, complete with a private indoor swimming pool, outdoor lounge,...\n                                                                                        <div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    4360 Kirby Rd, Vaughan, ON L4H 4G2, Canada                                                </p>\n</div>\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>5</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (2 Reviews)\n                                                    </span>\n</div>\n</div>\n<div class=\"right-bottom\">\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<br/>\n<h2>More Rehab Centres in Vaughan Results</h2>\n<br/>\n<div class=\"area-places grid list-view columns-2 columns-lg-2 columns-md-1 columns-sm-2 columns-xs-2 eltdf-outer-space eltdf-ml-inner\">\n<div class=\"place-item layout-list golo-place-featured place-13829\">\n<div class=\"place-inner\">\n<div class=\"place-thumb\">\n<a class=\"entry-thumb\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/\">\n<img alt=\"UMATTERCARE\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1404\" loading=\"lazy\" sizes=\"(max-width: 2112px) 100vw, 2112px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3.png 2112w, https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3-300x199.png 300w, https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3-1024x681.png 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3-768x511.png 768w, https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3-1536x1021.png 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2023/01/UMATTERCARE3-600x399.png 600w\" width=\"2112\"/> </a>\n</div>\n<div class=\"entry-detail\">\n<div class=\"entry-head\">\n<div class=\"inner-head\">\n<div class=\"place-term\">\n<div class=\"place-type list-item\">\n<span>Aftercare</span><span>Assessment</span><span>Family Counselling</span><span>Group Counselling</span><span>Holistic Treatment Services</span><span>Individual Counselling</span><span>Interventionists</span><span>Prevention / Education</span><span>Private Rehab</span><span>Residential Drug Rehab</span><span>Sober Living</span><span>Substance Abuse Treatment</span> </div>\n<div class=\"place-city\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-location/vaughan/\">Vaughan</a>\n</div>\n</div>\n<!--<span class=\"place-featured\">\n                                                    Featured </span>-->\n</div>\n<h5 class=\"place-title\" itemprop=\"name\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/umattercare-mental-health-and-addiction-services/\" itemprop=\"url\">UMATTERCARE- Mental Health and Addiction Services</a>\n</h5>\n<div class=\"place-address\">\n<p class=\"eltdf-lli-location-address\">\n<i class=\"eltdf-icon-ion-icon ion-android-pin\"></i>                                                    97 Bonnyview Dr, Etobicoke, ON M8Y 3G8, Canada                                                </p>\n</div>\n<!-- post excerpt -->\n</div>\n<div class=\"entry-bottom\">\n<div class=\"left-bottom\">\n<div class=\"place-preview\">\n<div class=\"place-rating\">\n<span>0</span>\n<i class=\"eltdf-icon-ion-icon ion-android-star\"></i>\n</div>\n<span class=\"count-reviews\">\n                                                        (0 Reviews)\n                                                    </span>\n</div>\n<div class=\"place-price\">\n<span>$$$                                                    </span>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n<div class=\"location-faqs\">\n</div>\n</main>\n</div>\n</div>\n</div></body>"
+}

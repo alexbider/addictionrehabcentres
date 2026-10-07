@@ -1,0 +1,1092 @@
+{
+ "schema": "arc-content/1",
+ "slug": "teen-drug-abuse",
+ "status": "REMAINING",
+ "page_type": "blog-post",
+ "wp_type": "post",
+ "template": "BlogPost",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "B1-B6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/teen-drug-abuse/",
+  "path": "/teen-drug-abuse/",
+  "wp_items": [
+   {
+    "id": 942,
+    "type": "post",
+    "title": "Teen Drug Abuse",
+    "date": "2015-07-13T16:36:17",
+    "modified": "2022-09-13T13:28:11",
+    "status": "publish",
+    "yoast_title": "Teen Drug Abuse - Addiction Rehab Centers",
+    "words_rest": 1034
+   }
+  ],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/teen-drug-abuse/",
+ "seo": {
+  "meta_title": "Teen Drug Abuse - Addiction Rehab Centers",
+  "meta_description": "Read this article for a detailed overview on teen drug abuse, including why teens use drugs. Contact us for information on various addiction recovery programs.",
+  "canonical_source": "https://addictionrehabcenters.ca/teen-drug-abuse/",
+  "og": {
+   "title": "Teen Drug Abuse - Addiction Rehab Centers",
+   "description": "Read this article for a detailed overview on teen drug abuse, including why teens use drugs. Contact us for information on various addiction recovery programs.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#article",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/"
+      },
+      "author": {
+       "name": "Developer",
+       "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8"
+      },
+      "headline": "Teen Drug Abuse",
+      "datePublished": "2015-07-13T16:36:17+00:00",
+      "dateModified": "2022-09-13T13:28:11+00:00",
+      "mainEntityOfPage": {
+       "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/"
+      },
+      "wordCount": 1046,
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+      "keywords": [
+       "abuse",
+       "drugs",
+       "teen",
+       "Teen Drug Abuse"
+      ],
+      "articleSection": [
+       "Helpful Articles"
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/",
+      "url": "https://addictionrehabcenters.ca/teen-drug-abuse/",
+      "name": "Teen Drug Abuse - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+      "datePublished": "2015-07-13T16:36:17+00:00",
+      "dateModified": "2022-09-13T13:28:11+00:00",
+      "description": "Read this article for a detailed overview on teen drug abuse, including why teens use drugs. Contact us for information on various addiction recovery programs.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/teen-drug-abuse/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+      "width": 1920,
+      "height": 1081,
+      "caption": "teen drug abuse"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/teen-drug-abuse/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Teen Drug Abuse"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://addictionrehabcenters.ca/#/schema/person/e45f4ef7e720f7c40486c00fb16859e8",
+      "name": "Developer",
+      "image": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "url": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "contentUrl": "https://secure.gravatar.com/avatar/56ca5d082184bf5661a9f98b49581bcee35fab35fa56730142311597c7ca34e2?s=96&d=mm&r=g",
+       "caption": "Developer"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "Teen Drug Abuse",
+ "title_bar_h1": "Addiction Rehab Centers",
+ "word_count": 1042,
+ "features": [],
+ "dup_note": "",
+ "headings": [
+  [
+   "h1",
+   "Teen Drug Abuse"
+  ],
+  [
+   "h3",
+   "The Scope of the Problem"
+  ],
+  [
+   "h3",
+   "Why Do Teens Use Drugs?"
+  ],
+  [
+   "h3",
+   "The Difference Between Teen Drug Abuse and Teen Drug Addiction?"
+  ],
+  [
+   "h3",
+   "Signs Your Teen Has a Problem"
+  ],
+  [
+   "h2",
+   "Treatment for Teen Drug Abuse"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+   "local_path": "images/teen-drug-abuse/teen-drug-abuse.jpg",
+   "alt": "teen drug abuse",
+   "width": 1920,
+   "height": 1081,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/2015/00/",
+   "text": "July 13, 2015",
+   "kind": "taxonomy-dropped",
+   "new": "/2015/00/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/category/helpful-articles/",
+   "text": "Helpful Articles",
+   "kind": "internal-redirect",
+   "new": "/blog/",
+   "target_status": "NOT NEEDED -> 301",
+   "note": "Taxonomy archive: covered by /blog category filter; 301 old URL"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-abuse-explained/",
+   "text": "Drug abuse",
+   "kind": "internal",
+   "new": "/drug-abuse-explained/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends",
+   "text": "These statistics",
+   "kind": "external",
+   "new": "https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends"
+  },
+  {
+   "old_href": "https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use",
+   "text": "Prescription drugs",
+   "kind": "external",
+   "new": "https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/",
+   "text": "Toronto Addiction Centre",
+   "kind": "internal",
+   "new": "/",
+   "target_status": "BUILT"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-rehab/",
+   "text": "Drug Rehab Program",
+   "kind": "internal",
+   "new": "/drug-rehab/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/drug-addiction-therapy-explained/",
+   "text": "Drug Addiction Therapy Explained",
+   "kind": "internal",
+   "new": "/drug-addiction-therapy-explained/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+   "text": "Effects of Drug Addiction",
+   "kind": "internal",
+   "new": "/effects-of-drug-addiction/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+   "text": "10 Facts About Drug Addiction You Need to Know",
+   "kind": "internal",
+   "new": "/10-drug-addiction-facts-you-need-to-know/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://teens.drugabuse.gov/",
+   "text": "NIDA for Teens: The Science Behind Drug Abuse",
+   "kind": "external",
+   "new": "https://teens.drugabuse.gov/"
+  },
+  {
+   "old_href": "https://www.medicinenet.com/teen_drug_abuse/article.htm",
+   "text": "Teen Drug Abuse: Facts & Statistics",
+   "kind": "external",
+   "new": "https://www.medicinenet.com/teen_drug_abuse/article.htm"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "image",
+     "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+     "alt": "teen drug abuse",
+     "width": "1920",
+     "height": "1081"
+    },
+    {
+     "type": "text",
+     "text": "July 13, 2015",
+     "was_link": true
+    },
+    {
+     "type": "text",
+     "text": "Helpful Articles",
+     "was_link": true
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 1,
+   "heading": "Teen Drug Abuse",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Though teen drug abuse has decreased somewhat over the last two decades, there’s evidence that it’s steadily ticking back up. If your teenager abuses drugs—or you’re worried that your own drug abuse has escalated out of control—help is available.",
+     "html": "Though teen drug abuse has decreased somewhat over the last two decades, there’s evidence that it’s steadily ticking back up. If your teenager abuses drugs—or you’re worried that your own drug abuse has escalated out of control—help is available.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Drug abuse is not a behavior problem or a personal choice, and you cannot punish your child into sobriety. Instead, teen drug addiction is a serious and life-threatening disease that demands prompt and intensive treatment.",
+     "html": "<a data-wpel-link=\"internal\" href=\"/drug-abuse-explained/\">Drug abuse</a> is not a behavior problem or a personal choice, and you cannot punish your child into sobriety. Instead, <strong>teen drug addiction is a serious and life-threatening disease</strong> that demands prompt and intensive treatment.",
+     "links": [
+      {
+       "old": "https://addictionrehabcenters.ca/drug-abuse-explained/",
+       "text": "Drug abuse"
+      }
+     ],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "The Scope of the Problem",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "If you think that you are your teen are alone in the fight against drug abuse, think again. These statistics make it clear that teen drug abuse is a widespread societal problem, with no fast or easy solutions:",
+       "html": "If you think that you are your teen are alone in the fight against drug abuse, think again. <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends\" rel=\"external noopener noreferrer\">These statistics</a> make it clear that teen drug abuse is a widespread societal problem, with no fast or easy solutions:",
+       "links": [
+        {
+         "old": "https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends",
+         "text": "These statistics"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "37% of high schoolers have used alcohol in the last month, with 19% engaging in binge drinking.",
+         "html": "37% of high schoolers have used alcohol in the last month, with 19% engaging in binge drinking.",
+         "links": []
+        },
+        {
+         "text": "Six percent of 12th graders use marijuana daily, with more than 20% trying marijuana at some point. Nearly half of teens say marijuana is easy to get.",
+         "html": "Six percent of 12<sup>th</sup> graders use marijuana daily, with more than 20% trying marijuana at some point. Nearly half of teens say marijuana is easy to get.",
+         "links": []
+        },
+        {
+         "text": "Prescription drugs are increasingly popular, with nearly 10% of high school seniors using these drugs without a prescription at least once during the past year.",
+         "html": "Prescription drugs are increasingly popular, with nearly 10% of high school seniors using these drugs without a prescription at least once during the past year.",
+         "links": []
+        },
+        {
+         "text": "Prescription drugs kill more teens than cocaine and heroin combined.",
+         "html": "<a data-wpel-link=\"external\" href=\"https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use\" rel=\"external noopener noreferrer\">Prescription drugs</a> kill more teens than cocaine and heroin combined.",
+         "links": [
+          {
+           "old": "https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use",
+           "text": "Prescription drugs"
+          }
+         ]
+        },
+        {
+         "text": "Adderall abuse is increasing among teens, with nearly 10% abusing the drug at least once.",
+         "html": "Adderall abuse is increasing among teens, with nearly 10% abusing the drug at least once.",
+         "links": []
+        },
+        {
+         "text": "More than half of teens do not believe regular steroid use is dangerous, and 60% think marijuana is largely harmless. Teens are more likely to smoke marijuana than cigarettes.",
+         "html": "More than half of teens do not believe regular steroid use is dangerous, and 60% think marijuana is largely harmless. Teens are more likely to smoke marijuana than cigarettes.",
+         "links": []
+        },
+        {
+         "text": "Twenty-eight percent of kids have used alcohol by the eighth grade.",
+         "html": "Twenty-eight percent of kids have used alcohol by the eighth grade.",
+         "links": []
+        },
+        {
+         "text": "Half of high schoolers think trying crack or cocaine once is harmless.",
+         "html": "Half of high schoolers think trying crack or cocaine once is harmless.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Why Do Teens Use Drugs?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "It’s easy for parents to forget that, though peer pressure is strong, teens are individuals. Not all teens use drugs, even when exposed to pressure to do so. Thus the motivations for drug use are as diverse as teenagers themselves. Some common risk factors for drug use among teenagers include:",
+       "html": "It’s easy for parents to forget that, though peer pressure is strong, teens are individuals. Not all teens use drugs, even when exposed to pressure to do so. Thus the motivations for drug use are as diverse as teenagers themselves. Some common risk factors for drug use among teenagers include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Mental illness. Many teens “self-medicate” with drugs or alcohol, while others try to take the edge off of prescription pills with illegal drugs.",
+         "html": "Mental illness. Many teens “self-medicate” with drugs or alcohol, while others try to take the edge off of prescription pills with illegal drugs.",
+         "links": []
+        },
+        {
+         "text": "A history of trauma or abuse. For some teenagers, drug use is the first clue to their parents that they have been raped or otherwise abused, so if your child suddenly begins using drugs, it’s important to explore the possibility that he or she could be coping with trauma.",
+         "html": "A history of trauma or abuse. For some teenagers, drug use is the first clue to their parents that they have been raped or otherwise abused, so if your child suddenly begins using drugs, it’s important to explore the possibility that he or she could be coping with trauma.",
+         "links": []
+        },
+        {
+         "text": "A family history of drug or alcohol abuse. This means that your child is genetically vulnerable to the disease of addiction, and further suggests that addiction has been normalized, particularly if your teen saw a parent abuse alcohol or drugs.",
+         "html": "A family history of drug or alcohol abuse. This means that your child is genetically vulnerable to the disease of addiction, and further suggests that addiction has been normalized, particularly if your teen saw a parent abuse alcohol or drugs.",
+         "links": []
+        },
+        {
+         "text": "Substance abuse among friends.",
+         "html": "Substance abuse among friends.",
+         "links": []
+        },
+        {
+         "text": "An early history of aggressive behavior.",
+         "html": "An early history of aggressive behavior.",
+         "links": []
+        },
+        {
+         "text": "Drug availability at school or in the home.",
+         "html": "Drug availability at school or in the home.",
+         "links": []
+        },
+        {
+         "text": "Living in poverty.",
+         "html": "Living in poverty.",
+         "links": []
+        },
+        {
+         "text": "Inadequate parental supervision. Research consistently proves that a strong, open, and affectionate relationship between a parent and child can protects against drug and alcohol abuse. Authoritarian and punitive parenting, however, may increase the likelihood that your teen will abuse alcohol or drugs.",
+         "html": "Inadequate parental supervision. Research consistently proves that a strong, open, and affectionate relationship between a parent and child can protects against drug and alcohol abuse. Authoritarian and punitive parenting, however, may increase the likelihood that your teen will abuse alcohol or drugs.",
+         "links": []
+        }
+       ]
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "The Difference Between Teen Drug Abuse and Teen Drug Addiction?",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Though parents understandably view any drug use among teens as the sign of a serious problem, there’s a clear clinical distinction between drug abuse and drug addiction. Drug abuse is any misuse of a drug. Examples of drug abuse include:",
+       "html": "Though parents understandably view any drug use among teens as the sign of a serious problem, there’s a clear clinical distinction between drug abuse and drug addiction. Drug abuse is any misuse of a drug. Examples of drug abuse include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Using a prescription drug at a higher dose than recommended, for longer than recommended, or without a prescription.",
+         "html": "Using a prescription drug at a higher dose than recommended, for longer than recommended, or without a prescription.",
+         "links": []
+        },
+        {
+         "text": "Using a loved one’s prescription drug.",
+         "html": "Using a loved one’s prescription drug.",
+         "links": []
+        },
+        {
+         "text": "Using any illegal drug, including alcohol.",
+         "html": "Using any illegal drug, including alcohol.",
+         "links": []
+        },
+        {
+         "text": "Using a drug to get high, not for medical purposes. For instance, some teens may fake symptoms of ADHD to get access to stimulant drugs.",
+         "html": "Using a drug to get high, not for medical purposes. For instance, some teens may fake symptoms of ADHD to get access to stimulant drugs.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Drug abuse is a risk factor for addiction, but not all teen drug abusers become addicts. For this reason, parents need to promptly intervene when they suspect their child is abusing drugs. Abuse can give rise to a chemical dependency that makes it nearly impossible—and potentially even dangerous—for your child to stop using drugs without medical assistance.",
+       "html": "Drug abuse is a risk factor for addiction, but <strong>not all teen drug abusers become addicts</strong>. For this reason, parents need to promptly intervene when they suspect their child is abusing drugs. Abuse can give rise to a chemical dependency that makes it nearly impossible—and potentially even dangerous—for your child to stop using drugs without medical assistance.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Signs Your Teen Has a Problem",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Some parents mistake the signs of drug abuse for normal teen behavior. It’s normal for teens to be withdrawn and sullen. It’s not normal for them to completely disregard everything they once loved. Consequently, knowing your teen and what’s normal for him or her is not only a hallmark of good parenting, but also a prerequisite to detecting signs of drug addiction. Some signs your teen has become addicted include:",
+       "html": "Some parents mistake the signs of drug abuse for normal teen behavior. It’s normal for teens to be withdrawn and sullen. It’s not normal for them to completely disregard everything they once loved. Consequently, knowing your teen and what’s normal for him or her is not only a hallmark of good parenting, but also a prerequisite to detecting signs of drug addiction. Some signs your teen has become addicted include:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Aggressive or hostile behavior outside the scope of how your teen normally behaves.",
+         "html": "Aggressive or hostile behavior outside the scope of how your teen normally behaves.",
+         "links": []
+        },
+        {
+         "text": "Withdrawal symptoms when you teen attempts to stop using drugs.",
+         "html": "Withdrawal symptoms when you teen attempts to stop using drugs.",
+         "links": []
+        },
+        {
+         "text": "Track marks or bruises on his or her arms.",
+         "html": "Track marks or bruises on his or her arms.",
+         "links": []
+        },
+        {
+         "text": "Frequent bloody noses or respiratory infections.",
+         "html": "Frequent bloody noses or respiratory infections.",
+         "links": []
+        },
+        {
+         "text": "Changes in mood or personality, especially anxiety or depression.",
+         "html": "Changes in mood or personality, especially anxiety or depression.",
+         "links": []
+        },
+        {
+         "text": "Changes in friends.",
+         "html": "Changes in friends.",
+         "links": []
+        },
+        {
+         "text": "Changes in grades or academic status.",
+         "html": "Changes in grades or academic status.",
+         "links": []
+        },
+        {
+         "text": "Loss of interest in previously beloved activities or people.",
+         "html": "Loss of interest in previously beloved activities or people.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "Early treatment can save your child’s life, so don’t waste time debating the finer points of your addiction, If you have reason to believe your child has a problem, the time to seek help is now.",
+       "html": "Early treatment can save your child’s life, so don’t waste time debating the finer points of your addiction, If you have reason to believe your child has a problem, the time to seek help is now.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 2,
+     "heading": "Treatment for Teen Drug Abuse",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "No matter how much you love your child, you cannot cure him or her of his or her addiction, and you certainly can’t punish your child into giving up drugs. Teen drug abusers need prompt and professional treatment that:",
+       "html": "No matter how much you love your child, you cannot cure him or her of his or her addiction, and you certainly can’t punish your child into giving up drugs. Teen drug abusers need prompt and professional treatment that:",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "ul",
+       "ordered": false,
+       "items": [
+        {
+         "text": "Addresses the medical effects of drug abuse by offering medical detox assistance and long-term health care.",
+         "html": "Addresses the medical effects of drug abuse by offering medical detox assistance and long-term health care.",
+         "links": []
+        },
+        {
+         "text": "Helps your child manage the psychological and interpersonal problems that led to her drug addiction, as well as the psychological effects of withdrawal. Both family and individual counseling can help with this goal.",
+         "html": "Helps your child manage the psychological and interpersonal problems that led to her drug addiction, as well as the psychological effects of withdrawal. Both family and individual counseling can help with this goal.",
+         "links": []
+        },
+        {
+         "text": "Teaches your child the skills that can keep him or her sober for a lifetime, such as resistance to peer pressure, healthy eating, and maintaining sound psychological health.",
+         "html": "Teaches your child the skills that can keep him or her sober for a lifetime, such as resistance to peer pressure, healthy eating, and maintaining sound psychological health.",
+         "links": []
+        }
+       ]
+      },
+      {
+       "type": "p",
+       "text": "At Toronto Addiction Centre, we treat the whole person—not just the addiction. Let us help your family move beyond your teen’s drug addiction. Your child can have a wonderful, addiction-free life, but only if you seek help before it’s too late.",
+       "html": "At <a data-wpel-link=\"internal\" href=\"/\">Toronto Addiction Centre</a>, we treat the whole person—not just the addiction. <strong>Let us help your family move beyond your teen’s drug addiction</strong>. Your child can have a wonderful, addiction-free life, but only if you seek help before it’s too late.",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/",
+         "text": "Toronto Addiction Centre"
+        }
+       ],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Further Reading:",
+       "html": "<strong>Further Reading:</strong>",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Drug Rehab Program Drug Addiction Therapy Explained Effects of Drug Addiction 10 Facts About Drug Addiction You Need to Know NIDA for Teens: The Science Behind Drug Abuse Teen Drug Abuse: Facts & Statistics",
+       "html": "<a data-wpel-link=\"internal\" href=\"/drug-rehab/\">Drug Rehab Program</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-therapy-explained/\">Drug Addiction Therapy Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"/effects-of-drug-addiction/\">Effects of Drug Addiction</a><br/>\n<a data-wpel-link=\"internal\" href=\"/10-drug-addiction-facts-you-need-to-know/\">10 Facts About Drug Addiction You Need to Know</a><br/>\n<a data-wpel-link=\"external\" href=\"https://teens.drugabuse.gov/\" rel=\"noopener external noreferrer\" target=\"_blank\">NIDA for Teens: The Science Behind Drug Abuse</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.medicinenet.com/teen_drug_abuse/article.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">Teen Drug Abuse: Facts &amp; Statistics</a>",
+       "links": [
+        {
+         "old": "https://addictionrehabcenters.ca/drug-rehab/",
+         "text": "Drug Rehab Program"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/drug-addiction-therapy-explained/",
+         "text": "Drug Addiction Therapy Explained"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+         "text": "Effects of Drug Addiction"
+        },
+        {
+         "old": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+         "text": "10 Facts About Drug Addiction You Need to Know"
+        },
+        {
+         "old": "https://teens.drugabuse.gov/",
+         "text": "NIDA for Teens: The Science Behind Drug Abuse"
+        },
+        {
+         "old": "https://www.medicinenet.com/teen_drug_abuse/article.htm",
+         "text": "Teen Drug Abuse: Facts & Statistics"
+        }
+       ],
+       "images": []
+      }
+     ],
+     "children": []
+    }
+   ]
+  }
+ ],
+ "blocks": [
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+   "alt": "teen drug abuse",
+   "width": "1920",
+   "height": "1081"
+  },
+  {
+   "type": "text",
+   "text": "July 13, 2015",
+   "was_link": true
+  },
+  {
+   "type": "text",
+   "text": "Helpful Articles",
+   "was_link": true
+  },
+  {
+   "type": "h1",
+   "text": "Teen Drug Abuse",
+   "html": "Teen Drug Abuse",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Though teen drug abuse has decreased somewhat over the last two decades, there’s evidence that it’s steadily ticking back up. If your teenager abuses drugs—or you’re worried that your own drug abuse has escalated out of control—help is available.",
+   "html": "Though teen drug abuse has decreased somewhat over the last two decades, there’s evidence that it’s steadily ticking back up. If your teenager abuses drugs—or you’re worried that your own drug abuse has escalated out of control—help is available.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug abuse is not a behavior problem or a personal choice, and you cannot punish your child into sobriety. Instead, teen drug addiction is a serious and life-threatening disease that demands prompt and intensive treatment.",
+   "html": "<a data-wpel-link=\"internal\" href=\"/drug-abuse-explained/\">Drug abuse</a> is not a behavior problem or a personal choice, and you cannot punish your child into sobriety. Instead, <strong>teen drug addiction is a serious and life-threatening disease</strong> that demands prompt and intensive treatment.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-abuse-explained/",
+     "text": "Drug abuse"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "The Scope of the Problem",
+   "html": "The Scope of the Problem",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "If you think that you are your teen are alone in the fight against drug abuse, think again. These statistics make it clear that teen drug abuse is a widespread societal problem, with no fast or easy solutions:",
+   "html": "If you think that you are your teen are alone in the fight against drug abuse, think again. <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends\" rel=\"external noopener noreferrer\">These statistics</a> make it clear that teen drug abuse is a widespread societal problem, with no fast or easy solutions:",
+   "links": [
+    {
+     "old": "https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends",
+     "text": "These statistics"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "37% of high schoolers have used alcohol in the last month, with 19% engaging in binge drinking.",
+     "html": "37% of high schoolers have used alcohol in the last month, with 19% engaging in binge drinking.",
+     "links": []
+    },
+    {
+     "text": "Six percent of 12th graders use marijuana daily, with more than 20% trying marijuana at some point. Nearly half of teens say marijuana is easy to get.",
+     "html": "Six percent of 12<sup>th</sup> graders use marijuana daily, with more than 20% trying marijuana at some point. Nearly half of teens say marijuana is easy to get.",
+     "links": []
+    },
+    {
+     "text": "Prescription drugs are increasingly popular, with nearly 10% of high school seniors using these drugs without a prescription at least once during the past year.",
+     "html": "Prescription drugs are increasingly popular, with nearly 10% of high school seniors using these drugs without a prescription at least once during the past year.",
+     "links": []
+    },
+    {
+     "text": "Prescription drugs kill more teens than cocaine and heroin combined.",
+     "html": "<a data-wpel-link=\"external\" href=\"https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use\" rel=\"external noopener noreferrer\">Prescription drugs</a> kill more teens than cocaine and heroin combined.",
+     "links": [
+      {
+       "old": "https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use",
+       "text": "Prescription drugs"
+      }
+     ]
+    },
+    {
+     "text": "Adderall abuse is increasing among teens, with nearly 10% abusing the drug at least once.",
+     "html": "Adderall abuse is increasing among teens, with nearly 10% abusing the drug at least once.",
+     "links": []
+    },
+    {
+     "text": "More than half of teens do not believe regular steroid use is dangerous, and 60% think marijuana is largely harmless. Teens are more likely to smoke marijuana than cigarettes.",
+     "html": "More than half of teens do not believe regular steroid use is dangerous, and 60% think marijuana is largely harmless. Teens are more likely to smoke marijuana than cigarettes.",
+     "links": []
+    },
+    {
+     "text": "Twenty-eight percent of kids have used alcohol by the eighth grade.",
+     "html": "Twenty-eight percent of kids have used alcohol by the eighth grade.",
+     "links": []
+    },
+    {
+     "text": "Half of high schoolers think trying crack or cocaine once is harmless.",
+     "html": "Half of high schoolers think trying crack or cocaine once is harmless.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "Why Do Teens Use Drugs?",
+   "html": "Why Do Teens Use Drugs?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "It’s easy for parents to forget that, though peer pressure is strong, teens are individuals. Not all teens use drugs, even when exposed to pressure to do so. Thus the motivations for drug use are as diverse as teenagers themselves. Some common risk factors for drug use among teenagers include:",
+   "html": "It’s easy for parents to forget that, though peer pressure is strong, teens are individuals. Not all teens use drugs, even when exposed to pressure to do so. Thus the motivations for drug use are as diverse as teenagers themselves. Some common risk factors for drug use among teenagers include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Mental illness. Many teens “self-medicate” with drugs or alcohol, while others try to take the edge off of prescription pills with illegal drugs.",
+     "html": "Mental illness. Many teens “self-medicate” with drugs or alcohol, while others try to take the edge off of prescription pills with illegal drugs.",
+     "links": []
+    },
+    {
+     "text": "A history of trauma or abuse. For some teenagers, drug use is the first clue to their parents that they have been raped or otherwise abused, so if your child suddenly begins using drugs, it’s important to explore the possibility that he or she could be coping with trauma.",
+     "html": "A history of trauma or abuse. For some teenagers, drug use is the first clue to their parents that they have been raped or otherwise abused, so if your child suddenly begins using drugs, it’s important to explore the possibility that he or she could be coping with trauma.",
+     "links": []
+    },
+    {
+     "text": "A family history of drug or alcohol abuse. This means that your child is genetically vulnerable to the disease of addiction, and further suggests that addiction has been normalized, particularly if your teen saw a parent abuse alcohol or drugs.",
+     "html": "A family history of drug or alcohol abuse. This means that your child is genetically vulnerable to the disease of addiction, and further suggests that addiction has been normalized, particularly if your teen saw a parent abuse alcohol or drugs.",
+     "links": []
+    },
+    {
+     "text": "Substance abuse among friends.",
+     "html": "Substance abuse among friends.",
+     "links": []
+    },
+    {
+     "text": "An early history of aggressive behavior.",
+     "html": "An early history of aggressive behavior.",
+     "links": []
+    },
+    {
+     "text": "Drug availability at school or in the home.",
+     "html": "Drug availability at school or in the home.",
+     "links": []
+    },
+    {
+     "text": "Living in poverty.",
+     "html": "Living in poverty.",
+     "links": []
+    },
+    {
+     "text": "Inadequate parental supervision. Research consistently proves that a strong, open, and affectionate relationship between a parent and child can protects against drug and alcohol abuse. Authoritarian and punitive parenting, however, may increase the likelihood that your teen will abuse alcohol or drugs.",
+     "html": "Inadequate parental supervision. Research consistently proves that a strong, open, and affectionate relationship between a parent and child can protects against drug and alcohol abuse. Authoritarian and punitive parenting, however, may increase the likelihood that your teen will abuse alcohol or drugs.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "The Difference Between Teen Drug Abuse and Teen Drug Addiction?",
+   "html": "The Difference Between Teen Drug Abuse and Teen Drug Addiction?",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Though parents understandably view any drug use among teens as the sign of a serious problem, there’s a clear clinical distinction between drug abuse and drug addiction. Drug abuse is any misuse of a drug. Examples of drug abuse include:",
+   "html": "Though parents understandably view any drug use among teens as the sign of a serious problem, there’s a clear clinical distinction between drug abuse and drug addiction. Drug abuse is any misuse of a drug. Examples of drug abuse include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Using a prescription drug at a higher dose than recommended, for longer than recommended, or without a prescription.",
+     "html": "Using a prescription drug at a higher dose than recommended, for longer than recommended, or without a prescription.",
+     "links": []
+    },
+    {
+     "text": "Using a loved one’s prescription drug.",
+     "html": "Using a loved one’s prescription drug.",
+     "links": []
+    },
+    {
+     "text": "Using any illegal drug, including alcohol.",
+     "html": "Using any illegal drug, including alcohol.",
+     "links": []
+    },
+    {
+     "text": "Using a drug to get high, not for medical purposes. For instance, some teens may fake symptoms of ADHD to get access to stimulant drugs.",
+     "html": "Using a drug to get high, not for medical purposes. For instance, some teens may fake symptoms of ADHD to get access to stimulant drugs.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Drug abuse is a risk factor for addiction, but not all teen drug abusers become addicts. For this reason, parents need to promptly intervene when they suspect their child is abusing drugs. Abuse can give rise to a chemical dependency that makes it nearly impossible—and potentially even dangerous—for your child to stop using drugs without medical assistance.",
+   "html": "Drug abuse is a risk factor for addiction, but <strong>not all teen drug abusers become addicts</strong>. For this reason, parents need to promptly intervene when they suspect their child is abusing drugs. Abuse can give rise to a chemical dependency that makes it nearly impossible—and potentially even dangerous—for your child to stop using drugs without medical assistance.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Signs Your Teen Has a Problem",
+   "html": "Signs Your Teen Has a Problem",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Some parents mistake the signs of drug abuse for normal teen behavior. It’s normal for teens to be withdrawn and sullen. It’s not normal for them to completely disregard everything they once loved. Consequently, knowing your teen and what’s normal for him or her is not only a hallmark of good parenting, but also a prerequisite to detecting signs of drug addiction. Some signs your teen has become addicted include:",
+   "html": "Some parents mistake the signs of drug abuse for normal teen behavior. It’s normal for teens to be withdrawn and sullen. It’s not normal for them to completely disregard everything they once loved. Consequently, knowing your teen and what’s normal for him or her is not only a hallmark of good parenting, but also a prerequisite to detecting signs of drug addiction. Some signs your teen has become addicted include:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Aggressive or hostile behavior outside the scope of how your teen normally behaves.",
+     "html": "Aggressive or hostile behavior outside the scope of how your teen normally behaves.",
+     "links": []
+    },
+    {
+     "text": "Withdrawal symptoms when you teen attempts to stop using drugs.",
+     "html": "Withdrawal symptoms when you teen attempts to stop using drugs.",
+     "links": []
+    },
+    {
+     "text": "Track marks or bruises on his or her arms.",
+     "html": "Track marks or bruises on his or her arms.",
+     "links": []
+    },
+    {
+     "text": "Frequent bloody noses or respiratory infections.",
+     "html": "Frequent bloody noses or respiratory infections.",
+     "links": []
+    },
+    {
+     "text": "Changes in mood or personality, especially anxiety or depression.",
+     "html": "Changes in mood or personality, especially anxiety or depression.",
+     "links": []
+    },
+    {
+     "text": "Changes in friends.",
+     "html": "Changes in friends.",
+     "links": []
+    },
+    {
+     "text": "Changes in grades or academic status.",
+     "html": "Changes in grades or academic status.",
+     "links": []
+    },
+    {
+     "text": "Loss of interest in previously beloved activities or people.",
+     "html": "Loss of interest in previously beloved activities or people.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Early treatment can save your child’s life, so don’t waste time debating the finer points of your addiction, If you have reason to believe your child has a problem, the time to seek help is now.",
+   "html": "Early treatment can save your child’s life, so don’t waste time debating the finer points of your addiction, If you have reason to believe your child has a problem, the time to seek help is now.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Treatment for Teen Drug Abuse",
+   "html": "Treatment for Teen Drug Abuse",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "No matter how much you love your child, you cannot cure him or her of his or her addiction, and you certainly can’t punish your child into giving up drugs. Teen drug abusers need prompt and professional treatment that:",
+   "html": "No matter how much you love your child, you cannot cure him or her of his or her addiction, and you certainly can’t punish your child into giving up drugs. Teen drug abusers need prompt and professional treatment that:",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "ul",
+   "ordered": false,
+   "items": [
+    {
+     "text": "Addresses the medical effects of drug abuse by offering medical detox assistance and long-term health care.",
+     "html": "Addresses the medical effects of drug abuse by offering medical detox assistance and long-term health care.",
+     "links": []
+    },
+    {
+     "text": "Helps your child manage the psychological and interpersonal problems that led to her drug addiction, as well as the psychological effects of withdrawal. Both family and individual counseling can help with this goal.",
+     "html": "Helps your child manage the psychological and interpersonal problems that led to her drug addiction, as well as the psychological effects of withdrawal. Both family and individual counseling can help with this goal.",
+     "links": []
+    },
+    {
+     "text": "Teaches your child the skills that can keep him or her sober for a lifetime, such as resistance to peer pressure, healthy eating, and maintaining sound psychological health.",
+     "html": "Teaches your child the skills that can keep him or her sober for a lifetime, such as resistance to peer pressure, healthy eating, and maintaining sound psychological health.",
+     "links": []
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "text": "At Toronto Addiction Centre, we treat the whole person—not just the addiction. Let us help your family move beyond your teen’s drug addiction. Your child can have a wonderful, addiction-free life, but only if you seek help before it’s too late.",
+   "html": "At <a data-wpel-link=\"internal\" href=\"/\">Toronto Addiction Centre</a>, we treat the whole person—not just the addiction. <strong>Let us help your family move beyond your teen’s drug addiction</strong>. Your child can have a wonderful, addiction-free life, but only if you seek help before it’s too late.",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/",
+     "text": "Toronto Addiction Centre"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Further Reading:",
+   "html": "<strong>Further Reading:</strong>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Drug Rehab Program Drug Addiction Therapy Explained Effects of Drug Addiction 10 Facts About Drug Addiction You Need to Know NIDA for Teens: The Science Behind Drug Abuse Teen Drug Abuse: Facts & Statistics",
+   "html": "<a data-wpel-link=\"internal\" href=\"/drug-rehab/\">Drug Rehab Program</a><br/>\n<a data-wpel-link=\"internal\" href=\"/drug-addiction-therapy-explained/\">Drug Addiction Therapy Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"/effects-of-drug-addiction/\">Effects of Drug Addiction</a><br/>\n<a data-wpel-link=\"internal\" href=\"/10-drug-addiction-facts-you-need-to-know/\">10 Facts About Drug Addiction You Need to Know</a><br/>\n<a data-wpel-link=\"external\" href=\"https://teens.drugabuse.gov/\" rel=\"noopener external noreferrer\" target=\"_blank\">NIDA for Teens: The Science Behind Drug Abuse</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.medicinenet.com/teen_drug_abuse/article.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">Teen Drug Abuse: Facts &amp; Statistics</a>",
+   "links": [
+    {
+     "old": "https://addictionrehabcenters.ca/drug-rehab/",
+     "text": "Drug Rehab Program"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/drug-addiction-therapy-explained/",
+     "text": "Drug Addiction Therapy Explained"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/effects-of-drug-addiction/",
+     "text": "Effects of Drug Addiction"
+    },
+    {
+     "old": "https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/",
+     "text": "10 Facts About Drug Addiction You Need to Know"
+    },
+    {
+     "old": "https://teens.drugabuse.gov/",
+     "text": "NIDA for Teens: The Science Behind Drug Abuse"
+    },
+    {
+     "old": "https://www.medicinenet.com/teen_drug_abuse/article.htm",
+     "text": "Teen Drug Abuse: Facts & Statistics"
+    }
+   ],
+   "images": []
+  }
+ ],
+ "post": {
+  "published": "2015-07-13T16:36:17+00:00",
+  "modified": "2022-09-13T13:28:11+00:00",
+  "date_label": "July 13, 2015",
+  "categories": [
+   "Helpful Articles"
+  ],
+  "featured_image": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg",
+  "jsonld_author": "Developer",
+  "jsonld_wordCount": 1046,
+  "jsonld_thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg"
+ },
+ "raw_html": "<body><div class=\"eltdf-post-content\">\n<div class=\"eltdf-post-heading\">\n<div class=\"eltdf-post-image\">\n<img alt=\"teen drug abuse\" class=\"attachment-full size-full wp-post-image\" decoding=\"async\" height=\"1081\" loading=\"lazy\" sizes=\"(max-width: 1920px) 100vw, 1920px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse.jpg 1920w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse-300x169.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse-1024x577.jpg 1024w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse-768x432.jpg 768w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse-1536x865.jpg 1536w, https://addictionrehabcenters.ca/wp-content/uploads/2015/07/teen-drug-abuse-600x338.jpg 600w\" width=\"1920\"/> </div>\n<div class=\"eltdf-post-info-date entry-date published updated\" itemprop=\"dateCreated\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/2015/00/\" itemprop=\"url\">\n                July 13, 2015        </a>\n<meta content=\"UserComments: 0\" itemprop=\"interactionCount\"/>\n</div> </div>\n<div class=\"eltdf-post-text\">\n<div class=\"eltdf-post-text-inner\">\n<div class=\"eltdf-post-info-top\">\n<div class=\"eltdf-post-info-category\">\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/category/helpful-articles/\" rel=\"category tag\">Helpful Articles</a></div> </div>\n<div class=\"eltdf-post-text-main\">\n<h1 class=\"entry-title eltdf-post-title\" itemprop=\"name\">\n            Teen Drug Abuse    </h1> <p>Though teen drug abuse has decreased somewhat over the last two decades, there’s evidence that it’s steadily ticking back up. If your teenager abuses drugs—or you’re worried that your own drug abuse has escalated out of control—help is available.</p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-abuse-explained/\">Drug abuse</a> is not a behavior problem or a personal choice, and you cannot punish your child into sobriety. Instead, <strong>teen drug addiction is a serious and life-threatening disease</strong> that demands prompt and intensive treatment.</p>\n<h3>The Scope of the Problem</h3>\n<p>If you think that you are your teen are alone in the fight against drug abuse, think again. <a data-wpel-link=\"external\" href=\"https://www.drugabuse.gov/publications/drugfacts/high-school-youth-trends\" rel=\"external noopener noreferrer\">These statistics</a> make it clear that teen drug abuse is a widespread societal problem, with no fast or easy solutions:</p>\n<ul>\n<li>37% of high schoolers have used alcohol in the last month, with 19% engaging in binge drinking.</li>\n<li>Six percent of 12<sup>th</sup> graders use marijuana daily, with more than 20% trying marijuana at some point. Nearly half of teens say marijuana is easy to get.</li>\n<li>Prescription drugs are increasingly popular, with nearly 10% of high school seniors using these drugs without a prescription at least once during the past year.</li>\n<li><a data-wpel-link=\"external\" href=\"https://www.dosomething.org/facts/11-facts-about-teens-and-drug-use\" rel=\"external noopener noreferrer\">Prescription drugs</a> kill more teens than cocaine and heroin combined.</li>\n<li>Adderall abuse is increasing among teens, with nearly 10% abusing the drug at least once.</li>\n<li>More than half of teens do not believe regular steroid use is dangerous, and 60% think marijuana is largely harmless. Teens are more likely to smoke marijuana than cigarettes.</li>\n<li>Twenty-eight percent of kids have used alcohol by the eighth grade.</li>\n<li>Half of high schoolers think trying crack or cocaine once is harmless.</li>\n</ul>\n<h3>Why Do Teens Use Drugs?</h3>\n<p>It’s easy for parents to forget that, though peer pressure is strong, teens are individuals. Not all teens use drugs, even when exposed to pressure to do so. Thus the motivations for drug use are as diverse as teenagers themselves. Some common risk factors for drug use among teenagers include:</p>\n<ul>\n<li>Mental illness. Many teens “self-medicate” with drugs or alcohol, while others try to take the edge off of prescription pills with illegal drugs.</li>\n<li>A history of trauma or abuse. For some teenagers, drug use is the first clue to their parents that they have been raped or otherwise abused, so if your child suddenly begins using drugs, it’s important to explore the possibility that he or she could be coping with trauma.</li>\n<li>A family history of drug or alcohol abuse. This means that your child is genetically vulnerable to the disease of addiction, and further suggests that addiction has been normalized, particularly if your teen saw a parent abuse alcohol or drugs.</li>\n<li>Substance abuse among friends.</li>\n<li>An early history of aggressive behavior.</li>\n<li>Drug availability at school or in the home.</li>\n<li>Living in poverty.</li>\n<li>Inadequate parental supervision. Research consistently proves that a strong, open, and affectionate relationship between a parent and child can protects against drug and alcohol abuse. Authoritarian and punitive parenting, however, may increase the likelihood that your teen will abuse alcohol or drugs.</li>\n</ul>\n<h3>The Difference Between Teen Drug Abuse and Teen Drug Addiction?</h3>\n<p>Though parents understandably view any drug use among teens as the sign of a serious problem, there’s a clear clinical distinction between drug abuse and drug addiction. Drug abuse is any misuse of a drug. Examples of drug abuse include:</p>\n<ul>\n<li>Using a prescription drug at a higher dose than recommended, for longer than recommended, or without a prescription.</li>\n<li>Using a loved one’s prescription drug.</li>\n<li>Using any illegal drug, including alcohol.</li>\n<li>Using a drug to get high, not for medical purposes. For instance, some teens may fake symptoms of ADHD to get access to stimulant drugs.</li>\n</ul>\n<p>Drug abuse is a risk factor for addiction, but <strong>not all teen drug abusers become addicts</strong>. For this reason, parents need to promptly intervene when they suspect their child is abusing drugs. Abuse can give rise to a chemical dependency that makes it nearly impossible—and potentially even dangerous—for your child to stop using drugs without medical assistance.</p>\n<h3>Signs Your Teen Has a Problem</h3>\n<p>Some parents mistake the signs of drug abuse for normal teen behavior. It’s normal for teens to be withdrawn and sullen. It’s not normal for them to completely disregard everything they once loved. Consequently, knowing your teen and what’s normal for him or her is not only a hallmark of good parenting, but also a prerequisite to detecting signs of drug addiction. Some signs your teen has become addicted include:</p>\n<ul>\n<li>Aggressive or hostile behavior outside the scope of how your teen normally behaves.</li>\n<li>Withdrawal symptoms when you teen attempts to stop using drugs.</li>\n<li>Track marks or bruises on his or her arms.</li>\n<li>Frequent bloody noses or respiratory infections.</li>\n<li>Changes in mood or personality, especially anxiety or depression.</li>\n<li>Changes in friends.</li>\n<li>Changes in grades or academic status.</li>\n<li>Loss of interest in previously beloved activities or people.</li>\n</ul>\n<p>Early treatment can save your child’s life, so don’t waste time debating the finer points of your addiction, If you have reason to believe your child has a problem, the time to seek help is now.</p>\n<h2>Treatment for Teen Drug Abuse</h2>\n<p>No matter how much you love your child, you cannot cure him or her of his or her addiction, and you certainly can’t punish your child into giving up drugs. Teen drug abusers need prompt and professional treatment that:</p>\n<ul>\n<li>Addresses the medical effects of drug abuse by offering medical detox assistance and long-term health care.</li>\n<li>Helps your child manage the psychological and interpersonal problems that led to her drug addiction, as well as the psychological effects of withdrawal. Both family and individual counseling can help with this goal.</li>\n<li>Teaches your child the skills that can keep him or her sober for a lifetime, such as resistance to peer pressure, healthy eating, and maintaining sound psychological health.</li>\n</ul>\n<p>At <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/\">Toronto Addiction Centre</a>, we treat the whole person—not just the addiction. <strong>Let us help your family move beyond your teen’s drug addiction</strong>. Your child can have a wonderful, addiction-free life, but only if you seek help before it’s too late.</p>\n<p><strong>Further Reading:</strong></p>\n<p><a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-rehab/\">Drug Rehab Program</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/drug-addiction-therapy-explained/\">Drug Addiction Therapy Explained</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/effects-of-drug-addiction/\">Effects of Drug Addiction</a><br/>\n<a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/10-drug-addiction-facts-you-need-to-know/\">10 Facts About Drug Addiction You Need to Know</a><br/>\n<a data-wpel-link=\"external\" href=\"https://teens.drugabuse.gov/\" rel=\"noopener external noreferrer\" target=\"_blank\">NIDA for Teens: The Science Behind Drug Abuse</a><br/>\n<a data-wpel-link=\"external\" href=\"https://www.medicinenet.com/teen_drug_abuse/article.htm\" rel=\"noopener external noreferrer\" target=\"_blank\">Teen Drug Abuse: Facts &amp; Statistics</a></p>\n</div>\n<div class=\"eltdf-post-info-bottom clearfix\">\n<div class=\"eltdf-post-info-bottom-left\">\n</div>\n<div class=\"eltdf-post-info-bottom-right\">\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}

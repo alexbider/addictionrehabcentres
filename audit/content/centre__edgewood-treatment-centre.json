@@ -1,0 +1,3000 @@
+{
+ "schema": "arc-content/1",
+ "slug": "centre__edgewood-treatment-centre",
+ "status": "REMAINING",
+ "page_type": "centre",
+ "wp_type": "listing-item",
+ "template": "Centre",
+ "fit": "FIT WITH CHANGES",
+ "template_change_codes": "C1-C6",
+ "source": {
+  "url": "https://addictionrehabcenters.ca/edgewood-treatment-centre/",
+  "path": "/edgewood-treatment-centre/",
+  "wp_items": [],
+  "in_sitemap": true,
+  "in_nav_footer": false,
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+ },
+ "new_route": "/edgewood-treatment-centre/",
+ "seo": {
+  "meta_title": "Edgewood Treatment Centre - Addiction Rehab Centers",
+  "meta_description": "Edgewood Treatment Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+  "canonical_source": "https://addictionrehabcenters.ca/edgewood-treatment-centre/",
+  "og": {
+   "title": "Edgewood Treatment Centre - Addiction Rehab Centers",
+   "description": "Edgewood Treatment Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+   "image": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+   "type": "article"
+  },
+  "jsonld_source": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "@id": "https://addictionrehabcenters.ca/edgewood-treatment-centre/",
+      "url": "https://addictionrehabcenters.ca/edgewood-treatment-centre/",
+      "name": "Edgewood Treatment Centre - Addiction Rehab Centers",
+      "isPartOf": {
+       "@id": "https://addictionrehabcenters.ca/#website"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://addictionrehabcenters.ca/edgewood-treatment-centre/#primaryimage"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/edgewood-treatment-centre/#primaryimage"
+      },
+      "thumbnailUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+      "datePublished": "2023-04-24T07:36:21+00:00",
+      "dateModified": "2023-04-24T08:17:45+00:00",
+      "description": "Edgewood Treatment Centre offers a range of programs and services to help those affected by addiction. Find out their contact information.",
+      "breadcrumb": {
+       "@id": "https://addictionrehabcenters.ca/edgewood-treatment-centre/#breadcrumb"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [
+       {
+        "@type": "ReadAction",
+        "target": [
+         "https://addictionrehabcenters.ca/edgewood-treatment-centre/"
+        ]
+       }
+      ]
+     },
+     {
+      "@type": "ImageObject",
+      "inLanguage": "en-US",
+      "@id": "https://addictionrehabcenters.ca/edgewood-treatment-centre/#primaryimage",
+      "url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+      "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+      "width": 1920,
+      "height": 1282
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://addictionrehabcenters.ca/edgewood-treatment-centre/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://addictionrehabcenters.ca/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "FindAll Listing",
+        "item": "https://addictionrehabcenters.ca/search-listing/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Edgewood Treatment Centre"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "@id": "https://addictionrehabcenters.ca/#website",
+      "url": "https://addictionrehabcenters.ca/",
+      "name": "Addiction Rehab Centers",
+      "description": "Find The Best Addiction Rehab Centres",
+      "publisher": {
+       "@id": "https://addictionrehabcenters.ca/#organization"
+      },
+      "potentialAction": [
+       {
+        "@type": "SearchAction",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://addictionrehabcenters.ca/?s={search_term_string}"
+        },
+        "query-input": {
+         "@type": "PropertyValueSpecification",
+         "valueRequired": true,
+         "valueName": "search_term_string"
+        }
+       }
+      ],
+      "inLanguage": "en-US"
+     },
+     {
+      "@type": "Organization",
+      "@id": "https://addictionrehabcenters.ca/#organization",
+      "name": "Addiction Rehab Centers",
+      "url": "https://addictionrehabcenters.ca/",
+      "logo": {
+       "@type": "ImageObject",
+       "inLanguage": "en-US",
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/",
+       "url": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "contentUrl": "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addiction-rehab-centres-canada-logo.png",
+       "width": 600,
+       "height": 200,
+       "caption": "Addiction Rehab Centers"
+      },
+      "image": {
+       "@id": "https://addictionrehabcenters.ca/#/schema/logo/image/"
+      },
+      "sameAs": [
+       "https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "h1": "",
+ "title_bar_h1": "",
+ "word_count": 1224,
+ "features": [
+  "faq-heading"
+ ],
+ "dup_note": "",
+ "headings": [
+  [
+   "h3",
+   "Detox Program"
+  ],
+  [
+   "h3",
+   "Inpatient Care"
+  ],
+  [
+   "h3",
+   "Extended Care"
+  ],
+  [
+   "h3",
+   "Family Programs"
+  ],
+  [
+   "h3",
+   "Trauma & Addiction"
+  ],
+  [
+   "h3",
+   "Sex Addictions"
+  ],
+  [
+   "h3",
+   "Trauma & Psychological Injury"
+  ],
+  [
+   "h3",
+   "LGBTQ+"
+  ],
+  [
+   "h2",
+   "Edgewood Treatment Centre- Center Overview"
+  ],
+  [
+   "h3",
+   "Therapies"
+  ],
+  [
+   "h3",
+   "Treatment Philosophy"
+  ],
+  [
+   "h3",
+   "Conditions Treated"
+  ],
+  [
+   "h3",
+   "Aftercare"
+  ],
+  [
+   "h3",
+   "Amenities"
+  ],
+  [
+   "h3",
+   "Activities"
+  ],
+  [
+   "h3",
+   "Special Considerations"
+  ],
+  [
+   "h3",
+   "Verified by Addiction Rehab Centres"
+  ],
+  [
+   "h5",
+   "If You Are Looking For More Centres Near Ontario, Click here"
+  ],
+  [
+   "h3",
+   "Frequently Asked Questions About Edgewood Treatment Centre"
+  ],
+  [
+   "h4",
+   "More Tags"
+  ],
+  [
+   "h4",
+   "Business Hours"
+  ],
+  [
+   "h5",
+   "Social"
+  ],
+  [
+   "h4",
+   "Sponsored Ad"
+  ],
+  [
+   "h2",
+   "Start Your Journey Now"
+  ]
+ ],
+ "images": [
+  {
+   "role": "content",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "local_path": "images/_shared/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": 970,
+   "height": 920,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1282,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-11.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-11.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1283,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-10.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-10.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1282,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-9.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-9.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1282,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-8.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-8.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1283,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-7.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-7.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1282,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-6.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-6.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1282,
+   "download": "ok"
+  },
+  {
+   "role": "gallery",
+   "original_url": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-5.jpg",
+   "local_path": "images/centre__edgewood-treatment-centre/Edgewood-Treatment-Centre-5.jpg",
+   "alt": "",
+   "width": 1920,
+   "height": 1282,
+   "download": "ok"
+  }
+ ],
+ "links": [
+  {
+   "old_href": "https://addictionrehabcenters.ca/ontario-rehabs/",
+   "text": "here",
+   "kind": "internal",
+   "new": "/ontario-rehabs/",
+   "target_status": "REMAINING"
+  },
+  {
+   "old_href": "https://addictionrehabcenters.ca/listing-tag/private-rehab/",
+   "text": "Private Rehab",
+   "kind": "taxonomy-dropped",
+   "new": "/listing-tag/private-rehab/",
+   "target_status": "NOT NEEDED",
+   "note": "taxonomy/date archive not in sitemap; render as plain label or drop link"
+  },
+  {
+   "old_href": "tel:1-866-904-6035",
+   "text": "1-866-904-6035",
+   "kind": "tel",
+   "new": "tel:1-866-904-6035"
+  },
+  {
+   "old_href": "mailto:info@edgewoodhealthnetwork.com",
+   "text": "info@edgewoodhealthnetwork.com",
+   "kind": "mailto",
+   "new": "mailto:info@edgewoodhealthnetwork.com"
+  },
+  {
+   "old_href": "https://www.edgewoodhealthnetwork.com/",
+   "text": "https://www.edgewoodhealthnetwork.com/",
+   "kind": "external",
+   "new": "https://www.edgewoodhealthnetwork.com/"
+  },
+  {
+   "old_href": "https://web.facebook.com/ehncanada1/",
+   "text": "",
+   "kind": "external",
+   "new": "https://web.facebook.com/ehncanada1/"
+  },
+  {
+   "old_href": "https://twitter.com/ehncanada",
+   "text": "",
+   "kind": "external",
+   "new": "https://twitter.com/ehncanada"
+  },
+  {
+   "old_href": "https://www.instagram.com/ehncanada",
+   "text": "",
+   "kind": "external",
+   "new": "https://www.instagram.com/ehncanada"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  },
+  {
+   "old_href": "tel:1-855-885-4747",
+   "text": "Start Your Journey Now",
+   "kind": "tel",
+   "new": "tel:1-855-885-4747"
+  }
+ ],
+ "sections": [
+  {
+   "level": 0,
+   "heading": null,
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.",
+     "html": "Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Detox Program",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.",
+     "html": "Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Inpatient Care",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.",
+     "html": "Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Extended Care",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.",
+     "html": "Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Family Programs",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.",
+     "html": "At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Trauma & Addiction",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.",
+     "html": "Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Sex Addictions",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.",
+     "html": "Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "Trauma & Psychological Injury",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.",
+     "html": "Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 3,
+   "heading": "LGBTQ+",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.",
+     "html": "Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  },
+  {
+   "level": 2,
+   "heading": "Edgewood Treatment Centre- Center Overview",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.",
+     "html": "Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.",
+     "html": "Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.",
+     "links": [],
+     "images": []
+    },
+    {
+     "type": "p",
+     "text": "In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.",
+     "html": "In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": [
+    {
+     "level": 3,
+     "heading": "Therapies",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• 1-on-1 Counseling",
+       "html": "• 1-on-1 Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Art Therapy",
+       "html": "• Art Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cognitive Behavioral Therapy",
+       "html": "• Cognitive Behavioral Therapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physiotherapy",
+       "html": "• Physiotherapy",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Relapse Prevention Counseling",
+       "html": "• Relapse Prevention Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Yoga",
+       "html": "• Yoga",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Treatment Philosophy",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Holistic",
+       "html": "• Holistic",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Medical",
+       "html": "• Medical",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Personalized Treatment",
+       "html": "• Personalized Treatment",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Wellness",
+       "html": "• Wellness",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Conditions Treated",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Alcohol",
+       "html": "• Alcohol",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anger",
+       "html": "• Anger",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Anxiety",
+       "html": "• Anxiety",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Benzodiazepines",
+       "html": "• Benzodiazepines",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Chronic Relapse",
+       "html": "• Chronic Relapse",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Cocaine",
+       "html": "• Cocaine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Codependency",
+       "html": "• Codependency",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Ecstasy (MDMA)",
+       "html": "• Ecstasy (MDMA)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gambling",
+       "html": "• Gambling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Heroin",
+       "html": "• Heroin",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• LSD, psychedelics",
+       "html": "• LSD, psychedelics",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Marijuana (Cannabis)",
+       "html": "• Marijuana (Cannabis)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Methamphetamine",
+       "html": "• Methamphetamine",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Opioids",
+       "html": "• Opioids",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Prescription Drugs",
+       "html": "• Prescription Drugs",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Sex Addiction",
+       "html": "• Sex Addiction",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Synthetic Drugs",
+       "html": "• Synthetic Drugs",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Aftercare",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Family Follow-up Counseling",
+       "html": "• Family Follow-up Counseling",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Follow-up Sessions (in-person)",
+       "html": "• Follow-up Sessions (in-person)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recovery Coach",
+       "html": "• Recovery Coach",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Return Visits",
+       "html": "• Return Visits",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings",
+       "html": "• Support Meetings",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Support Meetings (on-site)",
+       "html": "• Support Meetings (on-site)",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Amenities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Air-Conditioned Rooms",
+       "html": "• Air-Conditioned Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Bathroom Essentials (towels, soap, shampoo)",
+       "html": "• Bathroom Essentials (towels, soap, shampoo)",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Desk",
+       "html": "• Desk",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Fitness Center",
+       "html": "• Fitness Center",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Gardens",
+       "html": "• Gardens",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Housekeeping",
+       "html": "• Housekeeping",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Outdoor Space",
+       "html": "• Outdoor Space",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Private or Shared Rooms",
+       "html": "• Private or Shared Rooms",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Recreation Room",
+       "html": "• Recreation Room",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• TV",
+       "html": "• TV",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Theater",
+       "html": "• Theater",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• View",
+       "html": "• View",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Walking Trails",
+       "html": "• Walking Trails",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Activities",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Games",
+       "html": "• Games",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Movies",
+       "html": "• Movies",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Physical Fitness",
+       "html": "• Physical Fitness",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Shopping",
+       "html": "• Shopping",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Special Considerations",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "• Executive Program",
+       "html": "• Executive Program",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "• Young Adults Program",
+       "html": "• Young Adults Program",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": []
+    },
+    {
+     "level": 3,
+     "heading": "Verified by Addiction Rehab Centres",
+     "blocks": [
+      {
+       "type": "p",
+       "text": "Edgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "html": "Edgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "p",
+       "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+       "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 5,
+       "heading": "If You Are Looking For More Centres Near Ontario, Click here",
+       "blocks": [],
+       "children": []
+      }
+     ]
+    },
+    {
+     "level": 3,
+     "heading": "Frequently Asked Questions About Edgewood Treatment Centre",
+     "blocks": [
+      {
+       "type": "link",
+       "text": "What type of addiction does Edgewood treat?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+       "html": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Is Edgewood covered by insurance?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+       "html": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "What is the success rate of Edgewood’s programs?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+       "html": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Can patients receive psychiatric care at Edgewood?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+       "html": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Can family members visit patients during their inpatient stay?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+       "html": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Can patients use their phone and internet while in treatment?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+       "html": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "How long do patients have to stay at Edgewood Treatment Centre?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+       "html": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+       "links": [],
+       "images": []
+      },
+      {
+       "type": "link",
+       "text": "Can patients access exercise facilities at Edgewood?",
+       "href": "",
+       "new_href": ""
+      },
+      {
+       "type": "p",
+       "text": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+       "html": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+       "links": [],
+       "images": []
+      }
+     ],
+     "children": [
+      {
+       "level": 4,
+       "heading": "More Tags",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Private Rehab",
+         "was_link": true
+        },
+        {
+         "type": "p",
+         "text": "1-866-904-6035",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-866-904-6035\" itemprop=\"url\">1-866-904-6035</a>",
+         "links": [
+          {
+           "old": "tel:1-866-904-6035",
+           "text": "1-866-904-6035"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "info@edgewoodhealthnetwork.com",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@edgewoodhealthnetwork.com\" itemprop=\"url\">info@edgewoodhealthnetwork.com</a>",
+         "links": [
+          {
+           "old": "mailto:info@edgewoodhealthnetwork.com",
+           "text": "info@edgewoodhealthnetwork.com"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "https://www.edgewoodhealthnetwork.com/",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.edgewoodhealthnetwork.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.edgewoodhealthnetwork.com/</a>",
+         "links": [
+          {
+           "old": "https://www.edgewoodhealthnetwork.com/",
+           "text": "https://www.edgewoodhealthnetwork.com/"
+          }
+         ],
+         "images": []
+        },
+        {
+         "type": "p",
+         "text": "2121 Boxwood Road, Nanaimo, BC V9S 4L2, Canada",
+         "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    2121 Boxwood Road, Nanaimo, BC V9S 4L2, Canada",
+         "links": [],
+         "images": []
+        },
+        {
+         "type": "text",
+         "text": "Contact Business"
+        }
+       ],
+       "children": []
+      },
+      {
+       "level": 4,
+       "heading": "Business Hours",
+       "blocks": [
+        {
+         "type": "text",
+         "text": "Monday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Tuesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Wednesday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Thursday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Friday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Saturday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Sunday"
+        },
+        {
+         "type": "text",
+         "text": "24h open"
+        },
+        {
+         "type": "text",
+         "text": "Local time 16:27pm"
+        }
+       ],
+       "children": [
+        {
+         "level": 5,
+         "heading": "Social",
+         "blocks": [],
+         "children": []
+        }
+       ]
+      },
+      {
+       "level": 4,
+       "heading": "Sponsored Ad",
+       "blocks": [
+        {
+         "type": "image",
+         "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+         "alt": "addiction rehab centres",
+         "width": "970",
+         "height": "920",
+         "link_href": "tel:1-855-885-4747"
+        }
+       ],
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "level": 2,
+   "heading": "Start Your Journey Now",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+     "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+     "links": [],
+     "images": []
+    }
+   ],
+   "children": []
+  }
+ ],
+ "blocks": [
+  {
+   "type": "p",
+   "text": "Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.",
+   "html": "Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Detox Program",
+   "html": "Detox Program",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.",
+   "html": "Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Inpatient Care",
+   "html": "Inpatient Care",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.",
+   "html": "Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Extended Care",
+   "html": "Extended Care",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.",
+   "html": "Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Family Programs",
+   "html": "Family Programs",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.",
+   "html": "At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Trauma & Addiction",
+   "html": "Trauma &amp; Addiction",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.",
+   "html": "Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Sex Addictions",
+   "html": "Sex Addictions",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.",
+   "html": "Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Trauma & Psychological Injury",
+   "html": "Trauma &amp; Psychological Injury",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.",
+   "html": "Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "LGBTQ+",
+   "html": "LGBTQ+",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.",
+   "html": "Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h2",
+   "text": "Edgewood Treatment Centre- Center Overview",
+   "html": "Edgewood Treatment Centre- Center Overview",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.",
+   "html": "Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.",
+   "html": "Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.",
+   "html": "In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Therapies",
+   "html": "Therapies",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• 1-on-1 Counseling",
+   "html": "• 1-on-1 Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Art Therapy",
+   "html": "• Art Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cognitive Behavioral Therapy",
+   "html": "• Cognitive Behavioral Therapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physiotherapy",
+   "html": "• Physiotherapy",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Relapse Prevention Counseling",
+   "html": "• Relapse Prevention Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Yoga",
+   "html": "• Yoga",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Treatment Philosophy",
+   "html": "Treatment Philosophy",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Holistic",
+   "html": "• Holistic",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Medical",
+   "html": "• Medical",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Personalized Treatment",
+   "html": "• Personalized Treatment",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Wellness",
+   "html": "• Wellness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Conditions Treated",
+   "html": "Conditions Treated",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Alcohol",
+   "html": "• Alcohol",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anger",
+   "html": "• Anger",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Anxiety",
+   "html": "• Anxiety",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Benzodiazepines",
+   "html": "• Benzodiazepines",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Chronic Relapse",
+   "html": "• Chronic Relapse",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Cocaine",
+   "html": "• Cocaine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Codependency",
+   "html": "• Codependency",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Ecstasy (MDMA)",
+   "html": "• Ecstasy (MDMA)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gambling",
+   "html": "• Gambling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Heroin",
+   "html": "• Heroin",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• LSD, psychedelics",
+   "html": "• LSD, psychedelics",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Marijuana (Cannabis)",
+   "html": "• Marijuana (Cannabis)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Methamphetamine",
+   "html": "• Methamphetamine",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Opioids",
+   "html": "• Opioids",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Prescription Drugs",
+   "html": "• Prescription Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Sex Addiction",
+   "html": "• Sex Addiction",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Synthetic Drugs",
+   "html": "• Synthetic Drugs",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Aftercare",
+   "html": "Aftercare",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Family Follow-up Counseling",
+   "html": "• Family Follow-up Counseling",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Follow-up Sessions (in-person)",
+   "html": "• Follow-up Sessions (in-person)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recovery Coach",
+   "html": "• Recovery Coach",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Return Visits",
+   "html": "• Return Visits",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings",
+   "html": "• Support Meetings",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Support Meetings (on-site)",
+   "html": "• Support Meetings (on-site)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Amenities",
+   "html": "Amenities",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Air-Conditioned Rooms",
+   "html": "• Air-Conditioned Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Bathroom Essentials (towels, soap, shampoo)",
+   "html": "• Bathroom Essentials (towels, soap, shampoo)",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Desk",
+   "html": "• Desk",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Fitness Center",
+   "html": "• Fitness Center",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Gardens",
+   "html": "• Gardens",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Housekeeping",
+   "html": "• Housekeeping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Outdoor Space",
+   "html": "• Outdoor Space",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Private or Shared Rooms",
+   "html": "• Private or Shared Rooms",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Recreation Room",
+   "html": "• Recreation Room",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• TV",
+   "html": "• TV",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Theater",
+   "html": "• Theater",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• View",
+   "html": "• View",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Walking Trails",
+   "html": "• Walking Trails",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Activities",
+   "html": "<strong>Activities</strong>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Games",
+   "html": "• Games",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Movies",
+   "html": "• Movies",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Physical Fitness",
+   "html": "• Physical Fitness",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Shopping",
+   "html": "• Shopping",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Special Considerations",
+   "html": "Special Considerations",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "• Executive Program",
+   "html": "• Executive Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "• Young Adults Program",
+   "html": "• Young Adults Program",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h3",
+   "text": "Verified by Addiction Rehab Centres",
+   "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "html": "Edgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+   "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h5",
+   "text": "If You Are Looking For More Centres Near Ontario, Click here",
+   "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+   "id": ""
+  },
+  {
+   "type": "h3",
+   "text": "Frequently Asked Questions About Edgewood Treatment Centre",
+   "html": "Frequently Asked Questions About Edgewood Treatment Centre",
+   "id": ""
+  },
+  {
+   "type": "link",
+   "text": "What type of addiction does Edgewood treat?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+   "html": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Is Edgewood covered by insurance?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+   "html": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "What is the success rate of Edgewood’s programs?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+   "html": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Can patients receive psychiatric care at Edgewood?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+   "html": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Can family members visit patients during their inpatient stay?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+   "html": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Can patients use their phone and internet while in treatment?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+   "html": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "How long do patients have to stay at Edgewood Treatment Centre?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+   "html": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "link",
+   "text": "Can patients access exercise facilities at Edgewood?",
+   "href": "",
+   "new_href": ""
+  },
+  {
+   "type": "p",
+   "text": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+   "html": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "h4",
+   "text": "More Tags",
+   "html": "More Tags",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Private Rehab",
+   "was_link": true
+  },
+  {
+   "type": "p",
+   "text": "1-866-904-6035",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-866-904-6035\" itemprop=\"url\">1-866-904-6035</a>",
+   "links": [
+    {
+     "old": "tel:1-866-904-6035",
+     "text": "1-866-904-6035"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "info@edgewoodhealthnetwork.com",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@edgewoodhealthnetwork.com\" itemprop=\"url\">info@edgewoodhealthnetwork.com</a>",
+   "links": [
+    {
+     "old": "mailto:info@edgewoodhealthnetwork.com",
+     "text": "info@edgewoodhealthnetwork.com"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "https://www.edgewoodhealthnetwork.com/",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.edgewoodhealthnetwork.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.edgewoodhealthnetwork.com/</a>",
+   "links": [
+    {
+     "old": "https://www.edgewoodhealthnetwork.com/",
+     "text": "https://www.edgewoodhealthnetwork.com/"
+    }
+   ],
+   "images": []
+  },
+  {
+   "type": "p",
+   "text": "2121 Boxwood Road, Nanaimo, BC V9S 4L2, Canada",
+   "html": "<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    2121 Boxwood Road, Nanaimo, BC V9S 4L2, Canada",
+   "links": [],
+   "images": []
+  },
+  {
+   "type": "text",
+   "text": "Contact Business"
+  },
+  {
+   "type": "h4",
+   "text": "Business Hours",
+   "html": "Business Hours",
+   "id": ""
+  },
+  {
+   "type": "text",
+   "text": "Monday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Tuesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Wednesday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Thursday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Friday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Saturday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Sunday"
+  },
+  {
+   "type": "text",
+   "text": "24h open"
+  },
+  {
+   "type": "text",
+   "text": "Local time 16:27pm"
+  },
+  {
+   "type": "h5",
+   "text": "Social",
+   "html": "Social",
+   "id": ""
+  },
+  {
+   "type": "h4",
+   "text": "Sponsored Ad",
+   "html": "Sponsored Ad",
+   "id": ""
+  },
+  {
+   "type": "image",
+   "src": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+   "alt": "addiction rehab centres",
+   "width": "970",
+   "height": "920",
+   "link_href": "tel:1-855-885-4747"
+  },
+  {
+   "type": "h2",
+   "text": "Start Your Journey Now",
+   "html": "<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a>",
+   "id": ""
+  },
+  {
+   "type": "p",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "links": [],
+   "images": []
+  }
+ ],
+ "centre": {
+  "name": "Edgewood Treatment Centre",
+  "categories": [
+   "British Columbia Rehabs"
+  ],
+  "reviews_count": "0",
+  "rating_stars_filled": 0,
+  "about_html": "<div class=\"elementor elementor-15172\" data-elementor-id=\"15172\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4126582d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4126582d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-155f96ac\" data-element_type=\"column\" data-id=\"155f96ac\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7c0ec9aa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7c0ec9aa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a22b2b2\" data-element_type=\"column\" data-id=\"1a22b2b2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-19d4717b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"19d4717b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.</p><h3>Detox Program</h3><p>Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.</p><h3>Inpatient Care</h3><p>Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.</p><h3>Extended Care</h3><p>Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.</p><h3>Family Programs</h3><p>At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.</p><h3>Trauma &amp; Addiction</h3><p>Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.</p><h3>Sex Addictions</h3><p>Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.</p><h3>Trauma &amp; Psychological Injury</h3><p>Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.</p><h3>LGBTQ+</h3><p>Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1617c249 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1617c249\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-286a18a3\" data-element_type=\"column\" data-id=\"286a18a3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6fb9ac1b elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"6fb9ac1b\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-b4656f4 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"b4656f4\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/8ufulz9NGeI\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2de0cb96 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2de0cb96\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ff1ae6a\" data-element_type=\"column\" data-id=\"5ff1ae6a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-71b7dc68 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"71b7dc68\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7c6beb0f elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"7c6beb0f\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Edgewood Treatment Centre- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-1c0ad74b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1c0ad74b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.</p><p>Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.</p><p>In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-445cd0aa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"445cd0aa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19b71d00\" data-element_type=\"column\" data-id=\"19b71d00\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6e301822 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6e301822\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-43f53aa2\" data-element_type=\"column\" data-id=\"43f53aa2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1b95cb72 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1b95cb72\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7131776 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7131776\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6a326006\" data-element_type=\"column\" data-id=\"6a326006\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-44cec917 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"44cec917\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tEdgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-63870f99 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"63870f99\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-22babc1d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"22babc1d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5e3bc461 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5e3bc461\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-15ddba4\" data-element_type=\"column\" data-id=\"15ddba4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-76eadba3 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"76eadba3\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1efa2bc9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1efa2bc9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2034575c\" data-element_type=\"column\" data-id=\"2034575c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5ce03af7 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"5ce03af7\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Edgewood Treatment Centre</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-4f850651 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"4f850651\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1331\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1331\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What type of addiction does Edgewood treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1331\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1331\" role=\"region\"><p>Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1332\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1332\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Edgewood covered by insurance?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1332\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1332\" role=\"region\"><p>Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1333\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1333\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the success rate of Edgewood’s programs?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1333\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1333\" role=\"region\"><p>Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1334\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1334\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can patients receive psychiatric care at Edgewood?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1334\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1334\" role=\"region\"><p>Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1335\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1335\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can family members visit patients during their inpatient stay?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1335\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1335\" role=\"region\"><p>Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1336\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1336\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can patients use their phone and internet while in treatment?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1336\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1336\" role=\"region\"><p>Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1337\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1337\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long do patients have to stay at Edgewood Treatment Centre?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1337\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1337\" role=\"region\"><p>The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1338\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"8\" id=\"elementor-tab-title-1338\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> Can patients access exercise facilities at Edgewood?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1338\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"8\" id=\"elementor-tab-content-1338\" role=\"region\"><p>Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>",
+  "specialties": [],
+  "amenities": [],
+  "other_lists": {},
+  "phone": "1-866-904-6035",
+  "email": "info@edgewoodhealthnetwork.com",
+  "website": "https://www.edgewoodhealthnetwork.com/",
+  "address": "2121 Boxwood Road, Nanaimo, BC V9S 4L2, Canada",
+  "social": {
+   "facebook": "https://web.facebook.com/ehncanada1/",
+   "twitter": "https://twitter.com/ehncanada",
+   "instagram": "https://www.instagram.com/ehncanada"
+  },
+  "gallery": [
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1282"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-11.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-11.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1283"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-10.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-10.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1282"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-9.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-9.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1282"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-8.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-8.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1283"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-7.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-7.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1282"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-6.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-6.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1282"
+   },
+   {
+    "role": "gallery",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-5.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2023/04/Edgewood-Treatment-Centre-5.jpg",
+    "alt": "",
+    "width": "1920",
+    "height": "1282"
+   }
+  ],
+  "google_reviews": {
+   "rating": null,
+   "items": []
+  },
+  "more_tags": "Private Rehab",
+  "business_hours": "Monday 24h open Tuesday 24h open Wednesday 24h open Thursday 24h open Friday 24h open Saturday 24h open Sunday 24h open",
+  "about_blocks": [
+   {
+    "type": "p",
+    "text": "Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.",
+    "html": "Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Detox Program",
+    "html": "Detox Program",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.",
+    "html": "Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Inpatient Care",
+    "html": "Inpatient Care",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.",
+    "html": "Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Extended Care",
+    "html": "Extended Care",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.",
+    "html": "Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Family Programs",
+    "html": "Family Programs",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.",
+    "html": "At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Trauma & Addiction",
+    "html": "Trauma &amp; Addiction",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.",
+    "html": "Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Sex Addictions",
+    "html": "Sex Addictions",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.",
+    "html": "Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Trauma & Psychological Injury",
+    "html": "Trauma &amp; Psychological Injury",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.",
+    "html": "Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "LGBTQ+",
+    "html": "LGBTQ+",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.",
+    "html": "Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "video",
+    "provider": "youtube",
+    "url": "https://youtu.be/8ufulz9NGeI",
+    "id": "8ufulz9NGeI"
+   },
+   {
+    "type": "h2",
+    "text": "Edgewood Treatment Centre- Center Overview",
+    "html": "Edgewood Treatment Centre- Center Overview",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.",
+    "html": "Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.",
+    "html": "Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.",
+    "html": "In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Therapies",
+    "html": "Therapies",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• 1-on-1 Counseling",
+    "html": "• 1-on-1 Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Art Therapy",
+    "html": "• Art Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cognitive Behavioral Therapy",
+    "html": "• Cognitive Behavioral Therapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physiotherapy",
+    "html": "• Physiotherapy",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Relapse Prevention Counseling",
+    "html": "• Relapse Prevention Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Yoga",
+    "html": "• Yoga",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Treatment Philosophy",
+    "html": "Treatment Philosophy",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Holistic",
+    "html": "• Holistic",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Medical",
+    "html": "• Medical",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Personalized Treatment",
+    "html": "• Personalized Treatment",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Wellness",
+    "html": "• Wellness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Conditions Treated",
+    "html": "Conditions Treated",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Alcohol",
+    "html": "• Alcohol",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anger",
+    "html": "• Anger",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Anxiety",
+    "html": "• Anxiety",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Benzodiazepines",
+    "html": "• Benzodiazepines",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Chronic Relapse",
+    "html": "• Chronic Relapse",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Cocaine",
+    "html": "• Cocaine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Codependency",
+    "html": "• Codependency",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Ecstasy (MDMA)",
+    "html": "• Ecstasy (MDMA)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gambling",
+    "html": "• Gambling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Heroin",
+    "html": "• Heroin",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• LSD, psychedelics",
+    "html": "• LSD, psychedelics",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Marijuana (Cannabis)",
+    "html": "• Marijuana (Cannabis)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Methamphetamine",
+    "html": "• Methamphetamine",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Opioids",
+    "html": "• Opioids",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Prescription Drugs",
+    "html": "• Prescription Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Sex Addiction",
+    "html": "• Sex Addiction",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Synthetic Drugs",
+    "html": "• Synthetic Drugs",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Aftercare",
+    "html": "Aftercare",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Family Follow-up Counseling",
+    "html": "• Family Follow-up Counseling",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Follow-up Sessions (in-person)",
+    "html": "• Follow-up Sessions (in-person)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recovery Coach",
+    "html": "• Recovery Coach",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Return Visits",
+    "html": "• Return Visits",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings",
+    "html": "• Support Meetings",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Support Meetings (on-site)",
+    "html": "• Support Meetings (on-site)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Amenities",
+    "html": "Amenities",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Air-Conditioned Rooms",
+    "html": "• Air-Conditioned Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Bathroom Essentials (towels, soap, shampoo)",
+    "html": "• Bathroom Essentials (towels, soap, shampoo)",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Desk",
+    "html": "• Desk",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Fitness Center",
+    "html": "• Fitness Center",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Gardens",
+    "html": "• Gardens",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Housekeeping",
+    "html": "• Housekeeping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Outdoor Space",
+    "html": "• Outdoor Space",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Private or Shared Rooms",
+    "html": "• Private or Shared Rooms",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Recreation Room",
+    "html": "• Recreation Room",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• TV",
+    "html": "• TV",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Theater",
+    "html": "• Theater",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• View",
+    "html": "• View",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Walking Trails",
+    "html": "• Walking Trails",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Activities",
+    "html": "<strong>Activities</strong>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Games",
+    "html": "• Games",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Movies",
+    "html": "• Movies",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Physical Fitness",
+    "html": "• Physical Fitness",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Shopping",
+    "html": "• Shopping",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Special Considerations",
+    "html": "Special Considerations",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "• Executive Program",
+    "html": "• Executive Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "• Young Adults Program",
+    "html": "• Young Adults Program",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h3",
+    "text": "Verified by Addiction Rehab Centres",
+    "html": "<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>",
+    "id": ""
+   },
+   {
+    "type": "p",
+    "text": "Edgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "html": "Edgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "p",
+    "text": "Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.",
+    "html": "<span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span>",
+    "links": [],
+    "images": []
+   },
+   {
+    "type": "h5",
+    "text": "If You Are Looking For More Centres Near Ontario, Click here",
+    "html": "If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span>",
+    "id": ""
+   }
+  ],
+  "faq_heading": "Frequently Asked Questions About Edgewood Treatment Centre",
+  "faqs": [
+   {
+    "question": "What type of addiction does Edgewood treat?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+      "html": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction."
+   },
+   {
+    "question": "Is Edgewood covered by insurance?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+      "html": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan."
+   },
+   {
+    "question": "What is the success rate of Edgewood’s programs?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+      "html": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety."
+   },
+   {
+    "question": "Can patients receive psychiatric care at Edgewood?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+      "html": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders."
+   },
+   {
+    "question": "Can family members visit patients during their inpatient stay?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+      "html": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood."
+   },
+   {
+    "question": "Can patients use their phone and internet while in treatment?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+      "html": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery."
+   },
+   {
+    "question": "How long do patients have to stay at Edgewood Treatment Centre?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+      "html": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care."
+   },
+   {
+    "question": "Can patients access exercise facilities at Edgewood?",
+    "answer_blocks": [
+     {
+      "type": "p",
+      "text": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+      "html": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+      "links": [],
+      "images": []
+     }
+    ],
+    "answer_text": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach."
+   }
+  ],
+  "specialty_groups": [],
+  "info_items": [],
+  "phone_text": "1-866-904-6035",
+  "phone_href": "tel:1-866-904-6035",
+  "website_text": "https://www.edgewoodhealthnetwork.com/",
+  "social_title": "Social",
+  "hours": {
+   "heading": "Business Hours",
+   "rows": [
+    [
+     "Monday",
+     "24h open"
+    ],
+    [
+     "Tuesday",
+     "24h open"
+    ],
+    [
+     "Wednesday",
+     "24h open"
+    ],
+    [
+     "Thursday",
+     "24h open"
+    ],
+    [
+     "Friday",
+     "24h open"
+    ],
+    [
+     "Saturday",
+     "24h open"
+    ],
+    [
+     "Sunday",
+     "24h open"
+    ]
+   ]
+  },
+  "tags": {
+   "heading": "More Tags",
+   "items": [
+    "Private Rehab"
+   ]
+  },
+  "sponsor": {
+   "label": "Sponsored Ad",
+   "title": "Start Your Journey Now",
+   "text_html": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747",
+   "text": "Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada. Our list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered. For immediate treatment help call: 1-855-885-4747",
+   "href": "tel:1-855-885-4747",
+   "image": {
+    "role": "content",
+    "src_original": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "src_as_published": "https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg",
+    "alt": "addiction rehab centres",
+    "width": "970",
+    "height": "920"
+   }
+  }
+ },
+ "faqs": [
+  {
+   "question": "What type of addiction does Edgewood treat?",
+   "answer_text": "Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.",
+   "answer_html": "<p>Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Is Edgewood covered by insurance?",
+   "answer_text": "Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.",
+   "answer_html": "<p>Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "What is the success rate of Edgewood’s programs?",
+   "answer_text": "Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.",
+   "answer_html": "<p>Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Can patients receive psychiatric care at Edgewood?",
+   "answer_text": "Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.",
+   "answer_html": "<p>Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Can family members visit patients during their inpatient stay?",
+   "answer_text": "Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.",
+   "answer_html": "<p>Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Can patients use their phone and internet while in treatment?",
+   "answer_text": "Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.",
+   "answer_html": "<p>Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "How long do patients have to stay at Edgewood Treatment Centre?",
+   "answer_text": "The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.",
+   "answer_html": "<p>The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.</p>",
+   "source": "elementor-toggle"
+  },
+  {
+   "question": "Can patients access exercise facilities at Edgewood?",
+   "answer_text": "Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.",
+   "answer_html": "<p>Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.</p>",
+   "source": "elementor-toggle"
+  }
+ ],
+ "raw_html": "<body><div class=\"eltdf-grid eltdf-ls-content-area\">\n<div class=\"rehabIntro\">\n<div class=\"rehabContent\">\n<div class=\"excerptData\">\n</div>\n<div class=\"eltdf-ls-content\">\n<div class=\"eltdf-ls-content-inner\">\n<div class=\"elementor elementor-15172\" data-elementor-id=\"15172\" data-elementor-post-type=\"listing-item\" data-elementor-type=\"wp-post\">\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-4126582d elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"4126582d\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-155f96ac\" data-element_type=\"column\" data-id=\"155f96ac\">\n<div class=\"elementor-widget-wrap\">\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7c0ec9aa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7c0ec9aa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1a22b2b2\" data-element_type=\"column\" data-id=\"1a22b2b2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-19d4717b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"19d4717b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Edgewood Treatment Centre offers a wide range of programs that cater to the diverse needs of their patients. These programs are designed to provide comprehensive care and support to individuals struggling with addiction, trauma, and psychological injury. They understand that every patient is unique, which is why they offer a personalized approach to each program that they offer.</p><h3>Detox Program</h3><p>Edgewood’s detox program provides medically supervised services for patients who are experiencing physical withdrawal symptoms associated with substance abuse. They have licensed medical professionals who are available 24/7 to ensure the patient’s comfort and safety throughout the detoxification process. Their detox program provides a stable and supportive environment and provides patients with the first step towards a successful recovery.</p><h3>Inpatient Care</h3><p>Edgewood’s inpatient program provides intensive residential treatment for individuals struggling with addiction and mental health issues. Their inpatient care programs are designed to provide an immersive experience that fosters healing, growth, and recovery. Their innovative and holistic approach integrates a range of evidence-based therapies, such as cognitive-behavioral therapy, dialectical behavioral therapy, and trauma therapy.</p><h3>Extended Care</h3><p>Edgewood’s extended care program provides ongoing treatment and support for patients transitioning from inpatient care. This program is designed to help patients maintain their sobriety and continue to build positive relationships and connections with others in recovery. Edgewood provides a safe and supportive space that provides patients with resources and community to work through life’s challenges as they continue on their recovery journey.</p><h3>Family Programs</h3><p>At Edgewood Treatment Centre, family involvement is a crucial aspect of their treatment programs. Edgewood recognizes that addiction does not only affect the individual but also impacts the family unit as a whole. Their Family Program provides a safe, supportive space for families to learn and understand addiction and ways they can support their loved ones recover in sobriety.</p><h3>Trauma &amp; Addiction</h3><p>Edgewood’s trauma and addiction program is designed to address the complex relationship between trauma and addiction. Their program provides individuals struggling with substance use disorder the opportunity to access specialized trauma-informed care that helps them work through their addiction, regulate their feelings, and improve their overall well-being.</p><h3>Sex Addictions</h3><p>Sex addiction is a complex disorder that is often misunderstood. Edgewood’s Sexual Addiction program provides specialized treatment and care for individuals struggling with sex addiction. Their program offers a safe and confidential environment that focuses on healing, recovery, and understanding about this addiction.</p><h3>Trauma &amp; Psychological Injury</h3><p>Edgewood’s Trauma and Psychological Injury program is designed to help individuals who have experienced a traumatic experience gain insight and help them understand how their trauma has impacted their lives. Their program provides specialized care to help individuals work through the trauma that often leads to addiction.</p><h3>LGBTQ+</h3><p>Edgewood recognizes that members of the LGBTQ+ community face unique challenges when it comes to seeking addiction treatment. That’s why their programs are designed to be inclusive and sensitive to the unique needs and experiences of this community, by providing a supportive and affirmative environment.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1617c249 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1617c249\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-286a18a3\" data-element_type=\"column\" data-id=\"286a18a3\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6fb9ac1b elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"6fb9ac1b\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-b4656f4 elementor-widget elementor-widget-video\" data-element_type=\"widget\" data-id=\"b4656f4\" data-settings='{\"youtube_url\":\"https:\\/\\/youtu.be\\/8ufulz9NGeI\",\"autoplay\":\"yes\",\"video_type\":\"youtube\",\"controls\":\"yes\"}' data-widget_type=\"video.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-wrapper elementor-open-inline\">\n<div class=\"elementor-video\"></div> </div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-2de0cb96 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"2de0cb96\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ff1ae6a\" data-element_type=\"column\" data-id=\"5ff1ae6a\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-71b7dc68 elementor-widget elementor-widget-spacer\" data-element_type=\"widget\" data-id=\"71b7dc68\" data-widget_type=\"spacer.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-spacer\">\n<div class=\"elementor-spacer-inner\"></div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-7c6beb0f elementor-widget__width-initial elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"7c6beb0f\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h2 class=\"elementor-heading-title elementor-size-default\">Edgewood Treatment Centre- Center Overview</h2> </div>\n</div>\n<div class=\"elementor-element elementor-element-1c0ad74b elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1c0ad74b\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p>Our network of recovery centres offers top-notch mental health care services catering to our patients’ needs. We cover a wide range of treatment programs, including outpatient therapy, detox stays, and multi-month treatment for individuals with substance use disorders and other mental health conditions. At our rehab centre, we focus on providing personalized, evidence-based care that takes into account each patient’s unique challenges.</p><p>Our approach to mental health and substance use disorder treatment is centered on medical excellence and scientific research. We have a team of licensed medical professionals, including psychiatrists, skilled nurses, addiction-certified doctors, and occupational therapists, who are involved in every step of our patients’ recovery journey. Through our licensed hospitals and accredited facilities, we offer a safe, inclusive, and comfortable environment for recovery. Our vision is to promote destigmatized, flexible, and accessible mental health care services with no wait times, accessible nationwide, and on par with treatment for other conditions.</p><p>In carrying out our mission, we strive to provide full-spectrum care to achieve positive outcomes, delivered by medical experts motivated by compassion and courage. We are committed to helping our patients tackle the root causes of their concerns through evidence-based care. We aim to support families in the healing process and the public care system at large. Our core values, including exceptional medical care, courage, and compassion, underpin our rehabilitation centre’s culture, and we continue to work towards improving the mental and emotional well-being of all those who seek our services.</p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-445cd0aa elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"445cd0aa\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-19b71d00\" data-element_type=\"column\" data-id=\"19b71d00\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-6e301822 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"6e301822\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Therapies</h3></div><p>• 1-on-1 Counseling</p><p>• Art Therapy</p><p>• Cognitive Behavioral Therapy</p><p>• Physiotherapy</p><p>• Relapse Prevention Counseling</p><p>• Yoga</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Treatment Philosophy</h3></div><p>• Holistic</p><p>• Medical</p><p>• Personalized Treatment</p><p>• Wellness</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Conditions Treated</h3></div><p>• Alcohol</p><p>• Anger</p><p>• Anxiety</p><p>• Benzodiazepines</p><p>• Chronic Relapse</p><p>• Cocaine</p><p>• Codependency</p><p>• Ecstasy (MDMA)</p><p>• Gambling</p><p>• Heroin</p><p>• LSD, psychedelics</p><p>• Marijuana (Cannabis)</p><p>• Methamphetamine</p><p>• Opioids</p><p>• Prescription Drugs</p><p>• Sex Addiction</p><p>• Synthetic Drugs</p></div></div></div> </div>\n</div>\n</div>\n</div>\n<div class=\"elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-43f53aa2\" data-element_type=\"column\" data-id=\"43f53aa2\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-1b95cb72 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"1b95cb72\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Aftercare</h3></div><p>• Family Follow-up Counseling</p><p>• Follow-up Sessions (in-person)</p><p>• Recovery Coach</p><p>• Return Visits</p><p>• Support Meetings</p><p>• Support Meetings (on-site)</p></div><div> </div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Amenities</h3></div><p>• Air-Conditioned Rooms</p><p>• Bathroom Essentials (towels, soap, shampoo)</p><p>• Desk</p><p>• Fitness Center</p><p>• Gardens</p><p>• Housekeeping</p><p>• Outdoor Space</p><p>• Private or Shared Rooms</p><p>• Recreation Room</p><p>• TV</p><p>• Theater</p><p>• View</p><p>• Walking Trails</p></div><div> </div><h3><strong>Activities</strong></h3><div><p>• Games</p><p>• Movies</p><p>• Physical Fitness</p><p>• Shopping</p></div><div><div class=\"Header__Style-sc-te1v7z-0 pVVmL\"><h3>Special Considerations</h3></div><p>• Executive Program</p><p>• Young Adults Program</p></div> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-7131776 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"7131776\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6a326006\" data-element_type=\"column\" data-id=\"6a326006\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-44cec917 elementor-view-default elementor-position-top elementor-mobile-position-top elementor-widget elementor-widget-icon-box\" data-element_type=\"widget\" data-id=\"44cec917\" data-widget_type=\"icon-box.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-icon-box-wrapper\">\n<div class=\"elementor-icon-box-icon\">\n<span class=\"elementor-icon\">\n<i aria-hidden=\"true\" class=\"far fa-check-circle\"></i> </span>\n</div>\n<div class=\"elementor-icon-box-content\">\n<h3 class=\"elementor-icon-box-title\">\n<span>\n\t\t\t\t\t\t\tVerified by Addiction Rehab Centres\t\t\t\t\t\t</span>\n</h3>\n<p class=\"elementor-icon-box-description\">\n\t\t\t\t\t\tEdgewood Treatment Centre has confirmed the accuracy of the information on this page, ensuring that the name, location, contact details, and operating license for this treatment provider are valid and current.\t\t\t\t\t</p>\n</div>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-63870f99 elementor-widget-divider--view-line elementor-widget elementor-widget-divider\" data-element_type=\"widget\" data-id=\"63870f99\" data-widget_type=\"divider.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-divider\">\n<span class=\"elementor-divider-separator\">\n</span>\n</div>\n</div>\n</div>\n<div class=\"elementor-element elementor-element-22babc1d elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"22babc1d\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<p style=\"text-align: center;\"><span style=\"color: #999999;\">Addiction Rehab Centres serves as an impartial, third-party mental health resource. Verification should not be interpreted as an endorsement and does not assure the quality of the provided treatment services.</span></p> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-5e3bc461 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"5e3bc461\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-15ddba4\" data-element_type=\"column\" data-id=\"15ddba4\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-76eadba3 elementor-widget elementor-widget-text-editor\" data-element_type=\"widget\" data-id=\"76eadba3\" data-widget_type=\"text-editor.default\">\n<div class=\"elementor-widget-container\">\n<h5>If You Are Looking For More Centres Near Ontario, <span style=\"color: #00ccff;\">Click <a data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/ontario-rehabs/\" style=\"color: #00ccff;\">here</a></span></h5> </div>\n</div>\n</div>\n</div>\n</div>\n</section>\n<section class=\"elementor-section elementor-top-section elementor-element elementor-element-1efa2bc9 elementor-section-boxed elementor-section-height-default elementor-section-height-default\" data-element_type=\"section\" data-id=\"1efa2bc9\">\n<div class=\"elementor-container elementor-column-gap-default\">\n<div class=\"elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2034575c\" data-element_type=\"column\" data-id=\"2034575c\">\n<div class=\"elementor-widget-wrap elementor-element-populated\">\n<div class=\"elementor-element elementor-element-5ce03af7 elementor-widget elementor-widget-heading\" data-element_type=\"widget\" data-id=\"5ce03af7\" data-widget_type=\"heading.default\">\n<div class=\"elementor-widget-container\">\n<h3 class=\"elementor-heading-title elementor-size-default\">Frequently Asked Questions About Edgewood Treatment Centre</h3> </div>\n</div>\n<div class=\"elementor-element elementor-element-4f850651 elementor-widget elementor-widget-toggle\" data-element_type=\"widget\" data-id=\"4f850651\" data-widget_type=\"toggle.default\">\n<div class=\"elementor-widget-container\">\n<div class=\"elementor-toggle\">\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1331\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"1\" id=\"elementor-tab-title-1331\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What type of addiction does Edgewood treat?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1331\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"1\" id=\"elementor-tab-content-1331\" role=\"region\"><p>Edgewood provides treatment for a wide range of addictions, including substance abuse, sex addiction, and gambling addiction.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1332\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"2\" id=\"elementor-tab-title-1332\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Is Edgewood covered by insurance?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1332\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"2\" id=\"elementor-tab-content-1332\" role=\"region\"><p>Yes, Edgewood is covered by most insurance plans. However, coverage varies depending on the specific policy and plan.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1333\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"3\" id=\"elementor-tab-title-1333\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">What is the success rate of Edgewood’s programs?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1333\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"3\" id=\"elementor-tab-content-1333\" role=\"region\"><p>Edgewood’s programs have significant success rates. Patients who engage in their recovery programs have a better chance of achieving and maintaining long-term sobriety.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1334\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"4\" id=\"elementor-tab-title-1334\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can patients receive psychiatric care at Edgewood?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1334\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"4\" id=\"elementor-tab-content-1334\" role=\"region\"><p>Yes, Edgewood has a team of experienced psychiatrists and mental health professionals who provide comprehensive care and support for patients struggling with various mental health disorders.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1335\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"5\" id=\"elementor-tab-title-1335\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can family members visit patients during their inpatient stay?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1335\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"5\" id=\"elementor-tab-content-1335\" role=\"region\"><p>Yes, family members are welcome to visit their loved ones during their inpatient stay at Edgewood.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1336\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"6\" id=\"elementor-tab-title-1336\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">Can patients use their phone and internet while in treatment?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1336\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"6\" id=\"elementor-tab-content-1336\" role=\"region\"><p>Yes, patients are allowed to use their phone and internet during their treatment. However, there are limitations in place to ensure the patient’s safety and focus on their recovery.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1337\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"7\" id=\"elementor-tab-title-1337\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\">How long do patients have to stay at Edgewood Treatment Centre?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1337\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"7\" id=\"elementor-tab-content-1337\" role=\"region\"><p>The length of a patient’s stay depends on their individual needs and goals. Some patients may stay for as little as thirty days, while others need longer care.</p></div>\n</div>\n<div class=\"elementor-toggle-item\">\n<div aria-controls=\"elementor-tab-content-1338\" aria-expanded=\"false\" class=\"elementor-tab-title\" data-tab=\"8\" id=\"elementor-tab-title-1338\" role=\"button\">\n<span aria-hidden=\"true\" class=\"elementor-toggle-icon elementor-toggle-icon-left\">\n<span class=\"elementor-toggle-icon-closed\"><i class=\"fas fa-caret-right\"></i></span>\n<span class=\"elementor-toggle-icon-opened\"><i class=\"elementor-toggle-icon-opened fas fa-caret-up\"></i></span>\n</span>\n<a class=\"elementor-toggle-title\" tabindex=\"0\"> Can patients access exercise facilities at Edgewood?</a>\n</div>\n<div aria-labelledby=\"elementor-tab-title-1338\" class=\"elementor-tab-content elementor-clearfix\" data-tab=\"8\" id=\"elementor-tab-content-1338\" role=\"region\"><p>Yes, Edgewood has a state-of-the-art gym and fitness center available for their patients. Exercise and physical activity are important components of their comprehensive care approach.</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</section>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-tags\">\n<div class=\"eltdf-ls-title-holder\">\n<i class=\"eltdf-icon-ion-icon ion-android-options\"></i> <h4 class=\"eltdf-ls-parts-title\">More Tags</h4> </div>\n<div class=\"eltdf-ls-tags-items\">\n<a class=\"eltdf-ls-tag eltdf-without-icon\" data-wpel-link=\"internal\" href=\"https://addictionrehabcenters.ca/listing-tag/private-rehab/\" itemprop=\"url\">\n<span class=\"eltdf-ls-tag-label\">Private Rehab</span>\n</a>\n</div>\n</div>\n</div>\n<div class=\"rehabContacts\">\n<div class=\"rehabContactsSidebar\">\n<div class=\"eltdf-ls-location\">\n<div class=\"eltdf-ls-location-contact-info\">\n<div class=\"eltdf-ls-location-cid-holder\">\n<p class=\"eltdf-ls-location-phone\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mobile\"></span> <a class=\"eltdf-ls-location-phone-link\" data-wpel-link=\"internal\" href=\"tel:1-866-904-6035\" itemprop=\"url\">1-866-904-6035</a>\n</p>\n<p class=\"eltdf-ls-location-email\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_mail\"></span> <a class=\"eltdf-ls-location-email-link\" href=\"mailto:info@edgewoodhealthnetwork.com\" itemprop=\"url\">info@edgewoodhealthnetwork.com</a>\n</p>\n<p class=\"eltdf-ls-location-site-url\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_globe-2\"></span> <a class=\"eltdf-ls-location-site-url-link\" data-wpel-link=\"external\" href=\"https://www.edgewoodhealthnetwork.com/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">https://www.edgewoodhealthnetwork.com/</a>\n</p>\n<p class=\"eltdf-ls-location-address\">\n<span aria-hidden=\"true\" class=\"eltdf-icon-font-elegant icon_house\"></span>\t                    2121 Boxwood Road, Nanaimo, BC V9S 4L2, Canada\t                </p>\n</div>\n<button class=\"eltdf-btn eltdf-btn-huge eltdf-btn-solid eltdf-btn-icon eltdf-enquiry-opener\" type=\"submit\"> <span class=\"eltdf-btn-text\">Contact Business</span> <i class=\"eltdf-icon-ion-icon icon ion-android-person\"></i> </button> <div class=\"eltdf-ls-business-hours\">\n<div class=\"edgtf-ls-bg-notice\">\n<h4 class=\"eltdf-ls-business-label\">Business Hours</h4>\n</div>\n<div class=\"eltdf-ls-bg-items\">\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Monday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Tuesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Wednesday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Thursday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Friday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Saturday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n<div class=\"eltdf-ls-bg-item\">\n<span class=\"eltdf-ls-bg-day\">Sunday</span>\n<span class=\"eltdf-ls-bg-time\">\n<span class=\"eltdf-ls-bg-24h\">24h open</span>\n</span>\n</div>\n</div>\n<div class=\"eltdf-ls-bg-local-time\">\n<span>Local time 16:27pm</span>\n</div>\n</div>\n<div class=\"eltdf-ls-location-social\">\n<h5 class=\"eltdf-ls-location-social-title\">Social</h5>\n<a class=\"eltdf-ls-location-social-facebook\" data-wpel-link=\"external\" href=\"https://web.facebook.com/ehncanada1/\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-facebook-f\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-twitter\" data-wpel-link=\"external\" href=\"https://twitter.com/ehncanada\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-twitter\"></i>\n</a>\n<a class=\"eltdf-ls-location-social-instagram\" data-wpel-link=\"external\" href=\"https://www.instagram.com/ehncanada\" itemprop=\"url\" rel=\"external noopener noreferrer\" target=\"_blank\">\n<i class=\"fab fa-instagram\"></i>\n</a>\n</div>\n</div>\n</div> <div class=\"eltdf-ls-ads\">\n<h4 class=\"eltdf-ls-parts-title\">Sponsored Ad</h4>\n<div class=\"eltdf-ls-ads-info\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\"><img alt=\"addiction rehab centres\" class=\"attachment-full size-full\" decoding=\"async\" height=\"920\" loading=\"lazy\" sizes=\"(max-width: 970px) 100vw, 970px\" src=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg\" srcset=\"https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg 970w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-300x285.jpg 300w, https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1-768x728.jpg 768w\" width=\"970\"/></a> <h2 class=\"eltdf-ls-ads-title\">\n<a class=\"eltdf-ls-ads-link\" data-wpel-link=\"internal\" href=\"tel:1-855-885-4747\" itemprop=\"url\">Start Your Journey Now</a> </h2>\n<p class=\"eltdf-ls-ads-text\">Are you or a loved one struggling with alcohol or drug addiction? Finding the right addiction treatment centre can make all the difference in achieving long-term recovery. That's why we've done the research for you and compiled a list of the best alcohol and drug addiction centres in Canada.\nOur list includes top-rated addiction treatment centres that provide evidence-based therapies, personalized treatment plans, and aftercare support services to help clients overcome addiction and maintain a healthy, fulfilling life in recovery. Whether you're looking for residential or outpatient treatment, we've got you covered.\n\nFor immediate treatment help call: 1-855-885-4747</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div></body>"
+}
