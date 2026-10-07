@@ -192,3 +192,10 @@ The theme’s review count (a plain number such as “5 Reviews”, not Google t
 
 ## 13. Links to the two thin blog posts removed (link text kept)
 `/7-things-people-recovering-from-an-addiction-wish-you-knew/` and `/the-seven-cs-for-helping-your-child-heal-during-your-recovery/` are unpublished (thin). Anchors to them were unwrapped on: `/how-sober-bars-are-creating-a-new-buzz-around-town/` (“recovering from an addiction”), `/marijuana-addiction/` (“addiction”), `/saskatchewan-drug-rehab-treatment/` (“drug addiction”). Their “Read more” buttons on the source blog grid are not part of the new index. Detail: `audit/12-thin-post-links-removed.json`.
+
+## 14. Phase 5 log
+### 14a. Home page (`/`)
+- Two H1s on the source: “DRUG REHAB CENTER & ALCOHOL ADDICTION SERVICES IN CANADA” (kept as the page H1) and “Drug Addiction” (in the dark banner) — text unchanged, the second is rendered as an **H2**.
+- Theme badges on the three featured cards (“Featured”, “✓ Verified”, “N Reviews”) are not shown (review figures hidden, badges are theme UI). All other text matches the source word for word (automated check); title, description, canonical and the 2 JSON-LD blocks are the source values.
+- The “Addiction Treatments” row contains a lone “30” (a counter widget with no label) — kept as written.
+- Source images smaller than 300 px (icons, logo strip) are shown at their own size, not stretched.

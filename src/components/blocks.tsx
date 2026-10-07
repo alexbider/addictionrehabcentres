@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import type { Block } from '@/lib/content';
+import CentreCards from './CentreCards';
+import TabsBlock from './TabsBlock';
 
 /** Block renderers shared by ContentPage and ListingPage. */
 export const heading: Record<string, React.CSSProperties> = {
@@ -43,8 +45,11 @@ export function Blk({ b, light }: { b: Block; light?: boolean }) {
     }
     case 'table':
       return <div className="cp-table" style={{ overflowX: 'auto', margin: '0 0 20px' }} dangerouslySetInnerHTML={{ __html: b.html }} />;
-    case 'image':
-      return <img src={b.src} alt={b.alt} width={b.width ?? undefined} height={b.height ?? undefined} loading="lazy" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '18px' }} />;
+    case 'image': {
+      const w = Number(b.width);
+      const icon = w > 0 && w <= 300; // small source images (icons, logos) keep their own size instead of being stretched
+      return <img src={b.src} alt={b.alt} width={b.width ?? undefined} height={b.height ?? undefined} loading="lazy" style={icon ? { width: `${w}px`, maxWidth: '100%', height: 'auto', display: 'block', margin: '0 0 12px' } : { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' }} />;
+    }
     case 'iframe': {
       const w = Number(b.width) || 560, h = Number(b.height) || 315;
       return (
@@ -61,6 +66,31 @@ export function Blk({ b, light }: { b: Block; light?: boolean }) {
           <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9', borderRadius: '14px', overflow: 'hidden', background: '#10233a' }}>
             <iframe src={`https://www.youtube-nocookie.com/embed/${b.id}`} title="Video" loading="lazy" allowFullScreen style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', border: 0 }} />
           </div>
+        </div>
+      );
+    case 'centre-cards':
+      return <CentreCards items={b.items} />;
+    case 'tabs':
+      return (
+        <TabsBlock
+          titles={b.tabs.map((x) => x.title)}
+          panels={b.tabs.map((x) => (
+            <div key={x.title} style={{ display: 'grid', gridTemplateColumns: x.blocks.some((y) => y.type === 'image') ? 'minmax(0,.9fr) minmax(0,1.1fr)' : '1fr', gap: '28px', alignItems: 'center' }} data-cols="1fr 1fr" data-rc-gap="1">
+              {x.blocks.filter((y) => y.type === 'image').map((y, i) => <Blk key={'i' + i} b={y} />)}
+              <div>{x.blocks.filter((y) => y.type !== 'image').map((y, i) => <Blk key={i} b={y} />)}</div>
+            </div>
+          ))}
+        />
+      );
+    case 'accordion':
+      return (
+        <div style={{ margin: '0 0 16px' }}>
+          {b.items.map((it, i) => (
+            <details key={i} style={{ borderBottom: '1px solid #e3ecf4' }} open={i === 0}>
+              <summary style={{ cursor: 'pointer', font: '600 20px Jost,sans-serif', color: light ? '#fff' : '#10233a', padding: '16px 4px', listStyle: 'none' }}>{it.title}</summary>
+              <div style={{ padding: '0 4px 12px' }}>{it.blocks.map((x, j) => <Blk key={j} b={x} light={light} />)}</div>
+            </details>
+          ))}
         </div>
       );
     case 'link':

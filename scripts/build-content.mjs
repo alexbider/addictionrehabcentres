@@ -20,7 +20,7 @@ const IMG_SRC2 = path.join(root, 'audit/images-phase4'); // images downloaded af
 // Page types that have a view today.
 const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'blog-post', 'legal', 'centre']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
-const LIVE_SLUGS = new Set(['blog']); // the real blog index
+const LIVE_SLUGS = new Set(['blog', 'home']); // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.
 const isThin = (d) => {
   if (d.page_type === 'centre') return d.word_count < 60;
@@ -123,6 +123,16 @@ async function procBlocks(blocks, imgMap, folder, live, omitted, local) {
       else omitted.push(b.src);
       continue;
     }
+    if (b.type === 'tabs') { res.push({ ...b, tabs: await Promise.all(b.tabs.map(async (x) => ({ ...x, blocks: await procBlocks(x.blocks, imgMap, folder, live, omitted, local) }))) }); continue; }
+    if (b.type === 'accordion') { res.push({ ...b, items: await Promise.all(b.items.map(async (x) => ({ ...x, blocks: await procBlocks(x.blocks, imgMap, folder, live, omitted, local) }))) }); continue; }
+    if (b.type === 'centre-cards') {
+      const items = [];
+      for (const it of b.items) {
+        const im = it.image ? await local(it.image.original_url) : null;
+        items.push({ name: it.name, href: it.href, address: it.address, excerpt: it.excerpt, category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
+      }
+      res.push({ type: 'centre-cards', items }); continue;
+    }
     const nb = { ...b };
     if (typeof nb.html === 'string') nb.html = await rewriteImgs(nb.html, imgMap, folder, live, omitted);
     if (nb.items) nb.items = await Promise.all(nb.items.map(async (it) => ({ ...it, html: await rewriteImgs(it.html, imgMap, folder, live, omitted) })));
@@ -184,7 +194,7 @@ for (const f of files) {
   let d = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
   const key = f.replace(/\.json$/, '');
   const thin = isThin(d);
-  const hasCards = /eltdf-ll-item/.test(d.raw_html || '') && !d.listing; // card pages need the listing data
+  const hasCards = /eltdf-ll-item/.test(d.raw_html || '') && !d.listing && !JSON.stringify(d.rows || []).includes('"centre-cards"'); // card pages need the listing data
   const isCentre = d.page_type === 'centre';
   const oos = isCentre && OUT_OF_SCOPE.has(d.centre?.categories?.[0]);
   const batchOk = !isCentre || batchSet.has(key);

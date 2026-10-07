@@ -14,6 +14,9 @@ export type Block =
   | { type: 'text'; text: string; was_link?: boolean }
   | { type: 'iframe'; src: string; title: string; width?: string | null; height?: string | null }
   | { type: 'video'; provider: string; url: string; id: string }
+  | { type: 'tabs'; tabs: { title: string; blocks: Block[] }[] }
+  | { type: 'accordion'; items: { title: string; blocks: Block[] }[] }
+  | { type: 'centre-cards'; items: { name: string; href: string; address: string; excerpt: string; category: string; image: { src: string; alt: string; width?: number | null; height?: number | null } | null }[] }
   | { type: 'cards'; hrefs: string[] };
 
 export type Row = {
