@@ -44,6 +44,7 @@ export default function HomePage({ page }: { page: Page }) {
   let shade = 0, h1Seen = false;
   return (
     <PageShell routes={getRoutes()}>
+      <style dangerouslySetInnerHTML={{ __html: '.home-counter::after{content:"+";font-size:.55em;margin-left:.08em;vertical-align:.18em}' }} />
       <main>
         {rows.map((r, i) => {
           if (has(r, 'newHomeBanner') && !has(r, 'bottomHomeBanner')) return <Hero key={i} r={r} />;
@@ -71,6 +72,7 @@ export default function HomePage({ page }: { page: Page }) {
                   {cols.map((c, j) => (
                     <div key={j} style={{ minWidth: 0 }}>
                       {c.blocks.map((b, k) => {
+                        if (has(r, 'addictionTreatmentsBox') && b.type === 'text' && /^\d+$/.test(b.text.trim())) return <span key={k} className="home-counter" style={{ font: '400 clamp(72px,10vw,150px)/1 Figtree,sans-serif', color: '#3f3b36' }}>{b.text}</span>;
                         if (b.type === 'h1') { if (!h1Seen) { h1Seen = true; return <h1 key={k} style={{ fontSize: 'clamp(26px,3.6vw,42px)', color: dark ? '#fff' : '#10233a' }} dangerouslySetInnerHTML={{ __html: b.html }} />; } return <Blk key={k} b={b} light={dark} />; }
                         return <Blk key={k} b={b} light={dark} />;
                       })}

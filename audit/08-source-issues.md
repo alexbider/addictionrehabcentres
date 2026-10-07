@@ -197,5 +197,5 @@ The theme’s review count (a plain number such as “5 Reviews”, not Google t
 ### 14a. Home page (`/`)
 - Two H1s on the source: “DRUG REHAB CENTER & ALCOHOL ADDICTION SERVICES IN CANADA” (kept as the page H1) and “Drug Addiction” (in the dark banner) — text unchanged, the second is rendered as an **H2**.
 - Theme badges on the three featured cards (“Featured”, “✓ Verified”, “N Reviews”) are not shown (review figures hidden, badges are theme UI). All other text matches the source word for word (automated check); title, description, canonical and the 2 JSON-LD blocks are the source values.
-- The “Addiction Treatments” row contains a lone “30” (a counter widget with no label) — kept as written.
+- The “Addiction Treatments” row contains a counter widget: the source markup holds only “30” (no label) and its theme adds a “+” with CSS, so the live source shows a large **“30+”** (checked on the rendered source page). The new page matches that: text “30”, the “+” drawn by CSS. For the client: the number has no label or explanation on the source either.
 - Source images smaller than 300 px (icons, logo strip) are shown at their own size, not stretched.
