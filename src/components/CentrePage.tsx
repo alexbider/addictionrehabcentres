@@ -45,7 +45,6 @@ export default function CentrePage({ page }: { page: Page }) {
               </div>
             )}
             <h1 style={{ fontSize: '46px', lineHeight: 1.1, color: '#10233a', maxWidth: '980px' }} data-rc-lg="1">{c.name}</h1>
-            {Number(c.reviews_count) > 0 && <p style={{ marginTop: '12px', fontSize: '15px', color: '#6b7f95' }}>{c.reviews_count} Reviews</p>}
           </div>
         </section>
         {c.gallery.length > 0 && (

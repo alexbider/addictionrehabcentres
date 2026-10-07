@@ -156,6 +156,21 @@ const stripReviews = (v) => {
   }
   return v;
 };
+// Approved: links to the two thin (unpublished) blog posts are removed everywhere; the link text stays.
+const THIN_POSTS = ['/7-things-people-recovering-from-an-addiction-wish-you-knew/', '/the-seven-cs-for-helping-your-child-heal-during-your-recovery/'];
+const thinPostLinksRemoved = [];
+const hrefIsThinPost = (h) => THIN_POSTS.some((p) => h === p || h.startsWith(p + '#') || h.startsWith(p + '?') || h.includes('addictionrehabcenters.ca' + p));
+function unlinkThinPosts(v, page) {
+  if (Array.isArray(v)) return v.map((x) => unlinkThinPosts(x, page));
+  if (v && typeof v === 'object') {
+    if (v.type === 'link' && typeof v.new_href === 'string' && hrefIsThinPost(v.new_href)) { thinPostLinksRemoved.push({ page, text: v.text }); return { type: 'text', text: v.text, was_link: true }; }
+    return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === 'links' ? x : unlinkThinPosts(x, page)]));
+  }
+  if (typeof v === 'string' && v.includes('<a')) {
+    return v.replace(/<a\b[^>]*\bhref="([^"]*)"[^>]*>([\s\S]*?)<\/a>/g, (m, h, inner) => { if (!hrefIsThinPost(h)) return m; thinPostLinksRemoved.push({ page, text: inner.replace(/<[^>]+>/g, '') }); return inner; });
+  }
+  return v;
+}
 const files = fs.readdirSync(SRC).filter((x) => x.endsWith('.json')).sort();
 const eligible = [];
 for (const f of files) {
@@ -252,7 +267,7 @@ for (const f of files) {
     rows, listing, centre, post: d.post, faqs: isCentre ? undefined : d.faqs,
     blocks, blog_cards: blogCards,
   };
-  fs.writeFileSync(path.join(OUT, key + '.json'), JSON.stringify(slim));
+  fs.writeFileSync(path.join(OUT, key + '.json'), JSON.stringify(live ? unlinkThinPosts(slim, d.new_route) : slim));
   if (live) published.add(key);
   index.push({ slug: key, route: d.new_route, type: d.page_type, title: d.seo.meta_title, published: live, reason: live ? '' : thin ? 'thin' : oos ? 'out-of-scope (approved: skipped)' : !batchOk ? 'batch pending' : hasCards ? 'embeds centre cards - needs card component' : 'no view yet', modified: d.source.wp_items?.[0]?.modified ?? null, noindex: /noindex/.test(d.source.robots || '') });
 }
@@ -270,5 +285,6 @@ if (BATCH === Infinity || process.env.WRITE_REDIRECTS) {
 }
 fs.writeFileSync(path.join(root, 'audit/11-google-review-centres.json'), JSON.stringify(googleReviewCentres, null, 1));
 fs.writeFileSync(path.join(root, 'audit/11-corrupt-images.json'), JSON.stringify(corrupt, null, 1));
+fs.writeFileSync(path.join(root, 'audit/12-thin-post-links-removed.json'), JSON.stringify(thinPostLinksRemoved, null, 1));
 console.log(`review/aggregateRating schema nodes removed: ${reviewSchemaRemoved}; google-review centres: ${googleReviewCentres.length}; corrupt images: ${corrupt.length}; thin redirects: ${thinRedirects.length}`);
 console.log(`content: ${index.length} files, ${published.size} published, ${filesWritten} image files written, ${store.size} unique; mojibake fixes: ${pubFixes.length} (+${fixes.length - pubFixes.length} on unpublished pages)`);

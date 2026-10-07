@@ -40,7 +40,6 @@ function CardView({ c }: { c: Card }) {
           <p style={{ fontSize: '13.5px', color: '#6b7f95', display: 'flex', gap: '7px', alignItems: 'flex-start', lineHeight: 1.45 }}>{pin}<span>{c.address}</span></p>
         )}
         {c.excerpt && <p style={{ fontSize: '14.5px', lineHeight: 1.55, color: '#3b4d63' }}>{c.excerpt}</p>}
-        {c.reviews > 0 && <p style={{ fontSize: '13px', color: '#6b7f95', marginTop: 'auto' }}>{c.reviews} Reviews</p>}
       </div>
     </article>
   );
