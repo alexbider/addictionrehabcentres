@@ -3,6 +3,7 @@
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
+import { buildBody } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -917,17 +918,63 @@ class Component extends DCLogic {
       rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)',
     }));
 
+    // Live data (props.data): real source content replaces every sample value; sections without source data are hidden.
+    const D = this.props.data || null;
+    const sample = !D;
+    let galleryNode = null,
+      bodyNodes = [],
+      specAside = null;
+    if (D) {
+      const g = D.gallery || [];
+      const top = g.slice(0, 5);
+      const n = top.length;
+      const img = (x, extra) => R('img', { src: x.src, alt: x.alt || '', loading: 'lazy', style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', borderRadius: '16px', background: '#eaf2f8', ...extra } });
+      if (n) {
+        const cols = n === 1 ? 'minmax(0,1fr)' : n === 2 ? '2fr 1fr' : n === 3 ? '2fr 1fr' : '2fr 1fr 1fr';
+        const place = (i) => (n === 1 ? {} : n === 2 ? {} : n === 3 ? (i === 0 ? { gridRow: '1/3' } : {}) : n === 4 ? (i === 0 ? { gridRow: '1/3' } : i === 3 ? { gridColumn: '2/4' } : {}) : i === 0 ? { gridRow: '1/3' } : {});
+        galleryNode = R('div', { style: { display: 'block' } },
+          R('div', { style: { display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n === 1 || n === 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map((x, i) => R('div', { key: i, style: { minHeight: 0, ...place(i) } }, img(x)))));
+      }
+      const { nodes } = buildBody(R, D.body || []);
+      bodyNodes = nodes.slice();
+      if (g.length > 5)
+        bodyNodes.push(R('div', { key: 'more', style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(220px,100%),1fr))', gap: '10px' }, 'data-cols': 'repeat(auto-fill,minmax(170px,1fr))' }, ...g.slice(5).map((x, i) => R('div', { key: i, style: { aspectRatio: '4/3' } }, img(x)))));
+      const groups = (D.specs || []).filter((x) => x.items && x.items.length);
+      if (groups.length)
+        specAside = R('aside', { style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } },
+          ...groups.map((x, i) => R('div', { key: i, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px', display: 'flex', flexDirection: 'column', gap: '12px' } },
+            R('div', { style: { font: "600 11.5px Figtree,sans-serif", letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, x.heading),
+            R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...x.items.map((it, k) => R('span', { key: k, style: { font: '500 13.5px Figtree,sans-serif', color: '#1f3550', background: '#eef4f9', padding: '6px 12px', borderRadius: '999px' } }, it))),
+            x.text ? R('p', { style: { fontSize: '14px', lineHeight: '1.6', color: '#3b4d63' } }, x.text) : null)));
+    }
     return {
-      centreName,
+      sample,
+      centreName: D ? D.name : centreName,
+      centreAddress: D ? D.address : centreAddress,
+      catHref: D ? D.catHref : '/ontario-rehabs',
+      catOn: !D || !!D.catHref,
+      catLabel: D ? D.categories[0] : centreProvince + ' Rehabs',
+      catLine: D ? D.categories.join(' · ') : centreProvince + ' Rehabs · Residential',
+      catLineOn: !D || D.categories.length > 0,
+      addrOn: !D || !!D.address,
+      phoneHref: D ? D.phoneHref : 'tel:+17059966522',
+      phoneText: D ? D.phoneText : '',
+      phoneOn: !D || !!D.phoneHref,
+      siteHref: D ? D.website : '#',
+      siteOn: !D || !!D.website,
+      asideOn: !D || !!D.phoneHref || !!D.website,
+      aboutOn: !D || (D.body || []).length > 0 || (D.specs || []).some((x) => x.items && x.items.length),
+      galleryNode,
+      bodyNodes,
+      specAside,
+      unclaimed: D ? false : !claimed,
       centreProvince,
-      centreAddress,
       photoCount: 21,
       siteReviews: 2,
       centreUpdated: 'Nov 2025',
       centreUpdatedLong: 'November 27, 2025',
       fromPrice: '$19,900',
       claimed,
-      unclaimed: !claimed,
       monthlyVisitors: '10,000+',
       verifyNote: claimed
         ? 'Programs, pricing and services on this page were confirmed directly with ' +
@@ -1047,6 +1094,23 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    sample,
+    catHref,
+    catLabel,
+    catOn,
+    catLine,
+    catLineOn,
+    addrOn,
+    phoneHref,
+    phoneText,
+    phoneOn,
+    siteHref,
+    siteOn,
+    asideOn,
+    aboutOn,
+    galleryNode,
+    bodyNodes,
+    specAside,
     ack,
     ackBg,
     ackBorder,
@@ -1128,17 +1192,26 @@ function template(v) {
               <$A className="scp0" href="/" style={{ color: '#6b7f95' }}>
                 Home
               </$A>
+              {catOn ? (
+              <>
               <span style={{ opacity: '.5' }}>/</span>
-              <$A className="scp0" href="/ontario-rehabs" style={{ color: '#6b7f95' }}>
-                {$i(centreProvince)} Rehabs
+              <$A className="scp0" href={catHref} style={{ color: '#6b7f95' }}>
+                {$i(catLabel)}
               </$A>
+              </>
+              ) : null}
+              {sample ? (
+              <>
               <span style={{ opacity: '.5' }}>/</span>
               <$A className="scp0" href="/toronto-rehabs" style={{ color: '#6b7f95' }}>
                 Toronto Rehabs
               </$A>
+              </>
+              ) : null}
               <span style={{ opacity: '.5' }}>/</span>
               <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(centreName)}</span>
             </nav>
+            {sample ? (
             <div
               style={{
                 position: 'relative',
@@ -1383,6 +1456,8 @@ function template(v) {
                 ) : null}
               </span>
             </div>
+            ) : null}
+            {sample ? null : galleryNode}
             <div
               style={{
                 display: 'grid',
@@ -1396,6 +1471,7 @@ function template(v) {
             >
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 <div style={{ display: 'flex', gap: '18px', alignItems: 'center' }}>
+                  {sample ? (
                   <span
                     style={{
                       width: '72px',
@@ -1412,16 +1488,20 @@ function template(v) {
                   >
                     logo
                   </span>
+                  ) : null}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                    {catLineOn ? (
                     <$A
-                      href="/listing-category/ontario-rehabs"
+                      href={catHref}
                       style={{ font: '600 12px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase' }}
                     >
-                      {$i(centreProvince)} Rehabs · Residential
+                      {$i(catLine)}
                     </$A>
+                    ) : null}
                     <h1 style={{ fontSize: '40px', lineHeight: '1.08' }} data-rc-lg="1">
                       {$i(centreName)}
                     </h1>
+                    {addrOn ? (
                     <p
                       style={{
                         fontSize: '14.5px',
@@ -1443,8 +1523,11 @@ function template(v) {
                       />
                       {$i(centreAddress)}
                     </p>
+                    ) : null}
                   </div>
                 </div>
+                {sample ? (
+                <>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flexWrap: 'wrap' }}>
                   <span
                     style={{
@@ -1525,7 +1608,10 @@ function template(v) {
                     </Fragment>
                   ))}
                 </div>
+                </>
+                ) : null}
               </div>
+              {asideOn ? (
               <aside
                 style={{
                   position: 'sticky',
@@ -1540,6 +1626,7 @@ function template(v) {
                   boxShadow: '0 30px 60px -40px rgba(16,35,58,.35)',
                 }}
               >
+                {sample ? (
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                   <span
                     style={{
@@ -1558,9 +1645,11 @@ function template(v) {
                     </span>
                   </span>
                 </div>
+                ) : null}
+                {phoneOn ? (
                 <$A
                   className="scp1"
-                  href="tel:+17059966522"
+                  href={phoneHref}
                   style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -1574,8 +1663,10 @@ function template(v) {
                   }}
                 >
                   {$i(iconPhone)}
-                  Call centre · 705-996-6522
+                  {sample ? 'Call centre · 705-996-6522' : phoneText}
                 </$A>
+                ) : null}
+                {sample ? (
                 <$A
                   className="scp2"
                   href="#callback"
@@ -1591,10 +1682,12 @@ function template(v) {
                 >
                   Request a callback
                 </$A>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }} data-cols="1fr 1fr">
+                ) : null}
+                {siteOn ? (
+                <div style={{ display: 'grid', gridTemplateColumns: sample ? '1fr 1fr' : '1fr', gap: '8px' }} data-cols="1fr 1fr">
                   <$A
                     className="scps"
-                    href="#"
+                    href={siteHref}
                     style={{
                       font: '500 13.5px Figtree,sans-serif',
                       color: '#516378',
@@ -1606,6 +1699,7 @@ function template(v) {
                   >
                     Visit website
                   </$A>
+                  {sample ? (
                   <$A
                     className="scps"
                     href="#"
@@ -1620,7 +1714,10 @@ function template(v) {
                   >
                     Save to wishlist
                   </$A>
+                  ) : null}
                 </div>
+                ) : null}
+                {sample ? (
                 <div
                   style={{
                     borderTop: '1px solid #edf2f7',
@@ -1641,6 +1738,7 @@ function template(v) {
                     Private, fee-based residential centre
                   </span>
                 </div>
+                ) : null}
                 {unclaimed ? (
                   <>
                     <div
@@ -1687,7 +1785,9 @@ function template(v) {
                   </>
                 ) : null}
               </aside>
+              ) : null}
             </div>
+            {sample ? (
             <nav
               style={{
                 display: 'flex',
@@ -1716,8 +1816,10 @@ function template(v) {
                 </Fragment>
               ))}
             </nav>
+            ) : null}
           </div>
         </section>
+        {aboutOn ? (
         <section id="about" data-screen-label="About" style={{ background: '#f7fafd' }}>
           <div
             style={{
@@ -1735,12 +1837,15 @@ function template(v) {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                gap: '22px',
+                gap: sample ? '22px' : '28px',
                 flex: '1 1 560px',
                 minWidth: '0',
                 maxWidth: '800px',
+                ...(sample ? null : { fontSize: '17.5px', lineHeight: '1.75', color: '#3b4d63' }),
               }}
             >
+              {sample ? (
+              <>
               <span
                 style={{
                   font: '600 12px Figtree,sans-serif',
@@ -2057,7 +2162,11 @@ function template(v) {
                   ))}
                 </div>
               </div>
+              </>
+              ) : null}
+              {sample ? null : bodyNodes}
             </article>
+            {sample ? (
             <aside
               style={{
                 display: 'flex',
@@ -2162,8 +2271,13 @@ function template(v) {
                 <p style={{ fontSize: '13px', lineHeight: '1.55', color: '#516378' }}>{$i(verifyNote)}</p>
               </div>
             </aside>
+            ) : null}
+            {sample ? null : specAside}
           </div>
         </section>
+        ) : null}
+        {sample ? (
+        <>
         <section
           id="pricing"
           data-screen-label={'Programs & Pricing'}
@@ -3690,6 +3804,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        </>
+        ) : null}
         <footer data-screen-label="Footer" style={{ background: '#10233a', color: '#b7c7d8' }}>
           <div
             style={{

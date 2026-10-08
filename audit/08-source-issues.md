@@ -231,3 +231,10 @@ Vancouver (`/7-best-drug-alcohol-rehab-centres-in-vancouver-2025/`), Ottawa, Mon
 - Headline counts that disagree with the cards are kept as written (Toronto “8 Best” shows 7 cards; Vancouver “7 Best” shows 7; Ottawa 11 cards).
 - Excerpt rule (§17) also applies to these cards; the mojibake repair is applied to the cut list too.
 - 3 Montreal/Vancouver cards have no source image and show the design’s neutral placeholder.
+
+## 20. Centre prototype on the approved Centre view (4 pages, not the full 391)
+Pages: `/another-road-addiction-recovery-centre/` (rich: 11 gallery images, YouTube video, long body; has Google reviews), `/peace-country-wilderness-program/` (average), `/canadawide-mobile/` (minimal, 85 words), `/blue-skies-recovery/` (LinkedIn embed). Switch list: `CENTRE_VIEW_SLUGS` in `src/lib/centre.ts`; every other centre still uses the old component.
+- Shown (source fields only): breadcrumb, category, name, address, phone, website, gallery, about body (headings, paragraphs, lists, tables, images, videos/embeds) in the BlogPost article styles, specialties/amenities groups that have items.
+- Not shown (per owner): ratings, review counts, Google review text, hours, FAQ, tags, social links, email, price/length items, sponsor ad, badges, logo box, “Show all photos”, tab bar, team, location/map, callback form, claim banner, sponsored centres, author/reviewer.
+- Source oddity kept as is: `/canadawide-mobile/` and `/peace-country-wilderness-program/` list “Substance Abuse Treatmental” under both Specialties and Amenities.
+- Gallery: the first 5 images fill the design’s mosaic (layout adapts to 1–4 images); images beyond 5 appear as a thumbnail grid under the body.
