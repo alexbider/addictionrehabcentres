@@ -50,8 +50,9 @@ if (mode === 'all' || mode === 'fidelity') {
     const gr = (c.google_reviews?.items || []).filter((r) => r.text && body.includes(r.text.slice(0, 40))).length;
     const countPat = /\b\d+\s+(google\s+)?reviews?\b/i.test(body);
     const h1 = await ev('document.querySelectorAll("h1").length');
-    tot++; totMissing += missing.length; if (missing.length || gr || countPat || h1 !== 1) bad++;
-    if (missing.length || gr || countPat || h1 !== 1) console.log('PROBLEM', s, 'missing', missing.length, missing.slice(0, 8).join(','), '| google text', gr, '| review count shown', countPat, '| h1', h1);
+    await wait(400); const broken = await ev('[...document.images].filter(i=>i.complete&&i.naturalWidth===0).map(i=>i.src.slice(-60)).join(" | ")');
+    tot++; totMissing += missing.length; if (missing.length || gr || countPat || h1 !== 1 || broken) bad++;
+    if (missing.length || gr || countPat || h1 !== 1 || broken) console.log('PROBLEM', s, 'broken images:', broken || 'none', 'missing', missing.length, missing.slice(0, 8).join(','), '| google text', gr, '| review count shown', countPat, '| h1', h1);
   }
   console.log(`pages checked: ${tot}, pages with problems: ${bad}, total missing words: ${totMissing}`);
 }
