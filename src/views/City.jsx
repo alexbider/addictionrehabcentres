@@ -2045,7 +2045,7 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
-            {sample ? (
+            {true ? (
             <div
               style={{
                 marginTop: '56px',
@@ -2062,7 +2062,7 @@ function template(v) {
               data-rc-stack="1"
             >
               <div>
-                <h3 style={{ fontSize: '24px', color: '#fff' }}>Not sure which {$i(city)} centre is right for you?</h3>
+                <h3 style={{ fontSize: '24px', color: '#fff' }}>{sample ? <>Not sure which {$i(city)} centre is right for you?</> : 'Not sure which centre is right for you?'}</h3>
                 <p style={{ fontSize: '15px', opacity: '.9', marginTop: '6px', lineHeight: '1.5' }}>
                   We'll ask a few questions, check availability and funding, and connect you directly. Free and
                   confidential, 24/7.

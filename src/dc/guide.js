@@ -66,6 +66,7 @@ export function buildBody(R, rawBlocks) {
     if (b.type === 'p' || b.type === 'text') {
       return R('p', { key, dangerouslySetInnerHTML: { __html: b.html ?? b.text } });
     }
+    if (b.type === 'link') return R('p', { key }, R('a', { href: b.new_href || b.href }, b.text));
     if (b.type === 'blockquote') return R('blockquote', { key, style: { margin: 0, padding: '22px 26px', background: '#f7fafd', borderRadius: '20px' }, dangerouslySetInnerHTML: { __html: b.html } });
     if (b.type === 'ul' || b.type === 'ol' || b.type === 'bl')
       return R(b.type === 'bl' ? 'ul' : b.type, { key, style: { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ol' ? 'decimal' : 'disc', display: 'flex', flexDirection: 'column', gap: '8px' } }, ...b.items.map((it, k) => R('li', { key: k, dangerouslySetInnerHTML: { __html: it.html } })));

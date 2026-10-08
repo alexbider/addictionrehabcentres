@@ -10,6 +10,8 @@ import { Root as CityView } from '@/views/City';
 import { cityData } from '@/lib/city';
 import { Root as CentreView } from '@/views/Centre';
 import { centreOnView, centreData } from '@/lib/centre';
+import { Root as PostView } from '@/views/BlogPost';
+import { POST_VIEW_SLUGS, postData } from '@/lib/post';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
@@ -30,7 +32,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={page} />
-      {page.page_type === 'centre' && centreOnView(page.slug) ? <CentreView data={centreData(page)} /> : page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing && page.page_type === 'province' ? <ProvinceView data={provinceData(page)} /> : page.listing && page.page_type === 'city' ? <CityView data={cityData(page)} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
+      {page.page_type === 'centre' && centreOnView(page.slug) ? <CentreView data={centreData(page)} /> : page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' && POST_VIEW_SLUGS.has(page.slug) ? <PostView data={postData(page)} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing && page.page_type === 'province' ? <ProvinceView data={provinceData(page)} /> : page.listing && page.page_type === 'city' ? <CityView data={cityData(page)} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
     </>
   );
 }

@@ -1643,7 +1643,9 @@ function template(v) {
                 </div>
               </>
             ) : null}
-            {sample ? (
+            {(
+            true
+            ) ? (
             <div
               style={{
                 marginTop: '56px',
@@ -1661,11 +1663,10 @@ function template(v) {
             >
               <div>
                 <h3 style={{ fontSize: '24px', color: '#fff' }}>
-                  Need help choosing between these {$i(count)} centres?
+                  {sample ? <>Need help choosing between these {$i(count)} centres?</> : 'Need help choosing between these centres?'}
                 </h3>
                 <p style={{ fontSize: '15px', opacity: '.9', marginTop: '6px', lineHeight: '1.5' }}>
-                  Tell us a bit about your situation and we'll shortlist the {$i(province)} programs that fit — free,
-                  confidential, any time of day.
+                  {sample ? <>Tell us a bit about your situation and we'll shortlist the {$i(province)} programs that fit — free, confidential, any time of day.</> : "Tell us a bit about your situation and we'll shortlist the programs that fit — free, confidential, any time of day."}
                 </p>
               </div>
               <$A
