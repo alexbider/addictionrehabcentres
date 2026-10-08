@@ -1220,6 +1220,11 @@
   "note": "thin centre -> city archive"
  },
  {
+  "source": "/rehab",
+  "destination": "/",
+  "note": "source 301s /rehab/ -> / (the design buttons link to it)"
+ },
+ {
   "source": "/roblin-hero-club",
   "destination": "/manitoba-rehabs/",
   "note": "thin centre -> province page"
