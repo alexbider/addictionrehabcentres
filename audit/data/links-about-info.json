@@ -1,0 +1,29 @@
+{
+ "pages": 7,
+ "targets": 38,
+ "bad": {
+  "/treatment-programs/": {
+   "status": 404,
+   "from": [
+    "/admissions/"
+   ],
+   "count": 1
+  },
+  "/insurance-providers/": {
+   "status": 404,
+   "from": [
+    "/admissions/"
+   ],
+   "count": 1
+  },
+  "/rehab/yukon-drug-rehab-treatments/": {
+   "status": 404,
+   "from": [
+    "/admissions/",
+    "/nutrition-and-wellness/",
+    "/residences/"
+   ],
+   "count": 3
+  }
+ }
+}
