@@ -36,7 +36,7 @@ async function worker() {
     const e = list[next++]; if (!e) break;
     const d = JSON.parse(fs.readFileSync(`${R}/audit/content/${e.slug}.json`, 'utf8'));
     const r = { slug: e.slug, route: e.route, type: e.type, overflow: [], missing: 0, missingWords: '', h1: 0, broken: '' };
-    for (const w of [320, 390, 768, 1440]) {
+    for (const w of [320, 390, 768, 1024, 1440]) {
       await go('http://localhost:3100' + e.route, w);
       const o = await ev('[document.documentElement.scrollWidth, document.documentElement.clientWidth]'); if (o[0] > o[1]) r.overflow.push(`${w}px:${o[0]}>${o[1]}`);
       if (w === 1440) {

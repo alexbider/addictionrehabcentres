@@ -1184,6 +1184,7 @@ class Component extends DCLogic {
       heroCols: '1.1fr .9fr',
       listHeading: D ? D.listHeading || '' : '',
       listIntro: D ? D.listIntro || [] : [],
+      pager: D ? D.pager || null : null,
       listHeadOn: !D || !!D.listHeading || (D.listIntro || []).length > 0,
       guideCols: tocOn ? '300px 1fr' : '1fr',
       guideNodes,
@@ -1259,6 +1260,7 @@ function template(v) {
     listHeading,
     listIntro,
     listHeadOn,
+    pager,
     guideCols,
     guideNodes,
     hasGuide,
@@ -2100,6 +2102,15 @@ function template(v) {
                 Call 1-855-885-4747
               </$A>
             </div>
+            ) : null}
+            {pager ? (
+              <nav aria-label="Pagination" style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', justifyContent: 'center', marginTop: '32px' }}>
+                {pager.prev ? <a rel="prev" href={pager.prev} style={{ padding: '12px 18px', minHeight: '44px', border: '1px solid #cfe0ef', borderRadius: '10px', color: '#0f5fa8', background: '#fff', font: '600 15px Jost,sans-serif' }}>Previous</a> : null}
+                {pager.pages.map((pg) => (
+                  <a key={pg.n} href={pg.href} aria-current={pg.n === pager.current ? 'page' : undefined} style={{ padding: '12px 16px', minHeight: '44px', minWidth: '44px', textAlign: 'center', border: '1px solid #cfe0ef', borderRadius: '10px', color: pg.n === pager.current ? '#fff' : '#0f5fa8', background: pg.n === pager.current ? '#0f5fa8' : '#fff', font: '600 15px Jost,sans-serif' }}>{pg.n}</a>
+                ))}
+                {pager.next ? <a rel="next" href={pager.next} style={{ padding: '12px 18px', minHeight: '44px', border: '1px solid #cfe0ef', borderRadius: '10px', color: '#0f5fa8', background: '#fff', font: '600 15px Jost,sans-serif' }}>Next</a> : null}
+              </nav>
             ) : null}
           </div>
         </section>

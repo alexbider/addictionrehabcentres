@@ -264,7 +264,7 @@ First 100 published centres alphabetical by slug (`1000-islands-addiction-rehab`
 - **Client question:** “Therapist, onboarding, login and dashboard designs are kept as draft pages, hidden from navigation and search, until you confirm scope.”
 
 ## 25. Paginated city archives (/listing-location/<city>/page/N/)
-Calgary, Ottawa, St. John's, Toronto, Vancouver (2 pages each) and Winnipeg (3 pages) are paginated on the source with their own title/canonical/rel=prev/next. Only page 1 of each was scraped, so /page/N/ routes are not built (7 pages) and rel=next/prev links to them are omitted rather than pointing at 404s. Decision needed: scrape and build them, or accept the omission.
+Calgary, Ottawa, St. John's, Toronto, Vancouver (2 pages each) and Winnipeg (3 pages) are paginated on the source with their own title/canonical/rel=prev/next. Only page 1 of each was scraped, (RESOLVED in the next pass: the 7 /page/N/ pages were scraped with audit/scripts/pull_archive_pages.py, built on the City view, and rel=next/prev restored.)
 
 ## 26. City archives: parity DIFFs that are source chrome, not content
 - headings (59/59): source outline includes an hidden login-modal heading ("You don't have permission to register") and footer widget headings (OTHER SERVICES, SPECIAL SERVICES, TYPES OF SERVICES, We Are Available 24/7); the shared header/footer replaces them.
