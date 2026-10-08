@@ -942,7 +942,7 @@ class Component extends DCLogic {
           ? 'Finished — nice work'
           : D ? pct + '% read' : pct + '% read · ' + Math.max(1, Math.round(9 * (1 - progress))) + ' min left',
       showToc: D ? showToc && liveToc.length >= 2 : showToc,
-      bodyCols,
+      bodyCols: D && D.columnFix && showToc && liveToc.length < 2 ? 'minmax(480px,1fr) 320px' : bodyCols,
       sideStyle: narrow ? 'static' : 'sticky',
       sideCols: narrow ? 'repeat(auto-fit,minmax(280px,1fr))' : '1fr',
       timelineCols: tight ? '1fr' : '150px 1fr auto',

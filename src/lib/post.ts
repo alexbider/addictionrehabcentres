@@ -1,3 +1,4 @@
+import { TOC_LAYOUT_FIX } from '@/lib/rollout';
 import type { Block, Page } from '@/lib/content';
 import { getPage, getPublished } from '@/lib/content';
 import { categorySlug } from '@/lib/blog';
@@ -24,6 +25,7 @@ export type PostData = {
   related: PostLink[];
   prev: PostLink | null;
   next: PostLink | null;
+  columnFix: boolean;
 };
 
 /** Blog post JSON → props for the approved BlogPost view. Source fields only: category, date, title, featured image, body.
@@ -62,6 +64,7 @@ export function postData(page: Page): PostData {
   const pub = page.post?.published ?? '';
   const mod = page.post?.modified ?? '';
   return {
+    columnFix: TOC_LAYOUT_FIX.includes('*') || TOC_LAYOUT_FIX.includes(page.slug),
     title: page.h1,
     url: `https://addictionrehabcenters.ca${page.route}`,
     categories: cats.map((c) => ({ label: c, href: `/blog/?category=${categorySlug(c)}` })),
