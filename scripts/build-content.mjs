@@ -29,7 +29,7 @@ const fixExcerpt = (slug, ex) => {
 const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 
 // Page types that have a view today.
-const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre']);
+const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
 const LIVE_SLUGS = new Set(['blog', 'home']); // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.

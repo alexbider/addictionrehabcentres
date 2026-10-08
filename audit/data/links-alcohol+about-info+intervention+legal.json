@@ -1,0 +1,27 @@
+{
+ "pages": 10,
+ "targets": 57,
+ "bad": {
+  "/residences/": {
+   "status": 404,
+   "from": [
+    "/getting-started/"
+   ],
+   "count": 1
+  },
+  "/admissions/": {
+   "status": 404,
+   "from": [
+    "/our-philosophy/"
+   ],
+   "count": 1
+  },
+  "/nutrition-and-wellness/": {
+   "status": 404,
+   "from": [
+    "/our-philosophy/"
+   ],
+   "count": 1
+  }
+ }
+}

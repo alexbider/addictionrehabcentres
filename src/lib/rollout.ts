@@ -4,6 +4,6 @@ export const ROLLOUT = {
   drug: true,        // Drug view: 24 drug pages + 5 text-only provinces
   treatment: true,   // Intervention view: 33 treatment / support pages
   cityArchives: true, // Province listing design: 59 city archives under /listing-location/
-  alcohol: false,    // Alcohol view
-  document: false,   // Document view: about, FAQ, legal pages
+  alcohol: true,     // Alcohol view
+  document: true,    // Document view: about, FAQ, legal pages
 };

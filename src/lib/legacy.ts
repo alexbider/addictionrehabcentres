@@ -58,6 +58,7 @@ export function legacyData(page: Page): LegacyData {
     }
     article.push(...promote(flat, page));
   }
+  if (!rows.length && page.blocks?.length) article.push(...promote(page.blocks.filter((b, i) => !(i === 0 && b.type === 'h1')), page));
   const bg = hero?.background_image ?? null;
   const drugs = getPublished().filter((e) => e.type === 'drug' && e.route !== page.route);
   return {
@@ -73,5 +74,5 @@ export function legacyData(page: Page): LegacyData {
 }
 
 /** Drug view: the 24 drug pages and the text-only province pages (no centre cards). Intervention view: treatment / support pages. */
-export const isDrugView = (p: Page) => p.page_type === 'drug' || (p.page_type === 'province' && !(p.listing?.cards?.length));
-export const isInterventionView = (p: Page) => p.page_type === 'treatment-support' || p.page_type === 'support-service';
+export const isDrugView = (p: Page) => p.page_type === 'drug' || p.page_type === 'alcohol' || (p.page_type === 'province' && !(p.listing?.cards?.length));
+export const isInterventionView = (p: Page) => p.page_type === 'treatment-support' || p.page_type === 'support-service' || p.page_type === 'intervention' || p.page_type === 'about-info' || p.page_type === 'legal';

@@ -271,3 +271,9 @@ Calgary, Ottawa, St. John's, Toronto, Vancouver (2 pages each) and Winnipeg (3 p
 - ext_links (59/59): the source's footer widget links (Facebook page, Google listing with tracking query) are not in the shared Home footer.
 - images_kept (4/59): a decorative province banner (e.g. Ontario-Rehabs.jpg) used by the source sidebar is not part of the archive design.
 - hreflang_pagination (6): rel=next on the six paginated archives, see §25.
+
+## 27. Source pages linked from body copy but absent from the inventory
+/residences/, /admissions/ and /nutrition-and-wellness/ return 200 on the live source but were not in the sitemap or the crawl, so they are not built; the links in About Us (getting-started, our-philosophy and other pages) 404 on the new site. Decision needed: scrape and build the three pages, or unlink them.
+
+## 28. Batch (e) view mapping
+No separate Alcohol/Document view conversion was done: /alcohol-addiction-treatment/ renders on the Drug view (same hero/article/provinces/help structure), and About Us, Getting Started, Our Philosophy, FAQs, the four legal pages and /drugs-and-alcohol-intervention/ render on the Intervention view ("Document view" = the Intervention article layout, source text only). /drug-intervention-treatment-centres/ stays unpublished: it embeds centre cards (needs a card component).
