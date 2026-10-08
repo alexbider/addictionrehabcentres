@@ -1,6 +1,7 @@
 import type { Block, Card, Page } from '@/lib/content';
 import { getIndex, isPublishedRoute, routeExists } from '@/lib/content';
 import { provinceNav, provinceNavItems } from '@/lib/provinces';
+import { stripName } from '@/lib/city';
 
 export type ProvinceData = {
   h1: string;
@@ -36,7 +37,7 @@ export function provinceData(page: Page): ProvinceData {
         if (!c || seen.has(h)) continue;
         seen.add(h);
         const path = new URL(c.href).pathname;
-        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: c.address, excerpt: c.excerpt, category: c.category, image: c.image ? { src: c.image.local_path, alt: c.image.alt, width: c.image.width ?? null, height: c.image.height ?? null } : null });
+        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: stripName(c.address, c.name), excerpt: c.excerpt, category: c.category, image: c.image ? { src: c.image.local_path, alt: c.image.alt, width: c.image.width ?? null, height: c.image.height ?? null } : null });
       }
     } else (sawCards ? guide : before).push(b);
   }

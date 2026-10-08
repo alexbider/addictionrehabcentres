@@ -33,6 +33,12 @@ function archiveProvince(cards: { address: string }[]): string {
   return top ? CODES[top[0]] : '';
 }
 
+/** The source prints the centre name again at the start of the address ("Name, Name, street…"): show the name once. */
+export function stripName(address: string, name: string): string {
+  const esc = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  return address.replace(new RegExp('^\\s*' + esc + '\\s*[,;:-]?\\s*', 'i'), '').trim() || address;
+}
+
 /** City ranking page JSON → props for the approved City view (src/views/City.jsx). Source content only. */
 export function cityData(page: Page): CityData {
   const rows = page.rows.filter((r) => r.columns.some((c) => c.blocks.length) && !r.classes.includes('bottomWidget'));
@@ -54,7 +60,7 @@ export function cityData(page: Page): CityData {
         seen.add(h);
         const path = new URL(c.href).pathname;
         const cat = categoryRoute[c.category];
-        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: c.address, excerpt: c.excerpt, category: c.category, catHref: cat && isPublishedRoute(cat) ? cat : null, image: c.image ? { src: c.image.local_path, alt: c.image.alt, width: c.image.width ?? null, height: c.image.height ?? null } : null });
+        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: stripName(c.address, c.name), excerpt: c.excerpt, category: c.category, catHref: cat && isPublishedRoute(cat) ? cat : null, image: c.image ? { src: c.image.local_path, alt: c.image.alt, width: c.image.width ?? null, height: c.image.height ?? null } : null });
       }
     } else (sawCards ? guide : before).push(b);
   }

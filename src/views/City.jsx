@@ -1140,9 +1140,9 @@ class Component extends DCLogic {
     const liveRanked = (D ? D.cards : []).map((c, i) => ({
       id: 'centre-' + (i + 1),
       anchor: '#centre-' + (i + 1),
-      n: '•',
-      numBg: 'transparent',
-      numColor: '#0890E8',
+      n: String(i + 1),
+      numBg: '#eaf5fd',
+      numColor: '#0670b8',
       cityShort: c.address,
       name: c.name,
       href: c.href,
@@ -1165,7 +1165,7 @@ class Component extends DCLogic {
       year,
       rankCount: D ? (S ? S.count : D.cards.length) : this.props.cityCount ?? cityRaw.length,
       search: S,
-      glanceOn: !S || D.cards.length > 0,
+      glanceOn: !S,
       cityUpdated: 'Jun 2025',
       cityUpdatedLong: 'June 6, 2025',
       verifiedCount: ranked.filter((r) => r.verified).length,
@@ -1185,7 +1185,7 @@ class Component extends DCLogic {
       heroTitle: D ? D.h1 : '',
       heroSub: D ? D.h2 || '' : '',
       heroShowSub: !D || !!D.h2,
-      heroCols: '1.1fr .9fr',
+      heroCols: S ? 'minmax(0,1fr)' : '1.1fr .9fr',
       listHeading: D ? D.listHeading || '' : '',
       listIntro: D ? D.listIntro || [] : [],
       pager: D ? D.pager || null : null,
@@ -1497,7 +1497,7 @@ function template(v) {
                   <h3 style={{ fontSize: '17px' }}>At a glance</h3>
                   <span style={{ fontSize: '12.5px', color: '#6b7f95' }}>Jump to a centre</span>
                 </div>
-                <ol style={{ margin: '0', padding: '0', listStyle: 'none', display: 'flex', flexDirection: 'column' }}>
+                <ol tabIndex={0} aria-label="Centres on this page" style={{ margin: '0', padding: '0', listStyle: 'none', display: 'flex', flexDirection: 'column' }}>
                   {$list(ranked).map((r, $index) => (
                     <Fragment key={$index}>
                       <li>
@@ -1668,7 +1668,7 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         minHeight: '260px',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                       }}
                     >
                       {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
