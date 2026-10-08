@@ -356,3 +356,22 @@ a:not([style*="color"]):not(footer a):not([data-sc-name="SiteHeader"] a) { color
 
 /* 9 ▸ images the source puts inside headings, paragraphs and lists never exceed their column (some are 1000 px wide at a 1024 px viewport) */
 :is(h1, h2, h3, h4, p, li, td, figure) img { max-width: 100%; height: auto; }
+
+/* 10 ▸ form fields: the design's field style applied explicitly to every control type, so a field never falls back to the browser look.
+      Zero specificity (:where) for the base style, so the inline style of a view (taller claim fields, borderless search boxes) always wins. */
+:where(input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]):not([type="range"]):not([type="submit"]):not([type="button"]):not([type="file"]), select, textarea):where(:not([style*="border:0"]):not([style*="border: 0"]):not([style*="border: none"]):not([style*="border:none"])) {
+  box-sizing: border-box; border: 1px solid #dbe6f0; border-radius: 10px; padding: 12px 14px; font: 500 14px Figtree, sans-serif; color: #10233a; background-color: #fff; outline: none; max-width: 100%;
+}
+:where(textarea) { line-height: 1.5; resize: vertical; }
+:where(input[type="checkbox"], input[type="radio"]) { accent-color: #0890E8; width: 16px; height: 16px; }
+:where(input, textarea)::placeholder { color: #8a9bb0; opacity: 1; }
+/* focus ring (the design's: blue border + soft 4px ring); not on the borderless search boxes inside styled wrappers */
+input:focus-visible:not([type="checkbox"]):not([type="radio"]):not([style*="border:0"]):not([style*="border: 0"]):not([style*="border: none"]),
+select:focus-visible, textarea:focus-visible { border-color: #0890E8 !important; box-shadow: 0 0 0 4px rgba(8,144,232,.12) !important; outline: none; }
+input[type="checkbox"]:focus-visible, input[type="radio"]:focus-visible { outline: 2px solid #0890E8; outline-offset: 2px; }
+/* error state */
+:is(input, select, textarea)[aria-invalid="true"] { border-color: #e0787c !important; }
+/* browser autofill and extensions must not repaint the field */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #fff inset !important; -webkit-text-fill-color: #10233a !important; caret-color: #10233a; transition: background-color 99999s ease-out 0s;
+}
