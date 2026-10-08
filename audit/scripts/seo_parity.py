@@ -78,7 +78,7 @@ def check(e):
     for t in s.select('footer, [data-sc-name=SiteHeader]'): t.decompose()
     bh=[[h.name,norm(h.get_text(' ',strip=True))] for h in s.find_all(re.compile(r'^h[1-6]$'))]
     # intended removals / site chrome in the source outline: footer widget headings, sponsored ad, reviews, comment form
-    CHROME=re.compile(r'^(we are available 24/7|types of services|special services|other services|sponsored ad|start your journey now|reviews about center|write a review.*|post a comment.*|\d+ reviews?)$',re.I)
+    CHROME=re.compile(r'^(we are available 24/7|types of services|special services|other services|sponsored ad|start your journey now|reviews about center|write a review.*|post a comment.*|comments|you don.t have permission.*|\d+ reviews?)$',re.I)
     sh_all=[[h[0],norm(h[1])] for h in src['headings']]
     sh=[h for h in sh_all if not CHROME.match(h[1])]
     removed=[h[1] for h in sh_all if CHROME.match(h[1])]

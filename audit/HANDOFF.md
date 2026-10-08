@@ -18,12 +18,19 @@ Migrate the content of https://addictionrehabcenters.ca (WordPress) into this si
 10. No `rm` on `public/assets/img/*` (blocked by the sandbox) — image cleanup lives inside `scripts/build-content.mjs`.
 
 ## 2. Where things stand (important)
-- The pages built so far (664 published in `content/_index.json`) are rendered by **new components I wrote** (`src/components/*.tsx`), styled with the design’s palette but **not** by the approved design views. The owner has asked to **rework every page type onto the approved views** (§7, §8). Only **Home (`/`) and Blog (`/blog/`) have been restored to the design views** so far.
-- `/` = approved `Home.jsx` untouched (sample content, no source content). Verified against the clone: same page height (11,896 px), identical text, 0.027 % pixel difference at 1440 px.
-- `/blog/` = approved `Blog.jsx` **modified to take props** (`posts`, `cats`, `heading`): shows the 186 real posts (title, image, date, category, link, source excerpt) with real pagination (12 per page), category chips with counts, deep link `?category=<slug>`; hides hero eyebrow/paragraph, Featured Articles, Latest/Popular sort, Popular list, helpline card, newsletter form, Topic Hubs, author/read-time. This is the **prototype of the “view takes data via props” pattern** (see Blog.jsx `live` flag in `renderVals`, template conditionals, `src/app/blog/page.tsx`).
-- Not yet reworked: province, city, city archives, centre, drug/info, blog post, treatment/support, alcohol, intervention, about, legal, FAQ, contact, promote, claim pages (they use the old components or are unbuilt).
-- Design routes still live with sample content (do not change them unless told): `/alcohol /auth /centre /centre-onboarding /city /claim-listing /claim-therapist /contact /drug /intervention /join-directory /menu-options /promote /provider-dashboard /province /therapist-onboarding /therapist-profile /therapists /therapists-city /therapists-province`. The originally planned “delete all 19 design-only routes at the end” is **on hold** (the owner now wants the approved designs kept as templates; ask which to delete before launch).
-- Uncommitted work at the time of writing: `src/views/Blog.jsx`, `src/app/blog/page.tsx`, `src/app/page.tsx` (restored), `audit/13-design-mapping.md`, `audit/design-contact-sheet.png`, `audit/HANDOFF.md`, `audit/08-source-issues.md` (§15–16), `audit/scripts/*`, `audit/data/*`.
+**Status (final rollout pass):** 729 pages published, 209 unpublished (see `content/_index.json`). Every published page renders on an approved design view, built by `scripts/build-content.mjs` from the scraped source; no hand-written pages.
+| Type | Published | View |
+|---|---|---|
+| home | 1 | Home (design sample content, see audit/15-design-gap.md) |
+| centre | 391 (68 thin unpublished) | Centre |
+| blog-post | 186 (2 thin unpublished) + blog index | BlogPost / Blog |
+| province | 20 (2 unpublished) + 4 city | Province / City |
+| city-archive | 59 (135 thin unpublished) | Province listing design, `/listing-location/<slug>/` |
+| drug / text-only province / alcohol | 24 + 5 + 1 | Drug |
+| treatment-support, support-service, intervention, about-info, legal | 31 + 2 + 1 + 4 + 4 | Intervention (document layout) |
+Unpublished by design: 135 thin city archives, 68 thin centres, 2 thin posts, 2 thin provinces, /drug-intervention-treatment-centres/ (embeds centre cards), 1 treatment page (thin).
+Domain: one variable, `NEXT_PUBLIC_SITE_URL` (default https://addictionrehabcenters.ca); non-production hosts get noindex + disallow-all robots (src/proxy.ts). Draft routes (auth, provider-dashboard, menu-options, therapist pages, join/centre onboarding) are noindex, out of sitemap/llms.txt, unlinked.
+SEO parity: audit/17-seo-parity.md and .csv. Source quirks: audit/08-source-issues.md (§17-28). Nothing has been pushed.
 
 ## 3. Project structure
 ```

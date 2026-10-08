@@ -49,3 +49,17 @@ Footer: **Home’s rich footer is the only footer** (one component, `src/views/S
 3. Which centre photos/ratings may be shown (Google review text and counts are excluded by decision).
 4. Single blog post: should author/reviewer, key takeaways and FAQ be supplied for the editorial posts?
 5. Therapist, onboarding, login and dashboard designs are kept as draft pages, hidden from navigation and search, until you confirm scope (drafts: Therapists, TherapistsProvince, TherapistsCity, TherapistProfile, ClaimTherapist, TherapistOnboarding, JoinDirectory, Auth, ProviderDashboard, CentreOnboarding).
+
+
+## Final rollout: additional hidden / not-built items
+| Page type | Section hidden or not built | Reason |
+|---|---|---|
+| City archive | "Rehab Centres by City" band | a single-city archive has no cities to browse |
+| City archive | /page/N/ pages for Calgary, Ottawa, St. John's, Toronto, Vancouver (2 each) and Winnipeg (3); rel=next/prev | only page 1 scraped (08 §25) |
+| Alcohol | Alcohol view not converted to live data | page renders on the Drug view (08 §28) |
+| About / FAQ / legal | Dedicated Document view | rendered on the Intervention layout with source text only |
+| /drug-intervention-treatment-centres/ | whole page | embeds centre cards; needs a card component |
+| Drug / Intervention / Document | Sample FAQ, reviewer, rating, stats sections | not in source |
+| Home | Entire page uses design sample copy | no approved source mapping |
+| Centre / city archive | Source sidebar and footer widgets, review form, login modal | replaced by shared header/footer, no reviews |
+| All forms | Callback, claim, newsletter, lead | no FORM_ENDPOINT |

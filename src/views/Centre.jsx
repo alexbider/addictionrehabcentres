@@ -959,13 +959,14 @@ class Component extends DCLogic {
         bodyNodes.push(R('div', { key: 'more', style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(220px,100%),1fr))', gap: '10px' }, 'data-cols': 'repeat(auto-fill,minmax(170px,1fr))' }, ...g.slice(5).map((x, i) => R('div', { key: i, style: { aspectRatio: '4/3' } }, img(x)))));
       const groups = (D.specs || []).filter((x) => x.items && x.items.length);
       const card = (key, ...kids) => R('div', { key, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px', display: 'flex', flexDirection: 'column', gap: '12px' } }, ...kids);
+      const hlabel = (t) => R('h3', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95', margin: 0 } }, t);
       const label = (t) => R('div', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, t);
       const chips = (items) => R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...items.map((it, k) => R('span', { key: k, style: { font: '500 13.5px Figtree,sans-serif', color: '#1f3550', background: '#eef4f9', padding: '6px 12px', borderRadius: '999px' } }, it)));
-      const cards = groups.map((x, i) => card('g' + i, label(x.heading), chips(x.items), x.text ? R('p', { style: { fontSize: '14px', lineHeight: '1.6', color: '#3b4d63' } }, x.text) : null));
+      const cards = groups.map((x, i) => card('g' + i, hlabel(x.heading), chips(x.items), x.text ? R('p', { style: { fontSize: '14px', lineHeight: '1.6', color: '#3b4d63' } }, x.text) : null));
       if (D.hours && D.hours.rows.length)
-        cards.push(card('hours', D.hours.heading ? label(D.hours.heading) : null,
+        cards.push(card('hours', D.hours.heading ? hlabel(D.hours.heading) : null,
           ...D.hours.rows.map((r, i) => R('div', { key: i, style: { display: 'flex', justifyContent: 'space-between', gap: '16px', fontSize: '14.5px', padding: '8px 0', borderTop: i ? '1px solid #edf2f7' : '0' } }, R('span', { style: { color: '#516378' } }, r[0]), R('span', { style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', textAlign: 'right' } }, r[1])))));
-      if (D.tags && D.tags.items.length) cards.push(card('tags', D.tags.heading ? label(D.tags.heading) : null, chips(D.tags.items)));
+      if (D.tags && D.tags.items.length) cards.push(card('tags', D.tags.heading ? hlabel(D.tags.heading) : null, chips(D.tags.items)));
       if (cards.length) specAside = R('aside', { className: 'ctr-side', style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } }, ...cards);
       const lk = (h) => { try { const u = new URL(h); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return h; } };
       const attrOf = (h) => (D.linkAttrs && D.linkAttrs[lk(h)]) || {};
@@ -975,6 +976,7 @@ class Component extends DCLogic {
       if (D.email || socials.length)
         contactExtra = R('div', { style: { borderTop: '1px solid #edf2f7', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' } },
           D.email ? R('a', { className: 'scp0', href: 'mailto:' + D.email, style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', overflowWrap: 'anywhere' } }, D.email) : null,
+          socials.length ? hlabel('Social') : null,
           socials.length ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: attrOf(u).target || undefined, rel: attrOf(u).rel || undefined, style: pillStyle }, soc[k] || k))) : null);
       // anchor menu (tab bar) for the sections that exist, and the Location block built from the real address
       const tabsList = [];
