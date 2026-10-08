@@ -223,3 +223,11 @@ The source theme cuts every listing-card excerpt at a fixed number of raw charac
 - The hero “Call 1-855-885-4747” button is the design’s own element; the number is the site’s real helpline (it is in the source header/footer and in every province meta description).
 - Card images with an empty `alt` on the source are kept with empty alt (Alberta 4, British Columbia 20 + 3 cards with no image, Ontario 22).
 - PEI stays 404 and `/saskatchewan-rehabs/` stays a 301 to `/saskatchewan-drug-rehab-treatment/`; the two thin province pages are not published.
+
+## 19. City ranking pages on the approved City view
+Vancouver (`/7-best-drug-alcohol-rehab-centres-in-vancouver-2025/`), Ottawa, Montreal, Toronto.
+- Hidden (no source data): “Ranked list · year” / “Updated” chips, “(With Pricing)”, hero paragraph and stats, “At a glance” card, “How we ranked”, rank badges, ratings, tags, price / program length / site reviews, “Details verified…”, “Call for availability”, “Not sure which centre…” band, Compare table, author/reviewer card, FAQ, “Popular types of rehab”.
+- The design’s H1 (“N Best Rehab Centres in {City} {year} (With Pricing)”) is not used: the source H1 (e.g. “Addiction Rehab Centres Toronto”) is the H1; the source H2 above the list (“8 Best Rehab Centres in Toronto”) is the list heading with its intro paragraphs; Montreal has no list heading (its H2 “Best Rehab Centres in Montreal” sits in the hero).
+- Headline counts that disagree with the cards are kept as written (Toronto “8 Best” shows 7 cards; Vancouver “7 Best” shows 7; Ottawa 11 cards).
+- Excerpt rule (§17) also applies to these cards; the mojibake repair is applied to the cut list too.
+- 3 Montreal/Vancouver cards have no source image and show the design’s neutral placeholder.

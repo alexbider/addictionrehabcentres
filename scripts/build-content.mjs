@@ -20,7 +20,11 @@ const IMG_SRC2 = path.join(root, 'audit/images-phase4'); // images downloaded af
 // Card excerpts the source cuts at a fixed length: when the cut is mid-word, drop the partial word and add "…" (rule in
 // audit/08-source-issues.md §17; decisions per card in audit/data/excerpt_cuts.json, made by audit/scripts/excerpt_cuts.py).
 const CUTS = JSON.parse(fs.readFileSync(path.join(root, 'audit/data/excerpt_cuts.json'), 'utf8'));
-const fixExcerpt = (slug, ex) => CUTS[`${slug}|${ex}`]?.fixed ?? ex;
+let CUTS_R = null; // keys/values go through the same mojibake repair as the page text (page data is already repaired when cards are read)
+const fixExcerpt = (slug, ex) => {
+  if (!CUTS_R) { const n = fixes.length; CUTS_R = {}; for (const [k, v] of Object.entries(CUTS)) CUTS_R[fixText(k)] = fixText(v.fixed); fixes.length = n; }
+  return CUTS_R[`${slug}|${ex}`] ?? ex;
+};
 const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 
 // Page types that have a view today.

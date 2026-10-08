@@ -45,6 +45,7 @@ def guess(ex):
     if ex[-1] in '.!?"\u201d)': return 'full'
     last = re.findall(r"[A-Za-z0-9']+", ex)[-1].lower().strip("'")
     if last.isdigit() or not re.search('[a-z]', last): return 'inferred-word'
+    if len(last) == 1 and last not in ('a', 'i'): return 'inferred-mid'
     ext = sum(c for w, c in voc.items() if w != last and w.startswith(last))
     return 'inferred-word' if voc[last] >= max(ext, 1) else 'inferred-mid'
 out = {}
@@ -54,6 +55,7 @@ with cf.ThreadPoolExecutor(12) as ex_:
         if st == 'unknown': st = guess(ex)
         if st in ('mid', 'inferred-mid'):
             fixed = re.sub(r'\s*\S*$', '', ex).rstrip(' ,;:-–—') + '…'
+            fixed = re.sub('\u00c2\\s*…$', '…', fixed)  # a stray mojibake lead byte left at the cut
         out[f'{slug}|{ex}'] = {'status': st, 'fixed': fixed}
 (ROOT / 'audit/data/excerpt_cuts.json').write_text(json.dumps(out, ensure_ascii=False, indent=1))
 import collections; print(collections.Counter(v['status'] for v in out.values()), len(out))
