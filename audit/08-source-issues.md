@@ -199,3 +199,15 @@ The theme’s review count (a plain number such as “5 Reviews”, not Google t
 - Theme badges on the three featured cards (“Featured”, “✓ Verified”, “N Reviews”) are not shown (review figures hidden, badges are theme UI). All other text matches the source word for word (automated check); title, description, canonical and the 2 JSON-LD blocks are the source values.
 - The “Addiction Treatments” row contains a counter widget: the source markup holds only “30” (no label) and its theme adds a “+” with CSS, so the live source shows a large **“30+”** (checked on the rendered source page). The new page matches that: text “30”, the “+” drawn by CSS. For the client: the number has no label or explanation on the source either.
 - Source images smaller than 300 px (icons, logo strip) are shown at their own size, not stretched.
+
+## 15. Source pages that clash with the approved design pages (design pages left unchanged)
+The approved design pages are kept exactly as designed (sample content included) until the client decides. “Clash” = the source page and the approved design cannot both be right for the same job.
+| Source URL | Design page | What clashes | One-line question for the client |
+|---|---|---|---|
+| `/contact/` | Contact (`/contact`, **same URL**) | The source page is a promo landing page (“Choose the plan that’s right for you Centre”, Why Choose Us, testimonials, FAQ) with no contact form or channels; the design Contact is a message form + channels page. | Should `/contact/` keep the source’s promo content, or become a real contact page (phone, email, message form — needs a form endpoint)? |
+| `/intervention/` | Intervention (`/intervention`, **same URL**) | The source is a 1,120-word guide; the design page holds a different sample article, TOC, steps and a form. | May the Intervention design show the source guide text word for word in place of its sample article? |
+| `/promote-your-centre/` | Promote (`/promote`, different URL) | The source is 519 words of promo text; the design is a sales page with plans, prices, placements and analytics that the source does not contain. | Should the Promote design show only the source text (plans/pricing hidden), or will the client supply real plans and prices? |
+| `/claim-your-listing/` | ClaimListing (`/claim-listing`, different URL) | The source is a 92-word promo stub (stays published, no redirect); the design is a multi-step claim flow with search, plans and payment. | Is a working claim flow wanted, or only the short source text? |
+
+## 16. Home and Blog restored to the approved designs
+`/` is the approved Home design (`src/views/Home.jsx`, unchanged, sample content); `/blog/` is the approved Blog design with the 186 real published posts (title, image, date, category, link) in its list. The Blog view hides every block that has no source data: the hero eyebrow and paragraph, “Featured Articles”, the Latest/Popular sort, the “Popular” list, the “Reading for someone you love” card, the newsletter form, the “Topic Hubs” section and “min read”/author. The source-based home page (`content/home.json`, `HomePage.tsx`) is kept in the repo but unused.

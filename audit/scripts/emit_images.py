@@ -5,7 +5,7 @@ AUD='/Users/mac/Downloads/arc-next/audit'
 plan=json.load(open('data/image_plan.json'))
 import emit_content as E
 from image_plan import page_images
-R=[r for r in E.R if r['status']=='REMAINING']
+R=[r for r in E.R if r['status']=='REMAINING' or r['path'] in('/benzodiazepine-addiction/','/blog/','/privacy-policy/','/privacy/','/terms-of-use/','/disclaimer/','/metamorphosis-centre-for-change/','/')]
 info={}
 def get(u):
     p='imgcache/'+hashlib.md5(u.encode()).hexdigest()
@@ -27,7 +27,9 @@ for r in R:
             rows.append([sl,r['url'],i.get('role'),u,'',i.get('alt',''),'','', '', 'skipped',info[u]['note']]); continue
         src,inf=get(u); info[u]=inf
         if src and lp not in copied:
-            dst=os.path.join(AUD,lp); os.makedirs(os.path.dirname(dst),exist_ok=True); shutil.copyfile(src,dst); copied.add(lp)
+            if not os.path.exists(os.path.join(AUD,lp)):          # audit/images is not touched any more: new files go to audit/images-phase4
+                dst=os.path.join(AUD,'images-phase4',lp[len('images/'):]); os.makedirs(os.path.dirname(dst),exist_ok=True); shutil.copyfile(src,dst)
+            copied.add(lp)
         rows.append([sl,r['url'],i.get('role'),u,lp if src else '',i.get('alt',''),inf['width'] or i.get('width') or '',inf['height'] or i.get('height') or '',inf['bytes'],inf['status'],inf.get('note','')])
 json.dump(info,open('data/imginfo.json','w'))
 with open(AUD+'/images-manifest.csv','w',newline='') as f:

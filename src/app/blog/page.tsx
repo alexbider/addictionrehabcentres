@@ -1,11 +1,11 @@
 import type { Metadata } from 'next';
-import BlogIndex, { type BlogCat, type BlogItem } from '@/components/BlogIndex';
-import PageShell from '@/components/PageShell';
-import SiteFooter from '@/components/SiteFooter';
-import { getPage, getPublished, getRoutes } from '@/lib/content';
+import { Root } from '@/views/Blog';
+import { getPage, getPublished } from '@/lib/content';
 import { categorySlug } from '@/lib/blog';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
+// Approved Blog design (src/views/Blog.jsx) filled with the real published posts. Title, description, canonical and
+// JSON-LD are the source's. Sections of the design that have no source data are hidden by the view.
 export function generateMetadata(): Metadata {
   const page = getPage('blog');
   return page ? pageMetadata(page) : {};
@@ -13,33 +13,24 @@ export function generateMetadata(): Metadata {
 
 export default function BlogPage() {
   const page = getPage('blog')!;
+  const published = getPublished();
   const seen = new Set<string>();
-  const items: BlogItem[] = [];
+  const posts: { title: string; excerpt: string; category: string; categories: string[]; date: string; href: string; image: { src: string; alt: string } | null }[] = [];
   for (const c of page.blog_cards ?? []) {
-    const post = getPublished().find((e) => e.route === c.path);
-    if (!post || seen.has(c.path)) continue; // unpublished (thin) posts are not listed
+    const e = published.find((x) => x.route === c.path);
+    if (!e || seen.has(c.path)) continue;
     seen.add(c.path);
-    const meta = post.type === 'blog-post' ? getPage(post.slug)?.post : undefined;
-    const categories = meta?.categories ?? [];
-    items.push({ path: c.path, title: c.title, excerpt: c.excerpt, categories, categorySlugs: categories.map(categorySlug), image: c.image ? { alt: c.image.alt, src: c.image.local_path, width: c.image.width, height: c.image.height } : null });
+    const post = e.type === 'blog-post' ? getPage(e.slug)?.post : undefined;
+    const categories = post?.categories ?? [];
+    posts.push({ title: c.title, excerpt: c.excerpt, category: categories[0] ?? '', categories, date: post?.date_label ?? '', href: c.path, image: c.image ? { src: c.image.local_path, alt: c.image.alt } : null });
   }
-  const count = new Map<string, BlogCat>();
-  for (const i of items) i.categories.forEach((label, k) => { const slug = i.categorySlugs[k]; const e = count.get(slug) ?? { slug, label, count: 0 }; e.count++; count.set(slug, e); });
+  const count = new Map<string, { slug: string; label: string; count: number }>();
+  for (const p of posts) for (const label of p.categories) { const slug = categorySlug(label); const e = count.get(slug) ?? { slug, label, count: 0 }; e.count++; count.set(slug, e); }
   const cats = [...count.values()].sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
   return (
     <>
       <JsonLd page={page} />
-      <PageShell routes={getRoutes()}>
-        <main>
-          <section style={{ background: 'radial-gradient(1000px 500px at 85% -10%,#dbeefb 0%,rgba(219,238,251,0) 60%),#f7fafd', borderBottom: '1px solid #e9eff5' }}>
-            <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px 48px' }} data-rc-wrap="1">
-              <h1 style={{ fontSize: '54px', lineHeight: 1.05, color: '#10233a' }} data-rc-lg="1">{page.h1}</h1>
-            </div>
-          </section>
-          <BlogIndex items={items} cats={cats} />
-        </main>
-        <SiteFooter />
-      </PageShell>
+      <Root posts={posts} cats={cats} heading={page.h1} />
     </>
   );
 }

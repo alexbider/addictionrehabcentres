@@ -1,7 +1,7 @@
 import json,collections,re,os
 from urllib.parse import urlparse,unquote
 R=json.load(open('data/final.json'))
-rem=[r for r in R if r['status']=='REMAINING']
+rem=[r for r in R if r['status']=='REMAINING' or r['path'] in('/benzodiazepine-addiction/','/blog/','/privacy-policy/','/privacy/','/terms-of-use/','/disclaimer/','/metamorphosis-centre-for-change/','/')]
 # card thumb (featured image) per centre URL from any archive/province/city page
 card_img={}
 for r in R:
@@ -17,6 +17,9 @@ def page_images(r):
         if r.get('og_image'): out.append({'role':'og','src_original':r['og_image'],'alt':'','width':None,'height':None})
     elif r['page_type']=='blog-post' and r.get('og_image'):
         out.append({'role':'og','src_original':r['og_image'],'alt':'','width':None,'height':None})
+    elif r['path']=='/':
+        for c in r.get('cards',[]):
+            if c.get('image'): out.append(dict(c['image'],role='card'))
     elif r['page_type'] in('province','city','city-archive'):
         pass
     seen=set(); res=[]
@@ -37,7 +40,7 @@ def fname(u):
 def ym(u):
     m=re.search(r'/uploads/(\d{4})/(\d{2})/',u); return (m.group(1)+m.group(2)) if m else 'x'
 def slug_for(r):
-    return r['slug'] if r['wp_type'] in('page','post') else r['wp_type'].replace('listing-item','centre').replace('listing-location','city')+'__'+r['slug']
+    return (r['slug'] or 'home') if r['wp_type'] in('page','post') else r['wp_type'].replace('listing-item','centre').replace('listing-location','city')+'__'+r['slug']
 plan={}  # url -> local relative path (under audit/)
 used=collections.defaultdict(dict)  # folder -> fname -> url
 def assign(folder,u):

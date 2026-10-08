@@ -6,7 +6,7 @@ import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, cat: 'All', query: '', sort: 'Latest', subscribed: false, vw: 0 };
+  state = { menu: null, cat: 'All', query: '', sort: 'Latest', subscribed: false, vw: 0, pg: 1 };
   componentDidMount() {
     this._onResize = () => this.setState({ vw: document.documentElement.clientWidth || window.innerWidth });
     window.addEventListener('resize', this._onResize);
@@ -14,6 +14,11 @@ class Component extends DCLogic {
     if (typeof ResizeObserver !== 'undefined') {
       this._ro = new ResizeObserver(this._onResize);
       this._ro.observe(document.documentElement);
+    }
+    if (this.props.cats) {
+      const c = new URLSearchParams(window.location.search).get('category');
+      const hit = c && this.props.cats.find((x) => x.slug === c);
+      if (hit) this.setState({ cat: hit.label });
     }
     requestAnimationFrame(this._onResize);
     setTimeout(this._onResize, 300);
@@ -246,7 +251,9 @@ class Component extends DCLogic {
         .join('')
         .slice(0, 2),
     });
-    const posts = [
+    // Real posts (props.posts) replace the sample list; with real data only what the source has is shown.
+    const live = Array.isArray(this.props.posts);
+    const samplePosts = [
       P(
         'How Long Does Alcohol Detox Take? A Day-by-Day Timeline',
         'Alcohol',
@@ -347,21 +354,18 @@ class Component extends DCLogic {
         '/assets/img/blog-trauma.jpg',
       ),
     ];
-    const catNames = [
-      'All',
-      'Alcohol',
-      'Drugs & Opioids',
-      'Treatment Guides',
-      'Mental Health',
-      'Family & Intervention',
-      'Recovery Stories',
-    ];
+    const posts = live
+      ? this.props.posts.map((p) => ({ title: p.title, category: p.category, categories: p.categories, excerpt: p.excerpt, author: '', date: p.date || '', read: null, photo: p.image ? p.image.src : '', alt: p.image ? p.image.alt : '', href: p.href, initials: '' }))
+      : samplePosts;
+    const catNames = live
+      ? ['All', ...this.props.cats.map((c) => c.label)]
+      : ['All', 'Alcohol', 'Drugs & Opioids', 'Treatment Guides', 'Mental Health', 'Family & Intervention', 'Recovery Stories'];
     const cats = catNames.map((c) => {
       const on = cat === c;
       return {
         label: c,
-        count: c === 'All' ? posts.length : posts.filter((p) => p.category === c).length,
-        pick: () => this.setState({ cat: c }),
+        count: c === 'All' ? posts.length : live ? (this.props.cats.find((x) => x.label === c) || { count: 0 }).count : posts.filter((p) => p.category === c).length,
+        pick: () => this.setState({ cat: c, pg: 1 }),
         bg: on ? '#10233a' : '#fff',
         color: on ? '#fff' : '#1f3550',
         border: on ? '#10233a' : '#dbe6f0',
@@ -373,13 +377,16 @@ class Component extends DCLogic {
     const filtering = cat !== 'All' || q.length > 0;
     let list = posts.filter(
       (p) =>
-        (cat === 'All' || p.category === cat) &&
+        (cat === 'All' || p.category === cat || (p.categories || []).includes(cat)) &&
         (!q || (p.title + ' ' + p.excerpt + ' ' + p.category).toLowerCase().includes(q)),
     );
     if (sort === 'Popular') list = [...list].sort((a, b) => b.read - a.read);
     const lead = posts[0],
       secondary = posts.slice(1, 3);
-    const listPosts = filtering ? list : posts.slice(3);
+    const per = 12;
+    const pageCount = Math.max(1, Math.ceil(list.length / per));
+    const pgNow = Math.min(this.state.pg || 1, pageCount);
+    const listPosts = live ? list.slice((pgNow - 1) * per, pgNow * per) : filtering ? list : posts.slice(3);
     const sorts = ['Latest', 'Popular'].map((s) => ({
       label: s,
       pick: () => this.setState({ sort: s }),
@@ -454,13 +461,20 @@ class Component extends DCLogic {
         body: 'Aftercare, relapse planning, therapy and how families can help without hovering.',
       },
     ];
-    const pages = [1, 2, 3, '…', 12].map((n) => ({
+    const pageNums = live ? Array.from({ length: pageCount }, (_, i) => i + 1) : [1, 2, 3, '…', 12];
+    const goPage = (n) => (e) => {
+      if (e) e.preventDefault();
+      this.setState({ pg: n });
+      if (typeof window !== 'undefined') window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+    const pages = pageNums.map((n) => ({
       label: String(n),
       href: '#',
-      cur: n === 1 ? 'page' : undefined,
-      bg: n === 1 ? '#10233a' : '#fff',
-      color: n === 1 ? '#fff' : '#10233a',
-      border: n === 1 ? '#10233a' : '#dbe6f0',
+      onClick: live ? goPage(n) : undefined,
+      cur: n === (live ? pgNow : 1) ? 'page' : undefined,
+      bg: n === (live ? pgNow : 1) ? '#10233a' : '#fff',
+      color: n === (live ? pgNow : 1) ? '#fff' : '#10233a',
+      border: n === (live ? pgNow : 1) ? '#10233a' : '#dbe6f0',
     }));
     const footerCols = [
       {
@@ -510,9 +524,9 @@ class Component extends DCLogic {
       narrow = vw < 1100,
       tight = vw < 900;
     return {
-      mainCols: narrow ? 'minmax(0,1fr)' : 'minmax(0,1fr) 340px',
+      mainCols: live || narrow ? 'minmax(0,1fr)' : 'minmax(0,1fr) 340px',
       featCols: tight ? 'minmax(0,1fr)' : 'minmax(0,1.35fr) minmax(0,1fr)',
-      gridCols: tight ? '1fr' : 'repeat(2,1fr)',
+      gridCols: tight ? '1fr' : live ? (narrow ? 'repeat(2,1fr)' : 'repeat(3,1fr)') : 'repeat(2,1fr)',
       heroCols: tight ? '1fr' : '1fr auto',
       stepCols: tight ? 'repeat(2,1fr)' : 'repeat(4,1fr)',
       sideStyle: narrow ? 'static' : 'sticky',
@@ -535,7 +549,19 @@ class Component extends DCLogic {
       onSearchSubmit: (e) => e.preventDefault(),
       clearAll: () => this.setState({ query: '', cat: 'All' }),
       cats,
-      showFeatured: !filtering && (this.props.showFeatured ?? true),
+      showFeatured: !live && !filtering && (this.props.showFeatured ?? true),
+      sampleHero: !live,
+      heroTitle: live ? this.props.heading : '',
+      showSort: !live,
+      showSide: !live,
+      showHubs: !live,
+      showPager: live ? pageCount > 1 : !filtering,
+      prevOn: live && pgNow > 1,
+      nextOn: live && pgNow < pageCount,
+      onPrev: live ? goPage(Math.max(1, pgNow - 1)) : undefined,
+      onNext: live ? goPage(Math.min(pageCount, pgNow + 1)) : undefined,
+      searchPlaceholder: live ? 'Search articles' : 'Search articles, e.g. alcohol detox',
+      livePosts: live,
       lead,
       secondary,
       listPosts,
@@ -543,7 +569,6 @@ class Component extends DCLogic {
       listKicker: filtering ? list.length + ' result' + (list.length === 1 ? '' : 's') : 'Latest',
       listTitle: filtering ? (cat !== 'All' ? cat : 'Search results') : 'Recent articles',
       sorts,
-      showPager: !filtering,
       pages,
       hubs,
       popular,
@@ -591,6 +616,17 @@ function template(v) {
     sideCols,
     sideStyle,
     sorts,
+    sampleHero,
+    heroTitle,
+    showSort,
+    showSide,
+    showHubs,
+    prevOn,
+    nextOn,
+    onPrev,
+    onNext,
+    searchPlaceholder,
+    livePosts,
     stepCols,
     steps,
     subLabel,
@@ -634,23 +670,33 @@ function template(v) {
               data-rc-dyn="1"
             >
               <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', maxWidth: '720px' }}>
-                <span
-                  style={{
-                    font: '600 12px Figtree,sans-serif',
-                    letterSpacing: '.14em',
-                    textTransform: 'uppercase',
-                    color: '#0890E8',
-                  }}
-                >
-                  The Recovery Journal
-                </span>
+                {sampleHero ? (
+                  <span
+                    style={{
+                      font: '600 12px Figtree,sans-serif',
+                      letterSpacing: '.14em',
+                      textTransform: 'uppercase',
+                      color: '#0890E8',
+                    }}
+                  >
+                    The Recovery Journal
+                  </span>
+                ) : null}
                 <h1 style={{ fontSize: '50px', lineHeight: '1.06' }} data-rc-lg="1">
-                  Clear answers on addiction, treatment and <span style={{ color: '#0890E8' }}>recovery in Canada</span>
+                  {sampleHero ? (
+                    <>
+                      Clear answers on addiction, treatment and <span style={{ color: '#0890E8' }}>recovery in Canada</span>
+                    </>
+                  ) : (
+                    heroTitle
+                  )}
                 </h1>
-                <p style={{ font: '400 18px/1.55 Figtree,sans-serif', color: '#516378', maxWidth: '600px' }}>
-                  Practical guides written with Canadian addiction professionals — no jargon, no judgement.{' '}
-                  {$i(postTotal)} articles and counting.
-                </p>
+                {sampleHero ? (
+                  <p style={{ font: '400 18px/1.55 Figtree,sans-serif', color: '#516378', maxWidth: '600px' }}>
+                    Practical guides written with Canadian addiction professionals — no jargon, no judgement.{' '}
+                    {$i(postTotal)} articles and counting.
+                  </p>
+                ) : null}
               </div>
               <form
                 onSubmit={onSearchSubmit}
@@ -676,7 +722,7 @@ function template(v) {
                   onChange={onQuery}
                   type="search"
                   aria-label="Search articles"
-                  placeholder="Search articles, e.g. alcohol detox"
+                  placeholder={searchPlaceholder}
                   style={{
                     flex: '1',
                     minWidth: '0',
@@ -970,7 +1016,8 @@ function template(v) {
                   </span>
                   <h2 style={{ fontSize: '32px', marginTop: '8px' }}>{$i(listTitle)}</h2>
                 </div>
-                <div
+                {showSort ? (
+<div
                   style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -994,6 +1041,7 @@ function template(v) {
                     </Fragment>
                   ))}
                 </div>
+) : null}
               </div>
               {emptyList ? (
                 <>
@@ -1048,7 +1096,7 @@ function template(v) {
                       }}
                     >
                       <$A
-                        href="/blog/how-long-does-alcohol-detox-take"
+                        href={livePosts ? p?.href : '/blog/how-long-does-alcohol-detox-take'}
                         aria-label={p?.title}
                         style={{
                           overflow: 'hidden',
@@ -1058,9 +1106,10 @@ function template(v) {
                           background: '#eaf2f8',
                         }}
                       >
+                        {p?.photo ? (
                         <img
                           src={p?.photo}
-                          alt=""
+                          alt={livePosts ? p?.alt || '' : ''}
                           loading="lazy"
                           style={{
                             position: 'absolute',
@@ -1071,6 +1120,7 @@ function template(v) {
                             display: 'block',
                           }}
                         />
+                        ) : null}
                         <span
                           style={{
                             position: 'absolute',
@@ -1100,7 +1150,7 @@ function template(v) {
                         <h3 style={{ fontSize: '20px', lineHeight: '1.28' }}>
                           <$A
                             className="scp0"
-                            href="/blog/how-long-does-alcohol-detox-take"
+                            href={livePosts ? p?.href : '/blog/how-long-does-alcohol-detox-take'}
                             style={{ color: '#10233a' }}
                           >
                             {$i(p?.title)}
@@ -1119,6 +1169,8 @@ function template(v) {
                             color: '#6b7f95',
                           }}
                         >
+                          {p?.author ? (
+                            <>
                           <span
                             style={{
                               width: '28px',
@@ -1135,11 +1187,15 @@ function template(v) {
                           </span>
                           <span style={{ color: '#1f3550', fontWeight: '500' }}>{$i(p?.author)}</span>
                           <span style={{ opacity: '.5' }}>·</span>
+                            </>
+                          ) : null}
                           <span>{$i(p?.date)}</span>
+                          {p?.read ? (
                           <span style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '5px' }}>
                             {$i(iconClock)}
                             {$i(p?.read)} min
                           </span>
+                          ) : null}
                         </div>
                       </div>
                     </article>
@@ -1151,6 +1207,7 @@ function template(v) {
                   <nav
                     aria-label="Pagination"
                     style={{
+                      flexWrap: 'wrap',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
@@ -1160,6 +1217,7 @@ function template(v) {
                   >
                     <$A
                       href="#"
+                      onClick={livePosts ? onPrev : undefined}
                       aria-label="Previous page"
                       style={{
                         width: '44px',
@@ -1169,8 +1227,8 @@ function template(v) {
                         background: '#fff',
                         display: 'grid',
                         placeItems: 'center',
-                        color: '#b7c7d8',
-                        pointerEvents: 'none',
+                        color: livePosts && prevOn ? '#10233a' : '#b7c7d8',
+                        pointerEvents: livePosts && prevOn ? 'auto' : 'none',
                       }}
                     >
                       <span
@@ -1190,6 +1248,7 @@ function template(v) {
                         <$A
                           className="scpj"
                           href={pg?.href}
+                          onClick={pg?.onClick}
                           aria-current={pg?.cur}
                           style={$css(
                             `min-width:44px;height:44px;padding:0 10px;border-radius:12px;border:1px solid ${pg?.border ?? ''};background:${pg?.bg ?? ''};color:${pg?.color ?? ''};display:grid;place-items:center;font:600 14px Jost,sans-serif`,
@@ -1202,6 +1261,7 @@ function template(v) {
                     <$A
                       className="scp2"
                       href="#"
+                      onClick={livePosts ? onNext : undefined}
                       aria-label="Next page"
                       style={{
                         width: '44px',
@@ -1211,7 +1271,8 @@ function template(v) {
                         background: '#fff',
                         display: 'grid',
                         placeItems: 'center',
-                        color: '#10233a',
+                        color: livePosts && !nextOn ? '#b7c7d8' : '#10233a',
+                        pointerEvents: livePosts && !nextOn ? 'none' : 'auto',
                       }}
                     >
                       <span
@@ -1230,7 +1291,8 @@ function template(v) {
                 </>
               ) : null}
             </div>
-            <aside
+            {showSide ? (
+<aside
               style={$css(
                 `position:${sideStyle ?? ''};top:124px;display:grid;grid-template-columns:${sideCols ?? ''};gap:20px;align-items:start`,
               )}
@@ -1443,9 +1505,11 @@ function template(v) {
                 </form>
               </div>
             </aside>
+) : null}
           </div>
         </section>
-        <section data-screen-label="Topic Hubs" style={{ background: '#10233a', color: '#fff' }}>
+        {showHubs ? (
+<section data-screen-label="Topic Hubs" style={{ background: '#10233a', color: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
             <div
               style={{
@@ -1528,6 +1592,7 @@ function template(v) {
             </div>
           </div>
         </section>
+) : null}
         <footer
           data-screen-label="Footer"
           style={{ background: '#10233a', color: '#b7c7d8', borderTop: '1px solid rgba(255,255,255,.08)' }}

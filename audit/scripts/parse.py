@@ -117,6 +117,9 @@ def parse(url,html,wp_type):
         if i.find_parent('article'): continue
         if (i.get('width')=='1' and i.get('height')=='1'): continue
         imgs.append(img_rec(i,'content'))
+    for g in body.select('.e-gallery-image[data-thumbnail]'):   # Elementor image gallery widgets inside the text
+        th=g.get('data-thumbnail','')
+        if th: imgs.append({'role':'content','src_original':urljoin(base:=SITE,full_size(th)),'src_as_published':th,'alt':g.get('aria-label') or '','width':g.get('data-width'),'height':g.get('data-height')})
     gal=cont.select('.eltdf-ls-gallery-image img') if wp_type=='listing-item' else []
     for i in gal: imgs.append(img_rec(i,'gallery'))
     ids=set(); out=[]
