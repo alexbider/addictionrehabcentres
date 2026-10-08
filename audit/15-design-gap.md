@@ -63,3 +63,8 @@ Footer: **Home’s rich footer is the only footer** (one component, `src/views/S
 | Home | Entire page uses design sample copy | no approved source mapping |
 | Centre / city archive | Source sidebar and footer widgets, review form, login modal | replaced by shared header/footer, no reviews |
 | All forms | Callback, claim, newsletter, lead | no FORM_ENDPOINT |
+
+## Step 5: Alcohol design
+/alcohol-addiction-treatment/ and /addiction-by-alcohol/ now render on Alcohol.jsx with source content. Hidden in live mode: hero stat cards (4.1%, 20-24), hero topic chips, the "Alcohol topics" hub, the design's sample article and FAQ, the sample provinces grid and sample "Let us help" section (replaced by the source's own province block and help block). Design copy kept: hero eyebrow and intro line, the blue helpline card, the call strip.
+## Step 5: /drug-intervention-treatment-centres/
+Published on the Intervention view; the three embedded centre cards use a new DC card (src/dc/guide.js, `centre-cards`): image, category, name, address, source excerpt, View centre. Names come from the linked centre pages (the source card markup has no name text).

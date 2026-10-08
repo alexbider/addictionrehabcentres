@@ -1,0 +1,14 @@
+{
+ "pages": 4,
+ "targets": 31,
+ "bad": {
+  "/rehab/": {
+   "status": 404,
+   "from": [
+    "/addiction-by-alcohol/",
+    "/alcohol-addiction-treatment/"
+   ],
+   "count": 2
+  }
+ }
+}

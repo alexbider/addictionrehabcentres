@@ -31,7 +31,8 @@ const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 // Page types that have a view today.
 const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info', 'category']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
-const LIVE_SLUGS = new Set(['blog', 'home']); // the real blog index
+const LIVE_SLUGS = new Set(['blog', 'home']);
+const SKIP_PAGES = new Set(['dui-lawyers-in-canada']); // out of scope (approved: skipped), 301 to home // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.
 const isThin = (d) => {
   if (d.page_type === 'centre') return d.word_count < 60;
@@ -140,7 +141,7 @@ async function procBlocks(blocks, imgMap, folder, live, omitted, local) {
       const items = [];
       for (const it of b.items) {
         const im = it.image ? await local(it.image.original_url) : null;
-        items.push({ name: it.name, href: it.href, address: it.address, excerpt: fixExcerpt(hrefSlug(it.href), it.excerpt), category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
+        items.push({ name: it.name, href: it.href.replace(/^https?:\/\/[^/]+/, ''), address: it.address, excerpt: fixExcerpt(hrefSlug(it.href), it.excerpt), category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
       }
       res.push({ type: 'centre-cards', items }); continue;
     }
@@ -193,9 +194,11 @@ function unlinkThinPosts(v, page) {
   return v;
 }
 /* ───────── Open Graph / Twitter / schema images: self-hosted (no wp-content URL anywhere in the head) ───────── */
+const CENTRE_NAME = new Map(); // centre url -> name
 const ORIG2REL = new Map(); // source image URL (no query) -> local_path in audit/images(-phase4)
 for (const f of fs.readdirSync(SRC).filter((x) => x.endsWith('.json'))) {
   const d = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
+  if (d.page_type === 'centre' && d.centre?.name) CENTRE_NAME.set(d.source.url, d.centre.name);
   for (const im of d.images || []) if (im.local_path && im.original_url && im.download !== 'failed') ORIG2REL.set(im.original_url.split('?')[0], im.local_path);
 }
 const OG_EXTRA = path.join(root, 'audit/data/og-extra.json');
@@ -278,12 +281,20 @@ for (const f of files) {
       { kind: 'listing', classes: [], background_image: null, columns: [{ classes: [], blocks: [...(h2 ? [{ type: 'h2', text: h2.text, html: h2.html ?? h2.text }] : []), { type: 'cards', hrefs: cards.map((c) => c.href) }] }] },
     ];
   }
+  if (d.page_type !== 'city-archive' && !d.listing && Array.isArray(d.rows) && d.cards?.length && /cards/.test(JSON.stringify(d.rows))) {
+    // Pages that embed centre cards (e.g. /drug-intervention-treatment-centres/): the cards become a centre-cards block (name from the centre page, source order)
+    const byH = new Map(d.cards.map((c) => [c.href, c]));
+    for (const r of d.rows) for (const c of r.columns) c.blocks = c.blocks.map((b) => {
+      if (b.type !== 'cards') return b;
+      return { type: 'centre-cards', items: b.hrefs.map((h) => byH.get(h)).filter(Boolean).map((c) => ({ name: c.name || CENTRE_NAME.get(c.href) || '', href: c.href, address: c.address, excerpt: c.excerpt, category: c.category, image: c.image ? { original_url: c.image.src_original, alt: c.image.alt } : null })) };
+    });
+  }
   const thin = isThin(d);
   const hasCards = /eltdf-ll-item/.test(d.raw_html || '') && !d.listing && !JSON.stringify(d.rows || []).includes('"centre-cards"'); // card pages need the listing data
   const isCentre = d.page_type === 'centre';
   const oos = isCentre && OUT_OF_SCOPE.has(d.centre?.categories?.[0]);
   const batchOk = !isCentre || batchSet.has(key);
-  const live = (LIVE_TYPES.has(d.page_type) || LIVE_SLUGS.has(key)) && !thin && !hasCards && !oos && batchOk;
+  const live = (LIVE_TYPES.has(d.page_type) || LIVE_SLUGS.has(key)) && !thin && !hasCards && !oos && !SKIP_PAGES.has(key) && batchOk;
   const folder = key.replace(/^(centre|city)__/, '');
   if (isCentre && d.centre?.google_reviews?.items?.length) googleReviewCentres.push({ route: d.new_route, name: d.centre.name, reviews: d.centre.google_reviews.items.length });
   if (isCentre && thin) thinRedirects.push({ old: d.new_route, name: d.centre.name, province: d.centre.categories?.[0] || '', target: PROVINCE[d.centre.categories?.[0]] || '/', words: d.word_count });
@@ -295,7 +306,7 @@ for (const f of files) {
   for (const im of d.images || []) if (im.local_path && im.download === 'ok') imgMap[im.original_url.split('?')[0]] = im.local_path;
   const cache = {};
   const local = async (u, fold = folder) => {
-    const rel = u ? imgMap[u.split('?')[0]] : null;
+    const rel = u ? imgMap[u.split('?')[0]] ?? ORIG2REL.get(u.split('?')[0]) : null;
     if (!rel || !live) return null;
     const k = rel + '|' + fold;
     return (cache[k] ??= await publishImage(rel, fold));

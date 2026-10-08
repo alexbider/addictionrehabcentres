@@ -14,8 +14,9 @@ import { Root as PostView } from '@/views/BlogPost';
 import { postData } from '@/lib/post';
 import { ROLLOUT } from '@/lib/rollout';
 import { Root as DrugView } from '@/views/Drug';
+import { Root as AlcoholView } from '@/views/Alcohol';
 import { Root as InterventionView } from '@/views/Intervention';
-import { isDrugView, isInterventionView, legacyData } from '@/lib/legacy';
+import { isAlcoholView, isDrugView, isInterventionView, legacyData } from '@/lib/legacy';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
@@ -36,7 +37,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={page} />
-      {(ROLLOUT.drug || (ROLLOUT.alcohol && page.page_type === 'alcohol')) && isDrugView(page) ? <DrugView data={legacyData(page)} /> : (ROLLOUT.treatment || (ROLLOUT.document && ['about-info', 'legal', 'intervention'].includes(page.page_type))) && isInterventionView(page) ? <InterventionView data={legacyData(page)} /> : page.page_type === 'centre' && centreOnView(page.slug) ? <CentreView data={centreData(page)} /> : page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' && ROLLOUT.blogPosts ? <PostView data={postData(page)} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing && page.page_type === 'province' ? <ProvinceView data={provinceData(page)} /> : page.listing && page.page_type === 'city' ? <CityView data={cityData(page)} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
+      {ROLLOUT.alcohol && isAlcoholView(page) ? <AlcoholView data={legacyData(page)} /> : ROLLOUT.drug && isDrugView(page) ? <DrugView data={legacyData(page)} /> : (ROLLOUT.treatment || (ROLLOUT.document && ['about-info', 'legal', 'intervention'].includes(page.page_type))) && isInterventionView(page) ? <InterventionView data={legacyData(page)} /> : page.page_type === 'centre' && centreOnView(page.slug) ? <CentreView data={centreData(page)} /> : page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' && ROLLOUT.blogPosts ? <PostView data={postData(page)} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing && page.page_type === 'province' ? <ProvinceView data={provinceData(page)} /> : page.listing && page.page_type === 'city' ? <CityView data={cityData(page)} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
     </>
   );
 }

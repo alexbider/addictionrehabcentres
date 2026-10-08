@@ -74,5 +74,6 @@ export function legacyData(page: Page): LegacyData {
 }
 
 /** Drug view: the 24 drug pages and the text-only province pages (no centre cards). Intervention view: treatment / support pages. */
-export const isDrugView = (p: Page) => p.page_type === 'drug' || p.page_type === 'alcohol' || (p.page_type === 'province' && !(p.listing?.cards?.length));
+export const isDrugView = (p: Page) => p.page_type === 'drug' || (p.page_type === 'province' && !(p.listing?.cards?.length));
+export const isAlcoholView = (p: Page) => p.page_type === 'alcohol';
 export const isInterventionView = (p: Page) => p.page_type === 'treatment-support' || p.page_type === 'support-service' || p.page_type === 'intervention' || p.page_type === 'about-info' || p.page_type === 'legal';
