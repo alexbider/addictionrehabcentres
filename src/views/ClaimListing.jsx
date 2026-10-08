@@ -804,9 +804,7 @@ function template(v) {
                             </span>
                             <span style={{ fontSize: '14px', color: '#516378' }}>
                               Try the centre's city, or{' '}
-                              <$A href={'/auth?mode=signup&type=centre'} style={{ fontWeight: '600' }}>
-                                add your centre to the directory
-                              </$A>
+                              <span style={{ fontWeight: '600' }}>add your centre to the directory</span>
                               .
                             </span>
                           </div>
@@ -1177,9 +1175,7 @@ function template(v) {
                             <span style={{ font: '600 16px Jost,sans-serif' }}>We couldn't find that centre</span>
                             <span style={{ fontSize: '14.5px', color: '#516378' }}>
                               It may not be listed yet.{' '}
-                              <$A href={'/auth?mode=signup&type=centre'} style={{ fontWeight: '600' }}>
-                                Add your centre to the directory
-                              </$A>
+                              <span style={{ fontWeight: '600' }}>Add your centre to the directory</span>
                               .
                             </span>
                           </div>

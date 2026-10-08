@@ -3,7 +3,7 @@
 Rule (owner, current): build every section the design has **except** a section that asserts facts the source does not give. Built = navigation, layout, buttons, CTAs, helpline, claim banner, filters/sort/tabs/anchors, card grids, category lists, Load more, and anything fillable from scraped data or counts we compute. Hidden = needs data the source lacks (ratings, review counts, prices, pricing tables, team, reviews, “How we ranked”, rank badges, comparisons, FAQs the source lacks, analytics such as “most read”, sponsored/paid placements, “verified/trusted” claims).
 Reference = the client design folder (`~/Downloads/Addiction Rehab Centers Redesign`, read-only). Page height will differ where data is missing; component, spacing and style parity is the target.
 
-Footer: **Home’s footer is used on every page** (one component, `src/views/SiteFooter.jsx`).
+Footer: **Home’s rich footer is the only footer** (one component, `src/views/SiteFooter.jsx`, used on every route). Header: identical on every page (no per-page active dot).
 
 ## What was added in this pass
 | Page type | Built now (new or restored) |
@@ -48,3 +48,4 @@ Footer: **Home’s footer is used on every page** (one component, `src/views/Sit
 2. Forms (callback, claim, newsletter, lead) need a backend endpoint; until then they stay hidden.
 3. Which centre photos/ratings may be shown (Google review text and counts are excluded by decision).
 4. Single blog post: should author/reviewer, key takeaways and FAQ be supplied for the editorial posts?
+5. Therapist, onboarding, login and dashboard designs are kept as draft pages, hidden from navigation and search, until you confirm scope (drafts: Therapists, TherapistsProvince, TherapistsCity, TherapistProfile, ClaimTherapist, TherapistOnboarding, JoinDirectory, Auth, ProviderDashboard, CentreOnboarding).

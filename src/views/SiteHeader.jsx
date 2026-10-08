@@ -489,60 +489,6 @@ class Component extends DCLogic {
           },
         ],
       },
-      therapists: {
-        label: 'Find a Therapist',
-        icon: 'person',
-        c: ['#e2f0fb', '#0890E8', '#0a5d96'],
-        title: 'Find a Therapist',
-        sub: 'Psychotherapists, psychologists and addiction counsellors.',
-        all: ['Browse the directory', '/therapists'],
-        cols: 3,
-        feat: {
-          icon: 'userPlus',
-          eyebrow: 'For professionals',
-          title: 'List your practice',
-          text: 'Join the directory and get referrals from people looking for addiction support.',
-          cta: ['Join the directory', '/join-directory'],
-          img: '/assets/img/menu-5.jpg',
-          ph: 'Photo: therapist in a warm, bright office',
-        },
-        groups: [
-          {
-            title: 'Directory',
-            icon: 'search',
-            items: [
-              {
-                icon: 'search',
-                label: 'Therapist Directory',
-                desc: 'Search by city, issue or approach',
-                href: '/therapists',
-              },
-              {
-                icon: 'idcard',
-                label: 'Example Profile',
-                desc: 'See what a listing includes',
-                href: '/therapist-profile',
-              },
-              { icon: 'userPlus', label: 'Join the Directory', desc: 'List your practice', href: '/join-directory' },
-            ],
-          },
-          {
-            title: 'By province',
-            icon: 'pin',
-            items: [
-              { code: 'ON', label: 'Ontario', href: '/therapists-province' },
-              { code: 'BC', label: 'British Columbia', href: '/therapists-province' },
-              { code: 'AB', label: 'Alberta', href: '/therapists-province' },
-              { code: 'QC', label: 'Quebec', href: '/therapists-province' },
-            ],
-          },
-          {
-            title: 'Popular cities',
-            icon: 'star',
-            items: ['Toronto', 'Vancouver', 'Montreal', 'Calgary'].map((c) => city(c, '/therapists-city')),
-          },
-        ],
-      },
       more: {
         label: 'Resources',
         icon: 'book',
@@ -585,12 +531,6 @@ class Component extends DCLogic {
                 label: 'Claim Your Listing',
                 desc: 'Verify and update your centre',
                 href: '/claim-listing',
-              },
-              {
-                icon: 'megaphone',
-                label: 'List Your Centre',
-                desc: 'Create a verified profile',
-                href: '/auth?mode=signup&type=centre',
               },
             ],
           },
@@ -707,7 +647,7 @@ class Component extends DCLogic {
       isTabs = layout !== 'columns';
 
     return {
-      claimHref: this.props.active === 'therapists' ? '/claim-therapist' : '/claim-listing',
+      claimHref: '/claim-listing',
       rootRef: this.rootRef,
       navRef: this.navRef,
       contentRef: this.contentRef,
@@ -908,9 +848,6 @@ function template(v) {
                 <>
                   <$A className="scpe" href={claimHref} style={{ color: '#e3f1fc', whiteSpace: 'nowrap' }}>
                     Claim Your Listing
-                  </$A>
-                  <$A className="scpe" href="/auth?mode=login" style={{ color: '#e3f1fc', whiteSpace: 'nowrap' }}>
-                    Sign in
                   </$A>
                 </>
               ) : null}

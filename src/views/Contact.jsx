@@ -414,13 +414,6 @@ class Component extends DCLogic {
         href: B + 'rehab/search/',
       },
       {
-        icon: ic.person,
-        title: 'Find a therapist',
-        body: 'Registered psychotherapists, psychologists and addiction counsellors — in person or online.',
-        cta: 'Browse therapists',
-        href: '/therapists',
-      },
-      {
         icon: ic.building,
         title: 'List or promote a centre',
         body: 'Claim your free listing or compare Extended and Sponsored plans to reach more families.',
@@ -522,7 +515,7 @@ class Component extends DCLogic {
       topicCols: mobile ? '1fr' : 'repeat(2,1fr)',
       fieldCols: mobile ? '1fr' : '1fr 1fr',
       asidePos: narrow ? 'static' : 'sticky',
-      pathCols: mobile ? '1fr' : narrow ? 'repeat(2,1fr)' : 'repeat(4,1fr)',
+      pathCols: mobile ? '1fr' : narrow ? 'repeat(2,1fr)' : 'repeat(3,1fr)',
       expectCols: narrow ? '1fr' : '.8fr 1.2fr',
       faqCols: narrow ? '1fr' : '.8fr 1.2fr',
       footCols: mobile ? '1fr' : narrow ? '1fr 1fr' : '1.3fr 1fr 1fr 1fr',
@@ -566,7 +559,7 @@ function template(v) {
   return (
     <>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader active="more" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Hero"
           style={{
