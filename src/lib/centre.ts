@@ -4,7 +4,7 @@ import { getPublished, isPublishedRoute } from '@/lib/content';
 
 /** Centres on the approved Centre view: the 4 prototypes plus the batches built so far (alphabetical by slug, `centre__` removed). */
 const PROTOTYPES = ['another-road-addiction-recovery-centre', 'peace-country-wilderness-program', 'canadawide-mobile', 'blue-skies-recovery'];
-export const BATCH_SIZE = 200; // batch 1 = first 100 published centres; raise to 200, 300, 391 for the next batches
+export const BATCH_SIZE = 300; // batch 1 = first 100 published centres; raise to 200, 300, 391 for the next batches
 let viewSlugs: Set<string> | null = null;
 export function centreOnView(slug: string): boolean {
   if (!viewSlugs) {
