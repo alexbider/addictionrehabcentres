@@ -242,7 +242,7 @@ async function selfHostHead(key, meta, jsonld) {
     outMeta.push(m);
   }
   let txt = JSON.stringify(jsonld ?? []);
-  const urls = [...new Set(txt.match(WP_URL) || [])];
+  const urls = [...new Set(txt.match(WP_URL) || [])].sort((a, b) => b.length - a.length); // longest first (logo.png.webp before logo.png)
   for (const u of urls) {
     const r = await selfHost(u);
     txt = txt.split(u).join(r ? r.url : '');
