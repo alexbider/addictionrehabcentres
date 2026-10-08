@@ -338,3 +338,18 @@
   nav[aria-label="Breadcrumb"] a { min-width: 44px; justify-content: center; }
   :is(a, button)[style*="width:40px"], :is(a, button)[style*="width: 40px"], :is(a, button)[style*="width:38px"], :is(a, button)[style*="width: 38px"], :is(a, button)[style*="width:36px"], :is(a, button)[style*="width: 36px"] { width: 44px !important; height: 44px !important; }
 }
+
+
+/* 6 ▸ contrast (Step 9): the design's grey and blue text and white-on-blue buttons fell short of WCAG AA (4.5:1) on white and light backgrounds.
+      Darkest change needed: grey #6b7f95 → #566b82, blue text/buttons #0890E8 → #0670b8 (the design's own hover blue), faint grey #9aabbd → #5d7188.
+      Large gradient bands, borders and decorative fills are untouched. Matches both the server and hydrated style serialisations. */
+[style*="color:#6b7f95"], [style*="color: rgb(107, 127, 149)"] { color: #566b82 !important; }
+[style*="color:#9aabbd"], [style*="color: rgb(154, 171, 189)"] { color: #5d7188 !important; }
+[style*="color:#0890E8"], [style*="color: rgb(8, 144, 232)"] { color: #0670b8 !important; }
+:is([style*="background:#0890E8"], [style*="background: rgb(8, 144, 232)"]):is([style*="color:#fff"], [style*="color: rgb(255, 255, 255)"]) { background: #0670b8 !important; }
+
+/* 7 ▸ links inside running text are underlined (WCAG 1.4.1) */
+p a[href]:not([class]), li a[href]:not([class]) { text-decoration: underline; text-underline-offset: 2px; }
+
+/* 8 ▸ default link blue (#0890E8, 3.4:1 on white) → #0670b8 for links that do not set their own colour (header and footer excluded) */
+a:not([style*="color"]):not(footer a):not([data-sc-name="SiteHeader"] a) { color: #0670b8 !important; }

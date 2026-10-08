@@ -7,7 +7,7 @@ import SiteFooter from './SiteFooter';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, topic: 0, sent: false, faq: 0, w: 1280 };
+  state = { menu: null, topic: 0, sent: false, faq: 0, w: 390 };
   componentDidMount() {
     this._ro = new ResizeObserver(() => {
       const w = document.documentElement.clientWidth;

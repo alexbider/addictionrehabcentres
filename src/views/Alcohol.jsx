@@ -9,7 +9,7 @@ import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, who: 1, sent: false, faq: 0, active: 'what', w: 1280 };
+  state = { menu: null, who: 1, sent: false, faq: 0, active: 'what', w: 390 };
   componentDidMount() {
     this._ro = new ResizeObserver(() => {
       const w = document.documentElement.clientWidth;

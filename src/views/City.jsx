@@ -8,7 +8,7 @@ import { buildGuide } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, tab: 0, slide: 0, faq: 0, shown: 12, filter: 'All', vw: 1280 };
+  state = { menu: null, tab: 0, slide: 0, faq: 0, shown: 12, filter: 'All', vw: 390 };
   componentDidMount() {
     this.setState({ vw: window.innerWidth });
     this._onR = () => this.setState({ vw: window.innerWidth });
@@ -1655,6 +1655,7 @@ function template(v) {
                   >
                     <$A
                       href={c?.href}
+                      aria-label={c?.img && c.img.alt ? undefined : c?.name}
                       style={{
                         position: 'relative',
                         display: 'block',

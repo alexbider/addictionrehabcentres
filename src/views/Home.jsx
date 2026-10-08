@@ -13,7 +13,7 @@ class Component extends DCLogic {
     slide: 0,
     topIn: false,
     topHov: null,
-    vw: 1280,
+    vw: 390,
     adOpen: null,
     callHov: null,
     fcHov: null,
@@ -66,12 +66,27 @@ class Component extends DCLogic {
       { threshold: 0.15 },
     );
     this._io.observe(el);
-    fetch('/assets/canada-map.json')
-      .then((r) => r.json())
-      .then((map) => this.setState({ map }))
-      .catch(() => {});
+    // The map data (73 KB) is only fetched when the Locations section is about to scroll into view.
+    const loadMap = () => {
+      if (this._mapAsked) return;
+      this._mapAsked = true;
+      fetch('/assets/canada-map.json')
+        .then((r) => r.json())
+        .then((map) => this.setState({ map }))
+        .catch(() => {});
+    };
     const le = this.locRef.current;
     if (le) {
+      this._io3 = new IntersectionObserver(
+        (es) => {
+          if (es.some((e) => e.isIntersecting)) {
+            loadMap();
+            this._io3.disconnect();
+          }
+        },
+        { rootMargin: '800px 0px' },
+      );
+      this._io3.observe(le);
       this._io2 = new IntersectionObserver(
         (es) => {
           if (es.some((e) => e.isIntersecting)) {
@@ -82,11 +97,15 @@ class Component extends DCLogic {
         { threshold: 0.12 },
       );
       this._io2.observe(le);
-    } else this.setState({ locIn: true });
+    } else {
+      this.setState({ locIn: true });
+      loadMap();
+    }
   }
   componentWillUnmount() {
     if (this._io) this._io.disconnect();
     if (this._io2) this._io2.disconnect();
+    if (this._io3) this._io3.disconnect();
     window.removeEventListener('resize', this._rs);
   }
   perView = 3;
@@ -495,7 +514,7 @@ class Component extends DCLogic {
         img: c.img,
         slot: 'home-top-rated-' + (i + 1),
         ph: 'Photo: ' + c.name,
-        callLabel: i === 0 ? 'Call ' + c.name : 'Call our free helpline',
+        callLabel: H ? (this.state.vw >= 1180 || this.state.vw < 680 ? 'Call now ' : 'Call ') + c.name : i === 0 ? 'Call ' + c.name : 'Call our free helpline',
         enter: () => this.setState({ topHov: i }),
         leave: () => this.setState((s) => (s.topHov === i ? { topHov: null } : null)),
         op: topIn ? '1' : '0',
@@ -658,7 +677,7 @@ class Component extends DCLogic {
         slot: 'home-featured-' + (i + 1),
         ph: 'Photo: ' + c.name,
         tel: c.tel ?? 'tel:+18558854747',
-        callLabel: H ? 'Call ' + c.name : 'Call our free helpline about ' + c.name,
+        callLabel: H ? (this.state.vw >= 1180 || this.state.vw < 680 ? 'Call now ' : 'Call ') + c.name : 'Call our free helpline about ' + c.name,
         enter: () => this.setState({ fcHov: i }),
         leave: () => this.setState((s) => (s.fcHov === i ? { fcHov: null } : null)),
         lift: on ? 'translateY(-6px)' : 'none',
@@ -4185,5 +4204,5 @@ export const defaults = { livesCount: '11.2k', treatmentsCount: '30', topRating:
 const View = createDC('Home', Component, template);
 export default View;
 export function Root(props) {
-  return <DCRoot View={View} defaults={defaults} css={css} imageSlot responsive {...props} />;
+  return <DCRoot View={View} defaults={defaults} css={css} imageSlot={!props.data} responsive {...props} />;
 }

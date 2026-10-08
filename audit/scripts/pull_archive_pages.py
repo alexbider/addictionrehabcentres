@@ -32,7 +32,7 @@ for city,n in pages.items():
             if not a: continue
             im=it.select_one('.entry-thumb img')
             c={'name':a.get_text(strip=True),'href':a['href'],'address':(it.select_one('.place-address') or it).get_text(' ',strip=True) if it.select_one('.place-address') else '',
-               'category':''.join(sp.get_text() for sp in it.select('.place-type span')),'reviews':'','rating':(it.select_one('.place-rating span') or {}).get_text(strip=True) if it.select_one('.place-rating span') else '',
+               'category':' · '.join(sp.get_text(strip=True) for sp in it.select('.place-type span')),'reviews':'','rating':(it.select_one('.place-rating span') or {}).get_text(strip=True) if it.select_one('.place-rating span') else '',
                'featured':bool(it.select_one('.place-featured'))}
             if im and im.get('src'):
                 src=im['src']; key=src.split('?')[0]

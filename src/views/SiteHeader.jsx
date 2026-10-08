@@ -12,7 +12,7 @@ class Component extends DCLogic {
     hovNav: null,
     mob: false,
     mobSec: null,
-    w: 1280,
+    w: 390,
     hov: null,
     pos: {},
   };
@@ -902,6 +902,8 @@ function template(v) {
             <img
               src="/assets/logo.png"
               alt="Addiction Rehab Centres Canada"
+              width="138"
+              height="46"
               style={{ height: '46px', width: 'auto', display: 'block' }}
             />
           </$A>
@@ -1062,9 +1064,9 @@ function template(v) {
                         {$i(menuIcon)}
                       </span>
                       <div style={{ display: 'flex', flexDirection: 'column', gap: '3px', minWidth: '0' }}>
-                        <h3 style={{ font: '600 22px/1.15 Jost,sans-serif', color: '#10233a', margin: '0' }}>
+                        <div style={{ font: '600 22px/1.15 Jost,sans-serif', color: '#10233a', margin: '0' }}>
                           {$i(menuTitle)}
-                        </h3>
+                        </div>
                         <p
                           style={{
                             font: '400 14.5px/1.5 Figtree,sans-serif',
@@ -1373,7 +1375,7 @@ function template(v) {
                           {$i(featIcon)}
                           {$i(featEyebrow)}
                         </span>
-                        <h4
+                        <div
                           style={{
                             font: '600 20px/1.2 Jost,sans-serif',
                             color: '#10233a',
@@ -1382,7 +1384,7 @@ function template(v) {
                           }}
                         >
                           {$i(featTitle)}
-                        </h4>
+                        </div>
                         <p
                           style={{
                             font: '400 14px/1.55 Figtree,sans-serif',

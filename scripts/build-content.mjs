@@ -14,6 +14,7 @@ const IMG_SRC = path.join(root, 'audit');
 const IMG_OUT = path.join(root, 'public/assets/img');
 const MAX_W = 1000; // approved: all images WebP, max 1000 px wide, quality 75
 const QUALITY = 75;
+const CARD_W = 800; // listing / blog-card thumbnails (shown at <= 420 css px): a lighter copy, same quality
 const BATCH = process.env.CENTRE_BATCH ? Number(process.env.CENTRE_BATCH) : Infinity; // publish centres in batches of ~100 (sorted by route)
 const IMG_SRC2 = path.join(root, 'audit/images-phase4'); // images downloaded after the audit/images freeze
 
@@ -76,17 +77,17 @@ const corrupt = [];
 const store = new Map(); // sha1 -> { web, width, height }
 const names = new Set();
 let filesWritten = 0;
-async function publishImage(rel, folder) {
+async function publishImage(rel, folder, maxW = MAX_W) {
   let abs = path.join(IMG_SRC, rel);
   if (!fs.existsSync(abs)) abs = path.join(IMG_SRC2, rel.replace(/^images\//, ''));
   const buf = fs.readFileSync(abs);
-  const h = crypto.createHash('sha1').update(buf).digest('hex');
+  const h = crypto.createHash('sha1').update(buf).digest('hex') + (maxW === MAX_W ? '' : ':' + maxW);
   if (store.has(h)) return store.get(h);
   const ext = path.extname(rel).toLowerCase();
   const base = path.basename(rel, path.extname(rel));
   const keep = ext === '.svg' || ext === '.gif';
-  let name = base + (keep ? ext : '.webp');
-  if (names.has(folder + '/' + name)) name = base + '-' + h.slice(0, 6) + (keep ? ext : '.webp');
+  let name = base + (maxW === MAX_W ? '' : '-w' + maxW) + (keep ? ext : '.webp');
+  if (names.has(folder + '/' + name)) name = base + '-' + h.slice(0, 6).replace(':', '') + (keep ? ext : '.webp');
   names.add(folder + '/' + name);
   const dst = path.join(IMG_OUT, folder, name);
   fs.mkdirSync(path.dirname(dst), { recursive: true });
@@ -94,7 +95,7 @@ async function publishImage(rel, folder) {
   if (keep) fs.copyFileSync(abs, dst);
   else {
     try {
-      const info = await sharp(buf).rotate().resize({ width: MAX_W, withoutEnlargement: true }).webp({ quality: QUALITY }).toFile(dst);
+      const info = await sharp(buf).rotate().resize({ width: maxW, withoutEnlargement: true }).webp({ quality: QUALITY }).toFile(dst);
       width = info.width; height = info.height;
     } catch (e) {
       corrupt.push({ file: rel, error: String(e.message).slice(0, 80) });
@@ -267,11 +268,18 @@ for (const f of files) {
     for (const im of d.images || []) byUrl[(im.original_url || '').split('?')[0]] = im;
     const seenHref = new Set();
     const cards = [];
+    // The scraped card category is the tag texts run together; the raw markup has them as separate <span>s -> "A · B · C".
+    const tagsByHref = new Map();
+    for (const blk of (d.raw_html || '').split('class="place-item').slice(1)) {
+      const href = (blk.match(/class="place-title"[\s\S]*?href="([^"]+)"/) || blk.match(/itemprop="url" href="([^"]+)"/) || [])[1];
+      const tags = [...((blk.match(/class="place-type[^"]*">([\s\S]*?)<\/div>/) || [])[1] || '').matchAll(/<span>([^<]*)<\/span>/g)].map((m) => m[1].trim()).filter(Boolean);
+      if (href && tags.length) tagsByHref.set(href, tags.join(' \u00b7 '));
+    }
     for (const c of d.cards) {
       if (seenHref.has(c.href)) continue;
       seenHref.add(c.href);
       const im = c.image ? byUrl[(c.image.src_original || '').split('?')[0]] : null;
-      cards.push({ name: c.name, href: c.href, slug: new URL(c.href).pathname.split('/').filter(Boolean).pop(), address: c.address, excerpt: '', category: c.category, reviews: 0,
+      cards.push({ name: c.name, href: c.href, slug: new URL(c.href).pathname.split('/').filter(Boolean).pop(), address: c.address, excerpt: '', category: tagsByHref.get(c.href) ?? c.category, reviews: 0,
         image: c.image && im?.local_path ? { local_path: im.local_path, alt: c.image.alt ?? '', width: c.image.width, height: c.image.height, original_url: c.image.src_original } : null });
     }
     const h2 = (d.blocks || []).find((b) => b.type === 'h2');
@@ -327,7 +335,7 @@ for (const f of files) {
     blogCards = [];
     for (const c of d.blog_cards) {
       let image = null;
-      if (c.image?.local_path && live) { const im = await publishImage(c.image.local_path, c.path.replace(/\//g, '') ); if (im) image = { alt: c.image.alt, local_path: im.web, width: im.width, height: im.height }; }
+      if (c.image?.local_path && live) { const im = await publishImage(c.image.local_path, c.path.replace(/\//g, ''), CARD_W); if (im) image = { alt: c.image.alt, local_path: im.web, width: im.width, height: im.height }; }
       blogCards.push({ path: c.path, title: c.title, excerpt: c.excerpt, image });
     }
   }
@@ -337,7 +345,7 @@ for (const f of files) {
     for (const c of listing.cards) {
       let image = null;
       if (c.image?.local_path && live) {
-        const im = await publishImage(c.image.local_path, c.slug);
+        const im = await publishImage(c.image.local_path, c.slug, CARD_W);
         if (im) image = { ...c.image, local_path: im.web, width: im.width ? String(im.width) : c.image.width, height: im.height ? String(im.height) : c.image.height };
       }
       cards.push({ ...c, excerpt: fixExcerpt(c.slug, c.excerpt), excerpt_source: c.excerpt, image });

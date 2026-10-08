@@ -1357,6 +1357,7 @@ function template(v) {
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '14px', color: '#6b7f95' }}>
                 Sort by{' '}
                 <select
+                  aria-label="Sort by"
                   value={sortVal}
                   onChange={sortChange}
                   style={{
@@ -1446,6 +1447,7 @@ function template(v) {
                   >
                     <$A
                       href={c?.href}
+                      aria-label={c?.img && c.img.alt ? undefined : c?.name}
                       style={{
                         position: 'relative',
                         display: 'block',

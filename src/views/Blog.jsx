@@ -528,7 +528,7 @@ class Component extends DCLogic {
         ]),
       },
     ];
-    const vw = this.state.vw || 0 || 1280,
+    const vw = this.state.vw || 390,
       narrow = vw < 1100,
       tight = vw < 900;
     return {
@@ -814,7 +814,7 @@ function template(v) {
                 >
                   <$A
                     href={sample ? "/blog/how-long-does-alcohol-detox-take" : lead?.href}
-                    aria-label={lead?.title}
+                    aria-label={livePosts && lead?.category ? lead.category + ': ' + lead.title : lead?.title}
                     style={{ overflow: 'hidden', position: 'absolute', inset: '0', background: '#1c3352' }}
                   >
                     {lead?.photo ? (
@@ -952,7 +952,7 @@ function template(v) {
                       >
                         <$A
                           href={sample ? "/blog/how-long-does-alcohol-detox-take" : p?.href}
-                          aria-label={p?.title}
+                          aria-label={livePosts && p?.category ? p.category + ': ' + p.title : p?.title}
                           style={{
                             display: 'block',
                             aspectRatio: '1/1',
@@ -1130,7 +1130,7 @@ function template(v) {
                     >
                       <$A
                         href={livePosts ? p?.href : '/blog/how-long-does-alcohol-detox-take'}
-                        aria-label={p?.title}
+                        aria-label={livePosts && p?.category ? p.category + ': ' + p.title : p?.title}
                         style={{
                           overflow: 'hidden',
                           position: 'relative',

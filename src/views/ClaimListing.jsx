@@ -10,7 +10,7 @@ class Component extends DCLogic {
   state = {
     pay: { card: '', exp: '', cvc: '', postal: '' },
     tried4b: false,
-    vw: 1280,
+    vw: 390,
     query: '',
     focus: false,
     step: 1,

@@ -191,7 +191,7 @@ export default function SiteFooter() {
               {$list(footerCols).map((col, $index) => (
                 <Fragment key={$index}>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', minWidth: '0' }}>
-                    <h4
+                    <div
                       style={{
                         display: 'flex',
                         alignItems: 'center',
@@ -205,7 +205,7 @@ export default function SiteFooter() {
                     >
                       <span style={{ width: '18px', height: '2px', borderRadius: '2px', background: '#0890E8' }} />
                       {$i(col?.title)}
-                    </h4>
+                    </div>
                     <ul
                       style={{
                         display: 'flex',

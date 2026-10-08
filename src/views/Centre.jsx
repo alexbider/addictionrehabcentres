@@ -1732,7 +1732,7 @@ function template(v) {
                   </span>
                 </div>
                 ) : null}
-                {sample ? null : <h3 style={{ font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95', margin: 0 }}>Contact</h3>}
+                {sample ? null : <h2 style={{ font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95', margin: 0 }}>Contact</h2>}
                 {phoneOn ? (
                 <$A
                   className="scp1"

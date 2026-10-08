@@ -2,9 +2,9 @@
 html,body{height:100%;margin:0}
 #dc-root,#dc-root>.sc-host{height:100%}
 
-/* A page is hidden for the split second between server HTML and hydration, so the
-   JS-measured responsive layout never flashes the wrong breakpoint. (see <noscript> in layout.tsx) */
-.sc-host.dc-pending{visibility:hidden}
+/* The server HTML is rendered for a phone (state width 390). Wider screens are hidden for the split second between server HTML and hydration,
+   so the JS-measured responsive layout never flashes the wrong breakpoint; phones show the server HTML at once. (see <noscript> in layout.tsx) */
+@media (min-width:681px){.sc-host.dc-pending{visibility:hidden}}
 
 @media print {
   @page { margin: 0.5cm; }

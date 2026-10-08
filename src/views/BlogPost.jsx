@@ -828,7 +828,7 @@ class Component extends DCLogic {
         ]),
       },
     ];
-    const vw = this.state.vw || 0 || 1280;
+    const vw = this.state.vw || 390;
     const narrow = vw < 1100,
       tight = vw < 1000;
     const showToc = (this.props.showToc ?? true) && !narrow;

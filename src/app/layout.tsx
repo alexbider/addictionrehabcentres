@@ -28,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <noscript>
           <style>{'.sc-host.dc-pending{visibility:visible!important}'}</style>
         </noscript>
-        <div id="dc-root">{children}</div>
+        <main id="dc-root">{children}</main>
       </body>
     </html>
   );
