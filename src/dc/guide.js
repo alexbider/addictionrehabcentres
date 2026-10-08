@@ -65,6 +65,7 @@ export function buildBody(R, rawBlocks, opts = {}) {
     used[base] = (used[base] || 0) + 1;
     return used[base] > 1 ? base + '-' + used[base] : base;
   };
+  let firstImg = true;
   const nodes = blocks.map((b, i) => {
     const key = i;
     if (/^h[1-6]$/.test(b.type)) {
@@ -98,7 +99,7 @@ export function buildBody(R, rawBlocks, opts = {}) {
       return R(b.type === 'bl' ? 'ul' : b.type, { key, className: cls, style: short ? { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ol' ? 'decimal' : 'disc' } : { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ol' ? 'decimal' : 'disc', display: 'flex', flexDirection: 'column', gap: '8px' } }, ...b.items.map((it, k) => R('li', { key: k, style: short ? { breakInside: 'avoid', marginBottom: '8px', overflowWrap: 'anywhere' } : { overflowWrap: 'anywhere' }, dangerouslySetInnerHTML: { __html: clean(it.html) } })));
     }
     if (b.type === 'table') return R('div', { key, className: 'cp-table', style: { overflowX: 'auto', border: '1px solid #e3ecf4', borderRadius: '20px' }, dangerouslySetInnerHTML: { __html: clean(b.html) } });
-    if (b.type === 'image') return R('img', { key, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: 'lazy', style: { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' } });
+    if (b.type === 'image') { const eager = opts.eagerFirst && firstImg; firstImg = false; return R('img', { key, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: eager ? 'eager' : 'lazy', fetchPriority: eager ? 'high' : undefined, style: { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' } }); }
     if (b.type === 'video' || b.type === 'iframe') {
       const src = b.type === 'video' ? `https://www.youtube-nocookie.com/embed/${b.id}` : b.src;
       const w = b.type === 'iframe' ? Number(b.width) || 560 : 16, h = b.type === 'iframe' ? Number(b.height) || 315 : 9;

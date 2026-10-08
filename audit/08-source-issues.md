@@ -287,3 +287,11 @@ No separate Alcohol/Document view conversion was done: /alcohol-addiction-treatm
 
 ## 30. Self-hosted og/schema images
 Every og:image, twitter:image and JSON-LD image now points at a self-hosted WebP copy on the production domain (build-content.mjs `selfHostHead`); og:image width/height/type match the copy. Unmapped og/twitter images fall back to the source Home's own og image. Four centres (alcohol-treatment-program, pathways-addiction-resource-centre, salvation-army-sudbury, united-halfway-homes-dominion-street) have JSON-LD image URLs that are truncated/404 on the source itself ("…/Venture-Academy-" etc.); those schema images are dropped, so JSON-LD differs on 4 pages. 13 extra files were fetched into audit/images-phase4/og (manifest audit/data/og-extra.json).
+
+## 31. Centre page SEO (step 6)
+- Hours, Tags, Specialties, Amenities and Social labels are real h3 tags (styled as before). 38 centres still differ: the source prints "Specialties"/"Amenities"/"Social" headings with empty lists; empty groups stay hidden (an empty heading would be worse for users and search).
+- 353 centres: same headings, different order (the design places the sidebar blocks differently from the source's DOM).
+- The Google review link (ludocid) is no longer output anywhere (the Google icon was removed from the shared footer); reviewer profile links (maps/contrib) and write-review links are not output (Google review content excluded by decision).
+- The "Get directions" link is the source's form (maps.google.com?q=address, rel="external noopener noreferrer", target _blank). The source builds q from a truncated address on some centres; ours uses the full address.
+- Footer Facebook link carries the source rel (nofollow external noopener noreferrer).
+- First visible image is eager (hero/gallery, or the first body image when there is no gallery). 7 alt differences are parity artefacts: the source's 150x150 thumbnails carry empty or numbered alts for the same file as the full-size image we render.

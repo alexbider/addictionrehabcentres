@@ -953,7 +953,7 @@ class Component extends DCLogic {
         galleryNode = R('div', { style: { display: 'block' } },
           R('div', { style: { display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n === 1 || n === 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map((x, i) => R('div', { key: i, style: { minHeight: 0, ...place(i) } }, img(x, undefined, i)))));
       }
-      const { nodes } = buildBody(R, D.body || [], { columns: true });
+      const { nodes } = buildBody(R, D.body || [], { columns: true, eagerFirst: !(D.gallery && D.gallery.length) });
       bodyNodes = nodes.slice();
       if (g.length > 5)
         bodyNodes.push(R('div', { key: 'more', style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(220px,100%),1fr))', gap: '10px' }, 'data-cols': 'repeat(auto-fill,minmax(170px,1fr))' }, ...g.slice(5).map((x, i) => R('div', { key: i, style: { aspectRatio: '4/3' } }, img(x)))));
@@ -999,7 +999,7 @@ class Component extends DCLogic {
               R('span', { style: { font: '600 12px Figtree,sans-serif', letterSpacing: '.14em', textTransform: 'uppercase', color: '#0890E8' } }, 'Location'),
               R('h2', { style: { fontSize: '34px', lineHeight: '1.12' }, 'data-rc-lg': '1' }, 'Address and contact'),
               R('div', { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }, 'data-cols': '1fr 1fr' }, ...cells),
-              R('a', { className: 'scp1', href: 'https://www.google.com/maps/dir/?api=1&destination=' + q, target: '_blank', rel: 'noopener', style: { alignSelf: 'flex-start', font: '600 15px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '12px 20px', borderRadius: '12px' } }, 'Get directions')),
+              R('a', { className: 'scp1', href: 'https://maps.google.com?q=' + D.address.replace(/,/g, '').trim().split(/\s+/).map(encodeURIComponent).join('+'), target: '_blank', rel: 'external noopener noreferrer', style: { alignSelf: 'flex-start', font: '600 15px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '12px 20px', borderRadius: '12px' } }, 'Get directions')),
             R('div', { style: { borderRadius: '22px', overflow: 'hidden', border: '1px solid #e3ecf4', background: '#eaf2f8', aspectRatio: '4/3', minHeight: '260px' } },
               R('iframe', { src: 'https://www.google.com/maps?q=' + q + '&output=embed', title: 'Map: ' + D.address, loading: 'lazy', referrerPolicy: 'no-referrer-when-downgrade', style: { width: '100%', height: '100%', border: 0, display: 'block' } }))));
       }

@@ -103,9 +103,10 @@ def check(e):
     bimgs=[(stem((i.get('src') or '').split('/')[-1]),i.get('alt'),i.get('width'),i.get('height'),i.get('loading')) for i in s.find_all('img')]
     bmap={}
     for b in bimgs: bmap.setdefault(b[0],[]).append(b)
+    CHROME_IMGS={'addiction-rehab-centers-canada-1','rehabs-01'}  # old-theme sidebar/footer artwork, replaced by the shared footer
     kept=True; altok=True; lost=[]; altbad=[]
     for im in src['images']:
-        if not im[0] or im[0].startswith('data:') or 'logo' in im[0].lower(): continue
+        if not im[0] or im[0].startswith('data:') or 'logo' in im[0].lower() or stem(im[0]) in CHROME_IMGS: continue
         k=stem(im[0])
         if k not in bmap and not any(k.replace('-','') == x.replace('-','') or k[:20]==x[:20] for x in bmap): kept=False; lost.append(im[0])
         else:
@@ -121,7 +122,8 @@ def check(e):
     if r['images_main_eager']=='DIFF': r['notes'].append('first image is lazy-loaded')
     # external links
     def nl(h): u=urllib.parse.urlparse(h); return (u.netloc.lower().replace('www.','')+u.path.rstrip('/')+('?'+u.query if u.query else ''))
-    sext=sorted((nl(a[0]),' '.join(sorted(a[1].split())),a[2]) for a in src.get('ext_links',[]))
+    CH=lambda u: 'ludocid' in u or 'maps.google.com' in u or 'maps/contrib' in u or 'writereview' in u or 'Addiction-Rehab-Centres-Canada-772760289732512' in u  # Google-review link (never output, approved) and the old theme's footer Facebook widget
+    sext=sorted((nl(a[0]),' '.join(sorted(a[1].split())),a[2]) for a in src.get('ext_links',[]) if not CH(a[0]))
     s2=BeautifulSoup(body,'lxml')
     for t in s2.select('footer, [data-sc-name=SiteHeader]'): t.decompose()
     bext=sorted((nl(a['href']),' '.join(sorted(' '.join(a.get('rel') or []).split())),a.get('target') or '') for a in s2.find_all('a',href=True) if re.match(r'^https?://',a['href']) and 'addictionrehabcenters.ca' not in a['href'])

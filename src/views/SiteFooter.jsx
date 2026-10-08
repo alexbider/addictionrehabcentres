@@ -165,6 +165,7 @@ export default function SiteFooter() {
                   <$A
                     className="scpd scp10"
                     href="https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
+                    rel="nofollow external noopener noreferrer"
                     aria-label="Facebook"
                     style={{
                       width: '44px',
@@ -182,43 +183,6 @@ export default function SiteFooter() {
                       <path
                         d="M13.5 21v-7.5h2.6l.4-3h-3V8.6c0-.9.3-1.5 1.5-1.5h1.6V4.4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21z"
                         style={{ fill: 'currentColor' }}
-                      />
-                    </svg>
-                  </$A>
-                  <$A
-                    className="scpd scp10"
-                    href={
-                      'https://www.google.com/search?ludocid=17732523544542585825&q=Addiction%20Rehab%20Centres%20Canada'
-                    }
-                    aria-label="Google"
-                    style={{
-                      width: '44px',
-                      height: '44px',
-                      borderRadius: '50%',
-                      background: 'rgba(255,255,255,.06)',
-                      border: '1px solid rgba(255,255,255,.12)',
-                      display: 'grid',
-                      placeItems: 'center',
-                      color: '#fff',
-                      transition: 'background .18s ease,border-color .18s ease,transform .12s ease-out',
-                    }}
-                  >
-                    <svg width="17" height="17" viewBox="0 0 24 24">
-                      <path
-                        d="M21.6 12.2c0-.7-.1-1.3-.2-1.9H12v3.7h5.4a4.6 4.6 0 0 1-2 3v2.5h3.2c1.9-1.7 3-4.3 3-7.3z"
-                        style={{ fill: 'currentColor' }}
-                      />
-                      <path
-                        d="M12 22c2.7 0 5-.9 6.6-2.4l-3.2-2.5c-.9.6-2 1-3.4 1-2.6 0-4.8-1.8-5.6-4.1H3.1v2.6A10 10 0 0 0 12 22z"
-                        style={{ fill: 'currentColor', opacity: '.85' }}
-                      />
-                      <path
-                        d="M6.4 14c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2V7.4H3.1a10 10 0 0 0 0 9.2z"
-                        style={{ fill: 'currentColor', opacity: '.7' }}
-                      />
-                      <path
-                        d="M12 6c1.5 0 2.8.5 3.8 1.5l2.9-2.9A10 10 0 0 0 3.1 7.4L6.4 10C7.2 7.7 9.4 6 12 6z"
-                        style={{ fill: 'currentColor', opacity: '.85' }}
                       />
                     </svg>
                   </$A>
