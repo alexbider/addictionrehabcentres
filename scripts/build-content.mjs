@@ -192,6 +192,60 @@ function unlinkThinPosts(v, page) {
   }
   return v;
 }
+/* ───────── Open Graph / Twitter / schema images: self-hosted (no wp-content URL anywhere in the head) ───────── */
+const ORIG2REL = new Map(); // source image URL (no query) -> local_path in audit/images(-phase4)
+for (const f of fs.readdirSync(SRC).filter((x) => x.endsWith('.json'))) {
+  const d = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
+  for (const im of d.images || []) if (im.local_path && im.original_url && im.download !== 'failed') ORIG2REL.set(im.original_url.split('?')[0], im.local_path);
+}
+const OG_EXTRA = path.join(root, 'audit/data/og-extra.json');
+if (fs.existsSync(OG_EXTRA)) for (const [u, rel] of Object.entries(JSON.parse(fs.readFileSync(OG_EXTRA, 'utf8')))) ORIG2REL.set(u, rel);
+const WP_URL = /https:\/\/addictionrehabcenters\.ca\/wp-content\/[^"'\s\\)<>]*/g;
+const ogCache = new Map(); // wp url -> { url, width, height, type } | null
+async function selfHost(u) {
+  if (ogCache.has(u)) return ogCache.get(u);
+  const base = u.split('?')[0];
+  const cands = [base, base.replace(/\.webp$/, ''), base.replace(/-\d+x\d+(\.[a-z]+)$/i, '$1'), base.replace(/\.webp$/, '').replace(/-\d+x\d+(\.[a-z]+)$/i, '$1')];
+  let rec = null;
+  for (const c of cands) {
+    const rel = ORIG2REL.get(c);
+    if (rel) { try { const r = await publishImage(rel, 'og'); if (r) { rec = { url: SOURCE_ORIGIN + r.web, width: r.width, height: r.height, type: r.web.endsWith('.webp') ? 'image/webp' : r.web.endsWith('.gif') ? 'image/gif' : 'image/svg+xml' }; break; } } catch {} }
+  }
+  if (!rec && /logo/i.test(base)) rec = { url: SOURCE_ORIGIN + '/assets/logo.png', width: null, height: null, type: 'image/png' };
+  ogCache.set(u, rec);
+  return rec;
+}
+const SOURCE_ORIGIN = 'https://addictionrehabcenters.ca';
+const DEFAULT_OG_SRC = 'https://addictionrehabcenters.ca/wp-content/uploads/2021/11/addiction-rehab-centers-canada-1.jpg'; // the source Home's own og image
+const unmappedOg = [];
+/** Rewrites one page's meta tags + JSON-LD so every image URL is a self-hosted copy; unmapped og/twitter images fall back to the site default, unmapped schema images are dropped. */
+async function selfHostHead(key, meta, jsonld) {
+  const def = await selfHost(DEFAULT_OG_SRC);
+  let outMeta = [];
+  let pendingDims = null;
+  for (const m of meta || []) {
+    const [kind, n, c] = m;
+    if (/^(og:image|twitter:image)$/.test(n) && WP_URL.test(c)) {
+      WP_URL.lastIndex = 0;
+      let r = await selfHost(c);
+      if (!r) { unmappedOg.push({ page: key, url: c }); r = def; }
+      if (r) { outMeta.push([kind, n, r.url]); if (n === 'og:image') pendingDims = r; }
+      continue;
+    }
+    WP_URL.lastIndex = 0;
+    if (pendingDims && n === 'og:image:width') { if (pendingDims.width) outMeta.push([kind, n, String(pendingDims.width)]); continue; }
+    if (pendingDims && n === 'og:image:height') { if (pendingDims.height) outMeta.push([kind, n, String(pendingDims.height)]); continue; }
+    if (pendingDims && n === 'og:image:type') { outMeta.push([kind, n, pendingDims.type]); pendingDims = null; continue; }
+    outMeta.push(m);
+  }
+  let txt = JSON.stringify(jsonld ?? []);
+  const urls = [...new Set(txt.match(WP_URL) || [])];
+  for (const u of urls) {
+    const r = await selfHost(u);
+    txt = txt.split(u).join(r ? r.url : '');
+  }
+  return { meta: outMeta, jsonld: JSON.parse(txt) };
+}
 const files = fs.readdirSync(SRC).filter((x) => x.endsWith('.json')).sort();
 const eligible = [];
 for (const f of files) {
@@ -301,10 +355,11 @@ for (const f of files) {
     if (omitted.length) omittedAll.push({ page: d.new_route, images: [...new Set(omitted)] });
   }
   const og = isCentre ? null : await local(d.seo.og?.image);
+  const hosted = live ? await selfHostHead(key, SOURCE_HEAD[key]?.meta, stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source)) : { meta: SOURCE_HEAD[key]?.meta, jsonld: stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source) };
   const slim = {
     slug: key, route: d.new_route, page_type: d.page_type, template: d.template,
-    seo: { ...d.seo, jsonld_source: stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source), og: { ...d.seo.og, image: og?.web ?? null } },
-    head: SOURCE_HEAD[key] ? { title: SOURCE_HEAD[key].title, canonical: SOURCE_HEAD[key].canonical, meta: SOURCE_HEAD[key].meta, links: SOURCE_HEAD[key].links, ext_links: SOURCE_HEAD[key].ext_links, headings: SOURCE_HEAD[key].headings, related: SOURCE_HEAD[key].related, nav: SOURCE_HEAD[key].nav } : undefined,
+    seo: { ...d.seo, jsonld_source: hosted.jsonld, og: { ...d.seo.og, image: og?.web ?? null } },
+    head: SOURCE_HEAD[key] ? { title: SOURCE_HEAD[key].title, canonical: SOURCE_HEAD[key].canonical, meta: hosted.meta, links: SOURCE_HEAD[key].links, ext_links: SOURCE_HEAD[key].ext_links, headings: SOURCE_HEAD[key].headings, related: SOURCE_HEAD[key].related, nav: SOURCE_HEAD[key].nav } : undefined,
     h1: d.h1, word_count: d.word_count, source: d.source,
     rows, listing, centre, post: d.post, faqs: isCentre ? undefined : d.faqs,
     blocks, blog_cards: blogCards, category: d.category,

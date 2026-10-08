@@ -14,6 +14,8 @@ SRC=json.load(open(R/'audit/data/source-head.json'))
 store_p=R/'audit/data/seo-parity.json'
 store=json.load(open(store_p)) if store_p.exists() else {}
 def norm(t): return re.sub(r'\s+',' ',(t or '').replace('’',"'").replace('‘',"'").replace(' ',' ')).strip()
+IMGRX=re.compile(r'https?://[^"\s\\]*?(?:/wp-content/|/assets/img/|/assets/logo)[^"\s\\]*')
+def nimg(x): return IMGRX.sub('IMG',x)
 def get(route):
     req=urllib.request.Request('http://localhost:3100'+route,headers={'Host':'addictionrehabcenters.ca'})
     class NR(urllib.request.HTTPRedirectHandler):
@@ -57,10 +59,11 @@ def check(e):
     tok=lambda x: set(re.split(r'\s*,\s*',(x[0] if x else '').lower().replace(': ',':'))) if x else set()
     r['robots']='PASS' if tok(rs)==tok(rb) else 'DIFF'
     if r['robots']=='DIFF': r['notes'].append(f'robots {rs} vs {rb}')
-    so=sorted((m[1],norm(m[2])) for m in src['meta'] if re.match(r'^(og:|article:)',m[1])); bo=sorted((n,norm(c)) for n,c in metas(s,r'^(og:|article:)'))
+    SKIPD=('og:image:width','og:image:height','og:image:type')
+    so=sorted((m[1],nimg(norm(m[2]))) for m in src['meta'] if re.match(r'^(og:|article:)',m[1]) and m[1] not in SKIPD); bo=sorted((n,nimg(norm(c))) for n,c in metas(s,r'^(og:|article:)') if n not in SKIPD)
     r['og']='PASS' if so==bo else 'DIFF'
     if so!=bo: r['notes'].append('og/article: '+str([x for x in so if x not in bo][:2])+' vs '+str([x for x in bo if x not in so][:2]))
-    stw=sorted((m[1],norm(m[2])) for m in src['meta'] if m[1].startswith('twitter:')); btw=sorted((n,norm(c)) for n,c in metas(s,r'^twitter:'))
+    stw=sorted((m[1],nimg(norm(m[2]))) for m in src['meta'] if m[1].startswith('twitter:')); btw=sorted((n,nimg(norm(c))) for n,c in metas(s,r'^twitter:'))
     r['twitter']='PASS' if stw==btw else 'DIFF'
     if stw!=btw: r['notes'].append('twitter: '+str([x for x in stw if x not in btw][:2])+' vs '+str([x for x in btw if x not in stw][:2]))
     # JSON-LD
@@ -68,7 +71,8 @@ def check(e):
     for sc in s.find_all('script',type='application/ld+json'):
         try: bj.append(json.loads(sc.string))
         except Exception: valid=False
-    r['jsonld']='PASS' if valid and bj==src['jsonld'] else 'DIFF'
+    r['jsonld']='PASS' if valid and json.loads(nimg(json.dumps(bj)))==json.loads(nimg(json.dumps(src['jsonld']))) else 'DIFF'
+    r['wp_content_in_head']='DIFF' if re.search(r'/wp-content/',str(s.head)) else 'PASS'
     if r['jsonld']=='DIFF': r['notes'].append(f'jsonld valid={valid} source {len(src["jsonld"])} blocks vs built {len(bj)}')
     # breadcrumb schema + visible
     sb=[g for g in walk(src['jsonld'],lambda o:o.get('@type')=='BreadcrumbList')]; bb=[g for g in walk(bj,lambda o:o.get('@type')=='BreadcrumbList')]
@@ -147,7 +151,7 @@ def ext(e,r):
 with cf.ThreadPoolExecutor(6) as ex:
     for res in ex.map(check,idx): store[res['slug']]=res
 json.dump(store,open(store_p,'w'))
-cols=['slug','route','type','url','title','description','canonical','robots','og','twitter','jsonld','breadcrumb_schema','breadcrumb_visible','headings','h1_count','images_kept','images_alt','images_dims','images_main_eager','ext_links','hreflang_pagination','dates','notes']
+cols=['slug','route','type','url','title','description','canonical','robots','og','twitter','jsonld','wp_content_in_head','breadcrumb_schema','breadcrumb_visible','headings','h1_count','images_kept','images_alt','images_dims','images_main_eager','ext_links','hreflang_pagination','dates','notes']
 pub={e['slug'] for e in json.load(open(R/'content/_index.json')) if e['published']}
 with open(R/'audit/17-seo-parity.csv','w',newline='') as f:
     w=csv.writer(f); w.writerow(cols)

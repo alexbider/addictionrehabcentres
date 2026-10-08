@@ -284,3 +284,6 @@ No separate Alcohol/Document view conversion was done: /alcohol-addiction-treatm
 - /listing-category/ (13): province listings that duplicate the province pages; 301 to the province page (PEI, Mexico, DUI lawyers to home).
 - WooCommerce/account/search URLs (/cart/, /checkout/ (302 on source), /my-account/, /shop/, /user-dashboard/, /search/, /search-listing/) have no content to migrate; 301 to home. /pricing/, /promote-your-centre/ -> /promote/, /claim-your-listing/ -> /claim-listing/.
 - Full list with targets and reasons: audit/18-redirects.csv (for approval); every source sitemap URL and its new status: audit/18-source-url-accounting.csv.
+
+## 30. Self-hosted og/schema images
+Every og:image, twitter:image and JSON-LD image now points at a self-hosted WebP copy on the production domain (build-content.mjs `selfHostHead`); og:image width/height/type match the copy. Unmapped og/twitter images fall back to the source Home's own og image. Four centres (alcohol-treatment-program, pathways-addiction-resource-centre, salvation-army-sudbury, united-halfway-homes-dominion-street) have JSON-LD image URLs that are truncated/404 on the source itself ("…/Venture-Academy-" etc.); those schema images are dropped, so JSON-LD differs on 4 pages. 13 extra files were fetched into audit/images-phase4/og (manifest audit/data/og-extra.json).
