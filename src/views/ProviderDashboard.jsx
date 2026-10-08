@@ -2,6 +2,7 @@
 // Generated from ProviderDashboard.dc.html — layout, styles and copy are a 1:1 port of the design.
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
+import SiteFooter from './SiteFooter';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -4371,6 +4372,7 @@ function template(v) {
           </>
         ) : null}
       </div>
+      <SiteFooter />
     </>
   );
 }

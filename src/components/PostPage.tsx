@@ -2,7 +2,7 @@ import Link from 'next/link';
 import type { Block, Page } from '@/lib/content';
 import { Blk } from './blocks';
 import PageShell from './PageShell';
-import SiteFooter from './SiteFooter';
+import SiteFooter from '@/views/SiteFooter';
 import ProvincesNav from './ProvincesNav';
 import { getRoutes } from '@/lib/content';
 import { categorySlug } from '@/lib/blog';

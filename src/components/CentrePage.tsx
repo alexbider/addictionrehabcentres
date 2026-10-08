@@ -5,7 +5,7 @@ import { getRoutes, isPublishedRoute } from '@/lib/content';
 import { categoryRoute } from '@/lib/provinces';
 import { Blk, body } from './blocks';
 import PageShell from './PageShell';
-import SiteFooter from './SiteFooter';
+import SiteFooter from '@/views/SiteFooter';
 import ProvincesNav from './ProvincesNav';
 
 /**

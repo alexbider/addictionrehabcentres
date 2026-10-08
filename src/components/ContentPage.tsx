@@ -3,7 +3,7 @@ import { getRoutes } from '@/lib/content';
 import { Blk, body, wrap } from './blocks';
 import ProvincesNav from './ProvincesNav';
 import PageShell from './PageShell';
-import SiteFooter from './SiteFooter';
+import SiteFooter from '@/views/SiteFooter';
 
 /**
  * Long-form page layout (hero banner → text/image rows → call-to-action band → help band), the layout the source

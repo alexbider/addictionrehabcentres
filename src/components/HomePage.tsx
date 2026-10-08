@@ -2,7 +2,7 @@ import type { Block, Page, Row } from '@/lib/content';
 import { getRoutes } from '@/lib/content';
 import { Blk, Btn, body, wrap } from './blocks';
 import PageShell from './PageShell';
-import SiteFooter from './SiteFooter';
+import SiteFooter from '@/views/SiteFooter';
 import ProvincesNav from './ProvincesNav';
 
 /**

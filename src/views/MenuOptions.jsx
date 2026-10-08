@@ -2,6 +2,7 @@
 // Generated from Menu Options.dc.html — layout, styles and copy are a 1:1 port of the design.
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
+import SiteFooter from './SiteFooter';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -91,6 +92,7 @@ function template(v) {
           </div>
         </div>
       </section>
+      <SiteFooter />
     </>
   );
 }

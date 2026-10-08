@@ -71,7 +71,7 @@ export default function SiteFooter() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: css }} />
-        <div style={{ background: '#fff', paddingTop: '24px', marginTop: 'auto' }}>
+        <div className="rc-page" style={{ background: '#fff', paddingTop: '24px', marginTop: 'auto' }}>
           <footer
             data-screen-label="Footer"
             style={{

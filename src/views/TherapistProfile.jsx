@@ -1379,7 +1379,7 @@ function template(v) {
   return (
     <>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader active="therapists" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section data-screen-label="Profile Hero" style={{ background: '#fff', borderBottom: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '24px 32px 0' }} data-rc-wrap="1">
             <nav

@@ -1317,7 +1317,7 @@ function template(v) {
   return (
     <>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader active="therapists" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Hero"
           style={{

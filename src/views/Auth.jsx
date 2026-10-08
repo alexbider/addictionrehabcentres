@@ -2,6 +2,7 @@
 // Generated from Auth.dc.html — layout, styles and copy are a 1:1 port of the design.
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
+import SiteFooter from './SiteFooter';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -1208,29 +1209,9 @@ function template(v) {
               ) : null}
             </div>
           </div>
-          <div
-            style={{
-              display: 'flex',
-              flexWrap: 'wrap',
-              justifyContent: 'center',
-              gap: '6px 18px',
-              fontSize: '13px',
-              color: '#6b7f95',
-            }}
-          >
-            <span>© 2025 Addiction Rehab Centres Canada</span>
-            <$A className="scp0" href="/privacy-policy" style={{ color: '#6b7f95' }}>
-              Privacy
-            </$A>
-            <$A className="scp0" href="/terms-of-use" style={{ color: '#6b7f95' }}>
-              Terms
-            </$A>
-            <$A className="scp0" href="tel:+18558854747" style={{ color: '#6b7f95' }}>
-              Help: 1-855-885-4747
-            </$A>
-          </div>
         </main>
       </div>
+      <SiteFooter />
     </>
   );
 }
