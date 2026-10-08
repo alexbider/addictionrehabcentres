@@ -784,6 +784,7 @@ class Component extends DCLogic {
     const vwT = this.state.vw,
       wideT = vwT >= 1000,
       tabHov = this.state.tabHov;
+    if (H && H.tabBodies) H.tabBodies.forEach((b, i) => { if (b && tabData[i]) tabData[i].body = b; });
     const tabs = tabData.map((t, i) => {
       const on = i === tab,
         hv = tabHov === i && !on;
@@ -971,6 +972,7 @@ class Component extends DCLogic {
       viewText: this.state.vw >= 1180 || this.state.vw < 680 ? 'View centre' : 'View',
       ...adVals,
       homeLive: !!H,
+      otherTabs: H ? tabData.filter((_, i) => i !== tab).map((t) => ({ label: t.label, body: t.body })) : [],
       inspireImg: H ? (H.featured.find((c) => c.href.includes('inspire-change')) ?? H.featured[0])?.img ?? null : null,
       heroImg: H?.heroImg ?? null,
       aboutImg: H?.aboutImg ?? null,
@@ -1108,6 +1110,7 @@ function template(v) {
     topCentres,
     topCols,
     homeLive,
+    otherTabs,
     inspireImg,
     heroImg,
     aboutImg,
@@ -3522,6 +3525,16 @@ function template(v) {
                   <p style={{ fontSize: '17px', lineHeight: '1.7', color: '#3b4d63', margin: '0', textWrap: 'pretty' }}>
                     {$i(activeTab?.body)}
                   </p>
+                  {homeLive ? (
+                    <div hidden>
+                      {otherTabs.map((t) => (
+                        <div key={t.label}>
+                          <h4>{t.label}</h4>
+                          <p>{t.body}</p>
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
                   <$A
                     className="scp1 scpy"
                     href={activeTab?.href}

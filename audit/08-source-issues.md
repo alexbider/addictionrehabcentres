@@ -295,3 +295,10 @@ Every og:image, twitter:image and JSON-LD image now points at a self-hosted WebP
 - The "Get directions" link is the source's form (maps.google.com?q=address, rel="external noopener noreferrer", target _blank). The source builds q from a truncated address on some centres; ours uses the full address.
 - Footer Facebook link carries the source rel (nofollow external noopener noreferrer).
 - First visible image is eager (hero/gallery, or the first body image when there is no gallery). 7 alt differences are parity artefacts: the source's 150x150 thumbnails carry empty or numbered alts for the same file as the full-size image we render.
+
+## 32. Final-pass notes
+- Province pages and the blog index render all cards in the DOM but show 12 at a time ("Load more"); text checks that read visible text report the hidden cards as missing (14 province pages, /blog/). Not a content loss.
+- Home tabs show one tab at a time; the other five tab texts are in the DOM inside a hidden container (full source text).
+- City-archive card tags: the scraper had joined the tag texts without separators ("AftercareAssessment..."); they are now separate tags joined with " · " from the raw markup.
+- /residences/, /admissions/ and /nutrition-and-wellness/ are noindex,nofollow on the source and stay noindex here; /intervention/ is "index, nofollow" on the source and is kept as such.
+- Source /alcohol-rehab/, /rehab/, /rehab/search/, /rehab/yukon-drug-rehab-treatments/ 301 on the source; the design's links to them are covered by the same 301s.

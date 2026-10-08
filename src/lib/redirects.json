@@ -35,6 +35,11 @@
   "note": "thin centre -> province page"
  },
  {
+  "source": "/alcohol-rehab",
+  "destination": "/",
+  "note": "source 301s /alcohol-rehab/ -> / (header menu link in the design)"
+ },
+ {
   "source": "/alcoholics-anonymous",
   "destination": "/listing-location/thompson/",
   "note": "thin centre -> city archive"

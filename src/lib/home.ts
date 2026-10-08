@@ -10,6 +10,7 @@ export type HomeData = {
   ctaImg: Img | null;
   programImgs: (Img | null)[];
   tabImgs: (Img | null)[];
+  tabBodies: string[];
   top: HomeCentre[];
   featured: HomeCentre[];
 };
@@ -33,7 +34,7 @@ export function homeData(): HomeData | null {
     const c = cp?.centre;
     const g = c?.gallery?.[0];
     return {
-      name, city: cityOf(address), href, excerpt: excerpt.length > 160 ? excerpt.slice(0, 157).replace(/\s+\S*$/, '') + '…' : excerpt,
+      name, city: cityOf(address), href, excerpt,
       tel: c?.phone_href || 'tel:+18558854747', phone: c?.phone_text || '1-855-885-4747',
       img: g ? { src: g.src, alt: g.alt || name, width: g.width ?? null, height: g.height ?? null } : fallback,
     };
@@ -60,7 +61,9 @@ export function homeData(): HomeData | null {
   }
   const tabs = blocks.find((b) => b.type === 'tabs');
   const tabImgs = tabs && tabs.type === 'tabs' ? tabs.tabs.map((t) => imgOf(t.blocks.find((b) => b.type === 'image'))) : [];
+  const tabBodies = tabs && tabs.type === 'tabs' ? tabs.tabs.map((t) => t.blocks.filter((b) => b.type === 'p').map((b) => (b as { text: string }).text).join(' ')) : [];
   return {
+    tabBodies,
     heroImg: by('addiction-rehab-centers-canada.webp'),
     aboutImg: by('Addiction-rehab-centers-in-Canada'),
     programImg: by('Addiction-rehab-program'),

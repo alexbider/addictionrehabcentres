@@ -353,3 +353,6 @@ p a[href]:not([class]), li a[href]:not([class]) { text-decoration: underline; te
 
 /* 8 ▸ default link blue (#0890E8, 3.4:1 on white) → #0670b8 for links that do not set their own colour (header and footer excluded) */
 a:not([style*="color"]):not(footer a):not([data-sc-name="SiteHeader"] a) { color: #0670b8 !important; }
+
+/* 9 ▸ images the source puts inside headings, paragraphs and lists never exceed their column (some are 1000 px wide at a 1024 px viewport) */
+:is(h1, h2, h3, h4, p, li, td, figure) img { max-width: 100%; height: auto; }

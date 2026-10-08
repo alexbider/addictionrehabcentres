@@ -68,3 +68,22 @@ Footer: **Home’s rich footer is the only footer** (one component, `src/views/S
 /alcohol-addiction-treatment/ and /addiction-by-alcohol/ now render on Alcohol.jsx with source content. Hidden in live mode: hero stat cards (4.1%, 20-24), hero topic chips, the "Alcohol topics" hub, the design's sample article and FAQ, the sample provinces grid and sample "Let us help" section (replaced by the source's own province block and help block). Design copy kept: hero eyebrow and intro line, the blue helpline card, the call strip.
 ## Step 5: /drug-intervention-treatment-centres/
 Published on the Intervention view; the three embedded centre cards use a new DC card (src/dc/guide.js, `centre-cards`): image, category, name, address, source excerpt, View centre. Names come from the linked centre pages (the source card markup has no name text).
+
+## Final pass (steps 1-9): hidden / not built / design copy kept
+| Page type | Item | Reason |
+|---|---|---|
+| City / city archive | How we ranked, rank numbers, ratings, prices, length cells, Compare table, Guide, FAQ | not in the source archive |
+| City archive | Hero image, hero sub-heading | source has none; design stock image slot hidden/kept as designed |
+| City archive | Rehab Centres by City band | single-city archive |
+| Category archive | Featured lead + two side cards, Latest/A-Z sort, topic sidebar | design behaviour of the Blog view; the source category page is a plain list |
+| Home | Ratings, review counts, Featured/Verified badges, ad tooltip, "Coast to coast" card | no source facts |
+| Home | Full address on centre cards | the design shows the city only |
+| Home | Section eyebrows and headings not in the source ("Featured treatment centres across Canada", "Browse by province") | design copy kept |
+| Promote | Prices, analytics numbers, testimonials, founding partner, plan comparison | design copy kept by instruction; invented, client to confirm |
+| ClaimListing | Price ($699) and steps | design copy kept by instruction |
+| Contact | Response-time promises | design copy kept by instruction |
+| Centre | "Specialties/Amenities/Social" headings the source prints with no items | empty groups hidden |
+| Alcohol | Hero stat cards (4.1%, 20-24), topic hub, sample article/FAQ/provinces/help | not in the source |
+| All forms | Callback, claim, newsletter, lead | no FORM_ENDPOINT (client decision) |
+| Header | Mega-menu promo copy | design copy; images now the source's |
+| Accessibility | Blue #0890E8 text and white-on-blue buttons use #0670b8; grey text #566b82 | WCAG AA contrast; client to confirm shade |

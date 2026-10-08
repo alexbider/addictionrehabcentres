@@ -99,7 +99,7 @@ def check(e):
         r['notes'].append('headings ('+kind+') '+reason); r['headings_kind']=kind
     r['h1_count']=f"{sum(1 for h in sh if h[0]=='h1')}/{sum(1 for h in bh if h[0]=='h1')}"
     # images
-    stem=lambda n: re.sub(r'-\d+x\d+$','',re.sub(r'\.[a-z0-9]+$','',urllib.parse.unquote(n or '').lower()))
+    stem=lambda n: re.sub(r'-w\d+$','',re.sub(r'-\d+x\d+$','',re.sub(r'\.[a-z0-9]+$','',urllib.parse.unquote(n or '').lower())))
     bimgs=[(stem((i.get('src') or '').split('/')[-1]),i.get('alt'),i.get('width'),i.get('height'),i.get('loading')) for i in s.find_all('img')]
     bmap={}
     for b in bimgs: bmap.setdefault(b[0],[]).append(b)
