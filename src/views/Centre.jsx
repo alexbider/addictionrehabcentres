@@ -923,7 +923,9 @@ class Component extends DCLogic {
     const sample = !D;
     let galleryNode = null,
       bodyNodes = [],
-      specAside = null;
+      specAside = null,
+      contactExtra = null,
+      liveFaqs = [];
     if (D) {
       const g = D.gallery || [];
       const top = g.slice(0, 5);
@@ -940,12 +942,30 @@ class Component extends DCLogic {
       if (g.length > 5)
         bodyNodes.push(R('div', { key: 'more', style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(220px,100%),1fr))', gap: '10px' }, 'data-cols': 'repeat(auto-fill,minmax(170px,1fr))' }, ...g.slice(5).map((x, i) => R('div', { key: i, style: { aspectRatio: '4/3' } }, img(x)))));
       const groups = (D.specs || []).filter((x) => x.items && x.items.length);
-      if (groups.length)
-        specAside = R('aside', { style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } },
-          ...groups.map((x, i) => R('div', { key: i, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px', display: 'flex', flexDirection: 'column', gap: '12px' } },
-            R('div', { style: { font: "600 11.5px Figtree,sans-serif", letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, x.heading),
-            R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...x.items.map((it, k) => R('span', { key: k, style: { font: '500 13.5px Figtree,sans-serif', color: '#1f3550', background: '#eef4f9', padding: '6px 12px', borderRadius: '999px' } }, it))),
-            x.text ? R('p', { style: { fontSize: '14px', lineHeight: '1.6', color: '#3b4d63' } }, x.text) : null)));
+      const card = (key, ...kids) => R('div', { key, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px', display: 'flex', flexDirection: 'column', gap: '12px' } }, ...kids);
+      const label = (t) => R('div', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, t);
+      const chips = (items) => R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...items.map((it, k) => R('span', { key: k, style: { font: '500 13.5px Figtree,sans-serif', color: '#1f3550', background: '#eef4f9', padding: '6px 12px', borderRadius: '999px' } }, it)));
+      const cards = groups.map((x, i) => card('g' + i, label(x.heading), chips(x.items), x.text ? R('p', { style: { fontSize: '14px', lineHeight: '1.6', color: '#3b4d63' } }, x.text) : null));
+      if (D.hours && D.hours.rows.length)
+        cards.push(card('hours', D.hours.heading ? label(D.hours.heading) : null,
+          ...D.hours.rows.map((r, i) => R('div', { key: i, style: { display: 'flex', justifyContent: 'space-between', gap: '16px', fontSize: '14.5px', padding: '8px 0', borderTop: i ? '1px solid #edf2f7' : '0' } }, R('span', { style: { color: '#516378' } }, r[0]), R('span', { style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', textAlign: 'right' } }, r[1])))));
+      if (D.tags && D.tags.items.length) cards.push(card('tags', D.tags.heading ? label(D.tags.heading) : null, chips(D.tags.items)));
+      if (cards.length) specAside = R('aside', { style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } }, ...cards);
+      const pillStyle = { font: '500 13.5px Figtree,sans-serif', color: '#516378', border: '1px solid #e3ecf4', padding: '8px 12px', borderRadius: '10px', textAlign: 'center' };
+      const soc = { facebook: 'Facebook', twitter: 'Twitter', instagram: 'Instagram', youtube: 'YouTube', pinterest: 'Pinterest', linkedin: 'LinkedIn' };
+      const socials = Object.entries(D.social || {}).filter(([, u]) => u);
+      if (D.email || socials.length)
+        contactExtra = R('div', { style: { borderTop: '1px solid #edf2f7', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' } },
+          D.email ? R('a', { className: 'scp0', href: 'mailto:' + D.email, style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', overflowWrap: 'anywhere' } }, D.email) : null,
+          socials.length ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: '_blank', rel: 'noopener nofollow', style: pillStyle }, soc[k] || k))) : null);
+      liveFaqs = (D.faqs || []).map((q, i) => ({
+        question: q.question,
+        answer: R('div', { style: { display: 'flex', flexDirection: 'column', gap: '12px' } }, ...buildBody(R, q.answerBlocks).nodes),
+        open: i === faq,
+        toggle: () => this.setState({ faq: faq === i ? -1 : i }),
+        border: i === faq ? '#0890E8' : '#e3ecf4',
+        rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)',
+      }));
     }
     return {
       sample,
@@ -962,8 +982,8 @@ class Component extends DCLogic {
       phoneOn: !D || !!D.phoneHref,
       siteHref: D ? D.website : '#',
       siteOn: !D || !!D.website,
-      asideOn: !D || !!D.phoneHref || !!D.website,
-      aboutOn: !D || (D.body || []).length > 0 || (D.specs || []).some((x) => x.items && x.items.length),
+      asideOn: !D || !!D.phoneHref || !!D.website || !!D.email || Object.keys(D.social || {}).length > 0,
+      aboutOn: !D || (D.body || []).length > 0 || (D.specs || []).some((x) => x.items && x.items.length) || !!(D.hours && D.hours.rows.length) || !!(D.tags && D.tags.items.length),
       galleryNode,
       bodyNodes,
       specAside,
@@ -1009,7 +1029,7 @@ class Component extends DCLogic {
         },
         { icon: ic.pin, title: 'Insights', body: 'See views, calls and clicks for your listing each month.' },
       ],
-      glance,
+      glance: D ? (D.info || []).map((v) => ({ k: '', v })) : glance,
       services,
       programElements,
       pillars,
@@ -1027,7 +1047,11 @@ class Component extends DCLogic {
       ratingBars,
       reviewsList,
       serving,
-      centreFaqs,
+      centreFaqs: D ? liveFaqs : centreFaqs,
+      faqOn: !D || (D.faqs || []).length > 0,
+      faqHeading: D ? D.faqHeading || '' : '',
+      glanceOn: !D || (D.info || []).length > 0,
+      contactExtra,
       iconGrid: ic.dual,
       iconLeaf: ic.leaf,
       drug,
@@ -1095,6 +1119,10 @@ class Component extends DCLogic {
 function template(v) {
   const {
     sample,
+    glanceOn,
+    contactExtra,
+    faqOn,
+    faqHeading,
     catHref,
     catLabel,
     catOn,
@@ -1574,6 +1602,9 @@ function template(v) {
                     </>
                   ) : null}
                 </div>
+                </>
+                ) : null}
+                {glanceOn ? (
                 <div
                   style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '12px', marginTop: '6px' }}
                   data-cols="repeat(4,1fr)"
@@ -1591,6 +1622,7 @@ function template(v) {
                           gap: '4px',
                         }}
                       >
+                        {g?.k ? (
                         <span
                           style={{
                             font: '600 11px Figtree,sans-serif',
@@ -1601,6 +1633,7 @@ function template(v) {
                         >
                           {$i(g?.k)}
                         </span>
+                        ) : null}
                         <span style={{ font: '600 15px Jost,sans-serif', color: '#10233a', lineHeight: '1.3' }}>
                           {$i(g?.v)}
                         </span>
@@ -1608,8 +1641,8 @@ function template(v) {
                     </Fragment>
                   ))}
                 </div>
-                </>
                 ) : null}
+
               </div>
               {asideOn ? (
               <aside
@@ -1715,6 +1748,7 @@ function template(v) {
                     Save to wishlist
                   </$A>
                   ) : null}
+                {sample ? null : contactExtra}
                 </div>
                 ) : null}
                 {sample ? (
@@ -3359,6 +3393,9 @@ function template(v) {
             </section>
           </>
         ) : null}
+        </>
+        ) : null}
+        {faqOn ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -3386,8 +3423,10 @@ function template(v) {
                 FAQ
               </span>
               <h2 style={{ fontSize: '38px', lineHeight: '1.12' }} data-rc-lg="1">
-                Questions about {$i(centreName)}
+                {sample ? <>Questions about {$i(centreName)}</> : $i(faqHeading)}
               </h2>
+              {sample ? (
+              <>
               <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>
                 Answers confirmed with the centre. Still unsure? Call — it's free and confidential.
               </p>
@@ -3405,6 +3444,8 @@ function template(v) {
               >
                 Ask us directly
               </$A>
+              </>
+              ) : null}
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {$list(centreFaqs).map((q, $index) => (
@@ -3463,6 +3504,9 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
+        <>
         <section
           data-screen-label="Sponsored Centres"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5', overflow: 'hidden' }}

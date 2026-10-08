@@ -1,14 +1,18 @@
 import type { Block, Page } from '@/lib/content';
 import { categoryRoute } from '@/lib/provinces';
-import { isPublishedRoute } from '@/lib/content';
+import { getPublished, isPublishedRoute } from '@/lib/content';
 
-/** Centres rebuilt on the approved Centre view so far (prototype; the other centres still use CentrePage). */
-export const CENTRE_VIEW_SLUGS = new Set([
-  'centre__another-road-addiction-recovery-centre',
-  'centre__peace-country-wilderness-program',
-  'centre__canadawide-mobile',
-  'centre__blue-skies-recovery',
-]);
+/** Centres on the approved Centre view: the 4 prototypes plus the batches built so far (alphabetical by slug, `centre__` removed). */
+const PROTOTYPES = ['another-road-addiction-recovery-centre', 'peace-country-wilderness-program', 'canadawide-mobile', 'blue-skies-recovery'];
+export const BATCH_SIZE = 0; // batch 1 = first 100 published centres; raise to 200, 300, 391 for the next batches
+let viewSlugs: Set<string> | null = null;
+export function centreOnView(slug: string): boolean {
+  if (!viewSlugs) {
+    const all = getPublished().filter((e) => e.type === 'centre').map((e) => e.slug.replace(/^centre__/, '')).sort();
+    viewSlugs = new Set([...PROTOTYPES, ...all.slice(0, BATCH_SIZE)]);
+  }
+  return viewSlugs.has(slug.replace(/^centre__/, ''));
+}
 
 export type CentreData = {
   name: string;
@@ -21,11 +25,18 @@ export type CentreData = {
   gallery: { src: string; alt: string }[];
   body: Block[];
   specs: { heading: string; items: string[]; text: string }[];
+  email: string;
+  social: Record<string, string>;
+  tags: { heading: string; items: string[] };
+  hours: { heading: string; rows: [string, string][] };
+  info: string[];
+  faqHeading: string;
+  faqs: { question: string; answerBlocks: Block[] }[];
 };
 
 /** Centre page JSON → props for the approved Centre view. Only real source fields: name, address, phone, website, category,
- *  specialties/amenities, about body, gallery, videos. Ratings, reviews (incl. Google review text), hours, FAQ, tags, social, email,
- *  price items and the sponsor ad are not passed. */
+ *  email, social, tags, hours, FAQ, info items, specialties/amenities, about body, gallery, videos. Ratings, review counts, Google review
+ *  text and the sponsor ad are never passed. */
 export function centreData(page: Page): CentreData {
   const c = page.centre!;
   const cat = c.categories[0];
@@ -41,5 +52,12 @@ export function centreData(page: Page): CentreData {
     gallery: c.gallery.map((g) => ({ src: g.src, alt: g.alt })),
     body: c.about_blocks,
     specs: c.specialty_groups,
+    email: c.email,
+    social: c.social,
+    tags: c.tags,
+    hours: c.hours,
+    info: [...new Set(c.info_items.map((i) => i.value || i.label))],
+    faqHeading: c.faq_heading,
+    faqs: c.faqs.map((q) => ({ question: q.question, answerBlocks: q.answer_blocks })),
   };
 }

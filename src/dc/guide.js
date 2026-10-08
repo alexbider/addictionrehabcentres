@@ -29,7 +29,26 @@ export function buildGuide(R, blocks) {
 }
 
 // Long body for the Centre view: the BlogPost article styles (17.5px/1.75 text, 30px H2, boxed embeds and tables).
-export function buildBody(R, blocks) {
+// Source bullet lines ("• Holistic", "– Alcohol") arrive as one paragraph each: consecutive ones become one real list.
+// Only the bullet symbol is removed; the words are untouched.
+const BULLET = /^\s*(?:<span[^>]*>\s*[•–]\s*<\/span>|[•–])\s*/;
+function groupBullets(blocks) {
+  const out = [];
+  const mark = (b) => (b.type === 'p' ? ((b.text || '').trim().match(/^[•–]/) || [null])[0] : null);
+  for (let i = 0; i < blocks.length; i++) {
+    const m = mark(blocks[i]);
+    if (!m) { out.push(blocks[i]); continue; }
+    let j = i;
+    while (j < blocks.length && mark(blocks[j]) === m) j++;
+    if (m === '–' && j - i < 2) { out.push(blocks[i]); continue; }
+    out.push({ type: 'bl', items: blocks.slice(i, j).map((b) => ({ html: (b.html ?? b.text).replace(BULLET, '') })) });
+    i = j - 1;
+  }
+  return out;
+}
+
+export function buildBody(R, rawBlocks) {
+  const blocks = groupBullets(rawBlocks);
   const toc = [];
   const used = {};
   const idFor = (t) => {
@@ -37,7 +56,6 @@ export function buildBody(R, blocks) {
     used[base] = (used[base] || 0) + 1;
     return used[base] > 1 ? base + '-' + used[base] : base;
   };
-  const bullet = (b) => b.type === 'p' && /^•/.test((b.text || '').trim());
   const nodes = blocks.map((b, i) => {
     const key = i;
     if (/^h[1-6]$/.test(b.type)) {
@@ -46,13 +64,11 @@ export function buildBody(R, blocks) {
       return R('h' + lvl, { key, id: idFor(b.text), style: st, 'data-rc-lg': lvl === 2 ? '1' : undefined, dangerouslySetInnerHTML: { __html: b.html } });
     }
     if (b.type === 'p' || b.type === 'text') {
-      // source bullet lines ("• Holistic") come as one paragraph each: keep the text, tighten the gap
-      const prev = blocks[i - 1];
-      return R('p', { key, style: bullet(b) && prev && (bullet(prev) || prev.type === 'h3' || prev.type === 'h4') ? { marginTop: '-16px' } : undefined, dangerouslySetInnerHTML: { __html: b.html ?? b.text } });
+      return R('p', { key, dangerouslySetInnerHTML: { __html: b.html ?? b.text } });
     }
     if (b.type === 'blockquote') return R('blockquote', { key, style: { margin: 0, padding: '22px 26px', background: '#f7fafd', borderRadius: '20px' }, dangerouslySetInnerHTML: { __html: b.html } });
-    if (b.type === 'ul' || b.type === 'ol')
-      return R(b.type, { key, style: { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ul' ? 'disc' : 'decimal', display: 'flex', flexDirection: 'column', gap: '8px' } }, ...b.items.map((it, k) => R('li', { key: k, dangerouslySetInnerHTML: { __html: it.html } })));
+    if (b.type === 'ul' || b.type === 'ol' || b.type === 'bl')
+      return R(b.type === 'bl' ? 'ul' : b.type, { key, style: { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ol' ? 'decimal' : 'disc', display: 'flex', flexDirection: 'column', gap: '8px' } }, ...b.items.map((it, k) => R('li', { key: k, dangerouslySetInnerHTML: { __html: it.html } })));
     if (b.type === 'table') return R('div', { key, className: 'cp-table', style: { overflowX: 'auto', border: '1px solid #e3ecf4', borderRadius: '20px' }, dangerouslySetInnerHTML: { __html: b.html } });
     if (b.type === 'image') return R('img', { key, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: 'lazy', style: { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' } });
     if (b.type === 'video' || b.type === 'iframe') {

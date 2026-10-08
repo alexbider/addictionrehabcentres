@@ -238,3 +238,10 @@ Pages: `/another-road-addiction-recovery-centre/` (rich: 11 gallery images, YouT
 - Not shown (per owner): ratings, review counts, Google review text, hours, FAQ, tags, social links, email, price/length items, sponsor ad, badges, logo box, “Show all photos”, tab bar, team, location/map, callback form, claim banner, sponsored centres, author/reviewer.
 - Source oddity kept as is: `/canadawide-mobile/` and `/peace-country-wilderness-program/` list “Substance Abuse Treatmental” under both Specialties and Amenities.
 - Gallery: the first 5 images fill the design’s mosaic (layout adapts to 1–4 images); images beyond 5 appear as a thumbnail grid under the body.
+
+## 21. Centre view: restored fields and rules (owner decisions)
+- **Restored where the design has a natural place:** email + social links in the contact card under Call / Visit website; tags as chips and hours as a card in the About side column (headings are the source’s: “More Tags”, “Business Hours”); FAQ in the design’s FAQ accordion (source FAQ text; the source FAQPage JSON-LD is kept on those pages). Hidden when the source has none.
+- **Info items** (e.g. “$500+ / Day”, “30-90 days”; 12 centres): shown as value-only cards in the hero’s “at a glance” row (the design’s slot for price/length facts). The source gives them no label (label = value), so no label is invented.
+- **Bullet lines** (“• Holistic”, 5,948 paragraphs, plus 14 “– …” ones that come in runs of two or more) are converted into real lists; only the bullet symbol is removed.
+- **“Substance Abuse Tremental”-style oddity kept as in the source:** appears under both Specialties and Amenities on centres such as `/canadawide-mobile/` and `/peace-country-wilderness-program/`; not corrected.
+- Still never shown: Google review text (10 centres), review counts, ratings, sponsor ad.
