@@ -1231,8 +1231,8 @@
  },
  {
   "source": "/rehab/search",
-  "destination": "/",
-  "note": "source has no search page here; design links to it -> home"
+  "destination": "/search/",
+  "note": "source 301s /rehab/search/ -> /search/; now the site search page"
  },
  {
   "source": "/rehab/yukon-drug-rehab-treatments",
@@ -1261,8 +1261,8 @@
  },
  {
   "source": "/search-listing",
-  "destination": "/",
-  "note": "dynamic search page, no static content -> home"
+  "destination": "/search/",
+  "note": "old search listing archive -> site search page"
  },
  {
   "source": "/search-listing/dr-i-s-bilash",
@@ -1283,11 +1283,6 @@
   "source": "/search-listing/vitalita-health-network",
   "destination": "/",
   "note": "out-of-scope centre (approved: skipped) -> home"
- },
- {
-  "source": "/search",
-  "destination": "/",
-  "note": "dynamic search page, no static content -> home"
  },
  {
   "source": "/selkirk-interlake-mental-health-support-centre-inc",

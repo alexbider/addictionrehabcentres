@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import searchOptions from '@/lib/search-options.json';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -714,6 +715,7 @@ class Component extends DCLogic {
 
     const programs = [
       {
+        href: '/drug-rehabilitation-in-canada/',
         title: 'Drug Addiction Rehab Toronto',
         icon: ic.leaf,
         cta: 'Find A Drug Rehab',
@@ -721,6 +723,7 @@ class Component extends DCLogic {
         body: 'Rehabilitation Centre Toronto: The symptoms of drug addiction are designed to keep you using. The "reality" drug addiction convinces you of is not real at all. The world doesn\'t have to be miserable, and you don\'t have to spend your life as an addict. Let us help you chart a course to permanent, content sobriety at our state-of-the-art drug rehab facilities.',
       },
       {
+        href: '/alcohol-addiction-treatment/',
         title: 'Alcohol Rehab',
         icon: ic.glass,
         cta: 'Find An Alcohol Rehab',
@@ -728,6 +731,7 @@ class Component extends DCLogic {
         body: 'Let us show you how you can live in an alcohol-saturated world without giving in to temptation. All you need to do is avoid drinking. This might seem challenging, even impossible, at first, but we can show you how to achieve sobriety that lasts a lifetime. We can help you get out of the cycle of alcohol addiction with Alcohol Rehab Program.',
       },
       {
+        href: '/prescription-drugs-addiction/',
         title: 'Prescription Drug Rehab',
         icon: ic.rx,
         cta: 'Find A Prescription Drug Rehab',
@@ -735,6 +739,7 @@ class Component extends DCLogic {
         body: "The prescription drug rehabilitation process begins with detoxing from prescription drugs. In most cases, this will mean quitting cold turkey, but if you have a medical condition, you might steadily taper down your dose instead. We'll work with you to manage the symptoms of detox, and offer a steady stream of encouragement as you cope with cravings.",
       },
       {
+        href: '/what-is-dual-diagnosis-treatment/',
         title: 'Dual Diagnosis',
         icon: ic.dual,
         cta: 'Find A Dual Diagnosis Center',
@@ -972,6 +977,8 @@ class Component extends DCLogic {
       viewText: this.state.vw >= 1180 || this.state.vw < 680 ? 'View centre' : 'View',
       ...adVals,
       homeLive: !!H,
+      searchProvinces: searchOptions.provinces,
+      searchTypes: searchOptions.types,
       otherTabs: H ? tabData.filter((_, i) => i !== tab).map((t) => ({ label: t.label, body: t.body })) : [],
       inspireImg: H ? (H.featured.find((c) => c.href.includes('inspire-change')) ?? H.featured[0])?.img ?? null : null,
       heroImg: H?.heroImg ?? null,
@@ -1110,6 +1117,8 @@ function template(v) {
     topCentres,
     topCols,
     homeLive,
+    searchProvinces,
+    searchTypes,
     otherTabs,
     inspireImg,
     heroImg,
@@ -1188,7 +1197,8 @@ function template(v) {
                 {'Find The Best Alcohol & Drug Addiction Centres in Canada'}
               </h2>
               <form
-                action="/rehab/search"
+                action="/search/"
+                method="get"
                 style={{
                   marginTop: '6px',
                   background: '#fff',
@@ -1225,6 +1235,8 @@ function template(v) {
                     Location
                   </span>
                   <select
+                    name="province"
+                    aria-label="Location"
                     style={{
                       appearance: 'none',
                       border: '0',
@@ -1236,20 +1248,10 @@ function template(v) {
                       cursor: 'pointer',
                     }}
                   >
-                    <option>Anywhere in Canada</option>
-                    <option>Alberta</option>
-                    <option>British Columbia</option>
-                    <option>Manitoba</option>
-                    <option>New Brunswick</option>
-                    <option>Newfoundland and Labrador</option>
-                    <option>Northwest Territories</option>
-                    <option>Nova Scotia</option>
-                    <option>Ontario</option>
-                    <option>Prince Edward Island</option>
-                    <option>Quebec</option>
-                    <option>Saskatchewan</option>
-                    <option>Yukon</option>
-                    <option>Nunavut</option>
+                    <option value="">Anywhere in Canada</option>
+                    {(searchProvinces || []).map((o) => (
+                      <option key={o.value} value={o.value}>{o.label}</option>
+                    ))}
                   </select>
                 </label>
                 <label
@@ -1276,6 +1278,8 @@ function template(v) {
                     Treatment for
                   </span>
                   <select
+                    name="type"
+                    aria-label="Treatment for"
                     style={{
                       appearance: 'none',
                       border: '0',
@@ -1287,13 +1291,10 @@ function template(v) {
                       cursor: 'pointer',
                     }}
                   >
-                    <option>Any addiction</option>
-                    <option>Alcohol</option>
-                    <option>Drugs</option>
-                    <option>Prescription drugs</option>
-                    <option>Dual diagnosis</option>
-                    <option>Intervention</option>
-                    <option>Detox</option>
+                    <option value="">Any addiction</option>
+                    {(searchTypes || []).map((o) => (
+                      <option key={o.value} value={o.value}>{o.label}</option>
+                    ))}
                   </select>
                 </label>
                 <button
@@ -2620,7 +2621,7 @@ function template(v) {
                 </div>
                 <$A
                   className="scp1 scpy"
-                  href="/rehab"
+                  href="/search/"
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -2841,7 +2842,7 @@ function template(v) {
                     <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>{$i(p?.body)}</p>
                     <$A
                       className="scp7"
-                      href="/rehab"
+                      href={p?.href}
                       style={{
                         alignSelf: 'flex-start',
                         font: '600 15px Jost,sans-serif',

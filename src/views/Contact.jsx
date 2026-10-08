@@ -411,7 +411,7 @@ class Component extends DCLogic {
         title: 'Find a rehab near you',
         body: 'Browse verified treatment centres by province and city, with programs, photos and reviews.',
         cta: 'Search centres',
-        href: B + 'rehab/search/',
+        href: B + 'search/',
       },
       {
         icon: ic.building,

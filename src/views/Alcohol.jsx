@@ -707,7 +707,7 @@ function template(v) {
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '2px' }}>
                 <$A
                   className="scp1"
-                  href="/rehab"
+                  href="/search/"
                   style={{
                     font: '600 17px Jost,sans-serif',
                     color: '#fff',

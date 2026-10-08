@@ -1,0 +1,256 @@
+{
+ "provinces": [
+  {
+   "value": "alberta",
+   "label": "Alberta",
+   "code": "AB",
+   "n": 43
+  },
+  {
+   "value": "british-columbia",
+   "label": "British Columbia",
+   "code": "BC",
+   "n": 113
+  },
+  {
+   "value": "manitoba",
+   "label": "Manitoba",
+   "code": "MB",
+   "n": 23
+  },
+  {
+   "value": "new-brunswick",
+   "label": "New Brunswick",
+   "code": "NB",
+   "n": 26
+  },
+  {
+   "value": "newfoundland-and-labrador",
+   "label": "Newfoundland and Labrador",
+   "code": "NL",
+   "n": 23
+  },
+  {
+   "value": "northwest-territories",
+   "label": "Northwest Territories",
+   "code": "NT",
+   "n": 4
+  },
+  {
+   "value": "nova-scotia",
+   "label": "Nova Scotia",
+   "code": "NS",
+   "n": 47
+  },
+  {
+   "value": "ontario",
+   "label": "Ontario",
+   "code": "ON",
+   "n": 104
+  },
+  {
+   "value": "quebec",
+   "label": "Quebec",
+   "code": "QC",
+   "n": 6
+  },
+  {
+   "value": "saskatchewan",
+   "label": "Saskatchewan",
+   "code": "SK",
+   "n": 2
+  }
+ ],
+ "types": [
+  {
+   "value": "alcohol",
+   "label": "Alcohol",
+   "n": 186
+  },
+  {
+   "value": "drugs",
+   "label": "Drugs",
+   "n": 323
+  },
+  {
+   "value": "prescription",
+   "label": "Prescription drugs",
+   "n": 8
+  },
+  {
+   "value": "dual",
+   "label": "Dual diagnosis",
+   "n": 119
+  },
+  {
+   "value": "intervention",
+   "label": "Intervention",
+   "n": 25
+  },
+  {
+   "value": "detox",
+   "label": "Detox",
+   "n": 25
+  }
+ ],
+ "cities": [
+  {
+   "label": "Vancouver",
+   "href": "/listing-location/vancouver/",
+   "n": 12
+  },
+  {
+   "label": "Winnipeg",
+   "href": "/listing-location/winnipeg/",
+   "n": 12
+  },
+  {
+   "label": "Toronto",
+   "href": "/listing-location/toronto/",
+   "n": 11
+  },
+  {
+   "label": "Calgary",
+   "href": "/listing-location/calgary/",
+   "n": 10
+  },
+  {
+   "label": "St. John's",
+   "href": "/listing-location/st-johns/",
+   "n": 10
+  },
+  {
+   "label": "Abbotsford",
+   "href": "/listing-location/abbotsford/",
+   "n": 9
+  },
+  {
+   "label": "Fredericton",
+   "href": "/listing-location/fredericton/",
+   "n": 8
+  },
+  {
+   "label": "Halifax",
+   "href": "/listing-location/halifax/",
+   "n": 8
+  },
+  {
+   "label": "Ottawa",
+   "href": "/listing-location/ottawa/",
+   "n": 8
+  },
+  {
+   "label": "Dartmouth",
+   "href": "/listing-location/dartmouth/",
+   "n": 7
+  },
+  {
+   "label": "Sydney",
+   "href": "/listing-location/sydney/",
+   "n": 7
+  },
+  {
+   "label": "Moncton",
+   "href": "/listing-location/moncton/",
+   "n": 6
+  },
+  {
+   "label": "Thompson",
+   "href": "/listing-location/thompson/",
+   "n": 6
+  },
+  {
+   "label": "Windsor",
+   "href": "/listing-location/windsor/",
+   "n": 6
+  },
+  {
+   "label": "Edmonton",
+   "href": "/listing-location/edmonton/",
+   "n": 5
+  },
+  {
+   "label": "Maple Ridge",
+   "href": "/listing-location/maple-ridge/",
+   "n": 5
+  },
+  {
+   "label": "Victoria",
+   "href": "/listing-location/victoria/",
+   "n": 5
+  },
+  {
+   "label": "Welland",
+   "href": "/listing-location/welland/",
+   "n": 5
+  },
+  {
+   "label": "Langley",
+   "href": "/listing-location/langley/",
+   "n": 4
+  },
+  {
+   "label": "Surrey",
+   "href": "/listing-location/surrey/",
+   "n": 4
+  },
+  {
+   "label": "Barrie",
+   "href": "/listing-location/barrie/",
+   "n": 3
+  },
+  {
+   "label": "Brantford",
+   "href": "/listing-location/brantford/",
+   "n": 3
+  },
+  {
+   "label": "Burlington",
+   "href": "/listing-location/burlington/",
+   "n": 3
+  },
+  {
+   "label": "Guelph",
+   "href": "/listing-location/guelph/",
+   "n": 3
+  },
+  {
+   "label": "Kamloops",
+   "href": "/listing-location/kamloops/",
+   "n": 3
+  },
+  {
+   "label": "Kitchener",
+   "href": "/listing-location/kitchener/",
+   "n": 3
+  },
+  {
+   "label": "London",
+   "href": "/listing-location/london/",
+   "n": 3
+  },
+  {
+   "label": "Nanaimo",
+   "href": "/listing-location/nanaimo/",
+   "n": 3
+  },
+  {
+   "label": "Red Deer",
+   "href": "/listing-location/red-deer/",
+   "n": 3
+  },
+  {
+   "label": "Yarmouth",
+   "href": "/listing-location/yarmouth/",
+   "n": 3
+  }
+ ],
+ "hidden": {
+  "provinces": [
+   "Nunavut",
+   "Prince Edward Island",
+   "Yukon"
+  ],
+  "types": []
+ }
+}

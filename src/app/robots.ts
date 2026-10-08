@@ -4,5 +4,5 @@ import { DRAFT_ROUTES } from '@/lib/drafts';
 
 export default function robots(): MetadataRoute.Robots {
   // Draft design pages (see src/lib/drafts.ts) are not crawlable; every other path stays allowed.
-  return { rules: { userAgent: '*', allow: '/', disallow: DRAFT_ROUTES.map((r) => r + '/') }, sitemap: SITE + '/sitemap_index.xml' };
+  return { rules: { userAgent: '*', allow: '/', disallow: [...DRAFT_ROUTES.map((r) => r + '/'), '/search/', '/*?q=', '/*?province=', '/*?type=', '/*?s='] }, sitemap: SITE + '/sitemap_index.xml' };
 }

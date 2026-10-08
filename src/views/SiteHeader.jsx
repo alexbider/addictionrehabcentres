@@ -230,7 +230,7 @@ class Component extends DCLogic {
         c: ['#e3f1e8', '#3f9a6b', '#236a45'],
         title: 'Rehabs by Province',
         sub: 'Treatment centres in every province and territory.',
-        all: ['All rehab centres', B + 'rehab/search/'],
+        all: ['All rehab centres', B + 'search/'],
         cols: 3,
         feat: {
           icon: 'search',
@@ -958,7 +958,7 @@ function template(v) {
               </nav>
               <$A
                 className="scp1 scpy"
-                href="/rehab/search"
+                href="/search/"
                 style={{
                   flexShrink: '0',
                   font: '600 14.5px Jost,sans-serif',
@@ -984,7 +984,7 @@ function template(v) {
             <>
               <$A
                 className="scp1 scpy"
-                href="/rehab/search"
+                href="/search/"
                 style={{
                   marginLeft: 'auto',
                   font: '600 14px Jost,sans-serif',
@@ -1398,7 +1398,7 @@ function template(v) {
                         {featSearch ? (
                           <>
                             <form
-                              action="/rehab/search"
+                              action="/search/"
                               method="get"
                               style={{
                                 display: 'flex',
@@ -1413,7 +1413,8 @@ function template(v) {
                             >
                               <span style={{ display: 'flex', color: '#7a6a58' }}>{$i(iconSearch)}</span>
                               <input
-                                name="s"
+                                name="q"
+                                aria-label="Search rehab centres"
                                 placeholder={featPlaceholder}
                                 style={{
                                   flex: '1',
@@ -1574,7 +1575,7 @@ function template(v) {
                 }}
               >
                 <form
-                  action="/rehab/search"
+                  action="/search/"
                   method="get"
                   style={{
                     display: 'flex',
@@ -1590,7 +1591,8 @@ function template(v) {
                 >
                   <span style={{ display: 'flex', color: '#7a6a58' }}>{$i(iconSearch)}</span>
                   <input
-                    name="s"
+                    name="q"
+                    aria-label="Search rehab centres"
                     placeholder="Search rehabs by city or province"
                     style={{
                       flex: '1',

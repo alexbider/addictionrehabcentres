@@ -1088,7 +1088,7 @@ function template(v) {
               {sample ? (
               <>
               <span style={{ opacity: '.5' }}>/</span>
-              <$A className="scp0" href="/rehab" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/search/" style={{ color: '#6b7f95' }}>
                 Rehabs By Provinces
               </$A>
               </>
@@ -2299,7 +2299,7 @@ function template(v) {
               </div>
               {sample ? (
               <$A
-                href="/rehab"
+                href="/search/"
                 style={{ font: '600 15px Jost,sans-serif', display: 'flex', alignItems: 'center', gap: '8px' }}
               >
                 All locations{' '}

@@ -1,0 +1,32 @@
+{
+ "centres": 391,
+ "bytes": 173938,
+ "gzip": 38916,
+ "brotli": 31146,
+ "byProvince": {
+  "AB": 43,
+  "BC": 113,
+  "MB": 23,
+  "NB": 26,
+  "NL": 23,
+  "NT": 4,
+  "NS": 47,
+  "NU": 0,
+  "ON": 104,
+  "PE": 0,
+  "QC": 6,
+  "SK": 2,
+  "YT": 0
+ },
+ "byType": {
+  "alcohol": 186,
+  "drugs": 323,
+  "prescription": 8,
+  "dual": 119,
+  "intervention": 25,
+  "detox": 25
+ },
+ "noImage": 0,
+ "noCity": 1,
+ "noProvince": 0
+}

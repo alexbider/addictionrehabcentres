@@ -1577,7 +1577,7 @@ function template(v) {
               {sample ? (
               <$A
                 className="scpe"
-                href="/rehab/search"
+                href="/search/"
                 style={{
                   font: '600 15px Jost,sans-serif',
                   color: '#7cc4f5',

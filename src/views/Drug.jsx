@@ -867,7 +867,7 @@ function template(v) {
                   {sample ? (
                   <$A
                     className="scp2"
-                    href="/rehab"
+                    href="/search/"
                     style={{
                       font: '600 16px Jost,sans-serif',
                       color: '#10233a',
@@ -2354,7 +2354,7 @@ function template(v) {
                 <h2 style={{ fontSize: '32px', marginTop: '8px' }}>Drug Rehab Centres By Provinces</h2>
               </div>
               <$A
-                href="/rehab"
+                href="/search/"
                 style={{ font: '600 15px Jost,sans-serif', display: 'flex', alignItems: 'center', gap: '8px' }}
               >
                 All locations{' '}

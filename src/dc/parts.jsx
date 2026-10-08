@@ -68,3 +68,97 @@ export function LinkTiles({ kicker, heading, items = [], cols = 4, bg = '#f7fafd
     </section>
   );
 }
+
+/* ───────── Search (the /search/ page on the City view) ───────── */
+const fieldLabel = { font: '600 11px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase', color: '#6b7f95' };
+const fieldBox = { display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: '2px', minHeight: '56px', padding: '6px 14px', borderRadius: '10px', minWidth: 0 };
+const fieldInput = { appearance: 'none', border: '0', background: 'transparent', font: '500 15px Figtree,sans-serif', color: '#10233a', outline: 'none', padding: '0', width: '100%', minWidth: 0 };
+
+/** Filters, sort and removable chips: same controls as the Home search, in the Home form's card style. */
+export function SearchControls({ search }) {
+  const S = search;
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+      <form role="search" onSubmit={(e) => { e.preventDefault(); S.submit(); }} style={{ background: '#fff', border: '1px solid #dbe6f0', borderRadius: '16px', padding: '8px', display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(170px,1fr))', gap: '8px', boxShadow: '0 20px 50px -30px rgba(16,35,58,.35)' }}>
+        <label style={fieldBox}>
+          <span style={fieldLabel}>Search</span>
+          <input type="search" name="q" value={S.draft} onChange={(e) => S.setDraft(e.target.value)} placeholder="Name, city or keyword" autoComplete="off" style={fieldInput} />
+        </label>
+        <label style={{ ...fieldBox, borderLeft: '1px solid #e9eff5' }}>
+          <span style={fieldLabel}>Location</span>
+          <select name="province" value={S.province} onChange={(e) => S.set({ province: e.target.value })} style={{ ...fieldInput, cursor: 'pointer' }}>
+            <option value="">Anywhere in Canada</option>
+            {S.provinces.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
+          </select>
+        </label>
+        <label style={{ ...fieldBox, borderLeft: '1px solid #e9eff5' }}>
+          <span style={fieldLabel}>Treatment for</span>
+          <select name="type" value={S.type} onChange={(e) => S.set({ type: e.target.value })} style={{ ...fieldInput, cursor: 'pointer' }}>
+            <option value="">Any addiction</option>
+            {S.types.map((o) => <option key={o.value} value={o.value}>{o.label}</option>)}
+          </select>
+        </label>
+        <label style={{ ...fieldBox, borderLeft: '1px solid #e9eff5' }}>
+          <span style={fieldLabel}>Sort by</span>
+          <select name="sort" value={S.sort} onChange={(e) => S.set({ sort: e.target.value })} style={{ ...fieldInput, cursor: 'pointer' }}>
+            <option value="relevance">Relevance</option>
+            <option value="az">A to Z</option>
+          </select>
+        </label>
+        <button type="submit" style={{ appearance: 'none', border: '0', cursor: 'pointer', font: '600 16px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '0 22px', borderRadius: '11px', minHeight: '56px' }}>Search</button>
+      </form>
+      {S.chips.length ? (
+        <ul aria-label="Active filters" style={{ listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          {S.chips.map((c) => (
+            <li key={c.key}>
+              <button type="button" onClick={c.remove} aria-label={'Remove filter: ' + c.label} style={{ appearance: 'none', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '8px', minHeight: '44px', padding: '0 14px', borderRadius: '999px', border: '1px solid #cfe0ef', background: '#fff', color: '#10233a', font: '500 14px Figtree,sans-serif' }}>
+                {c.label}
+                <span aria-hidden="true" style={{ fontSize: '18px', lineHeight: 1, color: '#516378' }}>×</span>
+              </button>
+            </li>
+          ))}
+          <li>
+            <button type="button" onClick={S.clear} style={{ appearance: 'none', cursor: 'pointer', minHeight: '44px', padding: '0 12px', border: 0, background: 'transparent', color: '#0670b8', font: '600 14px Figtree,sans-serif', textDecoration: 'underline' }}>Clear all</button>
+          </li>
+        </ul>
+      ) : null}
+    </div>
+  );
+}
+
+/** Shown instead of the list when nothing matches (or before the results load): message, helpline, real suggestions. */
+export function SearchEmpty({ search }) {
+  const S = search;
+  return (
+    <div style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '24px', padding: '32px', display: 'flex', flexDirection: 'column', gap: '18px' }}>
+      <h3 style={{ fontSize: '26px', lineHeight: '1.2' }}>{S.emptyTitle}</h3>
+      <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '760px' }}>{S.emptyText}</p>
+      <div>
+        <$A className="scp1" href="tel:+18558854747" style={{ display: 'inline-flex', alignItems: 'center', font: '600 16px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '14px 22px', borderRadius: '12px' }}>Call 1-855-885-4747</$A>
+      </div>
+      {S.suggestCities.length ? (
+        <div>
+          <div style={fieldLabel}>Cities with centres</div>
+          <ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+            {S.suggestCities.map((c) => <li key={c.href}><$A className="scp2" href={c.href} style={{ display: 'inline-flex', alignItems: 'center', minHeight: '44px', padding: '0 14px', borderRadius: '999px', border: '1px solid #dbe6f0', background: '#fff', color: '#10233a', font: '500 14px Figtree,sans-serif' }}>{c.label}</$A></li>)}
+          </ul>
+        </div>
+      ) : null}
+      <div>
+        <div style={fieldLabel}>Provinces and territories</div>
+        <ul style={{ listStyle: 'none', margin: '10px 0 0', padding: 0, display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
+          {S.suggestProvinces.map((c) => <li key={c.label}>{c.href ? <$A className="scp2" href={c.href} style={{ display: 'inline-flex', alignItems: 'center', minHeight: '44px', padding: '0 14px', borderRadius: '999px', border: '1px solid #dbe6f0', background: '#fff', color: '#10233a', font: '500 14px Figtree,sans-serif' }}>{c.label}</$A> : <span style={{ display: 'inline-flex', alignItems: 'center', minHeight: '44px', padding: '0 14px', color: '#516378', font: '500 14px Figtree,sans-serif' }}>{c.label}</span>}</li>)}
+        </ul>
+      </div>
+    </div>
+  );
+}
+
+export function SearchMore({ search }) {
+  const S = search;
+  return (
+    <div style={{ display: 'flex', justifyContent: 'center', marginTop: '28px' }}>
+      <button type="button" onClick={S.more} style={{ appearance: 'none', cursor: 'pointer', font: '600 16px Jost,sans-serif', color: '#0670b8', background: '#fff', border: '1.5px solid #0670b8', borderRadius: '12px', padding: '0 24px', minHeight: '48px' }}>Load more ({S.remaining} more)</button>
+    </div>
+  );
+}

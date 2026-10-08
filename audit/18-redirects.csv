@@ -245,18 +245,17 @@ source,target,reason
 /promote-your-centre/,/promote/,same purpose as the Promote design page -> /promote/
 /railton-house/,/listing-location/dartmouth/,thin centre -> city archive
 /rehab/,/,source 301s /rehab/ -> / (the design buttons link to it)
-/rehab/search/,/,source has no search page here; design links to it -> home
+/rehab/search/,/search/,source 301s /rehab/search/ -> /search/; now the site search page
 /rehab/yukon-drug-rehab-treatments/,/yukon-drug-rehab-treatments/,source 301s this URL (design menus link to it)
 /roblin-hero-club/,/manitoba-rehabs/,thin centre -> province page
 /rock-counseling-services/,/listing-location/fredericton/,thin centre -> city archive
 /saskatchewan-rehabs/,/saskatchewan-drug-rehab-treatment/,approved: thin province page -> text page for the same province
 /sayulita-wellness-retreat/,/,out-of-scope centre (approved: skipped) -> home
-/search-listing/,/,"dynamic search page, no static content -> home"
+/search-listing/,/search/,old search listing archive -> site search page
 /search-listing/dr-i-s-bilash/,/manitoba-rehabs/,thin centre -> province page
 /search-listing/hope-valley/,/,out-of-scope centre (approved: skipped) -> home
 /search-listing/s-p-e-a-k/,/manitoba-rehabs/,thin centre -> province page
 /search-listing/vitalita-health-network/,/,out-of-scope centre (approved: skipped) -> home
-/search/,/,"dynamic search page, no static content -> home"
 /selkirk-interlake-mental-health-support-centre-inc/,/listing-location/lundar/,thin centre -> city archive
 /selkirk-mental-health-centre/,/manitoba-rehabs/,thin centre -> province page
 /shelburne-mental-health-centre/,/listing-location/shelburne/,thin centre -> city archive

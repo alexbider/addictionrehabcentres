@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { SearchControls, SearchEmpty, SearchMore } from '@/dc/parts';
 import { buildGuide } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -1135,6 +1136,7 @@ class Component extends DCLogic {
     const sample = !D;
     const { nodes: guideNodes, toc: guideToc } = buildGuide(R, D ? D.guide || [] : []);
     const tocOn = sample || guideToc.length >= 2;
+    const S = D && D.search ? D.search : null;
     const liveRanked = (D ? D.cards : []).map((c, i) => ({
       id: 'centre-' + (i + 1),
       anchor: '#centre-' + (i + 1),
@@ -1161,7 +1163,9 @@ class Component extends DCLogic {
       provinceHref: D ? D.provinceHref : B + 'ontario-rehabs/',
       provOn: !D || !!D.provinceHref,
       year,
-      rankCount: this.props.cityCount ?? cityRaw.length,
+      rankCount: D ? (S ? S.count : D.cards.length) : this.props.cityCount ?? cityRaw.length,
+      search: S,
+      glanceOn: !S || D.cards.length > 0,
       cityUpdated: 'Jun 2025',
       cityUpdatedLong: 'June 6, 2025',
       verifiedCount: ranked.filter((r) => r.verified).length,
@@ -1284,6 +1288,8 @@ function template(v) {
     provinceHref,
     rankCols,
     rankCount,
+    search,
+    glanceOn,
     rankStatCols,
     ranked,
     reviewTotal,
@@ -1324,7 +1330,7 @@ function template(v) {
               <span style={{ opacity: '.5' }}>/</span>
               {sample ? (
               <>
-              <$A className="scp0" href="/rehab" style={{ color: '#6b7f95' }}>
+              <$A className="scp0" href="/search/" style={{ color: '#6b7f95' }}>
                 Rehabs By Provinces
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
@@ -1388,7 +1394,7 @@ function template(v) {
 
                 </h1>
                 {heroShowSub ? (
-                <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }}>
+                <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }} role={search ? 'status' : undefined} aria-live={search ? 'polite' : undefined}>
                   {sample ? <>Addiction Rehab Centres {$i(city)}</> : $i(heroSub)}
                 </h2>
                 ) : null}
@@ -1435,6 +1441,7 @@ function template(v) {
                     {sample ? 'See the ranking' : 'See the centres'}
                   </$A>
                 </div>
+                {search ? <SearchControls search={search} /> : null}
                 {true ? (
                 <div
                   style={{
@@ -1469,7 +1476,7 @@ function template(v) {
                 </div>
                 ) : null}
               </div>
-              {true ? (
+              {glanceOn ? (
               <div
                 style={{
                   background: '#fff',
@@ -1642,6 +1649,7 @@ function template(v) {
               </>
               ) : null}
             </div>
+            {search && search.empty ? <SearchEmpty search={search} /> : null}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
               {$list(ranked).map((c, $index) => (
                 <Fragment key={$index}>
@@ -2065,6 +2073,7 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
+            {search && search.hasMore ? <SearchMore search={search} /> : null}
             {true ? (
             <div
               style={{
