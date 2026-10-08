@@ -64,7 +64,19 @@ export function legacyData(page: Page): LegacyData {
     article.push(...promote(flat, page));
   }
   if (!rows.length && page.blocks?.length) article.push(...promote(page.blocks.filter((b, i) => !(i === 0 && b.type === 'h1')), page));
-  const bg = hero?.background_image ?? null;
+  // Legal pages: the source repeats the same decorative stock photos and "Find A Drug Rehab" button between sections. They carry no meaning, so legal
+  // pages show the text only (same as the Privacy Policy page). Other pages keep each distinct image once and each identical button once.
+  const legal = page.page_type === 'legal';
+  const seenImg = new Set<string>();
+  const seenLink = new Set<string>();
+  const cleaned = article.filter((b) => {
+    if (b.type === 'image') { if (legal || seenImg.has(b.src)) return false; seenImg.add(b.src); return true; }
+    if (b.type === 'link') { const k = b.text + '|' + (b.new_href || b.href); if (seenLink.has(k) && legal) return false; seenLink.add(k); return true; }
+    return true;
+  });
+  article.length = 0;
+  article.push(...cleaned);
+  const bg = legal ? null : hero?.background_image ?? null;
   const drugs = getPublished().filter((e) => e.type === 'drug' && e.route !== page.route);
   return {
     h1: page.h1,
