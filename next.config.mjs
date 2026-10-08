@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const drafts = ['/therapists', '/therapists-province', '/therapists-city', '/therapist-profile', '/claim-therapist', '/therapist-onboarding', '/join-directory', '/auth', '/provider-dashboard', '/centre-onboarding']; // keep in sync with src/lib/drafts.ts
+const drafts = ['/therapists', '/therapists-province', '/therapists-city', '/therapist-profile', '/claim-therapist', '/therapist-onboarding', '/join-directory', '/auth', '/provider-dashboard', '/centre-onboarding', '/menu-options']; // keep in sync with src/lib/drafts.ts
 
 const approved = JSON.parse(fs.readFileSync(new URL('./src/lib/redirects.json', import.meta.url), 'utf8'));
 

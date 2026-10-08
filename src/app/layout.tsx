@@ -9,9 +9,10 @@ import '@fontsource/figtree/600.css';
 import './globals.css';
 import './dc-pseudo.css';
 import './responsive.css';
+import { SITE_URL } from '@/lib/site';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://addictionrehabcenters.ca'),
+  metadataBase: new URL(SITE_URL),
   title: 'Addiction Rehab Centres Canada',
 };
 

@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const DIR = path.join(process.cwd(), 'content');
-export const SITE = 'https://addictionrehabcenters.ca';
+import { SITE_URL } from './site';
+export const SITE = SITE_URL;
 
 export type Block =
   | { type: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'; text: string; html: string }
