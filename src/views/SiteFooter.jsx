@@ -260,7 +260,7 @@ export default function SiteFooter() {
                 }}
               >
                 <span style={{ display: 'inline-flex', alignItems: 'center', gap: '8px' }}>
-                  {$i(iconMaple)}© 2025 Addiction Rehab Centres Canada
+                  {$i(iconMaple)}© {process.env.NEXT_PUBLIC_BUILD_YEAR || new Date().getFullYear()} Addiction Rehab Centres Canada
                 </span>
                 <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
                   <$A

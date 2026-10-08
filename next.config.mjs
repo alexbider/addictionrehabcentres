@@ -7,6 +7,8 @@ const approved = JSON.parse(fs.readFileSync(new URL('./src/lib/redirects.json', 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  // The footer's copyright year is fixed at build time (no hard-coded year).
+  env: { NEXT_PUBLIC_BUILD_YEAR: String(new Date().getFullYear()) },
   // The global stylesheet is small (27 KB): inlining it removes a render-blocking request.
   experimental: { inlineCss: true },
   // The source site serves every page with a trailing slash (non-slash URLs 301 to it) — keep that behaviour.
