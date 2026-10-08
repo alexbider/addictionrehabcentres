@@ -944,6 +944,7 @@ class Component extends DCLogic {
       province: D ? D.provinceName : province,
       count: D ? liveAll.length : total,
       filteredTotal: D ? liveFiltered.length : total,
+      citiesOn: !D || !D.archive,
       cityCount: D ? liveCities.length : Object.keys(cityMap).length,
       updated: D ? D.updated : 'Mar 2026',
       updOn: !D || !!D.updated,
@@ -1034,6 +1035,7 @@ function template(v) {
     authorRole,
     cities,
     cityCount,
+    citiesOn,
     count,
     faqs,
     filters,
@@ -1745,7 +1747,7 @@ function template(v) {
             ) : null}
           </div>
         </section>
-        {true ? (
+        {citiesOn ? (
         <section data-screen-label="Cities" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px' }} data-rc-wrap="1">
             <div

@@ -29,7 +29,7 @@ const fixExcerpt = (slug, ex) => {
 const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 
 // Page types that have a view today.
-const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'blog-post', 'legal', 'centre']);
+const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
 const LIVE_SLUGS = new Set(['blog', 'home']); // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.
@@ -204,6 +204,26 @@ const batchSet = new Set(eligible.slice(0, BATCH).map((x) => x.key));
 for (const f of files) {
   let d = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
   const key = f.replace(/\.json$/, '');
+  if (d.page_type === 'city-archive' && d.cards && !d.listing) {
+    // City archive (/listing-location/<city>/): H1 + "More Rehab Centres in <city> Results" + centre cards, modelled like a province listing.
+    const byUrl = {};
+    for (const im of d.images || []) byUrl[(im.original_url || '').split('?')[0]] = im;
+    const seenHref = new Set();
+    const cards = [];
+    for (const c of d.cards) {
+      if (seenHref.has(c.href)) continue;
+      seenHref.add(c.href);
+      const im = c.image ? byUrl[(c.image.src_original || '').split('?')[0]] : null;
+      cards.push({ name: c.name, href: c.href, slug: new URL(c.href).pathname.split('/').filter(Boolean).pop(), address: c.address, excerpt: '', category: c.category, reviews: 0,
+        image: c.image && im?.local_path ? { local_path: im.local_path, alt: c.image.alt ?? '', width: c.image.width, height: c.image.height, original_url: c.image.src_original } : null });
+    }
+    const h2 = (d.blocks || []).find((b) => b.type === 'h2');
+    d.listing = { cards, source_listing_count: d.cards.length, duplicates_removed: d.cards.length - cards.length };
+    d.rows = [
+      { kind: 'listing-banner', classes: [], background_image: null, columns: [{ classes: [], blocks: [{ type: 'h1', text: d.h1, html: d.h1 }] }] },
+      { kind: 'listing', classes: [], background_image: null, columns: [{ classes: [], blocks: [...(h2 ? [{ type: 'h2', text: h2.text, html: h2.html ?? h2.text }] : []), { type: 'cards', hrefs: cards.map((c) => c.href) }] }] },
+    ];
+  }
   const thin = isThin(d);
   const hasCards = /eltdf-ll-item/.test(d.raw_html || '') && !d.listing && !JSON.stringify(d.rows || []).includes('"centre-cards"'); // card pages need the listing data
   const isCentre = d.page_type === 'centre';

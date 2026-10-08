@@ -12,6 +12,7 @@ export type ProvinceData = {
   others: { label: string; href: string | null; heading: boolean }[];
   provinceName: string;
   updated: string;
+  archive: boolean;
 };
 
 /** Province / city-archive page JSON → props for the approved Province view (src/views/Province.jsx). Source content only. */
@@ -47,5 +48,6 @@ export function provinceData(page: Page): ProvinceData {
   const cat = cards.length ? (page.listing?.cards ?? [])[0]?.category ?? '' : '';
   const mod = getIndex().find((e) => e.route === page.route)?.modified;
   const updated = mod ? new Date(mod).toLocaleString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }) : '';
-  return { provinceName: cat.replace(/ Rehabs$/, '') || page.h1.replace(/ Rehabs$/, ''), updated, h1: page.h1, h2: h2 && 'text' in h2 ? h2.text : '', intro, cards, guide, othersHeading: provinceNav.heading, others };
+  const archive = page.page_type === 'city-archive';
+  return { archive, provinceName: archive ? page.h1 : cat.replace(/ Rehabs$/, '') || page.h1.replace(/ Rehabs$/, ''), updated, h1: page.h1, h2: h2 && 'text' in h2 ? h2.text : '', intro, cards, guide, othersHeading: provinceNav.heading, others };
 }

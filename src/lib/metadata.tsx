@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import type { Page } from './content';
 import { toSite } from './site';
+import { routeExists } from './content';
 
 const metaOf = (page: Page, name: string) => page.head?.meta.find((m) => m[1] === name)?.[2];
 
@@ -30,7 +31,7 @@ export function SeoHead({ page }: { page: Page }) {
       {h.meta
         .filter(([, n]) => /^(og:|article:|twitter:)/.test(n))
         .map(([kind, n, c], i) => (kind === 'property' ? <meta key={i} property={n} content={toSite(c)} /> : <meta key={i} name={n} content={toSite(c)} />))}
-      {h.links.filter(([rel]) => rel === 'next' || rel === 'prev').map(([rel, , href], i) => (
+      {h.links.filter(([rel, , href]) => (rel === 'next' || rel === 'prev') && routeExists(new URL(href).pathname)).map(([rel, , href], i) => (
         <link key={'l' + i} rel={rel} href={toSite(href)} />
       ))}
     </>

@@ -262,3 +262,12 @@ First 100 published centres alphabetical by slug (`1000-islands-addiction-rehab`
 - **Draft pages** (client design files with no source content, not part of the launch): `/therapists`, `/therapists-province`, `/therapists-city`, `/therapist-profile`, `/claim-therapist`, `/therapist-onboarding`, `/join-directory`, `/auth`, `/provider-dashboard`, `/centre-onboarding`. They load by direct URL; each has `robots noindex, nofollow` (meta tag and `X-Robots-Tag` header), is not in `sitemap.xml` or `llms.txt`, is disallowed in `robots.txt` (`src/lib/drafts.ts` is the single list) and is linked from no live page.
 - **Removed links** (header: “Find a Therapist” menu and nav item, “Sign in”, “List Your Centre” → `/auth`; Contact: the “Find a therapist” card, the grid is 3 cards now; ClaimListing: the two “add your centre” links are plain text): all 22 header links are kept in `audit/15-header-footer-links.csv` with the note “removed: draft page”.
 - **Client question:** “Therapist, onboarding, login and dashboard designs are kept as draft pages, hidden from navigation and search, until you confirm scope.”
+
+## 25. Paginated city archives (/listing-location/<city>/page/N/)
+Calgary, Ottawa, St. John's, Toronto, Vancouver (2 pages each) and Winnipeg (3 pages) are paginated on the source with their own title/canonical/rel=prev/next. Only page 1 of each was scraped, so /page/N/ routes are not built (7 pages) and rel=next/prev links to them are omitted rather than pointing at 404s. Decision needed: scrape and build them, or accept the omission.
+
+## 26. City archives: parity DIFFs that are source chrome, not content
+- headings (59/59): source outline includes an hidden login-modal heading ("You don't have permission to register") and footer widget headings (OTHER SERVICES, SPECIAL SERVICES, TYPES OF SERVICES, We Are Available 24/7); the shared header/footer replaces them.
+- ext_links (59/59): the source's footer widget links (Facebook page, Google listing with tracking query) are not in the shared Home footer.
+- images_kept (4/59): a decorative province banner (e.g. Ontario-Rehabs.jpg) used by the source sidebar is not part of the archive design.
+- hreflang_pagination (6): rel=next on the six paginated archives, see §25.
