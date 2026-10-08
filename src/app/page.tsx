@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Root } from '@/views/Home';
 import { getPage } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
+import { homeData } from '@/lib/home';
 
 // Approved Home design; title, description, canonical, Open Graph and JSON-LD are the source home page's.
 export function generateMetadata(): Metadata {
@@ -14,7 +15,7 @@ export default function Page() {
   return (
     <>
       {page ? <JsonLd page={page} /> : null}
-      <Root />
+      <Root data={homeData()} />
     </>
   );
 }

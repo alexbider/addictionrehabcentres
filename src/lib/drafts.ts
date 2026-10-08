@@ -3,4 +3,6 @@
 export const DRAFT_ROUTES = [
   '/therapists', '/therapists-province', '/therapists-city', '/therapist-profile', '/claim-therapist',
   '/therapist-onboarding', '/join-directory', '/auth', '/provider-dashboard', '/centre-onboarding', '/menu-options',
+  // design sample routes (template pages with placeholder content, replaced by the real pages)
+  '/alcohol', '/centre', '/city', '/drug', '/province',
 ];

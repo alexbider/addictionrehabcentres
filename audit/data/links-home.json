@@ -1,0 +1,20 @@
+{
+ "pages": 1,
+ "targets": 36,
+ "bad": {
+  "/rehab/yukon-drug-rehab-treatments/": {
+   "status": 404,
+   "from": [
+    "/"
+   ],
+   "count": 1
+  },
+  "/rehab/search/": {
+   "status": 404,
+   "from": [
+    "/"
+   ],
+   "count": 1
+  }
+ }
+}

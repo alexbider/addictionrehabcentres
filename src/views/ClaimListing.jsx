@@ -880,8 +880,10 @@ function template(v) {
                       }}
                     >
                       <img
-                        src="/assets/img/home-hero.jpg"
+                        src="/assets/img/home/addiction-rehab-centers-canada.webp"
                         alt=""
+                        width="970"
+                        height="920"
                         style={$css(
                           `position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;filter:${pvFilter ?? ''};transition:filter .5s ease`,
                         )}

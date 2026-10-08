@@ -92,7 +92,7 @@ export function getPageByRoute(route: string): Page | null {
 /** Routes that exist in the app: published content pages + the few hand-built static routes. */
 import redirects from './redirects.json';
 
-const STATIC_ROUTES = new Set(['/', '/contact/', '/blog/', '/intervention/']);
+const STATIC_ROUTES = new Set(['/', '/contact/', '/blog/']);
 let routes: Set<string> | null = null;
 const routeSet = () => (routes ??= new Set([...STATIC_ROUTES, ...getPublished().map((e) => e.route), ...redirects.map((r) => r.source + '/')]));
 export function routeExists(route: string): boolean {

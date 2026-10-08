@@ -344,8 +344,10 @@ class Component extends DCLogic {
       { label: 'Yukon Rehabs', href: B + 'rehab/yukon-drug-rehab-treatments/', code: 'YT' },
     ];
 
+    // Live data (props.data): the source home page's own images and centres; ratings, review counts and badges are never shown for real data.
+    const H = this.props.data || null;
     // Up to 10 centres — populated from the backend later. Google rating/review counts are sample values.
-    const centres = [
+    const centresSample = [
       {
         name: 'Inspire Change Wellness Center',
         href: B + 'inspire-change-wellness-center/',
@@ -428,6 +430,9 @@ class Component extends DCLogic {
         photo: 'photo · centre-6.jpg',
       },
     ];
+    const centres = H
+      ? H.featured.map((c) => ({ name: c.name, href: c.href, category: '', catHref: '', address: '', excerpt: c.excerpt, rating: '', googleReviews: 0, featured: false, verified: false, photo: '', img: c.img, city: c.city, tel: c.tel, phone: c.phone }))
+      : centresSample;
     // Top 3 by Google rating — sample values until connected to the backend.
     const { topIn, topHov, adOpen, callHov } = this.state;
     const ad = !!adOpen;
@@ -443,7 +448,7 @@ class Component extends DCLogic {
         ? 'opacity .16s ease-out, transform .2s cubic-bezier(.23,1,.32,1), visibility 0s'
         : 'opacity .12s ease-out, transform .12s ease-out, visibility 0s linear .12s',
     };
-    const top = [
+    const topSample = [
       {
         name: 'Metamorphosis Centre for Change',
         city: 'Wasaga Beach, ON',
@@ -476,6 +481,7 @@ class Component extends DCLogic {
         excerpt: 'Rose City Recovery is a leading addiction treatment center in Welland, Ontario.',
       },
     ];
+    const top = H ? H.top.map((c) => ({ name: c.name, city: c.city, href: c.href, rating: '', reviews: '', tel: c.tel, phone: c.phone, excerpt: c.excerpt, img: c.img })) : topSample;
     const medals = [
       ['linear-gradient(145deg,#ffe29a,#e8a93a)', '#5a3a05'],
       ['linear-gradient(145deg,#f4f7fa,#b9c4cf)', '#2c3a48'],
@@ -486,6 +492,7 @@ class Component extends DCLogic {
         r = parseFloat(c.rating) || 0;
       return {
         ...c,
+        img: c.img,
         slot: 'home-top-rated-' + (i + 1),
         ph: 'Photo: ' + c.name,
         callLabel: i === 0 ? 'Call ' + c.name : 'Call our free helpline',
@@ -646,11 +653,12 @@ class Component extends DCLogic {
         reviews: String(c.googleReviews),
         featured: c.featured,
         verified: c.verified,
-        city,
+        city: c.city ?? city,
+        img: c.img,
         slot: 'home-featured-' + (i + 1),
         ph: 'Photo: ' + c.name,
-        tel: 'tel:+18558854747',
-        callLabel: 'Call our free helpline about ' + c.name,
+        tel: c.tel ?? 'tel:+18558854747',
+        callLabel: H ? 'Call ' + c.name : 'Call our free helpline about ' + c.name,
         enter: () => this.setState({ fcHov: i }),
         leave: () => this.setState((s) => (s.fcHov === i ? { fcHov: null } : null)),
         lift: on ? 'translateY(-6px)' : 'none',
@@ -714,7 +722,7 @@ class Component extends DCLogic {
         photo: '/assets/img/prog-dual.jpg',
         body: "The clinical term for a mental illness that occurs alongside a drug or alcohol addiction is dual diagnosis. If you're truly committed to last sobriety, you need to treat both. At Toronto Addiction Rehab Centres, we specialize in helping people chart a course out of the darkness of mental illness and addiction, and into the light of sobriety and sound mental health.",
       },
-    ].map((p, i) => ({ ...p, dir: i % 2 ? 'rtl' : 'ltr' }));
+    ].map((p, i) => ({ ...p, photo: H?.programImgs?.[i]?.src ?? p.photo, photoW: H?.programImgs?.[i]?.width, photoH: H?.programImgs?.[i]?.height, photoAlt: H?.programImgs?.[i]?.alt ?? '', dir: i % 2 ? 'rtl' : 'ltr' }));
 
     const tabData = [
       {
@@ -785,8 +793,10 @@ class Component extends DCLogic {
       '/assets/img/tr-rx.jpg',
     ];
     const atSlots = tabData.map((t, i) => ({
-      src: trImgs[i],
-      alt: t.label + ' treatment',
+      src: H?.tabImgs?.[i]?.src ?? trImgs[i],
+      w: H?.tabImgs?.[i]?.width,
+      h: H?.tabImgs?.[i]?.height,
+      alt: H?.tabImgs?.[i]?.alt || t.label + ' treatment',
       display: i === tab ? 'block' : 'none',
     }));
 
@@ -941,8 +951,17 @@ class Component extends DCLogic {
       callText: this.state.vw >= 1180 || this.state.vw < 680 ? 'Call now' : 'Call',
       viewText: this.state.vw >= 1180 || this.state.vw < 680 ? 'View centre' : 'View',
       ...adVals,
-      topCols:
-        this.state.vw >= 1000
+      homeLive: !!H,
+      inspireImg: H ? (H.featured.find((c) => c.href.includes('inspire-change')) ?? H.featured[0])?.img ?? null : null,
+      heroImg: H?.heroImg ?? null,
+      aboutImg: H?.aboutImg ?? null,
+      programImg: H?.programImg ?? null,
+      ctaImg: H?.ctaImg ?? null,
+      topCols: H
+        ? this.state.vw >= 680
+          ? 'minmax(0,460px)'
+          : 'minmax(0,1fr)'
+        : this.state.vw >= 1000
           ? 'repeat(3,minmax(0,1fr))'
           : this.state.vw >= 680
             ? 'repeat(3,minmax(0,1fr))'
@@ -1069,6 +1088,12 @@ function template(v) {
     tipY,
     topCentres,
     topCols,
+    homeLive,
+    inspireImg,
+    heroImg,
+    aboutImg,
+    programImg,
+    ctaImg,
     topHeadOp,
     topHeadTf,
     topRef,
@@ -1321,9 +1346,12 @@ function template(v) {
                 }}
               >
                 <img
-                  src="/assets/img/home-hero.jpg"
-                  alt="Residential treatment centre in the Canadian forest at golden hour"
-                  loading="lazy"
+                  src={heroImg ? heroImg.src : "/assets/img/home-hero.jpg"}
+                  alt={heroImg ? heroImg.alt : "Residential treatment centre in the Canadian forest at golden hour"}
+                  width={heroImg ? heroImg.width || undefined : undefined}
+                  height={heroImg ? heroImg.height || undefined : undefined}
+                  loading={heroImg ? "eager" : "lazy"}
+                  fetchPriority={heroImg ? "high" : undefined}
                   style={{
                     position: 'absolute',
                     inset: '0',
@@ -1334,6 +1362,7 @@ function template(v) {
                   }}
                 />
               </div>
+              {homeLive ? null : (
               <div
                 style={{
                   position: 'absolute',
@@ -1369,6 +1398,7 @@ function template(v) {
                   </div>
                 </div>
               </div>
+              )}
             </div>
           </div>
         </section>
@@ -1488,7 +1518,8 @@ function template(v) {
                 </h2>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
-                <div style={{ position: 'relative' }} onMouseEnter={adShow} onMouseLeave={adHide}>
+                {homeLive ? null : (
+<div style={{ position: 'relative' }} onMouseEnter={adShow} onMouseLeave={adHide}>
                   {' '}
                   <button
                     className="scp1d scpy"
@@ -1551,9 +1582,10 @@ function template(v) {
                     from Google reviews.
                   </div>
                 </div>
+)}
                 <$A
                   className="scp1e scpy"
-                  href="/rehab/search"
+                  href="/"
                   style={{
                     display: 'inline-flex',
                     alignItems: 'center',
@@ -1574,7 +1606,7 @@ function template(v) {
                 </$A>
               </div>
             </div>
-            <div style={$css(`display:grid;grid-template-columns:${topCols ?? ''};gap:24px`)} data-rc-dyn="1">
+            <div style={$css(`display:grid;grid-template-columns:${topCols ?? ''};gap:24px;justify-content:center`)} data-rc-dyn="1">
               {$list(topCentres).map((c, $index) => (
                 <Fragment key={$index}>
                   <div
@@ -1606,7 +1638,7 @@ function template(v) {
                             `position:absolute;inset:0;transform:${c?.zoom ?? ''};transition:transform .8s cubic-bezier(.23,1,.32,1)`,
                           )}
                         >
-                          <image-slot id={c?.slot} shape="rect" placeholder={c?.ph} />
+                          {c?.img ? (<img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />) : (<image-slot id={c?.slot} shape="rect" placeholder={c?.ph} />)}
                         </div>
                         <div
                           style={{
@@ -1652,7 +1684,8 @@ function template(v) {
                               {$i(c?.city)}
                             </span>
                           </span>
-                          <span
+                          {c?.rating ? (
+<span
                             style={{
                               display: 'inline-flex',
                               alignItems: 'center',
@@ -1693,6 +1726,7 @@ function template(v) {
                             <span style={{ color: '#F5A623', fontSize: '13px', lineHeight: '1' }}>★</span>
                             {$i(c?.rating)}{' '}
                           </span>
+) : null}
                         </span>
                       </$A>
                       <div
@@ -1704,7 +1738,8 @@ function template(v) {
                           flex: '1',
                         }}
                       >
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        {c?.rating ? (
+<div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                           <span
                             style={{
                               position: 'relative',
@@ -1727,6 +1762,7 @@ function template(v) {
                             {$i(c?.reviews)} Google reviews
                           </span>
                         </div>
+) : null}
                         <h3 style={{ font: '600 22px/1.2 Jost,sans-serif', margin: '0', textWrap: 'balance' }}>
                           <$A href={c?.href} style={$css(`color:${c?.titleColor ?? ''};transition:color .15s ease`)}>
                             {$i(c?.name)}
@@ -1833,9 +1869,11 @@ function template(v) {
                 }}
               >
                 <img
-                  src="/assets/img/home-about.jpg"
-                  alt="Counsellor and client talking in a sunlit lounge"
-                  loading="lazy"
+                  src={aboutImg ? aboutImg.src : "/assets/img/home-about.jpg"}
+                  alt={aboutImg ? aboutImg.alt : "Counsellor and client talking in a sunlit lounge"}
+                  width={aboutImg ? aboutImg.width || undefined : undefined}
+                  height={aboutImg ? aboutImg.height || undefined : undefined}
+                  loading={aboutImg ? "lazy" : "lazy"}
                   style={{
                     position: 'absolute',
                     inset: '0',
@@ -2108,7 +2146,7 @@ function template(v) {
                           `position:absolute;inset:0;transform:${c?.zoom ?? ''};transition:transform .8s cubic-bezier(.23,1,.32,1)`,
                         )}
                       >
-                        <image-slot id={c?.slot} shape="rect" placeholder={c?.ph} />
+                        {c?.img ? (<img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />) : (<image-slot id={c?.slot} shape="rect" placeholder={c?.ph} />)}
                       </div>
                       <div
                         style={{
@@ -2212,7 +2250,8 @@ function template(v) {
                             {$i(c?.city)}
                           </span>
                         </span>
-                        <span
+                        {c?.rating ? (
+<span
                           style={{
                             display: 'inline-flex',
                             alignItems: 'center',
@@ -2252,6 +2291,7 @@ function template(v) {
                           <span style={{ color: '#F5A623', fontSize: '13px', lineHeight: '1' }}>★</span>
                           {$i(c?.rating)}{' '}
                         </span>
+) : null}
                       </span>
                     </$A>
                     <div
@@ -2263,7 +2303,8 @@ function template(v) {
                         flex: '1',
                       }}
                     >
-                      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                      {c?.rating ? (
+<div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         <span
                           style={{
                             position: 'relative',
@@ -2286,6 +2327,7 @@ function template(v) {
                           {$i(c?.reviews)} Google reviews
                         </span>
                       </div>
+) : null}
                       <h3 style={{ font: '600 22px/1.2 Jost,sans-serif', margin: '0', textWrap: 'balance' }}>
                         <$A href={c?.href} style={$css(`color:${c?.titleColor ?? ''};transition:color .15s ease`)}>
                           {$i(c?.name)}
@@ -2745,7 +2787,9 @@ function template(v) {
                   >
                     <img
                       src={p?.photo}
-                      alt=""
+                      alt={p?.photoAlt || ""}
+                      width={p?.photoW || undefined}
+                      height={p?.photoH || undefined}
                       loading="lazy"
                       style={{
                         position: 'absolute',
@@ -2867,6 +2911,9 @@ function template(v) {
                   background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                 }}
               >
+                {inspireImg ? (
+                  <img src={inspireImg.src} alt={inspireImg.alt} width={inspireImg.width || undefined} height={inspireImg.height || undefined} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
+                ) : (
                 <span
                   style={{
                     position: 'absolute',
@@ -2880,6 +2927,7 @@ function template(v) {
                 >
                   photo · Inspire-Change-Wellness-Center.jpg
                 </span>
+                )}
                 <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
                   <span
                     style={{
@@ -2908,6 +2956,7 @@ function template(v) {
                     </svg>
                     Featured
                   </span>
+                  {homeLive ? null : (
                   <span
                     style={{
                       display: 'inline-flex',
@@ -2942,6 +2991,7 @@ function template(v) {
                     </svg>
                     Verified
                   </span>
+                  )}
                 </span>
               </$A>
               <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
@@ -3425,6 +3475,8 @@ function template(v) {
                       <img
                         src={p?.src}
                         alt={p?.alt}
+                        width={p?.w || undefined}
+                        height={p?.h || undefined}
                         loading="lazy"
                         style={$css(
                           `position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:${p?.display ?? ''}`,
@@ -3516,9 +3568,11 @@ function template(v) {
                 }}
               >
                 <img
-                  src="/assets/img/home-program.jpg"
-                  alt="Group therapy session in a bright room"
-                  loading="lazy"
+                  src={programImg ? programImg.src : "/assets/img/home-program.jpg"}
+                  alt={programImg ? programImg.alt : "Group therapy session in a bright room"}
+                  width={programImg ? programImg.width || undefined : undefined}
+                  height={programImg ? programImg.height || undefined : undefined}
+                  loading={programImg ? "lazy" : "lazy"}
                   style={{
                     position: 'absolute',
                     inset: '0',
@@ -3818,9 +3872,11 @@ function template(v) {
             >
               <div style={$css(`position:relative;min-height:${ctaImgH ?? ''};overflow:hidden`)}>
                 <img
-                  src="/assets/img/menu-4.jpg"
-                  alt="A mother hugging her adult son on the porch"
-                  loading="lazy"
+                  src={ctaImg ? ctaImg.src : "/assets/img/menu-4.jpg"}
+                  alt={ctaImg ? ctaImg.alt : "A mother hugging her adult son on the porch"}
+                  width={ctaImg ? ctaImg.width || undefined : undefined}
+                  height={ctaImg ? ctaImg.height || undefined : undefined}
+                  loading={ctaImg ? "lazy" : "lazy"}
                   style={{
                     position: 'absolute',
                     inset: '0',
@@ -4094,7 +4150,7 @@ function template(v) {
                   </$A>
                   <$A
                     className="scp1i scpy"
-                    href="/rehab/search"
+                    href="/"
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',

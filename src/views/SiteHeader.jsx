@@ -238,8 +238,8 @@ class Component extends DCLogic {
           title: 'Find a centre near you',
           text: 'Search by city, province or the kind of help you need.',
           search: 'City or province',
-          img: '/assets/img/menu-1.jpg',
-          ph: 'Photo: a calm, welcoming treatment centre',
+          img: '/assets/img/home/addiction-rehab-centers-canada.webp',
+          ph: 'Photo: Addiction rehab centres in Canada',
         },
         groups: [
           {
@@ -302,8 +302,8 @@ class Component extends DCLogic {
           title: 'Drug rehabilitation in Canada',
           text: 'How treatment works, what to expect and how to choose the right program.',
           cta: ['Read the guide', B + 'drug-rehabilitation-in-canada/'],
-          img: '/assets/img/menu-2.jpg',
-          ph: 'Photo: counsellor and client in conversation',
+          img: '/assets/img/home/drug-rehab.webp',
+          ph: 'Photo: Drug rehab',
         },
         groups: [
           {
@@ -365,8 +365,8 @@ class Component extends DCLogic {
           title: 'Am I an Alcoholic?',
           text: 'Answer a few honest questions about your drinking and see where you stand.',
           cta: ['Take the self-check', B + 'am-i-an-alcoholic/'],
-          img: '/assets/img/menu-3.jpg',
-          ph: 'Photo: morning light, a quiet moment of reflection',
+          img: '/assets/img/home/alcohol-rehab.webp',
+          ph: 'Photo: Alcohol rehab',
         },
         groups: [
           {
@@ -452,8 +452,8 @@ class Component extends DCLogic {
           title: 'Planning an intervention?',
           text: 'An advisor can talk you through next steps and connect you with a professional interventionist.',
           cta: ['Request a call-back', '/contact'],
-          img: '/assets/img/menu-4.jpg',
-          ph: 'Photo: family members supporting each other',
+          img: '/assets/img/home/Addiction-rehab-program.webp',
+          ph: 'Photo: Addiction rehab program',
         },
         groups: [
           {
@@ -503,8 +503,8 @@ class Component extends DCLogic {
           title: 'Recovery guides & news',
           text: 'Practical articles for people in recovery and the families supporting them.',
           cta: ['Visit the blog', '/blog'],
-          img: '/assets/img/menu-6.jpg',
-          ph: 'Photo: someone reading, cup of tea',
+          img: '/assets/img/home/Dual-Diagnosis-1.webp',
+          ph: 'Photo: Dual diagnosis',
         },
         groups: [
           {

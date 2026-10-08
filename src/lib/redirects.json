@@ -1225,6 +1225,16 @@
   "note": "source 301s /rehab/ -> / (the design buttons link to it)"
  },
  {
+  "source": "/rehab/search",
+  "destination": "/",
+  "note": "source has no search page here; design links to it -> home"
+ },
+ {
+  "source": "/rehab/yukon-drug-rehab-treatments",
+  "destination": "/yukon-drug-rehab-treatments/",
+  "note": "source 301s this URL (design menus link to it)"
+ },
+ {
   "source": "/roblin-hero-club",
   "destination": "/manitoba-rehabs/",
   "note": "thin centre -> province page"

@@ -1,0 +1,557 @@
+{
+ "/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Hero",
+    "sig": "section[div[div[div,h1,h2,form,div],div[div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Top Rated Rehabs",
+    "sig": "section[div,div,div,div,div,div[div[div,div],div[div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Intro",
+    "sig": "section[div[div[div],div[span,h2,p,h3,p,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Featured Residential Centers",
+    "sig": "section[div[div[div,div],div[article,article,article],div[button]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Locations",
+    "sig": "section[div[div[div,div,div],div[div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Programs",
+    "sig": "section[div[div[div,div],div[div,div],div[div,div],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Drug Addiction",
+    "sig": "section[div[div[span,h2,p,p,a.scp1],article[a,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Addiction Treatments",
+    "sig": "section[div[div[div,div],div[div,div],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Kind of Rehab",
+    "sig": "section[div[h2,div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Detox",
+    "sig": "section[div[div[span,h2,p],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Hope",
+    "sig": "section[div[div[div,div],div[div,div]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/contact/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Hero",
+    "sig": "section[div[nav[a.scp0,span,span]],div[div[span,h1,p,div,p],div[a.scp1a,a.scp1a,a.scp1a]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,span]"
+   },
+   {
+    "tag": "section",
+    "label": "Message form",
+    "sig": "section[div[div[div,div,div,form],aside[div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Who we help",
+    "sig": "section[div[div[span,h2,p],div[a.scp1a,a.scp1a,a.scp1a]]]"
+   },
+   {
+    "tag": "section",
+    "label": "What to expect",
+    "sig": "section[div,div[div[span,h2,p],div[div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "FAQ",
+    "sig": "section[div[div[span,h2,p],div[div,div,div,div,div]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/promote/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Hero",
+    "sig": "section[div[div[span,h1,p,div,p],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Benefits",
+    "sig": "section[div[div[span,h2],div[div.scp1q,div.scp1q,div.scp1q,div.scp1q]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Where you appear",
+    "sig": "section[div,div[div[span,h2,p,div,div],div[svg,div,div.scp1o,div.scp1o,div.scp1o,div.scp1o,div.scp1o,div.scp1o,div.scp1o]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Plans",
+    "sig": "section[div[div[span,h2,p],div[div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Placements",
+    "sig": "section[div[div[div,span],div[button.scpk,button.scpk,button.scpk,button.scpk,button.scpk,button.scpk,button.scpk],div[div,div],p]]"
+   },
+   {
+    "tag": "section",
+    "label": "Sponsored vs organic",
+    "sig": "section[div[div[span,h2,p,div],div[div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "How it works",
+    "sig": "section[div[div[span,h2],div[span,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Analytics",
+    "sig": "section[div[div[div,span],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Availability",
+    "sig": "section[div[div[span,h2,p],div[div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Testimonials",
+    "sig": "section[div[div[span,h2],div[div,div],div[span,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Trust",
+    "sig": "section[div[div[span,h2],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Founding Partner",
+    "sig": "section[div[div[div,div,ul]]]"
+   },
+   {
+    "tag": "section",
+    "label": "About the platform",
+    "sig": "section[div[div[span,h2,p],div[div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Plan comparison",
+    "sig": "section[div[div[span,h2],div[div,div,div,div,div,div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "FAQ",
+    "sig": "section[div[div[span,h2,a.scp7],div[div,div,div,div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Final CTA",
+    "sig": "section[div[div[div,div,div]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/claim-listing/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Claim hero",
+    "sig": "section[div[div[span,h1,p,div,div],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Claim flow",
+    "sig": "section[div[div[ol,div],aside[div,a.scpe.scpg]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/alcohol/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Hero",
+    "sig": "section[div[nav[a.scp0,span,span]],div[div[span,h1,p,div,div],div[div,div]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,span]"
+   },
+   {
+    "tag": "section",
+    "label": "Alcohol topics",
+    "sig": "section[div[div[div],div[a.scp3,a.scp3,a.scp3,a.scp3,a.scp3,a.scp3,a.scp3,a.scp3]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Article",
+    "sig": "section[div[aside[div,div],article[div,div,div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Call strip",
+    "sig": "section[div[span[span],a.scpa]]"
+   },
+   {
+    "tag": "section",
+    "label": "Provinces",
+    "sig": "section[div[div[span,h2],div[a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb,a.scpb]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Let us help",
+    "sig": "section[div[div[div,div,form]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/drug/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Drug Hero",
+    "sig": "section[div[nav[a.scp0,span,span,span,span],div[div,div]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,span,span,span[span.sc-interp]]"
+   },
+   {
+    "tag": "section",
+    "label": "Sponsored Centres",
+    "sig": "section[div[div[div,div],div[article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn],div[button,button]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Effects",
+    "sig": "section[div[aside[div,div,a.scpe],article[h2,p,div,p,h3,p,div,h2,div,p,p,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Let Us Help You",
+    "sig": "section[div[div[span,h2,p],form[div,div,div,div,div,div,button,button.scpc,p]]]"
+   },
+   {
+    "tag": "section",
+    "label": "FAQ",
+    "sig": "section[div[div[span,h2,p,a.scp7],div[div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Provinces",
+    "sig": "section[div[div[div,a],div[a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Other Drugs",
+    "sig": "section[div[div[span,h2],div[a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2,a.scp2]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/city/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "City Hero",
+    "sig": "section[div[nav[a.scp0,span,a.scp0,span,a.scp0,span,span],div[div,div]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,a.scp0,span,a.scp0[span.sc-interp],span,span[span.sc-interp]]"
+   },
+   {
+    "tag": "section",
+    "label": "How we ranked",
+    "sig": "section[div[div[h3,p],div[div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Ranked list",
+    "sig": "section[div[div[span,h2],div[article.scp14,article.scp14,article.scp14,article.scp14,article.scp14,article.scp14,article.scp14,article.scp14],div[div,a.scp5]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Compare",
+    "sig": "section[div[div[span,h2],div[div,a.scp16,a.scp16,a.scp16,a.scp16,a.scp16,a.scp16,a.scp16,a.scp16],p]]"
+   },
+   {
+    "tag": "section",
+    "label": "Guide",
+    "sig": "section[div[aside[div,div],article[span,h2,p,h3,p,h3,p,div,h3,p,p,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "FAQ",
+    "sig": "section[div[div[span,h2,p,a.scp7],div[div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Nearby",
+    "sig": "section[div[div[span,h3,div],div[span,h2,div]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/province/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Province Hero",
+    "sig": "section[div[nav[a.scp0,span,a.scp0,span,span],div[div,div]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,a.scp0,span,span[span.sc-interp]]"
+   },
+   {
+    "tag": "section",
+    "label": "Why trust us",
+    "sig": "section[div[div[h3,p],div[div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Listings",
+    "sig": "section[div[div[div,div],div[button,button,button,button,button,button,button,button,button,span],div[article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn],div[button.scp2],div[div,a.scp5]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Cities",
+    "sig": "section[div[div[div],div[a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph,a.scph]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Guide",
+    "sig": "section[div[aside[div,div],article[span,h2,p,h3,p,h3,p,p,div,h3,p,p,h3,p,p,h3,p,p,h3,p,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "FAQ",
+    "sig": "section[div[div[span,h2,p,a.scp7],div[div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Other Provinces",
+    "sig": "section[div[div[div,a],div[a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b,a.scp1b]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/centre/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Centre Hero",
+    "sig": "section[div[nav[a.scp0,span,a.scp0,span,a.scp0,span,span],div[div,div,div,div,div,button.scp2,span],div[div,aside],nav[a.scpt,a.scpt,a.scpt,a.scpt,a.scpt,a.scpt,a.scpt]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,a.scp0[span.sc-interp],span,a.scp0,span,span[span.sc-interp]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scpt[span.sc-interp],a.scpt[span.sc-interp],a.scpt[span.sc-interp],a.scpt[span.sc-interp],a.scpt[span.sc-interp],a.scpt[span.sc-interp],a.scpt[span.sc-interp]]"
+   },
+   {
+    "tag": "section",
+    "label": "About",
+    "sig": "section[div[article[span,h2,p,div,div,h2,p,div,p,div],aside[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Programs & Pricing",
+    "sig": "section[div[div[div,a.scp7],div[div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Team",
+    "sig": "section[div[div[span,h2,p],div[div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Reviews",
+    "sig": "section[div[div[span,div,p,div,a.scp7,p],div[article,article,a]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Location",
+    "sig": "section[div[div[span,h2,p,div,div],div[span,a.scp2]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Request a callback",
+    "sig": "section[div[div[span,h2,p],form[div,div,div,div,div,div,button,button.scpc,p]]]"
+   },
+   {
+    "tag": "section",
+    "label": "FAQ",
+    "sig": "section[div[div[span,h2,p,a.scp7],div[div,div,div,div,div,div]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Sponsored Centres",
+    "sig": "section[div[div[div,div],div[article.scpn,article.scpn,article.scpn,article.scpn,article.scpn,article.scpn],div[button,button]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ },
+ "/blog/": {
+  "sections": [
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[span,button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span],button.scpy[span.sc-interp,span[svg],span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Blog Hero",
+    "sig": "section[div[nav[a.scp0,span,span],div[div,form],div[button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj,button.scpj]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a.scp0,span,span]"
+   },
+   {
+    "tag": "section",
+    "label": "Featured Articles",
+    "sig": "section[div[article.scpk[a,div,div],div[article.scpm,article.scpm]]]"
+   },
+   {
+    "tag": "section",
+    "label": "Latest Articles",
+    "sig": "section[div[div[div,div,nav],aside[div,div]]]"
+   },
+   {
+    "tag": "nav",
+    "label": "",
+    "sig": "nav[a[span],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scpj[span.sc-interp],a.scp2[span]]"
+   },
+   {
+    "tag": "section",
+    "label": "Topic Hubs",
+    "sig": "section[div[div[div],div[a.scpq,a.scpq,a.scpq,a.scpq]]]"
+   },
+   {
+    "tag": "footer",
+    "label": "Footer",
+    "sig": "footer[div,div[div[a,p,a.scpg.scpz,div],div[h4,ul],div[h4,ul],div[h4,ul]],div[div[span,div]]]"
+   }
+  ]
+ }
+}
