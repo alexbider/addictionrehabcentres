@@ -3,6 +3,7 @@
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
+import SiteFooter from './SiteFooter';
 import { buildGuide } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -1004,6 +1005,8 @@ class Component extends DCLogic {
     ];
     // Google rating / review counts are sample values until wired to the backend.
     const ranked = cityRaw.map((r, i) => ({
+      rowOn: true,
+      viewOn: true,
       n: i + 1,
       id: 'centre-' + (i + 1),
       anchor: '#centre-' + (i + 1),
@@ -1134,6 +1137,11 @@ class Component extends DCLogic {
     const tocOn = sample || guideToc.length >= 2;
     const liveRanked = (D ? D.cards : []).map((c, i) => ({
       id: 'centre-' + (i + 1),
+      anchor: '#centre-' + (i + 1),
+      n: '•',
+      numBg: 'transparent',
+      numColor: '#0890E8',
+      cityShort: c.address,
       name: c.name,
       href: c.href,
       catHref: c.catHref,
@@ -1142,7 +1150,7 @@ class Component extends DCLogic {
       excerpt: c.excerpt,
       img: c.image,
       viewOn: !!c.href,
-      rowOn: !!c.href,
+      rowOn: true,
       featured: false,
       verified: false,
     }));
@@ -1166,12 +1174,13 @@ class Component extends DCLogic {
       nearby: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '' })) : nearby,
       otherHeading: D ? D.othersHeading || '' : '',
       otherOn: !D || (D.others || []).length > 0,
-      nearCols: D ? '1fr' : '1fr 1fr',
+      nearCols: '1fr 1fr',
+      popOn: !D || (D.popular || []).length > 0,
       sample,
       heroTitle: D ? D.h1 : '',
       heroSub: D ? D.h2 || '' : '',
       heroShowSub: !D || !!D.h2,
-      heroCols: D ? '1fr' : '1.1fr .9fr',
+      heroCols: '1.1fr .9fr',
       listHeading: D ? D.listHeading || '' : '',
       listIntro: D ? D.listIntro || [] : [],
       listHeadOn: !D || !!D.listHeading || (D.listIntro || []).length > 0,
@@ -1179,7 +1188,7 @@ class Component extends DCLogic {
       guideNodes,
       hasGuide: !D || guideNodes.length > 0,
       tocOn,
-      popularTypes,
+      popularTypes: D ? (D.popular || []).map((x) => ({ label: x.label, href: x.href })) : popularTypes,
       province,
       count: total,
       cityCount: Object.keys(cityMap).length,
@@ -1239,6 +1248,7 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    popOn,
     sample,
     provOn,
     heroTitle,
@@ -1419,10 +1429,10 @@ function template(v) {
                       borderRadius: '12px',
                     }}
                   >
-                    See the ranking
+                    {sample ? 'See the ranking' : 'See the centres'}
                   </$A>
                 </div>
-                {sample ? (
+                {true ? (
                 <div
                   style={{
                     display: 'flex',
@@ -1435,16 +1445,20 @@ function template(v) {
                 >
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(rankCount)}</div>
-                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Centres ranked</div>
+                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>{sample ? 'Centres ranked' : 'Centres listed'}</div>
                   </div>
+                  {sample ? (
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(verifiedCount)}</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Verified listings</div>
                   </div>
+                  ) : null}
+                  {sample ? (
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(reviewTotal)}</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Client reviews</div>
                   </div>
+                  ) : null}
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>24/7</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Free helpline</div>
@@ -1452,7 +1466,7 @@ function template(v) {
                 </div>
                 ) : null}
               </div>
-              {sample ? (
+              {true ? (
               <div
                 style={{
                   background: '#fff',
@@ -1512,6 +1526,7 @@ function template(v) {
                             </span>
                             <span style={{ fontSize: '12px', color: '#6b7f95' }}>{$i(r?.cityShort)}</span>
                           </span>
+                          {sample ? (
                           <span
                             style={{
                               display: 'flex',
@@ -1523,6 +1538,7 @@ function template(v) {
                             <span style={{ color: '#F5A623', fontSize: '12px' }}>★</span>
                             {$i(r?.rating)}
                           </span>
+                          ) : null}
                         </$A>
                       </li>
                     </Fragment>
@@ -1972,7 +1988,7 @@ function template(v) {
                         </span>
                         ) : null}
                         <div style={{ display: 'flex', gap: '8px' }}>
-                          {sample ? (
+                          {true ? (
                           <$A
                             className="scp15 scpy"
                             href="tel:+18558854747"
@@ -2673,7 +2689,7 @@ function template(v) {
                 ))}
               </div>
             </div>
-            {sample ? (
+            {popOn ? (
             <div>
               {' '}
               <span
@@ -2687,7 +2703,7 @@ function template(v) {
                 By need
               </span>
               <h2 style={{ fontSize: '28px', marginTop: '8px', marginBottom: '20px' }}>
-                Popular types of rehab in {$i(city)}
+                {sample ? <>Popular types of rehab in {$i(city)}</> : 'Popular types of rehab'}
               </h2>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
                 {$list(popularTypes).map((p, $index) => (
@@ -2714,157 +2730,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        <footer data-screen-label="Footer" style={{ background: '#10233a', color: '#b7c7d8' }}>
-          <div
-            style={{
-              maxWidth: '1280px',
-              margin: '0 auto',
-              padding: '72px 32px 32px',
-              display: 'grid',
-              gridTemplateColumns: '1.3fr 1fr 1fr 1fr',
-              gap: '48px',
-            }}
-            data-cols="1.3fr 1fr 1fr 1fr"
-            data-rc-gap="1"
-            data-rc-wrap="1"
-          >
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-              <$A
-                href="/"
-                style={{
-                  display: 'inline-block',
-                  background: '#fff',
-                  borderRadius: '12px',
-                  padding: '10px 14px',
-                  alignSelf: 'flex-start',
-                }}
-              >
-                <img
-                  src="/assets/logo.png"
-                  alt="Addiction Rehab Centres Canada"
-                  style={{ height: '44px', display: 'block' }}
-                />
-              </$A>
-              <h4 style={{ fontSize: '18px', color: '#fff' }}>We Are Available 24/7</h4>
-              <p style={{ fontSize: '15px' }}>
-                Call Us:{' '}
-                <$A href="tel:+1-855-885-4747" style={{ color: '#7cc4f5', fontWeight: '600' }}>
-                  +1-855-885-4747
-                </$A>
-              </p>
-              <div style={{ display: 'flex', gap: '10px' }}>
-                <$A
-                  className="scpd"
-                  href="https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
-                  aria-label="Facebook"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  f
-                </$A>
-                <$A
-                  className="scpd"
-                  href={
-                    'https://www.google.com/search?ludocid=17732523544542585825&q=Addiction%20Rehab%20Centres%20Canada'
-                  }
-                  aria-label="Google"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  G
-                </$A>
-              </div>
-            </div>
-            {$list(footerCols).map((col, $index) => (
-              <Fragment key={$index}>
-                <div>
-                  <h4
-                    style={{
-                      font: '600 12px Figtree,sans-serif',
-                      letterSpacing: '.14em',
-                      textTransform: 'uppercase',
-                      color: '#7cc4f5',
-                      marginBottom: '18px',
-                    }}
-                  >
-                    {$i(col?.title)}
-                  </h4>
-                  <ul style={{ display: 'flex', flexDirection: 'column', gap: '9px' }}>
-                    {$list(col?.links).map((l, $index) => (
-                      <Fragment key={$index}>
-                        <li>
-                          <$A
-                            className="scpe"
-                            href={l?.href}
-                            style={{ fontSize: '14.5px', color: '#b7c7d8', lineHeight: '1.4' }}
-                          >
-                            {$i(l?.label)}
-                          </$A>
-                        </li>
-                      </Fragment>
-                    ))}
-                  </ul>
-                </div>
-              </Fragment>
-            ))}
-          </div>
-          <div style={{ borderTop: '1px solid rgba(255,255,255,.1)' }}>
-            <div
-              style={{
-                maxWidth: '1280px',
-                margin: '0 auto',
-                padding: '22px 32px',
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                gap: '16px',
-                fontSize: '13.5px',
-              }}
-              data-rc-wrap="1"
-            >
-              <span>© 2025 Addiction Rehab Centres Canada</span>
-              <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
-                <$A
-                  className="scpe"
-                  href="/privacy-policy"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Privacy Policy
-                </$A>
-                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
-                  Terms of Use
-                </$A>
-                <$A
-                  className="scpe"
-                  href="/promote"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Promote Your Centre
-                </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/llms.txt" style={{ color: '#b7c7d8' }}>
-                  Hey Ai, Learn About Us
-                </$A>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </>
   );

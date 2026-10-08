@@ -13,7 +13,15 @@ export type CityData = {
   provinceHref: string | null;
   othersHeading: string;
   others: { label: string; href: string }[];
+  popular: { label: string; href: string }[];
 };
+
+// The design's "Popular types of rehab" links (design copy); only pages that exist on the site are linked.
+const POPULAR: [string, string][] = [
+  ['Detox Centres', '/detox-centres-in-canada/'], ['Residential Rehabs', '/residential-drug-rehabs-in-canada/'], ['Outpatient Rehab', '/outpatient-drug-rehab-centers/'],
+  ['Medical Detox', '/medical-detox-in-canada/'], ['12 Step Programs', '/12-steps-programs/'], ['Men Only Rehabs', '/men-only-drug-rehabs-in-canada/'],
+  ['Women Only Rehabs', '/women-only-rehab-centers-in-canada/'], ['Adolescent Rehab', '/adolescent-drug-rehab-center/'], ['Holistic Services', '/holistic-services-in-canada/'], ['Alcohol Addiction', '/addiction-by-alcohol/'],
+];
 
 /** City ranking page JSON → props for the approved City view (src/views/City.jsx). Source content only. */
 export function cityData(page: Page): CityData {
@@ -55,5 +63,6 @@ export function cityData(page: Page): CityData {
     h1: page.h1, h2: h2 && 'text' in h2 ? h2.text : '', listHeading, listIntro, cards, guide,
     provinceLabel: cat.replace(/ Rehabs$/, ''), provinceHref,
     othersHeading: provinceNav.heading, others: links.map(([label, href]) => ({ label, href })),
+    popular: POPULAR.filter(([, h]) => isPublishedRoute(h)).map(([label, href]) => ({ label, href })),
   };
 }

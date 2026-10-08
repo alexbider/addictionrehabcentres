@@ -3,6 +3,7 @@
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
+import SiteFooter from './SiteFooter';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -381,13 +382,16 @@ class Component extends DCLogic {
         (!q || (p.title + ' ' + p.excerpt + ' ' + p.category).toLowerCase().includes(q)),
     );
     if (sort === 'Popular') list = [...list].sort((a, b) => b.read - a.read);
+    if (live && sort === 'A–Z') list = [...list].sort((a, b) => a.title.localeCompare(b.title));
     const lead = posts[0],
       secondary = posts.slice(1, 3);
     const per = 12;
-    const pageCount = Math.max(1, Math.ceil(list.length / per));
+    // live: the 3 latest posts are shown as Featured, so the list starts at the 4th (all posts stay reachable, in the list and by pagination)
+    const listBase = live && !filtering && sort === 'Latest' && posts.length >= 3 ? posts.slice(3) : list;
+    const pageCount = Math.max(1, Math.ceil(listBase.length / per));
     const pgNow = Math.min(this.state.pg || 1, pageCount);
-    const listPosts = live ? list.slice((pgNow - 1) * per, pgNow * per) : filtering ? list : posts.slice(3);
-    const sorts = ['Latest', 'Popular'].map((s) => ({
+    const listPosts = live ? listBase.slice((pgNow - 1) * per, pgNow * per) : filtering ? list : posts.slice(3);
+    const sorts = (live ? ['Latest', 'A–Z'] : ['Latest', 'Popular']).map((s) => ({
       label: s,
       pick: () => this.setState({ sort: s }),
       bg: sort === s ? '#fff' : 'transparent',
@@ -435,6 +439,10 @@ class Component extends DCLogic {
         count: cats[6].count,
       },
     ];
+    // live: topics and the Topic Hubs band come from the real categories (real counts, links to the filtered list)
+    const tagIcon = ic.s(['M20 12l-8 8-9-9V3h8l9 9z', { t: 'circle', a: { cx: 7.5, cy: 7.5, r: 1.2 } }]);
+    const hubsLive = live ? this.props.cats.slice(0, 6).map((c) => ({ label: c.label, href: '/blog/?category=' + c.slug, icon: tagIcon, count: c.count })) : [];
+    const stepsLive = live ? this.props.cats.slice(0, 4).map((c) => ({ n: '', title: c.label, body: c.count + (c.count === 1 ? ' article' : ' articles'), href: '/blog/?category=' + c.slug })) : [];
     const popular = [posts[0], posts[4], posts[7], posts[2]].map((p, i) => ({
       n: String(i + 1).padStart(2, '0'),
       title: p.title,
@@ -524,9 +532,9 @@ class Component extends DCLogic {
       narrow = vw < 1100,
       tight = vw < 900;
     return {
-      mainCols: live || narrow ? 'minmax(0,1fr)' : 'minmax(0,1fr) 340px',
+      mainCols: narrow ? 'minmax(0,1fr)' : 'minmax(0,1fr) 340px',
       featCols: tight ? 'minmax(0,1fr)' : 'minmax(0,1.35fr) minmax(0,1fr)',
-      gridCols: tight ? '1fr' : live ? (narrow ? 'repeat(2,1fr)' : 'repeat(3,1fr)') : 'repeat(2,1fr)',
+      gridCols: tight ? '1fr' : 'repeat(2,1fr)',
       heroCols: tight ? '1fr' : '1fr auto',
       stepCols: tight ? 'repeat(2,1fr)' : 'repeat(4,1fr)',
       sideStyle: narrow ? 'static' : 'sticky',
@@ -549,12 +557,13 @@ class Component extends DCLogic {
       onSearchSubmit: (e) => e.preventDefault(),
       clearAll: () => this.setState({ query: '', cat: 'All' }),
       cats,
-      showFeatured: !live && !filtering && (this.props.showFeatured ?? true),
+      showFeatured: live ? !filtering && posts.length >= 3 : !filtering && (this.props.showFeatured ?? true),
       sampleHero: !live,
       heroTitle: live ? this.props.heading : '',
-      showSort: !live,
-      showSide: !live,
-      showHubs: !live,
+      sample: !live,
+      showSort: true,
+      showSide: true,
+      showHubs: live ? hubsLive.length >= 2 : true,
       showPager: live ? pageCount > 1 : !filtering,
       prevOn: live && pgNow > 1,
       nextOn: live && pgNow < pageCount,
@@ -570,9 +579,9 @@ class Component extends DCLogic {
       listTitle: filtering ? (cat !== 'All' ? cat : 'Search results') : 'Recent articles',
       sorts,
       pages,
-      hubs,
+      hubs: live ? hubsLive : hubs,
       popular,
-      steps,
+      steps: live ? stepsLive : steps,
       footerCols,
       subLabel: subscribed ? 'Subscribed ✓' : 'Subscribe',
       onSubscribe: (e) => {
@@ -586,6 +595,7 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    sample,
     cats,
     clearAll,
     emptyList,
@@ -803,7 +813,7 @@ function template(v) {
                   }}
                 >
                   <$A
-                    href="/blog/how-long-does-alcohol-detox-take"
+                    href={sample ? "/blog/how-long-does-alcohol-detox-take" : lead?.href}
                     aria-label={lead?.title}
                     style={{ overflow: 'hidden', position: 'absolute', inset: '0', background: '#1c3352' }}
                   >
@@ -839,6 +849,7 @@ function template(v) {
                     }}
                   >
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                      {sample ? (
                       <span
                         style={{
                           background: '#D82028',
@@ -851,6 +862,7 @@ function template(v) {
                       >
                         EDITOR'S PICK
                       </span>
+                      ) : null}
                       <$A
                         href="#"
                         style={{
@@ -867,7 +879,7 @@ function template(v) {
                       style={{ fontSize: '36px', lineHeight: '1.12', color: '#fff', maxWidth: '600px' }}
                       data-rc-lg="1"
                     >
-                      <$A className="scpl" href="/blog/how-long-does-alcohol-detox-take" style={{ color: '#fff' }}>
+                      <$A className="scpl" href={sample ? "/blog/how-long-does-alcohol-detox-take" : lead?.href} style={{ color: '#fff' }}>
                         {$i(lead?.title)}
                       </$A>
                     </h2>
@@ -884,6 +896,7 @@ function template(v) {
                         color: '#b7c7d8',
                       }}
                     >
+                      {sample ? (
                       <span
                         style={{
                           width: '34px',
@@ -898,11 +911,18 @@ function template(v) {
                       >
                         {$i(lead?.initials)}
                       </span>
-                      <span style={{ color: '#fff', fontWeight: '500' }}>{$i(lead?.author)}</span>
+                      ) : null}
+                      {lead?.author ? <span style={{ color: '#fff', fontWeight: '500' }}>{$i(lead?.author)}</span> : null}
+                      {sample ? (
                       <span style={{ opacity: '.5' }}>·</span>
+                      ) : null}
                       <span>{$i(lead?.date)}</span>
+                      {sample ? (
+                      <>
                       <span style={{ opacity: '.5' }}>·</span>
                       <span>{$i(lead?.read)} min read</span>
+                      </>
+                      ) : null}
                     </div>
                   </div>
                 </article>
@@ -926,7 +946,7 @@ function template(v) {
                         data-cols="150px 1fr"
                       >
                         <$A
-                          href="/blog/how-long-does-alcohol-detox-take"
+                          href={sample ? "/blog/how-long-does-alcohol-detox-take" : p?.href}
                           aria-label={p?.title}
                           style={{
                             display: 'block',
@@ -965,7 +985,7 @@ function template(v) {
                           <h3 style={{ fontSize: '20px', lineHeight: '1.25' }}>
                             <$A
                               className="scp0"
-                              href="/blog/how-long-does-alcohol-detox-take"
+                              href={sample ? "/blog/how-long-does-alcohol-detox-take" : p?.href}
                               style={{ color: '#10233a' }}
                             >
                               {$i(p?.title)}
@@ -982,8 +1002,12 @@ function template(v) {
                             }}
                           >
                             <span>{$i(p?.date)}</span>
+                            {sample ? (
+                            <>
                             <span style={{ opacity: '.5' }}>·</span>
                             <span>{$i(p?.read)} min read</span>
+                            </>
+                            ) : null}
                           </div>
                         </div>
                       </article>
@@ -1393,6 +1417,7 @@ function template(v) {
                   ))}
                 </ul>
               </div>
+              {sample ? (
               <div
                 style={{
                   background: '#fff',
@@ -1441,6 +1466,8 @@ function template(v) {
                   ))}
                 </ol>
               </div>
+              ) : null}
+              {sample ? (
               <div
                 style={{
                   background: '#f7fafd',
@@ -1504,6 +1531,7 @@ function template(v) {
                   </button>
                 </form>
               </div>
+              ) : null}
             </aside>
 ) : null}
           </div>
@@ -1529,12 +1557,13 @@ function template(v) {
                     color: '#7cc4f5',
                   }}
                 >
-                  Start here
+                  {sample ? 'Start here' : 'Topics'}
                 </span>
                 <h2 style={{ fontSize: '34px', marginTop: '10px', color: '#fff' }} data-rc-lg="1">
-                  Complete guides, in the order most people need them
+                  {sample ? 'Complete guides, in the order most people need them' : 'Browse by topic'}
                 </h2>
               </div>
+              {sample ? (
               <$A
                 className="scpe"
                 href="/rehab/search"
@@ -1559,13 +1588,14 @@ function template(v) {
                   }}
                 />
               </$A>
+              ) : null}
             </div>
             <div style={$css(`display:grid;grid-template-columns:${stepCols ?? ''};gap:16px`)} data-rc-dyn="1">
               {$list(steps).map((s, $index) => (
                 <Fragment key={$index}>
                   <$A
                     className="scpq"
-                    href="/blog/how-long-does-alcohol-detox-take"
+                    href={sample ? "/blog/how-long-does-alcohol-detox-take" : s?.href}
                     style={{
                       background: 'rgba(255,255,255,.05)',
                       border: '1px solid rgba(255,255,255,.1)',
@@ -1578,13 +1608,15 @@ function template(v) {
                       transition: 'background .18s,transform .18s',
                     }}
                   >
+                    {sample ? (
                     <span style={{ font: '600 12px Jost,sans-serif', letterSpacing: '.1em', color: '#7cc4f5' }}>
                       STEP {$i(s?.n)}
                     </span>
+                    ) : null}
                     <h3 style={{ fontSize: '20px', lineHeight: '1.25', color: '#fff' }}>{$i(s?.title)}</h3>
                     <p style={{ fontSize: '14px', lineHeight: '1.55', color: '#b7c7d8' }}>{$i(s?.body)}</p>
                     <span style={{ marginTop: 'auto', font: '600 13.5px Jost,sans-serif', color: '#7cc4f5' }}>
-                      Read the guide →
+                      {sample ? 'Read the guide →' : 'Browse articles →'}
                     </span>
                   </$A>
                 </Fragment>
@@ -1593,156 +1625,7 @@ function template(v) {
           </div>
         </section>
 ) : null}
-        <footer
-          data-screen-label="Footer"
-          style={{ background: '#10233a', color: '#b7c7d8', borderTop: '1px solid rgba(255,255,255,.08)' }}
-        >
-          <div
-            style={{
-              maxWidth: '1280px',
-              margin: '0 auto',
-              padding: '72px 32px 32px',
-              display: 'grid',
-              gridTemplateColumns: '1.3fr 1fr 1fr 1fr',
-              gap: '48px',
-            }}
-            data-cols="1.3fr 1fr 1fr 1fr"
-            data-rc-gap="1"
-            data-rc-wrap="1"
-          >
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-              <$A
-                href="/"
-                style={{
-                  display: 'inline-block',
-                  background: '#fff',
-                  borderRadius: '12px',
-                  padding: '10px 14px',
-                  alignSelf: 'flex-start',
-                }}
-              >
-                <img
-                  src="/assets/logo.png"
-                  alt="Addiction Rehab Centres Canada"
-                  style={{ height: '44px', display: 'block' }}
-                />
-              </$A>
-              <h4 style={{ fontSize: '18px', color: '#fff' }}>We Are Available 24/7</h4>
-              <p style={{ fontSize: '15px' }}>
-                Call Us:{' '}
-                <$A href="tel:+1-855-885-4747" style={{ color: '#7cc4f5', fontWeight: '600' }}>
-                  +1-855-885-4747
-                </$A>
-              </p>
-              <div style={{ display: 'flex', gap: '10px' }}>
-                <$A
-                  className="scpd"
-                  href="https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
-                  aria-label="Facebook"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  f
-                </$A>
-                <$A
-                  className="scpd"
-                  href={
-                    'https://www.google.com/search?ludocid=17732523544542585825&q=Addiction%20Rehab%20Centres%20Canada'
-                  }
-                  aria-label="Google"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  G
-                </$A>
-              </div>
-            </div>
-            {$list(footerCols).map((col, $index) => (
-              <Fragment key={$index}>
-                <div>
-                  <h4
-                    style={{
-                      font: '600 12px Figtree,sans-serif',
-                      letterSpacing: '.14em',
-                      textTransform: 'uppercase',
-                      color: '#7cc4f5',
-                      marginBottom: '18px',
-                    }}
-                  >
-                    {$i(col?.title)}
-                  </h4>
-                  <ul style={{ display: 'flex', flexDirection: 'column', gap: '9px' }}>
-                    {$list(col?.links).map((l, $index) => (
-                      <Fragment key={$index}>
-                        <li>
-                          <$A
-                            className="scpe"
-                            href={l?.href}
-                            style={{ fontSize: '14.5px', color: '#b7c7d8', lineHeight: '1.4' }}
-                          >
-                            {$i(l?.label)}
-                          </$A>
-                        </li>
-                      </Fragment>
-                    ))}
-                  </ul>
-                </div>
-              </Fragment>
-            ))}
-          </div>
-          <div style={{ borderTop: '1px solid rgba(255,255,255,.1)' }}>
-            <div
-              style={{
-                maxWidth: '1280px',
-                margin: '0 auto',
-                padding: '22px 32px',
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                gap: '16px',
-                fontSize: '13.5px',
-              }}
-              data-rc-wrap="1"
-            >
-              <span>© 2025 Addiction Rehab Centres Canada</span>
-              <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
-                <$A
-                  className="scpe"
-                  href="/privacy-policy"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Privacy Policy
-                </$A>
-                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
-                  Terms of Use
-                </$A>
-                <$A className="scpe" href="/promote" style={{ color: '#b7c7d8' }}>
-                  Promote Your Centre
-                </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/llms.txt" style={{ color: '#b7c7d8' }}>
-                  Hey Ai, Learn About Us
-                </$A>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </>
   );

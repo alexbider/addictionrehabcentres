@@ -10,6 +10,7 @@ const label = (iso: string) => { const d = new Date(iso); return isNaN(+d) ? '' 
 
 export type PostData = {
   title: string;
+  url: string;
   categories: { label: string; href: string }[];
   catHref: string;
   published: string;
@@ -48,6 +49,7 @@ export function postData(page: Page): PostData {
   const mod = page.post?.modified ?? '';
   return {
     title: page.h1,
+    url: `https://addictionrehabcenters.ca${page.route}`,
     categories: cats.map((c) => ({ label: c, href: `/blog/?category=${categorySlug(c)}` })),
     catHref,
     published: pub.slice(0, 10),

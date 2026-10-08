@@ -1,76 +1,50 @@
-# 15 — Design gap audit (built pages vs approved designs)
+# 15 — Design parity: what is built, what is hidden and why
 
-Method: each approved view (`src/views/*.jsx`, original clone `~/Downloads/arc-design-original`) was compared section by section with the page type built on it. A section is **hidden** only when the source has no data for it, or when showing it would need an invented fact (number, rating, author, reviewer, FAQ, testimonial, price, claim). Design chrome (hero treatment, CTA/helpline bands, card styling, buttons, typography, spacing) is kept as designed.
+Rule (owner, current): build every section the design has **except** a section that asserts facts the source does not give. Built = navigation, layout, buttons, CTAs, helpline, claim banner, filters/sort/tabs/anchors, card grids, category lists, Load more, and anything fillable from scraped data or counts we compute. Hidden = needs data the source lacks (ratings, review counts, prices, pricing tables, team, reviews, “How we ranked”, rank badges, comparisons, FAQs the source lacks, analytics such as “most read”, sponsored/paid placements, “verified/trusted” claims).
+Reference = the client design folder (`~/Downloads/Addiction Rehab Centers Redesign`, read-only). Page height will differ where data is missing; component, spacing and style parity is the target.
 
-Status: ✅ present as designed · ♻ present, filled with source data · 🚫 hidden (reason) · ➕ closed in this pass.
+Footer: **Home’s footer is used on every page** (one component, `src/views/SiteFooter.jsx`).
 
-## Province (`Province.jsx`, 15 pages)
-| Design section | Status |
+## What was added in this pass
+| Page type | Built now (new or restored) |
 |---|---|
-| Header, breadcrumb | ✅ (middle crumb “Rehabs By Provinces” hidden: its target `/rehab/` does not exist) |
-| Hero (H1, H2, call + browse buttons) | ♻ H1/H2/intro from source |
-| Hero stats strip, province photo, “Independently listed” badge | 🚫 numbers/photo/claim not in source |
-| “Why trust us” row | 🚫 four claims not in source |
-| Listings: eyebrow, sort, filter chips, “Showing N of M”, Load more | 🚫 no source data (all cards are listed) |
-| Centre cards (photo, name, address, excerpt, View) | ♻ |
-| Card rating chip, review count, Featured/Verified badges, Call button | 🚫 not in source (review counts hidden by decision) |
-| “Need help choosing between these centres?” helpline band | ➕ restored (design chrome; the count was removed) |
-| Cities block | 🚫 no source data |
-| Guide (TOC, article) | ♻ TOC shown when ≥2 headings |
-| Author/reviewer card | 🚫 not in source |
-| FAQ | 🚫 no source FAQ on province pages |
-| Other provinces | ♻ source “Drug Rehab Centres By Provinces” block |
+| Blog post (`BlogPost`, 2 prototype posts) | breadcrumb, category chips, real title/dates, real share row (Facebook/X/LinkedIn links + Copy link), full-width 21:9 hero image, sticky “In this article” + progress, audio player, article typography, sticky sidebar with **helpline card (1-855-885-4747)** and related reading (same category), related-articles grid and previous/next (same category) |
+| Centre | anchor menu (About / Location / FAQ, only those that exist), sticky contact card and sticky side column, claim card → `/claim-your-listing/`, **Location** block from the real address (address/phone/website/email cells, “Get directions” link, map embed built from the address), FAQ accordion, hours/tags/specialties cards |
+| City | hero with real stats (centres listed, 24/7), “At a glance” jump list of the real centres, real cards with “Call for availability” + “View centre”, helpline band, guide, “Popular types of rehab” links (only pages that exist) |
+| Blog index | Featured lead + two side cards (3 latest posts), Latest/A–Z sort, sidebar with helpline card and “Guides by topic” (real categories and counts), “Browse by topic” band (real categories, real counts, links to the filtered list), real pagination |
+| Province | stats strip (real counts + source “last updated”), directory header with real count, **city filter chips** and **A–Z sort** (cities parsed from the source addresses), **Load more** (all cards stay in the HTML, extra ones are `display:none`), cities grid with real counts that filters the list, cards with Call + View, helpline band |
 
-## City (`City.jsx`, 4 pages)
-| Design section | Status |
-|---|---|
-| Hero (H1, call + “See the ranking”) | ♻ (design H1 formula “N Best … (With Pricing)” not used; source H1) |
-| Hero stats, “At a glance” card, Ranked/Updated chips | 🚫 not in source |
-| “How we ranked” | 🚫 criteria not in source |
-| Ranked list cards (photo, category, name, address, excerpt, View centre) | ♻ |
-| Rank badges, ratings, tags, price/length/site-review cells, “Details verified”, Call for availability | 🚫 not in source |
-| “Not sure which centre is right for you?” helpline band | ➕ restored (city name removed) |
-| Compare table | 🚫 no price/length data |
-| Guide + TOC | ♻ |
-| FAQ, “Popular types” | 🚫 not in source |
-| Nearby | ♻ replaced by the source province list |
+## Hidden sections (these are the questions for the client)
+| Page type | Section hidden | Data that is missing |
+|---|---|---|
+| Blog post | “Medically reviewed” pill | no medical review stated on the source |
+| Blog post | Dek (sub-title) | source posts have no excerpt/standfirst on the page |
+| Blog post | Author / reviewer row, author card | source gives no author (JSON-LD only says “Addiction Rehab Centre”), no reviewer |
+| Blog post | Read time, “min left” | not in source |
+| Blog post | Key takeaways, timeline cards, pull quote, in-article helpline strip | editorial blocks that do not exist in the source posts |
+| Blog post | FAQ block, Tags row, Sources, Disclaimer | the 186 posts carry no FAQ/tags/sources fields (15 have FAQPage JSON-LD but no on-page FAQ block) |
+| Blog post | Featured-centre card (sidebar), dark “Featured centre” band, “Hand-picked” centres carousel | sponsored/featured placement; no source link between a post and a centre |
+| Blog post | “Own a centre?” promo | sells a paid featured placement the source does not offer |
+| Centre | Verified / Top rated badges, rating chip, review counts | ratings and verification not in source (Google review text never shown) |
+| Centre | Price card (“From $…”), Programs & Pricing, Team, Reviews | no price tables, staff or reviews in source (info items such as “$500+ / Day” are shown label-less on 12 centres) |
+| Centre | “Request a callback” form, big Claim form band | **no FORM_ENDPOINT** (no form backend); the claim *card* links to `/claim-your-listing/` instead |
+| Centre | Logo box, “Show all N photos”, About pillars/video poster/“What’s included”/week-by-week, “Facility at a glance”, “Listing reviewed by”, Sponsored centres | invented sample content or sponsored placement |
+| City | Hero chips (“Ranked list”, “Updated”), design H1 formula, hero paragraph | a ranking/date the source does not state; source H1 used |
+| City | “How we ranked”, rank badges, Featured/Verified badges, ratings, tags, pricing / program length / site-review cells, “Details verified…”, Compare table | no ranking method, ratings, prices or lengths in source |
+| City | FAQ, author/reviewer card | not in source |
+| Blog index | Intro paragraph with “N articles”, “Editor’s pick”, author initials, read time | not in source |
+| Blog index | “Popular” sort, “Most read this month” | needs analytics we do not have |
+| Blog index | Newsletter form | no FORM_ENDPOINT |
+| Blog index | “Find a rehab near you” link in the band | its target `/rehab/search/` does not exist (link cleanup rule) |
+| Province | Hero photo slot and “Independently listed” badge, hero paragraph | claim / no province photo in source |
+| Province | “Why trust …” row | four claims (independent, verified, reviewed) not stated by the source |
+| Province | Card ratings, review text, Featured/Verified badges | not in source |
+| Province | Tag filters (Residential, Detox, Men…) | the source cards carry no tags (city filter used instead) |
+| Province | Author/reviewer card, FAQ | not in source |
+| All | Any form (callback, newsletter, claim, lead) | FORM_ENDPOINT not configured |
 
-## Centre (`Centre.jsx`, 391 pages)
-| Design section | Status |
-|---|---|
-| Breadcrumb, gallery mosaic, name, category, address | ♻ |
-| Contact card (call, website, email, social) | ♻ ; “Request a callback”, “Save to wishlist”, price “From” 🚫 |
-| Verified/Top rated badges, logo box, rating chip, review counts | 🚫 not in source |
-| At-a-glance row | ♻ only the source “info items”, label-less |
-| Tab bar | 🚫 single-section pages |
-| About (long body, BlogPost article styles), tags, hours, specialties/amenities | ♻ |
-| Facility at a glance, “listing reviewed by” card | 🚫 reviewer not in source |
-| Programs & Pricing, Team, Reviews, Location/map | 🚫 not in source |
-| Request a callback form, Claim banner | 🚫 forms removed by decision / claim copy is a promise not in the source |
-| FAQ accordion | ♻ source FAQ (JSON-LD kept) |
-| Sponsored centres | 🚫 ad copy not wanted |
-
-## Blog index (`Blog.jsx`)
-| Design section | Status |
-|---|---|
-| Hero, search, category chips, post grid, pagination | ♻ |
-| Eyebrow, intro paragraph, “N articles” | 🚫 not in source |
-| Featured Articles, Latest/Popular sort, author, read time | 🚫 not in source |
-| Sidebar: helpline card, Popular list, newsletter form | 🚫 (popular = no data; form removed by decision) |
-| Topic Hubs | 🚫 invented groupings |
-
-## Blog post (`BlogPost.jsx`) — rebuilt in this pass (prototype on 2 posts, others still on the old component)
-| Design section | Status |
-|---|---|
-| Header: breadcrumb (Home / Blog / category / title), category chip, H1, dates | ➕ ♻ |
-| “Medically reviewed”, dek, author/reviewer row, read time, share buttons | 🚫 not in source (share buttons removed by decision) |
-| Hero image (21:9 with rounded bottom) | ➕ source featured image; caption 🚫 |
-| Sticky TOC “In this article” + reading progress | ➕ built from the post’s H2s; “min left” 🚫 |
-| “Listen to this article” player | ➕ kept (browser speech, no data needed) |
-| Key takeaways, timeline, pull quote, FAQ block, tags, author card, sources, disclaimer | 🚫 not in source |
-| Article body (H2/H3, lists, tables, images, links) | ➕ BlogPost article typography |
-| Sidebar: featured centre card | 🚫 no source link between post and centre |
-| Sidebar: Related reading | ➕ real posts of the same category |
-| Sidebar: “Own a centre?” promo | 🚫 promises a feature the site does not sell on the source |
-| Featured centre band, featured businesses slider | 🚫 invented selection |
-| Related articles grid + previous/next | ➕ real posts, same category only |
+## Findings to put to the client
+1. The design folder has **two footers**: the rich rounded footer on Home, CentreOnboarding, ClaimListing, ClaimTherapist, TherapistOnboarding and a flat dark footer on the other 15 pages. Per the owner’s rule the Home footer is used everywhere; please confirm.
+2. Forms (callback, claim, newsletter, lead) need a backend endpoint; until then they stay hidden.
+3. Which centre photos/ratings may be shown (Google review text and counts are excluded by decision).
+4. Single blog post: should author/reviewer, key takeaways and FAQ be supplied for the editorial posts?

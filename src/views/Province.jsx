@@ -3,11 +3,12 @@
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
+import SiteFooter from './SiteFooter';
 import { buildGuide } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, tab: 0, slide: 0, faq: 0, shown: 12, filter: 'All' };
+  state = { menu: null, tab: 0, slide: 0, faq: 0, shown: 12, filter: 'All', sort: 'Default' };
   sliderRef = React.createRef();
   perView = 3;
   slideTo(i, total) {
@@ -768,6 +769,8 @@ class Component extends DCLogic {
     ];
     // Google rating / review count are sample values until wired to the backend.
     const all = raw.map((r, i) => ({
+      rowOn: true,
+      viewOn: true,
       name: r[0],
       href: B + r[1] + '/',
       address: r[2] + ', Canada',
@@ -808,7 +811,7 @@ class Component extends DCLogic {
       featured: false,
       verified: false,
       viewOn: !!c.href,
-      rowOn: !!c.href,
+      rowOn: true,
     }));
     const listings = D ? liveCards : filtered.slice(0, shown);
     const filters = filterNames.map((f) => ({
@@ -825,6 +828,40 @@ class Component extends DCLogic {
     const cities = Object.entries(cityMap)
       .sort((x, y) => y[1] - x[1])
       .map(([name, n]) => ({ name, n, href: B + 'alberta-rehabs/#' + name.toLowerCase().replace(/\s+/g, '-') }));
+    // Live data: filters, city grid and counts come from the real cards (city parsed from each card's source address).
+    const cityOf = (addr) => {
+      const parts = String(addr || '').split(',').map((x) => x.trim());
+      for (let i = 1; i < parts.length; i++) if (/^[A-Z]{2}(\s+[A-Z]\d[A-Z]\s?\d[A-Z]\d)?$/.test(parts[i])) return parts[i - 1];
+      return '';
+    };
+    const liveAll = liveCards.map((c) => ({ ...c, city: cityOf(c.address) }));
+    const liveCityMap = {};
+    liveAll.forEach((c) => {
+      if (c.city) liveCityMap[c.city] = (liveCityMap[c.city] || 0) + 1;
+    });
+    const liveCities = Object.entries(liveCityMap)
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .map(([name, n]) => ({
+        name,
+        n,
+        href: '#listings',
+        pick: (e) => {
+          if (e && e.preventDefault) e.preventDefault();
+          this.setState({ filter: name, shown: 12 });
+          if (typeof document !== 'undefined') document.getElementById('listings')?.scrollIntoView({ behavior: 'smooth' });
+        },
+      }));
+    const liveFilterNames = ['All', ...liveCities.filter((c) => c.n >= 2).slice(0, 8).map((c) => c.name)];
+    let liveFiltered = filter === 'All' ? liveAll : liveAll.filter((c) => c.city === filter);
+    if (this.state.sort === 'A – Z') liveFiltered = [...liveFiltered].sort((a, b) => a.name.localeCompare(b.name));
+    const liveListings = liveFiltered.map((c, i) => ({ ...c, hide: i >= shown }));
+    const liveFilters = liveFilterNames.map((f) => ({
+      label: f,
+      toggle: () => this.setState({ filter: f, shown: 12 }),
+      bg: f === filter ? '#0890E8' : '#fff',
+      color: f === filter ? '#fff' : '#1f3550',
+      border: f === filter ? '#0890E8' : '#dbe6f0',
+    }));
     const trust = [
       {
         icon: ic.shield,
@@ -904,10 +941,14 @@ class Component extends DCLogic {
     const tocOn = sample || guideToc.length >= 2;
 
     return {
-      province,
-      count: total,
-      cityCount: Object.keys(cityMap).length,
-      updated: 'Mar 2026',
+      province: D ? D.provinceName : province,
+      count: D ? liveAll.length : total,
+      filteredTotal: D ? liveFiltered.length : total,
+      cityCount: D ? liveCities.length : Object.keys(cityMap).length,
+      updated: D ? D.updated : 'Mar 2026',
+      updOn: !D || !!D.updated,
+      sortVal: D ? this.state.sort : undefined,
+      sortChange: (e) => this.setState({ sort: e.target.value, shown: 12 }),
       updatedLong: 'March 28, 2026',
       authorName: this.props.authorName ?? 'Editorial Team',
       authorRole: 'Addiction Rehab Centres Canada',
@@ -916,12 +957,12 @@ class Component extends DCLogic {
       iconPhoneSm: ic.phone,
       iconShield: ic.shield,
       trust,
-      filters,
-      listings,
-      shownCount: listings.length,
-      hasMore: !D && shown < filtered.length,
+      filters: D ? liveFilters : filters,
+      listings: D ? liveListings : listings,
+      shownCount: D ? Math.min(shown, liveFiltered.length) : listings.length,
+      hasMore: D ? shown < liveFiltered.length : shown < filtered.length,
       loadMore: () => this.setState({ shown: shown + 12 }),
-      cities,
+      cities: D ? liveCities : cities,
       toc: D ? guideToc : toc,
       faqs,
       otherProvinces: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '' })) : otherProvinces,
@@ -975,6 +1016,10 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    filteredTotal,
+    updOn,
+    sortVal,
+    sortChange,
     sample,
     heroTitle,
     heroSub,
@@ -1055,7 +1100,7 @@ function template(v) {
               data-rc-gap="1"
             >
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                {sample ? (
+                {true ? (
                 <span
                   style={{
                     font: '600 12px Figtree,sans-serif',
@@ -1119,7 +1164,7 @@ function template(v) {
                     {sample ? <>Browse all {$i(count)} centres</> : 'Browse all centres'}
                   </$A>
                 </div>
-                {sample ? (
+                {true ? (
                 <div
                   style={{
                     display: 'flex',
@@ -1142,10 +1187,12 @@ function template(v) {
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>24/7</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Free helpline</div>
                   </div>
+                  {updOn ? (
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(updated)}</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Last updated</div>
                   </div>
+                  ) : null}
                 </div>
                 ) : null}
               </div>
@@ -1279,7 +1326,7 @@ function template(v) {
         ) : null}
         <section id="listings" data-screen-label="Listings" style={{ background: '#f7fafd' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px 72px' }} data-rc-wrap="1">
-            {sample ? (
+            {true ? (
             <div
               style={{
                 display: 'flex',
@@ -1308,6 +1355,8 @@ function template(v) {
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px', fontSize: '14px', color: '#6b7f95' }}>
                 Sort by{' '}
                 <select
+                  value={sortVal}
+                  onChange={sortChange}
                   style={{
                     appearance: 'none',
                     border: '1px solid #dbe6f0',
@@ -1320,15 +1369,24 @@ function template(v) {
                     cursor: 'pointer',
                   }}
                 >
+                  {sample ? (
+                  <>
                   <option>Relevance</option>
                   <option>Most reviewed</option>
                   <option>Featured first</option>
                   <option>A – Z</option>
+                  </>
+                  ) : (
+                  <>
+                  <option>Default</option>
+                  <option>A – Z</option>
+                  </>
+                  )}
                 </select>
               </div>
             </div>
             ) : null}
-            {sample ? (
+            {true ? (
             <div
               style={{
                 display: 'flex',
@@ -1362,7 +1420,7 @@ function template(v) {
                   paddingRight: '6px',
                 }}
               >
-                Showing {$i(shownCount)} of {$i(count)}
+                Showing {$i(shownCount)} of {$i(filteredTotal)}
               </span>
             </div>
             ) : null}
@@ -1379,7 +1437,7 @@ function template(v) {
                       border: '1px solid #e3ecf4',
                       borderRadius: '22px',
                       overflow: 'hidden',
-                      display: 'flex',
+                      display: c?.hide ? 'none' : 'flex',
                       flexDirection: 'column',
                       transition: 'transform .2s,box-shadow .2s',
                     }}
@@ -1582,7 +1640,7 @@ function template(v) {
                         </span>
                         ) : null}
                         <div style={{ display: 'flex', gap: '6px' }}>
-                          {sample ? (
+                          {true ? (
                           <$A
                             className="scp7"
                             href="tel:+18558854747"
@@ -1687,7 +1745,7 @@ function template(v) {
             ) : null}
           </div>
         </section>
-        {sample ? (
+        {true ? (
         <section data-screen-label="Cities" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px' }} data-rc-wrap="1">
             <div
@@ -1722,6 +1780,7 @@ function template(v) {
                   <$A
                     className="scph"
                     href={ct?.href}
+                    onClick={ct?.pick}
                     style={{
                       display: 'flex',
                       justifyContent: 'space-between',
@@ -2298,157 +2357,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        <footer data-screen-label="Footer" style={{ background: '#10233a', color: '#b7c7d8' }}>
-          <div
-            style={{
-              maxWidth: '1280px',
-              margin: '0 auto',
-              padding: '72px 32px 32px',
-              display: 'grid',
-              gridTemplateColumns: '1.3fr 1fr 1fr 1fr',
-              gap: '48px',
-            }}
-            data-cols="1.3fr 1fr 1fr 1fr"
-            data-rc-gap="1"
-            data-rc-wrap="1"
-          >
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-              <$A
-                href="/"
-                style={{
-                  display: 'inline-block',
-                  background: '#fff',
-                  borderRadius: '12px',
-                  padding: '10px 14px',
-                  alignSelf: 'flex-start',
-                }}
-              >
-                <img
-                  src="/assets/logo.png"
-                  alt="Addiction Rehab Centres Canada"
-                  style={{ height: '44px', display: 'block' }}
-                />
-              </$A>
-              <h4 style={{ fontSize: '18px', color: '#fff' }}>We Are Available 24/7</h4>
-              <p style={{ fontSize: '15px' }}>
-                Call Us:{' '}
-                <$A href="tel:+1-855-885-4747" style={{ color: '#7cc4f5', fontWeight: '600' }}>
-                  +1-855-885-4747
-                </$A>
-              </p>
-              <div style={{ display: 'flex', gap: '10px' }}>
-                <$A
-                  className="scpd"
-                  href="https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
-                  aria-label="Facebook"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  f
-                </$A>
-                <$A
-                  className="scpd"
-                  href={
-                    'https://www.google.com/search?ludocid=17732523544542585825&q=Addiction%20Rehab%20Centres%20Canada'
-                  }
-                  aria-label="Google"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  G
-                </$A>
-              </div>
-            </div>
-            {$list(footerCols).map((col, $index) => (
-              <Fragment key={$index}>
-                <div>
-                  <h4
-                    style={{
-                      font: '600 12px Figtree,sans-serif',
-                      letterSpacing: '.14em',
-                      textTransform: 'uppercase',
-                      color: '#7cc4f5',
-                      marginBottom: '18px',
-                    }}
-                  >
-                    {$i(col?.title)}
-                  </h4>
-                  <ul style={{ display: 'flex', flexDirection: 'column', gap: '9px' }}>
-                    {$list(col?.links).map((l, $index) => (
-                      <Fragment key={$index}>
-                        <li>
-                          <$A
-                            className="scpe"
-                            href={l?.href}
-                            style={{ fontSize: '14.5px', color: '#b7c7d8', lineHeight: '1.4' }}
-                          >
-                            {$i(l?.label)}
-                          </$A>
-                        </li>
-                      </Fragment>
-                    ))}
-                  </ul>
-                </div>
-              </Fragment>
-            ))}
-          </div>
-          <div style={{ borderTop: '1px solid rgba(255,255,255,.1)' }}>
-            <div
-              style={{
-                maxWidth: '1280px',
-                margin: '0 auto',
-                padding: '22px 32px',
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                gap: '16px',
-                fontSize: '13.5px',
-              }}
-              data-rc-wrap="1"
-            >
-              <span>© 2025 Addiction Rehab Centres Canada</span>
-              <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
-                <$A
-                  className="scpe"
-                  href="/privacy-policy"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Privacy Policy
-                </$A>
-                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
-                  Terms of Use
-                </$A>
-                <$A
-                  className="scpe"
-                  href="/promote"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Promote Your Centre
-                </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/llms.txt" style={{ color: '#b7c7d8' }}>
-                  Hey Ai, Learn About Us
-                </$A>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </>
   );

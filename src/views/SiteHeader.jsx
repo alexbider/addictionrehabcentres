@@ -597,24 +597,6 @@ class Component extends DCLogic {
         ],
       },
     });
-    // When the host passes `routes` (published pages), links to anything else are hidden; menus left with no links disappear.
-    const routeSet = this.props.routes ? new Set(this.props.routes) : null;
-    const okH = (h) => {
-      if (!routeSet || !h || /^(https?:|tel:|mailto:|#)/.test(h)) return true;
-      const q = h.split('#')[0].split('?')[0];
-      return routeSet.has(q.endsWith('/') ? q : q + '/');
-    };
-    if (routeSet) {
-      for (const k of Object.keys(menus)) {
-        const M = menus[k];
-        M.groups = M.groups.map((g) => ({ ...g, items: g.items.filter((it) => okH(it.href)) })).filter((g) => g.items.length);
-        if (!M.groups.length) {
-          delete menus[k];
-          continue;
-        }
-        if (M.feat.cta && !okH(M.feat.cta[1])) M.feat = { ...M.feat, cta: null };
-      }
-    }
     const keys = Object.keys(menus);
     const mapItem = (it, key, C) => {
       const on = hov === key,
@@ -653,7 +635,7 @@ class Component extends DCLogic {
 
     const desktop = w >= 1100,
       open = desktop && !!menu;
-    const m = menus[shown] || menus[keys[0]],
+    const m = menus[shown] || menus.provinces,
       f = m.feat,
       C = m.c;
     const indKey = menu || hovNav,
@@ -711,7 +693,6 @@ class Component extends DCLogic {
         groups: mapGroups(M, 'm' + k),
         allLabel: M.all[0],
         allHref: M.all[1],
-        allShow: okH(M.all[1]),
         toggle: () => this.setState({ mobSec: o ? null : k }),
         chev: o ? 'rotate(180deg)' : 'none',
         tint: M.c[0],
@@ -727,10 +708,6 @@ class Component extends DCLogic {
 
     return {
       claimHref: this.props.active === 'therapists' ? '/claim-therapist' : '/claim-listing',
-      showClaim: okH(this.props.active === 'therapists' ? '/claim-therapist' : '/claim-listing'),
-      showSignIn: okH('/auth'),
-      showFind: okH('/rehab/search'),
-      menuAllShow: okH(m.all[1]),
       rootRef: this.rootRef,
       navRef: this.navRef,
       contentRef: this.contentRef,
@@ -792,7 +769,7 @@ class Component extends DCLogic {
       featEyebrow: f.eyebrow,
       featTitle: f.title,
       featText: f.text,
-      featSearch: !!f.search && okH('/rehab/search'),
+      featSearch: !!f.search,
       featPlaceholder: f.search || '',
       featCta: !!f.cta,
       featCtaLabel: f.cta ? f.cta[0] : '',
@@ -824,10 +801,6 @@ function template(v) {
     burgerIcon,
     caretX,
     claimHref,
-    showClaim,
-    showSignIn,
-    showFind,
-    menuAllShow,
     contentRef,
     desktop,
     enterRoot,
@@ -933,16 +906,12 @@ function template(v) {
             <div style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
               {showTopLinks ? (
                 <>
-                  {showClaim ? (
-                    <$A className="scpe" href={claimHref} style={{ color: '#e3f1fc', whiteSpace: 'nowrap' }}>
-                      Claim Your Listing
-                    </$A>
-                  ) : null}
-                  {showSignIn ? (
-                    <$A className="scpe" href="/auth?mode=login" style={{ color: '#e3f1fc', whiteSpace: 'nowrap' }}>
-                      Sign in
-                    </$A>
-                  ) : null}
+                  <$A className="scpe" href={claimHref} style={{ color: '#e3f1fc', whiteSpace: 'nowrap' }}>
+                    Claim Your Listing
+                  </$A>
+                  <$A className="scpe" href="/auth?mode=login" style={{ color: '#e3f1fc', whiteSpace: 'nowrap' }}>
+                    Sign in
+                  </$A>
                 </>
               ) : null}
               <$A
@@ -1048,8 +1017,7 @@ function template(v) {
                   </Fragment>
                 ))}
               </nav>
-              {showFind ? (
-<$A
+              <$A
                 className="scp1 scpy"
                 href="/rehab/search"
                 style={{
@@ -1071,13 +1039,11 @@ function template(v) {
                 {$i(iconSearchDuo)}
                 Find a Rehab
               </$A>
-) : null}
             </>
           ) : null}
           {mobile ? (
             <>
-              {showFind ? (
-<$A
+              <$A
                 className="scp1 scpy"
                 href="/rehab/search"
                 style={{
@@ -1097,8 +1063,6 @@ function template(v) {
                 {$i(iconSearchDuo)}
                 Find a Rehab
               </$A>
-) : null}
-              {!showFind ? <span style={{ flex: '1' }} /> : null}
               <button
                 className="scp10"
                 onClick={toggleMob}
@@ -1176,8 +1140,7 @@ function template(v) {
                         </p>
                       </div>
                     </div>
-                    {menuAllShow ? (
-<$A
+                    <$A
                       className="scp20 scpy"
                       href={menuAllHref}
                       style={$css(
@@ -1187,7 +1150,6 @@ function template(v) {
                       {$i(menuAllLabel)}
                       {$i(iconArrowSm)}
                     </$A>
-) : null}
                   </div>
                   <div
                     style={$css(`display:grid;grid-template-columns:${bodyCols ?? ''};gap:22px;align-items:stretch`)}
@@ -1672,7 +1634,6 @@ function template(v) {
                   gap: '6px',
                 }}
               >
-                {showFind ? (
                 <form
                   action="/rehab/search"
                   method="get"
@@ -1704,7 +1665,6 @@ function template(v) {
                     }}
                   />
                 </form>
-                ) : null}
                 {$list(mobSections).map((s, $index) => (
                   <Fragment key={$index}>
                     <div
@@ -1789,8 +1749,7 @@ function template(v) {
                                 </div>
                               </Fragment>
                             ))}
-                            {s?.allShow ? (
-<$A
+                            <$A
                               href={s?.allHref}
                               style={$css(
                                 `display:inline-flex;align-items:center;gap:8px;font:600 14px Jost,sans-serif;color:${s?.deep ?? ''}`,
@@ -1799,7 +1758,6 @@ function template(v) {
                               {$i(s?.allLabel)}
                               {$i(iconArrowSm)}
                             </$A>
-) : null}
                           </div>
                         </>
                       ) : null}

@@ -1,5 +1,5 @@
 import type { Block, Card, Page } from '@/lib/content';
-import { isPublishedRoute, routeExists } from '@/lib/content';
+import { getIndex, isPublishedRoute, routeExists } from '@/lib/content';
 import { provinceNav } from '@/lib/provinces';
 
 export type ProvinceData = {
@@ -10,6 +10,8 @@ export type ProvinceData = {
   guide: Block[];
   othersHeading: string;
   others: { label: string; href: string }[];
+  provinceName: string;
+  updated: string;
 };
 
 /** Province / city-archive page JSON → props for the approved Province view (src/views/Province.jsx). Source content only. */
@@ -42,5 +44,8 @@ export function provinceData(page: Page): ProvinceData {
   const intro = introOnly ? before.map((b) => (b as { html: string }).html) : [];
   if (!introOnly) guide.unshift(...before);
   const links = provinceNav.links.filter(([, h]) => routeExists(h) && h !== page.route);
-  return { h1: page.h1, h2: h2 && 'text' in h2 ? h2.text : '', intro, cards, guide, othersHeading: provinceNav.heading, others: links.map(([label, href]) => ({ label, href })) };
+  const cat = cards.length ? (page.listing?.cards ?? [])[0]?.category ?? '' : '';
+  const mod = getIndex().find((e) => e.route === page.route)?.modified;
+  const updated = mod ? new Date(mod).toLocaleString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' }) : '';
+  return { provinceName: cat.replace(/ Rehabs$/, '') || page.h1.replace(/ Rehabs$/, ''), updated, h1: page.h1, h2: h2 && 'text' in h2 ? h2.text : '', intro, cards, guide, othersHeading: provinceNav.heading, others: links.map(([label, href]) => ({ label, href })) };
 }

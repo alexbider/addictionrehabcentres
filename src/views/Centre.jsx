@@ -3,10 +3,24 @@
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
+import SiteFooter from './SiteFooter';
 import { buildBody } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
+  componentDidMount() {
+    const set = () => {
+      const h = document.querySelector('[data-sc-name="SiteHeader"]');
+      if (h) document.documentElement.style.setProperty('--hdr', Math.round(h.getBoundingClientRect().height) + 'px');
+    };
+    set();
+    window.addEventListener('resize', set);
+    this._hdr = set;
+    setTimeout(set, 300);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this._hdr);
+  }
   state = { menu: null, tab: 0, slide: 0, faq: 0, who: 'Yourself', funding: 'Self-pay', ack: false, priceTab: 0 };
   sliderRef = React.createRef();
   perView = 3;
@@ -925,6 +939,8 @@ class Component extends DCLogic {
       bodyNodes = [],
       specAside = null,
       contactExtra = null,
+      locNode = null,
+      liveTabs = [],
       liveFaqs = [];
     if (D) {
       const g = D.gallery || [];
@@ -937,7 +953,7 @@ class Component extends DCLogic {
         galleryNode = R('div', { style: { display: 'block' } },
           R('div', { style: { display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n === 1 || n === 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map((x, i) => R('div', { key: i, style: { minHeight: 0, ...place(i) } }, img(x)))));
       }
-      const { nodes } = buildBody(R, D.body || []);
+      const { nodes } = buildBody(R, D.body || [], { columns: true });
       bodyNodes = nodes.slice();
       if (g.length > 5)
         bodyNodes.push(R('div', { key: 'more', style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(220px,100%),1fr))', gap: '10px' }, 'data-cols': 'repeat(auto-fill,minmax(170px,1fr))' }, ...g.slice(5).map((x, i) => R('div', { key: i, style: { aspectRatio: '4/3' } }, img(x)))));
@@ -950,7 +966,7 @@ class Component extends DCLogic {
         cards.push(card('hours', D.hours.heading ? label(D.hours.heading) : null,
           ...D.hours.rows.map((r, i) => R('div', { key: i, style: { display: 'flex', justifyContent: 'space-between', gap: '16px', fontSize: '14.5px', padding: '8px 0', borderTop: i ? '1px solid #edf2f7' : '0' } }, R('span', { style: { color: '#516378' } }, r[0]), R('span', { style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', textAlign: 'right' } }, r[1])))));
       if (D.tags && D.tags.items.length) cards.push(card('tags', D.tags.heading ? label(D.tags.heading) : null, chips(D.tags.items)));
-      if (cards.length) specAside = R('aside', { style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } }, ...cards);
+      if (cards.length) specAside = R('aside', { className: 'ctr-side', style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } }, ...cards);
       const pillStyle = { font: '500 13.5px Figtree,sans-serif', color: '#516378', border: '1px solid #e3ecf4', padding: '8px 12px', borderRadius: '10px', textAlign: 'center' };
       const soc = { facebook: 'Facebook', twitter: 'Twitter', instagram: 'Instagram', youtube: 'YouTube', pinterest: 'Pinterest', linkedin: 'LinkedIn' };
       const socials = Object.entries(D.social || {}).filter(([, u]) => u);
@@ -958,9 +974,34 @@ class Component extends DCLogic {
         contactExtra = R('div', { style: { borderTop: '1px solid #edf2f7', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' } },
           D.email ? R('a', { className: 'scp0', href: 'mailto:' + D.email, style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', overflowWrap: 'anywhere' } }, D.email) : null,
           socials.length ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: '_blank', rel: 'noopener nofollow', style: pillStyle }, soc[k] || k))) : null);
+      // anchor menu (tab bar) for the sections that exist, and the Location block built from the real address
+      const tabsList = [];
+      if (D.body && D.body.length) tabsList.push({ label: 'About', href: '#about' });
+      if (D.address) tabsList.push({ label: 'Location', href: '#location' });
+      if (D.faqs && D.faqs.length) tabsList.push({ label: 'FAQ', href: '#faq' });
+      liveTabs = tabsList;
+      if (D.address) {
+        const q = encodeURIComponent(D.address);
+        const cell = (k, v, href) => R('div', { key: k, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '14px', padding: '14px 16px', minWidth: 0 } },
+          R('div', { style: { font: '600 11px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase', color: '#6b7f95' } }, k),
+          href ? R('a', { className: 'scp0', href, style: { display: 'block', font: '600 14.5px Jost,sans-serif', marginTop: '4px', color: '#10233a', overflowWrap: 'anywhere' } }, v) : R('div', { style: { font: '600 14.5px Jost,sans-serif', marginTop: '4px', lineHeight: 1.4, overflowWrap: 'anywhere' } }, v));
+        const cells = [cell('Address', D.address)];
+        if (D.phoneText) cells.push(cell('Phone', D.phoneText, D.phoneHref));
+        if (D.website) cells.push(cell('Website', D.website.replace(/^https?:\/\//, '').replace(/\/$/, ''), D.website));
+        if (D.email) cells.push(cell('Email', D.email, 'mailto:' + D.email));
+        locNode = R('section', { id: 'location', 'data-screen-label': 'Location', style: { background: '#f7fafd', borderTop: '1px solid #e9eff5' } },
+          R('div', { style: { maxWidth: '1280px', margin: '0 auto', padding: '72px 32px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'start' }, 'data-cols': '1fr 1fr', 'data-rc-gap': '1', 'data-rc-wrap': '1' },
+            R('div', { style: { display: 'flex', flexDirection: 'column', gap: '16px', minWidth: 0 } },
+              R('span', { style: { font: '600 12px Figtree,sans-serif', letterSpacing: '.14em', textTransform: 'uppercase', color: '#0890E8' } }, 'Location'),
+              R('h2', { style: { fontSize: '34px', lineHeight: '1.12' }, 'data-rc-lg': '1' }, 'Address and contact'),
+              R('div', { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }, 'data-cols': '1fr 1fr' }, ...cells),
+              R('a', { className: 'scp1', href: 'https://www.google.com/maps/dir/?api=1&destination=' + q, target: '_blank', rel: 'noopener', style: { alignSelf: 'flex-start', font: '600 15px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '12px 20px', borderRadius: '12px' } }, 'Get directions')),
+            R('div', { style: { borderRadius: '22px', overflow: 'hidden', border: '1px solid #e3ecf4', background: '#eaf2f8', aspectRatio: '4/3', minHeight: '260px' } },
+              R('iframe', { src: 'https://www.google.com/maps?q=' + q + '&output=embed', title: 'Map: ' + D.address, loading: 'lazy', referrerPolicy: 'no-referrer-when-downgrade', style: { width: '100%', height: '100%', border: 0, display: 'block' } }))));
+      }
       liveFaqs = (D.faqs || []).map((q, i) => ({
         question: q.question,
-        answer: R('div', { style: { display: 'flex', flexDirection: 'column', gap: '12px' } }, ...buildBody(R, q.answerBlocks).nodes),
+        answer: R('div', { style: { display: 'flex', flexDirection: 'column', gap: '12px' } }, ...buildBody(R, q.answerBlocks, { columns: true }).nodes),
         open: i === faq,
         toggle: () => this.setState({ faq: faq === i ? -1 : i }),
         border: i === faq ? '#0890E8' : '#e3ecf4',
@@ -982,12 +1023,14 @@ class Component extends DCLogic {
       phoneOn: !D || !!D.phoneHref,
       siteHref: D ? D.website : '#',
       siteOn: !D || !!D.website,
-      asideOn: !D || !!D.phoneHref || !!D.website || !!D.email || Object.keys(D.social || {}).length > 0,
+      asideOn: true,
+      tabsOn: !D || liveTabs.length >= 2,
+      locNode,
       aboutOn: !D || (D.body || []).length > 0 || (D.specs || []).some((x) => x.items && x.items.length) || !!(D.hours && D.hours.rows.length) || !!(D.tags && D.tags.items.length),
       galleryNode,
       bodyNodes,
       specAside,
-      unclaimed: D ? false : !claimed,
+      unclaimed: D ? true : !claimed,
       centreProvince,
       photoCount: 21,
       siteReviews: 2,
@@ -1037,7 +1080,7 @@ class Component extends DCLogic {
       serviceCount: services.length,
       programSteps,
       facility,
-      sectionTabs,
+      sectionTabs: D ? liveTabs : sectionTabs,
       priceTabs,
       priceCols: active.cols,
       priceHead: active.head,
@@ -1119,6 +1162,8 @@ class Component extends DCLogic {
 function template(v) {
   const {
     sample,
+    tabsOn,
+    locNode,
     glanceOn,
     contactExtra,
     faqOn,
@@ -1648,7 +1693,7 @@ function template(v) {
               <aside
                 style={{
                   position: 'sticky',
-                  top: '130px',
+                  top: 'calc(var(--hdr,115px) + 24px)',
                   background: '#fff',
                   border: '1px solid #e3ecf4',
                   borderRadius: '22px',
@@ -1794,7 +1839,7 @@ function template(v) {
                       </p>
                       <$A
                         className="scpa"
-                        href="/claim-listing"
+                        href={sample ? '/claim-listing' : '/claim-your-listing/'}
                         style={{
                           font: '600 14px Jost,sans-serif',
                           color: '#0890E8',
@@ -1821,7 +1866,7 @@ function template(v) {
               </aside>
               ) : null}
             </div>
-            {sample ? (
+            {tabsOn ? (
             <nav
               style={{
                 display: 'flex',
@@ -3288,7 +3333,7 @@ function template(v) {
             </form>
           </div>
         </section>
-        {unclaimed ? (
+        {sample && unclaimed ? (
           <>
             <section id="claim" data-screen-label="Claim this listing" style={{ background: '#10233a', color: '#fff' }}>
               <div
@@ -3395,6 +3440,7 @@ function template(v) {
         ) : null}
         </>
         ) : null}
+        {sample ? null : locNode}
         {faqOn ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
@@ -3850,157 +3896,7 @@ function template(v) {
         </section>
         </>
         ) : null}
-        <footer data-screen-label="Footer" style={{ background: '#10233a', color: '#b7c7d8' }}>
-          <div
-            style={{
-              maxWidth: '1280px',
-              margin: '0 auto',
-              padding: '72px 32px 32px',
-              display: 'grid',
-              gridTemplateColumns: '1.3fr 1fr 1fr 1fr',
-              gap: '48px',
-            }}
-            data-cols="1.3fr 1fr 1fr 1fr"
-            data-rc-gap="1"
-            data-rc-wrap="1"
-          >
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '18px' }}>
-              <$A
-                href="/"
-                style={{
-                  display: 'inline-block',
-                  background: '#fff',
-                  borderRadius: '12px',
-                  padding: '10px 14px',
-                  alignSelf: 'flex-start',
-                }}
-              >
-                <img
-                  src="/assets/logo.png"
-                  alt="Addiction Rehab Centres Canada"
-                  style={{ height: '44px', display: 'block' }}
-                />
-              </$A>
-              <h4 style={{ fontSize: '18px', color: '#fff' }}>We Are Available 24/7</h4>
-              <p style={{ fontSize: '15px' }}>
-                Call Us:{' '}
-                <$A href="tel:+1-855-885-4747" style={{ color: '#7cc4f5', fontWeight: '600' }}>
-                  +1-855-885-4747
-                </$A>
-              </p>
-              <div style={{ display: 'flex', gap: '10px' }}>
-                <$A
-                  className="scpd"
-                  href="https://www.facebook.com/Addiction-Rehab-Centres-Canada-772760289732512/"
-                  aria-label="Facebook"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  f
-                </$A>
-                <$A
-                  className="scpd"
-                  href={
-                    'https://www.google.com/search?ludocid=17732523544542585825&q=Addiction%20Rehab%20Centres%20Canada'
-                  }
-                  aria-label="Google"
-                  style={{
-                    width: '40px',
-                    height: '40px',
-                    borderRadius: '10px',
-                    border: '1px solid rgba(255,255,255,.14)',
-                    display: 'grid',
-                    placeItems: 'center',
-                    color: '#fff',
-                    font: '600 15px Jost,sans-serif',
-                  }}
-                >
-                  G
-                </$A>
-              </div>
-            </div>
-            {$list(footerCols).map((col, $index) => (
-              <Fragment key={$index}>
-                <div>
-                  <h4
-                    style={{
-                      font: '600 12px Figtree,sans-serif',
-                      letterSpacing: '.14em',
-                      textTransform: 'uppercase',
-                      color: '#7cc4f5',
-                      marginBottom: '18px',
-                    }}
-                  >
-                    {$i(col?.title)}
-                  </h4>
-                  <ul style={{ display: 'flex', flexDirection: 'column', gap: '9px' }}>
-                    {$list(col?.links).map((l, $index) => (
-                      <Fragment key={$index}>
-                        <li>
-                          <$A
-                            className="scpe"
-                            href={l?.href}
-                            style={{ fontSize: '14.5px', color: '#b7c7d8', lineHeight: '1.4' }}
-                          >
-                            {$i(l?.label)}
-                          </$A>
-                        </li>
-                      </Fragment>
-                    ))}
-                  </ul>
-                </div>
-              </Fragment>
-            ))}
-          </div>
-          <div style={{ borderTop: '1px solid rgba(255,255,255,.1)' }}>
-            <div
-              style={{
-                maxWidth: '1280px',
-                margin: '0 auto',
-                padding: '22px 32px',
-                display: 'flex',
-                flexWrap: 'wrap',
-                justifyContent: 'space-between',
-                alignItems: 'center',
-                gap: '16px',
-                fontSize: '13.5px',
-              }}
-              data-rc-wrap="1"
-            >
-              <span>© 2025 Addiction Rehab Centres Canada</span>
-              <div style={{ display: 'flex', gap: '22px', flexWrap: 'wrap' }}>
-                <$A
-                  className="scpe"
-                  href="/privacy-policy"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Privacy Policy
-                </$A>
-                <$A className="scpe" href="/terms-of-use" style={{ color: '#b7c7d8' }}>
-                  Terms of Use
-                </$A>
-                <$A
-                  className="scpe"
-                  href="/promote"
-                  style={{ color: '#b7c7d8' }}
-                >
-                  Promote Your Centre
-                </$A>
-                <$A className="scpe" href="https://addictionrehabcenters.ca/llms.txt" style={{ color: '#b7c7d8' }}>
-                  Hey Ai, Learn About Us
-                </$A>
-              </div>
-            </div>
-          </div>
-        </footer>
+        <SiteFooter />
       </div>
     </>
   );
@@ -4008,7 +3904,12 @@ function template(v) {
 
 export const ownCss =
   '\nhtml,body{margin:0;padding:0;background:#f7fafd;color:#10233a;font-family:Figtree,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}\n*{box-sizing:border-box}\na{color:#0890E8;text-decoration:none}a:hover{color:#0670b8}\nh1,h2,h3,h4{font-family:Jost,Helvetica,sans-serif;margin:0;font-weight:600;letter-spacing:-0.01em;text-wrap:balance}\np{margin:0;text-wrap:pretty}\nul{margin:0;padding:0;list-style:none}\n@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}\n';
-export const css = [ownCss, SiteHeader_css].filter(Boolean).join('\n');
+const ctrCss =
+  '.ctr-side{position:sticky;top:calc(var(--hdr,115px) + 24px);align-self:flex-start;max-height:calc(100vh - var(--hdr,115px) - 48px);overflow-y:auto}' +
+  '@media(max-width:999px){.ctr-side{position:static;max-height:none;overflow:visible;flex:1 1 100%!important;max-width:none!important}}' +
+  '.ctr-cols{column-gap:36px}@media(min-width:768px){.ctr-cols{column-count:2}}@media(min-width:1100px){.ctr-cols3{column-count:3}}' +
+  '#about h2 strong,#about h3 strong,#about h4 strong,#about h5 strong,#about h6 strong{font-weight:inherit}';
+export const css = [ownCss, ctrCss, SiteHeader_css].filter(Boolean).join('\n');
 export const defaults = {
   centreName: 'Metamorphosis Centre for Change',
   claimed: true,
