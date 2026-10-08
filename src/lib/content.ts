@@ -33,7 +33,7 @@ export type Page = {
   route: string;
   page_type: string;
   template: string;
-  head?: { title: string | null; canonical: string | null; meta: [string, string, string][]; links: [string, string | null, string][]; ext_links?: [string, string, string][]; related?: { title: string; href: string; alt: string | null; date: string }[]; nav?: { prev?: { title: string; href: string; alt: string | null }; next?: { title: string; href: string; alt: string | null } } };
+  head?: { title: string | null; canonical: string | null; meta: [string, string, string][]; links: [string, string | null, string][]; ext_links?: [string, string, string][]; headings?: [string, string][]; related?: { title: string; href: string; alt: string | null; date: string }[]; nav?: { prev?: { title: string; href: string; alt: string | null }; next?: { title: string; href: string; alt: string | null } } };
   seo: {
     meta_title: string;
     meta_description: string;

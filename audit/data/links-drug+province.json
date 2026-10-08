@@ -1,0 +1,23 @@
+{
+ "pages": 44,
+ "targets": 412,
+ "bad": {
+  "/about-us/": {
+   "status": 404,
+   "from": [
+    "/cocaine-addiction/"
+   ],
+   "count": 1
+  },
+  "/addiction-by-alcohol/": {
+   "status": 404,
+   "from": [
+    "/drug-alcohol-rehabs-in-quebec/",
+    "/nunavut-drug-rehab-centers/",
+    "/saskatchewan-drug-rehab-treatment/",
+    "/yukon-drug-rehab-treatments/"
+   ],
+   "count": 4
+  }
+ }
+}

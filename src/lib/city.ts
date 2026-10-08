@@ -12,7 +12,7 @@ export type CityData = {
   provinceLabel: string;
   provinceHref: string | null;
   othersHeading: string;
-  others: { label: string; href: string | null }[];
+  others: { label: string; href: string | null; heading: boolean }[];
   popular: { label: string; href: string }[];
 };
 

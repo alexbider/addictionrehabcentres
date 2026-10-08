@@ -27,6 +27,9 @@ export const categoryRoute: Record<string, string> = {
 };
 
 /** Province links for the "Drug Rehab Centres By Provinces" blocks: a province whose page does not exist is shown as plain text (no link). */
-export function provinceNavItems(exists: (h: string) => boolean, current?: string): { label: string; href: string | null }[] {
-  return provinceNav.links.filter(([, h]) => h !== current).map(([label, h]) => ({ label, href: exists(h) ? h : null }));
+// Quirk replicated from the source: in its "Drug Rehab Centres By Provinces" block only Quebec and Yukon are marked up as headings (h3), the other provinces are plain links.
+const HEADED = new Set(['Quebec Rehabs', 'Yukon Rehabs']);
+// All 13 provinces are listed on every page, as on the source (including the page's own province).
+export function provinceNavItems(exists: (h: string) => boolean, _current?: string): { label: string; href: string | null; heading: boolean }[] {
+  return provinceNav.links.map(([label, h]) => ({ label, href: exists(h) ? h : null, heading: HEADED.has(label) }));
 }

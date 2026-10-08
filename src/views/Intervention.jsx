@@ -379,7 +379,7 @@ class Component extends DCLogic {
       heroTitle: D ? D.h1 : 'Intervention',
       heroImg: D ? D.bannerImage : null,
       bodyNodes: built.nodes,
-      liveHelp: D ? { heading: D.helpHeading, paragraphs: D.helpParagraphs, links: D.helpLinks } : null,
+      liveHelp: D ? { heading: D.helpHeading, blocks: D.helpBlocks, links: D.helpLinks } : null,
       liveProvinces: D ? D.provinces : [],
       navItems,
       menuOpen: !!m,
@@ -1601,7 +1601,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <HelpSection heading={liveHelp.heading} paragraphs={liveHelp.paragraphs} links={liveHelp.links} label="Let us help" />}
+        {sample ? null : <HelpSection heading={liveHelp.heading} blocks={liveHelp.blocks} links={liveHelp.links} label="Let us help" />}
         <SiteFooter />
       </div>
     </>

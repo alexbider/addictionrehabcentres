@@ -9,7 +9,7 @@ export type ProvinceData = {
   cards: { name: string; href: string | null; address: string; excerpt: string; category: string; image: { src: string; alt: string; width: string | number | null; height: string | number | null } | null }[];
   guide: Block[];
   othersHeading: string;
-  others: { label: string; href: string | null }[];
+  others: { label: string; href: string | null; heading: boolean }[];
   provinceName: string;
   updated: string;
 };

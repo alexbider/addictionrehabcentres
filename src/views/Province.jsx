@@ -965,7 +965,7 @@ class Component extends DCLogic {
       cities: D ? liveCities : cities,
       toc: D ? guideToc : toc,
       faqs,
-      otherProvinces: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '' })) : otherProvinces,
+      otherProvinces: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '', plainLabel: o.heading === false })) : otherProvinces,
       otherHeading: D ? D.othersHeading || '' : 'Rehabs in Other Provinces',
       otherOn: !D || (D.others || []).length > 0,
       sample,
@@ -2349,7 +2349,7 @@ function template(v) {
                       {$i(loc?.code)}
                     </span>
                     ) : null}
-                    <h3 style={{ font: '500 15px Figtree,sans-serif', margin: 0, letterSpacing: 0 }}>{$i(loc?.label)}</h3>
+                    {loc?.plainLabel ? <span style={{ font: '500 15px Figtree,sans-serif' }}>{$i(loc?.label)}</span> : <h3 style={{ font: '500 15px Figtree,sans-serif', margin: 0, letterSpacing: 0 }}>{$i(loc?.label)}</h3>}
                   </$A>
                 </Fragment>
               ))}

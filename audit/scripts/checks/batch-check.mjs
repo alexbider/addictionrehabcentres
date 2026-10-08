@@ -41,7 +41,7 @@ async function worker() {
       const o = await ev('[document.documentElement.scrollWidth, document.documentElement.clientWidth]'); if (o[0] > o[1]) r.overflow.push(`${w}px:${o[0]}>${o[1]}`);
       if (w === 1440) {
         await ev('(async()=>{for(let y=0;y<document.body.scrollHeight;y+=1400){window.scrollTo(0,y);await new Promise(r=>setTimeout(r,20));}window.scrollTo(0,0)})()'); await new Promise((r) => setTimeout(r, 400));
-        const all = await ev('document.body.textContent'); const cnt = {}; for (const x of words(all)) cnt[x] = (cnt[x] || 0) + 1; const miss = [];
+        const all = await ev('document.body.innerText'); const cnt = {}; for (const x of words(all)) cnt[x] = (cnt[x] || 0) + 1; const miss = [];
         for (const x of words(expected(d, e))) { if (cnt[x] > 0) cnt[x]--; else miss.push(x); }
         r.missing = miss.length; r.missingWords = miss.slice(0, 8).join(',');
         r.h1 = await ev('document.querySelectorAll("h1").length');

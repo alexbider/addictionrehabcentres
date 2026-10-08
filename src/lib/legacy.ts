@@ -7,9 +7,9 @@ export type LegacyData = {
   bannerImage: { src: string; alt: string; width: number | null; height: number | null } | null;
   article: Block[];
   helpHeading: string;
-  helpParagraphs: string[];
+  helpBlocks: Block[];
   helpLinks: { label: string; href: string }[];
-  provinces: { label: string; href: string | null }[];
+  provinces: { label: string; href: string | null; heading: boolean }[];
   otherDrugs: { label: string; href: string }[];
 };
 
@@ -17,18 +17,37 @@ const strip = (h: string) => h.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').re
 
 /** WPBakery-style source page (hero banner, text+image rows, CTA banner, help block, "Let Us Help You" list) →
  *  props for the Drug / Intervention views. Source text, images and links only, in source order. */
+const normT = (t: string) => t.replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, ' ').trim().toLowerCase();
+
+/** The scraper reads some WPBakery headings (<h2> in a text column) as paragraphs. When a paragraph is exactly a heading of the live source outline
+ *  it is rendered as that heading (same text, same level); nothing else changes. */
+function promote(blocks: Block[], page: Page): Block[] {
+  const outline = (page.head?.headings ?? []).filter(([l]) => l !== 'h1').map(([l, t]) => [l, normT(t)] as [string, string]);
+  const used = new Set<number>();
+  const present = new Set(blocks.filter((b) => /^h[2-6]$/.test(b.type)).map((b) => normT((b as { text: string }).text)));
+  return blocks.map((b) => {
+    if (b.type !== 'p' || !('html' in b)) return b;
+    const t = normT(strip(b.html));
+    if (!t || present.has(t)) return b;
+    const k = outline.findIndex(([, x], i) => x === t && !used.has(i));
+    if (k < 0) return b;
+    used.add(k);
+    return { type: outline[k][0] as 'h2', text: strip(b.html), html: b.html } as Block;
+  });
+}
+
 export function legacyData(page: Page): LegacyData {
   const rows = page.rows;
   const hero = rows.find((r) => r.kind === 'hero-banner');
   const article: Block[] = [];
-  const helpParagraphs: string[] = [];
+  const helpBlocks: Block[] = [];
   let helpHeading = '';
   const helpLinks: { label: string; href: string }[] = [];
   for (const r of rows) {
     if (r === hero) continue;
     const flat = r.columns.flatMap((c) => c.blocks);
     if (r.kind === 'help-block') {
-      for (const b of flat) if (b.type === 'p' && 'html' in b) helpParagraphs.push(b.html);
+      article.push(...promote(flat, page));
       continue;
     }
     // trailing "Let Us Help You" row: H3 + list of links
@@ -37,7 +56,7 @@ export function legacyData(page: Page): LegacyData {
       for (const b of flat) if (b.type === 'ul') for (const it of b.items) { const m = it.html.match(/href="([^"]+)"/); helpLinks.push({ label: strip(it.html), href: m ? m[1] : '' }); }
       continue;
     }
-    article.push(...flat);
+    article.push(...promote(flat, page));
   }
   const bg = hero?.background_image ?? null;
   const drugs = getPublished().filter((e) => e.type === 'drug' && e.route !== page.route);
@@ -46,7 +65,7 @@ export function legacyData(page: Page): LegacyData {
     bannerImage: bg ? { src: bg, alt: '', width: hero?.background_dims?.[0] ?? null, height: hero?.background_dims?.[1] ?? null } : null,
     article,
     helpHeading,
-    helpParagraphs,
+    helpBlocks,
     helpLinks: helpLinks.filter((l) => l.href),
     provinces: provinceNavItems(routeExists, page.route),
     otherDrugs: drugs.map((e) => ({ label: getPage(e.slug)?.h1 ?? e.title, href: e.route })).filter((d) => isPublishedRoute(d.href)),

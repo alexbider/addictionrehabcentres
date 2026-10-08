@@ -284,7 +284,7 @@ for (const f of files) {
   const slim = {
     slug: key, route: d.new_route, page_type: d.page_type, template: d.template,
     seo: { ...d.seo, jsonld_source: stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source), og: { ...d.seo.og, image: og?.web ?? null } },
-    head: SOURCE_HEAD[key] ? { title: SOURCE_HEAD[key].title, canonical: SOURCE_HEAD[key].canonical, meta: SOURCE_HEAD[key].meta, links: SOURCE_HEAD[key].links, ext_links: SOURCE_HEAD[key].ext_links, related: SOURCE_HEAD[key].related, nav: SOURCE_HEAD[key].nav } : undefined,
+    head: SOURCE_HEAD[key] ? { title: SOURCE_HEAD[key].title, canonical: SOURCE_HEAD[key].canonical, meta: SOURCE_HEAD[key].meta, links: SOURCE_HEAD[key].links, ext_links: SOURCE_HEAD[key].ext_links, headings: SOURCE_HEAD[key].headings, related: SOURCE_HEAD[key].related, nav: SOURCE_HEAD[key].nav } : undefined,
     h1: d.h1, word_count: d.word_count, source: d.source,
     rows, listing, centre, post: d.post, faqs: isCentre ? undefined : d.faqs,
     blocks, blog_cards: blogCards,

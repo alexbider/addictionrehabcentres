@@ -642,7 +642,7 @@ class Component extends DCLogic {
       effCols: tocOn ? '300px 1fr' : '1fr',
       hasBody: !D || (D.article || []).length > 0,
       bodyNodes: built.nodes,
-      liveHelp: D ? { heading: D.helpHeading, paragraphs: D.helpParagraphs, links: D.helpLinks } : null,
+      liveHelp: D ? { heading: D.helpHeading, blocks: D.helpBlocks, links: D.helpLinks } : null,
       liveProvinces: D ? D.provinces : [],
       liveOthers: D ? D.otherDrugs : [],
       drug,
@@ -2222,7 +2222,6 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <HelpSection heading={liveHelp.heading} paragraphs={liveHelp.paragraphs} links={liveHelp.links} />}
         {sample ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div
@@ -2415,6 +2414,7 @@ function template(v) {
         </section>
         ) : null}
         {sample ? null : <LinkTiles screen="Provinces" kicker="Explore" heading="Drug Rehab Centres By Provinces" items={liveProvinces} cols={4} />}
+        {sample ? null : <HelpSection heading={liveHelp.heading} blocks={liveHelp.blocks} links={liveHelp.links} />}
         {sample ? (
         <section data-screen-label="Other Drugs" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px' }} data-rc-wrap="1">
@@ -2454,7 +2454,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <LinkTiles screen="Other Drugs" bg="#fff" heading="Other Addictions By Drugs" items={liveOthers} cols={4} />}
+        {sample ? null : <LinkTiles screen="Other Drugs" bg="#fff" heading="Other Addictions By Drugs" items={liveOthers} cols={4} plain />}
         <SiteFooter />
       </div>
     </>

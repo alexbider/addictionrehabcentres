@@ -1172,7 +1172,7 @@ class Component extends DCLogic {
       criteria,
       cityFaqs,
       cityToc: D ? guideToc : cityToc,
-      nearby: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '' })) : nearby,
+      nearby: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '', plainLabel: o.heading === false })) : nearby,
       otherHeading: D ? D.othersHeading || '' : '',
       otherOn: !D || (D.others || []).length > 0,
       nearCols: '1fr 1fr',
@@ -2684,7 +2684,7 @@ function template(v) {
                         {$i(loc?.code)}
                       </span>
                       ) : null}
-                      <h3 style={{ font: '500 15px Figtree,sans-serif', margin: 0, letterSpacing: 0 }}>{$i(loc?.label)}</h3>
+                      {loc?.plainLabel ? <span style={{ font: '500 15px Figtree,sans-serif' }}>{$i(loc?.label)}</span> : <h3 style={{ font: '500 15px Figtree,sans-serif', margin: 0, letterSpacing: 0 }}>{$i(loc?.label)}</h3>}
                     </$A>
                   </Fragment>
                 ))}
