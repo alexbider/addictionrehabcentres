@@ -211,3 +211,15 @@ The approved design pages are kept exactly as designed (sample content included)
 
 ## 16. Home and Blog restored to the approved designs
 `/` is the approved Home design (`src/views/Home.jsx`, unchanged, sample content); `/blog/` is the approved Blog design with the 186 real published posts (title, image, date, category, link) in its list. The Blog view hides every block that has no source data: the hero eyebrow and paragraph, “Featured Articles”, the Latest/Popular sort, the “Popular” list, the “Reading for someone you love” card, the newsletter form, the “Topic Hubs” section and “min read”/author. The source-based home page (`content/home.json`, `HomePage.tsx`) is kept in the repo but unused.
+
+## 17. Card excerpts cut mid-word (rule approved)
+The source theme cuts every listing-card excerpt at a fixed number of raw characters (44 on province cards, 100/250/500 elsewhere) with no word logic, so many end in a half word (e.g. “…for t”, “…faith-ba”).
+- **Rule:** if the cut falls mid-word, the partial last word is removed and “…” is added. No other word is changed. A cut that falls exactly at the end of a word, or an excerpt that already ends in sentence punctuation, is left as it is.
+- **How it is decided** (`audit/scripts/excerpt_cuts.py` → `audit/data/excerpt_cuts.json`, applied in `scripts/build-content.mjs`; the original text stays in `excerpt_source`): the live centre page is searched for the excerpt and the character after it is read (158 cards: 107 mid-word, 51 at a word end). For the 291 cards whose excerpt text is not on the centre page the last token counts as a complete word when it occurs in the site’s own text at least as often as the longer words that start with it (94 % right on the 158 verifiable cards); those are marked `inferred-mid` / `inferred-word` in the JSON for review. 4 excerpts end in punctuation and are unchanged.
+- Totals (449 distinct excerpts): 323 shortened (107 confirmed, 216 inferred), 122 unchanged, 4 already complete.
+
+## 18. Province pages on the approved Province view
+- Hidden (no source data): hero eyebrow/photo/stats, “Why trust us”, sort/filter bar, ratings, review counts, Featured/Verified badges, “Need help choosing” band, cities block, author/reviewer card, FAQ, “Load more” (all cards are shown).
+- The hero “Call 1-855-885-4747” button is the design’s own element; the number is the site’s real helpline (it is in the source header/footer and in every province meta description).
+- Card images with an empty `alt` on the source are kept with empty alt (Alberta 4, British Columbia 20 + 3 cards with no image, Ontario 22).
+- PEI stays 404 and `/saskatchewan-rehabs/` stays a 301 to `/saskatchewan-drug-rehab-treatment/`; the two thin province pages are not published.

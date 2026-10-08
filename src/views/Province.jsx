@@ -794,7 +794,22 @@ class Component extends DCLogic {
       'Faith-based',
     ];
     const filtered = filter === 'All' ? all : all.filter((c) => c.tags.includes(filter));
-    const listings = filtered.slice(0, shown);
+    // Live data (props.data): real source content replaces every sample value; sections without source data are hidden.
+    const D = this.props.data || null;
+    const sample = !D;
+    const liveCards = (D ? D.cards : []).map((c) => ({
+      name: c.name,
+      href: c.href,
+      address: c.address,
+      excerpt: c.excerpt,
+      tags: c.category ? [c.category] : [],
+      img: c.image,
+      featured: false,
+      verified: false,
+      viewOn: !!c.href,
+      rowOn: !!c.href,
+    }));
+    const listings = D ? liveCards : filtered.slice(0, shown);
     const filters = filterNames.map((f) => ({
       label: f,
       toggle: () => this.setState({ filter: f, shown: 12 }),
@@ -883,6 +898,33 @@ class Component extends DCLogic {
     ].map(([label, href]) => ({ label, href }));
     const otherProvinces = locations.filter((l) => l.code !== 'AB');
 
+    // Source guide text (props.data.guide): headings, paragraphs, lists, tables and images rendered with the design's guide styles.
+    const guideToc = [];
+    const usedIds = {};
+    const idFor = (t) => {
+      const base = String(t).toLowerCase().replace(/&amp;|&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'section';
+      usedIds[base] = (usedIds[base] || 0) + 1;
+      return usedIds[base] > 1 ? base + '-' + usedIds[base] : base;
+    };
+    const bodyStyle = { fontSize: '17px', lineHeight: '1.75', color: '#3b4d63', overflowWrap: 'anywhere' };
+    const guideNodes = (D ? D.guide || [] : []).map((b, i) => {
+      if (/^h[1-6]$/.test(b.type)) {
+        const id = idFor(b.text);
+        const lvl = b.type === 'h1' || b.type === 'h2' ? 2 : b.type === 'h3' ? 3 : 4;
+        if (lvl <= 3) guideToc.push({ label: b.text, href: '#' + id });
+        const st = lvl === 2 ? { fontSize: '38px', lineHeight: '1.12' } : lvl === 3 ? { fontSize: '26px', marginTop: '10px' } : { fontSize: '20px', marginTop: '6px' };
+        return R('h' + lvl, { key: i, id, style: st, 'data-rc-lg': lvl === 2 ? '1' : undefined, dangerouslySetInnerHTML: { __html: b.html } });
+      }
+      if (b.type === 'p' || b.type === 'text') return R('p', { key: i, style: bodyStyle, dangerouslySetInnerHTML: { __html: b.html ?? b.text } });
+      if (b.type === 'blockquote') return R('blockquote', { key: i, style: { ...bodyStyle, borderLeft: '4px solid #0890E8', paddingLeft: '18px', margin: 0 }, dangerouslySetInnerHTML: { __html: b.html } });
+      if (b.type === 'ul' || b.type === 'ol')
+        return R(b.type, { key: i, style: { ...bodyStyle, paddingLeft: '24px', listStyle: b.type === 'ul' ? 'disc' : 'decimal', display: 'flex', flexDirection: 'column', gap: '6px' } }, ...b.items.map((it, k) => R('li', { key: k, dangerouslySetInnerHTML: { __html: it.html } })));
+      if (b.type === 'table') return R('div', { key: i, className: 'cp-table', style: { overflowX: 'auto' }, dangerouslySetInnerHTML: { __html: b.html } });
+      if (b.type === 'image') return R('img', { key: i, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: 'lazy', style: { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' } });
+      return null;
+    });
+    const tocOn = sample || guideToc.length >= 2;
+
     return {
       province,
       count: total,
@@ -899,12 +941,24 @@ class Component extends DCLogic {
       filters,
       listings,
       shownCount: listings.length,
-      hasMore: shown < filtered.length,
+      hasMore: !D && shown < filtered.length,
       loadMore: () => this.setState({ shown: shown + 12 }),
       cities,
-      toc,
+      toc: D ? guideToc : toc,
       faqs,
-      otherProvinces,
+      otherProvinces: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '' })) : otherProvinces,
+      otherHeading: D ? D.othersHeading || '' : 'Rehabs in Other Provinces',
+      otherOn: !D || (D.others || []).length > 0,
+      sample,
+      heroTitle: D ? D.h1 : province + ' Rehabs',
+      heroSub: D ? D.h2 || '' : total + ' Best Rehab Centres in ' + province,
+      heroShowSub: !D || !!D.h2,
+      heroIntro: D ? D.intro || [] : [],
+      heroCols: D ? '1fr' : '1.15fr .85fr',
+      guideCols: tocOn ? '300px 1fr' : '1fr',
+      guideNodes,
+      hasGuide: !D || guideNodes.length > 0,
+      tocOn,
       navItems,
       menuOpen: !!m,
       closeMenu: () => this.setState({ menu: null }),
@@ -943,6 +997,16 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    sample,
+    heroTitle,
+    heroSub,
+    heroShowSub,
+    heroIntro,
+    heroCols,
+    guideCols,
+    guideNodes,
+    hasGuide,
+    tocOn,
     authorName,
     authorRole,
     cities,
@@ -962,6 +1026,8 @@ function template(v) {
     reviewerRole,
     shownCount,
     toc,
+    otherHeading,
+    otherOn,
     trust,
     updated,
     updatedLong,
@@ -994,19 +1060,24 @@ function template(v) {
               <$A className="scp0" href="/" style={{ color: '#6b7f95' }}>
                 Home
               </$A>
+              {sample ? (
+              <>
               <span style={{ opacity: '.5' }}>/</span>
               <$A className="scp0" href="/rehab" style={{ color: '#6b7f95' }}>
                 Rehabs By Provinces
               </$A>
+              </>
+              ) : null}
               <span style={{ opacity: '.5' }}>/</span>
-              <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(province)} Rehabs</span>
+              <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(heroTitle)}</span>
             </nav>
             <div
-              style={{ display: 'grid', gridTemplateColumns: '1.15fr .85fr', gap: '56px', alignItems: 'center' }}
-              data-cols="1.15fr .85fr"
+              style={{ display: 'grid', gridTemplateColumns: heroCols, gap: '56px', alignItems: 'center' }}
+              data-cols={heroCols}
               data-rc-gap="1"
             >
               <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                {sample ? (
                 <span
                   style={{
                     font: '600 12px Figtree,sans-serif',
@@ -1017,17 +1088,25 @@ function template(v) {
                 >
                   Rehabs by province
                 </span>
+                ) : null}
                 <h1 style={{ fontSize: '54px', lineHeight: '1.05', color: '#10233a' }} data-rc-lg="1">
-                  {$i(province)} Rehabs
+                  {$i(heroTitle)}
                 </h1>
+                {heroShowSub ? (
                 <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }}>
-                  {$i(count)} Best Rehab Centres in {$i(province)}
+                  {$i(heroSub)}
                 </h2>
+                ) : null}
+                {sample ? (
                 <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#3b4d63', maxWidth: '600px' }}>
                   Browse the {$i(count)} best rehab centres in {$i(province)} with reviews, locations and phone numbers
                   — from publicly funded detox to private residential treatment. Not sure which one fits? Our free
                   helpline will walk you through it.
                 </p>
+                ) : null}
+                {$list(heroIntro).map((h, $index) => (
+                  <p key={$index} style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#3b4d63', maxWidth: '680px' }} dangerouslySetInnerHTML={{ __html: h }} />
+                ))}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                   <$A
                     className="scp1"
@@ -1059,9 +1138,10 @@ function template(v) {
                       borderRadius: '12px',
                     }}
                   >
-                    Browse all {$i(count)} centres
+                    {sample ? <>Browse all {$i(count)} centres</> : 'Browse all centres'}
                   </$A>
                 </div>
+                {sample ? (
                 <div
                   style={{
                     display: 'flex',
@@ -1089,7 +1169,9 @@ function template(v) {
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Last updated</div>
                   </div>
                 </div>
+                ) : null}
               </div>
+              {sample ? (
               <div style={{ position: 'relative' }}>
                 <div
                   style={{
@@ -1149,9 +1231,11 @@ function template(v) {
                   </div>
                 </div>
               </div>
+              ) : null}
             </div>
           </div>
         </section>
+        {sample ? (
         <section data-screen-label="Why trust us" style={{ background: '#fff', borderBottom: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -1214,8 +1298,10 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
         <section id="listings" data-screen-label="Listings" style={{ background: '#f7fafd' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px 72px' }} data-rc-wrap="1">
+            {sample ? (
             <div
               style={{
                 display: 'flex',
@@ -1263,6 +1349,8 @@ function template(v) {
                 </select>
               </div>
             </div>
+            ) : null}
+            {sample ? (
             <div
               style={{
                 display: 'flex',
@@ -1299,6 +1387,7 @@ function template(v) {
                 Showing {$i(shownCount)} of {$i(count)}
               </span>
             </div>
+            ) : null}
             <div
               style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '22px' }}
               data-cols="repeat(3,1fr)"
@@ -1326,6 +1415,8 @@ function template(v) {
                         background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
+                      {c?.img ? <img src={c.img.src} alt={c.img.alt} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
+                      {sample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1339,6 +1430,7 @@ function template(v) {
                       >
                         {$i(c?.photo)}
                       </span>
+                      ) : null}
                       <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
                         {c?.featured ? (
                           <>
@@ -1410,6 +1502,7 @@ function template(v) {
                           </>
                         ) : null}
                       </span>
+                      {sample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1438,6 +1531,7 @@ function template(v) {
                         <span style={{ color: '#F5A623', fontSize: '12px', letterSpacing: '1px' }}>★★★★★</span>
                         <span style={{ font: '600 13px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
                       </span>
+                      ) : null}
                     </$A>
                     <div
                       style={{
@@ -1492,6 +1586,7 @@ function template(v) {
                         {$i(c?.address)}
                       </p>
                       <p style={{ fontSize: '14.5px', lineHeight: '1.6', color: '#3b4d63' }}>{$i(c?.excerpt)}</p>
+                      {c?.rowOn ? (
                       <div
                         style={{
                           marginTop: 'auto',
@@ -1503,10 +1598,13 @@ function template(v) {
                           gap: '10px',
                         }}
                       >
+                        {sample ? (
                         <span style={{ fontSize: '13px', color: '#6b7f95' }}>
                           {$i(c?.googleReviews)} Google reviews · {$i(c?.reviews)}
                         </span>
+                        ) : null}
                         <div style={{ display: 'flex', gap: '6px' }}>
+                          {sample ? (
                           <$A
                             className="scp7"
                             href="tel:+18558854747"
@@ -1520,6 +1618,8 @@ function template(v) {
                           >
                             Call
                           </$A>
+                          ) : null}
+                          {c?.viewOn ? (
                           <$A
                             className="scp7"
                             href={c?.href}
@@ -1533,8 +1633,10 @@ function template(v) {
                           >
                             View
                           </$A>
+                          ) : null}
                         </div>
                       </div>
+                      ) : null}
                     </div>
                   </article>
                 </Fragment>
@@ -1563,6 +1665,7 @@ function template(v) {
                 </div>
               </>
             ) : null}
+            {sample ? (
             <div
               style={{
                 marginTop: '56px',
@@ -1602,8 +1705,10 @@ function template(v) {
                 Call 1-855-885-4747
               </$A>
             </div>
+            ) : null}
           </div>
         </section>
+        {sample ? (
         <section data-screen-label="Cities" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px' }} data-rc-wrap="1">
             <div
@@ -1669,6 +1774,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {hasGuide ? (
         <section data-screen-label="Guide" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -1676,14 +1783,15 @@ function template(v) {
               margin: '0 auto',
               padding: '80px 32px',
               display: 'grid',
-              gridTemplateColumns: '300px 1fr',
+              gridTemplateColumns: guideCols,
               gap: '64px',
               alignItems: 'start',
             }}
-            data-cols="300px 1fr"
+            data-cols={guideCols}
             data-rc-gap="1"
             data-rc-wrap="1"
           >
+            {tocOn ? (
             <aside style={{ position: 'sticky', top: '130px', display: 'flex', flexDirection: 'column', gap: '18px' }}>
               <div style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px' }}>
                 <div
@@ -1728,6 +1836,7 @@ function template(v) {
                   ))}
                 </ul>
               </div>
+              {sample ? (
               <div
                 style={{
                   background: '#fff',
@@ -1804,8 +1913,12 @@ function template(v) {
                   <span>Est. reading time 4 minutes</span>
                 </div>
               </div>
+              ) : null}
             </aside>
+            ) : null}
             <article style={{ display: 'flex', flexDirection: 'column', gap: '22px', maxWidth: '760px' }}>
+              {sample ? (
+              <>
               <span
                 style={{
                   font: '600 12px Figtree,sans-serif',
@@ -2001,9 +2114,14 @@ function template(v) {
                   </li>
                 </ul>
               </div>
+              </>
+              ) : null}
+              {sample ? null : $list(guideNodes)}
             </article>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -2109,6 +2227,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {otherOn ? (
         <section data-screen-label="Other Provinces" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
             <div
@@ -2121,6 +2241,7 @@ function template(v) {
               }}
             >
               <div>
+                {sample ? (
                 <span
                   style={{
                     font: '600 12px Figtree,sans-serif',
@@ -2131,8 +2252,10 @@ function template(v) {
                 >
                   Explore
                 </span>
-                <h2 style={{ fontSize: '32px', marginTop: '8px' }}>Rehabs in Other Provinces</h2>
+                ) : null}
+                <h2 style={{ fontSize: '32px', marginTop: '8px' }}>{$i(otherHeading)}</h2>
               </div>
+              {sample ? (
               <$A
                 href="/rehab"
                 style={{ font: '600 15px Jost,sans-serif', display: 'flex', alignItems: 'center', gap: '8px' }}
@@ -2149,6 +2272,7 @@ function template(v) {
                   }}
                 />
               </$A>
+              ) : null}
             </div>
             <div
               style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '14px' }}
@@ -2171,6 +2295,7 @@ function template(v) {
                       transition: 'transform .18s,border-color .18s',
                     }}
                   >
+                    {sample ? (
                     <span
                       style={{
                         font: '600 12px Jost,sans-serif',
@@ -2185,6 +2310,7 @@ function template(v) {
                     >
                       {$i(loc?.code)}
                     </span>
+                    ) : null}
                     <span style={{ font: '500 15px Figtree,sans-serif' }}>{$i(loc?.label)}</span>
                   </$A>
                 </Fragment>
@@ -2192,6 +2318,7 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
         <footer data-screen-label="Footer" style={{ background: '#10233a', color: '#b7c7d8' }}>
           <div
             style={{

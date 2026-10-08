@@ -17,6 +17,12 @@ const QUALITY = 75;
 const BATCH = process.env.CENTRE_BATCH ? Number(process.env.CENTRE_BATCH) : Infinity; // publish centres in batches of ~100 (sorted by route)
 const IMG_SRC2 = path.join(root, 'audit/images-phase4'); // images downloaded after the audit/images freeze
 
+// Card excerpts the source cuts at a fixed length: when the cut is mid-word, drop the partial word and add "…" (rule in
+// audit/08-source-issues.md §17; decisions per card in audit/data/excerpt_cuts.json, made by audit/scripts/excerpt_cuts.py).
+const CUTS = JSON.parse(fs.readFileSync(path.join(root, 'audit/data/excerpt_cuts.json'), 'utf8'));
+const fixExcerpt = (slug, ex) => CUTS[`${slug}|${ex}`]?.fixed ?? ex;
+const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
+
 // Page types that have a view today.
 const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'blog-post', 'legal', 'centre']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
@@ -129,7 +135,7 @@ async function procBlocks(blocks, imgMap, folder, live, omitted, local) {
       const items = [];
       for (const it of b.items) {
         const im = it.image ? await local(it.image.original_url) : null;
-        items.push({ name: it.name, href: it.href, address: it.address, excerpt: it.excerpt, category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
+        items.push({ name: it.name, href: it.href, address: it.address, excerpt: fixExcerpt(hrefSlug(it.href), it.excerpt), category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
       }
       res.push({ type: 'centre-cards', items }); continue;
     }
@@ -244,7 +250,7 @@ for (const f of files) {
         const im = await publishImage(c.image.local_path, c.slug);
         if (im) image = { ...c.image, local_path: im.web, width: im.width ? String(im.width) : c.image.width, height: im.height ? String(im.height) : c.image.height };
       }
-      cards.push({ ...c, image });
+      cards.push({ ...c, excerpt: fixExcerpt(c.slug, c.excerpt), excerpt_source: c.excerpt, image });
     }
     listing = { ...listing, cards };
   }

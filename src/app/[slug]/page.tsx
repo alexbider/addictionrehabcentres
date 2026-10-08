@@ -4,6 +4,8 @@ import ContentPage from '@/components/ContentPage';
 import ListingPage from '@/components/ListingPage';
 import PostPage from '@/components/PostPage';
 import CentrePage from '@/components/CentrePage';
+import { Root as ProvinceView } from '@/views/Province';
+import { provinceData } from '@/lib/province';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
@@ -24,7 +26,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={page} />
-      {page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
+      {page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing && page.page_type === 'province' ? <ProvinceView data={provinceData(page)} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
     </>
   );
 }
