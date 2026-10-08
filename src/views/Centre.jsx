@@ -1309,7 +1309,7 @@ function template(v) {
                   style={{
                     aspectRatio: 'auto',
                     borderRadius: '16px',
-                    background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                     display: 'grid',
                     placeItems: 'center',
                     overflow: 'hidden',
@@ -1333,7 +1333,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1356,7 +1356,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1379,7 +1379,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1402,7 +1402,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1971,7 +1971,7 @@ function template(v) {
                           direction: 'ltr',
                           aspectRatio: '4/3',
                           borderRadius: '16px',
-                          background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                          background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                           display: 'grid',
                           placeItems: 'center',
                           overflow: 'hidden',
@@ -2877,7 +2877,7 @@ function template(v) {
                 aspectRatio: '4/3',
                 borderRadius: '24px',
                 overflow: 'hidden',
-                background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                 display: 'grid',
                 placeItems: 'center',
                 border: '1px solid #e3ecf4',
@@ -3706,7 +3706,7 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/10',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                       }}
                     >
                       <span

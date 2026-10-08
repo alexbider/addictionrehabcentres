@@ -1205,7 +1205,7 @@ function template(v) {
                     aspectRatio: '4/3',
                     borderRadius: '28px',
                     overflow: 'hidden',
-                    background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                     display: 'grid',
                     placeItems: 'start center',
                     paddingTop: '24px',
@@ -1452,7 +1452,7 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/10',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                       }}
                     >
                       {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
