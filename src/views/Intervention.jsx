@@ -595,6 +595,9 @@ function template(v) {
                 <img
                   src={sample ? "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addicted-to-benzodiazepine.jpg" : heroImg?.src}
                   alt={sample ? "A family gathered for an intervention" : heroImg?.alt}
+                  width={sample ? undefined : heroImg?.width || undefined}
+                  height={sample ? undefined : heroImg?.height || undefined}
+                  loading={sample ? undefined : 'eager'}
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
               </div>

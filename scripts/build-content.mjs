@@ -20,6 +20,7 @@ const IMG_SRC2 = path.join(root, 'audit/images-phase4'); // images downloaded af
 // Card excerpts the source cuts at a fixed length: when the cut is mid-word, drop the partial word and add "…" (rule in
 // audit/08-source-issues.md §17; decisions per card in audit/data/excerpt_cuts.json, made by audit/scripts/excerpt_cuts.py).
 const CUTS = JSON.parse(fs.readFileSync(path.join(root, 'audit/data/excerpt_cuts.json'), 'utf8'));
+const SOURCE_HEAD = JSON.parse(fs.readFileSync(path.join(root, 'audit/data/source-head.json'), 'utf8')); // live <head> of every source page (audit/scripts/head_pull.py)
 let CUTS_R = null; // keys/values go through the same mojibake repair as the page text (page data is already repaired when cards are read)
 const fixExcerpt = (slug, ex) => {
   if (!CUTS_R) { const n = fixes.length; CUTS_R = {}; for (const [k, v] of Object.entries(CUTS)) CUTS_R[fixText(k)] = fixText(v.fixed); fixes.length = n; }
@@ -231,7 +232,7 @@ for (const f of files) {
     const bg = await local(r.background_image);
     const columns = [];
     for (const c of r.columns) columns.push({ classes: c.classes, blocks: await procBlocks(c.blocks, imgMap, folder, live, omitted, local) });
-    rows.push({ kind: r.kind, classes: r.classes, background_image: bg?.web ?? null, columns });
+    rows.push({ kind: r.kind, classes: r.classes, background_image: bg?.web ?? null, background_dims: bg && bg.width ? [bg.width, bg.height] : null, columns });
   }
   const useBlocks = d.page_type === 'blog-post' || (!(d.rows || []).length && !isCentre);
   const blocks = useBlocks ? await procBlocks(d.blocks, imgMap, folder, live, omitted, local) : undefined;
@@ -282,7 +283,8 @@ for (const f of files) {
   const og = isCentre ? null : await local(d.seo.og?.image);
   const slim = {
     slug: key, route: d.new_route, page_type: d.page_type, template: d.template,
-    seo: { ...d.seo, jsonld_source: stripReviews(d.seo.jsonld_source), og: { ...d.seo.og, image: og?.web ?? null } },
+    seo: { ...d.seo, jsonld_source: stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source), og: { ...d.seo.og, image: og?.web ?? null } },
+    head: SOURCE_HEAD[key] ? { title: SOURCE_HEAD[key].title, canonical: SOURCE_HEAD[key].canonical, meta: SOURCE_HEAD[key].meta, links: SOURCE_HEAD[key].links, ext_links: SOURCE_HEAD[key].ext_links, related: SOURCE_HEAD[key].related, nav: SOURCE_HEAD[key].nav } : undefined,
     h1: d.h1, word_count: d.word_count, source: d.source,
     rows, listing, centre, post: d.post, faqs: isCentre ? undefined : d.faqs,
     blocks, blog_cards: blogCards,

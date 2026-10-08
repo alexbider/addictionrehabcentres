@@ -854,7 +854,7 @@ class Component extends DCLogic {
     const liveFilterNames = ['All', ...liveCities.filter((c) => c.n >= 2).slice(0, 8).map((c) => c.name)];
     let liveFiltered = filter === 'All' ? liveAll : liveAll.filter((c) => c.city === filter);
     if (this.state.sort === 'A – Z') liveFiltered = [...liveFiltered].sort((a, b) => a.name.localeCompare(b.name));
-    const liveListings = liveFiltered.map((c, i) => ({ ...c, hide: i >= shown }));
+    const liveListings = liveFiltered.map((c, i) => ({ ...c, hide: i >= shown, eager: i === 0 }));
     const liveFilters = liveFilterNames.map((f) => ({
       label: f,
       toggle: () => this.setState({ filter: f, shown: 12 }),
@@ -1451,7 +1451,7 @@ function template(v) {
                         background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
-                      {c?.img ? <img src={c.img.src} alt={c.img.alt} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
+                      {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
                       {sample ? (
                       <span
                         style={{
@@ -2291,7 +2291,7 @@ function template(v) {
                   Explore
                 </span>
                 ) : null}
-                <h2 style={{ fontSize: '32px', marginTop: '8px' }}>{$i(otherHeading)}</h2>
+                <h3 style={{ fontSize: '32px', marginTop: '8px' }}>{$i(otherHeading)}</h3>
               </div>
               {sample ? (
               <$A
@@ -2349,7 +2349,7 @@ function template(v) {
                       {$i(loc?.code)}
                     </span>
                     ) : null}
-                    <span style={{ font: '500 15px Figtree,sans-serif' }}>{$i(loc?.label)}</span>
+                    <h3 style={{ font: '500 15px Figtree,sans-serif', margin: 0, letterSpacing: 0 }}>{$i(loc?.label)}</h3>
                   </$A>
                 </Fragment>
               ))}

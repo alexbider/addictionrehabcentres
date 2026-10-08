@@ -880,7 +880,9 @@ class Component extends DCLogic {
       heroOn: !D || !!D.hero,
       bodyNodes,
       relOn: !D || (D.related || []).length > 0,
-      relSecOn: !D || (D.related || []).length > 0,
+      relSecOn: !D || (D.related || []).length > 0 || !!(D.prev || D.next),
+      prevImg: D && D.prev ? D.prev.image : null,
+      nextImg: D && D.next ? D.next.image : null,
       prevHref: D && D.prev ? D.prev.href : '#',
       nextHref: D && D.next ? D.next.href : '#',
       prevTitle: D && D.prev ? D.prev.title : '',
@@ -986,6 +988,8 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    prevImg,
+    nextImg,
     shareFb,
     shareX,
     shareIn,
@@ -1068,6 +1072,9 @@ function template(v) {
     ttsTitle,
     ttsToggle,
   } = v;
+  // The source's related-posts block uses h4 for its title and the post titles; the design's h2/h3 are kept for the sample page.
+  const Hrel = sample ? 'h2' : 'h4';
+  const Hcard = sample ? 'h3' : 'h4';
   return (
     <>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -1346,7 +1353,10 @@ function template(v) {
                 <img
                   src={sample ? "/assets/img/blog-alcohol-detox.jpg" : hero.src}
                   alt={sample ? "Nurse checking on a patient in a Canadian medical detox room" : hero.alt}
-                  loading="lazy"
+                  width={sample ? undefined : hero.width || undefined}
+                  height={sample ? undefined : hero.height || undefined}
+                  loading={sample ? 'lazy' : 'eager'}
+                  fetchPriority={sample ? undefined : 'high'}
                   style={{
                     position: 'absolute',
                     inset: '0',
@@ -2261,12 +2271,12 @@ function template(v) {
                   gap: '12px',
                 }}
               >
-                <h3 style={{ fontSize: '16px' }}>Related reading</h3>
+                <div style={{ font: '600 16px Jost,sans-serif', color: '#10233a' }}>Related reading</div>
                 <ul style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                   {$list(related).map((r, $index) => (
                     <Fragment key={$index}>
                       <li style={{ display: 'flex', gap: '12px', alignItems: 'start' }}>
-                        {r?.img ? <img src={r.img.src} alt={r.img.alt} loading="lazy" style={{ width: '56px', height: '56px', borderRadius: '10px', flexShrink: '0', objectFit: 'cover' }} /> : null}
+                        {r?.img ? <img src={r.img.src} alt={r.img.alt} width={r.img.width || undefined} height={r.img.height || undefined} loading="lazy" style={{ width: '56px', height: '56px', borderRadius: '10px', flexShrink: '0', objectFit: 'cover' }} /> : null}
                         {sample ? (
                         <span
                           style={{
@@ -2839,6 +2849,8 @@ function template(v) {
         {relSecOn ? (
         <section data-screen-label="Related Articles" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
+            {relOn ? (
+            <>
             <div
               style={{
                 display: 'flex',
@@ -2859,9 +2871,9 @@ function template(v) {
                 >
                   Keep reading
                 </span>
-                <h2 style={{ fontSize: '34px', marginTop: '10px' }} data-rc-lg="1">
-                  Related articles
-                </h2>
+                <Hrel style={{ fontSize: '34px', marginTop: '10px' }} data-rc-lg="1">
+                  {sample ? 'Related articles' : 'Related Posts'}
+                </Hrel>
               </div>
               <$A
                 href="/blog"
@@ -2908,7 +2920,7 @@ function template(v) {
                         background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
-                      {p?.img ? <img src={p.img.src} alt={p.img.alt} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
+                      {p?.img ? <img src={p.img.src} alt={p.img.alt} width={p.img.width || undefined} height={p.img.height || undefined} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
                       <span
                         style={{
                           position: 'absolute',
@@ -2929,11 +2941,11 @@ function template(v) {
                     <div
                       style={{ padding: '20px 22px', display: 'flex', flexDirection: 'column', gap: '9px', flex: '1' }}
                     >
-                      <h3 style={{ fontSize: '19px', lineHeight: '1.28' }}>
+                      <Hcard style={{ fontSize: '19px', lineHeight: '1.28' }}>
                         <$A className="scp0" href={p?.href} style={{ color: '#10233a' }}>
                           {$i(p?.title)}
                         </$A>
-                      </h3>
+                      </Hcard>
                       <p style={{ fontSize: '14.5px', lineHeight: '1.55', color: '#516378' }}>{$i(p?.excerpt)}</p>
                       <div
                         style={{
@@ -2958,6 +2970,8 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
+            </>
+            ) : null}
             {adjOn ? (
             <nav
               aria-label="Adjacent articles"
@@ -2989,6 +3003,7 @@ function template(v) {
                 >
                   ← Previous
                 </span>
+                {sample ? null : prevImg ? <img src={prevImg.src} alt={prevImg.alt} width={prevImg.width || undefined} height={prevImg.height || undefined} loading="lazy" style={{ width: '64px', height: '48px', objectFit: 'cover', borderRadius: '8px' }} /> : null}
                 <span style={{ font: '600 17px Jost,sans-serif' }}>
                   {sample ? "Am I Drinking Too Much? 10 Honest Questions to Ask Yourself" : prevTitle}
                 </span>
@@ -3020,6 +3035,7 @@ function template(v) {
                 >
                   Next →
                 </span>
+                {sample ? null : nextImg ? <img src={nextImg.src} alt={nextImg.alt} width={nextImg.width || undefined} height={nextImg.height || undefined} loading="lazy" style={{ width: '64px', height: '48px', objectFit: 'cover', borderRadius: '8px' }} /> : null}
                 <span style={{ font: '600 17px Jost,sans-serif' }}>
                   {sample ? "How to Stage an Intervention Without Losing Your Loved One" : nextTitle}
                 </span>

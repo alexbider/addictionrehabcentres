@@ -24,6 +24,7 @@ export type Row = {
   kind: 'hero-banner' | 'listing-banner' | 'content' | 'cta-banner' | 'help-block' | 'listing' | 'row';
   classes: string[];
   background_image: string | null;
+  background_dims?: [number, number] | null;
   columns: { classes: string[]; blocks: Block[] }[];
 };
 
@@ -32,6 +33,7 @@ export type Page = {
   route: string;
   page_type: string;
   template: string;
+  head?: { title: string | null; canonical: string | null; meta: [string, string, string][]; links: [string, string | null, string][]; ext_links?: [string, string, string][]; related?: { title: string; href: string; alt: string | null; date: string }[]; nav?: { prev?: { title: string; href: string; alt: string | null }; next?: { title: string; href: string; alt: string | null } } };
   seo: {
     meta_title: string;
     meta_description: string;

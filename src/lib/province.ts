@@ -6,7 +6,7 @@ export type ProvinceData = {
   h1: string;
   h2: string;
   intro: string[];
-  cards: { name: string; href: string | null; address: string; excerpt: string; category: string; image: { src: string; alt: string } | null }[];
+  cards: { name: string; href: string | null; address: string; excerpt: string; category: string; image: { src: string; alt: string; width: string | number | null; height: string | number | null } | null }[];
   guide: Block[];
   othersHeading: string;
   others: { label: string; href: string | null }[];
@@ -35,7 +35,7 @@ export function provinceData(page: Page): ProvinceData {
         if (!c || seen.has(h)) continue;
         seen.add(h);
         const path = new URL(c.href).pathname;
-        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: c.address, excerpt: c.excerpt, category: c.category, image: c.image ? { src: c.image.local_path, alt: c.image.alt } : null });
+        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: c.address, excerpt: c.excerpt, category: c.category, image: c.image ? { src: c.image.local_path, alt: c.image.alt, width: c.image.width ?? null, height: c.image.height ?? null } : null });
       }
     } else (sawCards ? guide : before).push(b);
   }

@@ -7,7 +7,7 @@ export type CityData = {
   h2: string;
   listHeading: string;
   listIntro: string[];
-  cards: { name: string; href: string | null; address: string; excerpt: string; category: string; catHref: string | null; image: { src: string; alt: string } | null }[];
+  cards: { name: string; href: string | null; address: string; excerpt: string; category: string; catHref: string | null; image: { src: string; alt: string; width: string | number | null; height: string | number | null } | null }[];
   guide: Block[];
   provinceLabel: string;
   provinceHref: string | null;
@@ -44,7 +44,7 @@ export function cityData(page: Page): CityData {
         seen.add(h);
         const path = new URL(c.href).pathname;
         const cat = categoryRoute[c.category];
-        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: c.address, excerpt: c.excerpt, category: c.category, catHref: cat && isPublishedRoute(cat) ? cat : null, image: c.image ? { src: c.image.local_path, alt: c.image.alt } : null });
+        cards.push({ name: c.name, href: isPublishedRoute(path) ? path : null, address: c.address, excerpt: c.excerpt, category: c.category, catHref: cat && isPublishedRoute(cat) ? cat : null, image: c.image ? { src: c.image.local_path, alt: c.image.alt, width: c.image.width ?? null, height: c.image.height ?? null } : null });
       }
     } else (sawCards ? guide : before).push(b);
   }

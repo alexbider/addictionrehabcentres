@@ -8,7 +8,7 @@ export function HelplineCard({ title = 'Reading for someone you love?', body = '
   return (
     <div style={{ background: 'linear-gradient(160deg,#0f5fa8,#0890E8)', borderRadius: '22px', padding: '26px', color: '#fff', display: 'flex', flexDirection: 'column', gap: '12px' }}>
       <span style={{ font: '500 12px Figtree,sans-serif', letterSpacing: '.14em', textTransform: 'uppercase', opacity: '.8' }}>Free helpline · 24/7</span>
-      <h3 style={{ fontSize: '22px', color: '#fff', lineHeight: '1.2' }}>{title}</h3>
+      <div style={{ fontSize: '22px', color: '#fff', lineHeight: '1.2', fontFamily: 'Jost,Helvetica,sans-serif', fontWeight: 600 }}>{title}</div>
       <p style={{ fontSize: '14px', lineHeight: '1.55', opacity: '.9' }}>{body}</p>
       <$A className="scp5" href="tel:+18558854747" style={{ marginTop: '6px', display: 'inline-flex', justifyContent: 'center', font: '600 16px Jost,sans-serif', color: '#0f5fa8', background: '#fff', padding: '12px 16px', borderRadius: '10px' }}>
         Call 1-855-885-4747
@@ -27,7 +27,7 @@ export function HelpSection({ heading, paragraphs = [], links = [], label = 'Let
       <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px', display: 'grid', gridTemplateColumns: '1.1fr .9fr', gap: '48px', alignItems: 'start' }} data-cols="1.1fr .9fr" data-rc-gap="1" data-rc-wrap="1">
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', minWidth: 0 }}>
           <span style={eyebrow}>{label}</span>
-          {heading ? <h2 style={{ fontSize: '36px', lineHeight: '1.12' }} data-rc-lg="1">{heading}</h2> : null}
+          {heading ? <h3 style={{ fontSize: '36px', lineHeight: '1.12' }} data-rc-lg="1">{heading}</h3> : null}
           {paragraphs.map((h, i) => (
             <p key={i} style={{ fontSize: '17px', lineHeight: '1.7', color: '#3b4d63' }} dangerouslySetInnerHTML={{ __html: h }} />
           ))}
@@ -57,13 +57,13 @@ export function LinkTiles({ kicker, heading, items = [], cols = 4, bg = '#f7fafd
       <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
         <div style={{ marginBottom: '28px' }}>
           {kicker ? <span style={eyebrow}>{kicker}</span> : null}
-          <h2 style={{ fontSize: '32px', marginTop: '8px' }}>{heading}</h2>
+          <h3 style={{ fontSize: '32px', marginTop: '8px' }}>{heading}</h3>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: `repeat(${cols},1fr)`, gap: '14px' }} data-cols={`repeat(${cols},1fr)`}>
           {items.map((it, i) => (
             it.href ? <$A key={i} className="scp1b" href={it.href} style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '16px', padding: '16px 18px', display: 'flex', alignItems: 'center', gap: '14px', color: '#10233a', transition: 'transform .18s,border-color .18s', font: '500 15px Figtree,sans-serif' }}>
-              {it.label}
-            </$A> : <span key={i} style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '16px', padding: '16px 18px', display: 'flex', alignItems: 'center', color: '#6b7f95', font: '500 15px Figtree,sans-serif' }}>{it.label}</span>
+              <h3 style={{ font: '500 15px Figtree,sans-serif', margin: 0, letterSpacing: 0 }}>{it.label}</h3>
+            </$A> : <span key={i} style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '16px', padding: '16px 18px', display: 'flex', alignItems: 'center', color: '#6b7f95', font: '500 15px Figtree,sans-serif' }}><h3 style={{ font: 'inherit', margin: 0 }}>{it.label}</h3></span>
           ))}
         </div>
       </div>

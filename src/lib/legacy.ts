@@ -4,7 +4,7 @@ import { provinceNavItems } from '@/lib/provinces';
 
 export type LegacyData = {
   h1: string;
-  bannerImage: { src: string; alt: string } | null;
+  bannerImage: { src: string; alt: string; width: number | null; height: number | null } | null;
   article: Block[];
   helpHeading: string;
   helpParagraphs: string[];
@@ -43,7 +43,7 @@ export function legacyData(page: Page): LegacyData {
   const drugs = getPublished().filter((e) => e.type === 'drug' && e.route !== page.route);
   return {
     h1: page.h1,
-    bannerImage: bg ? { src: bg, alt: '' } : null,
+    bannerImage: bg ? { src: bg, alt: '', width: hero?.background_dims?.[0] ?? null, height: hero?.background_dims?.[1] ?? null } : null,
     article,
     helpHeading,
     helpParagraphs,
@@ -53,7 +53,6 @@ export function legacyData(page: Page): LegacyData {
   };
 }
 
-/** Pages rendered on the Drug view (drug pages + the text-only Yukon province page) and on the Intervention view (treatment/support pages)
- *  so far — prototype set; everything else still uses the old component until its batch. */
-export const DRUG_VIEW_SLUGS = new Set(['heroin-addiction', 'cocaine-addiction', 'yukon-drug-rehab-treatments']);
-export const INTERVENTION_VIEW_SLUGS = new Set(['aa-support-group', 'drug-alcohol-helpline']);
+/** Drug view: the 24 drug pages and the text-only province pages (no centre cards). Intervention view: treatment / support pages. */
+export const isDrugView = (p: Page) => p.page_type === 'drug' || (p.page_type === 'province' && !(p.listing?.cards?.length));
+export const isInterventionView = (p: Page) => p.page_type === 'treatment-support' || p.page_type === 'support-service';

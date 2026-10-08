@@ -925,7 +925,9 @@ function template(v) {
                   <img
                     src={sample ? "/assets/img/drug-benzo-hero.jpg" : heroImg?.src}
                     alt={sample ? "Woman talking with a doctor about tapering her medication" : heroImg?.alt}
-                    loading="lazy"
+                    width={sample ? undefined : heroImg?.width || undefined}
+                    height={sample ? undefined : heroImg?.height || undefined}
+                    loading={sample ? "lazy" : "eager"}
                     style={{
                       position: 'absolute',
                       inset: '0',

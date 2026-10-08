@@ -14,6 +14,9 @@ export function centreOnView(slug: string): boolean {
   return viewSlugs.has(slug.replace(/^centre__/, ''));
 }
 
+const linkKey = (h: string) => { try { const u = new URL(h); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return h; } };
+export const centreLinkKey = linkKey;
+
 export type CentreData = {
   name: string;
   categories: string[];
@@ -22,7 +25,8 @@ export type CentreData = {
   phoneHref: string;
   website: string;
   address: string;
-  gallery: { src: string; alt: string }[];
+  gallery: { src: string; alt: string; width: number | null; height: number | null }[];
+  linkAttrs: Record<string, { rel: string; target: string }>;
   body: Block[];
   specs: { heading: string; items: string[]; text: string }[];
   email: string;
@@ -49,7 +53,9 @@ export function centreData(page: Page): CentreData {
     phoneHref: c.phone_href ? 'tel:' + c.phone_href.replace(/^tel:/, '').replace(/[^\d+]/g, '') : '',
     website: c.website,
     address: c.address,
-    gallery: c.gallery.map((g) => ({ src: g.src, alt: g.alt })),
+    gallery: c.gallery.map((g) => ({ src: g.src, alt: g.alt, width: g.width ?? null, height: g.height ?? null })),
+    // rel / target of each external link exactly as the source page has them
+    linkAttrs: Object.fromEntries((page.head?.ext_links ?? []).map(([h, rel, target]) => [linkKey(h), { rel, target }])),
     body: c.about_blocks,
     specs: c.specialty_groups,
     email: c.email,

@@ -946,12 +946,12 @@ class Component extends DCLogic {
       const g = D.gallery || [];
       const top = g.slice(0, 5);
       const n = top.length;
-      const img = (x, extra) => R('img', { src: x.src, alt: x.alt || '', loading: 'lazy', style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', borderRadius: '16px', background: '#eaf2f8', ...extra } });
+      const img = (x, extra, i = 1) => R('img', { src: x.src, alt: x.alt || '', width: x.width || undefined, height: x.height || undefined, loading: i === 0 ? 'eager' : 'lazy', fetchPriority: i === 0 ? 'high' : undefined, style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', borderRadius: '16px', background: '#eaf2f8', ...extra } });
       if (n) {
         const cols = n === 1 ? 'minmax(0,1fr)' : n === 2 ? '2fr 1fr' : n === 3 ? '2fr 1fr' : '2fr 1fr 1fr';
         const place = (i) => (n === 1 ? {} : n === 2 ? {} : n === 3 ? (i === 0 ? { gridRow: '1/3' } : {}) : n === 4 ? (i === 0 ? { gridRow: '1/3' } : i === 3 ? { gridColumn: '2/4' } : {}) : i === 0 ? { gridRow: '1/3' } : {});
         galleryNode = R('div', { style: { display: 'block' } },
-          R('div', { style: { display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n === 1 || n === 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map((x, i) => R('div', { key: i, style: { minHeight: 0, ...place(i) } }, img(x)))));
+          R('div', { style: { display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n === 1 || n === 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map((x, i) => R('div', { key: i, style: { minHeight: 0, ...place(i) } }, img(x, undefined, i)))));
       }
       const { nodes } = buildBody(R, D.body || [], { columns: true });
       bodyNodes = nodes.slice();
@@ -967,13 +967,15 @@ class Component extends DCLogic {
           ...D.hours.rows.map((r, i) => R('div', { key: i, style: { display: 'flex', justifyContent: 'space-between', gap: '16px', fontSize: '14.5px', padding: '8px 0', borderTop: i ? '1px solid #edf2f7' : '0' } }, R('span', { style: { color: '#516378' } }, r[0]), R('span', { style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', textAlign: 'right' } }, r[1])))));
       if (D.tags && D.tags.items.length) cards.push(card('tags', D.tags.heading ? label(D.tags.heading) : null, chips(D.tags.items)));
       if (cards.length) specAside = R('aside', { className: 'ctr-side', style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } }, ...cards);
+      const lk = (h) => { try { const u = new URL(h); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return h; } };
+      const attrOf = (h) => (D.linkAttrs && D.linkAttrs[lk(h)]) || {};
       const pillStyle = { font: '500 13.5px Figtree,sans-serif', color: '#516378', border: '1px solid #e3ecf4', padding: '8px 12px', borderRadius: '10px', textAlign: 'center' };
       const soc = { facebook: 'Facebook', twitter: 'Twitter', instagram: 'Instagram', youtube: 'YouTube', pinterest: 'Pinterest', linkedin: 'LinkedIn' };
       const socials = Object.entries(D.social || {}).filter(([, u]) => u);
       if (D.email || socials.length)
         contactExtra = R('div', { style: { borderTop: '1px solid #edf2f7', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' } },
           D.email ? R('a', { className: 'scp0', href: 'mailto:' + D.email, style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', overflowWrap: 'anywhere' } }, D.email) : null,
-          socials.length ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: '_blank', rel: 'noopener nofollow', style: pillStyle }, soc[k] || k))) : null);
+          socials.length ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: attrOf(u).target || undefined, rel: attrOf(u).rel || undefined, style: pillStyle }, soc[k] || k))) : null);
       // anchor menu (tab bar) for the sections that exist, and the Location block built from the real address
       const tabsList = [];
       if (D.body && D.body.length) tabsList.push({ label: 'About', href: '#about' });
@@ -984,7 +986,7 @@ class Component extends DCLogic {
         const q = encodeURIComponent(D.address);
         const cell = (k, v, href) => R('div', { key: k, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '14px', padding: '14px 16px', minWidth: 0 } },
           R('div', { style: { font: '600 11px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase', color: '#6b7f95' } }, k),
-          href ? R('a', { className: 'scp0', href, style: { display: 'block', font: '600 14.5px Jost,sans-serif', marginTop: '4px', color: '#10233a', overflowWrap: 'anywhere' } }, v) : R('div', { style: { font: '600 14.5px Jost,sans-serif', marginTop: '4px', lineHeight: 1.4, overflowWrap: 'anywhere' } }, v));
+          href ? R('a', { className: 'scp0', href, target: /^https?:/.test(href) ? attrOf(href).target || undefined : undefined, rel: /^https?:/.test(href) ? attrOf(href).rel || undefined : undefined, style: { display: 'block', font: '600 14.5px Jost,sans-serif', marginTop: '4px', color: '#10233a', overflowWrap: 'anywhere' } }, v) : R('div', { style: { font: '600 14.5px Jost,sans-serif', marginTop: '4px', lineHeight: 1.4, overflowWrap: 'anywhere' } }, v));
         const cells = [cell('Address', D.address)];
         if (D.phoneText) cells.push(cell('Phone', D.phoneText, D.phoneHref));
         if (D.website) cells.push(cell('Website', D.website.replace(/^https?:\/\//, '').replace(/\/$/, ''), D.website));
@@ -1022,6 +1024,8 @@ class Component extends DCLogic {
       phoneText: D ? D.phoneText : '',
       phoneOn: !D || !!D.phoneHref,
       siteHref: D ? D.website : '#',
+      siteRel: D ? ((D.linkAttrs && D.linkAttrs[(() => { try { const u = new URL(D.website); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return D.website; } })()]) || {}).rel || undefined : undefined,
+      siteTarget: D ? ((D.linkAttrs && D.linkAttrs[(() => { try { const u = new URL(D.website); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return D.website; } })()]) || {}).target || undefined : undefined,
       siteOn: !D || !!D.website,
       asideOn: true,
       tabsOn: !D || liveTabs.length >= 2,
@@ -1178,6 +1182,8 @@ function template(v) {
     phoneText,
     phoneOn,
     siteHref,
+    siteRel,
+    siteTarget,
     siteOn,
     asideOn,
     aboutOn,
@@ -1724,6 +1730,7 @@ function template(v) {
                   </span>
                 </div>
                 ) : null}
+                {sample ? null : <h3 style={{ font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95', margin: 0 }}>Contact</h3>}
                 {phoneOn ? (
                 <$A
                   className="scp1"
@@ -1766,6 +1773,8 @@ function template(v) {
                   <$A
                     className="scps"
                     href={siteHref}
+                    rel={siteRel}
+                    target={siteTarget}
                     style={{
                       font: '500 13.5px Figtree,sans-serif',
                       color: '#516378',

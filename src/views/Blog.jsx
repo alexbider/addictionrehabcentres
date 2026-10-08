@@ -356,7 +356,7 @@ class Component extends DCLogic {
       ),
     ];
     const posts = live
-      ? this.props.posts.map((p) => ({ title: p.title, category: p.category, categories: p.categories, excerpt: p.excerpt, author: '', date: p.date || '', read: null, photo: p.image ? p.image.src : '', alt: p.image ? p.image.alt : '', href: p.href, initials: '' }))
+      ? this.props.posts.map((p) => ({ title: p.title, category: p.category, categories: p.categories, excerpt: p.excerpt, author: '', date: p.date || '', read: null, photo: p.image ? p.image.src : '', alt: p.image ? p.image.alt : '', w: p.image ? p.image.width : null, h: p.image ? p.image.height : null, href: p.href, initials: '' }))
       : samplePosts;
     const catNames = live
       ? ['All', ...this.props.cats.map((c) => c.label)]
@@ -819,8 +819,11 @@ function template(v) {
                   >
                     <img
                       src={lead?.photo}
-                      alt=""
-                      loading="lazy"
+                      alt={livePosts ? lead?.alt || '' : ''}
+                      width={lead?.w || undefined}
+                      height={lead?.h || undefined}
+                      loading={livePosts ? 'eager' : 'lazy'}
+                      fetchPriority={livePosts ? 'high' : undefined}
                       style={{
                         position: 'absolute',
                         inset: '0',
@@ -959,7 +962,9 @@ function template(v) {
                         >
                           <img
                             src={p?.photo}
-                            alt=""
+                            alt={livePosts ? p?.alt || '' : ''}
+                            width={p?.w || undefined}
+                            height={p?.h || undefined}
                             loading="lazy"
                             style={{
                               position: 'absolute',
@@ -1134,6 +1139,8 @@ function template(v) {
                         <img
                           src={p?.photo}
                           alt={livePosts ? p?.alt || '' : ''}
+                          width={p?.w || undefined}
+                          height={p?.h || undefined}
                           loading="lazy"
                           style={{
                             position: 'absolute',
