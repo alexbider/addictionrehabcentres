@@ -2,7 +2,7 @@
 export const ROLLOUT = {
   blogPosts: true,   // BlogPost view, all 186 posts
   drug: true,        // Drug view: 24 drug pages + 5 text-only provinces
-  treatment: false,  // Intervention view: 33 treatment / support pages
+  treatment: true,   // Intervention view: 33 treatment / support pages
   cityArchives: false, // Province listing design: 59 city archives under /listing-location/
   alcohol: false,    // Alcohol view
   document: false,   // Document view: about, FAQ, legal pages

@@ -775,7 +775,7 @@ function template(v) {
                     >
                       Talk to a specialist
                     </span>
-                    <h3 style={{ fontSize: '19px', color: '#fff', lineHeight: '1.25' }}>Need an interventionist?</h3>
+                    <div style={{ fontSize: '19px', color: '#fff', lineHeight: '1.25' }}>Need an interventionist?</div>
                     <p style={{ fontSize: '13.5px', lineHeight: '1.5', opacity: '.9' }}>
                       We can connect you with a rehab centre that has trained interventionists on staff.
                     </p>
@@ -1601,7 +1601,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <HelpSection heading={liveHelp.heading} blocks={liveHelp.blocks} links={liveHelp.links} label="Let us help" />}
+        {sample ? null : <HelpSection heading={liveHelp.heading} blocks={liveHelp.blocks} links={liveHelp.links} />}
         <SiteFooter />
       </div>
     </>
