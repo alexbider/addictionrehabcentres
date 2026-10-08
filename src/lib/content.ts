@@ -32,6 +32,7 @@ export type Page = {
   slug: string;
   route: string;
   page_type: string;
+  category?: { slug: string; name: string; page: number; pages: number; posts: string[]; total: number };
   template: string;
   head?: { title: string | null; canonical: string | null; meta: [string, string, string][]; links: [string, string | null, string][]; ext_links?: [string, string, string][]; headings?: [string, string][]; related?: { title: string; href: string; alt: string | null; date: string }[]; nav?: { prev?: { title: string; href: string; alt: string | null }; next?: { title: string; href: string; alt: string | null } } };
   seo: {

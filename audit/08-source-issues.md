@@ -277,3 +277,10 @@ Calgary, Ottawa, St. John's, Toronto, Vancouver (2 pages each) and Winnipeg (3 p
 
 ## 28. Batch (e) view mapping
 No separate Alcohol/Document view conversion was done: /alcohol-addiction-treatment/ renders on the Drug view (same hero/article/provinces/help structure), and About Us, Getting Started, Our Philosophy, FAQs, the four legal pages and /drugs-and-alcohol-intervention/ render on the Intervention view ("Document view" = the Intervention article layout, source text only). /drug-intervention-treatment-centres/ stays unpublished: it embeds centre cards (needs a card component).
+
+## 29. Source URLs outside the audited inventory (found in step 3)
+- /addiction-by-alcohol/ (indexable, 489 words) was not in the audit; scraped and built (Alcohol page type).
+- /category/ archives: 13 with 3+ posts built on the Blog view (29 pages incl. /page/N/); 13 with 1-2 posts 301 to /blog/.
+- /listing-category/ (13): province listings that duplicate the province pages; 301 to the province page (PEI, Mexico, DUI lawyers to home).
+- WooCommerce/account/search URLs (/cart/, /checkout/ (302 on source), /my-account/, /shop/, /user-dashboard/, /search/, /search-listing/) have no content to migrate; 301 to home. /pricing/, /promote-your-centre/ -> /promote/, /claim-your-listing/ -> /claim-listing/.
+- Full list with targets and reasons: audit/18-redirects.csv (for approval); every source sitemap URL and its new status: audit/18-source-url-accounting.csv.

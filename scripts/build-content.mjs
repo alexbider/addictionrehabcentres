@@ -29,7 +29,7 @@ const fixExcerpt = (slug, ex) => {
 const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 
 // Page types that have a view today.
-const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info']);
+const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info', 'category']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
 const LIVE_SLUGS = new Set(['blog', 'home']); // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.
@@ -307,7 +307,7 @@ for (const f of files) {
     head: SOURCE_HEAD[key] ? { title: SOURCE_HEAD[key].title, canonical: SOURCE_HEAD[key].canonical, meta: SOURCE_HEAD[key].meta, links: SOURCE_HEAD[key].links, ext_links: SOURCE_HEAD[key].ext_links, headings: SOURCE_HEAD[key].headings, related: SOURCE_HEAD[key].related, nav: SOURCE_HEAD[key].nav } : undefined,
     h1: d.h1, word_count: d.word_count, source: d.source,
     rows, listing, centre, post: d.post, faqs: isCentre ? undefined : d.faqs,
-    blocks, blog_cards: blogCards,
+    blocks, blog_cards: blogCards, category: d.category,
   };
   fs.writeFileSync(path.join(OUT, key + '.json'), JSON.stringify(live ? unlinkThinPosts(slim, d.new_route) : slim));
   if (live) published.add(key);
@@ -321,7 +321,8 @@ fs.writeFileSync(path.join(root, 'audit/10-omitted-images.json'), JSON.stringify
 const baseRedirects = [{ source: '/saskatchewan-rehabs', destination: '/saskatchewan-drug-rehab-treatment/', note: 'approved: thin province page (2 cards, 2 words) -> text page for the same province' }];
 if (BATCH === Infinity || process.env.WRITE_REDIRECTS) {
   const tr = thinRedirects.map((x) => ({ source: x.old.replace(/\/$/, ''), destination: x.target, note: 'thin centre (' + x.words + ' words) -> province page; pending client approval' }));
-  fs.writeFileSync(path.join(root, 'src/lib/redirects.json'), JSON.stringify([...baseRedirects, ...tr], null, 1));
+  // redirects.json is now owned by audit/scripts/make_redirects.py (all source URLs, city/province targets)
+  //  fs.writeFileSync(path.join(root, 'src/lib/redirects.json'), JSON.stringify([...baseRedirects, ...tr], null, 1));
   const q = (s) => '"' + String(s).replace(/"/g, '""') + '"';
   fs.writeFileSync(path.join(root, 'audit/thin-centre-redirects.csv'), ['old_url,target,word_count,centre,province', ...thinRedirects.sort((a, b) => a.old.localeCompare(b.old)).map((x) => [q('https://addictionrehabcenters.ca' + x.old), q(x.target), x.words, q(x.name), q(x.province)].join(','))].join('\n') + '\n');
 }

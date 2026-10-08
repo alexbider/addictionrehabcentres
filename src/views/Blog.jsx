@@ -443,7 +443,7 @@ class Component extends DCLogic {
     const tagIcon = ic.s(['M20 12l-8 8-9-9V3h8l9 9z', { t: 'circle', a: { cx: 7.5, cy: 7.5, r: 1.2 } }]);
     const hubsLive = live ? this.props.cats.slice(0, 6).map((c) => ({ label: c.label, href: '/blog/?category=' + c.slug, icon: tagIcon, count: c.count })) : [];
     const stepsLive = live ? this.props.cats.slice(0, 4).map((c) => ({ n: '', title: c.label, body: c.count + (c.count === 1 ? ' article' : ' articles'), href: '/blog/?category=' + c.slug })) : [];
-    const popular = [posts[0], posts[4], posts[7], posts[2]].map((p, i) => ({
+    const popular = [posts[0], posts[4], posts[7], posts[2]].filter(Boolean).map((p, i) => ({
       n: String(i + 1).padStart(2, '0'),
       title: p.title,
     }));
@@ -817,7 +817,8 @@ function template(v) {
                     aria-label={lead?.title}
                     style={{ overflow: 'hidden', position: 'absolute', inset: '0', background: '#1c3352' }}
                   >
-                    <img
+                    {lead?.photo ? (
+<img
                       src={lead?.photo}
                       alt={livePosts ? lead?.alt || '' : ''}
                       width={lead?.w || undefined}
@@ -833,6 +834,7 @@ function template(v) {
                         display: 'block',
                       }}
                     />
+) : null}
                   </$A>
                   <div
                     style={{
@@ -960,7 +962,8 @@ function template(v) {
                             overflow: 'hidden',
                           }}
                         >
-                          <img
+                          {p?.photo ? (
+<img
                             src={p?.photo}
                             alt={livePosts ? p?.alt || '' : ''}
                             width={p?.w || undefined}
@@ -975,6 +978,7 @@ function template(v) {
                               display: 'block',
                             }}
                           />
+) : null}
                         </$A>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '9px' }}>
                           <$A
