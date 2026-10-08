@@ -274,7 +274,7 @@ class Component extends DCLogic {
     const locations = [
       ...provinces.map((p) => ({ label: p.label, href: p.href, code: p.code })),
       { label: 'Nunavut Rehabs', href: B + 'nunavut-drug-rehab-centers/', code: 'NU' },
-      { label: 'Yukon Rehabs', href: B + 'rehab/yukon-drug-rehab-treatments/', code: 'YT' },
+      { label: 'Yukon Rehabs', href: B + 'yukon-drug-rehab-treatments/', code: 'YT' },
     ];
 
     // Up to 10 centres — populated from the backend later. Google rating/review counts are sample values.
@@ -283,7 +283,7 @@ class Component extends DCLogic {
         name: 'Inspire Change Wellness Center',
         href: B + 'inspire-change-wellness-center/',
         category: 'British Columbia Rehabs',
-        catHref: B + 'listing-category/british-columbia-rehabs/',
+        catHref: B + 'british-columbia-rehabs/',
         address: '15216 North Bluff Rd, White Rock, BC V4B 0A7, Canada',
         excerpt:
           'Welcome to Inspire Change Wellness. We offer addiction treatment services and mental health care for…',
@@ -297,7 +297,7 @@ class Component extends DCLogic {
         name: 'Rose City Recovery Addiction Treatment Centre',
         href: B + 'rose-city-recovery-addiction-treatment-centre/',
         category: 'Ontario Rehabs',
-        catHref: B + 'listing-category/ontario-rehabs/',
+        catHref: B + 'ontario-rehabs/',
         address: '371 Niagara St, Welland, ON L3C 1L1, Canada',
         excerpt:
           'Rose City Recovery is a leading addiction treatment center in Welland, Ontario, dedicated to providi…',
@@ -311,7 +311,7 @@ class Component extends DCLogic {
         name: 'Metamorphosis Centre for Change',
         href: B + 'metamorphosis-centre-for-change/',
         category: 'Ontario Rehabs',
-        catHref: B + 'listing-category/ontario-rehabs/',
+        catHref: B + 'ontario-rehabs/',
         address: 'Wasaga Beach, ON, Canada',
         excerpt:
           'Metamorphosis Centre for Change: A Philosophy of Transformation. Metamorphosis Centre for Change aims…',

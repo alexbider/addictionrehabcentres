@@ -80,13 +80,13 @@ export function buildBody(R, rawBlocks, opts = {}) {
       const lab = { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#0890E8' };
       return R('div', { key, style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(100%,260px),1fr))', gap: '20px', margin: '8px 0' } },
         ...b.items.map((it, k) => R('article', { key: k, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', overflow: 'hidden', display: 'flex', flexDirection: 'column', minWidth: 0 } },
-          it.image ? R('a', { href: it.href, tabIndex: -1, 'aria-hidden': true, style: { display: 'block', aspectRatio: '4/3', background: '#dfeaf3' } }, R('img', { src: it.image.src, alt: it.image.alt || '', width: it.image.width || undefined, height: it.image.height || undefined, loading: 'lazy', style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' } })) : null,
+          it.image ? R(it.href ? 'a' : 'div', { href: it.href || undefined, tabIndex: it.href ? -1 : undefined, 'aria-hidden': it.href ? true : undefined, style: { display: 'block', aspectRatio: '4/3', background: '#dfeaf3' } }, R('img', { src: it.image.src, alt: it.image.alt || '', width: it.image.width || undefined, height: it.image.height || undefined, loading: 'lazy', style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block' } })) : null,
           R('div', { style: { padding: '18px 20px 20px', display: 'flex', flexDirection: 'column', gap: '8px', minWidth: 0 } },
             it.category ? R('span', { style: lab }, it.category) : null,
-            R('h3', { style: { fontSize: '19px', lineHeight: '1.25', color: '#10233a', overflowWrap: 'anywhere' } }, R('a', { href: it.href, style: { color: '#10233a' } }, it.name)),
+            R('h3', { style: { fontSize: '19px', lineHeight: '1.25', color: '#10233a', overflowWrap: 'anywhere' } }, it.href ? R('a', { href: it.href, style: { color: '#10233a' } }, it.name) : it.name),
             it.address ? R('p', { style: { fontSize: '14px', lineHeight: '1.5', color: '#516378', margin: 0, overflowWrap: 'anywhere' } }, it.address) : null,
             it.excerpt ? R('p', { style: { fontSize: '14.5px', lineHeight: '1.6', color: '#3b4d63', margin: 0 } }, it.excerpt) : null,
-            R('a', { href: it.href, style: { font: '600 15px Jost,sans-serif', color: '#0890E8', marginTop: '4px', display: 'inline-flex', alignItems: 'center', minHeight: '44px' } }, 'View centre')))));
+            it.href ? R('a', { href: it.href, style: { font: '600 15px Jost,sans-serif', color: '#0890E8', marginTop: '4px', display: 'inline-flex', alignItems: 'center', minHeight: '44px' } }, 'View centre') : null))));
     }
     if (b.type === 'link') return R('p', { key }, R('a', { href: b.new_href || b.href }, b.text));
     if (b.type === 'blockquote') return R('blockquote', { key, style: { margin: 0, padding: '22px 26px', background: '#f7fafd', borderRadius: '20px' }, dangerouslySetInnerHTML: { __html: clean(b.html) } });

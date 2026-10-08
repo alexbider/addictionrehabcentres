@@ -36,8 +36,8 @@
  },
  {
   "source": "/alcohol-rehab",
-  "destination": "/",
-  "note": "source 301s /alcohol-rehab/ -> / (header menu link in the design)"
+  "destination": "/alcohol-addiction-treatment/",
+  "note": "source 301s to Home; the design links to it, so it goes to the alcohol treatment page"
  },
  {
   "source": "/alcoholics-anonymous",
@@ -121,8 +121,8 @@
  },
  {
   "source": "/cart",
-  "destination": "/",
-  "note": "WooCommerce utility page (noindex on source) -> home"
+  "destination": "/contact/",
+  "note": "WooCommerce utility page (noindex on source) -> Contact (no content to migrate)"
  },
  {
   "source": "/category/addiction-remedies",
@@ -201,8 +201,8 @@
  },
  {
   "source": "/checkout",
-  "destination": "/",
-  "note": "WooCommerce utility page (302 to /cart/ on source) -> home"
+  "destination": "/contact/",
+  "note": "WooCommerce utility page (302 to /cart/ on source) -> Contact (no content to migrate)"
  },
  {
   "source": "/christian-counselling",
@@ -218,11 +218,6 @@
   "source": "/cole-harbour-place",
   "destination": "/listing-location/dartmouth/",
   "note": "thin centre -> city archive"
- },
- {
-  "source": "/dui-lawyers-in-canada",
-  "destination": "/",
-  "note": "out-of-scope (approved: skipped) -> home"
  },
  {
   "source": "/eden-mental-health",
@@ -271,8 +266,8 @@
  },
  {
   "source": "/irecover-newfoundland",
-  "destination": "/",
-  "note": "out-of-scope centre (approved: skipped) -> home"
+  "destination": "/nova-scotia-rehabs/",
+  "note": "out-of-scope centre (approved: skipped) -> province page"
  },
  {
   "source": "/karapancev-law-professional-corporation",
@@ -291,8 +286,8 @@
  },
  {
   "source": "/listing-category/dui-lawyers-ontario",
-  "destination": "/",
-  "note": "out-of-scope (approved: skipped) -> home"
+  "destination": "/dui-lawyers-in-canada/",
+  "note": "DUI lawyers archive -> the DUI lawyers page"
  },
  {
   "source": "/listing-category/manitoba-rehabs",
@@ -301,8 +296,8 @@
  },
  {
   "source": "/listing-category/mexico",
-  "destination": "/",
-  "note": "out-of-scope (approved: skipped) -> home"
+  "destination": "/search/",
+  "note": "out-of-scope (Mexico, approved: skipped) -> site search"
  },
  {
   "source": "/listing-category/new-brunswick-rehabs",
@@ -331,8 +326,8 @@
  },
  {
   "source": "/listing-category/prince-edward-island-rehabs",
-  "destination": "/",
-  "note": "province archive with 1 centre and no PEI page -> home"
+  "destination": "/nova-scotia-rehabs/",
+  "note": "province archive with 1 centre and no PEI page -> nearest Atlantic province page"
  },
  {
   "source": "/listing-category/quebec-rehabs",
@@ -426,7 +421,7 @@
  },
  {
   "source": "/listing-location/breadalbane",
-  "destination": "/",
+  "destination": "/nova-scotia-rehabs/",
   "note": "thin city archive (1 centre) -> province page"
  },
  {
@@ -1156,8 +1151,8 @@
  },
  {
   "source": "/my-account",
-  "destination": "/",
-  "note": "WooCommerce utility page (noindex on source) -> home"
+  "destination": "/contact/",
+  "note": "WooCommerce utility page (noindex on source) -> Contact (no content to migrate)"
  },
  {
   "source": "/mylene-dastous",
@@ -1211,8 +1206,8 @@
  },
  {
   "source": "/prince-edward-island-rehabs",
-  "destination": "/",
-  "note": "thin province page (no PEI listings or text page) -> home"
+  "destination": "/nova-scotia-rehabs/",
+  "note": "thin province page (no PEI listings or text page) -> nearest Atlantic province page"
  },
  {
   "source": "/promote-your-centre",
@@ -1226,8 +1221,8 @@
  },
  {
   "source": "/rehab",
-  "destination": "/",
-  "note": "source 301s /rehab/ -> / (the design buttons link to it)"
+  "destination": "/search/",
+  "note": "source 301s to Home; the design buttons are rehab finders, so they go to the site search"
  },
  {
   "source": "/rehab/search",
@@ -1256,8 +1251,8 @@
  },
  {
   "source": "/sayulita-wellness-retreat",
-  "destination": "/",
-  "note": "out-of-scope centre (approved: skipped) -> home"
+  "destination": "/search/",
+  "note": "out-of-scope centre (approved: skipped) -> province page"
  },
  {
   "source": "/search-listing",
@@ -1271,8 +1266,8 @@
  },
  {
   "source": "/search-listing/hope-valley",
-  "destination": "/",
-  "note": "out-of-scope centre (approved: skipped) -> home"
+  "destination": "/newfoundland-and-labrador-rehabs/",
+  "note": "thin centre -> province page"
  },
  {
   "source": "/search-listing/s-p-e-a-k",
@@ -1281,8 +1276,8 @@
  },
  {
   "source": "/search-listing/vitalita-health-network",
-  "destination": "/",
-  "note": "out-of-scope centre (approved: skipped) -> home"
+  "destination": "/new-brunswick-rehabs/",
+  "note": "thin centre -> province page"
  },
  {
   "source": "/selkirk-interlake-mental-health-support-centre-inc",
@@ -1301,8 +1296,8 @@
  },
  {
   "source": "/shop",
-  "destination": "/",
-  "note": "empty WooCommerce shop (8 words) -> home"
+  "destination": "/contact/",
+  "note": "empty WooCommerce shop (8 words); no content to migrate, closest page is Contact"
  },
  {
   "source": "/southwest-community-options",
@@ -1336,8 +1331,8 @@
  },
  {
   "source": "/user-dashboard",
-  "destination": "/",
-  "note": "account dashboard (21 words, needs login) -> home"
+  "destination": "/contact/",
+  "note": "account dashboard (21 words, needs login); no content to migrate, closest page is Contact"
  },
  {
   "source": "/vanier-childrens-services",

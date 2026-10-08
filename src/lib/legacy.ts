@@ -21,11 +21,16 @@ const normT = (t: string) => t.replace(/[\u2018\u2019]/g, "'").replace(/\s+/g, '
 
 /** The scraper reads some WPBakery headings (<h2> in a text column) as paragraphs. When a paragraph is exactly a heading of the live source outline
  *  it is rendered as that heading (same text, same level); nothing else changes. */
+/** Centre cards only link to centres that have a page; others (out of scope or thin) are shown as text. */
+function unlinkMissing(blocks: Block[]): Block[] {
+  return blocks.map((b) => (b.type === 'centre-cards' ? { ...b, items: b.items.map((it) => (isPublishedRoute(it.href) ? it : { ...it, href: '' })) } : b));
+}
+
 function promote(blocks: Block[], page: Page): Block[] {
   const outline = (page.head?.headings ?? []).filter(([l]) => l !== 'h1').map(([l, t]) => [l, normT(t)] as [string, string]);
   const used = new Set<number>();
   const present = new Set(blocks.filter((b) => /^h[2-6]$/.test(b.type)).map((b) => normT((b as { text: string }).text)));
-  return blocks.map((b) => {
+  return unlinkMissing(blocks).map((b) => {
     if (b.type !== 'p' || !('html' in b)) return b;
     const t = normT(strip(b.html));
     if (!t || present.has(t)) return b;

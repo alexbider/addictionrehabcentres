@@ -27,13 +27,45 @@ const fixExcerpt = (slug, ex) => {
   if (!CUTS_R) { const n = fixes.length; CUTS_R = {}; for (const [k, v] of Object.entries(CUTS)) CUTS_R[fixText(k)] = fixText(v.fixed); fixes.length = n; }
   return CUTS_R[`${slug}|${ex}`] ?? ex;
 };
+// Card excerpts: the source cuts them at ~100 characters (sometimes mid-sentence, sometimes at "[…]"). Rule used everywhere:
+// 1) already a finished sentence -> unchanged; 2) the centre's own first sentence when the card text is the start of it (and it is short) -> that sentence;
+// 3) otherwise cut at a whole word and end with "…" (a partial last word is dropped when the full text shows the word continues).
+const CENTRE_ABOUT = new Map(); // centre route -> first about paragraph (plain text)
+const plainText = (h) => String(h || '').replace(/<[^>]+>/g, ' ').replace(/&amp;/g, '&').replace(/&#8217;|&rsquo;/g, '\u2019').replace(/&nbsp;/g, ' ').replace(/\s+/g, ' ').trim();
+const nk = (t) => t.toLowerCase().replace(/[\u2018\u2019']/g, "'").replace(/\s+/g, ' ');
+// An excerpt from a centre's own text: its first sentence when it is short enough, else a whole-word cut with an ellipsis.
+function aboutExcerpt(full, max = 160) {
+  const f = plainText(full);
+  if (!f) return '';
+  const sent = f.match(/^[^.!?]*[.!?]/);
+  if (sent && sent[0].length >= 40 && sent[0].length <= max + 40) return sent[0].trim();
+  if (f.length <= max) return f;
+  return f.slice(0, max).replace(/\s+\S*$/, '').replace(/[,;:\-\u2013\u2014(]+$/, '') + '\u2026';
+}
+function finishExcerpt(ex, full = '') {
+  let t = plainText(ex).replace(/\s*\[\u2026\]\s*$/, '').replace(/\s*\u2026\s*$/, ' \u2026').trim();
+  if (!t) return ex;
+  const cut = / \u2026$/.test(t);
+  t = t.replace(/ \u2026$/, '');
+  if (!cut && /[.!?]["')\u201d]?$/.test(t)) return t;
+  if (full) {
+    const f = plainText(full), i = nk(f).indexOf(nk(t));
+    if (i === 0 || i > 0) {
+      const sent = f.slice(i).match(/^[^.!?]*[.!?]/);
+      const whole = sent && sent[0].length >= t.length && sent[0].length <= 220 ? sent[0].trim() : '';
+      if (whole && !/\s[A-Z]\.$/.test(whole)) return f.slice(0, i) === '' ? whole : t + '\u2026';
+      if (/\w/.test(f[i + t.length] || '')) t = t.replace(/\s*\S+$/, '');
+    }
+  }
+  return t.replace(/[,;:\-\u2013\u2014(]+$/, '').trim() + '\u2026';
+}
 const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 
 // Page types that have a view today.
 const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info', 'category']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
 const LIVE_SLUGS = new Set(['blog', 'home']);
-const SKIP_PAGES = new Set(['dui-lawyers-in-canada']); // out of scope (approved: skipped), 301 to home // the real blog index
+const SKIP_PAGES = new Set(); // (dui-lawyers-in-canada is published: real source content; its lawyer cards are unlinked, their pages are out of scope) // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.
 const isThin = (d) => {
   if (d.page_type === 'centre') return d.word_count < 60;
@@ -142,7 +174,7 @@ async function procBlocks(blocks, imgMap, folder, live, omitted, local) {
       const items = [];
       for (const it of b.items) {
         const im = it.image ? await local(it.image.original_url) : null;
-        items.push({ name: it.name, href: it.href.replace(/^https?:\/\/[^/]+/, ''), address: it.address, excerpt: fixExcerpt(hrefSlug(it.href), it.excerpt), category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
+        items.push({ name: it.name, href: it.href.replace(/^https?:\/\/[^/]+/, ''), address: it.address, excerpt: finishExcerpt(fixExcerpt(hrefSlug(it.href), it.excerpt), CENTRE_ABOUT.get(it.href.replace(/^https?:\/\/[^/]+/, ''))), category: it.category, image: im ? { src: im.web, alt: it.image.alt, width: im.width, height: im.height } : null });
       }
       res.push({ type: 'centre-cards', items }); continue;
     }
@@ -200,6 +232,7 @@ const ORIG2REL = new Map(); // source image URL (no query) -> local_path in audi
 for (const f of fs.readdirSync(SRC).filter((x) => x.endsWith('.json'))) {
   const d = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
   if (d.page_type === 'centre' && d.centre?.name) CENTRE_NAME.set(d.source.url, d.centre.name);
+  if (d.page_type === 'centre') CENTRE_ABOUT.set(d.new_route, ((d.centre?.about_blocks || []).find((b) => b.type === 'p' && b.html) || {}).html || '');
   for (const im of d.images || []) if (im.local_path && im.original_url && im.download !== 'failed') ORIG2REL.set(im.original_url.split('?')[0], im.local_path);
 }
 const OG_EXTRA = path.join(root, 'audit/data/og-extra.json');
@@ -279,7 +312,7 @@ for (const f of files) {
       if (seenHref.has(c.href)) continue;
       seenHref.add(c.href);
       const im = c.image ? byUrl[(c.image.src_original || '').split('?')[0]] : null;
-      cards.push({ name: c.name, href: c.href, slug: new URL(c.href).pathname.split('/').filter(Boolean).pop(), address: c.address, excerpt: '', category: tagsByHref.get(c.href) ?? c.category, reviews: 0,
+      cards.push({ name: c.name, href: c.href, slug: new URL(c.href).pathname.split('/').filter(Boolean).pop(), address: c.address, excerpt: aboutExcerpt(CENTRE_ABOUT.get(new URL(c.href).pathname)), category: tagsByHref.get(c.href) ?? c.category, reviews: 0,
         image: c.image && im?.local_path ? { local_path: im.local_path, alt: c.image.alt ?? '', width: c.image.width, height: c.image.height, original_url: c.image.src_original } : null });
     }
     const h2 = (d.blocks || []).find((b) => b.type === 'h2');
@@ -336,7 +369,7 @@ for (const f of files) {
     for (const c of d.blog_cards) {
       let image = null;
       if (c.image?.local_path && live) { const im = await publishImage(c.image.local_path, c.path.replace(/\//g, ''), CARD_W); if (im) image = { alt: c.image.alt, local_path: im.web, width: im.width, height: im.height }; }
-      blogCards.push({ path: c.path, title: c.title, excerpt: c.excerpt, image });
+      blogCards.push({ path: c.path, title: c.title, excerpt: finishExcerpt(c.excerpt), image });
     }
   }
   let listing = d.listing;
@@ -348,7 +381,7 @@ for (const f of files) {
         const im = await publishImage(c.image.local_path, c.slug, CARD_W);
         if (im) image = { ...c.image, local_path: im.web, width: im.width ? String(im.width) : c.image.width, height: im.height ? String(im.height) : c.image.height };
       }
-      cards.push({ ...c, excerpt: fixExcerpt(c.slug, c.excerpt), excerpt_source: c.excerpt, image });
+      cards.push({ ...c, excerpt: finishExcerpt(fixExcerpt(c.slug, c.excerpt), CENTRE_ABOUT.get('/' + c.slug + '/') || CENTRE_ABOUT.get(new URL(c.href).pathname)), excerpt_source: c.excerpt, image });
     }
     listing = { ...listing, cards };
   }

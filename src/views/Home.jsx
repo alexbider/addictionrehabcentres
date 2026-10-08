@@ -109,14 +109,24 @@ class Component extends DCLogic {
     if (this._io3) this._io3.disconnect();
     window.removeEventListener('resize', this._rs);
   }
-  perView = 3;
+  /** Cards per view: 1 on phones, 2 on tablets, 3 on desktop (matches the card width set in `slideCol`). */
+  perViewNow() {
+    const w = this.state.vw;
+    return w < 680 ? 1 : w < 1000 ? 2 : 3;
+  }
   slideTo(i, total) {
     const el = this.sliderRef.current;
     if (!el) return;
-    const pages = Math.max(1, Math.ceil(total / this.perView));
+    const per = this.perViewNow();
+    const pages = Math.max(1, Math.ceil(total / per));
     const page = Math.max(0, Math.min(pages - 1, i));
-    el.scrollTo({ left: page * el.clientWidth, behavior: 'smooth' });
+    const kid = el.children[Math.min(total - 1, page * per)];
+    if (kid) el.scrollTo({ left: Math.max(0, kid.offsetLeft - el.children[0].offsetLeft), behavior: 'smooth' });
     this.setState({ slide: page });
+  }
+  slideKey(e, total) {
+    if (e.key === 'ArrowRight') { e.preventDefault(); this.slideTo(this.state.slide + 1, total); }
+    else if (e.key === 'ArrowLeft') { e.preventDefault(); this.slideTo(this.state.slide - 1, total); }
   }
 
   icon(paths, extra) {
@@ -211,7 +221,7 @@ class Component extends DCLogic {
           { label: 'Ottawa Rehabs', href: B + 'ottawa-rehabs/' },
         ],
       },
-      { label: 'Prince Edward Island Rehabs', href: B + 'prince-edward-island-rehabs/', code: 'PE' },
+      { label: 'Prince Edward Island Rehabs', href: undefined, code: 'PE' }, // no PE page or centres: shown as plain text
       { label: 'Saskatchewan Rehabs', href: B + 'saskatchewan-rehabs/', code: 'SK' },
       {
         label: 'Quebec Rehabs',
@@ -361,7 +371,7 @@ class Component extends DCLogic {
     const locations = [
       ...provinces.map((p) => ({ label: p.label, href: p.href, code: p.code })),
       { label: 'Nunavut Rehabs', href: B + 'nunavut-drug-rehab-centers/', code: 'NU' },
-      { label: 'Yukon Rehabs', href: B + 'rehab/yukon-drug-rehab-treatments/', code: 'YT' },
+      { label: 'Yukon Rehabs', href: B + 'yukon-drug-rehab-treatments/', code: 'YT' },
     ];
 
     // Live data (props.data): the source home page's own images and centres; ratings, review counts and badges are never shown for real data.
@@ -372,7 +382,7 @@ class Component extends DCLogic {
         name: 'Inspire Change Wellness Center',
         href: B + 'inspire-change-wellness-center/',
         category: 'British Columbia Rehabs',
-        catHref: B + 'listing-category/british-columbia-rehabs/',
+        catHref: B + 'british-columbia-rehabs/',
         address: '15216 North Bluff Rd, White Rock, BC V4B 0A7, Canada',
         excerpt:
           'Welcome to Inspire Change Wellness. We offer addiction treatment services and mental health care for…',
@@ -386,7 +396,7 @@ class Component extends DCLogic {
         name: 'Rose City Recovery Addiction Treatment Centre',
         href: B + 'rose-city-recovery-addiction-treatment-centre/',
         category: 'Ontario Rehabs',
-        catHref: B + 'listing-category/ontario-rehabs/',
+        catHref: B + 'ontario-rehabs/',
         address: '371 Niagara St, Welland, ON L3C 1L1, Canada',
         excerpt:
           'Rose City Recovery is a leading addiction treatment center in Welland, Ontario, dedicated to providi…',
@@ -400,7 +410,7 @@ class Component extends DCLogic {
         name: 'Metamorphosis Centre for Change',
         href: B + 'metamorphosis-centre-for-change/',
         category: 'Ontario Rehabs',
-        catHref: B + 'listing-category/ontario-rehabs/',
+        catHref: B + 'ontario-rehabs/',
         address: 'Wasaga Beach, ON, Canada',
         excerpt:
           'Metamorphosis Centre for Change: A Philosophy of Transformation. Metamorphosis Centre for Change aims…',
@@ -620,7 +630,7 @@ class Component extends DCLogic {
         enter: setHov(p.code),
         go: () => {
           const l = byCode[p.code];
-          if (l) window.location.href = l.href;
+          if (l && l.href) window.location.href = l.href;
         },
         fill: on ? '#0890E8' : fillOf[p.code] || '#e6eef6',
         op: locIn ? (dim ? '.55' : '1') : '0',
@@ -701,7 +711,8 @@ class Component extends DCLogic {
       };
     });
     const { slide } = this.state;
-    const pages = Math.max(1, Math.ceil(centres.length / this.perView));
+    const per = this.perViewNow();
+    const pages = Math.max(1, Math.ceil(centres.length / per));
     const slideDots = Array.from({ length: pages }, (_, i) => ({
       go: () => this.slideTo(i, centres.length),
       w: i === slide ? '28px' : '8px',
@@ -709,7 +720,11 @@ class Component extends DCLogic {
     }));
     const onSlideScroll = (e) => {
       const el = e.currentTarget;
-      const pg = Math.round(el.scrollLeft / el.clientWidth);
+      const kids = el.children;
+      if (!kids.length) return;
+      const step = kids.length > 1 ? kids[1].offsetLeft - kids[0].offsetLeft : el.clientWidth;
+      const atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 4;
+      const pg = atEnd ? pages - 1 : Math.min(pages - 1, Math.floor(Math.round(el.scrollLeft / step) / per));
       if (pg !== this.state.slide) this.setState({ slide: pg });
     };
 
@@ -922,6 +937,9 @@ class Component extends DCLogic {
       onSlideScroll,
       slideDots,
       slidePos: slide + 1 + ' / ' + pages,
+      slideOn: pages > 1,
+      dotsOn: pages > 1 && pages <= 10,
+      slideKey: (e) => this.slideKey(e, centres.length),
       slidePrev: () => this.slideTo(slide - 1, centres.length),
       slideNext: () => this.slideTo(slide + 1, centres.length),
       topRef: this.topRef,
@@ -972,7 +990,7 @@ class Component extends DCLogic {
         }),
       ),
       centreCards,
-      slideCol: this.state.vw < 680 ? '85%' : this.state.vw < 1000 ? 'calc((100% - 24px)/2)' : 'calc((100% - 48px)/3)',
+      slideCol: this.state.vw < 680 ? '100%' : this.state.vw < 1000 ? 'calc((100% - 24px)/2)' : 'calc((100% - 48px)/3)',
       callText: this.state.vw >= 1180 || this.state.vw < 680 ? 'Call now' : 'Call',
       viewText: this.state.vw >= 1180 || this.state.vw < 680 ? 'View centre' : 'View',
       ...adVals,
@@ -1103,6 +1121,9 @@ function template(v) {
     regions,
     slideCol,
     slideDots,
+    slideOn,
+    dotsOn,
+    slideKey,
     slideNext,
     slidePos,
     slidePrev,
@@ -2070,6 +2091,7 @@ function template(v) {
                   Featured Residential Centers
                 </h2>
               </div>
+              {slideOn ? (
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <span style={{ fontSize: '14px', color: '#6b7f95', marginRight: '6px', whiteSpace: 'nowrap' }}>
                   {$i(slidePos)}
@@ -2135,12 +2157,18 @@ function template(v) {
                   />
                 </button>
               </div>
+              ) : null}
             </div>
             <div
               ref={sliderRef}
               onScroll={onSlideScroll}
+              onKeyDown={slideKey}
+              tabIndex={0}
+              role="group"
+              aria-roledescription="carousel"
+              aria-label="Featured treatment centres"
               style={$css(
-                `display:grid;grid-auto-flow:column;grid-auto-columns:${slideCol ?? ''};gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-top:12px;padding-bottom:24px;margin:-12px -32px 0;padding-left:32px;padding-right:32px`,
+                `display:grid;grid-auto-flow:column;grid-auto-columns:${slideCol ?? ''};gap:24px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;scrollbar-width:none;padding-top:12px;padding-bottom:24px;margin:-12px 0 0;padding-left:0;padding-right:0`,
               )}
             >
               {$list(centreCards).map((c, $index) => (
@@ -2428,12 +2456,13 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
+            {dotsOn ? (
             <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '24px' }}>
               {$list(slideDots).map((d, $index) => (
                 <Fragment key={$index}>
                   <button
                     onClick={d?.go}
-                    aria-label="Go to slide"
+                    aria-label={"Go to slide " + ($index + 1)}
                     style={$css(
                       `appearance:none;border:0;cursor:pointer;height:8px;width:${d?.w ?? ''};border-radius:999px;background:${d?.bg ?? ''};transition:width .2s,background .2s;padding:0`,
                     )}
@@ -2441,6 +2470,7 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
+            ) : null}
           </div>
         </section>
         <section
@@ -3019,7 +3049,7 @@ function template(v) {
               </$A>
               <div style={{ padding: '24px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <$A
-                  href="/listing-category/british-columbia-rehabs"
+                  href="/british-columbia-rehabs/"
                   style={{ font: '600 12px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase' }}
                 >
                   British Columbia Rehabs

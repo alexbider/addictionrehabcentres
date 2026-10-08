@@ -297,7 +297,7 @@ class Component extends DCLogic {
     const locations = [
       ...provinces.map((p) => ({ label: p.label, href: p.href, code: p.code })),
       { label: 'Nunavut Rehabs', href: B + 'nunavut-drug-rehab-centers/', code: 'NU' },
-      { label: 'Yukon Rehabs', href: B + 'rehab/yukon-drug-rehab-treatments/', code: 'YT' },
+      { label: 'Yukon Rehabs', href: B + 'yukon-drug-rehab-treatments/', code: 'YT' },
     ];
 
     // ---- Page data ----

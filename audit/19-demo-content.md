@@ -41,3 +41,9 @@ Auth, CentreOnboarding, ClaimTherapist, JoinDirectory, MenuOptions, ProviderDash
 
 ## Facts the source lacks (hidden, for the client)
 Google ratings and review counts, Verified / Featured / Top-rated medal badges, "paid placement" disclosures, "all 13 provinces" claim, hero statistics (4.1% etc. on Alcohol), analytics numbers, testimonials, prices.
+
+## Home: the 20 featured centres (rule)
+1. The centres the source home page features come first (Inspire Change Wellness Center, Rose City Recovery, Metamorphosis Centre for Change; the source's single "Top Rated Rehab" is the same Metamorphosis centre).
+2. The list is then filled up to 20 with real published centres that have a card image at least 600 px wide, a full description (at least 120 characters of the centre's own text) and a phone number, taken round-robin across provinces: provinces with the most centres go first and, within a province, the longest description first (ties alphabetical). Result: 3 from the source plus 17 spread over BC, ON, NS, AB, NB, MB, NL, QC, NT and SK.
+3. Cards show the centre's own photo (the 800 px card copy), city, whole-word description, its own phone number and a link to its page. No ratings, badges or rankings.
+The carousel shows 1 card per view below 680 px, 2 below 1000 px and 3 above; the counter shows pages ("1 / 7" on desktop, "1 / 20" on phones), arrows, dots (up to 10 pages) and the keyboard arrows work, and a single page hides the counter and buttons.

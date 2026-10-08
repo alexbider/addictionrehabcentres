@@ -302,3 +302,13 @@ Every og:image, twitter:image and JSON-LD image now points at a self-hosted WebP
 - City-archive card tags: the scraper had joined the tag texts without separators ("AftercareAssessment..."); they are now separate tags joined with " · " from the raw markup.
 - /residences/, /admissions/ and /nutrition-and-wellness/ are noindex,nofollow on the source and stay noindex here; /intervention/ is "index, nofollow" on the source and is kept as such.
 - Source /alcohol-rehab/, /rehab/, /rehab/search/, /rehab/yukon-drug-rehab-treatments/ 301 on the source; the design's links to them are covered by the same 301s.
+
+## 33. Links and redirects that used to end on Home
+The source 301s /rehab/, /alcohol-rehab/ and several utility URLs to Home, and the design's buttons ("Find A Drug Rehab", "Find a Rehab", "All locations") pointed at them, so they looked dead. Decisions (also in audit/18-redirects.csv):
+- Finder buttons and /rehab/, /rehab/search/, /search-listing/ -> /search/ (new site search).
+- Program buttons on Home -> the topic pages (drug rehabilitation, alcohol addiction treatment, prescription drugs, dual diagnosis).
+- /alcohol-rehab/ -> /alcohol-addiction-treatment/.
+- /dui-lawyers-in-canada/: the source page is real content (1,150 words: why a DUI lawyer, penalties, what lawyers do, best lawyers in Ontario, three lawyer listings). It is now built on the Intervention view; the three lawyer cards show as text (their pages are out of scope and redirect to /search/ or the province). The footer link is back. /listing-category/dui-lawyers-ontario/ -> /dui-lawyers-in-canada/.
+- /cart/, /checkout/, /my-account/, /shop/, /user-dashboard/ (empty or login-only commerce pages) -> /contact/.
+- Prince Edward Island (no centres, no page): header and Home show PEI as plain text; /prince-edward-island-rehabs/, its category archive and the PEI archive -> /nova-scotia-rehabs/ (nearest Atlantic page). Out-of-scope centres (Mexico, no province) -> /search/.
+- No redirect target is / any more. The header, footer and Home no longer link to any URL that is redirected (routes that only redirect are not treated as existing pages).

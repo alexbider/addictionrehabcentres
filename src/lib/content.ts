@@ -94,7 +94,8 @@ import redirects from './redirects.json';
 
 const STATIC_ROUTES = new Set(['/', '/contact/', '/blog/']);
 let routes: Set<string> | null = null;
-const routeSet = () => (routes ??= new Set([...STATIC_ROUTES, ...getPublished().map((e) => e.route), ...redirects.map((r) => r.source + '/')]));
+// Real pages only: links to a URL that is 301-redirected are hidden/plain text instead of bouncing the visitor elsewhere.
+const routeSet = () => (routes ??= new Set([...STATIC_ROUTES, '/search/', ...getPublished().map((e) => e.route)]));
 export function routeExists(route: string): boolean {
   const p = route.split('#')[0].split('?')[0];
   return routeSet().has(p.endsWith('/') ? p : p + '/');

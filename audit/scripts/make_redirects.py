@@ -5,7 +5,7 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[2]
 idx={e['route']:e for e in json.load(open(R/'content/_index.json'))}
 pub={r for r,e in idx.items() if e['published']}|{'/','/contact/','/intervention/','/blog/','/promote/','/claim-listing/','/search/'}
-PROV={'AB':'/alberta-rehabs/','BC':'/british-columbia-rehabs/','MB':'/manitoba-rehabs/','NB':'/new-brunswick-rehabs/','NL':'/newfoundland-and-labrador-rehabs/','NS':'/nova-scotia-rehabs/','NT':'/northwest-territories-rehabs/','NU':'/nunavut-drug-rehab-centers/','ON':'/ontario-rehabs/','QC':'/drug-alcohol-rehabs-in-quebec/','SK':'/saskatchewan-drug-rehab-treatment/','YT':'/yukon-drug-rehab-treatments/','PE':'/'}
+PROV={'AB':'/alberta-rehabs/','BC':'/british-columbia-rehabs/','MB':'/manitoba-rehabs/','NB':'/new-brunswick-rehabs/','NL':'/newfoundland-and-labrador-rehabs/','NS':'/nova-scotia-rehabs/','NT':'/northwest-territories-rehabs/','NU':'/nunavut-drug-rehab-centers/','ON':'/ontario-rehabs/','QC':'/drug-alcohol-rehabs-in-quebec/','SK':'/saskatchewan-drug-rehab-treatment/','YT':'/yukon-drug-rehab-treatments/','PE':'/nova-scotia-rehabs/'}
 red={}  # source(path with trailing slash) -> (target, reason)
 def add(src,dst,why):
     assert dst in pub,(src,dst)
@@ -35,26 +35,29 @@ for r,e in idx.items():
         parts=[x.strip() for x in ad.split(',')]
         city=parts[-3] if len(parts)>=3 else ''
         pc=prov_of([ad]); tgt=None
+        if not pc:
+            nm={'Newfoundland and Labrador':'NL','New Brunswick':'NB','Nova Scotia':'NS','Prince Edward Island':'PE','Ontario':'ON','British Columbia':'BC','Alberta':'AB','Manitoba':'MB','Saskatchewan':'SK','Quebec':'QC'}
+            pc=next((v for k,v in nm.items() if ad.endswith(k) or k in ad or any(c.startswith(k) for c in cats)),None)
         if city and f'/listing-location/{slugify(city)}/' in pub: tgt=f'/listing-location/{slugify(city)}/'; why='thin centre -> city archive'
         elif pc and PROV[pc]!='/': tgt=PROV[pc]; why='thin centre -> province page'
-        else: tgt='/'; why='out-of-scope centre (approved: skipped) -> home'
-        if e['reason'].startswith('out-of-scope'): why='out-of-scope centre (approved: skipped) -> '+('city archive' if 'listing-location' in tgt else 'province page' if tgt!='/' else 'home')
+        else: tgt='/search/'; why='out-of-scope centre (approved: skipped, outside Canada or no province) -> site search'
+        if e['reason'].startswith('out-of-scope'): why='out-of-scope centre (approved: skipped) -> '+('city archive' if 'listing-location' in tgt else 'province page' if tgt!='/' else 'search')
         add(r,tgt,why)
 # 3. thin posts, thin provinces
 for r,e in idx.items():
     if not e['published'] and e['type']=='blog-post': add(r,'/blog/','thin blog post -> blog index')
 add('/saskatchewan-rehabs/','/saskatchewan-drug-rehab-treatment/','approved: thin province page -> text page for the same province')
-add('/prince-edward-island-rehabs/','/','thin province page (no PEI listings or text page) -> home')
+add('/prince-edward-island-rehabs/','/nova-scotia-rehabs/','thin province page (no PEI listings or text page) -> nearest Atlantic province page')
 # 4. /listing-category/ province archives duplicate the province pages
 LC={'alberta-rehabs':'AB','british-columbia-rehabs':'BC','manitoba-rehabs':'MB','new-brunswick-rehabs':'NB','newfoundland-and-labrador-rehabs':'NL','northwest-territories-rehabs':'NT','nova-scotia-rehabs':'NS','ontario-rehabs':'ON','quebec-rehabs':'QC','saskatchewan-rehabs':'SK'}
 for k,pc in LC.items(): add(f'/listing-category/{k}/',PROV[pc],'province listing archive duplicates the province page -> province page')
-add('/listing-category/prince-edward-island-rehabs/','/','province archive with 1 centre and no PEI page -> home')
-add('/listing-category/mexico/','/','out-of-scope (approved: skipped) -> home')
-add('/listing-category/dui-lawyers-ontario/','/','out-of-scope (approved: skipped) -> home')
+add('/listing-category/prince-edward-island-rehabs/','/nova-scotia-rehabs/','province archive with 1 centre and no PEI page -> nearest Atlantic province page')
+add('/listing-category/mexico/','/search/','out-of-scope (Mexico, approved: skipped) -> site search')
+add('/listing-category/dui-lawyers-ontario/','/dui-lawyers-in-canada/','DUI lawyers archive -> the DUI lawyers page')
 # 5. thin /category/ archives (fewer than 3 posts)
 for p,n in json.load(open(R/'audit/data/categories-thin.json')): add(p,'/blog/',f'thin blog category ({n} post) -> blog index')
 # 6. utility / commerce / design-only URLs
-for p,t,w in [('/alcohol-rehab/','/','source 301s /alcohol-rehab/ -> / (header menu link in the design)'),('/rehab/yukon-drug-rehab-treatments/','/yukon-drug-rehab-treatments/','source 301s this URL (design menus link to it)'),('/rehab/search/','/search/','source 301s /rehab/search/ -> /search/; now the site search page'),('/rehab/','/','source 301s /rehab/ -> / (the design buttons link to it)'),('/cart/','/','WooCommerce utility page (noindex on source) -> home'),('/checkout/','/','WooCommerce utility page (302 to /cart/ on source) -> home'),('/my-account/','/','WooCommerce utility page (noindex on source) -> home'),('/shop/','/','empty WooCommerce shop (8 words) -> home'),('/user-dashboard/','/','account dashboard (21 words, needs login) -> home'),('/search-listing/','/search/','old search listing archive -> site search page'),('/pricing/','/promote/','pricing plans (64 words) -> Promote page'),('/promote-your-centre/','/promote/','same purpose as the Promote design page -> /promote/'),('/claim-your-listing/','/claim-listing/','same purpose as the Claim Listing design page -> /claim-listing/'),('/dui-lawyers-in-canada/','/','out-of-scope (approved: skipped) -> home')]:
+for p,t,w in [('/alcohol-rehab/','/alcohol-addiction-treatment/','source 301s to Home; the design links to it, so it goes to the alcohol treatment page'),('/rehab/yukon-drug-rehab-treatments/','/yukon-drug-rehab-treatments/','source 301s this URL (design menus link to it)'),('/rehab/search/','/search/','source 301s /rehab/search/ -> /search/; now the site search page'),('/rehab/','/search/','source 301s to Home; the design buttons are rehab finders, so they go to the site search'),('/cart/','/contact/','WooCommerce utility page (noindex on source) -> Contact (no content to migrate)'),('/checkout/','/contact/','WooCommerce utility page (302 to /cart/ on source) -> Contact (no content to migrate)'),('/my-account/','/contact/','WooCommerce utility page (noindex on source) -> Contact (no content to migrate)'),('/shop/','/contact/','empty WooCommerce shop (8 words); no content to migrate, closest page is Contact'),('/user-dashboard/','/contact/','account dashboard (21 words, needs login); no content to migrate, closest page is Contact'),('/search-listing/','/search/','old search listing archive -> site search page'),('/pricing/','/promote/','pricing plans (64 words) -> Promote page'),('/promote-your-centre/','/promote/','same purpose as the Promote design page -> /promote/'),('/claim-your-listing/','/claim-listing/','same purpose as the Claim Listing design page -> /claim-listing/'),]:
     if (p not in pub): add(p,t,w)
 # merge into redirects.json (sources without trailing slash)
 out=[{'source':s.rstrip('/'),'destination':d,'note':w} for s,(d,w) in sorted(red.items()) if s not in pub]

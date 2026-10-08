@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import path from 'node:path';
 import type { Block, Page } from '@/lib/content';
 import { getPage, getPageByRoute } from '@/lib/content';
 
@@ -17,6 +19,13 @@ export type HomeData = {
 
 const imgOf = (b: Block | undefined): Img | null => (b && b.type === 'image' ? { src: b.src, alt: b.alt ?? '', width: Number(b.width) || null, height: Number(b.height) || null } : null);
 
+/** Whole-word excerpt: cut at a word boundary and end with an ellipsis. */
+function ww(t: string, max = 170): string {
+  t = t.replace(/\s+/g, ' ').trim();
+  if (t.length <= max) return t;
+  return t.slice(0, max).replace(/\s+\S*$/, '').replace(/[,;:\-\u2013\u2014(]+$/, '') + '\u2026';
+}
+
 function cityOf(address: string): string {
   const parts = address.split(',').map((x) => x.trim()).filter((x) => x && x !== 'Canada');
   return parts.length >= 2 ? parts[parts.length - 2] + ', ' + parts[parts.length - 1].split(' ')[0] : address;
@@ -34,7 +43,7 @@ export function homeData(): HomeData | null {
     const c = cp?.centre;
     const g = c?.gallery?.[0];
     return {
-      name, city: cityOf(address), href, excerpt,
+      name, city: cityOf(address), href, excerpt: ww(excerpt.replace(/\s*(\+?1?[-\s]?\(?\d{3}\)?[-\s]?\d{3}[-\s]?\d{4})\s*$/, '')),
       tel: c?.phone_href || 'tel:+18558854747', phone: c?.phone_text || '1-855-885-4747',
       img: g ? { src: g.src, alt: g.alt || name, width: g.width ?? null, height: g.height ?? null } : fallback,
     };
@@ -58,6 +67,26 @@ export function homeData(): HomeData | null {
   if (topName) {
     const cp = getPageByRoute('/' + topName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '/');
     top.push(centreFor(cp?.route ?? topHref, topName, cp?.centre?.address ?? '', topPara?.text ?? '', imgOf(topFlat.find((b) => b.type === 'image'))));
+  }
+  // Fill up to 20: real centres with a card image (>= 600 px wide), a full description (>= 120 characters) and a phone number,
+  // taken round-robin across provinces (provinces with the most centres first, longest description first within a province).
+  const MAX = 20;
+  if (featured.length < MAX) {
+    type Rec = { n: string; u: string; c: string; p: string; a: string; d: string; i?: string; w?: number; h?: number; t?: string; k?: string };
+    const recs: Rec[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public/assets/search-index.json'), 'utf8'));
+    const have = new Set(featured.map((f) => f.href));
+    const ok = recs.filter((r) => !have.has(r.u) && r.i && (r.w ?? 0) >= 600 && r.d.length >= 120 && r.k);
+    const byProv = new Map<string, Rec[]>();
+    for (const r of ok) byProv.set(r.p, [...(byProv.get(r.p) ?? []), r]);
+    const order = [...byProv.entries()].sort((a, b) => b[1].length - a[1].length).map(([p, l]) => [p, l.sort((x, y) => y.d.length - x.d.length || x.n.localeCompare(y.n))] as const);
+    for (let round = 0; featured.length < MAX && round < 10; round++) {
+      for (const [, list] of order) {
+        const r = list[round];
+        if (!r || featured.length >= MAX) continue;
+        const parts = r.a.split(',').map((x) => x.trim()).filter((x) => x && x !== 'Canada');
+        featured.push({ name: r.n, city: r.c ? `${r.c}, ${r.p}` : parts.slice(-2).join(', '), href: r.u, excerpt: r.d, tel: 'tel:' + (r.k ?? '+18558854747').replace(/^tel:/, ''), phone: r.k ?? '1-855-885-4747', img: { src: r.i!, alt: r.t || r.n, width: r.w ?? null, height: r.h ?? null } });
+      }
+    }
   }
   const tabs = blocks.find((b) => b.type === 'tabs');
   const tabImgs = tabs && tabs.type === 'tabs' ? tabs.tabs.map((t) => imgOf(t.blocks.find((b) => b.type === 'image'))) : [];

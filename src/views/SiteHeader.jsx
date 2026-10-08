@@ -220,7 +220,7 @@ class Component extends DCLogic {
         const [label, p] = s.split('|');
         return { label, href: B + p + '/' };
       });
-    const pv = (code, label, p) => ({ code, label, href: B + p + '/' });
+    const pv = (code, label, p) => ({ code, label, href: p === 'prince-edward-island-rehabs' ? undefined : B + p + '/' }); // PE has no page: plain text
     const city = (label, href) => ({ icon: 'pin', label, href });
 
     const menus = (this.menus = {
@@ -248,7 +248,7 @@ class Component extends DCLogic {
             items: [
               pv('BC', 'British Columbia', 'british-columbia-rehabs'),
               pv('AB', 'Alberta', 'alberta-rehabs'),
-              pv('SK', 'Saskatchewan', 'saskatchewan-rehabs'),
+              pv('SK', 'Saskatchewan', 'saskatchewan-drug-rehab-treatment'),
               pv('MB', 'Manitoba', 'manitoba-rehabs'),
             ],
           },
@@ -272,7 +272,7 @@ class Component extends DCLogic {
             icon: 'snow',
             items: [
               pv('NT', 'Northwest Territories', 'northwest-territories-rehabs'),
-              pv('YT', 'Yukon', 'rehab/yukon-drug-rehab-treatments'),
+              pv('YT', 'Yukon', 'yukon-drug-rehab-treatments'),
               pv('NU', 'Nunavut', 'nunavut-drug-rehab-centers'),
             ],
           },
@@ -414,7 +414,7 @@ class Component extends DCLogic {
                 icon: 'bed',
                 label: 'Alcohol Rehab',
                 desc: 'Residential & outpatient programs',
-                href: B + 'alcohol-rehab/',
+                href: B + 'alcohol-addiction-treatment/',
               },
             ],
           },

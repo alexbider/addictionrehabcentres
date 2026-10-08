@@ -45,7 +45,7 @@ for (const e of idx.filter((x) => x.type === 'centre')) {
   const tags = [...new Set([...((c.tags || {}).items || []), ...(c.specialty_groups || []).flatMap((g) => g.items || [])].map((t) => t.replace(/al,/g, ',').trim()).flatMap((t) => t.split(',')).map((t) => t.trim()).filter(Boolean))];
   const aboutP = strip((c.about_blocks || []).find((b) => b.type === 'p' && b.html)?.html || '');
   const card = cardByRoute.get(e.route);
-  const desc = excerpt(card?.excerpt_source || card?.excerpt || aboutP || '');
+  const desc = excerpt(card?.excerpt || aboutP || '');
   const hay = tags.join(' ') + ' ' + c.name + ' ' + aboutP.slice(0, 300);
   const ty = Object.entries(RX).filter(([, rx]) => rx.test(hay)).map(([k]) => k);
   const g = card?.image || (c.gallery?.[0] ? { local_path: c.gallery[0].src, alt: c.gallery[0].alt, width: c.gallery[0].width, height: c.gallery[0].height } : null);
