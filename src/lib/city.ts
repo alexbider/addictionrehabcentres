@@ -1,6 +1,6 @@
 import type { Block, Card, Page } from '@/lib/content';
 import { isPublishedRoute, routeExists } from '@/lib/content';
-import { categoryRoute, provinceNav } from '@/lib/provinces';
+import { categoryRoute, provinceNav, provinceNavItems } from '@/lib/provinces';
 
 export type CityData = {
   h1: string;
@@ -12,7 +12,7 @@ export type CityData = {
   provinceLabel: string;
   provinceHref: string | null;
   othersHeading: string;
-  others: { label: string; href: string }[];
+  others: { label: string; href: string | null }[];
   popular: { label: string; href: string }[];
 };
 
@@ -58,11 +58,11 @@ export function cityData(page: Page): CityData {
   if (!introOnly) guide.unshift(...before);
   const cat = cards[0]?.category ?? '';
   const provinceHref = categoryRoute[cat] && isPublishedRoute(categoryRoute[cat]) ? categoryRoute[cat] : null;
-  const links = provinceNav.links.filter(([, h]) => routeExists(h) && h !== page.route);
+  const others = provinceNavItems(routeExists, page.route);
   return {
     h1: page.h1, h2: h2 && 'text' in h2 ? h2.text : '', listHeading, listIntro, cards, guide,
     provinceLabel: cat.replace(/ Rehabs$/, ''), provinceHref,
-    othersHeading: provinceNav.heading, others: links.map(([label, href]) => ({ label, href })),
+    othersHeading: provinceNav.heading, others,
     popular: POPULAR.filter(([, h]) => isPublishedRoute(h)).map(([label, href]) => ({ label, href })),
   };
 }

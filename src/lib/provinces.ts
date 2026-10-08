@@ -25,3 +25,8 @@ export const categoryRoute: Record<string, string> = {
   'New Brunswick Rehabs': '/new-brunswick-rehabs/', 'Manitoba Rehabs': '/manitoba-rehabs/', 'Newfoundland and Labrador Rehabs': '/newfoundland-and-labrador-rehabs/',
   'Quebec Rehabs': '/drug-alcohol-rehabs-in-quebec/', 'Saskatchewan Rehabs': '/saskatchewan-drug-rehab-treatment/', 'Northwest Territories Rehabs': '/northwest-territories-rehabs/',
 };
+
+/** Province links for the "Drug Rehab Centres By Provinces" blocks: a province whose page does not exist is shown as plain text (no link). */
+export function provinceNavItems(exists: (h: string) => boolean, current?: string): { label: string; href: string | null }[] {
+  return provinceNav.links.filter(([, h]) => h !== current).map(([label, h]) => ({ label, href: exists(h) ? h : null }));
+}
