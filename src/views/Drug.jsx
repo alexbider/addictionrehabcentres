@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { buildBody } from '@/dc/guide';
+import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -618,13 +620,37 @@ class Component extends DCLogic {
     ];
     const substance = this.state.substance ?? (substanceOptions.includes(drug) ? drug : 'Other / not sure');
 
+    // Live data (props.data): source content in source order; sections without source data are hidden (audit/15-design-gap.md).
+    const D = this.props.data || null;
+    const sample = !D;
+    const built = D ? buildBody(R, D.article || []) : { nodes: [], toc: [] };
+    const used = {};
+    const liveToc = [];
+    (D ? D.article || [] : []).forEach((x) => {
+      if (x.type === 'h2' || x.type === 'h3') {
+        const base = String(x.text).toLowerCase().replace(/&amp;|&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'section';
+        used[base] = (used[base] || 0) + 1;
+        if (x.type === 'h2') liveToc.push({ label: x.text, href: '#' + (used[base] > 1 ? base + '-' + used[base] : base) });
+      }
+    });
+    const tocOn = sample || liveToc.length >= 2;
     return {
+      sample,
+      heroTitle: D ? D.h1 : drug + ' Addiction',
+      heroImg: D ? D.bannerImage : null,
+      tocOn,
+      effCols: tocOn ? '300px 1fr' : '1fr',
+      hasBody: !D || (D.article || []).length > 0,
+      bodyNodes: built.nodes,
+      liveHelp: D ? { heading: D.helpHeading, paragraphs: D.helpParagraphs, links: D.helpLinks } : null,
+      liveProvinces: D ? D.provinces : [],
+      liveOthers: D ? D.otherDrugs : [],
       drug,
       drugLower,
       effects,
       effectCards,
       drugFaqs,
-      drugToc,
+      drugToc: D ? liveToc : drugToc,
       whoOptions,
       otherDrugs,
       fundingOptions,
@@ -683,6 +709,16 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    sample,
+    heroTitle,
+    heroImg,
+    tocOn,
+    effCols,
+    hasBody,
+    bodyNodes,
+    liveHelp,
+    liveProvinces,
+    liveOthers,
     ack,
     ackBg,
     ackBorder,
@@ -723,7 +759,7 @@ function template(v) {
   return (
     <>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader active="drugs" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Drug Hero"
           style={{
@@ -752,7 +788,7 @@ function template(v) {
               <span style={{ opacity: '.5' }}>/</span>
               <span style={{ color: '#6b7f95' }}>Addiction By Drugs</span>
               <span style={{ opacity: '.5' }}>/</span>
-              <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(drug)} Addiction</span>
+              <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(heroTitle)}</span>
             </nav>
             <div
               style={{ display: 'grid', gridTemplateColumns: '1.1fr .9fr', gap: '56px', alignItems: 'center' }}
@@ -774,6 +810,7 @@ function template(v) {
                   >
                     Addiction by drugs
                   </span>
+                  {sample ? (
                   <span
                     style={{
                       font: '600 12px Figtree,sans-serif',
@@ -787,13 +824,17 @@ function template(v) {
                   >
                     Medically reviewed
                   </span>
+                  ) : null}
                 </div>
                 <h1 style={{ fontSize: '54px', lineHeight: '1.05', color: '#10233a' }} data-rc-lg="1">
-                  {$i(drug)} Addiction
+                  {$i(heroTitle)}
                 </h1>
+                {sample ? (
                 <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }}>
                   {$i(drug)} Dependence and Treatment: What is {$i(drug)}?
                 </h2>
+                ) : null}
+                {sample ? (
                 <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }}>
                   <$A href="/drug">Benzodiazepine</$A> is a{' '}
                   <$A href="/prescription-drugs-addiction">prescription medicine</$A>{' '}
@@ -803,6 +844,7 @@ function template(v) {
                   discovered that drivers with fatal injuries have benzodiazepine running through their system and the
                   ill-effects of this drug is seen in many Canadian provinces today.
                 </p>
+                ) : null}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                   <$A
                     className="scp1"
@@ -822,6 +864,7 @@ function template(v) {
                     {$i(iconPhone)}
                     Talk to a specialist
                   </$A>
+                  {sample ? (
                   <$A
                     className="scp2"
                     href="/rehab"
@@ -836,7 +879,9 @@ function template(v) {
                   >
                     Find A Drug Rehab
                   </$A>
+                  ) : null}
                 </div>
+                {sample ? (
                 <div
                   style={{
                     display: 'flex',
@@ -864,6 +909,7 @@ function template(v) {
                     </div>
                   </div>
                 </div>
+                ) : null}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <div
@@ -877,8 +923,8 @@ function template(v) {
                   }}
                 >
                   <img
-                    src="/assets/img/drug-benzo-hero.jpg"
-                    alt="Woman talking with a doctor about tapering her medication"
+                    src={sample ? "/assets/img/drug-benzo-hero.jpg" : heroImg?.src}
+                    alt={sample ? "Woman talking with a doctor about tapering her medication" : heroImg?.alt}
                     loading="lazy"
                     style={{
                       position: 'absolute',
@@ -890,6 +936,7 @@ function template(v) {
                     }}
                   />
                 </div>
+                {sample ? (
                 <div
                   style={{
                     background: '#fff',
@@ -934,10 +981,12 @@ function template(v) {
                     nearest emergency department.
                   </p>
                 </div>
+                ) : null}
               </div>
             </div>
           </div>
         </section>
+        {sample ? (
         <section
           data-screen-label="Sponsored Centres"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5', overflow: 'hidden' }}
@@ -1292,6 +1341,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {hasBody ? (
         <section data-screen-label="Effects" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -1299,14 +1350,15 @@ function template(v) {
               margin: '0 auto',
               padding: '80px 32px',
               display: 'grid',
-              gridTemplateColumns: '300px 1fr',
+              gridTemplateColumns: effCols,
               gap: '64px',
               alignItems: 'start',
             }}
-            data-cols="300px 1fr"
+            data-cols={effCols}
             data-rc-gap="1"
             data-rc-wrap="1"
           >
+            {tocOn ? (
             <aside style={{ position: 'sticky', top: '130px', display: 'flex', flexDirection: 'column', gap: '18px' }}>
               <div style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px' }}>
                 <div
@@ -1351,6 +1403,8 @@ function template(v) {
                   ))}
                 </ul>
               </div>
+              {sample ? (
+              <>
               <div
                 style={{
                   background: '#f7fafd',
@@ -1453,8 +1507,13 @@ function template(v) {
                 <span style={{ font: '600 20px Jost,sans-serif' }}>1-855-885-4747</span>
                 <span style={{ fontSize: '13px', opacity: '.9' }}>Talk to one of our specialists</span>
               </$A>
+              </>
+              ) : null}
             </aside>
-            <article style={{ display: 'flex', flexDirection: 'column', gap: '22px', maxWidth: '760px' }}>
+            ) : null}
+            <article style={{ display: 'flex', flexDirection: 'column', gap: sample ? '22px' : '28px', maxWidth: '760px', ...(sample ? null : { fontSize: '17.5px', lineHeight: '1.75', color: '#3b4d63' }) }}>
+              {sample ? (
+              <>
               <h2 id="canada" style={{ fontSize: '36px', lineHeight: '1.12' }} data-rc-lg="1">
                 {$i(drug)} addiction in Canada
               </h2>
@@ -1726,9 +1785,14 @@ function template(v) {
                   </li>
                 </ul>
               </div>
+              </>
+              ) : null}
+              {sample ? null : bodyNodes}
             </article>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Let Us Help You" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -2155,6 +2219,9 @@ function template(v) {
             </form>
           </div>
         </section>
+        ) : null}
+        {sample ? null : <HelpSection heading={liveHelp.heading} paragraphs={liveHelp.paragraphs} links={liveHelp.links} />}
+        {sample ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -2259,6 +2326,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Provinces" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
             <div
@@ -2342,6 +2411,9 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? null : <LinkTiles screen="Provinces" kicker="Explore" heading="Drug Rehab Centres By Provinces" items={liveProvinces} cols={4} />}
+        {sample ? (
         <section data-screen-label="Other Drugs" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px' }} data-rc-wrap="1">
             <div style={{ marginBottom: '24px' }}>
@@ -2379,6 +2451,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? null : <LinkTiles screen="Other Drugs" bg="#fff" heading="Other Addictions By Drugs" items={liveOthers} cols={4} />}
         <SiteFooter />
       </div>
     </>

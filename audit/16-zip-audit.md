@@ -99,3 +99,36 @@ Missing vs design: eyebrow + intro + “N articles”, **Featured** lead card wi
 3. Header: repo `SiteHeader.jsx` differs from the design (route-hiding); restoring it makes every link live-but-dead for unbuilt pages (12 internal 404 targets today, see `14-links-still-broken.csv`).
 4. Blog posts: 184 of 186 still use the plain old component; Part 0 of the previous brief covers the rebuild.
 5. Uncommitted work in the tree from the interrupted combined task (Part 1 centre fixes: `src/dc/guide.js`, `src/views/Centre.jsx`, `audit/scripts/checks/centre-all.mjs`) is untouched by this audit and not committed.
+
+## 7. Final status table — all 24 design files
+Legend: **Built and matching** = the view matches the client design file (rendered diff < 1 %); **Built with sections hidden** = filled with source content, the listed design sections are hidden because the source has no data (full reasons: `audit/15-design-gap.md`); **Not built (no source content)** = design-only feature, the source site has no matching pages. Where source content exists but the page type is not built yet, that is stated explicitly (it fits none of the three labels).
+
+| # | Design file | Status | Hidden sections / notes |
+|---|---|---|---|
+| 1 | Home | **Built and matching** | Unmodified view; shows the design’s own sample text, not source content (source home page not yet filled in). |
+| 2 | SiteHeader | **Built and matching** | Restored to the client’s original. On inner pages the active-section dot (and “Claim Your Listing” target on therapist pages) differs from Home by design. Links to unbuilt pages are live and 404 (list: `15-header-footer-links.csv`). |
+| 3 | Menu Options | **Built and matching** | Internal design board; folder render starts with the second panel empty, repo/clone render it filled. |
+| 4 | Province | **Built with sections hidden** | hero photo slot + “Independently listed” badge, hero paragraph, “Why trust” row, card ratings/review text/Featured-Verified badges, tag filters (city filters used instead), author/reviewer card, FAQ. |
+| 5 | City | **Built with sections hidden** | hero chips and design H1 formula, hero paragraph, “How we ranked”, rank badges, Featured/Verified badges, ratings, tags, price/length/site-review cells, “Details verified…”, Compare table, FAQ, author/reviewer card. |
+| 6 | Centre | **Built with sections hidden** | Verified/Top-rated badges, rating chip, price card, Programs & Pricing, Team, Reviews, callback form and big claim form (no form endpoint), logo box, “Show all photos”, About pillars / “What’s included” / week-by-week, “Facility at a glance”, reviewer card, Sponsored centres. |
+| 7 | Blog | **Built with sections hidden** | intro paragraph with article count, “Editor’s pick”, author/read time, Popular sort, “Most read this month”, newsletter form, “Find a rehab near you” link (dead target). |
+| 8 | BlogPost | **Built with sections hidden** (2 prototype posts; the other 184 still on the old plain component) | “Medically reviewed”, dek, author/reviewer row, read time, key takeaways/timeline/quote/in-article helpline strip, FAQ block, tags, sources, disclaimer, author card, featured-centre card/band and centres carousel, “Own a centre?” promo. |
+| 9 | Drug | **Built with sections hidden** (3 prototype pages: heroin, cocaine, Yukon text-only; the other 22 drug pages not built yet) | “Medically reviewed”, hero paragraph/stats/adverse-effects card, “Find A Drug Rehab” button (dead target), Sponsored centres, author/reviewer card, form, FAQ. |
+| 10 | Intervention | **Built with sections hidden** (2 prototype treatment/support pages: aa-support-group, drug-alcohol-helpline; the other 31 not built yet; the source `/intervention/` page clashes and keeps the design sample) | hero eyebrow/paragraphs/“Find A Drug Rehab” button, “2×” statistic card, form. |
+| 11 | Alcohol | **Not built yet — source content exists** (2 source pages: Alcohol, Alcohol addiction) | Design route live with sample content. |
+| 12 | Contact | **Design page only — source page exists but clashes** | Source `/contact/` is a promo/plans page with no contact form (08 §15); design left untouched, sample content. |
+| 13 | Promote | **Design page only — source page exists but clashes** | Source `/promote-your-centre/` is 519 words of promo text, the design is a plans/pricing sales page (08 §15). |
+| 14 | ClaimListing | **Design page only — source page exists but clashes** | Source `/claim-your-listing/` is a 92-word stub; the design is a multi-step claim flow. |
+| 15 | Therapists | **Not built (no source content)** | No therapist directory on the source site. |
+| 16 | TherapistsProvince | **Not built (no source content)** | same |
+| 17 | TherapistsCity | **Not built (no source content)** | same |
+| 18 | TherapistProfile | **Not built (no source content)** | same |
+| 19 | TherapistOnboarding | **Not built (no source content)** | new feature (profile builder) |
+| 20 | ClaimTherapist | **Not built (no source content)** | new feature (claim flow for therapists) |
+| 21 | JoinDirectory | **Not built (no source content)** | marketing + plans for therapists; nothing equivalent on the source |
+| 22 | Auth | **Not built (no source content)** | source only has WooCommerce `/my-account/` (system page, not needed) |
+| 23 | ProviderDashboard | **Not built (no source content)** | source only has `/user-dashboard/` (19 words, system page) |
+| 24 | CentreOnboarding | **Not built (no source content)** | new feature; closest source page is the `/claim-your-listing/` stub |
+
+Totals: built and matching 3 · built with sections hidden 7 (Province, City, Centre, Blog, BlogPost, Drug, Intervention) · design page only (source clashes) 3 · not built, source content exists 1 (Alcohol) · not built, no source content 10.
+Caveat for rows 8–10: the prototype pages for Drug, Intervention and BlogPost were built but their final fidelity/overflow/side-by-side run (Part 4) was interrupted before it finished, and the header/footer pixel run (Part 2) is partial; markup comparison finished (footer markup identical on 28 of 30 routes at 1440 and 390, the other two have no footer).

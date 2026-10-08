@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { buildBody } from '@/dc/guide';
+import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -358,7 +360,27 @@ class Component extends DCLogic {
       color: who === i ? '#fff' : '#516378',
     }));
 
+    // Live data (props.data): source content in source order; sections without source data are hidden (audit/15-design-gap.md).
+    const R = React.createElement;
+    const D = this.props.data || null;
+    const sample = !D;
+    const built = D ? buildBody(R, D.article || []) : { nodes: [] };
+    const used = {};
+    const liveToc = [];
+    (D ? D.article || [] : []).forEach((x) => {
+      if (x.type === 'h2' || x.type === 'h3') {
+        const base = String(x.text).toLowerCase().replace(/&amp;|&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') || 'section';
+        used[base] = (used[base] || 0) + 1;
+        if (x.type === 'h2') liveToc.push({ label: x.text, href: '#' + (used[base] > 1 ? base + '-' + used[base] : base) });
+      }
+    });
     return {
+      sample,
+      heroTitle: D ? D.h1 : 'Intervention',
+      heroImg: D ? D.bannerImage : null,
+      bodyNodes: built.nodes,
+      liveHelp: D ? { heading: D.helpHeading, paragraphs: D.helpParagraphs, links: D.helpLinks } : null,
+      liveProvinces: D ? D.provinces : [],
       navItems,
       menuOpen: !!m,
       closeMenu: () => this.setState({ menu: null }),
@@ -390,10 +412,10 @@ class Component extends DCLogic {
         e.preventDefault();
         this.setState({ sent: true });
       },
-      showToc: !narrow && (this.props.showToc ?? true),
+      showToc: D ? !narrow && liveToc.length >= 2 : !narrow && (this.props.showToc ?? true),
       heroCols: mid ? '1fr' : '1.05fr .95fr',
       h1Size: mobile ? '44px' : '64px',
-      articleCols: narrow || !(this.props.showToc ?? true) ? '1fr' : '260px minmax(0,1fr)',
+      articleCols: narrow || (D ? liveToc.length < 2 : !(this.props.showToc ?? true)) ? '1fr' : '260px minmax(0,1fr)',
       splitCols: mid ? '1fr' : '1.15fr .85fr',
       splitColsRev: mid ? '1fr' : '.85fr 1.15fr',
       imgOrder: mid ? '2' : '0',
@@ -412,6 +434,12 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    sample,
+    heroTitle,
+    heroImg,
+    bodyNodes,
+    liveHelp,
+    liveProvinces,
     articleCols,
     ctaCols,
     fieldCols,
@@ -446,7 +474,7 @@ function template(v) {
   return (
     <>
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader active="intervention" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Hero"
           style={{
@@ -480,7 +508,7 @@ function template(v) {
                   transform: 'rotate(45deg)',
                 }}
               />
-              <span style={{ color: '#10233a', fontWeight: '500' }}>Intervention</span>
+              <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(heroTitle)}</span>
             </nav>
           </div>
           <div
@@ -490,6 +518,7 @@ function template(v) {
             data-rc-dyn="1"
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+              {sample ? (
               <span
                 style={{
                   font: '600 12px Figtree,sans-serif',
@@ -500,7 +529,10 @@ function template(v) {
               >
                 Intervention services · Canada-wide
               </span>
-              <h1 style={$css(`font-size:${h1Size ?? ''};line-height:1.04;color:#10233a`)}>Intervention</h1>
+              ) : null}
+              <h1 style={$css(`font-size:${h1Size ?? ''};line-height:1.04;color:#10233a`)}>{$i(heroTitle)}</h1>
+              {sample ? (
+              <>
               <p style={{ fontSize: '19px', lineHeight: '1.6', color: '#516378' }}>
                 One of the tragic realities of{' '}
                 <$A href="/understanding-addiction-to-drugs">drug addiction</$A> is
@@ -511,7 +543,10 @@ function template(v) {
                 Interventions are staged in order to grab the attention of an addict, convince him or her to seek help,
                 and establish clear consequences for a refusal to pursue professional help.
               </p>
+              </>
+              ) : null}
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '2px' }}>
+                {sample ? (
                 <$A
                   className="scp1"
                   href="/rehab"
@@ -526,6 +561,7 @@ function template(v) {
                 >
                   Find A Drug Rehab
                 </$A>
+                ) : null}
                 <$A
                   className="scp2"
                   href="tel:+18558854747"
@@ -557,11 +593,12 @@ function template(v) {
                 }}
               >
                 <img
-                  src="https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addicted-to-benzodiazepine.jpg"
-                  alt="A family gathered for an intervention"
+                  src={sample ? "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addicted-to-benzodiazepine.jpg" : heroImg?.src}
+                  alt={sample ? "A family gathered for an intervention" : heroImg?.alt}
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
               </div>
+              {sample ? (
               <div
                 style={{
                   background: '#10233a',
@@ -588,6 +625,7 @@ function template(v) {
                   , with about a quarter of deaths now directly attributable to some form of addiction.
                 </p>
               </div>
+              ) : null}
             </div>
           </div>
         </section>
@@ -758,7 +796,9 @@ function template(v) {
                 </aside>
               </>
             ) : null}
-            <article style={{ display: 'flex', flexDirection: 'column', gap: '64px', minWidth: '0' }}>
+            <article style={{ display: 'flex', flexDirection: 'column', gap: sample ? '64px' : '28px', ...(sample ? null : { fontSize: '17.5px', lineHeight: '1.75', color: '#3b4d63' }), minWidth: '0' }}>
+              {sample ? (
+              <>
               <div
                 id="what"
                 style={$css(`display:grid;grid-template-columns:${splitCols ?? ''};gap:40px;align-items:center`)}
@@ -1201,6 +1241,9 @@ function template(v) {
                   ))}
                 </div>
               </div>
+              </>
+              ) : null}
+              {sample ? null : bodyNodes}
             </article>
           </div>
         </section>
@@ -1247,6 +1290,7 @@ function template(v) {
             </$A>
           </div>
         </section>
+        {sample ? (
         <section data-screen-label="Provinces" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '80px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '32px' }}>
@@ -1305,6 +1349,9 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? null : <LinkTiles screen="Provinces" bg="#fff" heading="Drug Rehab Centres By Provinces" items={liveProvinces} cols={4} />}
+        {sample ? (
         <section
           id="help"
           data-screen-label="Let us help"
@@ -1550,6 +1597,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? null : <HelpSection heading={liveHelp.heading} paragraphs={liveHelp.paragraphs} links={liveHelp.links} label="Let us help" />}
         <SiteFooter />
       </div>
     </>
