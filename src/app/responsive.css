@@ -375,3 +375,24 @@ input[type="checkbox"]:focus-visible, input[type="radio"]:focus-visible { outlin
 input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, textarea:-webkit-autofill, select:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #fff inset !important; -webkit-text-fill-color: #10233a !important; caret-color: #10233a; transition: background-color 99999s ease-out 0s;
 }
+
+/* 11 ▸ centre hero (desktop): the name/address block is short and sat beside a tall sticky contact card, leaving the left half of the row empty.
+      From 900px the row becomes one column: the info block uses the full width and the contact card below it lays its parts out in three columns
+      (call button, website/email/social, claim note). Only real content already in the card; the photo mosaic above is untouched. Below 900px the
+      row is already stacked. */
+@media (min-width: 900px) {
+  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] { grid-template-columns: minmax(0, 1fr) !important; gap: 22px !important; }
+  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] > aside {
+    position: static !important; display: grid !important; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 14px 28px !important; align-items: start;
+  }
+  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] > aside > h2 { grid-column: 1 / -1; }
+  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] > aside > :not(h2) { margin-top: 0 !important; min-width: 0; }
+}
+
+/* 12 ▸ city and archive hero: the text column is centred against the "At a glance" card (no empty space above or below it), and a long list scrolls inside
+      the card instead of making the hero taller than the text. */
+@media (min-width: 900px) {
+  [data-screen-label="City Hero"] [data-rc-gap][data-cols="1.1fr .9fr"] { align-items: center !important; }
+}
+[data-screen-label="City Hero"] ol[aria-label="Centres on this page"] { max-height: 440px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #cfe0ef transparent; overscroll-behavior: contain; }
+[data-screen-label="City Hero"] ol[aria-label="Centres on this page"]:focus-visible { outline: 2px solid #0890E8; outline-offset: 2px; border-radius: 10px; }
