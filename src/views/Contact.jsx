@@ -321,7 +321,7 @@ class Component extends DCLogic {
       {
         label: 'Send a message',
         value: 'Use the form below',
-        note: 'Tell us what you need and we reply within one business day.',
+        note: 'Tell us what you need and we will get back to you.',
         href: '#message',
         icon: ic.chat,
         iconBg: '#eaf5fd',
@@ -383,47 +383,43 @@ class Component extends DCLogic {
         href: 'tel:+18558854747',
         icon: ic.phone,
       },
-      { label: 'Email', value: email, note: 'Monitored Monday to Friday', href: 'mailto:' + email, icon: ic.mail },
+      { label: 'Email', value: email, note: 'info@ listings, partnerships and general questions', href: 'mailto:' + email, icon: ic.mail },
       {
         label: 'Centres & partners',
         value: 'Promote your centre',
-        note: 'Plans, featured placement and claims',
-        href: '/promote',
+        note: 'Claim a listing or promote your centre',
+        href: '/promote/',
         icon: ic.building,
       },
       {
-        label: 'Serving',
-        value: 'All provinces and territories',
-        note: 'Canada-wide directory',
-        href: B,
+        label: 'Address',
+        value: '211 Queen St E, Toronto, ON M5A 1S2, Canada',
+        note: '8:00 AM \u2013 23.00 PM Monday \u2013 Sunday',
+        href: 'https://maps.google.com?q=211+Queen+St+E+Toronto+ON+M5A+1S2+Canada',
         icon: ic.maple,
       },
     ];
-    const sla = [
-      ['Helpline call', 'Answered live, 24/7', '#2fb46b'],
-      ['Message about treatment', 'Same day', '#0890E8'],
-      ['Listing or profile request', '1 business day', '#0890E8'],
-      ['Media & other', '2 business days', '#516378'],
-    ].map(([label, value, color]) => ({ label, value, color }));
+    // Response-time promises are not in the source: the "Response times" card is not shown.
+    const sla = [];
     const quickPaths = [
       {
         icon: ic.search,
         title: 'Find a rehab near you',
-        body: 'Browse verified treatment centres by province and city, with programs, photos and reviews.',
+        body: 'Search treatment centres by name, city or province.',
         cta: 'Search centres',
         href: B + 'search/',
       },
       {
         icon: ic.building,
         title: 'List or promote a centre',
-        body: 'Claim your free listing or compare Extended and Sponsored plans to reach more families.',
-        cta: 'See plans',
-        href: '/promote',
+        body: 'Claim your free listing or promote your centre.',
+        cta: 'Promote your centre',
+        href: '/promote/',
       },
       {
         icon: ic.doc,
         title: 'Read the FAQ',
-        body: 'Costs, coverage, how long treatment takes and what to expect on day one.',
+        body: 'Answers to common questions about addiction treatment.',
         cta: 'Common questions',
         href: B + 'faqs/',
       },
@@ -668,7 +664,7 @@ function template(v) {
                     animation: 'pulseDot 2s infinite',
                   }}
                 />
-                Helpline open now · Free · Confidential · Canada-wide
+                Helpline open 24/7 · Free · Confidential · Canada-wide
               </p>
             </div>
             <div style={$css(`display:grid;grid-template-columns:${cardCols ?? ''};gap:12px`)} data-rc-dyn="1">
@@ -835,8 +831,7 @@ function template(v) {
                     </span>
                     <h3 style={{ fontSize: '24px' }}>Thanks — we've got your message.</h3>
                     <p style={{ fontSize: '15.5px', lineHeight: '1.6', color: '#2b5a3d' }}>
-                      We reply to most messages within one business day. If it's about treatment and you'd like to talk
-                      sooner, the helpline is open now.
+                      If it's about treatment and you'd like to talk sooner, call the helpline: it is open 24/7.
                     </p>
                     <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginTop: '4px' }}>
                       <$A
@@ -1161,6 +1156,7 @@ function template(v) {
                   ))}
                 </ul>
               </div>
+              {sla.length ? (
               <div
                 style={{
                   background: '#f7fafd',
@@ -1197,6 +1193,7 @@ function template(v) {
                   ))}
                 </ul>
               </div>
+              ) : null}
             </aside>
           </div>
         </section>

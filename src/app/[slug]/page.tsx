@@ -23,7 +23,7 @@ import { JsonLd, pageMetadata } from '@/lib/metadata';
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return getPublished().filter((e) => /^\/[^/]+\/$/.test(e.route) && e.route !== '/blog/').map((e) => ({ slug: e.route.slice(1, -1) }));
+  return getPublished().filter((e) => /^\/[^/]+\/$/.test(e.route) && e.route !== '/blog/' && e.type !== 'promote' && e.type !== 'claim').map((e) => ({ slug: e.route.slice(1, -1) }));
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {

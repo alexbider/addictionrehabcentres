@@ -2039,7 +2039,58 @@ export const ownCss =
   '\nhtml,body{margin:0;padding:0;background:#f7fafd;color:#10233a;font-family:Figtree,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}\n*{box-sizing:border-box}\na{color:#0890E8;text-decoration:none}a:hover{color:#0670b8}\nh1,h2,h3,h4{font-family:Jost,Helvetica,sans-serif;margin:0;font-weight:600;letter-spacing:-0.01em;text-wrap:balance}\np{margin:0;text-wrap:pretty}\nul{margin:0;padding:0;list-style:none}\ninput,select,button{font-family:inherit}\ninput::placeholder{color:#8a9bb0}\n@keyframes topCallRing{0%{transform:scale(1);opacity:.7}70%,100%{transform:scale(1.7);opacity:0}}\n@keyframes clFade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}\n@keyframes clPop{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.08);opacity:1}100%{transform:scale(1)}}\n@media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}\n';
 export const css = [ownCss, SiteHeader_css].filter(Boolean).join('\n');
 export const defaults = {};
-const View = createDC('ClaimListing', Component, template);
+
+/* Live page: the source's "Claim Your Listing" content in the design's hero / cards / CTA band. No claim flow, plans, prices or payment (not in the source, no backend). */
+function liveTemplate(v) {
+  const d = v.data;
+  const eyebrow = { font: '600 12px Figtree,sans-serif', letterSpacing: '.14em', textTransform: 'uppercase', color: '#0890E8' };
+  return (
+    <>
+      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <SiteHeader __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+        <section data-screen-label="Claim hero" style={{ background: 'radial-gradient(900px 520px at 85% -10%,#d6ecfb 0%,rgba(214,236,251,0) 60%),#f7fafd', borderBottom: '1px solid #e9eff5' }}>
+          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px 80px', display: 'grid', gridTemplateColumns: d.image ? '1.1fr .9fr' : '1fr', gap: '56px', alignItems: 'center' }} data-cols={d.image ? '1.1fr .9fr' : '1fr'} data-rc-gap="1" data-rc-wrap="1">
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', minWidth: 0 }}>
+              <span style={eyebrow}>For treatment centres</span>
+              <h1 style={{ fontSize: '56px', lineHeight: '1.04', color: '#10233a' }} data-rc-lg="1">{d.title}</h1>
+              <h2 style={{ font: '500 24px/1.35 Figtree,sans-serif', color: '#516378', maxWidth: '620px' }}>{d.subtitle}</h2>
+              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '6px' }}>
+                <$A className="scp1" href="tel:+18558854747" style={{ font: '600 16px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '15px 24px', borderRadius: '12px', boxShadow: '0 10px 24px -12px rgba(8,144,232,.6)' }}>Call 1-855-885-4747</$A>
+                <$A className="scp2" href="mailto:info@addictionrehabcenters.ca" style={{ font: '600 16px Jost,sans-serif', color: '#10233a', background: '#fff', border: '1px solid #dbe6f0', padding: '15px 24px', borderRadius: '12px' }}>Email our team</$A>
+              </div>
+            </div>
+            {d.image ? <img src={d.image.src} alt={d.image.alt} width={d.image.width || undefined} height={d.image.height || undefined} loading="eager" fetchPriority="high" style={{ width: '100%', height: 'auto', maxHeight: '460px', objectFit: 'cover', borderRadius: '24px', boxShadow: '0 40px 80px -40px rgba(16,35,58,.35)' }} /> : null}
+          </div>
+        </section>
+        <section data-screen-label="Benefits" style={{ background: '#fff' }}>
+          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '16px' }} data-cols="repeat(3,1fr)">
+              {d.benefits.map((b, i) => (
+                <div key={i} style={{ background: '#f7fafd', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '26px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                  <h3 style={{ fontSize: '21px', lineHeight: '1.25' }}>{b.title}</h3>
+                  <p style={{ fontSize: '15.5px', lineHeight: '1.65', color: '#516378' }}>{b.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+        <section data-screen-label="Final CTA" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
+          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px' }} data-rc-wrap="1">
+            <div style={{ background: '#10233a', borderRadius: '30px 30px 0 0', padding: '56px', color: '#fff', display: 'grid', gridTemplateColumns: '1.2fr .8fr', gap: '40px', alignItems: 'center' }} data-cols="1.2fr .8fr" data-rc-gap="1">
+              <h2 style={{ fontSize: '38px', lineHeight: '1.12', color: '#fff' }} data-rc-lg="1">{d.subtitle}</h2>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                <$A className="scpr" href="tel:+18558854747" style={{ font: '600 18px Jost,sans-serif', color: '#10233a', background: '#fff', padding: '16px 24px', borderRadius: '14px', textAlign: 'center' }}>Call 1-855-885-4747</$A>
+                <$A className="scpv" href="mailto:info@addictionrehabcenters.ca" style={{ font: '600 16px Jost,sans-serif', color: '#fff', border: '1.5px solid rgba(255,255,255,.5)', padding: '14px 24px', borderRadius: '14px', textAlign: 'center' }}>Email our team</$A>
+              </div>
+            </div>
+          </div>
+        </section>
+        <SiteFooter />
+      </div>
+    </>
+  );
+}
+const View = createDC('ClaimListing', Component, (v) => (v.data ? liveTemplate(v) : template(v)));
 export default View;
 export function Root(props) {
   return <DCRoot View={View} defaults={defaults} css={css} responsive {...props} />;

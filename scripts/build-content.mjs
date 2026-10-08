@@ -62,7 +62,7 @@ function finishExcerpt(ex, full = '') {
 const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 
 // Page types that have a view today.
-const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info', 'category']);
+const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info', 'category', 'promote', 'claim']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
 const LIVE_SLUGS = new Set(['blog', 'home']);
 const SKIP_PAGES = new Set(); // (dui-lawyers-in-canada is published: real source content; its lawyer cards are unlinked, their pages are out of scope) // the real blog index
@@ -228,10 +228,23 @@ function unlinkThinPosts(v, page) {
 }
 /* ───────── Open Graph / Twitter / schema images: self-hosted (no wp-content URL anywhere in the head) ───────── */
 const CENTRE_NAME = new Map(); // centre url -> name
+const FIRST_IMG = new Map(); // route -> first real image (card fallback)
+const fallbackLog = [];
 const ORIG2REL = new Map(); // source image URL (no query) -> local_path in audit/images(-phase4)
 for (const f of fs.readdirSync(SRC).filter((x) => x.endsWith('.json'))) {
   const d = JSON.parse(fs.readFileSync(path.join(SRC, f), 'utf8'));
   if (d.page_type === 'centre' && d.centre?.name) CENTRE_NAME.set(d.source.url, d.centre.name);
+  // first real image of a post / centre (fallback for cards whose own thumbnail is missing)
+  if (d.page_type === 'blog-post') {
+    const b0 = (d.blocks || []).find((b) => b.type === 'image');
+    const r0 = b0 && (d.images || []).find((im) => im.original_url && im.original_url.split('?')[0] === (b0.src || '').split('?')[0] && im.local_path && im.download !== 'failed');
+    if (r0) FIRST_IMG.set(d.new_route, { local_path: r0.local_path, alt: b0.alt || '', width: r0.width, height: r0.height, original_url: r0.original_url });
+  }
+  if (d.page_type === 'centre') {
+    const g0 = (d.centre?.gallery || [])[0];
+    const r0 = g0 && (d.images || []).find((im) => im.original_url && im.original_url.split('?')[0] === (g0.src_original || '').split('?')[0] && im.local_path && im.download !== 'failed');
+    if (r0) FIRST_IMG.set(d.new_route, { local_path: r0.local_path, alt: g0.alt || d.centre.name || '', width: r0.width, height: r0.height, original_url: r0.original_url });
+  }
   if (d.page_type === 'centre') CENTRE_ABOUT.set(d.new_route, ((d.centre?.about_blocks || []).find((b) => b.type === 'p' && b.html) || {}).html || '');
   for (const im of d.images || []) if (im.local_path && im.original_url && im.download !== 'failed') ORIG2REL.set(im.original_url.split('?')[0], im.local_path);
 }
@@ -368,7 +381,8 @@ for (const f of files) {
     blogCards = [];
     for (const c of d.blog_cards) {
       let image = null;
-      if (c.image?.local_path && live) { const im = await publishImage(c.image.local_path, c.path.replace(/\//g, ''), CARD_W); if (im) image = { alt: c.image.alt, local_path: im.web, width: im.width, height: im.height }; }
+      const src0 = c.image?.local_path ? c.image : FIRST_IMG.get(c.path); if (!c.image?.local_path && src0) fallbackLog.push({ page: d.new_route, element: 'blog card', name: c.title, target: c.path, source_image: src0.original_url, cause: 'source index card has no thumbnail; the post\'s own first image is used' });
+      if (src0?.local_path && live) { const im = await publishImage(src0.local_path, c.path.replace(/\//g, ''), CARD_W); if (im) image = { alt: src0.alt, local_path: im.web, width: im.width, height: im.height }; }
       blogCards.push({ path: c.path, title: c.title, excerpt: finishExcerpt(c.excerpt), image });
     }
   }
@@ -377,9 +391,11 @@ for (const f of files) {
     const cards = [];
     for (const c of listing.cards) {
       let image = null;
-      if (c.image?.local_path && live) {
-        const im = await publishImage(c.image.local_path, c.slug, CARD_W);
-        if (im) image = { ...c.image, local_path: im.web, width: im.width ? String(im.width) : c.image.width, height: im.height ? String(im.height) : c.image.height };
+      const cimg = c.image?.local_path ? c.image : (FIRST_IMG.get(new URL(c.href).pathname) ? { ...FIRST_IMG.get(new URL(c.href).pathname) } : null);
+      if (!c.image?.local_path && cimg) fallbackLog.push({ page: d.new_route, element: 'listing card', name: c.name, target: new URL(c.href).pathname, source_image: cimg.original_url, cause: 'source listing card has no thumbnail; the centre\'s first gallery image is used' });
+      if (cimg?.local_path && live) {
+        const im = await publishImage(cimg.local_path, c.slug, CARD_W);
+        if (im) image = { alt: cimg.alt ?? '', ...cimg, local_path: im.web, width: im.width ? String(im.width) : cimg.width, height: im.height ? String(im.height) : cimg.height };
       }
       cards.push({ ...c, excerpt: finishExcerpt(fixExcerpt(c.slug, c.excerpt), CENTRE_ABOUT.get('/' + c.slug + '/') || CENTRE_ABOUT.get(new URL(c.href).pathname)), excerpt_source: c.excerpt, image });
     }
@@ -408,6 +424,13 @@ for (const f of files) {
   }
   const og = isCentre ? null : await local(d.seo.og?.image);
   const hosted = live ? await selfHostHead(key, SOURCE_HEAD[key]?.meta, stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source)) : { meta: SOURCE_HEAD[key]?.meta, jsonld: stripReviews(SOURCE_HEAD[key]?.jsonld ?? d.seo.jsonld_source) };
+  // The page lives at a new route (e.g. /promote-your-centre/ -> /promote/): canonical, og:url and schema urls point at the new route
+  const srcPath = new URL(d.source.url).pathname;
+  if (srcPath !== d.new_route) {
+    const sw = (x) => JSON.parse(JSON.stringify(x ?? null).split(srcPath).join(d.new_route));
+    hosted.meta = sw(hosted.meta); hosted.jsonld = sw(hosted.jsonld);
+    if (SOURCE_HEAD[key]) SOURCE_HEAD[key] = { ...SOURCE_HEAD[key], canonical: SOURCE_ORIGIN + d.new_route };
+  }
   const slim = {
     slug: key, route: d.new_route, page_type: d.page_type, template: d.template,
     seo: { ...d.seo, jsonld_source: hosted.jsonld, og: { ...d.seo.og, image: og?.web ?? null } },
@@ -437,4 +460,12 @@ fs.writeFileSync(path.join(root, 'audit/11-google-review-centres.json'), JSON.st
 fs.writeFileSync(path.join(root, 'audit/11-corrupt-images.json'), JSON.stringify(corrupt, null, 1));
 fs.writeFileSync(path.join(root, 'audit/12-thin-post-links-removed.json'), JSON.stringify(thinPostLinksRemoved, null, 1));
 console.log(`review/aggregateRating schema nodes removed: ${reviewSchemaRemoved}; google-review centres: ${googleReviewCentres.length}; corrupt images: ${corrupt.length}; thin redirects: ${thinRedirects.length}`);
+// audit/20-missing-images.csv: every card that had no image of its own, the source image now used, and the cause
+{
+  const q = (v) => '"' + String(v ?? '').replace(/"/g, '""') + '"';
+  const rows = [['page', 'element', 'name', 'target', 'source_image', 'status', 'cause'].join(',')];
+  const seen = new Set();
+  for (const r of fallbackLog) { const k = r.page + '|' + r.element + '|' + r.target; if (seen.has(k)) continue; seen.add(k); rows.push([r.page, r.element, r.name, r.target, r.source_image, 'fixed (published)', r.cause].map(q).join(',')); }
+  fs.writeFileSync(path.join(root, 'audit/20-missing-images.csv'), rows.join('\n') + '\n');
+}
 console.log(`content: ${index.length} files, ${published.size} published, ${filesWritten} image files written, ${store.size} unique; mojibake fixes: ${pubFixes.length} (+${fixes.length - pubFixes.length} on unpublished pages)`);

@@ -553,6 +553,10 @@ class Component extends DCLogic {
       },
       { icon: ic.heart, title: 'Measure Results', body: 'Track impressions, profile visits, calls and enquiries.' },
     ];
+    // Live data (props.data): the source page /promote-your-centre/; sections that need facts the source lacks (plans, prices, analytics, testimonials, FAQ) are hidden.
+    const D = this.props.data || null;
+    const sample = !D;
+    const benefitsLive = D ? D.benefits.map((b, i) => ({ icon: [ic.pin, ic.dual][i % 2], title: b.title, body: b.body })) : benefits;
     const spokeDefs = [
       ['Canada', 'Homepage & national lists', ic.maple],
       ['Province', 'e.g. Ontario Rehabs', ic.pin],
@@ -875,7 +879,9 @@ class Component extends DCLogic {
       heroViews: cu(421),
       heroCalls: cu(34),
       heroBars,
-      benefits,
+      benefits: benefitsLive,
+      sample,
+      live: D,
       pageTypes,
       spokes,
       pathSteps,
@@ -940,6 +946,8 @@ function template(v) {
   const {
     aboutStats,
     benefits,
+    sample,
+    live,
     chartBars,
     clearSel,
     compareHead,
@@ -1006,16 +1014,23 @@ function template(v) {
                 For treatment providers
               </span>
               <h1 style={{ fontSize: '60px', lineHeight: '1.03', color: '#10233a' }} data-rc-lg="1">
-                Promote Your Rehab Centre
+                {sample ? 'Promote Your Rehab Centre' : live.title}
               </h1>
+              {sample ? (
               <p style={{ fontSize: '19px', lineHeight: '1.55', color: '#516378', maxWidth: '560px' }}>
                 Reach people actively searching for private addiction treatment across Canada with enhanced profiles,
                 targeted sponsorships and measurable visibility.
               </p>
+              ) : (
+              <>
+              <h2 style={{ font: '500 24px/1.35 Figtree,sans-serif', color: '#10233a', maxWidth: '600px' }}>{live.headline}</h2>
+              <p style={{ fontSize: '17px', lineHeight: '1.65', color: '#516378', maxWidth: '600px' }}>{live.intro}</p>
+              </>
+              )}
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                 <$A
                   className="scp1"
-                  href="#plans"
+                  href={sample ? '#plans' : '/claim-listing/'}
                   style={{
                     font: '600 16px Jost,sans-serif',
                     color: '#fff',
@@ -1025,11 +1040,11 @@ function template(v) {
                     boxShadow: '0 10px 24px -12px rgba(8,144,232,.6)',
                   }}
                 >
-                  View Plans
+                  {sample ? 'View Plans' : 'List your centre'}
                 </$A>
                 <$A
                   className="scp2"
-                  href="#contact"
+                  href={sample ? '#contact' : 'mailto:info@addictionrehabcenters.ca'}
                   style={{
                     font: '600 16px Jost,sans-serif',
                     color: '#10233a',
@@ -1042,6 +1057,7 @@ function template(v) {
                   Talk to Our Team
                 </$A>
               </div>
+              {sample ? (
               <p style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13.5px', color: '#6b7f95' }}>
                 <span
                   style={{
@@ -1059,7 +1075,9 @@ function template(v) {
                 </span>
                 Sponsored placements are clearly identified and never influence organic rankings.
               </p>
+              ) : null}
             </div>
+            {sample ? (
             <div data-rc-mock="1" style={{ position: 'relative', height: '460px' }}>
               <div
                 style={{
@@ -1160,7 +1178,7 @@ function template(v) {
                   style={{
                     position: 'relative',
                     aspectRatio: '16/8',
-                    background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                   }}
                 >
                   <span
@@ -1233,11 +1251,16 @@ function template(v) {
                 </div>
               </div>
             </div>
+            ) : null}
+            {live && live.heroImg ? (
+            <img src={live.heroImg.src} alt={live.heroImg.alt} width={live.heroImg.width || undefined} height={live.heroImg.height || undefined} loading="eager" fetchPriority="high" style={{ width: '100%', height: 'auto', maxHeight: '460px', objectFit: 'cover', borderRadius: '24px', boxShadow: '0 40px 80px -40px rgba(16,35,58,.35)' }} />
+            ) : null}
           </div>
         </section>
         <section data-screen-label="Benefits" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '40px' }}>
+              {sample ? (
               <span
                 style={{
                   font: '600 12px Figtree,sans-serif',
@@ -1248,13 +1271,14 @@ function template(v) {
               >
                 What you get
               </span>
+              ) : null}
               <h2 style={{ fontSize: '38px', lineHeight: '1.12', marginTop: '10px' }} data-rc-lg="1">
-                Reach People Looking for Treatment
+                {sample ? 'Reach People Looking for Treatment' : live.whyHeading}
               </h2>
             </div>
             <div
-              style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '16px' }}
-              data-cols="repeat(4,1fr)"
+              style={{ display: 'grid', gridTemplateColumns: sample ? 'repeat(4,1fr)' : 'repeat(2,1fr)', gap: '16px' }}
+              data-cols={sample ? 'repeat(4,1fr)' : '1fr 1fr'}
             >
               {$list(benefits).map((bf, $index) => (
                 <Fragment key={$index}>
@@ -1291,8 +1315,12 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
+            {live && live.whyImg ? (
+            <img src={live.whyImg.src} alt={live.whyImg.alt} width={live.whyImg.width || undefined} height={live.whyImg.height || undefined} loading="lazy" style={{ width: '100%', height: 'auto', maxHeight: '420px', objectFit: 'cover', borderRadius: '22px', marginTop: '28px' }} />
+            ) : null}
           </div>
         </section>
+        {sample ? (
         <section
           data-screen-label="Where you appear"
           style={{ background: '#10233a', color: '#fff', overflow: 'hidden', position: 'relative' }}
@@ -1507,6 +1535,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section id="plans" data-screen-label="Plans" style={{ background: '#f7fafd' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '40px' }}>
@@ -1619,6 +1649,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Placements" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -1879,6 +1911,8 @@ function template(v) {
             </p>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section
           data-screen-label="Sponsored vs organic"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}
@@ -2047,6 +2081,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="How it works" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '40px' }}>
@@ -2104,6 +2140,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Analytics" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -2265,6 +2303,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Availability" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '36px' }}>
@@ -2331,6 +2371,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Testimonials" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '36px' }}>
@@ -2457,6 +2499,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Trust" style={{ background: '#eaf5fd', borderTop: '1px solid #d5e8f7' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '720px', margin: '0 auto 40px', textAlign: 'center' }}>
@@ -2542,6 +2586,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section data-screen-label="Founding Partner" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -2653,6 +2699,7 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
         <section
           data-screen-label="About the platform"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}
@@ -2680,17 +2727,22 @@ function template(v) {
                   color: '#0890E8',
                 }}
               >
-                About the platform
+                {sample ? 'About the platform' : 'About'}
               </span>
               <h2 style={{ fontSize: '38px', lineHeight: '1.12' }} data-rc-lg="1">
-                Canada's Treatment Discovery Platform
+                {sample ? "Canada's Treatment Discovery Platform" : live.aboutHeading}
               </h2>
+              {sample ? (
               <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>
                 Founded in 2015 and based in Toronto, Addiction Rehab Centres Canada helps people and families
                 understand treatment options and connect with providers across the country — through a free 24/7
                 helpline, independent directory listings and clinically reviewed guides.
               </p>
+              ) : (live.about.map((t, k) => (
+              <p key={k} style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>{t}</p>
+              )))}
             </div>
+            {sample ? (
             <div
               style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '12px' }}
               data-cols="repeat(2,1fr)"
@@ -2708,8 +2760,12 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
+            ) : (live.aboutImg ? (
+            <img src={live.aboutImg.src} alt={live.aboutImg.alt} width={live.aboutImg.width || undefined} height={live.aboutImg.height || undefined} loading="lazy" style={{ width: '100%', height: 'auto', borderRadius: '24px', boxShadow: '0 40px 80px -40px rgba(16,35,58,.25)' }} />
+            ) : null)}
           </div>
         </section>
+        {sample ? (
         <section data-screen-label="Plan comparison" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '36px' }}>
@@ -2789,6 +2845,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {sample ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -2890,6 +2948,7 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
         <section
           id="contact"
           data-screen-label="Final CTA"
@@ -2925,10 +2984,10 @@ function template(v) {
               />
               <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <h2 style={{ fontSize: '40px', lineHeight: '1.1', color: '#fff' }} data-rc-lg="1">
-                  Ready to Increase Your Centre's Visibility?
+                  {sample ? "Ready to Increase Your Centre's Visibility?" : live.progHeading}
                 </h2>
                 <p style={{ fontSize: '17px', lineHeight: '1.55', color: '#b7c7d8' }}>
-                  Reach people researching treatment while keeping advertising transparent and measurable.
+                  {sample ? 'Reach people researching treatment while keeping advertising transparent and measurable.' : live.progText}
                 </p>
                 <$A
                   className="scpe"
@@ -2939,9 +2998,12 @@ function template(v) {
                 </$A>
               </div>
               <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                {live && live.progImg ? (
+                <img src={live.progImg.src} alt={live.progImg.alt} width={live.progImg.width || undefined} height={live.progImg.height || undefined} loading="lazy" style={{ width: '100%', height: 'auto', borderRadius: '18px' }} />
+                ) : null}
                 <$A
                   className="scpr"
-                  href="#plans"
+                  href={sample ? '#plans' : '/claim-listing/'}
                   style={{
                     font: '600 18px Jost,sans-serif',
                     color: '#10233a',
@@ -2951,7 +3013,7 @@ function template(v) {
                     textAlign: 'center',
                   }}
                 >
-                  View Plans
+                  {sample ? 'View Plans' : 'List your centre'}
                 </$A>
                 <$A
                   className="scpv"
