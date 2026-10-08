@@ -1003,15 +1003,7 @@ class Component extends DCLogic {
       aboutImg: H?.aboutImg ?? null,
       programImg: H?.programImg ?? null,
       ctaImg: H?.ctaImg ?? null,
-      topCols: H
-        ? this.state.vw >= 680
-          ? 'minmax(0,460px)'
-          : 'minmax(0,1fr)'
-        : this.state.vw >= 1000
-          ? 'repeat(3,minmax(0,1fr))'
-          : this.state.vw >= 680
-            ? 'repeat(3,minmax(0,1fr))'
-            : 'minmax(0,1fr)',
+      topCols: this.state.vw >= 900 ? 'repeat(3,minmax(0,1fr))' : 'minmax(0,1fr)',
       topHeadOp: topIn ? '1' : '0',
       topHeadTf: topIn ? 'none' : 'translateY(16px)',
       iconPinSm: this.icon(
@@ -1650,7 +1642,7 @@ function template(v) {
                 </$A>
               </div>
             </div>
-            <div style={$css(`display:grid;grid-template-columns:${topCols ?? ''};gap:24px;justify-content:center`)} data-rc-dyn="1">
+            <div style={$css(`display:grid;grid-template-columns:${topCols ?? ''};gap:24px`)} data-rc-dyn="1">
               {$list(topCentres).map((c, $index) => (
                 <Fragment key={$index}>
                   <div
@@ -2961,7 +2953,7 @@ function template(v) {
                   position: 'relative',
                   display: 'block',
                   aspectRatio: '16/9',
-                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
+                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
                 }}
               >
                 {inspireImg ? (

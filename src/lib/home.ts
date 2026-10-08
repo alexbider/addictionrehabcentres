@@ -56,26 +56,24 @@ export function homeData(): HomeData | null {
     seen.add(it.href);
     featured.push(centreFor(it.href, it.name, it.address, it.excerpt, it.image ? { ...it.image, width: it.image.width ?? null, height: it.image.height ?? null } : null));
   }
-  // "Top Rated Rehab" row of the source: one centre (Metamorphosis Centre for Change).
-  const topRow = page.rows.find((r) => r.columns.some((c) => c.blocks.some((b) => b.type === 'h2' && /top rated/i.test(b.text))));
-  const topFlat = topRow?.columns.flatMap((c) => c.blocks) ?? [];
-  const topName = (topFlat.filter((b) => b.type === 'h2')[1] as { text: string } | undefined)?.text ?? '';
-  const topLink = topFlat.find((b) => b.type === 'link') as { new_href?: string; href?: string } | undefined;
-  const topPara = topFlat.find((b) => b.type === 'p') as { text: string } | undefined;
-  const topHref = (topLink?.new_href || topLink?.href || '').replace(/^https?:\/\/[^/]+/, '');
-  const top: HomeCentre[] = [];
-  if (topName) {
-    const cp = getPageByRoute('/' + topName.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') + '/');
-    top.push(centreFor(cp?.route ?? topHref, topName, cp?.centre?.address ?? '', topPara?.text ?? '', imgOf(topFlat.find((b) => b.type === 'image'))));
-  }
+  // Section B ("Featured treatment centres across Canada"): exactly 3 real centres from 3 different provinces, none of them among the first 3 of section A.
+  // Real card image (>= 600 px wide), a full description (>= 120 characters), a phone number; provinces with the most centres first, longest description first.
+  type Rec = { n: string; u: string; c: string; p: string; a: string; d: string; i?: string; w?: number; h?: number; t?: string; k?: string };
+  const recs: Rec[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public/assets/search-index.json'), 'utf8'));
+  const firstThree = new Set(featured.slice(0, 3).map((f) => f.href));
+  const good = recs.filter((r) => r.i && (r.w ?? 0) >= 600 && r.d.length >= 120 && r.k && r.a && !firstThree.has(r.u));
+  const byProvB = new Map<string, Rec[]>();
+  for (const r of good) byProvB.set(r.p, [...(byProvB.get(r.p) ?? []), r]);
+  const orderB = [...byProvB.entries()].sort((a, b) => b[1].length - a[1].length).map(([p, l]) => [p, l.sort((x, y) => y.d.length - x.d.length || x.n.localeCompare(y.n))] as const);
+  const asCard = (r: Rec): HomeCentre => ({ name: r.n, city: r.a.replace(/,?\s*Canada$/, ''), href: r.u, excerpt: r.d, tel: 'tel:' + (r.k ?? '+18558854747').replace(/^tel:/, ''), phone: r.k ?? '1-855-885-4747', img: { src: r.i!, alt: r.t || r.n, width: r.w ?? null, height: r.h ?? null } });
+  const top: HomeCentre[] = orderB.slice(0, 3).map(([, l]) => asCard(l[0]));
+  const topHrefs = new Set(top.map((t) => t.href));
   // Fill up to 20: real centres with a card image (>= 600 px wide), a full description (>= 120 characters) and a phone number,
   // taken round-robin across provinces (provinces with the most centres first, longest description first within a province).
   const MAX = 20;
   if (featured.length < MAX) {
-    type Rec = { n: string; u: string; c: string; p: string; a: string; d: string; i?: string; w?: number; h?: number; t?: string; k?: string };
-    const recs: Rec[] = JSON.parse(fs.readFileSync(path.join(process.cwd(), 'public/assets/search-index.json'), 'utf8'));
     const have = new Set(featured.map((f) => f.href));
-    const ok = recs.filter((r) => !have.has(r.u) && r.i && (r.w ?? 0) >= 600 && r.d.length >= 120 && r.k);
+    const ok = recs.filter((r) => !have.has(r.u) && !topHrefs.has(r.u) && r.i && (r.w ?? 0) >= 600 && r.d.length >= 120 && r.k);
     const byProv = new Map<string, Rec[]>();
     for (const r of ok) byProv.set(r.p, [...(byProv.get(r.p) ?? []), r]);
     const order = [...byProv.entries()].sort((a, b) => b[1].length - a[1].length).map(([p, l]) => [p, l.sort((x, y) => y.d.length - x.d.length || x.n.localeCompare(y.n))] as const);
