@@ -245,3 +245,6 @@ Pages: `/another-road-addiction-recovery-centre/` (rich: 11 gallery images, YouT
 - **Bullet lines** (“• Holistic”, 5,948 paragraphs, plus 14 “– …” ones that come in runs of two or more) are converted into real lists; only the bullet symbol is removed.
 - **“Substance Abuse Tremental”-style oddity kept as in the source:** appears under both Specialties and Amenities on centres such as `/canadawide-mobile/` and `/peace-country-wilderness-program/`; not corrected.
 - Still never shown: Google review text (10 centres), review counts, ratings, sponsor ad.
+
+## 22. Centre batch 1 (101 centres on the Centre view)
+First 100 published centres alphabetical by slug (`1000-islands-addiction-rehab` … `diversecity…`, incl. `/search-listing/cedars-victoria/`) plus the 4 prototypes. `BATCH_SIZE` in `src/lib/centre.ts`. Fidelity: 101 pages, 0 missing words, 0 Google review text, no review counts, one H1 each. Overflow 320/390/768/1440 on 18 pages (longest, embeds, FAQ, info items, minimal, search-listing): none.
