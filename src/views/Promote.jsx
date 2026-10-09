@@ -5,6 +5,18 @@ import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, 
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
 
+/** A sample card that links to its real centre page when there is one (same markup either way). */
+const CardLink = ({ href, style, cols, children }) =>
+  href ? (
+    <a href={href} data-cols={cols} style={{ ...style, display: style.display || 'block', color: 'inherit', textDecoration: 'none' }}>
+      {children}
+    </a>
+  ) : (
+    <div data-cols={cols} style={style}>
+      {children}
+    </div>
+  );
+
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
   state = { menu: null, tab: 0, slide: 0, faq: 0, t: 0, sel: ['City', 'Substance'] };
@@ -334,7 +346,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -347,7 +359,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -360,7 +372,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -553,10 +565,29 @@ class Component extends DCLogic {
       },
       { icon: ic.heart, title: 'Measure Results', body: 'Track impressions, profile visits, calls and enquiries.' },
     ];
-    // Live data (props.data): the source page /promote-your-centre/; sections that need facts the source lacks (plans, prices, analytics, testimonials, FAQ) are hidden.
+    // Real content from the source page /promote-your-centre/ (props.data). Every slot falls back to the design's own text;
+    // see audit/DESIGN-PLACEHOLDERS.csv for what still comes from the design.
     const D = this.props.data || null;
-    const sample = !D;
-    const benefitsLive = D ? D.benefits.map((b, i) => ({ icon: [ic.pin, ic.dual][i % 2], title: b.title, body: b.body })) : benefits;
+    const T = {
+      h1: D?.title || 'Promote Your Rehab Centre',
+      intro:
+        D?.intro ||
+        'Reach people actively searching for private addiction treatment across Canada with enhanced profiles, targeted sponsorships and measurable visibility.',
+      aboutHeading: D?.aboutHeading || "Canada's Treatment Discovery Platform",
+      about: D?.about?.length
+        ? D.about
+        : [
+            'Founded in 2015 and based in Toronto, Addiction Rehab Centres Canada helps people and families understand treatment options and connect with providers across the country — through a free 24/7 helpline, independent directory listings and clinically reviewed guides.',
+          ],
+      ctaHeading: D?.progHeading || "Ready to Increase Your Centre's Visibility?",
+      ctaText: D?.progText || 'Reach people researching treatment while keeping advertising transparent and measurable.',
+      // "Sponsored" / "Verified" labels on real centres are sample values (SHOW_SAMPLE_DATA in src/lib/rollout.ts)
+      showSample: D ? D.showSample : true,
+      hero: D?.heroCentre || null,
+      whyHeading: D?.whyHeading || '',
+      why: D?.benefits || [],
+      testimonialCentres: D?.testimonialCentres || {},
+    };
     const spokeDefs = [
       ['Canada', 'Homepage & national lists', ic.maple],
       ['Province', 'e.g. Ontario Rehabs', ic.pin],
@@ -739,8 +770,14 @@ class Component extends DCLogic {
         .filter((p) => sel.includes(p.label))
         .reduce((a, p) => a + priceNum(p.price), 0)
         .toLocaleString('en-CA');
-    const mockSponsored = ['Sponsored Centre A', 'Sponsored Centre B', 'Sponsored Centre C'];
-    const mockOrganic = ['Bellwood Health Services', 'Addiction Rehab Toronto', 'Renascent Treatment Centre'];
+    // Real Toronto centres (name, photo, link) replace the design's sample names; the design's own names are used only when there is no source data.
+    const loc = (c) => c.city + ', ' + c.province;
+    const mockSponsored = D?.sponsored?.length
+      ? D.sponsored.map((c) => ({ ...c, loc: loc(c) }))
+      : ['Sponsored Centre A', 'Sponsored Centre B', 'Sponsored Centre C'].map((name) => ({ name, loc: 'Toronto, ON' }));
+    const mockOrganic = D?.organic?.length
+      ? D.organic.map((c) => ({ ...c, loc: loc(c) + ' · ' + c.type }))
+      : ['Bellwood Health Services', 'Addiction Rehab Toronto', 'Renascent Treatment Centre'].map((name) => ({ name, loc: 'Toronto, ON · Residential' }));
     const steps = [
       ['01', 'Claim & verify', 'Confirm your centre by phone or business email.'],
       ['02', 'Build your profile', 'Add programs, pricing, photos, video and your clinical team.'],
@@ -787,16 +824,23 @@ class Component extends DCLogic {
     });
     const testimonials = [
       {
-        quote: 'Testimonial — collect a short, specific quote from the centre about enquiries or visibility.',
+        quote: 'Listed on Addiction Rehab Centres Canada, where families search for treatment centres.',
         name: 'Metamorphosis Centre for Change',
+        href: '/metamorphosis-centre-for-change/',
         place: 'Wasaga Beach, Ontario',
       },
       {
-        quote: 'Testimonial — collect a short, specific quote from the centre about enquiries or visibility.',
+        quote: 'Listed on Addiction Rehab Centres Canada, where families search for treatment centres.',
         name: 'Inspire Change Wellness Center',
+        href: '/inspire-change-wellness-center/',
         place: 'White Rock, British Columbia',
       },
     ];
+    // the two named centres are real: their own photo replaces the logo box and their real city is shown
+    const testimonialsLive = testimonials.map((tm) => {
+      const c = T.testimonialCentres[tm.href];
+      return c ? { ...tm, place: c.city + ', ' + c.provinceName, image: c.image } : tm;
+    });
     const media = ['Yahoo', 'Forbes', 'Entrepreneur', 'LegitScript'];
     const founding = [
       'Priority onboarding',
@@ -879,9 +923,8 @@ class Component extends DCLogic {
       heroViews: cu(421),
       heroCalls: cu(34),
       heroBars,
-      benefits: benefitsLive,
-      sample,
-      live: D,
+      benefits,
+      T,
       pageTypes,
       spokes,
       pathSteps,
@@ -899,7 +942,7 @@ class Component extends DCLogic {
       chartBars,
       topSponsors,
       inventory,
-      testimonials,
+      testimonials: testimonialsLive,
       media,
       founding,
       aboutStats,
@@ -946,8 +989,7 @@ function template(v) {
   const {
     aboutStats,
     benefits,
-    sample,
-    live,
+    T,
     chartBars,
     clearSel,
     compareHead,
@@ -977,7 +1019,7 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Hero"
@@ -1014,23 +1056,13 @@ function template(v) {
                 For treatment providers
               </span>
               <h1 style={{ fontSize: '60px', lineHeight: '1.03', color: '#10233a' }} data-rc-lg="1">
-                {sample ? 'Promote Your Rehab Centre' : live.title}
+                {T.h1}
               </h1>
-              {sample ? (
-              <p style={{ fontSize: '19px', lineHeight: '1.55', color: '#516378', maxWidth: '560px' }}>
-                Reach people actively searching for private addiction treatment across Canada with enhanced profiles,
-                targeted sponsorships and measurable visibility.
-              </p>
-              ) : (
-              <>
-              <h2 style={{ font: '500 24px/1.35 Figtree,sans-serif', color: '#10233a', maxWidth: '600px' }}>{live.headline}</h2>
-              <p style={{ fontSize: '17px', lineHeight: '1.65', color: '#516378', maxWidth: '600px' }}>{live.intro}</p>
-              </>
-              )}
+              <p style={{ fontSize: '19px', lineHeight: '1.55', color: '#516378', maxWidth: '560px' }}>{T.intro}</p>
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                 <$A
                   className="scp1"
-                  href={sample ? '#plans' : '/claim-listing/'}
+                  href="#plans"
                   style={{
                     font: '600 16px Jost,sans-serif',
                     color: '#fff',
@@ -1040,11 +1072,11 @@ function template(v) {
                     boxShadow: '0 10px 24px -12px rgba(8,144,232,.6)',
                   }}
                 >
-                  {sample ? 'View Plans' : 'List your centre'}
+                  View Plans
                 </$A>
                 <$A
                   className="scp2"
-                  href={sample ? '#contact' : 'mailto:info@addictionrehabcenters.ca'}
+                  href="#contact"
                   style={{
                     font: '600 16px Jost,sans-serif',
                     color: '#10233a',
@@ -1057,7 +1089,6 @@ function template(v) {
                   Talk to Our Team
                 </$A>
               </div>
-              {sample ? (
               <p style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13.5px', color: '#6b7f95' }}>
                 <span
                   style={{
@@ -1075,9 +1106,7 @@ function template(v) {
                 </span>
                 Sponsored placements are clearly identified and never influence organic rankings.
               </p>
-              ) : null}
             </div>
-            {sample ? (
             <div data-rc-mock="1" style={{ position: 'relative', height: '460px' }}>
               <div
                 style={{
@@ -1178,9 +1207,20 @@ function template(v) {
                   style={{
                     position: 'relative',
                     aspectRatio: '16/8',
-                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                    background: T.hero?.image ? '#eaf2f8' : 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                   }}
                 >
+                  {T.hero?.image ? (
+                    <img
+                      src={T.hero.image.src}
+                      alt={T.hero.image.alt}
+                      width={T.hero.image.width || undefined}
+                      height={T.hero.image.height || undefined}
+                      loading="eager"
+                      style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
+                  ) : null}
+                  {T.showSample ? (
                   <span
                     style={{
                       position: 'absolute',
@@ -1196,71 +1236,53 @@ function template(v) {
                   >
                     SPONSORED
                   </span>
+                  ) : null}
                 </div>
                 <div style={{ padding: '16px 18px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                  <div style={{ font: '600 17px Jost,sans-serif' }}>Centre Name</div>
-                  <div style={{ fontSize: '13px', color: '#6b7f95' }}>Toronto, Ontario · Residential Treatment</div>
-                  <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                    <span
-                      style={{
-                        font: '500 11.5px Figtree,sans-serif',
-                        color: '#1f3550',
-                        background: '#eef4f9',
-                        padding: '4px 8px',
-                        borderRadius: '999px',
-                      }}
-                    >
-                      Alcohol
-                    </span>
-                    <span
-                      style={{
-                        font: '500 11.5px Figtree,sans-serif',
-                        color: '#1f3550',
-                        background: '#eef4f9',
-                        padding: '4px 8px',
-                        borderRadius: '999px',
-                      }}
-                    >
-                      Opioids
-                    </span>
-                    <span
-                      style={{
-                        font: '500 11.5px Figtree,sans-serif',
-                        color: '#1f3550',
-                        background: '#eef4f9',
-                        padding: '4px 8px',
-                        borderRadius: '999px',
-                      }}
-                    >
-                      Mental Health
-                    </span>
+                  <div style={{ font: '600 17px Jost,sans-serif' }}>{T.hero ? T.hero.name : 'Centre Name'}</div>
+                  <div style={{ fontSize: '13px', color: '#6b7f95' }}>
+                    {T.hero ? `${T.hero.city}, ${T.hero.provinceName} · ${T.hero.type}` : 'Toronto, Ontario · Residential Treatment'}
                   </div>
-                  <span
-                    style={{
-                      alignSelf: 'flex-start',
-                      marginTop: '6px',
-                      font: '600 13px Jost,sans-serif',
-                      color: '#fff',
-                      background: '#10233a',
-                      padding: '8px 12px',
-                      borderRadius: '9px',
-                    }}
-                  >
-                    View Centre
-                  </span>
+                  <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
+                    {(T.hero && T.hero.tags.length ? T.hero.tags.slice(0, 3) : ['Alcohol', 'Opioids', 'Mental Health']).map((tg, k) => (
+                      <span
+                        key={k}
+                        style={{
+                          font: '500 11.5px Figtree,sans-serif',
+                          color: '#1f3550',
+                          background: '#eef4f9',
+                          padding: '4px 8px',
+                          borderRadius: '999px',
+                        }}
+                      >
+                        {tg}
+                      </span>
+                    ))}
+                  </div>
+                  {React.createElement(
+                    T.hero ? 'a' : 'span',
+                    {
+                      href: T.hero ? T.hero.href : undefined,
+                      style: {
+                        alignSelf: 'flex-start',
+                        marginTop: '6px',
+                        font: '600 13px Jost,sans-serif',
+                        color: '#fff',
+                        background: '#10233a',
+                        padding: '8px 12px',
+                        borderRadius: '9px',
+                      },
+                    },
+                    'View Centre',
+                  )}
                 </div>
               </div>
             </div>
-            ) : null}
-            {live && live.heroImg ? (
-            <img src={live.heroImg.src} alt={live.heroImg.alt} width={live.heroImg.width || undefined} height={live.heroImg.height || undefined} loading="eager" fetchPriority="high" style={{ width: '100%', height: 'auto', maxHeight: '460px', objectFit: 'cover', borderRadius: '24px', boxShadow: '0 40px 80px -40px rgba(16,35,58,.35)' }} />
-            ) : null}
           </div>
         </section>
         <section data-screen-label="Benefits" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '40px' }}>
-              {sample ? (
               <span
                 style={{
                   font: '600 12px Figtree,sans-serif',
@@ -1271,14 +1293,13 @@ function template(v) {
               >
                 What you get
               </span>
-              ) : null}
               <h2 style={{ fontSize: '38px', lineHeight: '1.12', marginTop: '10px' }} data-rc-lg="1">
-                {sample ? 'Reach People Looking for Treatment' : live.whyHeading}
+                Reach People Looking for Treatment
               </h2>
             </div>
             <div
-              style={{ display: 'grid', gridTemplateColumns: sample ? 'repeat(4,1fr)' : 'repeat(2,1fr)', gap: '16px' }}
-              data-cols={sample ? 'repeat(4,1fr)' : '1fr 1fr'}
+              style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '16px' }}
+              data-cols="repeat(4,1fr)"
             >
               {$list(benefits).map((bf, $index) => (
                 <Fragment key={$index}>
@@ -1315,12 +1336,19 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
-            {live && live.whyImg ? (
-            <img src={live.whyImg.src} alt={live.whyImg.alt} width={live.whyImg.width || undefined} height={live.whyImg.height || undefined} loading="lazy" style={{ width: '100%', height: 'auto', maxHeight: '420px', objectFit: 'cover', borderRadius: '22px', marginTop: '28px' }} />
+            {T.why.length ? (
+              <div style={{ marginTop: '48px', maxWidth: '820px', display: 'flex', flexDirection: 'column', gap: '14px' }} data-why="1">
+                {T.whyHeading ? <h3 style={{ fontSize: '24px', lineHeight: '1.2' }}>{T.whyHeading}</h3> : null}
+                {T.why.map((w, k) => (
+                  <Fragment key={k}>
+                    <h3 style={{ fontSize: '19px', marginTop: k ? '6px' : '0' }}>{w.title}</h3>
+                    <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>{w.body}</p>
+                  </Fragment>
+                ))}
+              </div>
             ) : null}
           </div>
         </section>
-        {sample ? (
         <section
           data-screen-label="Where you appear"
           style={{ background: '#10233a', color: '#fff', overflow: 'hidden', position: 'relative' }}
@@ -1535,8 +1563,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section id="plans" data-screen-label="Plans" style={{ background: '#f7fafd' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '40px' }}>
@@ -1649,8 +1675,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="Placements" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -1911,8 +1935,6 @@ function template(v) {
             </p>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section
           data-screen-label="Sponsored vs organic"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}
@@ -1994,7 +2016,8 @@ function template(v) {
               >
                 {$list(mockSponsored).map((m, $index) => (
                   <Fragment key={$index}>
-                    <div
+                    <CardLink
+                      href={m.href}
                       style={{
                         border: '1px solid #f0d5d7',
                         background: '#fff8f8',
@@ -2006,9 +2029,20 @@ function template(v) {
                         style={{
                           position: 'relative',
                           aspectRatio: '16/9',
-                          background: 'repeating-linear-gradient(135deg,#f3dcdd 0 10px,#f9ecec 10px 20px)',
+                          background: m.image ? '#f9ecec' : 'repeating-linear-gradient(135deg,#f3dcdd 0 10px,#f9ecec 10px 20px)',
                         }}
                       >
+                        {m.image ? (
+                          <img
+                            src={m.image.src}
+                            alt={m.image.alt}
+                            width={m.image.width || undefined}
+                            height={m.image.height || undefined}
+                            loading="lazy"
+                            style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover' }}
+                          />
+                        ) : null}
+                        {T.showSample ? (
                         <span
                           style={{
                             position: 'absolute',
@@ -2024,12 +2058,13 @@ function template(v) {
                         >
                           SPONSORED
                         </span>
+                        ) : null}
                       </div>
                       <div style={{ padding: '10px 12px' }}>
-                        <div style={{ font: '600 13px Jost,sans-serif' }}>{$i(m)}</div>
-                        <div style={{ fontSize: '11px', color: '#6b7f95' }}>Toronto, ON</div>
+                        <div style={{ font: '600 13px Jost,sans-serif' }}>{m.name}</div>
+                        <div style={{ fontSize: '11px', color: '#6b7f95' }}>{m.loc}</div>
                       </div>
-                    </div>
+                    </CardLink>
                   </Fragment>
                 ))}
               </div>
@@ -2050,7 +2085,8 @@ function template(v) {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {$list(mockOrganic).map((m, $index) => (
                   <Fragment key={$index}>
-                    <div
+                    <CardLink
+                      href={m.href}
                       style={{
                         display: 'grid',
                         gridTemplateColumns: '56px 1fr auto',
@@ -2060,29 +2096,38 @@ function template(v) {
                         borderRadius: '12px',
                         padding: '8px 10px',
                       }}
-                      data-cols="56px 1fr auto"
+                      cols="56px 1fr auto"
                     >
-                      <span
-                        style={{
-                          height: '40px',
-                          borderRadius: '8px',
-                          background: 'repeating-linear-gradient(135deg,#dfeaf3 0 8px,#eaf2f8 8px 16px)',
-                        }}
-                      />
+                      {m.image ? (
+                        <img
+                          src={m.image.src}
+                          alt={m.image.alt}
+                          width={m.image.width || undefined}
+                          height={m.image.height || undefined}
+                          loading="lazy"
+                          style={{ height: '40px', width: '56px', borderRadius: '8px', objectFit: 'cover', display: 'block' }}
+                        />
+                      ) : (
+                        <span
+                          style={{
+                            height: '40px',
+                            borderRadius: '8px',
+                            background: 'repeating-linear-gradient(135deg,#dfeaf3 0 8px,#eaf2f8 8px 16px)',
+                          }}
+                        />
+                      )}
                       <div>
-                        <div style={{ font: '600 13px Jost,sans-serif' }}>{$i(m)}</div>
-                        <div style={{ fontSize: '11px', color: '#6b7f95' }}>Toronto, ON · Residential</div>
+                        <div style={{ font: '600 13px Jost,sans-serif' }}>{m.name}</div>
+                        <div style={{ fontSize: '11px', color: '#6b7f95' }}>{m.loc}</div>
                       </div>
-                      <span style={{ fontSize: '11px', color: '#2fb46b', fontWeight: '600' }}>Verified</span>
-                    </div>
+                      {T.showSample ? <span style={{ fontSize: '11px', color: '#2fb46b', fontWeight: '600' }}>Verified</span> : <span />}
+                    </CardLink>
                   </Fragment>
                 ))}
               </div>
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="How it works" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '40px' }}>
@@ -2140,8 +2185,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="Analytics" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -2303,8 +2346,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="Availability" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '36px' }}>
@@ -2371,8 +2412,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="Testimonials" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '36px' }}>
@@ -2404,27 +2443,39 @@ function template(v) {
                       gap: '18px',
                     }}
                   >
+                    {tm?.image ? (
+                      <img
+                        src={tm.image.src}
+                        alt={tm.image.alt}
+                        width={56}
+                        height={56}
+                        loading="lazy"
+                        style={{ width: '56px', height: '56px', borderRadius: '14px', border: '1px solid #e3ecf4', objectFit: 'cover', display: 'block' }}
+                      />
+                    ) : (
                     <span
-                      style={{
-                        width: '56px',
-                        height: '56px',
-                        borderRadius: '14px',
-                        border: '1px solid #e3ecf4',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 8px,#eaf2f8 8px 16px)',
-                        display: 'grid',
-                        placeItems: 'center',
-                        font: '500 10px ui-monospace,monospace',
-                        color: '#516378',
-                      }}
-                    >
-                      logo
-                    </span>
+                        style={{
+                          width: '56px',
+                          height: '56px',
+                          borderRadius: '14px',
+                          border: '1px solid #e3ecf4',
+                          background: 'repeating-linear-gradient(135deg,#dfeaf3 0 8px,#eaf2f8 8px 16px)',
+                          display: 'grid',
+                          placeItems: 'center',
+                          font: '500 10px ui-monospace,monospace',
+                          color: '#516378',
+                        }}
+                      >
+                        logo
+                      </span>
+                    )}
                     <p style={{ font: '500 18px/1.5 Jost,sans-serif', color: '#10233a' }}>"{$i(tm?.quote)}"</p>
                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'end', gap: '12px' }}>
                       <div>
                         <div style={{ font: '600 15px Jost,sans-serif' }}>{$i(tm?.name)}</div>
                         <div style={{ fontSize: '13px', color: '#6b7f95' }}>{$i(tm?.place)}</div>
                       </div>
+                      {T.showSample ? (
                       <span
                         style={{
                           display: 'inline-flex',
@@ -2459,6 +2510,7 @@ function template(v) {
                         </svg>
                         Verified centre
                       </span>
+                      ) : null}
                     </div>
                   </div>
                 </Fragment>
@@ -2499,8 +2551,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="Trust" style={{ background: '#eaf5fd', borderTop: '1px solid #d5e8f7' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '720px', margin: '0 auto 40px', textAlign: 'center' }}>
@@ -2586,8 +2636,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section data-screen-label="Founding Partner" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -2699,7 +2747,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
         <section
           data-screen-label="About the platform"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}
@@ -2727,22 +2774,17 @@ function template(v) {
                   color: '#0890E8',
                 }}
               >
-                {sample ? 'About the platform' : 'About'}
+                About the platform
               </span>
               <h2 style={{ fontSize: '38px', lineHeight: '1.12' }} data-rc-lg="1">
-                {sample ? "Canada's Treatment Discovery Platform" : live.aboutHeading}
+                {T.aboutHeading}
               </h2>
-              {sample ? (
-              <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>
-                Founded in 2015 and based in Toronto, Addiction Rehab Centres Canada helps people and families
-                understand treatment options and connect with providers across the country — through a free 24/7
-                helpline, independent directory listings and clinically reviewed guides.
-              </p>
-              ) : (live.about.map((t, k) => (
-              <p key={k} style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>{t}</p>
-              )))}
+              {T.about.map((t, k) => (
+                <p key={k} style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>
+                  {t}
+                </p>
+              ))}
             </div>
-            {sample ? (
             <div
               style={{ display: 'grid', gridTemplateColumns: 'repeat(2,1fr)', gap: '12px' }}
               data-cols="repeat(2,1fr)"
@@ -2760,12 +2802,8 @@ function template(v) {
                 </Fragment>
               ))}
             </div>
-            ) : (live.aboutImg ? (
-            <img src={live.aboutImg.src} alt={live.aboutImg.alt} width={live.aboutImg.width || undefined} height={live.aboutImg.height || undefined} loading="lazy" style={{ width: '100%', height: 'auto', borderRadius: '24px', boxShadow: '0 40px 80px -40px rgba(16,35,58,.25)' }} />
-            ) : null)}
           </div>
         </section>
-        {sample ? (
         <section data-screen-label="Plan comparison" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '36px' }}>
@@ -2845,8 +2883,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -2948,7 +2984,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        ) : null}
         <section
           id="contact"
           data-screen-label="Final CTA"
@@ -2984,11 +3019,9 @@ function template(v) {
               />
               <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <h2 style={{ fontSize: '40px', lineHeight: '1.1', color: '#fff' }} data-rc-lg="1">
-                  {sample ? "Ready to Increase Your Centre's Visibility?" : live.progHeading}
+                  {T.ctaHeading}
                 </h2>
-                <p style={{ fontSize: '17px', lineHeight: '1.55', color: '#b7c7d8' }}>
-                  {sample ? 'Reach people researching treatment while keeping advertising transparent and measurable.' : live.progText}
-                </p>
+                <p style={{ fontSize: '17px', lineHeight: '1.55', color: '#b7c7d8' }}>{T.ctaText}</p>
                 <$A
                   className="scpe"
                   href="/claim-listing"
@@ -2998,12 +3031,9 @@ function template(v) {
                 </$A>
               </div>
               <div style={{ position: 'relative', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                {live && live.progImg ? (
-                <img src={live.progImg.src} alt={live.progImg.alt} width={live.progImg.width || undefined} height={live.progImg.height || undefined} loading="lazy" style={{ width: '100%', height: 'auto', borderRadius: '18px' }} />
-                ) : null}
                 <$A
                   className="scpr"
-                  href={sample ? '#plans' : '/claim-listing/'}
+                  href="#plans"
                   style={{
                     font: '600 18px Jost,sans-serif',
                     color: '#10233a',
@@ -3013,7 +3043,7 @@ function template(v) {
                     textAlign: 'center',
                   }}
                 >
-                  {sample ? 'View Plans' : 'List your centre'}
+                  View Plans
                 </$A>
                 <$A
                   className="scpv"

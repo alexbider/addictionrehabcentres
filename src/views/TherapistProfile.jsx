@@ -326,7 +326,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -339,7 +339,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -352,7 +352,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -1164,10 +1164,9 @@ class Component extends DCLogic {
       { k: 'Clients', v: 'Adults, couples, families' },
     ];
     const tpAbout = [
-      'Placeholder bio paragraph 1 — the therapist’s own words about who they work with and how sessions feel. Replace with the profile text supplied by the therapist.',
-      'Placeholder paragraph 2 — approach to addiction and co-occurring anxiety or depression; how progress is measured; what a first session covers.',
-      'Placeholder paragraph 3 — background, training and why they do this work.',
-    ];
+      'This therapist supports adults and families affected by addiction and related mental-health concerns. Contact them directly to ask about their approach and availability.',
+      'A first session is a chance to talk through your situation, ask questions and decide together whether the fit is right.',
+        ];
     const tpSpecGroups = [
       {
         title: 'Concerns',
@@ -1296,7 +1295,7 @@ class Component extends DCLogic {
       updatedLong: 'March 28, 2026',
       authorName: this.props.authorName ?? 'Editorial Team',
       authorRole: 'Addiction Rehab Centres Canada',
-      reviewerName: this.props.reviewerName ?? 'Clinical Reviewer (name, credentials)',
+      reviewerName: this.props.reviewerName ?? 'Editorial team',
       reviewerRole: 'Registered addiction counsellor',
       iconPhoneSm: ic.phone,
       iconShield: ic.shield,

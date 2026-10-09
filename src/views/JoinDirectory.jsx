@@ -335,7 +335,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -348,7 +348,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -361,7 +361,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -634,7 +634,7 @@ class Component extends DCLogic {
       };
     });
     const reach = [
-      ['Placeholder', 'monthly visitors researching addiction & mental-health support'],
+      ['Canada-wide', 'visitors researching addiction & mental-health support'],
       ['13', 'provinces & territories with directory pages'],
       ['3', 'featured therapists max per city — never crowded'],
       ['48 hrs', 'from sign-up to a live, verified profile'],
@@ -2689,7 +2689,7 @@ function template(v) {
                       width: '100%',
                     }}
                   >
-                    <option>{$i(selectedPlanLabel)}</option>
+                    <option>{selectedPlanLabel}</option>
                     <option>Professional — $19.95</option>
                     <option>Featured — $49.95</option>
                     <option>Featured Plus — $79.95</option>

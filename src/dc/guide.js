@@ -7,9 +7,39 @@ export function clean(html) {
     .replace(/\s+(style|class)='[^']*'/gi, '');
 }
 
+
+// Article images: of several images in a row (no heading or paragraph between) only the largest is kept, the same file at another size
+// (name-300x200.jpg and name.jpg) is shown once, images narrower than 400px are dropped, and no image is shown wider than its own width.
+const MIN_IMG = 400;
+const imgKey = (src) => String(src || '').split('?')[0].replace(/-\d+x\d+(?=\.[a-z0-9]+$)/i, '').toLowerCase();
+export function tidyImages(blocks) {
+  const area = (b) => (b.width || 0) * (b.height || 0) || b.width || 0;
+  const out = [];
+  for (let i = 0; i < blocks.length; i++) {
+    if (blocks[i].type !== 'image') { out.push(blocks[i]); continue; }
+    let j = i;
+    while (j < blocks.length && blocks[j].type === 'image') j++;
+    let best = blocks[i];
+    for (let k = i + 1; k < j; k++) if (area(blocks[k]) > area(best)) best = blocks[k];
+    out.push(best);
+    i = j - 1;
+  }
+  const seen = new Set();
+  return out.filter((b) => {
+    if (b.type !== 'image') return true;
+    if (b.width && b.width < MIN_IMG) return false;
+    const k = imgKey(b.src);
+    if (seen.has(k)) return false;
+    seen.add(k);
+    return true;
+  });
+}
+const imgStyle = (b) => ({ width: '100%', height: 'auto', display: 'block', borderRadius: '18px', ...(b.width ? { maxWidth: b.width + 'px', marginLeft: 'auto', marginRight: 'auto' } : null) });
+
 // Renders source guide blocks (headings, paragraphs, lists, tables, images) with the design's guide styles.
 // Used by the Province and City views. Returns the React nodes and the table of contents (h1–h3).
-export function buildGuide(R, blocks) {
+export function buildGuide(R, rawBlocks) {
+  const blocks = tidyImages(rawBlocks);
   const toc = [];
   const used = {};
   const idFor = (t) => {
@@ -31,7 +61,7 @@ export function buildGuide(R, blocks) {
       if (b.type === 'ul' || b.type === 'ol')
         return R(b.type, { key: i, style: { ...bodyStyle, paddingLeft: '24px', listStyle: b.type === 'ul' ? 'disc' : 'decimal', display: 'flex', flexDirection: 'column', gap: '6px' } }, ...b.items.map((it, k) => R('li', { key: k, dangerouslySetInnerHTML: { __html: clean(it.html) } })));
       if (b.type === 'table') return R('div', { key: i, className: 'cp-table', style: { overflowX: 'auto' }, dangerouslySetInnerHTML: { __html: clean(b.html) } });
-      if (b.type === 'image') return R('img', { key: i, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: 'lazy', style: { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' } });
+      if (b.type === 'image') return R('img', { key: i, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: 'lazy', style: imgStyle(b) });
       return null;
     });
   return { nodes, toc };
@@ -57,7 +87,7 @@ function groupBullets(blocks) {
 }
 
 export function buildBody(R, rawBlocks, opts = {}) {
-  const blocks = groupBullets(rawBlocks);
+  const blocks = tidyImages(groupBullets(rawBlocks));
   const toc = [];
   const used = {};
   const idFor = (t) => {
@@ -70,11 +100,11 @@ export function buildBody(R, rawBlocks, opts = {}) {
     const key = i;
     if (/^h[1-6]$/.test(b.type)) {
       const lvl = b.type === 'h1' || b.type === 'h2' ? 2 : b.type === 'h3' ? 3 : 4;
-      const st = lvl === 2 ? { fontSize: '30px', lineHeight: '1.2', color: '#10233a', marginTop: '8px' } : lvl === 3 ? { fontSize: '22px', lineHeight: '1.25', color: '#10233a', marginTop: '4px' } : { fontSize: '18px', lineHeight: '1.3', color: '#10233a' };
+      const st = opts.typo ? (lvl === 2 ? opts.typo.h2 : lvl === 3 ? opts.typo.h3 : opts.typo.h4) : lvl === 2 ? { fontSize: '30px', lineHeight: '1.2', color: '#10233a', marginTop: '8px' } : lvl === 3 ? { fontSize: '22px', lineHeight: '1.25', color: '#10233a', marginTop: '4px' } : { fontSize: '18px', lineHeight: '1.3', color: '#10233a' };
       return R('h' + lvl, { key, id: idFor(b.text), style: st, 'data-rc-lg': lvl === 2 ? '1' : undefined, dangerouslySetInnerHTML: { __html: clean(b.html) } });
     }
     if (b.type === 'p' || b.type === 'text') {
-      return R('p', { key, style: { overflowWrap: 'anywhere' }, dangerouslySetInnerHTML: { __html: clean(b.html ?? b.text) } });
+      return R('p', { key, style: opts.typo ? { ...opts.typo.p, overflowWrap: 'anywhere' } : { overflowWrap: 'anywhere' }, dangerouslySetInnerHTML: { __html: clean(b.html ?? b.text) } });
     }
     if (b.type === 'centre-cards') {
       const lab = { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#0890E8' };
@@ -99,7 +129,7 @@ export function buildBody(R, rawBlocks, opts = {}) {
       return R(b.type === 'bl' ? 'ul' : b.type, { key, className: cls, style: short ? { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ol' ? 'decimal' : 'disc' } : { margin: 0, paddingLeft: '24px', listStyle: b.type === 'ol' ? 'decimal' : 'disc', display: 'flex', flexDirection: 'column', gap: '8px' } }, ...b.items.map((it, k) => R('li', { key: k, style: short ? { breakInside: 'avoid', marginBottom: '8px', overflowWrap: 'anywhere' } : { overflowWrap: 'anywhere' }, dangerouslySetInnerHTML: { __html: clean(it.html) } })));
     }
     if (b.type === 'table') return R('div', { key, className: 'cp-table', style: { overflowX: 'auto', border: '1px solid #e3ecf4', borderRadius: '20px' }, dangerouslySetInnerHTML: { __html: clean(b.html) } });
-    if (b.type === 'image') { const eager = opts.eagerFirst && firstImg; firstImg = false; return R('img', { key, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: eager ? 'eager' : 'lazy', fetchPriority: eager ? 'high' : undefined, style: { width: '100%', height: 'auto', display: 'block', borderRadius: '18px' } }); }
+    if (b.type === 'image') { const eager = opts.eagerFirst && firstImg; firstImg = false; return R('img', { key, src: b.src, alt: b.alt, width: b.width || undefined, height: b.height || undefined, loading: eager ? 'eager' : 'lazy', fetchPriority: eager ? 'high' : undefined, style: imgStyle(b) }); }
     if (b.type === 'video' || b.type === 'iframe') {
       const src = b.type === 'video' ? `https://www.youtube-nocookie.com/embed/${b.id}` : b.src;
       const w = b.type === 'iframe' ? Number(b.width) || 560 : 16, h = b.type === 'iframe' ? Number(b.height) || 315 : 9;
@@ -112,3 +142,7 @@ export function buildBody(R, rawBlocks, opts = {}) {
   });
   return { nodes, toc };
 }
+
+// The design files' own article typography (used by the Drug and Intervention views for real source articles).
+export const TYPO_DRUG = { h2: { fontSize: '36px', lineHeight: '1.12', color: '#10233a', marginTop: '16px' }, h3: { fontSize: '26px', color: '#10233a', marginTop: '10px' }, h4: { fontSize: '20px', color: '#10233a', marginTop: '6px' }, p: { fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' } };
+export const TYPO_INTERVENTION = { h2: { fontSize: '34px', lineHeight: '1.12', color: '#10233a', marginTop: '8px' }, h3: { fontSize: '20px', color: '#10233a', marginTop: '4px' }, h4: { fontSize: '17px', color: '#10233a', marginTop: '4px' }, p: { fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' } };

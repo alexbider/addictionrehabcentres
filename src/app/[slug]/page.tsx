@@ -1,22 +1,18 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import ContentPage from '@/components/ContentPage';
-import ListingPage from '@/components/ListingPage';
-import PostPage from '@/components/PostPage';
-import CentrePage from '@/components/CentrePage';
 import { Root as ProvinceView } from '@/views/Province';
 import { provinceData } from '@/lib/province';
 import { Root as CityView } from '@/views/City';
 import { cityData } from '@/lib/city';
 import { Root as CentreView } from '@/views/Centre';
-import { centreOnView, centreData } from '@/lib/centre';
+import { centreData } from '@/lib/centre';
 import { Root as PostView } from '@/views/BlogPost';
 import { postData } from '@/lib/post';
-import { ROLLOUT } from '@/lib/rollout';
 import { Root as DrugView } from '@/views/Drug';
 import { Root as AlcoholView } from '@/views/Alcohol';
 import { Root as InterventionView } from '@/views/Intervention';
 import { isAlcoholView, isDrugView, isInterventionView, legacyData } from '@/lib/legacy';
+import { drugData } from '@/lib/drug';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
@@ -34,10 +30,22 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const page = getPageByRoute(`/${(await params).slug}/`);
   if (!page) notFound();
+  // Every page type renders on its approved design view; there is no old-template fallback.
+  const view = (() => {
+    if (isAlcoholView(page)) return <AlcoholView data={legacyData(page)} />;
+    if (isDrugView(page)) return <DrugView data={drugData(page)} />;
+    if (isInterventionView(page)) return page.route === '/intervention/' ? <InterventionView /> : <InterventionView data={legacyData(page)} />;
+    if (page.page_type === 'centre') return <CentreView data={centreData(page)} />;
+    if (page.page_type === 'blog-post') return <PostView data={postData(page)} />;
+    if (page.listing && page.page_type === 'province') return <ProvinceView data={provinceData(page)} />;
+    if (page.listing && page.page_type === 'city') return <CityView data={cityData(page)} />;
+    return null;
+  })();
+  if (!view) notFound();
   return (
     <>
       <JsonLd page={page} />
-      {ROLLOUT.alcohol && isAlcoholView(page) ? <AlcoholView data={legacyData(page)} /> : ROLLOUT.drug && isDrugView(page) ? <DrugView data={legacyData(page)} /> : (ROLLOUT.treatment || (ROLLOUT.document && ['about-info', 'legal', 'intervention'].includes(page.page_type))) && isInterventionView(page) ? <InterventionView data={legacyData(page)} /> : page.page_type === 'centre' && centreOnView(page.slug) ? <CentreView data={centreData(page)} /> : page.page_type === 'centre' ? <CentrePage page={page} /> : page.page_type === 'blog-post' && ROLLOUT.blogPosts ? <PostView data={postData(page)} /> : page.page_type === 'blog-post' ? <PostPage page={page} /> : page.listing && page.page_type === 'province' ? <ProvinceView data={provinceData(page)} /> : page.listing && page.page_type === 'city' ? <CityView data={cityData(page)} /> : page.listing ? <ListingPage page={page} /> : <ContentPage page={page} />}
+      {view}
     </>
   );
 }

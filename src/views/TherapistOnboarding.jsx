@@ -1206,7 +1206,7 @@ function template(v) {
                         >
                           {$list(provOpts).map((po, $index) => (
                             <Fragment key={$index}>
-                              <option value={$val(po?.v)}>{$i(po?.l)}</option>
+                              <option value={$val(po?.v)}>{po?.l}</option>
                             </Fragment>
                           ))}
                         </select>

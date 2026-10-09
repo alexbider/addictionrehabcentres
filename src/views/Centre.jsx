@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
-import { buildBody } from '@/dc/guide';
+import { buildBody, clean } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -340,7 +340,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -353,7 +353,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -366,7 +366,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -771,7 +771,6 @@ class Component extends DCLogic {
       ['About', '#about'],
       ['Overview', '#overview'],
       ['Programs & Pricing', '#pricing'],
-      ['Team', '#team'],
       ['Reviews', '#reviews'],
       ['Location', '#location'],
       ['FAQ', '#faq'],
@@ -852,35 +851,6 @@ class Component extends DCLogic {
         color: j === 0 ? '#10233a' : '#3b4d63',
       })),
     );
-    const team = [
-      { name: 'Team member — add from centre', role: 'Medical Director', cred: 'M.D., CCFP (verify with CPSO)' },
-      { name: 'Team member — add from centre', role: 'Psychiatrist', cred: 'M.D., FRCPC' },
-      { name: 'Team member — add from centre', role: 'Registered Psychotherapist', cred: 'RP (CRPO)' },
-      { name: 'Team member — add from centre', role: 'Addictions Counsellor', cred: 'CCAC / ICADC' },
-    ];
-    const ratingBars = [
-      [5, 84],
-      [4, 11],
-      [3, 3],
-      [2, 1],
-      [1, 1],
-    ].map(([n, pct]) => ({ n, w: pct + '%', pct: pct + '%' }));
-    const reviewsList = [
-      {
-        initials: 'JM',
-        name: 'Former client',
-        meta: 'Reviewed on Google · sample',
-        stars: '★★★★★',
-        text: 'Sample review text — pull the two site reviews and top Google reviews from the backend. Keep full text, reviewer initials and date for authenticity.',
-      },
-      {
-        initials: 'DK',
-        name: 'Family member',
-        meta: 'Reviewed on this site · sample',
-        stars: '★★★★★',
-        text: 'Sample review text — the family aftercare calls were mentioned as a highlight. Replace with real review content.',
-      },
-    ];
     const serving = [
       'Toronto|toronto-rehabs',
       'Ottawa|ottawa-rehabs',
@@ -932,9 +902,169 @@ class Component extends DCLogic {
       rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)',
     }));
 
-    // Live data (props.data): real source content replaces every sample value; sections without source data are hidden.
+    // Real centre (props.data): every design section is filled from the view model built in src/lib/centre.ts
+    // (real source data first, then the design's own sample values behind SHOW_SAMPLE_DATA, then neutral written text).
+    // Without props.data (the /centre/ design sample route) the design's own sample content is shown.
     const D = this.props.data || null;
     const sample = !D;
+    const M = D ? D.m : null;
+    const showSample = sample || !!M.showSample;
+    const P17 = { fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' };
+    const paras = (blocks) => (blocks || []).map((x, i) => R('p', { key: i, style: P17, dangerouslySetInnerHTML: { __html: clean(x.html ?? x.text) } }));
+    const stripe = (a, b2, w) => 'repeating-linear-gradient(135deg,' + a + ' 0 ' + w + 'px,' + b2 + ' ' + w + 'px ' + 2 * w + 'px)';
+    // ---- design defaults for the sample route
+    let live = {
+      showSample: true,
+      cityCrumb: { label: 'Toronto Rehabs', href: '/toronto-rehabs/' },
+      galleryNode: null,
+      logoNode: null,
+      fromOn: true,
+      fromSub: '/ 4 weeks · HST exempt',
+      callLabel: 'Call centre · 705-996-6522',
+      aboutH2: centreName + ': A Philosophy of Transformation',
+      introNodes: [
+        R('p', { key: 'i0', style: P17 }, "Metamorphosis Centre for Change aims to transform their clients rather than simply aiding in their recovery from addiction. The centre's philosophy is to help clients create a new version of themselves by shedding the layers that led to addiction. They believe that self-actualization comes from the journey and the lessons learned along the way. The program is likened to a cocoon where transformation begins. The centre's staff is passionate about providing their clients with a successful journey to a more fulfilling future. Choosing Metamorphosis means choosing a lasting positive change in their life."),
+      ],
+      videoNode: R('div', { style: { position: 'relative', aspectRatio: '16/9', borderRadius: '20px', overflow: 'hidden', background: '#10233a', display: 'grid', placeItems: 'center', marginTop: '6px' } },
+        R('span', { style: { position: 'absolute', inset: '0', background: stripe('#1c3352', '#223c5e', 14) } }),
+        R('span', { style: { position: 'relative', width: '72px', height: '72px', borderRadius: '50%', background: '#fff', display: 'grid', placeItems: 'center', boxShadow: '0 20px 40px -20px rgba(0,0,0,.6)' } },
+          R('span', { style: { width: '0', height: '0', borderLeft: '22px solid #0890E8', borderTop: '13px solid transparent', borderBottom: '13px solid transparent', marginLeft: '6px' } })),
+        R('span', { style: { position: 'absolute', left: '18px', bottom: '16px', font: '500 12px ui-monospace,Menlo,monospace', color: '#b7c7d8', background: 'rgba(16,35,58,.7)', padding: '6px 10px', borderRadius: '6px' } }, 'video · Vimeo 1079322589 · Centre tour')),
+      overviewNodes: [
+        R('p', { key: 'o0', style: P17 }, "The clinical team at Metamorphosis centre for change understands that breaking addiction is not just about quitting substances or harmful behavior. Addiction is a complex problem that affects individuals' emotional, mental, and physical states. At the center, the approach to treatment is holistic and considers all aspects of an individual's life. The residential facility offers interventions, nurse services, withdrawal management services, mental health support, family programs and counseling, lifetime aftercare, evidence-based statistical reporting, luxury amenities, life coaching, and menus prepared by a Red Seal Chef. The aim is to equip individuals with the skills required to successfully live a life without addiction."),
+      ],
+      afterNodes: [
+        R('p', { key: 'a0', style: P17 }, "Metamorphosis's clinical team recognizes that each individual's addiction is unique; therefore, treatment requires a personalized approach. The facility's program includes one on one counseling, group therapy, meditation introduction, physical exercise, and participation in outside activities that promote an alcohol and drug-free lifestyle. Clients stay in a 20,000 sq ft, 2-story wheelchair accessible building, each room with its own thermostat, ensuite three-piece bathroom, and spacious living quarters. Situated in the stunning town of Wasaga Beach, the center provides a serene and tranquil environment for recovery. At Metamorphosis, the focus is to understand the emotions driving the addiction, providing clients with long-term strategies for a successful addiction-free life."),
+      ],
+      serviceCaption: services.length + ' services · all included in program fees',
+      stepsTitle: 'Your program, week by week',
+      stepsSub: 'Five elements woven through every stay',
+      avatarNode: R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: stripe('#dfeaf3', '#eaf2f8', 6), flexShrink: '0' } }),
+      locHeading: centreName + ' in Wasaga Beach, ' + centreProvince,
+      locIntro: 'Set on Wasaga Beach along Nottawasaga Bay, the centre is a short walk from the water and about two hours north of Toronto. Airport transfers can be arranged for clients travelling from the GTA and beyond.',
+      locCells: [{ k: 'Address', v: centreAddress }, { k: 'Phone', v: '705-996-6522', href: 'tel:+17059966522' }, { k: 'From Toronto', v: '≈ 2 hrs by car' }, { k: 'Admissions', v: '7 days a week' }],
+      locMapNode: R('div', { style: { position: 'relative', aspectRatio: '4/3', borderRadius: '24px', overflow: 'hidden', background: stripe('#dfeaf3', '#eaf2f8', 14), display: 'grid', placeItems: 'center', border: '1px solid #e3ecf4' } },
+        R('span', { style: { font: '500 12px ui-monospace,Menlo,monospace', color: '#516378', background: 'rgba(255,255,255,.85)', padding: '6px 10px', borderRadius: '6px' } }, 'map · Google Maps embed · Wasaga Beach, ON'),
+        R('a', { className: 'scp2', href: '#', style: { position: 'absolute', right: '16px', bottom: '16px', font: '600 14px Jost,sans-serif', color: '#10233a', background: '#fff', border: '1px solid #dbe6f0', padding: '10px 16px', borderRadius: '10px' } }, 'Get directions')),
+      locSocial: null,
+      directionsHref: '#',
+      priceCaption: 'Our services are HST exempt. Prices in CAD, confirmed with the centre Nov 2025.',
+      priceCta: 'Confirm pricing with the centre',
+      priceCtaHref: 'tel:+17059966522',
+      faqIntro: "Answers confirmed with the centre. Still unsure? Call — it's free and confidential.",
+      othersHeading: 'Other Rehab Centres in ' + centreProvince,
+    };
+    let liveBase = {};
+    if (D) {
+      const imgOf = (x, i, extra) => R('img', { src: x.src, alt: x.alt || '', width: x.width || undefined, height: x.height || undefined, loading: i === 0 ? 'eager' : 'lazy', fetchPriority: i === 0 ? 'high' : undefined, style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', ...(extra || {}) } });
+      // ---- hero gallery: the centre's real photos in the design's 2fr/1fr/1fr grid (fewer than 5 photos: the same grid with fewer tiles)
+      const top = M.images.slice(0, 5);
+      const n = top.length;
+      const cols = n <= 1 ? 'minmax(0,1fr)' : n <= 3 ? '2fr 1fr' : '2fr 1fr 1fr';
+      const place = (i) => (n >= 3 && i === 0 ? { gridRow: '1/3' } : n === 4 && i === 3 ? { gridColumn: '2/4' } : {});
+      const tile = (x, i) => R('div', { key: i, style: { ...place(i), minHeight: '0', borderRadius: '16px', overflow: 'hidden', height: '100%', background: '#eaf2f8' } }, imgOf(x, i));
+      const photoBtn = R('button', { key: 'btn', className: 'scp2', style: { position: 'absolute', right: '16px', bottom: '16px', appearance: 'none', cursor: 'pointer', font: '600 14px Jost,sans-serif', color: '#10233a', background: '#fff', border: '1px solid #dbe6f0', padding: '10px 16px', borderRadius: '10px', display: 'flex', alignItems: 'center', gap: '8px', boxShadow: '0 10px 24px -14px rgba(16,35,58,.5)' } }, ic.dual, 'Show all ' + M.photoCount + ' photos');
+      const unclaimedBadge = R('span', { key: 'badge', style: { position: 'absolute', left: '16px', top: '16px', display: 'flex', gap: '6px' } },
+        R('span', { style: { background: '#fff', color: '#6b7f95', font: '600 11px Jost,sans-serif', letterSpacing: '.04em', padding: '6px 10px', borderRadius: '999px', display: 'flex', alignItems: 'center', gap: '5px' } },
+          R('span', { style: { width: '6px', height: '6px', borderRadius: '50%', background: '#b7c7d8' } }), 'UNCLAIMED LISTING'));
+      const galleryNode = n
+        ? R('div', { style: { position: 'relative', display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n <= 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map(tile), photoBtn, unclaimedBadge)
+        : null;
+      // ---- body: intro, overview, the rest of the article
+      const article = buildBody(R, M.rest, { columns: true }).nodes;
+      // ---- video: the centre's own embed when it has one
+      let videoNode = null;
+      if (M.video) {
+        const src = M.video.provider === 'vimeo' ? 'https://player.vimeo.com/video/' + M.video.id : 'https://www.youtube-nocookie.com/embed/' + M.video.id;
+        videoNode = R('div', { style: { position: 'relative', aspectRatio: '16/9', borderRadius: '20px', overflow: 'hidden', background: '#10233a', marginTop: '6px' } },
+          R('iframe', { src, title: 'Video: ' + D.name, loading: 'lazy', allow: 'accelerometer; encrypted-media; picture-in-picture', allowFullScreen: true, referrerPolicy: 'strict-origin-when-cross-origin', style: { position: 'absolute', inset: '0', width: '100%', height: '100%', border: 0 } }));
+      }
+      const toIcon = (g) => ({ ...g, items: g.items.map((it) => ({ ...it, icon: ic[it.icon] || ic.check })) });
+      // ---- map of the real address
+      const q = encodeURIComponent(M.location.mapQuery);
+      const mapNode = R('div', { style: { position: 'relative', aspectRatio: '4/3', borderRadius: '24px', overflow: 'hidden', background: '#eaf2f8', border: '1px solid #e3ecf4' } },
+        R('iframe', { src: 'https://www.google.com/maps?q=' + q + '&output=embed', title: 'Map: ' + M.location.mapQuery, loading: 'lazy', referrerPolicy: 'no-referrer-when-downgrade', style: { position: 'absolute', inset: '0', width: '100%', height: '100%', border: 0, display: 'block' } }),
+        R('a', { className: 'scp2', href: M.location.directionsHref, target: '_blank', rel: 'noopener noreferrer', style: { position: 'absolute', right: '16px', bottom: '16px', font: '600 14px Jost,sans-serif', color: '#10233a', background: '#fff', border: '1px solid #dbe6f0', padding: '10px 16px', borderRadius: '10px' } }, 'Get directions'));
+      const soc = { facebook: 'Facebook', twitter: 'Twitter', instagram: 'Instagram', youtube: 'YouTube', pinterest: 'Pinterest', linkedin: 'LinkedIn' };
+      const socials = Object.entries(D.social || {}).filter(([, u]) => u);
+      const attrOf = (h) => (D.linkAttrs && D.linkAttrs[(() => { try { const u = new URL(h); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return h; } })()]) || {};
+      const locSocial = socials.length
+        ? R('div', { style: { display: 'flex', flexDirection: 'column', gap: '10px' } },
+            R('span', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, 'Follow'),
+            R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: attrOf(u).target || undefined, rel: attrOf(u).rel || undefined, style: { font: '500 13.5px Figtree,sans-serif', color: '#1f3550', background: '#fff', border: '1px solid #e3ecf4', padding: '7px 12px', borderRadius: '999px' } }, soc[k] || k))))
+        : null;
+      // ---- FAQ
+      const faqsLive = M.faqs.map((f, i) => ({
+        question: f.question,
+        answer: f.answerBlocks ? R('div', { style: { display: 'flex', flexDirection: 'column', gap: '12px' } }, ...buildBody(R, f.answerBlocks, { columns: true }).nodes) : f.answer,
+        open: i === faq,
+        toggle: () => this.setState({ faq: faq === i ? -1 : i }),
+        border: i === faq ? '#0890E8' : '#e3ecf4',
+        rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)',
+      }));
+      // ---- other centres: real centres of the same province (same city first), real photo, real link
+      const othersLive = M.others.map((x) => ({ ...x, photo: '', catHref: x.catHref || undefined }));
+      const pagesLive = Math.max(1, Math.ceil(othersLive.length / this.perView));
+      const { slide: sl } = this.state;
+      // ---- pricing / team / reviews: the design's sample values behind SHOW_SAMPLE_DATA; neutral text without them
+      const noSample = !showSample;
+      const priceLive = noSample
+        ? { priceTabs: [{ label: 'Pricing', select: () => {}, bg: '#0890E8', color: '#fff' }], priceCols: '1fr 1fr', priceHead: ['Program', 'Cost'], priceCells: [{ v: 'All programs', font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: 'Contact the centre for current fees', font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }], priceNote: 'Fees are set by the centre and depend on the program and length of stay. Call ' + D.name + ' or our free helpline for current pricing.' }
+        : { priceNote: active.note + ' Fees depend on the program and length of stay; confirm current fees with ' + D.name + '.' };
+      liveBase = {
+        sectionTabs,
+        centres: othersLive,
+        slideDots: Array.from({ length: pagesLive }, (_, i) => ({ go: () => this.slideTo(i, othersLive.length), w: i === sl ? '28px' : '8px', bg: i === sl ? '#0890E8' : '#dbe6f0' })),
+        slidePos: sl + 1 + ' / ' + pagesLive,
+        slidePrev: () => this.slideTo(sl - 1, othersLive.length),
+        slideNext: () => this.slideTo(sl + 1, othersLive.length),
+        centreFaqs: faqsLive,
+        glance: M.glance,
+        serviceGroups: M.serviceGroups.map(toIcon),
+        serviceCount: M.serviceCount,
+        pillars: M.pillars.map((pl) => ({ ...pl, cols: 'minmax(160px,.8fr) minmax(0,1.4fr)', dir: 'ltr', photoImg: pl.photo })).map((pl, i) => ({ ...pl, dir: i % 2 ? 'rtl' : 'ltr' })),
+        programSteps: [
+          { n: '01', icon: ic.phone, label: 'Reach out', body: 'Call the centre or our free helpline, or request a callback.' },
+          { n: '02', icon: ic.person, label: 'Talk it through', body: 'A short, confidential conversation about your situation and goals.' },
+          { n: '03', icon: ic.check, label: 'Check fit and funding', body: 'Confirm availability, program options and how treatment may be paid for.' },
+          { n: '04', icon: ic.pin, label: 'Plan your admission', body: 'Agree a start date and what to bring.' },
+          { n: '05', icon: ic.heart, label: 'Begin treatment', body: 'Start the program with support from the care team.' },
+        ],
+        facility: M.facility.map((f) => ({ ...f, icon: ic[f.icon] || ic.check })),
+        verifyNote: 'This listing has not been claimed. Details come from public sources and the centre’s website and may be out of date. If you represent ' + D.name + ', claim the listing to verify and update it.',
+        ...priceLive,
+      };
+      live = {
+        claimed: false,
+        showSample,
+        cityCrumb: M.cityCrumb,
+        galleryNode,
+        logoNode: M.logo ? R('img', { src: M.logo.src, alt: '', width: 72, height: 72, loading: 'eager', style: { width: '72px', height: '72px', borderRadius: '18px', border: '1px solid #e3ecf4', objectFit: 'cover', flexShrink: '0', display: 'block' } }) : null,
+        fromOn: showSample || !!M.fromPrice,
+        fromSub: M.fromPrice ? '' : '/ 4 weeks · HST exempt',
+        callLabel: D.phoneText ? 'Call centre · ' + D.phoneText : 'Call our helpline · 1-855-885-4747',
+        aboutH2: 'About ' + D.name,
+        introNodes: paras(M.intro),
+        videoNode,
+        overviewNodes: paras(M.overviewFirst),
+        afterNodes: article,
+        serviceCaption: M.serviceCount + ' services & programs listed',
+        stepsTitle: 'What to expect when you contact ' + D.name,
+        stepsSub: 'Five steps from first call to admission',
+        avatarNode: R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: '#eaf5fd', color: '#0890E8', display: 'grid', placeItems: 'center', flexShrink: '0' } }, ic.shield),
+        locHeading: M.location.heading,
+        locIntro: M.location.intro,
+        locCells: M.location.cells,
+        locMapNode: mapNode,
+        locSocial,
+        directionsHref: M.location.directionsHref,
+        priceCaption: showSample ? 'Example prices in CAD from the design. Confirm current fees directly with ' + D.name + '.' : 'Fees vary by program. Contact ' + D.name + ' for current pricing.',
+        priceCta: 'Confirm pricing with the centre',
+        priceCtaHref: D.phoneHref || 'tel:+18558854747',
+        faqIntro: D.faqs && D.faqs.length ? "Answers come from the centre's own listing. Still unsure? Call — it's free and confidential." : "Common questions answered. Still unsure? Call — it's free and confidential.",
+        othersHeading: M.othersHeading,
+      };
+    }
     let galleryNode = null,
       bodyNodes = [],
       specAside = null,
@@ -942,107 +1072,38 @@ class Component extends DCLogic {
       locNode = null,
       liveTabs = [],
       liveFaqs = [];
-    if (D) {
-      const g = D.gallery || [];
-      const top = g.slice(0, 5);
-      const n = top.length;
-      const img = (x, extra, i = 1) => R('img', { src: x.src, alt: x.alt || '', width: x.width || undefined, height: x.height || undefined, loading: i === 0 ? 'eager' : 'lazy', fetchPriority: i === 0 ? 'high' : undefined, style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', borderRadius: '16px', background: '#eaf2f8', ...extra } });
-      if (n) {
-        const cols = n === 1 ? 'minmax(0,1fr)' : n === 2 ? '2fr 1fr' : n === 3 ? '2fr 1fr' : '2fr 1fr 1fr';
-        const place = (i) => (n === 1 ? {} : n === 2 ? {} : n === 3 ? (i === 0 ? { gridRow: '1/3' } : {}) : n === 4 ? (i === 0 ? { gridRow: '1/3' } : i === 3 ? { gridColumn: '2/4' } : {}) : i === 0 ? { gridRow: '1/3' } : {});
-        galleryNode = R('div', { style: { display: 'block' } },
-          R('div', { style: { display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n === 1 || n === 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map((x, i) => R('div', { key: i, style: { minHeight: 0, ...place(i) } }, img(x, undefined, i)))));
-      }
-      const { nodes } = buildBody(R, D.body || [], { columns: true, eagerFirst: !(D.gallery && D.gallery.length) });
-      bodyNodes = nodes.slice();
-      if (g.length > 5)
-        bodyNodes.push(R('div', { key: 'more', style: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill,minmax(min(220px,100%),1fr))', gap: '10px' }, 'data-cols': 'repeat(auto-fill,minmax(170px,1fr))' }, ...g.slice(5).map((x, i) => R('div', { key: i, style: { aspectRatio: '4/3' } }, img(x)))));
-      const groups = (D.specs || []).filter((x) => x.items && x.items.length);
-      const card = (key, ...kids) => R('div', { key, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px', display: 'flex', flexDirection: 'column', gap: '12px' } }, ...kids);
-      const hlabel = (t) => R('h3', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95', margin: 0 } }, t);
-      const label = (t) => R('div', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, t);
-      const chips = (items) => R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...items.map((it, k) => R('span', { key: k, style: { font: '500 13.5px Figtree,sans-serif', color: '#1f3550', background: '#eef4f9', padding: '6px 12px', borderRadius: '999px' } }, it)));
-      const cards = groups.map((x, i) => card('g' + i, hlabel(x.heading), chips(x.items), x.text ? R('p', { style: { fontSize: '14px', lineHeight: '1.6', color: '#3b4d63' } }, x.text) : null));
-      if (D.hours && D.hours.rows.length)
-        cards.push(card('hours', D.hours.heading ? hlabel(D.hours.heading) : null,
-          ...D.hours.rows.map((r, i) => R('div', { key: i, style: { display: 'flex', justifyContent: 'space-between', gap: '16px', fontSize: '14.5px', padding: '8px 0', borderTop: i ? '1px solid #edf2f7' : '0' } }, R('span', { style: { color: '#516378' } }, r[0]), R('span', { style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', textAlign: 'right' } }, r[1])))));
-      if (D.tags && D.tags.items.length) cards.push(card('tags', D.tags.heading ? hlabel(D.tags.heading) : null, chips(D.tags.items)));
-      if (cards.length) specAside = R('aside', { className: 'ctr-side', style: { display: 'flex', flexDirection: 'column', gap: '16px', flex: '1 1 300px', maxWidth: '380px' } }, ...cards);
-      const lk = (h) => { try { const u = new URL(h); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return h; } };
-      const attrOf = (h) => (D.linkAttrs && D.linkAttrs[lk(h)]) || {};
-      const pillStyle = { font: '500 13.5px Figtree,sans-serif', color: '#516378', border: '1px solid #e3ecf4', padding: '8px 12px', borderRadius: '10px', textAlign: 'center' };
-      const soc = { facebook: 'Facebook', twitter: 'Twitter', instagram: 'Instagram', youtube: 'YouTube', pinterest: 'Pinterest', linkedin: 'LinkedIn' };
-      const socials = Object.entries(D.social || {}).filter(([, u]) => u);
-      if (D.email || socials.length)
-        contactExtra = R('div', { style: { borderTop: '1px solid #edf2f7', paddingTop: '12px', display: 'flex', flexDirection: 'column', gap: '10px' } },
-          D.email ? R('a', { className: 'scp0', href: 'mailto:' + D.email, style: { font: '600 14.5px Jost,sans-serif', color: '#10233a', overflowWrap: 'anywhere' } }, D.email) : null,
-          socials.length ? hlabel('Social') : null,
-          socials.length ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...socials.map(([k, u]) => R('a', { key: k, className: 'scps', href: u, target: attrOf(u).target || undefined, rel: attrOf(u).rel || undefined, style: pillStyle }, soc[k] || k))) : null);
-      // anchor menu (tab bar) for the sections that exist, and the Location block built from the real address
-      const tabsList = [];
-      if (D.body && D.body.length) tabsList.push({ label: 'About', href: '#about' });
-      if (D.address) tabsList.push({ label: 'Location', href: '#location' });
-      if (D.faqs && D.faqs.length) tabsList.push({ label: 'FAQ', href: '#faq' });
-      liveTabs = tabsList;
-      if (D.address) {
-        const q = encodeURIComponent(D.address);
-        const cell = (k, v, href) => R('div', { key: k, style: { background: '#fff', border: '1px solid #e3ecf4', borderRadius: '14px', padding: '14px 16px', minWidth: 0 } },
-          R('div', { style: { font: '600 11px Figtree,sans-serif', letterSpacing: '.1em', textTransform: 'uppercase', color: '#6b7f95' } }, k),
-          href ? R('a', { className: 'scp0', href, target: /^https?:/.test(href) ? attrOf(href).target || undefined : undefined, rel: /^https?:/.test(href) ? attrOf(href).rel || undefined : undefined, style: { display: 'block', font: '600 14.5px Jost,sans-serif', marginTop: '4px', color: '#10233a', overflowWrap: 'anywhere' } }, v) : R('div', { style: { font: '600 14.5px Jost,sans-serif', marginTop: '4px', lineHeight: 1.4, overflowWrap: 'anywhere' } }, v));
-        const cells = [cell('Address', D.address)];
-        if (D.phoneText) cells.push(cell('Phone', D.phoneText, D.phoneHref));
-        if (D.website) cells.push(cell('Website', D.website.replace(/^https?:\/\//, '').replace(/\/$/, ''), D.website));
-        if (D.email) cells.push(cell('Email', D.email, 'mailto:' + D.email));
-        locNode = R('section', { id: 'location', 'data-screen-label': 'Location', style: { background: '#f7fafd', borderTop: '1px solid #e9eff5' } },
-          R('div', { style: { maxWidth: '1280px', margin: '0 auto', padding: '72px 32px', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px', alignItems: 'start' }, 'data-cols': '1fr 1fr', 'data-rc-gap': '1', 'data-rc-wrap': '1' },
-            R('div', { style: { display: 'flex', flexDirection: 'column', gap: '16px', minWidth: 0 } },
-              R('span', { style: { font: '600 12px Figtree,sans-serif', letterSpacing: '.14em', textTransform: 'uppercase', color: '#0890E8' } }, 'Location'),
-              R('h2', { style: { fontSize: '34px', lineHeight: '1.12' }, 'data-rc-lg': '1' }, 'Address and contact'),
-              R('div', { style: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }, 'data-cols': '1fr 1fr' }, ...cells),
-              R('a', { className: 'scp1', href: 'https://maps.google.com?q=' + D.address.replace(/,/g, '').trim().split(/\s+/).map(encodeURIComponent).join('+'), target: '_blank', rel: 'external noopener noreferrer', style: { alignSelf: 'flex-start', font: '600 15px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '12px 20px', borderRadius: '12px' } }, 'Get directions')),
-            R('div', { style: { borderRadius: '22px', overflow: 'hidden', border: '1px solid #e3ecf4', background: '#eaf2f8', aspectRatio: '4/3', minHeight: '260px' } },
-              R('iframe', { src: 'https://www.google.com/maps?q=' + q + '&output=embed', title: 'Map: ' + D.address, loading: 'lazy', referrerPolicy: 'no-referrer-when-downgrade', style: { width: '100%', height: '100%', border: 0, display: 'block' } }))));
-      }
-      liveFaqs = (D.faqs || []).map((q, i) => ({
-        question: q.question,
-        answer: R('div', { style: { display: 'flex', flexDirection: 'column', gap: '12px' } }, ...buildBody(R, q.answerBlocks, { columns: true }).nodes),
-        open: i === faq,
-        toggle: () => this.setState({ faq: faq === i ? -1 : i }),
-        border: i === faq ? '#0890E8' : '#e3ecf4',
-        rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)',
-      }));
-    }
-    return {
+    const base = {
       sample,
       centreName: D ? D.name : centreName,
       centreAddress: D ? D.address : centreAddress,
-      catHref: D ? D.catHref : '/ontario-rehabs',
-      catOn: !D || !!D.catHref,
-      catLabel: D ? D.categories[0] : centreProvince + ' Rehabs',
-      catLine: D ? D.categories.join(' · ') : centreProvince + ' Rehabs · Residential',
-      catLineOn: !D || D.categories.length > 0,
+      catHref: D ? (M.provinceCrumb ? M.provinceCrumb.href : '') : '/ontario-rehabs/',
+      catOn: !D || !!M.provinceCrumb,
+      catLabel: D ? (M.provinceCrumb ? M.provinceCrumb.label : '') : centreProvince + ' Rehabs',
+      catLine: D ? M.catLine : centreProvince + ' Rehabs · Residential',
+      catLineOn: !D || !!M.catLine,
       addrOn: !D || !!D.address,
-      phoneHref: D ? D.phoneHref : 'tel:+17059966522',
+      phoneHref: D ? D.phoneHref || 'tel:+18558854747' : 'tel:+17059966522',
       phoneText: D ? D.phoneText : '',
-      phoneOn: !D || !!D.phoneHref,
+      phoneOn: true,
       siteHref: D ? D.website : '#',
       siteRel: D ? ((D.linkAttrs && D.linkAttrs[(() => { try { const u = new URL(D.website); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return D.website; } })()]) || {}).rel || undefined : undefined,
       siteTarget: D ? ((D.linkAttrs && D.linkAttrs[(() => { try { const u = new URL(D.website); return u.host.replace(/^www\./, '').toLowerCase() + u.pathname.replace(/\/$/, '') + u.search; } catch { return D.website; } })()]) || {}).target || undefined : undefined,
       siteOn: !D || !!D.website,
       asideOn: true,
-      tabsOn: !D || liveTabs.length >= 2,
+      tabsOn: true,
       locNode,
-      aboutOn: !D || (D.body || []).length > 0 || (D.specs || []).some((x) => x.items && x.items.length) || !!(D.hours && D.hours.rows.length) || !!(D.tags && D.tags.items.length),
+      aboutOn: true,
       galleryNode,
       bodyNodes,
       specAside,
       unclaimed: D ? true : !claimed,
-      centreProvince,
-      photoCount: 21,
-      siteReviews: 2,
+      centreProvince: D ? M.provinceName : centreProvince,
+      photoCount: D ? M.photoCount : 21,
+      reviewCount: D ? M.reviews.count : null,
+      reviewHref: D ? M.reviews.googleHref : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(this.props.centreName ?? 'Metamorphosis Centre for Change Wasaga Beach'),
       centreUpdated: 'Nov 2025',
       centreUpdatedLong: 'November 27, 2025',
-      fromPrice: '$19,900',
+      fromPrice: D ? M.fromPrice || '$19,900' : '$19,900',
       claimed,
       monthlyVisitors: '10,000+',
       verifyNote: claimed
@@ -1078,7 +1139,7 @@ class Component extends DCLogic {
         },
         { icon: ic.pin, title: 'Insights', body: 'See views, calls and clicks for your listing each month.' },
       ],
-      glance: D ? (D.info || []).map((v) => ({ k: '', v })) : glance,
+      glance,
       services,
       programElements,
       pillars,
@@ -1086,20 +1147,17 @@ class Component extends DCLogic {
       serviceCount: services.length,
       programSteps,
       facility,
-      sectionTabs: D ? liveTabs : sectionTabs,
+      sectionTabs,
       priceTabs,
       priceCols: active.cols,
       priceHead: active.head,
       priceCells,
       priceNote: active.note,
-      team,
-      ratingBars,
-      reviewsList,
       serving,
-      centreFaqs: D ? liveFaqs : centreFaqs,
-      faqOn: !D || (D.faqs || []).length > 0,
+      centreFaqs,
+      faqOn: true,
       faqHeading: D ? D.faqHeading || '' : '',
-      glanceOn: !D || (D.info || []).length > 0,
+      glanceOn: true,
       contactExtra,
       iconGrid: ic.dual,
       iconLeaf: ic.leaf,
@@ -1128,7 +1186,7 @@ class Component extends DCLogic {
       submitBg: submitDisabled ? '#b7c7d8' : '#0890E8',
       submitLabel: submitDisabled ? 'Confirm the checkbox to continue' : 'Request my callback',
       authorName: this.props.authorName ?? 'Editorial Team',
-      reviewerName: this.props.reviewerName ?? 'Clinical Reviewer (name, credentials)',
+      reviewerName: this.props.reviewerName ?? 'Editorial team',
       navItems,
       menuOpen: !!m,
       closeMenu: () => this.setState({ menu: null }),
@@ -1154,13 +1212,12 @@ class Component extends DCLogic {
       slidePos: slide + 1 + ' / ' + pages,
       slidePrev: () => this.slideTo(slide - 1, centres.length),
       slideNext: () => this.slideTo(slide + 1, centres.length),
-      topRating: this.props.topRating ?? '5.0',
-      topReviews: this.props.topReviews ?? '92',
       tabs,
       activeTab: tabData[tab],
       kinds,
       footerCols,
     };
+    return { ...base, ...live, ...liveBase };
   }
 }
 
@@ -1168,6 +1225,33 @@ class Component extends DCLogic {
 function template(v) {
   const {
     sample,
+    iconPerson,
+    showSample,
+    cityCrumb,
+    logoNode,
+    fromOn,
+    fromSub,
+    callLabel,
+    aboutH2,
+    introNodes,
+    videoNode,
+    overviewNodes,
+    afterNodes,
+    serviceCaption,
+    stepsTitle,
+    stepsSub,
+    avatarNode,
+    locHeading,
+    locIntro,
+    locCells,
+    locMapNode,
+    locSocial,
+    directionsHref,
+    priceCaption,
+    priceCta,
+    priceCtaHref,
+    faqIntro,
+    othersHeading,
     tabsOn,
     locNode,
     glanceOn,
@@ -1224,15 +1308,12 @@ function template(v) {
     priceNote,
     priceTabs,
     programSteps,
-    ratingBars,
     reviewerName,
-    reviewsList,
     sectionTabs,
     serviceCount,
     serviceGroups,
     serving,
     setSubstance,
-    siteReviews,
     slideDots,
     slideNext,
     slidePos,
@@ -1244,17 +1325,16 @@ function template(v) {
     submitLabel,
     substance,
     substanceOptions,
-    team,
     toggleAck,
-    topRating,
-    topReviews,
+    reviewCount,
+    reviewHref,
     unclaimed,
     verifyNote,
     whoOptions,
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section data-screen-label="Centre Hero" style={{ background: '#fff', borderBottom: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '24px 32px 0' }} data-rc-wrap="1">
@@ -1276,23 +1356,27 @@ function template(v) {
               {catOn ? (
               <>
               <span style={{ opacity: '.5' }}>/</span>
+              {catHref ? (
               <$A className="scp0" href={catHref} style={{ color: '#6b7f95' }}>
                 {$i(catLabel)}
               </$A>
+              ) : (
+              <span style={{ color: '#6b7f95' }}>{$i(catLabel)}</span>
+              )}
               </>
               ) : null}
-              {sample ? (
+              {cityCrumb ? (
               <>
               <span style={{ opacity: '.5' }}>/</span>
-              <$A className="scp0" href="/toronto-rehabs" style={{ color: '#6b7f95' }}>
-                Toronto Rehabs
+              <$A className="scp0" href={cityCrumb.href} style={{ color: '#6b7f95' }}>
+                {$i(cityCrumb.label)}
               </$A>
               </>
               ) : null}
               <span style={{ opacity: '.5' }}>/</span>
               <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(centreName)}</span>
             </nav>
-            {sample ? (
+            {!sample ? galleryNode : (
             <div
               style={{
                 position: 'relative',
@@ -1309,7 +1393,7 @@ function template(v) {
                   style={{
                     aspectRatio: 'auto',
                     borderRadius: '16px',
-                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                    background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                     display: 'grid',
                     placeItems: 'center',
                     overflow: 'hidden',
@@ -1333,7 +1417,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1356,7 +1440,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1379,7 +1463,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1402,7 +1486,7 @@ function template(v) {
                 style={{
                   aspectRatio: 'auto',
                   borderRadius: '16px',
-                  background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                  background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                   display: 'grid',
                   placeItems: 'center',
                   overflow: 'hidden',
@@ -1537,8 +1621,7 @@ function template(v) {
                 ) : null}
               </span>
             </div>
-            ) : null}
-            {sample ? null : galleryNode}
+            )}
             <div
               style={{
                 display: 'grid',
@@ -1552,7 +1635,7 @@ function template(v) {
             >
               <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                 <div style={{ display: 'flex', gap: '18px', alignItems: 'center' }}>
-                  {sample ? (
+                  {!sample ? logoNode : (
                   <span
                     style={{
                       width: '72px',
@@ -1569,7 +1652,7 @@ function template(v) {
                   >
                     logo
                   </span>
-                  ) : null}
+                  )}
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                     {catLineOn ? (
                     <$A
@@ -1607,9 +1690,10 @@ function template(v) {
                     ) : null}
                   </div>
                 </div>
-                {sample ? (
                 <>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '14px', flexWrap: 'wrap' }}>
+                  {reviewCount ? (
+                  <>
                   <span
                     style={{
                       display: 'inline-flex',
@@ -1632,14 +1716,12 @@ function template(v) {
                     >
                       G
                     </span>
-                    <span style={{ color: '#F5A623', fontSize: '13px', letterSpacing: '1px' }}>★★★★★</span>
-                    <span style={{ font: '600 14px Jost,sans-serif', color: '#10233a' }}>{$i(topRating)}</span>
-                    <span style={{ fontSize: '12.5px', color: '#6b7f95' }}>({$i(topReviews)} Google reviews)</span>
+                    <span style={{ font: '600 14px Jost,sans-serif', color: '#10233a' }}>{$i(reviewCount)}</span>
+                    <span style={{ fontSize: '12.5px', color: '#6b7f95' }}>Google reviews</span>
                   </span>
-                  <$A className="scp0" href="#reviews" style={{ fontSize: '14px', color: '#516378' }}>
-                    {$i(siteReviews)} reviews on this site
-                  </$A>
                   <span style={{ fontSize: '14px', color: '#516378' }}>·</span>
+                  </>
+                  ) : null}
                   {claimed ? (
                     <>
                       <span style={{ fontSize: '14px', color: '#516378' }}>
@@ -1656,7 +1738,6 @@ function template(v) {
                   ) : null}
                 </div>
                 </>
-                ) : null}
                 {glanceOn ? (
                 <div
                   style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '12px', marginTop: '6px' }}
@@ -1712,7 +1793,7 @@ function template(v) {
                   boxShadow: '0 30px 60px -40px rgba(16,35,58,.35)',
                 }}
               >
-                {sample ? (
+                {fromOn ? (
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
                   <span
                     style={{
@@ -1726,13 +1807,10 @@ function template(v) {
                   </span>
                   <span style={{ font: '600 26px Jost,sans-serif' }}>
                     {$i(fromPrice)}{' '}
-                    <span style={{ font: '400 13px Figtree,sans-serif', color: '#6b7f95' }}>
-                      / 4 weeks · HST exempt
-                    </span>
+                    <span style={{ font: '400 13px Figtree,sans-serif', color: '#6b7f95' }}>{fromSub}</span>
                   </span>
                 </div>
                 ) : null}
-                {sample ? null : <h2 style={{ font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95', margin: 0 }}>Contact</h2>}
                 {phoneOn ? (
                 <$A
                   className="scp1"
@@ -1750,10 +1828,9 @@ function template(v) {
                   }}
                 >
                   {$i(iconPhone)}
-                  {sample ? 'Call centre · 705-996-6522' : phoneText}
+                  {callLabel}
                 </$A>
                 ) : null}
-                {sample ? (
                 <$A
                   className="scp2"
                   href="#callback"
@@ -1769,9 +1846,8 @@ function template(v) {
                 >
                   Request a callback
                 </$A>
-                ) : null}
-                {siteOn ? (
-                <div style={{ display: 'grid', gridTemplateColumns: sample ? '1fr 1fr' : '1fr', gap: '8px' }} data-cols="1fr 1fr">
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }} data-cols="1fr 1fr">
+                  {siteOn ? (
                   <$A
                     className="scps"
                     href={siteHref}
@@ -1788,7 +1864,7 @@ function template(v) {
                   >
                     Visit website
                   </$A>
-                  {sample ? (
+                  ) : null}
                   <$A
                     className="scps"
                     href="#"
@@ -1799,15 +1875,12 @@ function template(v) {
                       padding: '10px',
                       borderRadius: '10px',
                       textAlign: 'center',
+                      gridColumn: siteOn ? undefined : '1 / -1',
                     }}
                   >
                     Save to wishlist
                   </$A>
-                  ) : null}
-                {sample ? null : contactExtra}
                 </div>
-                ) : null}
-                {sample ? (
                 <div
                   style={{
                     borderTop: '1px solid #edf2f7',
@@ -1823,12 +1896,13 @@ function template(v) {
                     <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#2fb46b' }} />
                     Free, confidential help choosing — 1-855-885-4747
                   </span>
+                  {showSample ? (
                   <span style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
                     <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#0890E8' }} />
                     Private, fee-based residential centre
                   </span>
+                  ) : null}
                 </div>
-                ) : null}
                 {unclaimed ? (
                   <>
                     <div
@@ -1850,7 +1924,7 @@ function template(v) {
                       </p>
                       <$A
                         className="scpa"
-                        href={sample ? '/claim-listing' : '/claim-your-listing/'}
+                        href="/claim-listing/"
                         style={{
                           font: '600 14px Jost,sans-serif',
                           color: '#0890E8',
@@ -1909,7 +1983,6 @@ function template(v) {
             ) : null}
           </div>
         </section>
-        {aboutOn ? (
         <section id="about" data-screen-label="About" style={{ background: '#f7fafd' }}>
           <div
             style={{
@@ -1927,14 +2000,12 @@ function template(v) {
               style={{
                 display: 'flex',
                 flexDirection: 'column',
-                gap: sample ? '22px' : '28px',
+                gap: '22px',
                 flex: '1 1 560px',
                 minWidth: '0',
                 maxWidth: '800px',
-                ...(sample ? null : { fontSize: '17.5px', lineHeight: '1.75', color: '#3b4d63' }),
               }}
             >
-              {sample ? (
               <>
               <span
                 style={{
@@ -1947,16 +2018,9 @@ function template(v) {
                 About
               </span>
               <h2 style={{ fontSize: '34px', lineHeight: '1.12' }} data-rc-lg="1">
-                {$i(centreName)}: A Philosophy of Transformation
+                {$i(aboutH2)}
               </h2>
-              <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Metamorphosis Centre for Change aims to transform their clients rather than simply aiding in their
-                recovery from addiction. The centre's philosophy is to help clients create a new version of themselves
-                by shedding the layers that led to addiction. They believe that self-actualization comes from the
-                journey and the lessons learned along the way. The program is likened to a cocoon where transformation
-                begins. The centre's staff is passionate about providing their clients with a successful journey to a
-                more fulfilling future. Choosing Metamorphosis means choosing a lasting positive change in their life.
-              </p>
+              {introNodes}
               <div style={{ display: 'flex', flexDirection: 'column', gap: '14px', marginTop: '6px' }}>
                 {$list(pillars).map((p, $index) => (
                   <Fragment key={$index}>
@@ -1971,12 +2035,22 @@ function template(v) {
                           direction: 'ltr',
                           aspectRatio: '4/3',
                           borderRadius: '16px',
-                          background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                          background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                           display: 'grid',
                           placeItems: 'center',
                           overflow: 'hidden',
                         }}
                       >
+                        {p?.photoImg ? (
+                          <img
+                            src={p.photoImg.src}
+                            alt={p.photoImg.alt}
+                            width={p.photoImg.width || undefined}
+                            height={p.photoImg.height || undefined}
+                            loading="lazy"
+                            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                          />
+                        ) : (
                         <span
                           style={{
                             font: '500 11.5px ui-monospace,Menlo,monospace',
@@ -1988,6 +2062,7 @@ function template(v) {
                         >
                           {$i(p?.photo)}
                         </span>
+                        )}
                       </div>
                       <div style={{ direction: 'ltr', display: 'flex', flexDirection: 'column', gap: '10px' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -2021,76 +2096,11 @@ function template(v) {
                   </Fragment>
                 ))}
               </div>
-              <div
-                style={{
-                  position: 'relative',
-                  aspectRatio: '16/9',
-                  borderRadius: '20px',
-                  overflow: 'hidden',
-                  background: '#10233a',
-                  display: 'grid',
-                  placeItems: 'center',
-                  marginTop: '6px',
-                }}
-              >
-                <span
-                  style={{
-                    position: 'absolute',
-                    inset: '0',
-                    background: 'repeating-linear-gradient(135deg,#1c3352 0 14px,#223c5e 14px 28px)',
-                  }}
-                />
-                <span
-                  style={{
-                    position: 'relative',
-                    width: '72px',
-                    height: '72px',
-                    borderRadius: '50%',
-                    background: '#fff',
-                    display: 'grid',
-                    placeItems: 'center',
-                    boxShadow: '0 20px 40px -20px rgba(0,0,0,.6)',
-                  }}
-                >
-                  <span
-                    style={{
-                      width: '0',
-                      height: '0',
-                      borderLeft: '22px solid #0890E8',
-                      borderTop: '13px solid transparent',
-                      borderBottom: '13px solid transparent',
-                      marginLeft: '6px',
-                    }}
-                  />
-                </span>
-                <span
-                  style={{
-                    position: 'absolute',
-                    left: '18px',
-                    bottom: '16px',
-                    font: '500 12px ui-monospace,Menlo,monospace',
-                    color: '#b7c7d8',
-                    background: 'rgba(16,35,58,.7)',
-                    padding: '6px 10px',
-                    borderRadius: '6px',
-                  }}
-                >
-                  video · Vimeo 1079322589 · Centre tour
-                </span>
-              </div>
+              {videoNode}
               <h2 id="overview" style={{ fontSize: '30px', lineHeight: '1.15', marginTop: '16px' }}>
                 {$i(centreName)} — Center Overview
               </h2>
-              <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                The clinical team at Metamorphosis centre for change understands that breaking addiction is not just
-                about quitting substances or harmful behavior. Addiction is a complex problem that affects individuals'
-                emotional, mental, and physical states. At the center, the approach to treatment is holistic and
-                considers all aspects of an individual's life. The residential facility offers interventions, nurse
-                services, withdrawal management services, mental health support, family programs and counseling,
-                lifetime aftercare, evidence-based statistical reporting, luxury amenities, life coaching, and menus
-                prepared by a Red Seal Chef. The aim is to equip individuals with the skills required to successfully
-                live a life without addiction.
-              </p>
+              {overviewNodes}
               <div
                 style={{
                   background: '#fff',
@@ -2113,7 +2123,7 @@ function template(v) {
                 >
                   <h3 style={{ fontSize: '20px' }}>What's included in your stay</h3>
                   <span style={{ fontSize: '13px', color: '#6b7f95' }}>
-                    {$i(serviceCount)} services · all included in program fees
+                    {$i(serviceCaption)}
                   </span>
                 </div>
                 {$list(serviceGroups).map((g, $index) => (
@@ -2169,16 +2179,7 @@ function template(v) {
                   </Fragment>
                 ))}
               </div>
-              <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Metamorphosis's clinical team recognizes that each individual's addiction is unique; therefore,
-                treatment requires a personalized approach. The facility's program includes one on one counseling, group
-                therapy, meditation introduction, physical exercise, and participation in outside activities that
-                promote an alcohol and drug-free lifestyle. Clients stay in a 20,000 sq ft, 2-story wheelchair
-                accessible building, each room with its own thermostat, ensuite three-piece bathroom, and spacious
-                living quarters. Situated in the stunning town of Wasaga Beach, the center provides a serene and
-                tranquil environment for recovery. At Metamorphosis, the focus is to understand the emotions driving the
-                addiction, providing clients with long-term strategies for a successful addiction-free life.
-              </p>
+              {afterNodes}
               <div
                 style={{
                   background: '#10233a',
@@ -2199,8 +2200,8 @@ function template(v) {
                     flexWrap: 'wrap',
                   }}
                 >
-                  <h3 style={{ fontSize: '20px', color: '#fff' }}>Your program, week by week</h3>
-                  <span style={{ fontSize: '13px', color: '#b7c7d8' }}>Five elements woven through every stay</span>
+                  <h3 style={{ fontSize: '20px', color: '#fff' }}>{$i(stepsTitle)}</h3>
+                  <span style={{ fontSize: '13px', color: '#b7c7d8' }}>{$i(stepsSub)}</span>
                 </div>
                 <div
                   style={{ position: 'relative', display: 'grid', gridTemplateColumns: 'repeat(5,1fr)', gap: '14px' }}
@@ -2253,10 +2254,7 @@ function template(v) {
                 </div>
               </div>
               </>
-              ) : null}
-              {sample ? null : bodyNodes}
             </article>
-            {sample ? (
             <aside
               style={{
                 display: 'flex',
@@ -2314,9 +2312,9 @@ function template(v) {
                       >
                         {$i(fac?.icon)}
                       </span>
-                      <div>
+                      <div style={{ minWidth: '0' }}>
                         <div style={{ font: '600 14px Jost,sans-serif' }}>{$i(fac?.k)}</div>
-                        <div style={{ fontSize: '13px', color: '#6b7f95', lineHeight: '1.45' }}>{$i(fac?.v)}</div>
+                        <div style={{ fontSize: '13px', color: '#6b7f95', lineHeight: '1.45', overflowWrap: 'anywhere' }}>{$i(fac?.v)}</div>
                       </div>
                     </div>
                   </Fragment>
@@ -2334,15 +2332,7 @@ function template(v) {
                 }}
               >
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -2361,12 +2351,8 @@ function template(v) {
                 <p style={{ fontSize: '13px', lineHeight: '1.55', color: '#516378' }}>{$i(verifyNote)}</p>
               </div>
             </aside>
-            ) : null}
-            {sample ? null : specAside}
           </div>
         </section>
-        ) : null}
-        {sample ? (
         <>
         <section
           id="pricing"
@@ -2399,12 +2385,12 @@ function template(v) {
                   {'Programs & Pricing'}
                 </h2>
                 <p style={{ fontSize: '15px', color: '#6b7f95', marginTop: '8px' }}>
-                  Our services are HST exempt. Prices in CAD, confirmed with the centre {$i(centreUpdated)}.
+                  {$i(priceCaption)}
                 </p>
               </div>
               <$A
                 className="scp7"
-                href="tel:+17059966522"
+                href={priceCtaHref}
                 style={{
                   font: '600 15px Jost,sans-serif',
                   color: '#0890E8',
@@ -2413,7 +2399,7 @@ function template(v) {
                   borderRadius: '10px',
                 }}
               >
-                Confirm pricing with the centre
+                {priceCta}
               </$A>
             </div>
             <div
@@ -2485,64 +2471,6 @@ function template(v) {
             </div>
           </div>
         </section>
-        <section id="team" data-screen-label="Team" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
-          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
-            <div style={{ marginBottom: '24px' }}>
-              <span
-                style={{
-                  font: '600 12px Figtree,sans-serif',
-                  letterSpacing: '.14em',
-                  textTransform: 'uppercase',
-                  color: '#0890E8',
-                }}
-              >
-                Who will care for you
-              </span>
-              <h2 style={{ fontSize: '34px', marginTop: '8px' }} data-rc-lg="1">
-                Meet the clinical team
-              </h2>
-              <p style={{ fontSize: '15px', color: '#6b7f95', marginTop: '8px', maxWidth: '620px' }}>
-                Credentials are supplied by the centre and checked against provincial registries where available.
-              </p>
-            </div>
-            <div
-              style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: '16px' }}
-              data-cols="repeat(4,1fr)"
-            >
-              {$list(team).map((m, $index) => (
-                <Fragment key={$index}>
-                  <div
-                    style={{
-                      background: '#fff',
-                      border: '1px solid #e3ecf4',
-                      borderRadius: '20px',
-                      padding: '20px',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '12px',
-                    }}
-                  >
-                    <span
-                      style={{
-                        width: '64px',
-                        height: '64px',
-                        borderRadius: '50%',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 8px,#eaf2f8 8px 16px)',
-                      }}
-                    />
-                    <div>
-                      <div style={{ font: '600 16px Jost,sans-serif' }}>{$i(m?.name)}</div>
-                      <div style={{ fontSize: '13.5px', color: '#0890E8', fontWeight: '500', marginTop: '2px' }}>
-                        {$i(m?.role)}
-                      </div>
-                      <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>{$i(m?.cred)}</div>
-                    </div>
-                  </div>
-                </Fragment>
-              ))}
-            </div>
-          </div>
-        </section>
         <section
           id="reviews"
           data-screen-label="Reviews"
@@ -2585,47 +2513,14 @@ function template(v) {
               >
                 Reviews
               </span>
-              <div style={{ display: 'flex', alignItems: 'baseline', gap: '10px' }}>
-                <span style={{ font: '600 48px/1 Jost,sans-serif' }}>{$i(topRating)}</span>
-                <span style={{ color: '#F5A623', fontSize: '18px', letterSpacing: '2px' }}>★★★★★</span>
-              </div>
-              <p style={{ fontSize: '13.5px', color: '#6b7f95' }}>
-                {$i(topReviews)} Google reviews · {$i(siteReviews)} on this site
-              </p>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                {$list(ratingBars).map((r, $index) => (
-                  <Fragment key={$index}>
-                    <div
-                      style={{
-                        display: 'grid',
-                        gridTemplateColumns: '14px 1fr 34px',
-                        gap: '10px',
-                        alignItems: 'center',
-                        fontSize: '12.5px',
-                        color: '#6b7f95',
-                      }}
-                      data-cols="14px 1fr 34px"
-                    >
-                      <span>{$i(r?.n)}</span>
-                      <span
-                        style={{
-                          height: '6px',
-                          borderRadius: '999px',
-                          background: '#e3ecf4',
-                          overflow: 'hidden',
-                          display: 'block',
-                        }}
-                      >
-                        <span style={$css(`display:block;height:100%;width:${r?.w ?? ''};background:#F5A623`)} />
-                      </span>
-                      <span style={{ textAlign: 'right' }}>{$i(r?.pct)}</span>
-                    </div>
-                  </Fragment>
-                ))}
-              </div>
+              {reviewCount ? (
+                <p style={{ fontSize: '13.5px', color: '#6b7f95' }}>{$i(reviewCount)} Google reviews</p>
+              ) : null}
               <$A
                 className="scp7"
-                href="#"
+                href={reviewHref}
+                target="_blank"
+                rel="noopener"
                 style={{
                   font: '600 15px Jost,sans-serif',
                   color: '#fff',
@@ -2639,55 +2534,30 @@ function template(v) {
                 Write a review
               </$A>
               <p style={{ fontSize: '12px', color: '#6b7f95', lineHeight: '1.5' }}>
-                Reviews are from former clients and families. We moderate for authenticity and never remove reviews at a
-                centre's request.
+                Reviews are from former clients and families. We moderate reviews for authenticity.
               </p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-              {$list(reviewsList).map((r, $index) => (
-                <Fragment key={$index}>
-                  <article
-                    style={{
-                      background: '#fff',
-                      border: '1px solid #e3ecf4',
-                      borderRadius: '20px',
-                      padding: '22px 24px',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '10px',
-                    }}
-                  >
-                    <div
-                      style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'center' }}
-                    >
-                      <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                        <span
-                          style={{
-                            width: '40px',
-                            height: '40px',
-                            borderRadius: '50%',
-                            background: '#eaf5fd',
-                            color: '#0890E8',
-                            display: 'grid',
-                            placeItems: 'center',
-                            font: '600 14px Jost,sans-serif',
-                          }}
-                        >
-                          {$i(r?.initials)}
-                        </span>
-                        <div>
-                          <div style={{ font: '600 15px Jost,sans-serif' }}>{$i(r?.name)}</div>
-                          <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>{$i(r?.meta)}</div>
-                        </div>
-                      </div>
-                      <span style={{ color: '#F5A623', fontSize: '14px', letterSpacing: '1px' }}>{$i(r?.stars)}</span>
-                    </div>
-                    <p style={{ fontSize: '15px', lineHeight: '1.65', color: '#3b4d63' }}>{$i(r?.text)}</p>
-                  </article>
-                </Fragment>
-              ))}
+              <article
+                style={{
+                  background: '#fff',
+                  border: '1px solid #e3ecf4',
+                  borderRadius: '20px',
+                  padding: '22px 24px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  gap: '10px',
+                }}
+              >
+                <div style={{ font: '600 17px Jost,sans-serif', color: '#10233a' }}>Be the first to share your experience</div>
+                <p style={{ fontSize: '15px', lineHeight: '1.65', color: '#3b4d63' }}>
+                  Reviews help families choose treatment with confidence. If you or a loved one has been through this centre's program, tell others what it was like. We moderate reviews for authenticity.
+                </p>
+              </article>
               <$A
-                href="#"
+                href={reviewHref}
+                target="_blank"
+                rel="noopener"
                 style={{
                   alignSelf: 'flex-start',
                   font: '600 14.5px Jost,sans-serif',
@@ -2742,101 +2612,47 @@ function template(v) {
                 Location
               </span>
               <h2 style={{ fontSize: '34px', lineHeight: '1.12' }} data-rc-lg="1">
-                {$i(centreName)} in Wasaga Beach, {$i(centreProvince)}
+                {$i(locHeading)}
               </h2>
-              <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>
-                Set on Wasaga Beach along Nottawasaga Bay, the centre is a short walk from the water and about two hours
-                north of Toronto. Airport transfers can be arranged for clients travelling from the GTA and beyond.
-              </p>
+              <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63' }}>{$i(locIntro)}</p>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }} data-cols="1fr 1fr">
-                <div
-                  style={{
-                    background: '#fff',
-                    border: '1px solid #e3ecf4',
-                    borderRadius: '14px',
-                    padding: '14px 16px',
-                  }}
-                >
-                  <div
-                    style={{
-                      font: '600 11px Figtree,sans-serif',
-                      letterSpacing: '.1em',
-                      textTransform: 'uppercase',
-                      color: '#6b7f95',
-                    }}
-                  >
-                    Address
-                  </div>
-                  <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '4px', lineHeight: '1.4' }}>
-                    {$i(centreAddress)}
-                  </div>
-                </div>
-                <div
-                  style={{
-                    background: '#fff',
-                    border: '1px solid #e3ecf4',
-                    borderRadius: '14px',
-                    padding: '14px 16px',
-                  }}
-                >
-                  <div
-                    style={{
-                      font: '600 11px Figtree,sans-serif',
-                      letterSpacing: '.1em',
-                      textTransform: 'uppercase',
-                      color: '#6b7f95',
-                    }}
-                  >
-                    Phone
-                  </div>
-                  <$A
-                    className="scp0"
-                    href="tel:+17059966522"
-                    style={{ display: 'block', font: '600 14.5px Jost,sans-serif', marginTop: '4px', color: '#10233a' }}
-                  >
-                    705-996-6522
-                  </$A>
-                </div>
-                <div
-                  style={{
-                    background: '#fff',
-                    border: '1px solid #e3ecf4',
-                    borderRadius: '14px',
-                    padding: '14px 16px',
-                  }}
-                >
-                  <div
-                    style={{
-                      font: '600 11px Figtree,sans-serif',
-                      letterSpacing: '.1em',
-                      textTransform: 'uppercase',
-                      color: '#6b7f95',
-                    }}
-                  >
-                    From Toronto
-                  </div>
-                  <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '4px' }}>≈ 2 hrs by car</div>
-                </div>
-                <div
-                  style={{
-                    background: '#fff',
-                    border: '1px solid #e3ecf4',
-                    borderRadius: '14px',
-                    padding: '14px 16px',
-                  }}
-                >
-                  <div
-                    style={{
-                      font: '600 11px Figtree,sans-serif',
-                      letterSpacing: '.1em',
-                      textTransform: 'uppercase',
-                      color: '#6b7f95',
-                    }}
-                  >
-                    Admissions
-                  </div>
-                  <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '4px' }}>7 days a week</div>
-                </div>
+                {$list(locCells).map((cell, $index) => (
+                  <Fragment key={$index}>
+                    <div
+                      style={{
+                        background: '#fff',
+                        border: '1px solid #e3ecf4',
+                        borderRadius: '14px',
+                        padding: '14px 16px',
+                        minWidth: '0',
+                      }}
+                    >
+                      <div
+                        style={{
+                          font: '600 11px Figtree,sans-serif',
+                          letterSpacing: '.1em',
+                          textTransform: 'uppercase',
+                          color: '#6b7f95',
+                        }}
+                      >
+                        {$i(cell?.k)}
+                      </div>
+                      {cell?.href ? (
+                        <$A
+                          className="scp0"
+                          href={cell.href}
+                          style={{ display: 'block', font: '600 14.5px Jost,sans-serif', marginTop: '4px', color: '#10233a', overflowWrap: 'anywhere' }}
+                        >
+                          {$i(cell?.v)}
+                        </$A>
+                      ) : (
+                        <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '4px', lineHeight: cell?.k === 'Address' ? '1.4' : undefined, overflowWrap: 'anywhere' }}>
+                          {$i(cell?.v)}
+                        </div>
+                      )}
+                    </div>
+                  </Fragment>
+                ))}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 <span
@@ -2870,48 +2686,9 @@ function template(v) {
                   ))}
                 </div>
               </div>
+              {locSocial}
             </div>
-            <div
-              style={{
-                position: 'relative',
-                aspectRatio: '4/3',
-                borderRadius: '24px',
-                overflow: 'hidden',
-                background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
-                display: 'grid',
-                placeItems: 'center',
-                border: '1px solid #e3ecf4',
-              }}
-            >
-              <span
-                style={{
-                  font: '500 12px ui-monospace,Menlo,monospace',
-                  color: '#516378',
-                  background: 'rgba(255,255,255,.85)',
-                  padding: '6px 10px',
-                  borderRadius: '6px',
-                }}
-              >
-                map · Google Maps embed · Wasaga Beach, ON
-              </span>
-              <$A
-                className="scp2"
-                href="#"
-                style={{
-                  position: 'absolute',
-                  right: '16px',
-                  bottom: '16px',
-                  font: '600 14px Jost,sans-serif',
-                  color: '#10233a',
-                  background: '#fff',
-                  border: '1px solid #dbe6f0',
-                  padding: '10px 16px',
-                  borderRadius: '10px',
-                }}
-              >
-                Get directions
-              </$A>
-            </div>
+            {locMapNode}
           </div>
         </section>
         <section
@@ -3218,7 +2995,7 @@ function template(v) {
                   >
                     {$list(substanceOptions).map((s, $index) => (
                       <Fragment key={$index}>
-                        <option value={$val(s)}>{$i(s)}</option>
+                        <option value={$val(s)}>{s}</option>
                       </Fragment>
                     ))}
                   </select>
@@ -3344,7 +3121,7 @@ function template(v) {
             </form>
           </div>
         </section>
-        {sample && unclaimed ? (
+        {unclaimed ? (
           <>
             <section id="claim" data-screen-label="Claim this listing" style={{ background: '#10233a', color: '#fff' }}>
               <div
@@ -3450,8 +3227,6 @@ function template(v) {
           </>
         ) : null}
         </>
-        ) : null}
-        {sample ? null : locNode}
         {faqOn ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
@@ -3480,13 +3255,10 @@ function template(v) {
                 FAQ
               </span>
               <h2 style={{ fontSize: '38px', lineHeight: '1.12' }} data-rc-lg="1">
-                {sample ? <>Questions about {$i(centreName)}</> : $i(faqHeading)}
+                <>Questions about {$i(centreName)}</>
               </h2>
-              {sample ? (
               <>
-              <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>
-                Answers confirmed with the centre. Still unsure? Call — it's free and confidential.
-              </p>
+              <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>{$i(faqIntro)}</p>
               <$A
                 className="scp7"
                 href="tel:+18558854747"
@@ -3502,7 +3274,6 @@ function template(v) {
                 Ask us directly
               </$A>
               </>
-              ) : null}
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               {$list(centreFaqs).map((q, $index) => (
@@ -3562,7 +3333,6 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? (
         <>
         <section
           data-screen-label="Sponsored Centres"
@@ -3593,7 +3363,7 @@ function template(v) {
                   You may also consider <span style={{ display: 'none' }}>Ad disclosure</span>
                 </span>
                 <h2 style={{ fontSize: '38px', marginTop: '10px' }} data-rc-lg="1">
-                  Other Rehab Centres in {$i(centreProvince)}
+                  {$i(othersHeading)}
                 </h2>
                 <p style={{ fontSize: '15px', color: '#6b7f95', marginTop: '8px', maxWidth: '640px' }}>
                   Comparing options is normal. Every centre below is listed independently; call us and we will help you
@@ -3706,9 +3476,19 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/10',
-                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
+                      {c?.image ? (
+                        <img
+                          src={c.image.src}
+                          alt={c.image.alt}
+                          width={c.image.width || undefined}
+                          height={c.image.height || undefined}
+                          loading="lazy"
+                          style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        />
+                      ) : (
                       <span
                         style={{
                           position: 'absolute',
@@ -3722,8 +3502,9 @@ function template(v) {
                       >
                         {$i(c?.photo)}
                       </span>
+                      )}
                       <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
-                        {c?.featured ? (
+                        {showSample && c?.featured ? (
                           <>
                             <span
                               style={{
@@ -3754,7 +3535,7 @@ function template(v) {
                             </span>
                           </>
                         ) : null}
-                        {c?.verified ? (
+                        {showSample && c?.verified ? (
                           <>
                             <span
                               style={{
@@ -3793,6 +3574,7 @@ function template(v) {
                           </>
                         ) : null}
                       </span>
+                      {showSample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -3821,6 +3603,7 @@ function template(v) {
                         <span style={{ color: '#F5A623', fontSize: '12px', letterSpacing: '1px' }}>★★★★★</span>
                         <span style={{ font: '600 13px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
                       </span>
+                      ) : null}
                     </$A>
                     <div
                       style={{
@@ -3878,9 +3661,13 @@ function template(v) {
                           alignItems: 'center',
                         }}
                       >
+                        {showSample ? (
                         <span style={{ fontSize: '13.5px', color: '#6b7f95' }}>
                           {$i(c?.googleReviews)} Google reviews
                         </span>
+                        ) : (
+                        <span />
+                        )}
                         <$A href={c?.href} style={{ font: '600 14px Jost,sans-serif' }}>
                           View centre →
                         </$A>
@@ -3906,7 +3693,6 @@ function template(v) {
           </div>
         </section>
         </>
-        ) : null}
         <SiteFooter />
       </div>
     </>
@@ -3924,9 +3710,7 @@ export const css = [ownCss, ctrCss, SiteHeader_css].filter(Boolean).join('\n');
 export const defaults = {
   centreName: 'Metamorphosis Centre for Change',
   claimed: true,
-  topRating: '5.0',
-  topReviews: '92',
-  reviewerName: 'Clinical Reviewer (name, credentials)',
+  reviewerName: 'Editorial team',
 };
 const View = createDC('Centre', Component, template);
 export default View;

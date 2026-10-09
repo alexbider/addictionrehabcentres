@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import CentrePage from '@/components/CentrePage';
 import { Root as CentreView } from '@/views/Centre';
-import { centreData, centreOnView } from '@/lib/centre';
+import { centreData } from '@/lib/centre';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
@@ -20,5 +19,5 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const page = getPageByRoute(route((await params).slug));
   if (!page) notFound();
-  return (<><JsonLd page={page} />{centreOnView(page.slug) ? <CentreView data={centreData(page)} /> : <CentrePage page={page} />}</>);
+  return (<><JsonLd page={page} /><CentreView data={centreData(page)} /></>);
 }

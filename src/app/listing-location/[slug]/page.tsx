@@ -1,9 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import ListingPage from '@/components/ListingPage';
 import { Root as CityView } from '@/views/City';
 import { cityData } from '@/lib/city';
-import { ROLLOUT } from '@/lib/rollout';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
 
@@ -26,7 +24,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={page} />
-      {ROLLOUT.cityArchives && page.listing ? <CityView data={cityData(page)} /> : <ListingPage page={page} />}
+      <CityView data={cityData(page)} />
     </>
   );
 }

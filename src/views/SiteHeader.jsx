@@ -532,6 +532,12 @@ class Component extends DCLogic {
                 desc: 'Verify and update your centre',
                 href: '/claim-listing',
               },
+              {
+                icon: 'megaphone',
+                label: 'List Your Centre',
+                desc: 'Create a verified profile',
+                href: '/centre-onboarding/',
+              },
             ],
           },
         ],

@@ -2,7 +2,7 @@
  *  noindex/nofollow (meta + X-Robots-Tag), not in sitemap.xml / llms.txt, disallowed in robots.txt, linked from nowhere. */
 export const DRAFT_ROUTES = [
   '/therapists', '/therapists-province', '/therapists-city', '/therapist-profile', '/claim-therapist',
-  '/therapist-onboarding', '/join-directory', '/auth', '/provider-dashboard', '/centre-onboarding', '/menu-options',
+  '/therapist-onboarding', '/join-directory', '/auth', '/provider-dashboard', '/menu-options',
   // design sample routes (template pages with placeholder content, replaced by the real pages)
   '/alcohol', '/centre', '/city', '/drug', '/province',
 ];

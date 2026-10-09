@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
-import { buildBody } from '@/dc/guide';
+import { buildBody, TYPO_INTERVENTION } from '@/dc/guide';
 import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -364,7 +364,8 @@ class Component extends DCLogic {
     const R = React.createElement;
     const D = this.props.data || null;
     const sample = !D;
-    const built = D ? buildBody(R, D.article || []) : { nodes: [] };
+    const firstPIdx = D ? (D.article || []).findIndex((x) => x.type === 'p' && x.html) : -1;
+    const built = D ? buildBody(R, (D.article || []).filter((_, i) => i !== firstPIdx), { typo: TYPO_INTERVENTION }) : { nodes: [] };
     const used = {};
     const liveToc = [];
     (D ? D.article || [] : []).forEach((x) => {
@@ -374,8 +375,22 @@ class Component extends DCLogic {
         if (x.type === 'h2') liveToc.push({ label: x.text, href: '#' + (used[base] > 1 ? base + '-' + used[base] : base) });
       }
     });
+    const firstP = D ? (D.article || []).findIndex((x) => x.type === 'p' && x.html) : -1;
+    const heroHtml = firstP > -1 ? D.article[firstP].html : '';
+    const helpExtra = D && D.helpLinks && D.helpLinks.length
+      ? R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px', marginTop: '6px', maxWidth: '520px' } }, ...D.helpLinks.map((l, i) => R('a', { key: i, href: l.href, style: { font: '500 13.5px Figtree,sans-serif', color: '#fff', background: 'rgba(255,255,255,.12)', border: '1px solid rgba(255,255,255,.28)', padding: '8px 12px', borderRadius: '999px' } }, l.label)))
+      : null;
+    const tocLive = [...liveToc.slice(0, 8).map((t, i) => ({ ...t, color: i === 0 ? '#0890E8' : '#3b4d63', bar: i === 0 ? '#0890E8' : 'transparent' })), { label: 'Request a call back', href: '#help', color: '#3b4d63', bar: 'transparent' }];
+    const provLive = D ? (D.provinces || []).map((pr) => ({ label: pr.label, href: pr.href || undefined, code: (locations.find((l) => l.label === pr.label) || {}).code || pr.label.slice(0, 2).toUpperCase() })) : locations;
     return {
       sample,
+      heroEyebrow: D ? 'Treatment and support · Canada-wide' : 'Intervention services · Canada-wide',
+      heroHtml,
+      heroImgSrc: D ? (D.bannerImage ? D.bannerImage.src : '/assets/img/choosing-a-facility/addicted-to-benzodiazepine.webp') : '/assets/img/choosing-a-facility/addicted-to-benzodiazepine.webp',
+      heroImgAlt: D ? (D.bannerImage && D.bannerImage.alt) || D.h1 : 'A family gathered for an intervention',
+      helpCardTitle: D ? 'Need help choosing?' : 'Need an interventionist?',
+      helpCardBody: D ? 'Call our free helpline and we will connect you with a rehab centre that fits your situation.' : 'We can connect you with a rehab centre that has trained interventionists on staff.',
+      helpExtra,
       heroTitle: D ? D.h1 : 'Intervention',
       heroImg: D ? D.bannerImage : null,
       bodyNodes: built.nodes,
@@ -393,29 +408,26 @@ class Component extends DCLogic {
       iconClock: ic.clock,
       iconShield: ic.shield,
       iconCheck: ic.check,
-      toc,
+      toc: D ? tocLive : toc,
       whoList,
       steps,
       reading,
-      locations,
+      locations: provLive,
       footerCols,
       forWho,
-      services: [
-        'Connect you with a trained interventionist',
-        'Match your loved one to a rehab centre',
-        'Help plan the conversation and next steps',
-        'Free, confidential guidance — 24/7',
-      ],
+      services: D
+        ? ['Help you find the right centre', 'Match you to a program that fits', 'Answer your questions about next steps', 'Free, confidential guidance — 24/7']
+        : ['Connect you with a trained interventionist', 'Match your loved one to a rehab centre', 'Help plan the conversation and next steps', 'Free, confidential guidance — 24/7'],
       sent,
       notSent: !sent,
       submit: (e) => {
         e.preventDefault();
         this.setState({ sent: true });
       },
-      showToc: D ? !narrow && liveToc.length >= 2 : !narrow && (this.props.showToc ?? true),
+      showToc: !narrow && (this.props.showToc ?? true),
       heroCols: mid ? '1fr' : '1.05fr .95fr',
       h1Size: mobile ? '44px' : '64px',
-      articleCols: narrow || (D ? liveToc.length < 2 : !(this.props.showToc ?? true)) ? '1fr' : '260px minmax(0,1fr)',
+      articleCols: narrow || !(this.props.showToc ?? true) ? '1fr' : '260px minmax(0,1fr)',
       splitCols: mid ? '1fr' : '1.15fr .85fr',
       splitColsRev: mid ? '1fr' : '.85fr 1.15fr',
       imgOrder: mid ? '2' : '0',
@@ -435,6 +447,13 @@ class Component extends DCLogic {
 function template(v) {
   const {
     sample,
+    heroEyebrow,
+    heroHtml,
+    heroImgSrc,
+    heroImgAlt,
+    helpCardTitle,
+    helpCardBody,
+    helpExtra,
     heroTitle,
     heroImg,
     bodyNodes,
@@ -473,7 +492,7 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Hero"
@@ -518,7 +537,6 @@ function template(v) {
             data-rc-dyn="1"
           >
             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              {sample ? (
               <span
                 style={{
                   font: '600 12px Figtree,sans-serif',
@@ -527,10 +545,10 @@ function template(v) {
                   color: '#0890E8',
                 }}
               >
-                Intervention services · Canada-wide
+                {heroEyebrow}
               </span>
-              ) : null}
               <h1 style={$css(`font-size:${h1Size ?? ''};line-height:1.04;color:#10233a`)}>{$i(heroTitle)}</h1>
+              {!sample && heroHtml ? <p style={{ fontSize: '19px', lineHeight: '1.6', color: '#516378' }} dangerouslySetInnerHTML={{ __html: heroHtml }} /> : null}
               {sample ? (
               <>
               <p style={{ fontSize: '19px', lineHeight: '1.6', color: '#516378' }}>
@@ -546,7 +564,6 @@ function template(v) {
               </>
               ) : null}
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '2px' }}>
-                {sample ? (
                 <$A
                   className="scp1"
                   href="/search/"
@@ -561,7 +578,6 @@ function template(v) {
                 >
                   Find A Drug Rehab
                 </$A>
-                ) : null}
                 <$A
                   className="scp2"
                   href="tel:+18558854747"
@@ -593,8 +609,8 @@ function template(v) {
                 }}
               >
                 <img
-                  src={sample ? "https://addictionrehabcenters.ca/wp-content/uploads/2022/02/addicted-to-benzodiazepine.jpg" : heroImg?.src}
-                  alt={sample ? "A family gathered for an intervention" : heroImg?.alt}
+                  src={heroImgSrc}
+                  alt={heroImgAlt}
                   width={sample ? undefined : heroImg?.width || undefined}
                   height={sample ? undefined : heroImg?.height || undefined}
                   loading={sample ? undefined : 'eager'}
@@ -775,10 +791,8 @@ function template(v) {
                     >
                       Talk to a specialist
                     </span>
-                    <div style={{ fontSize: '19px', color: '#fff', lineHeight: '1.25' }}>Need an interventionist?</div>
-                    <p style={{ fontSize: '13.5px', lineHeight: '1.5', opacity: '.9' }}>
-                      We can connect you with a rehab centre that has trained interventionists on staff.
-                    </p>
+                    <h3 style={{ fontSize: '19px', color: '#fff', lineHeight: '1.25' }}>{$i(helpCardTitle)}</h3>
+                    <p style={{ fontSize: '13.5px', lineHeight: '1.5', opacity: '.9' }}>{$i(helpCardBody)}</p>
                     <$A
                       className="scp5"
                       href="tel:+18558854747"
@@ -799,7 +813,7 @@ function template(v) {
                 </aside>
               </>
             ) : null}
-            <article style={{ display: 'flex', flexDirection: 'column', gap: sample ? '64px' : '28px', ...(sample ? null : { fontSize: '17.5px', lineHeight: '1.75', color: '#3b4d63' }), minWidth: '0' }}>
+            <article style={{ display: 'flex', flexDirection: 'column', gap: sample ? '64px' : '28px', minWidth: '0' }}>
               {sample ? (
               <>
               <div
@@ -844,7 +858,7 @@ function template(v) {
                 </div>
                 <div style={{ borderRadius: '22px', overflow: 'hidden', aspectRatio: '4/5', background: '#dfeaf3' }}>
                   <img
-                    src="https://addictionrehabcenters.ca/wp-content/uploads/2022/02/benzodiazepine-prescribed.jpg"
+                    src="/assets/img/choosing-a-facility/benzodiazepine-prescribed.webp"
                     alt="What is an intervention"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                   />
@@ -894,7 +908,7 @@ function template(v) {
                       style={{ borderRadius: '22px', overflow: 'hidden', aspectRatio: '4/3', background: '#dfeaf3' }}
                     >
                       <img
-                        src="https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Planning-Your-Intervention.jpg"
+                        src="/assets/img/intervention/Planning-Your-Intervention.webp"
                         alt="Planning your intervention"
                         style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                       />
@@ -960,7 +974,7 @@ function template(v) {
                   )}
                 >
                   <img
-                    src="https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Intervention-Location-and-Setup.jpg"
+                    src="/assets/img/intervention/Intervention-Location-and-Setup.webp"
                     alt="Intervention location and setup"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                   />
@@ -1057,7 +1071,7 @@ function template(v) {
                     style={{ borderRadius: '22px', overflow: 'hidden', aspectRatio: '16/10', background: '#dfeaf3' }}
                   >
                     <img
-                      src="https://addictionrehabcenters.ca/wp-content/uploads/2022/02/Discussing-the-effects-of-the-addiction.jpg"
+                      src="/assets/img/intervention/Discussing-the-effects-of-the-addiction.webp"
                       alt="Discussing the effects of the addiction"
                       style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                     />
@@ -1293,7 +1307,7 @@ function template(v) {
             </$A>
           </div>
         </section>
-        {sample ? (
+        {true ? (
         <section data-screen-label="Provinces" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '80px 32px' }} data-rc-wrap="1">
             <div style={{ maxWidth: '640px', marginBottom: '32px' }}>
@@ -1353,8 +1367,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <LinkTiles screen="Provinces" bg="#fff" heading="Drug Rehab Centres By Provinces" items={liveProvinces} cols={4} />}
-        {sample ? (
+        {true ? (
         <section
           id="help"
           data-screen-label="Let us help"
@@ -1396,6 +1409,7 @@ function template(v) {
                   Tell us a little about the situation and a specialist will call you back — discreetly, at a time that
                   works for you.
                 </p>
+                {helpExtra}
               </div>
               {notSent ? (
                 <>
@@ -1601,7 +1615,6 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <HelpSection heading={liveHelp.heading} blocks={liveHelp.blocks} links={liveHelp.links} />}
         <SiteFooter />
       </div>
     </>

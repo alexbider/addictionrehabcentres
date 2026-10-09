@@ -724,7 +724,7 @@ class Component extends DCLogic {
         {
           title: 'For Providers',
           links: [
-            { label: 'List Your Centre', href: '/auth?mode=signup&type=centre' },
+            { label: 'List Your Centre', href: '/centre-onboarding/' },
             { label: 'Claim Your Listing', href: '/claim-listing' },
             { label: 'Create a Therapist Profile', href: '/auth?mode=signup&type=therapist' },
             { label: 'Promote Your Centre', href: '/promote' },
@@ -850,8 +850,8 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Centre onboarding intro"
           style={{
@@ -1079,7 +1079,7 @@ function template(v) {
                               >
                                 {$list(f?.options).map((o, $index) => (
                                   <Fragment key={$index}>
-                                    <option value={$val(o?.v)}>{$i(o?.l)}</option>
+                                    <option value={$val(o?.v)}>{o?.l}</option>
                                   </Fragment>
                                 ))}
                               </select>

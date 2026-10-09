@@ -64,19 +64,25 @@ class Component extends DCLogic {
     const { vw, query, focus, step, sel, plan, method, auth, terms, tried2, tried4, form } = this.state;
     const wide = vw >= 1000,
       mid = vw >= 700;
-    const listings = [
-      ['Metamorphosis Centre for Change', 'Wasaga Beach, ON', false],
-      ['Bellwood Health Services', '175 Brentcliffe Rd, Toronto, ON', true],
-      ['Addiction Centre Toronto', '193 Colborne St, Brantford, ON', false],
-      ['Renascent Treatment Centre', '90 Colston Ave, Whitby, ON', false],
-      ['UMATTERCARE – Mental Health and Addiction Services', '97 Bonnyview Dr, Etobicoke, ON', false],
-      ['Addiction Rehab Toronto', '4 Warrendale Ct, Etobicoke, ON', false],
-      ['Field Trip Health Toronto', '30 Duncan St Suite 400, Toronto, ON', true],
-    ].map(([name, address, claimed], i) => ({
+    // Real directory: every published centre (passed in from the server). Nobody has claimed a listing yet, so all are claimable.
+    const rawList = this.props.centres && this.props.centres.length
+      ? this.props.centres.map((c) => [c.name, c.address, false, c.image, c.href])
+      : [
+          ['Metamorphosis Centre for Change', 'Wasaga Beach, ON', false],
+          ['Bellwood Health Services', '175 Brentcliffe Rd, Toronto, ON', true],
+          ['Addiction Centre Toronto', '193 Colborne St, Brantford, ON', false],
+          ['Renascent Treatment Centre', '90 Colston Ave, Whitby, ON', false],
+          ['UMATTERCARE – Mental Health and Addiction Services', '97 Bonnyview Dr, Etobicoke, ON', false],
+          ['Addiction Rehab Toronto', '4 Warrendale Ct, Etobicoke, ON', false],
+          ['Field Trip Health Toronto', '30 Duncan St Suite 400, Toronto, ON', true],
+        ];
+    const listings = rawList.map(([name, address, claimed, image, href], i) => ({
       i,
       name,
       address,
       claimed,
+      image,
+      href,
       initials: name
         .replace(/[^A-Za-z ]/g, '')
         .split(' ')
@@ -375,6 +381,10 @@ class Component extends DCLogic {
       noResults: q.length > 0 && match.length === 0,
       resultsLabel: match.length + (match.length === 1 ? ' listing' : ' listings') + ' found',
       perks: ['Get the Verified badge', 'Edit your centre details', 'Full refund if not verified'],
+      pvImg: s && s.image ? s.image.src : this.props.centres && this.props.centres.length ? '/assets/img/home/addiction-rehab-centers-canada.webp' : '/assets/img/home-hero.jpg',
+      pvImgAlt: s && s.image ? s.image.alt || s.name : '',
+      pvImgW: s && s.image && s.image.width ? s.image.width : 970,
+      pvImgH: s && s.image && s.image.height ? s.image.height : 920,
       pvName: s ? s.name : 'Your centre name',
       pvAddress: s ? s.address : 'City, Province',
       pvBadge: done ? 'Verified' : 'Unclaimed listing',
@@ -395,7 +405,8 @@ class Component extends DCLogic {
       isStep3: step === 3,
       isStep4: step === 4,
       isDone: done,
-      allResults: match.map(row),
+      allResults: match.slice(0, 8).map(row),
+      moreCount: Math.max(0, match.length - 8),
       noAll: match.length === 0,
       selName: s ? s.name : '',
       fields,
@@ -559,6 +570,7 @@ function template(v) {
     nextCols,
     nextSteps,
     noAll,
+    moreCount,
     noResults,
     onQuery,
     onSearchBlur,
@@ -572,6 +584,10 @@ function template(v) {
     planName,
     plans,
     pvAddress,
+    pvImg,
+    pvImgAlt,
+    pvImgW,
+    pvImgH,
     pvBadge,
     pvBadgeBg,
     pvBadgeColor,
@@ -602,8 +618,8 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+        <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Claim hero"
           style={{
@@ -804,7 +820,7 @@ function template(v) {
                             </span>
                             <span style={{ fontSize: '14px', color: '#516378' }}>
                               Try the centre's city, or{' '}
-                              <span style={{ fontWeight: '600' }}>add your centre to the directory</span>
+                              <$A href="/centre-onboarding/" style={{ fontWeight: '600' }}>add your centre to the directory</$A>
                               .
                             </span>
                           </div>
@@ -880,10 +896,10 @@ function template(v) {
                       }}
                     >
                       <img
-                        src="/assets/img/home/addiction-rehab-centers-canada.webp"
-                        alt=""
-                        width="970"
-                        height="920"
+                        src={pvImg}
+                        alt={pvImgAlt}
+                        width={pvImgW}
+                        height={pvImgH}
                         style={$css(
                           `position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block;filter:${pvFilter ?? ''};transition:filter .5s ease`,
                         )}
@@ -1161,6 +1177,11 @@ function template(v) {
                           </div>
                         </Fragment>
                       ))}
+                      {moreCount ? (
+                        <div style={{ padding: '4px 6px', fontSize: '13.5px', color: '#6b7f95' }}>
+                          Showing the first 8 of {$i(moreCount + 8)} centres — type a name or city to narrow the list.
+                        </div>
+                      ) : null}
                       {noAll ? (
                         <>
                           <div
@@ -1177,7 +1198,7 @@ function template(v) {
                             <span style={{ font: '600 16px Jost,sans-serif' }}>We couldn't find that centre</span>
                             <span style={{ fontSize: '14.5px', color: '#516378' }}>
                               It may not be listed yet.{' '}
-                              <span style={{ fontWeight: '600' }}>Add your centre to the directory</span>
+                              <$A href="/centre-onboarding/" style={{ fontWeight: '600' }}>Add your centre to the directory</$A>
                               .
                             </span>
                           </div>
@@ -2040,57 +2061,7 @@ export const ownCss =
 export const css = [ownCss, SiteHeader_css].filter(Boolean).join('\n');
 export const defaults = {};
 
-/* Live page: the source's "Claim Your Listing" content in the design's hero / cards / CTA band. No claim flow, plans, prices or payment (not in the source, no backend). */
-function liveTemplate(v) {
-  const d = v.data;
-  const eyebrow = { font: '600 12px Figtree,sans-serif', letterSpacing: '.14em', textTransform: 'uppercase', color: '#0890E8' };
-  return (
-    <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
-        <SiteHeader __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
-        <section data-screen-label="Claim hero" style={{ background: 'radial-gradient(900px 520px at 85% -10%,#d6ecfb 0%,rgba(214,236,251,0) 60%),#f7fafd', borderBottom: '1px solid #e9eff5' }}>
-          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px 80px', display: 'grid', gridTemplateColumns: d.image ? '1.1fr .9fr' : '1fr', gap: '56px', alignItems: 'center' }} data-cols={d.image ? '1.1fr .9fr' : '1fr'} data-rc-gap="1" data-rc-wrap="1">
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px', minWidth: 0 }}>
-              <span style={eyebrow}>For treatment centres</span>
-              <h1 style={{ fontSize: '56px', lineHeight: '1.04', color: '#10233a' }} data-rc-lg="1">{d.title}</h1>
-              <h2 style={{ font: '500 24px/1.35 Figtree,sans-serif', color: '#516378', maxWidth: '620px' }}>{d.subtitle}</h2>
-              <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '6px' }}>
-                <$A className="scp1" href="tel:+18558854747" style={{ font: '600 16px Jost,sans-serif', color: '#fff', background: '#0890E8', padding: '15px 24px', borderRadius: '12px', boxShadow: '0 10px 24px -12px rgba(8,144,232,.6)' }}>Call 1-855-885-4747</$A>
-                <$A className="scp2" href="mailto:info@addictionrehabcenters.ca" style={{ font: '600 16px Jost,sans-serif', color: '#10233a', background: '#fff', border: '1px solid #dbe6f0', padding: '15px 24px', borderRadius: '12px' }}>Email our team</$A>
-              </div>
-            </div>
-            {d.image ? <img src={d.image.src} alt={d.image.alt} width={d.image.width || undefined} height={d.image.height || undefined} loading="eager" fetchPriority="high" style={{ width: '100%', height: 'auto', maxHeight: '460px', objectFit: 'cover', borderRadius: '24px', boxShadow: '0 40px 80px -40px rgba(16,35,58,.35)' }} /> : null}
-          </div>
-        </section>
-        <section data-screen-label="Benefits" style={{ background: '#fff' }}>
-          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '16px' }} data-cols="repeat(3,1fr)">
-              {d.benefits.map((b, i) => (
-                <div key={i} style={{ background: '#f7fafd', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '26px', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                  <h3 style={{ fontSize: '21px', lineHeight: '1.25' }}>{b.title}</h3>
-                  <p style={{ fontSize: '15.5px', lineHeight: '1.65', color: '#516378' }}>{b.body}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-        <section data-screen-label="Final CTA" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
-          <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '0 32px' }} data-rc-wrap="1">
-            <div style={{ background: '#10233a', borderRadius: '30px 30px 0 0', padding: '56px', color: '#fff', display: 'grid', gridTemplateColumns: '1.2fr .8fr', gap: '40px', alignItems: 'center' }} data-cols="1.2fr .8fr" data-rc-gap="1">
-              <h2 style={{ fontSize: '38px', lineHeight: '1.12', color: '#fff' }} data-rc-lg="1">{d.subtitle}</h2>
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                <$A className="scpr" href="tel:+18558854747" style={{ font: '600 18px Jost,sans-serif', color: '#10233a', background: '#fff', padding: '16px 24px', borderRadius: '14px', textAlign: 'center' }}>Call 1-855-885-4747</$A>
-                <$A className="scpv" href="mailto:info@addictionrehabcenters.ca" style={{ font: '600 16px Jost,sans-serif', color: '#fff', border: '1.5px solid rgba(255,255,255,.5)', padding: '14px 24px', borderRadius: '14px', textAlign: 'center' }}>Email our team</$A>
-              </div>
-            </div>
-          </div>
-        </section>
-        <SiteFooter />
-      </div>
-    </>
-  );
-}
-const View = createDC('ClaimListing', Component, (v) => (v.data ? liveTemplate(v) : template(v)));
+const View = createDC('ClaimListing', Component, template);
 export default View;
 export function Root(props) {
   return <DCRoot View={View} defaults={defaults} css={css} responsive {...props} />;

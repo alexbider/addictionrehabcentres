@@ -1,5 +1,7 @@
 import type { Block, Card, Page } from '@/lib/content';
-import { isPublishedRoute, routeExists } from '@/lib/content';
+import { getPageByRoute, getPublished, isPublishedRoute, routeExists } from '@/lib/content';
+import { centreByRoute, realCentres, PROVINCE_NAMES } from '@/lib/centres';
+import { SHOW_SAMPLE_DATA } from '@/lib/rollout';
 import { categoryRoute, provinceNav, provinceNavItems } from '@/lib/provinces';
 
 export type CityData = {
@@ -15,6 +17,16 @@ export type CityData = {
   others: { label: string; href: string | null; heading: boolean }[];
   popular: { label: string; href: string }[];
   pager: { current: number; prev: string | null; next: string | null; pages: { n: number; href: string }[] } | null;
+  m?: CityModel;
+};
+
+export type CityModel = {
+  showSample: boolean; city: string; provinceName: string; year: string; updated: string; updatedLong: string;
+  rankedLabel: string; isRanking: boolean; h1: string; h2: string; intro: string;
+  cardExtra: { tags: string[]; price: string; length: string; slug: string }[];
+  faqs: { question: string; answer: string }[];
+  nearby: { label: string; href: string; code: string }[];
+  sources: { text: string; links?: { label: string; href: string }[] }[];
 };
 
 // The design's "Popular types of rehab" links (design copy); only pages that exist on the site are linked.
@@ -92,5 +104,70 @@ export function cityData(page: Page): CityData {
     provinceLabel: cat.replace(/ Rehabs$/, ''), provinceHref,
     othersHeading: provinceNav.heading, others,
     popular: POPULAR.filter(([, h]) => isPublishedRoute(h)).map(([label, href]) => ({ label, href })),
+    m: cityModel(page, { cards, cat, listHeading, listIntro, provinceHref }),
+  };
+}
+
+/* ───────────────────────── view model: every design section filled, real data first ───────────────────────── */
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const MONTHS_LONG = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+const titleCase = (t: string) => t.replace(/-/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+const stripHtml = (h: string) => h.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#8217;|&rsquo;/g, '\u2019').replace(/\s+/g, ' ').trim();
+const PROV_CODE: Record<string, string> = Object.fromEntries(Object.entries(PROVINCE_NAMES).map(([c, n]) => [n, c]));
+let archiveCache: { route: string; city: string; province: string; count: number }[] | null = null;
+/** Every published city archive page 1 with its province (read from the real centres of that city). */
+function archives() {
+  if (archiveCache) return archiveCache;
+  archiveCache = getPublished()
+    .filter((e) => /^\/listing-location\/[^/]+\/$/.test(e.route))
+    .map((e) => { const city = titleCase(e.route.split('/')[2]); const cs = realCentres({ city }); return { route: e.route, city, province: cs[0]?.province ?? '', count: cs.length }; })
+    .filter((a) => a.province);
+  return archiveCache;
+}
+const RANKING_CITIES = [{ route: '/toronto-rehabs/', city: 'Toronto', province: 'ON' }, { route: '/ottawa-rehabs/', city: 'Ottawa', province: 'ON' }, { route: '/montreal-rehabs/', city: 'Montreal', province: 'QC' }, { route: '/7-best-drug-alcohol-rehab-centres-in-vancouver-2025/', city: 'Vancouver', province: 'BC' }];
+
+export function cityModel(page: Page, d: { cards: CityData['cards']; cat: string; listHeading: string; listIntro: string[]; provinceHref: string | null }): CityModel {
+  const isRanking = page.page_type === 'city';
+  const city = isRanking ? page.h1.replace(/^Addiction Rehab(?:s| Centres)?\s+/i, '').trim() : page.h1.trim();
+  const provinceName = d.cat.replace(/ Rehabs$/, '') || (d.cards[0] ? centreByRoute(d.cards[0].href ?? '')?.provinceName ?? '' : '');
+  const provCode = PROV_CODE[provinceName] ?? '';
+  const entry = getPublished().find((e) => e.route === page.route);
+  const dt = entry?.modified ? new Date(entry.modified) : null;
+  const year = String(dt ? dt.getFullYear() : new Date().getFullYear());
+  const updated = dt ? `${MONTHS[dt.getMonth()]} ${dt.getFullYear()}` : `${MONTHS[new Date().getMonth()]} ${year}`;
+  const updatedLong = dt ? `${MONTHS_LONG[dt.getMonth()]} ${dt.getDate()}, ${dt.getFullYear()}` : updated;
+  const intro = d.listIntro.length ? stripHtml(d.listIntro[0]) : `Browse ${d.cards.length} treatment ${d.cards.length === 1 ? 'centre' : 'centres'} in ${city}${provinceName ? ', ' + provinceName : ''}, with the address, description and photos from each centre\u2019s listing. Call our free helpline if you would like help choosing.`;
+  const cardExtra = d.cards.map((c) => {
+    const slug = c.href ?? '';
+    const rec = slug ? centreByRoute(slug) : null;
+    const cp = slug ? getPageByRoute(slug) : null;
+    const info = [...new Set((cp?.centre?.info_items ?? []).map((i) => i.value || i.label))];
+    return { tags: (rec?.tags ?? []).slice(0, 3), price: info.find((v) => /\$/.test(v)) ?? 'Contact for pricing', length: info.find((v) => /day|week|month|year/i.test(v)) ?? 'Varies', slug };
+  });
+  const faqs = [
+    { question: `How many rehab centres are in ${city}?`, answer: `This page lists ${d.cards.length} ${d.cards.length === 1 ? 'centre' : 'centres'} serving ${city}${provinceName ? ', ' + provinceName : ''}. Our ${provinceName || 'Canadian'} directory lists many more \u2014 call us if none of these fit.` },
+    { question: `How much does rehab cost in ${city}?`, answer: 'Costs depend on the centre, the program and the length of stay. Each centre sets its own fees, so call the centre or our free helpline for current pricing and to ask what your benefits plan may cover.' },
+    { question: `Is there free or publicly funded rehab in ${city}?`, answer: 'Publicly funded detox and treatment exist in every province, often with wait times. Private centres are paid for by self-pay, extended health benefits or employer plans. Our helpline can point you to your provincial intake line and free resources.' },
+    { question: 'How long does rehab last?', answer: `Most residential programs run 30 to 90 days; detox alone is usually 3 to 10 days. Several ${city} centres also offer outpatient and aftercare programs that continue for months after residential treatment.` },
+    { question: 'What is the difference between detox and rehab?', answer: 'Detox is the medically supervised first step of clearing substances from the body and managing withdrawal. Rehab is the treatment that follows \u2014 therapy, education, relapse prevention and aftercare planning. Some centres offer both; others focus on one stage.' },
+    { question: `Can you help me get into a ${city} centre today?`, answer: 'Often, yes. Call 1-855-885-4747 any time. We will talk through your circumstances and contact centres with immediate availability on your behalf. The service is free and confidential.' },
+  ];
+  // nearby: the province page, then other cities of the same province that have a page
+  const near: { label: string; href: string; code: string }[] = [];
+  if (provinceName) near.push({ label: provinceName + ' Rehabs', href: d.provinceHref ?? '', code: provCode });
+  const cands = [
+    ...RANKING_CITIES.filter((r) => r.province === provCode && r.route !== page.route).map((r) => ({ label: r.city + ' Rehabs', href: r.route, code: r.city.slice(0, 3).toUpperCase(), n: 99 })),
+    ...archives().filter((a) => a.province === provCode && a.route !== page.route.replace(/page\/\d+\/$/, '') && !RANKING_CITIES.some((r) => r.city === a.city)).map((a) => ({ label: a.city + ' Rehabs', href: a.route, code: a.city.slice(0, 3).toUpperCase(), n: a.count })),
+  ].sort((a, b) => b.n - a.n || a.label.localeCompare(b.label));
+  for (const c of cands) { if (near.length >= 4) break; near.push({ label: c.label, href: c.href, code: c.code }); }
+  if (near.length < 4) for (const r of RANKING_CITIES) { if (near.length >= 4) break; if (r.route !== page.route && !near.some((x) => x.href === r.route)) near.push({ label: r.city + ' Rehabs', href: r.route, code: r.city.slice(0, 3).toUpperCase() }); }
+  const sources = provCode === 'ON'
+    ? [{ text: 'CAMH (Centre for Addiction and Mental Health), Toronto \u2014 addiction services and access' }, { text: 'ConnexOntario \u2014 24/7 provincial mental health and addiction navigation' }]
+    : [{ text: 'Health Canada \u2014 substance use and addiction information' }, { text: 'Canadian Centre on Substance Use and Addiction (CCSA) \u2014 national research and guidance' }];
+  return {
+    showSample: SHOW_SAMPLE_DATA, city, provinceName, year, updated, updatedLong,
+    rankedLabel: isRanking ? `Ranked list \u00b7 ${year}` : `Local directory \u00b7 ${year}`, isRanking,
+    h1: isRanking && d.listHeading ? d.listHeading : `Rehab Centres in ${city}`, h2: isRanking ? page.h1 : `Addiction Rehab Centres ${city}`, intro,
+    cardExtra, faqs, nearby: near, sources,
   };
 }

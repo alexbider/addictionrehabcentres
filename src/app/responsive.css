@@ -219,12 +219,19 @@
 
 /* 3 ▸ touch targets (Step 8): every control is at least 44px tall on phones and tablets; visuals are unchanged.
       Inline text links inside sentences are exempt (WCAG 2.5.8). */
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   a[class*="scp"], button, select, textarea,
   input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"]) { min-height: 44px; }
   a[class*="scp"]:not([style*="display:flex"]):not([style*="display:inline-flex"]):not([style*="display:block"]):not([style*="display: block"]) { }
   footer a, nav[aria-label="Breadcrumb"] a { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; overflow-wrap: anywhere; }
   button[aria-label^="Go to slide"] { box-sizing: content-box !important; padding: 18px 18px !important; background-clip: content-box !important; min-height: 0 !important; }
+/* 1001-1024px: pages marked [data-design-exact] keep the design's own control sizes */
+@media (min-width: 1001px) and (max-width: 1024px) {
+  :is(a[class*="scp"], button, select, textarea,
+  input:not([type="checkbox"]):not([type="radio"]):not([type="hidden"])):not([data-design-exact] *) { min-height: 44px; }
+  :is(footer a, nav[aria-label="Breadcrumb"] a):not([data-design-exact] *) { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; overflow-wrap: anywhere; }
+  button[aria-label^="Go to slide"]:not([data-design-exact] *) { box-sizing: content-box !important; padding: 18px 18px !important; background-clip: content-box !important; min-height: 0 !important; }
+}
 }
 
 /* 4 ▸ readable text on phones (Step 8): nothing below 14px. Matches the design's inline font sizes (server and hydrated serialisation); desktop is unchanged. */
@@ -332,27 +339,34 @@
 }
 
 /* 5 ▸ stand-alone links (eyebrow labels, "View centre →", breadcrumbs) get a 44px touch area on phones and tablets */
-@media (max-width: 1024px) {
+@media (max-width: 1000px) {
   :is(div, article, section, nav, header) > a[href]:not([style*="display"]):not([style*="position"]):not([style*="aspect-ratio"]) { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; }
   a[href][style*="display:block"], a[href][style*="display:flex"], a[href][style*="display:inline-flex"], a[href][style*="display:inline-block"], a[href][style*="display:grid"] { min-height: 44px; }
   nav[aria-label="Breadcrumb"] a { min-width: 44px; justify-content: center; }
   :is(a, button)[style*="width:40px"], :is(a, button)[style*="width: 40px"], :is(a, button)[style*="width:38px"], :is(a, button)[style*="width: 38px"], :is(a, button)[style*="width:36px"], :is(a, button)[style*="width: 36px"] { width: 44px !important; height: 44px !important; }
+@media (min-width: 1001px) and (max-width: 1024px) {
+  :is(div, article, section, nav, header) > a[href]:not([style*="display"]):not([style*="position"]):not([style*="aspect-ratio"]):not([data-design-exact] *) { display: inline-flex; align-items: center; min-height: 44px; max-width: 100%; }
+  :is(a[href][style*="display:block"], a[href][style*="display:flex"], a[href][style*="display:inline-flex"], a[href][style*="display:inline-block"], a[href][style*="display:grid"]):not([data-design-exact] *) { min-height: 44px; }
+  nav[aria-label="Breadcrumb"] a:not([data-design-exact] *) { min-width: 44px; justify-content: center; }
+  :is(:is(a, button)[style*="width:40px"], :is(a, button)[style*="width: 40px"], :is(a, button)[style*="width:38px"], :is(a, button)[style*="width: 38px"], :is(a, button)[style*="width:36px"], :is(a, button)[style*="width: 36px"]):not([data-design-exact] *) { width: 44px !important; height: 44px !important; }
+}
 }
 
 
 /* 6 ▸ contrast (Step 9): the design's grey and blue text and white-on-blue buttons fell short of WCAG AA (4.5:1) on white and light backgrounds.
       Darkest change needed: grey #6b7f95 → #566b82, blue text/buttons #0890E8 → #0670b8 (the design's own hover blue), faint grey #9aabbd → #5d7188.
       Large gradient bands, borders and decorative fills are untouched. Matches both the server and hydrated style serialisations. */
-[style*="color:#6b7f95"], [style*="color: rgb(107, 127, 149)"] { color: #566b82 !important; }
-[style*="color:#9aabbd"], [style*="color: rgb(154, 171, 189)"] { color: #5d7188 !important; }
-[style*="color:#0890E8"], [style*="color: rgb(8, 144, 232)"] { color: #0670b8 !important; }
-:is([style*="background:#0890E8"], [style*="background: rgb(8, 144, 232)"]):is([style*="color:#fff"], [style*="color: rgb(255, 255, 255)"]) { background: #0670b8 !important; }
+/* Pages inside [data-design-exact] (Promote, Centre, City, Province, Drug, Intervention, Claim, Centre onboarding) and the shared header and footer (every page) are exempt from rules 6, 7 and 8 and keep the design's own colours. */
+:is([style*="color:#6b7f95"], [style*="color: rgb(107, 127, 149)"]):not([data-design-exact] *):not([data-sc-name="SiteHeader"] *):not(footer *) { color: #566b82 !important; }
+:is([style*="color:#9aabbd"], [style*="color: rgb(154, 171, 189)"]):not([data-design-exact] *):not([data-sc-name="SiteHeader"] *):not(footer *) { color: #5d7188 !important; }
+:is([style*="color:#0890E8"], [style*="color: rgb(8, 144, 232)"]):not([data-design-exact] *):not([data-sc-name="SiteHeader"] *):not(footer *) { color: #0670b8 !important; }
+:is([style*="background:#0890E8"], [style*="background: rgb(8, 144, 232)"]):is([style*="color:#fff"], [style*="color: rgb(255, 255, 255)"]):not([data-design-exact] *):not([data-sc-name="SiteHeader"] *):not(footer *) { background: #0670b8 !important; }
 
 /* 7 ▸ links inside running text are underlined (WCAG 1.4.1) */
-p a[href]:not([class]), li a[href]:not([class]) { text-decoration: underline; text-underline-offset: 2px; }
+:is(p a[href]:not([class]), li a[href]:not([class])):not([data-design-exact] *):not([data-sc-name="SiteHeader"] *):not(footer *) { text-decoration: underline; text-underline-offset: 2px; }
 
 /* 8 ▸ default link blue (#0890E8, 3.4:1 on white) → #0670b8 for links that do not set their own colour (header and footer excluded) */
-a:not([style*="color"]):not(footer a):not([data-sc-name="SiteHeader"] a) { color: #0670b8 !important; }
+a:not([style*="color"]):not(footer a):not([data-sc-name="SiteHeader"] a):not([data-design-exact] a) { color: #0670b8 !important; }
 
 /* 9 ▸ images the source puts inside headings, paragraphs and lists never exceed their column (some are 1000 px wide at a 1024 px viewport) */
 :is(h1, h2, h3, h4, p, li, td, figure) img { max-width: 100%; height: auto; }
@@ -376,23 +390,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
   -webkit-box-shadow: 0 0 0 1000px #fff inset !important; -webkit-text-fill-color: #10233a !important; caret-color: #10233a; transition: background-color 99999s ease-out 0s;
 }
 
-/* 11 ▸ centre hero (desktop): the name/address block is short and sat beside a tall sticky contact card, leaving the left half of the row empty.
-      From 900px the row becomes one column: the info block uses the full width and the contact card below it lays its parts out in three columns
-      (call button, website/email/social, claim note). Only real content already in the card; the photo mosaic above is untouched. Below 900px the
-      row is already stacked. */
-@media (min-width: 900px) {
-  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] { grid-template-columns: minmax(0, 1fr) !important; gap: 22px !important; }
-  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] > aside {
-    position: static !important; display: grid !important; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr) minmax(0, 1fr); gap: 14px 28px !important; align-items: start;
-  }
-  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] > aside > h2 { grid-column: 1 / -1; }
-  [data-screen-label="Centre Hero"] [data-cols="minmax(0,1fr) minmax(300px,380px)"] > aside > :not(h2) { margin-top: 0 !important; min-width: 0; }
-}
+/* 11 ▸ (removed) centre hero desktop override: the Centre page follows its design file, so the hero keeps the design's two columns (content + sticky contact card). */
 
 /* 12 ▸ city and archive hero: the text column is centred against the "At a glance" card (no empty space above or below it), and a long list scrolls inside
       the card instead of making the hero taller than the text. */
-@media (min-width: 900px) {
-  [data-screen-label="City Hero"] [data-rc-gap][data-cols="1.1fr .9fr"] { align-items: center !important; }
-}
+/* (removed) desktop override that centred the hero text against the card: the City design aligns both columns to the top. */
 [data-screen-label="City Hero"] ol[aria-label="Centres on this page"] { max-height: 440px; overflow-y: auto; scrollbar-width: thin; scrollbar-color: #cfe0ef transparent; overscroll-behavior: contain; }
 [data-screen-label="City Hero"] ol[aria-label="Centres on this page"]:focus-visible { outline: 2px solid #0890E8; outline-offset: 2px; border-radius: 10px; }

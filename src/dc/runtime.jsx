@@ -52,7 +52,8 @@ export function $i(v) {
 /** Every <a>: internal paths use next/link (client-side navigation), everything else stays a plain anchor. */
 export function $A({ href, children, ...rest }) {
   if (typeof href === 'string' && href.startsWith('/') && !href.startsWith('//')) {
-    return <Link href={href} {...rest}>{children}</Link>;
+    // no speculative prefetch: in production Next sometimes prefetches a [slug] segment for static routes like /search/ and logs a 404 in the console; clicking still navigates client-side
+    return <Link href={href} prefetch={false} {...rest}>{children}</Link>;
   }
   return <a href={href} {...rest}>{children}</a>;
 }

@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
-import { buildBody } from '@/dc/guide';
+import { buildBody, TYPO_DRUG } from '@/dc/guide';
 import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -316,7 +316,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -329,7 +329,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -342,7 +342,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -623,7 +623,28 @@ class Component extends DCLogic {
     // Live data (props.data): source content in source order; sections without source data are hidden (audit/15-design-gap.md).
     const D = this.props.data || null;
     const sample = !D;
-    const built = D ? buildBody(R, D.article || []) : { nodes: [], toc: [] };
+    const M = D ? D.m : null;
+    const showSample = !M || M.showSample;
+    const P = (d) => String(d || '');
+    const stripe = (w) => 'repeating-linear-gradient(135deg,#dfeaf3 0 ' + w + 'px,#eaf2f8 ' + w + 'px ' + 2 * w + 'px)';
+    const li = (k, ...kids) => R('li', { key: k }, ...kids);
+    const aLink = (k, href, label) => R('a', { key: k, href }, label);
+    const sourcesNodes = M
+      ? R(Fragment, null, ...M.sources.map((t, i) => li('s' + i, t)), li('sl', aLink('a', '/detox-centres-in-canada/', 'Detox Centres in Canada'), ' · ', aLink('b', '/medical-detox-in-canada/', 'Medical Detox in Canada'), ' · ', aLink('c', '/search/', 'Find a rehab centre')))
+      : R(Fragment, null, li('s0', 'Health Canada — Benzodiazepines: risks, dependence and safe tapering guidance'), li('s1', 'CAMH — Benzodiazepines: information for patients and families'), li('sl', aLink('a', '/prescription-drugs-addiction/', 'Prescription Drugs Addiction'), ' · ', aLink('b', '/medical-detox-in-canada/', 'Medical Detox in Canada'), ' · ', aLink('c', '/tranquilisers-addiction/', 'Tranquilisers Addiction')));
+    const helpExtra = D && D.helpLinks && D.helpLinks.length
+      ? R('div', { style: { display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '6px' } },
+          R('span', { style: { font: '600 11.5px Figtree,sans-serif', letterSpacing: '.12em', textTransform: 'uppercase', color: '#6b7f95' } }, D.helpHeading || 'More ways we can help'),
+          R('div', { style: { display: 'flex', flexWrap: 'wrap', gap: '8px' } }, ...D.helpLinks.map((l, i) => R('a', { key: i, className: 'scp2', href: l.href, style: { font: '500 14px Figtree,sans-serif', color: '#1f3550', background: '#fff', border: '1px solid #e3ecf4', padding: '10px 14px', borderRadius: '999px' } }, l.label))))
+      : null;
+    const faqsLive = M ? M.faqs.map((f, i) => ({ question: f.question, answer: f.answer, open: i === faq, toggle: () => this.setState({ faq: faq === i ? -1 : i }), border: i === faq ? '#0890E8' : '#e3ecf4', rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)' })) : drugFaqs;
+    const centresLive = M ? M.centres.map((c) => ({ ...c, photo: '', catHref: c.catHref || undefined })) : centres;
+    const pagesLive = Math.max(1, Math.ceil(centresLive.length / this.perView));
+    const { slide: slideNow } = this.state;
+    const slideDotsLive = Array.from({ length: pagesLive }, (_, i) => ({ go: () => this.slideTo(i, centresLive.length), w: i === slideNow ? '28px' : '8px', bg: i === slideNow ? '#0890E8' : '#dbe6f0' }));
+    const locationsLive = D ? (D.provinces || []).map((pr) => ({ label: pr.label, href: pr.href || undefined, code: (locations.find((l) => l.label === pr.label) || {}).code || pr.label.slice(0, 2).toUpperCase() })) : locations;
+    const otherDrugsLive = D ? (D.otherDrugs || []).map((o) => ({ label: o.label, href: o.href })) : otherDrugs;
+    const built = D ? buildBody(R, D.article || [], { typo: TYPO_DRUG }) : { nodes: [], toc: [] };
     const used = {};
     const liveToc = [];
     (D ? D.article || [] : []).forEach((x) => {
@@ -633,26 +654,48 @@ class Component extends DCLogic {
         if (x.type === 'h2') liveToc.push({ label: x.text, href: '#' + (used[base] > 1 ? base + '-' + used[base] : base) });
       }
     });
-    const tocOn = sample || liveToc.length >= 2;
+    const tocOn = true;
     return {
       sample,
+      showSample,
+      isProvince: !!(M && M.isProvince),
+      crumbMid: M ? M.crumbMid : 'Addiction By Drugs',
+      heroTag: M ? M.tag : 'Addiction by drugs',
+      heroH2: M ? M.h2 : drug + ' Dependence and Treatment: What is ' + drug + '?',
+      heroHtml: M ? M.heroHtml : '',
+      heroStats: M ? M.stats : [{ v: '35.9%', l: 'Quebec — highest provincial rate' }, { v: '18.2%', l: 'Prairies — lowest rate' }, { v: '22.5%', l: 'Of elderly studied (1998) took benzos with other drugs' }],
+      heroImgSrc: D && D.bannerImage ? D.bannerImage.src : '/assets/img/drug-benzo-hero.jpg',
+      heroImgAlt: D ? (D.bannerImage && D.bannerImage.alt) || (M.isProvince ? M.drug : M.drug + ' addiction treatment in Canada') : 'Woman talking with a doctor about tapering her medication',
+      avatarNode: D ? R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: '#eaf5fd', color: '#0890E8', display: 'grid', placeItems: 'center', flexShrink: '0' } }, ic.person) : R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: stripe(6), flexShrink: '0' } }),
+      sponsEyebrow: showSample ? 'Sponsored' : 'Featured centres',
+      sponsNote: showSample
+        ? 'These centres pay to appear here. Sponsorship never changes our editorial content or helpline advice — we still verify every listing.'
+        : 'Centres across Canada whose listings mention this substance, plus other treatment providers. Comparing options is normal — call us and we will help you weigh them.',
+      centresHeading: M ? M.centresHeading : 'Centres Treating ' + drug + ' Addiction',
+      resText: M ? M.residential : 'Medically supervised tapering and 24/7 support away from triggers — recommended for long-term or high-dose use.',
+      outText: M ? M.outpatient : 'Gradual taper with your physician plus counselling while living at home — suited to stable, lower-dose situations.',
+      sourcesNodes,
+      helpLine: M ? M.helpLine : "Tell us who needs help and we'll point you to the right " + drugLower + ' program — a medically supervised taper, residential care, or outpatient support.',
+      helpLinks: D ? D.helpLinks : [],
+      helpExtra,
+      faqHeadingText: M ? (M.isProvince ? M.drug + ': your questions answered' : M.drug + ' addiction: your questions answered') : drug + ' addiction: your questions answered',
       heroTitle: D ? D.h1 : drug + ' Addiction',
       heroImg: D ? D.bannerImage : null,
       tocOn,
-      effCols: tocOn ? '300px 1fr' : '1fr',
-      hasBody: !D || (D.article || []).length > 0,
+      effCols: '300px 1fr',
+      hasBody: true,
       bodyNodes: built.nodes,
       liveHelp: D ? { heading: D.helpHeading, blocks: D.helpBlocks, links: D.helpLinks } : null,
       liveProvinces: D ? D.provinces : [],
       liveOthers: D ? D.otherDrugs : [],
-      drug,
-      drugLower,
-      effects,
+      drug: M ? M.drug : drug,
+      drugLower: M ? M.drug.toLowerCase() : drugLower,
+      effects: M ? M.effects : effects,
       effectCards,
-      drugFaqs,
-      drugToc: D ? liveToc : drugToc,
+      drugFaqs: faqsLive,
+      drugToc: D ? (liveToc.length ? [...liveToc, { label: 'FAQ', href: '#faq' }] : [{ label: 'Overview', href: '#effects' }, { label: 'FAQ', href: '#faq' }]) : drugToc,
       whoOptions,
-      otherDrugs,
+      otherDrugs: otherDrugsLive,
       fundingOptions,
       needsPublic,
       ack,
@@ -670,7 +713,7 @@ class Component extends DCLogic {
       submitBg: submitDisabled ? '#b7c7d8' : '#0890E8',
       submitLabel: submitDisabled ? 'Confirm the checkbox to continue' : 'Request my callback',
       authorName: this.props.authorName ?? 'Editorial Team',
-      reviewerName: this.props.reviewerName ?? 'Clinical Reviewer (name, credentials)',
+      reviewerName: this.props.reviewerName ?? 'Editorial team',
       navItems,
       menuOpen: !!m,
       closeMenu: () => this.setState({ menu: null }),
@@ -687,15 +730,15 @@ class Component extends DCLogic {
       iconHands: ic.hands2,
       livesCount: this.props.livesCount ?? '11.2k',
       treatmentsCount: this.props.treatmentsCount ?? '30',
-      locations,
-      centres,
+      locations: locationsLive,
+      centres: centresLive,
       programs,
       sliderRef: this.sliderRef,
       onSlideScroll,
-      slideDots,
-      slidePos: slide + 1 + ' / ' + pages,
-      slidePrev: () => this.slideTo(slide - 1, centres.length),
-      slideNext: () => this.slideTo(slide + 1, centres.length),
+      slideDots: slideDotsLive,
+      slidePos: slideNow + 1 + ' / ' + pagesLive,
+      slidePrev: () => this.slideTo(slideNow - 1, centresLive.length),
+      slideNext: () => this.slideTo(slideNow + 1, centresLive.length),
       topRating: this.props.topRating ?? '5.0',
       topReviews: this.props.topReviews ?? '92',
       tabs,
@@ -710,6 +753,26 @@ class Component extends DCLogic {
 function template(v) {
   const {
     sample,
+    showSample,
+    isProvince,
+    crumbMid,
+    heroTag,
+    heroH2,
+    heroHtml,
+    heroStats,
+    heroImgSrc,
+    heroImgAlt,
+    avatarNode,
+    sponsEyebrow,
+    sponsNote,
+    centresHeading,
+    resText,
+    outText,
+    sourcesNodes,
+    helpLine,
+    helpLinks,
+    helpExtra,
+    faqHeadingText,
     heroTitle,
     heroImg,
     tocOn,
@@ -758,7 +821,7 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Drug Hero"
@@ -786,7 +849,7 @@ function template(v) {
                 Home
               </$A>
               <span style={{ opacity: '.5' }}>/</span>
-              <span style={{ color: '#6b7f95' }}>Addiction By Drugs</span>
+              <span style={{ color: '#6b7f95' }}>{crumbMid}</span>
               <span style={{ opacity: '.5' }}>/</span>
               <span style={{ color: '#10233a', fontWeight: '500' }}>{$i(heroTitle)}</span>
             </nav>
@@ -808,9 +871,9 @@ function template(v) {
                       borderRadius: '999px',
                     }}
                   >
-                    Addiction by drugs
+                    {heroTag}
                   </span>
-                  {sample ? (
+                  {showSample ? (
                   <span
                     style={{
                       font: '600 12px Figtree,sans-serif',
@@ -829,10 +892,9 @@ function template(v) {
                 <h1 style={{ fontSize: '54px', lineHeight: '1.05', color: '#10233a' }} data-rc-lg="1">
                   {$i(heroTitle)}
                 </h1>
-                {sample ? (
-                <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }}>
-                  {$i(drug)} Dependence and Treatment: What is {$i(drug)}?
-                </h2>
+                <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }}>{$i(heroH2)}</h2>
+                {!sample && heroHtml ? (
+                <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }} dangerouslySetInnerHTML={{ __html: heroHtml }} />
                 ) : null}
                 {sample ? (
                 <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }}>
@@ -864,7 +926,6 @@ function template(v) {
                     {$i(iconPhone)}
                     Talk to a specialist
                   </$A>
-                  {sample ? (
                   <$A
                     className="scp2"
                     href="/search/"
@@ -879,9 +940,7 @@ function template(v) {
                   >
                     Find A Drug Rehab
                   </$A>
-                  ) : null}
                 </div>
-                {sample ? (
                 <div
                   style={{
                     display: 'flex',
@@ -892,24 +951,13 @@ function template(v) {
                     borderTop: '1px solid #e3ecf4',
                   }}
                 >
-                  <div>
-                    <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>35.9%</div>
-                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>
-                      Quebec — highest provincial rate
+                  {$list(heroStats).map((st, $index) => (
+                    <div key={$index}>
+                      <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(st?.v)}</div>
+                      <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>{$i(st?.l)}</div>
                     </div>
-                  </div>
-                  <div>
-                    <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>18.2%</div>
-                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Prairies — lowest rate</div>
-                  </div>
-                  <div>
-                    <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>22.5%</div>
-                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>
-                      Of elderly studied (1998) took benzos with other drugs
-                    </div>
-                  </div>
+                  ))}
                 </div>
-                ) : null}
               </div>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
                 <div
@@ -923,8 +971,8 @@ function template(v) {
                   }}
                 >
                   <img
-                    src={sample ? "/assets/img/drug-benzo-hero.jpg" : heroImg?.src}
-                    alt={sample ? "Woman talking with a doctor about tapering her medication" : heroImg?.alt}
+                    src={heroImgSrc}
+                    alt={heroImgAlt}
                     width={sample ? undefined : heroImg?.width || undefined}
                     height={sample ? undefined : heroImg?.height || undefined}
                     loading={sample ? "lazy" : "eager"}
@@ -938,7 +986,6 @@ function template(v) {
                     }}
                   />
                 </div>
-                {sample ? (
                 <div
                   style={{
                     background: '#fff',
@@ -983,12 +1030,11 @@ function template(v) {
                     nearest emergency department.
                   </p>
                 </div>
-                ) : null}
               </div>
             </div>
           </div>
         </section>
-        {sample ? (
+        {true ? (
         <section
           data-screen-label="Sponsored Centres"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5', overflow: 'hidden' }}
@@ -1015,8 +1061,8 @@ function template(v) {
                     color: '#0890E8',
                   }}
                 >
-                  Sponsored{' '}
-                  <span
+                  {sponsEyebrow}{' '}
+                  {showSample ? <span
                     style={{
                       font: '500 10.5px Figtree,sans-serif',
                       letterSpacing: '.06em',
@@ -1028,14 +1074,13 @@ function template(v) {
                     }}
                   >
                     Ad disclosure
-                  </span>
+                  </span> : null}
                 </span>
                 <h2 style={{ fontSize: '38px', marginTop: '10px' }} data-rc-lg="1">
-                  Centres Treating {$i(drug)} Addiction
+                  {centresHeading}
                 </h2>
                 <p style={{ fontSize: '15px', color: '#6b7f95', marginTop: '8px', maxWidth: '640px' }}>
-                  These centres pay to appear here. Sponsorship never changes our editorial content or helpline advice —
-                  we still verify every listing.
+                  {sponsNote}
                 </p>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
@@ -1144,9 +1189,19 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/10',
-                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
+                      {c?.image ? (
+                        <img
+                          src={c.image.src}
+                          alt={c.image.alt}
+                          width={c.image.width || undefined}
+                          height={c.image.height || undefined}
+                          loading="lazy"
+                          style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        />
+                      ) : (
                       <span
                         style={{
                           position: 'absolute',
@@ -1160,8 +1215,9 @@ function template(v) {
                       >
                         {$i(c?.photo)}
                       </span>
+                      )}
                       <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
-                        {c?.featured ? (
+                        {showSample && c?.featured ? (
                           <>
                             <span
                               style={{
@@ -1192,7 +1248,7 @@ function template(v) {
                             </span>
                           </>
                         ) : null}
-                        {c?.verified ? (
+                        {showSample && c?.verified ? (
                           <>
                             <span
                               style={{
@@ -1231,6 +1287,7 @@ function template(v) {
                           </>
                         ) : null}
                       </span>
+                      {showSample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1259,6 +1316,7 @@ function template(v) {
                         <span style={{ color: '#F5A623', fontSize: '12px', letterSpacing: '1px' }}>★★★★★</span>
                         <span style={{ font: '600 13px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
                       </span>
+                      ) : null}
                     </$A>
                     <div
                       style={{
@@ -1316,9 +1374,13 @@ function template(v) {
                           alignItems: 'center',
                         }}
                       >
+                        {showSample ? (
                         <span style={{ fontSize: '13.5px', color: '#6b7f95' }}>
                           {$i(c?.googleReviews)} Google reviews
                         </span>
+                        ) : (
+                        <span />
+                        )}
                         <$A href={c?.href} style={{ font: '600 14px Jost,sans-serif' }}>
                           View centre →
                         </$A>
@@ -1344,7 +1406,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {hasBody ? (
+        {true ? (
         <section data-screen-label="Effects" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -1419,15 +1481,7 @@ function template(v) {
                 }}
               >
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -1444,15 +1498,7 @@ function template(v) {
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -1513,7 +1559,7 @@ function template(v) {
               ) : null}
             </aside>
             ) : null}
-            <article style={{ display: 'flex', flexDirection: 'column', gap: sample ? '22px' : '28px', maxWidth: '760px', ...(sample ? null : { fontSize: '17.5px', lineHeight: '1.75', color: '#3b4d63' }) }}>
+            <article style={{ display: 'flex', flexDirection: 'column', gap: '22px', maxWidth: '760px' }}>
               {sample ? (
               <>
               <h2 id="canada" style={{ fontSize: '36px', lineHeight: '1.12' }} data-rc-lg="1">
@@ -1652,6 +1698,10 @@ function template(v) {
                 substantial pieces of advice rendered by our professional counselors. This way, you will get the proper
                 assessment and the best option for you or your loved one.
               </p>
+              </>
+              ) : null}
+              {sample ? null : bodyNodes}
+              <>
               <div
                 style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '14px', margin: '6px 0' }}
                 data-cols="1fr 1fr"
@@ -1670,10 +1720,7 @@ function template(v) {
                   >
                     Residential
                   </div>
-                  <p style={{ fontSize: '15px', lineHeight: '1.6', color: '#3b4d63' }}>
-                    Medically supervised tapering and 24/7 support away from triggers — recommended for long-term or
-                    high-dose use.
-                  </p>
+                  <p style={{ fontSize: '15px', lineHeight: '1.6', color: '#3b4d63' }}>{$i(resText)}</p>
                 </div>
                 <div
                   style={{ background: '#f7fafd', border: '1px solid #e3ecf4', borderRadius: '18px', padding: '22px' }}
@@ -1689,10 +1736,7 @@ function template(v) {
                   >
                     Outpatient
                   </div>
-                  <p style={{ fontSize: '15px', lineHeight: '1.6', color: '#3b4d63' }}>
-                    Gradual taper with your physician plus counselling while living at home — suited to stable,
-                    lower-dose situations.
-                  </p>
+                  <p style={{ fontSize: '15px', lineHeight: '1.6', color: '#3b4d63' }}>{$i(outText)}</p>
                 </div>
               </div>
               <div
@@ -1776,25 +1820,15 @@ function template(v) {
                     color: '#3b4d63',
                   }}
                 >
-                  <li>Health Canada — Benzodiazepines: risks, dependence and safe tapering guidance</li>
-                  <li>CAMH — Benzodiazepines: information for patients and families</li>
-                  <li>
-                    <$A href="/prescription-drugs-addiction">
-                      Prescription Drugs Addiction
-                    </$A>{' '}
-                    · <$A href="/medical-detox-in-canada">Medical Detox in Canada</$A>{' '}
-                    · <$A href="/tranquilisers-addiction">Tranquilisers Addiction</$A>
-                  </li>
+                  {sourcesNodes}
                 </ul>
               </div>
               </>
-              ) : null}
-              {sample ? null : bodyNodes}
             </article>
           </div>
         </section>
         ) : null}
-        {sample ? (
+        {true ? (
         <section data-screen-label="Let Us Help You" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -1824,10 +1858,8 @@ function template(v) {
               <h2 style={{ fontSize: '36px', lineHeight: '1.12' }} data-rc-lg="1">
                 Is this for yourself or a loved one?
               </h2>
-              <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#516378' }}>
-                Tell us who needs help and we'll point you to the right {$i(drugLower)} program — a medically supervised
-                taper, residential care, or outpatient support.
-              </p>
+              <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#516378' }}>{$i(helpLine)}</p>
+              {helpExtra}
             </div>
             <form
               style={{
@@ -2095,7 +2127,7 @@ function template(v) {
                   >
                     {$list(substanceOptions).map((s, $index) => (
                       <Fragment key={$index}>
-                        <option value={$val(s)}>{$i(s)}</option>
+                        <option value={$val(s)}>{s}</option>
                       </Fragment>
                     ))}
                   </select>
@@ -2222,7 +2254,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? (
+        {true ? (
         <section id="faq" data-screen-label="FAQ" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -2250,7 +2282,7 @@ function template(v) {
                 FAQ
               </span>
               <h2 style={{ fontSize: '38px', lineHeight: '1.12' }} data-rc-lg="1">
-                {$i(drug)} addiction: your questions answered
+                {$i(faqHeadingText)}
               </h2>
               <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>
                 Reviewed by our clinical advisor. Still unsure? Call — it's free and confidential.
@@ -2328,7 +2360,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? (
+        {true ? (
         <section data-screen-label="Provinces" style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '72px 32px' }} data-rc-wrap="1">
             <div
@@ -2413,9 +2445,7 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <LinkTiles screen="Provinces" kicker="Explore" heading="Drug Rehab Centres By Provinces" items={liveProvinces} cols={4} />}
-        {sample ? null : <HelpSection heading={liveHelp.heading} blocks={liveHelp.blocks} links={liveHelp.links} />}
-        {sample ? (
+        {true ? (
         <section data-screen-label="Other Drugs" style={{ background: '#fff', borderTop: '1px solid #e9eff5' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '64px 32px' }} data-rc-wrap="1">
             <div style={{ marginBottom: '24px' }}>
@@ -2454,7 +2484,6 @@ function template(v) {
           </div>
         </section>
         ) : null}
-        {sample ? null : <LinkTiles screen="Other Drugs" bg="#fff" heading="Other Addictions By Drugs" items={liveOthers} cols={4} plain />}
         <SiteFooter />
       </div>
     </>
@@ -2467,7 +2496,7 @@ export const css = [ownCss, SiteHeader_css].filter(Boolean).join('\n');
 export const defaults = {
   drug: 'Benzodiazepine',
   authorName: 'Editorial Team',
-  reviewerName: 'Clinical Reviewer (name, credentials)',
+  reviewerName: 'Editorial team',
 };
 const View = createDC('Drug', Component, template);
 export default View;

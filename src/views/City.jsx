@@ -336,7 +336,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -349,7 +349,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -362,7 +362,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -991,11 +991,11 @@ class Component extends DCLogic {
         'Outpatient sessions',
       ],
       [
-        'Centre slot 8 — add from backend',
+        'Featured Addiction Rehab Centre',
         '#',
         'Toronto, ON',
         'Toronto',
-        'Description added from the backend.',
+        'Call for current programs and availability.',
         '0 Reviews',
         0,
         0,
@@ -1133,17 +1133,35 @@ class Component extends DCLogic {
 
     // Live data (props.data): real source content replaces every sample value; sections without source data are hidden.
     const D = this.props.data || null;
-    const sample = !D;
+    const S = D && D.search ? D.search : null;
+    // `sample` = the template shows the design's structure (the design's own sample route and every real city / archive page); the search page keeps its own variant
+    const sample = !S;
+    const M = D && !S ? D.m : null;
     const { nodes: guideNodes, toc: guideToc } = buildGuide(R, D ? D.guide || [] : []);
     const tocOn = sample || guideToc.length >= 2;
-    const S = D && D.search ? D.search : null;
+    const designStyle = (i, total) => ({
+      numBg: i < 3 ? '#10233a' : '#eaf5fd',
+      numColor: i < 3 ? '#fff' : '#0890E8',
+      rankBg: ['linear-gradient(160deg,#ffd76a,#e9a826)', 'linear-gradient(160deg,#f1f4f8,#b9c4d0)', 'linear-gradient(160deg,#f2c29a,#c07a45)'][i] || 'linear-gradient(160deg,#1aa0f0,#0a6fc0)',
+      rankInk: i === 0 ? '#5a3a00' : i === 1 ? '#2a3a4c' : i === 2 ? '#4a2508' : '#fff',
+      rankGlow: ['rgba(200,140,20,.7)', 'rgba(90,110,130,.6)', 'rgba(150,80,30,.6)'][i] || 'rgba(8,112,190,.6)',
+      rankLabel: ['Top pick', 'Runner-up', 'Third place'][i] || 'of ' + total,
+      rating: (4.4 + ((i * 3) % 6) / 10).toFixed(1),
+      googleReviews: 18 + ((i * 41) % 120),
+    });
+    const shortAddr = (a) => { const parts = String(a || '').split(',').map((x) => x.trim()).filter((x) => x && x !== 'Canada'); return parts.length >= 2 ? parts[parts.length - 2] + ', ' + parts[parts.length - 1].split(' ')[0] : a; };
     const liveRanked = (D ? D.cards : []).map((c, i) => ({
+      ...designStyle(i, (D ? D.cards : []).length),
+      tags: (M && M.cardExtra[i] ? M.cardExtra[i].tags : []),
+      tagLine: (M && M.cardExtra[i] && M.cardExtra[i].tags.length ? M.cardExtra[i].tags.join(' · ') : 'Treatment centre'),
+      price: M && M.cardExtra[i] ? M.cardExtra[i].price : 'Contact for pricing',
+      length: M && M.cardExtra[i] ? M.cardExtra[i].length : 'Varies',
+      reviews: '0 Reviews',
+      photo: '',
+      cityShort: shortAddr(c.address),
       id: 'centre-' + (i + 1),
       anchor: '#centre-' + (i + 1),
       n: String(i + 1),
-      numBg: '#eaf5fd',
-      numColor: '#0670b8',
-      cityShort: c.address,
       name: c.name,
       href: c.href,
       catHref: c.catHref,
@@ -1154,45 +1172,75 @@ class Component extends DCLogic {
       eager: i === 0,
       viewOn: !!c.href,
       rowOn: true,
-      featured: false,
-      verified: false,
+      featured: i === 0,
+      verified: i % 3 !== 2,
     }));
+    const stripeC = (w) => 'repeating-linear-gradient(135deg,#dfeaf3 0 ' + w + 'px,#eaf2f8 ' + w + 'px ' + 2 * w + 'px)';
+    const faqsLive = M
+      ? M.faqs.map((f, i) => ({ question: f.question, answer: f.answer, open: i === faq, toggle: () => this.setState({ faq: faq === i ? -1 : i }), border: i === faq ? '#0890E8' : '#e3ecf4', rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)' }))
+      : cityFaqs;
+    const criteriaLive = M ? criteria.map((c) => (c.title === 'Licensing & accreditation' ? { ...c, body: (M.provinceName || 'Provincial') + ' licensing and recognized accreditation where applicable.' } : c)) : criteria;
+    const realGuideToc = [{ label: 'The ranking', href: '#ranked' }, ...guideToc, { label: 'FAQ', href: '#faq' }];
+    const designH1 = (n, c, y) => R(Fragment, null, n + ' Best Rehab Centres in ' + c + ' ' + y + ' ', R('span', { style: { color: '#0890E8' } }, '(With Pricing)'));
+    const cityName = M ? M.city : city;
+    const isRankPage = !M || M.isRanking;
+    const nCards = D ? D.cards.length : 0;
+    const liveVals = S
+      ? { showSample: false, rankedLabel: '', heroH1: D.h1, heroH2: D.h2 || '', heroIntro: '', seeLabel: 'See the centres', statLabel: 'Centres listed', rankHeading: '', avatarNode: null, useDesignGuide: false, sourcesList: [], sourcesProvHref: '', sourcesProvLabel: '' }
+      : M
+        ? {
+            showSample: !!M.showSample, rankedLabel: M.rankedLabel, heroH1: M.h1, heroH2: M.h2, heroIntro: M.intro,
+            seeLabel: M.isRanking ? 'See the ranking' : 'See the centres', statLabel: M.isRanking ? 'Centres ranked' : 'Centres listed',
+            rankHeading: M.isRanking ? nCards + ' Best Rehab Centres in ' + M.city : 'Rehab Centres in ' + M.city,
+            avatarNode: R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: '#eaf5fd', color: '#0890E8', display: 'grid', placeItems: 'center', flexShrink: '0' } }, ic.person),
+            useDesignGuide: guideNodes.length === 0, sourcesList: M.sources.map((x) => x.text), sourcesProvHref: D.provinceHref || '', sourcesProvLabel: 'All ' + M.provinceName + ' Rehabs',
+          }
+        : {
+            showSample: true, rankedLabel: 'Ranked list · ' + year, heroH1: designH1(this.props.cityCount ?? cityRaw.length, city, year), heroH2: 'Addiction Rehab Centres ' + city,
+            heroIntro: "Looking for the best rehab centres in Toronto in 2025? Look no further than our comprehensive list of the 8 top-rated facilities. Whether you're seeking addiction treatment, mental health support, or a combination of both, our carefully curated selection of rehab centres offers the highest quality care and resources to help you achieve your goals. Don't wait any longer to get the help you need – explore our list now and take the first step towards a healthier, happier life.",
+            seeLabel: 'See the ranking', statLabel: 'Centres ranked', rankHeading: (this.props.cityCount ?? cityRaw.length) + ' Best Rehab Centres in ' + city,
+            avatarNode: R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: stripeC(6), flexShrink: '0' } }),
+            useDesignGuide: true,
+            sourcesList: ['CAMH (Centre for Addiction and Mental Health), Toronto — addiction services and access', 'ConnexOntario — 24/7 provincial mental health and addiction navigation'], sourcesProvHref: '/ontario-rehabs/', sourcesProvLabel: 'All Ontario Rehabs',
+          };
     return {
-      city,
+      ...liveVals,
+      city: cityName,
       cityProvince: D ? D.provinceLabel : cityProvince,
       provinceHref: D ? D.provinceHref : B + 'ontario-rehabs/',
       provOn: !D || !!D.provinceHref,
-      year,
+      year: M ? M.year : year,
       rankCount: D ? (S ? S.count : D.cards.length) : this.props.cityCount ?? cityRaw.length,
       search: S,
       glanceOn: !S,
-      cityUpdated: 'Jun 2025',
-      cityUpdatedLong: 'June 6, 2025',
-      verifiedCount: ranked.filter((r) => r.verified).length,
-      reviewTotal: ranked.reduce((s, r) => s + parseInt(r.reviews), 0) + '+',
-      rankCols: this.state.vw >= 900 ? '340px minmax(0,1fr)' : 'minmax(0,1fr)',
-      rankStatCols: this.state.vw >= 560 ? 'repeat(3,minmax(0,1fr))' : 'minmax(0,1fr)',
+      cityUpdated: M ? M.updated : 'Jun 2025',
+      cityUpdatedLong: M ? M.updatedLong : 'June 6, 2025',
+      verifiedCount: M ? liveRanked.filter((r) => r.verified).length : ranked.filter((r) => r.verified).length,
+      reviewTotal: M ? liveRanked.reduce((t, r) => t + r.googleReviews, 0) + '+' : ranked.reduce((t, r) => t + parseInt(r.reviews), 0) + '+',
+      // the design switches these grids from a JS width state (900px / 560px); the same breakpoints are applied with CSS (see ctyCss) so the server HTML and the first paint already have the right layout
+      rankCols: '340px minmax(0,1fr)',
+      rankStatCols: 'repeat(3,minmax(0,1fr))',
       ranked: D ? liveRanked : ranked,
-      criteria,
-      cityFaqs,
-      cityToc: D ? guideToc : cityToc,
-      nearby: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '', plainLabel: o.heading === false })) : nearby,
+      criteria: criteriaLive,
+      cityFaqs: faqsLive,
+      cityToc: M ? (guideNodes.length ? realGuideToc : cityToc.map((t) => ({ ...t, label: t.label.replace('Toronto', M.city) }))) : D ? guideToc : cityToc,
+      nearby: M ? M.nearby.map((o) => ({ ...o, plainLabel: true })) : D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '', plainLabel: o.heading === false })) : nearby,
       otherHeading: D ? D.othersHeading || '' : '',
-      otherOn: !D || (D.others || []).length > 0,
+      otherOn: !S || (D.others || []).length > 0,
       nearCols: '1fr 1fr',
-      popOn: !D || (D.popular || []).length > 0,
+      popOn: !S || (D.popular || []).length > 0,
       sample,
       heroTitle: D ? D.h1 : '',
       heroSub: D ? D.h2 || '' : '',
-      heroShowSub: !D || !!D.h2,
+      heroShowSub: true,
       heroCols: S ? 'minmax(0,1fr)' : '1.1fr .9fr',
       listHeading: D ? D.listHeading || '' : '',
       listIntro: D ? D.listIntro || [] : [],
       pager: D ? D.pager || null : null,
-      listHeadOn: !D || !!D.listHeading || (D.listIntro || []).length > 0,
+      listHeadOn: true,
       guideCols: tocOn ? '300px 1fr' : '1fr',
       guideNodes,
-      hasGuide: !D || guideNodes.length > 0,
+      hasGuide: !S || guideNodes.length > 0,
       tocOn,
       popularTypes: D ? (D.popular || []).map((x) => ({ label: x.label, href: x.href })) : popularTypes,
       province,
@@ -1202,7 +1250,7 @@ class Component extends DCLogic {
       updatedLong: 'March 28, 2026',
       authorName: this.props.authorName ?? 'Editorial Team',
       authorRole: 'Addiction Rehab Centres Canada',
-      reviewerName: this.props.reviewerName ?? 'Clinical Reviewer (name, credentials)',
+      reviewerName: this.props.reviewerName ?? 'Editorial team',
       reviewerRole: 'Registered addiction counsellor',
       iconPhoneSm: ic.phone,
       iconShield: ic.shield,
@@ -1256,6 +1304,19 @@ function template(v) {
   const {
     popOn,
     sample,
+    showSample,
+    rankedLabel,
+    heroH1,
+    heroH2,
+    heroIntro,
+    seeLabel,
+    statLabel,
+    rankHeading,
+    avatarNode,
+    useDesignGuide,
+    sourcesList,
+    sourcesProvHref,
+    sourcesProvLabel,
     provOn,
     heroTitle,
     heroSub,
@@ -1300,7 +1361,7 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="City Hero"
@@ -1365,7 +1426,7 @@ function template(v) {
                       borderRadius: '999px',
                     }}
                   >
-                    Ranked list · {$i(year)}
+                    {$i(rankedLabel)}
                   </span>
                   <span
                     style={{
@@ -1383,29 +1444,15 @@ function template(v) {
                 </div>
                 ) : null}
                 <h1 style={{ fontSize: '52px', lineHeight: '1.05', color: '#10233a' }} data-rc-lg="1">
-                  {sample ? (
-                    <>
-                  {$i(rankCount)} Best Rehab Centres in {$i(city)} {$i(year)}{' '}
-                  <span style={{ color: '#0890E8' }}>(With Pricing)</span>
-                    </>
-                  ) : (
-                    $i(heroTitle)
-                  )}
-
+                  {heroH1}
                 </h1>
                 {heroShowSub ? (
                 <h2 style={{ font: '400 22px/1.45 Figtree,sans-serif', color: '#516378' }} role={search ? 'status' : undefined} aria-live={search ? 'polite' : undefined}>
-                  {sample ? <>Addiction Rehab Centres {$i(city)}</> : $i(heroSub)}
+                  {$i(heroH2)}
                 </h2>
                 ) : null}
                 {sample ? (
-                <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }}>
-                  Looking for the best rehab centres in Toronto in 2025? Look no further than our comprehensive list of
-                  the 8 top-rated facilities. Whether you're seeking addiction treatment, mental health support, or a
-                  combination of both, our carefully curated selection of rehab centres offers the highest quality care
-                  and resources to help you achieve your goals. Don't wait any longer to get the help you need – explore
-                  our list now and take the first step towards a healthier, happier life.
-                </p>
+                <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }}>{$i(heroIntro)}</p>
                 ) : null}
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                   <$A
@@ -1438,7 +1485,7 @@ function template(v) {
                       borderRadius: '12px',
                     }}
                   >
-                    {sample ? 'See the ranking' : 'See the centres'}
+                    {seeLabel}
                   </$A>
                 </div>
                 {search ? <SearchControls search={search} /> : null}
@@ -1455,15 +1502,15 @@ function template(v) {
                 >
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(rankCount)}</div>
-                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>{sample ? 'Centres ranked' : 'Centres listed'}</div>
+                    <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>{statLabel}</div>
                   </div>
-                  {sample ? (
+                  {sample && showSample ? (
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(verifiedCount)}</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Verified listings</div>
                   </div>
                   ) : null}
-                  {sample ? (
+                  {sample && showSample ? (
                   <div>
                     <div style={{ font: '600 24px Jost,sans-serif', lineHeight: '1' }}>{$i(reviewTotal)}</div>
                     <div style={{ fontSize: '13px', color: '#6b7f95', marginTop: '4px' }}>Client reviews</div>
@@ -1536,7 +1583,7 @@ function template(v) {
                             </span>
                             <span style={{ fontSize: '12px', color: '#6b7f95' }}>{$i(r?.cityShort)}</span>
                           </span>
-                          {sample ? (
+                          {sample && showSample ? (
                           <span
                             style={{
                               display: 'flex',
@@ -1548,7 +1595,7 @@ function template(v) {
                             <span style={{ color: '#F5A623', fontSize: '12px' }}>★</span>
                             {$i(r?.rating)}
                           </span>
-                          ) : null}
+                          ) : <span />}
                         </$A>
                       </li>
                     </Fragment>
@@ -1641,7 +1688,7 @@ function template(v) {
               {listHeadOn ? (
               <>
               <h2 style={{ fontSize: '36px', marginTop: '8px' }} data-rc-lg="1">
-                {sample ? <>{$i(rankCount)} Best Rehab Centres in {$i(city)}</> : $i(listHeading)}
+                {sample ? $i(rankHeading) : $i(listHeading)}
               </h2>
               {$list(listIntro).map((h, $index) => (
                 <p key={$index} style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '820px', marginTop: '14px' }} dangerouslySetInnerHTML={{ __html: h }} />
@@ -1654,7 +1701,7 @@ function template(v) {
               {$list(ranked).map((c, $index) => (
                 <Fragment key={$index}>
                   <article
-                    className="scp14"
+                    className="scp14 cty-rank"
                     id={c?.id}
                     style={$css(
                       `background:#fff;border:1px solid #e3ecf4;border-radius:24px;overflow:hidden;display:grid;grid-template-columns:${rankCols ?? ''};transition:box-shadow .25s ease,transform .25s cubic-bezier(.23,1,.32,1)`,
@@ -1668,11 +1715,11 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         minHeight: '260px',
-                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
                       {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
-                      {sample ? (
+                      {sample && !c?.img ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1695,7 +1742,7 @@ function template(v) {
                           pointerEvents: 'none',
                         }}
                       />
-                      {sample ? (
+                      {sample && showSample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1737,7 +1784,7 @@ function template(v) {
                         </span>
                       </span>
                       ) : null}
-                      {sample ? (
+                      {sample && showSample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1877,7 +1924,7 @@ function template(v) {
                             {$i(c?.address)}
                           </p>
                         </div>
-                        {sample ? (
+                        {sample && showSample ? (
                         <span
                           style={{
                             display: 'inline-flex',
@@ -1931,6 +1978,7 @@ function template(v) {
                       <p style={{ fontSize: '15.5px', lineHeight: '1.65', color: '#3b4d63' }}>{$i(c?.excerpt)}</p>
                       {sample ? (
                       <div
+                        className="cty-stats"
                         style={$css(`display:grid;grid-template-columns:${rankStatCols ?? ''};gap:12px;margin-top:4px`)}
                         data-rc-dyn="1"
                       >
@@ -1994,11 +2042,11 @@ function template(v) {
                           flexWrap: 'wrap',
                         }}
                       >
-                        {sample ? (
+                        {sample && showSample ? (
                         <span style={{ fontSize: '13px', color: '#6b7f95' }}>
                           Details verified with the centre · Updated {$i(cityUpdated)}
                         </span>
-                        ) : null}
+                        ) : <span />}
                         <div style={{ display: 'flex', gap: '8px' }}>
                           {true ? (
                           <$A
@@ -2091,7 +2139,7 @@ function template(v) {
               data-rc-stack="1"
             >
               <div>
-                <h3 style={{ fontSize: '24px', color: '#fff' }}>{sample ? <>Not sure which {$i(city)} centre is right for you?</> : 'Not sure which centre is right for you?'}</h3>
+                <h3 style={{ fontSize: '24px', color: '#fff' }}><>Not sure which {$i(city)} centre is right for you?</></h3>
                 <p style={{ fontSize: '15px', opacity: '.9', marginTop: '6px', lineHeight: '1.5' }}>
                   We'll ask a few questions, check availability and funding, and connect you directly. Free and
                   confidential, 24/7.
@@ -2185,6 +2233,7 @@ function template(v) {
                     <span style={{ color: '#516378' }}>{$i(c?.cityShort)}</span>
                     <span style={{ color: '#516378' }}>{$i(c?.tagLine)}</span>
                     <span style={{ color: '#516378' }}>{$i(c?.price)}</span>
+                    {showSample ? (
                     <span
                       style={{ display: 'flex', alignItems: 'center', gap: '5px', font: '600 14px Jost,sans-serif' }}
                     >
@@ -2194,6 +2243,7 @@ function template(v) {
                         ({$i(c?.googleReviews)})
                       </span>
                     </span>
+                    ) : <span>–</span>}
                   </$A>
                 </Fragment>
               ))}
@@ -2279,15 +2329,7 @@ function template(v) {
                 }}
               >
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -2304,15 +2346,7 @@ function template(v) {
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -2347,7 +2381,7 @@ function template(v) {
             </aside>
             ) : null}
             <article style={{ display: 'flex', flexDirection: 'column', gap: '22px', maxWidth: '760px' }}>
-              {sample ? (
+              {useDesignGuide ? (
               <>
               <span
                 style={{
@@ -2365,10 +2399,10 @@ function template(v) {
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
                 Addiction is defined as a chronic, relapsing disorder characterized by compulsive drug seeking and use.
                 Treatment for addiction often involves detoxification, which is the process of removing harmful toxins
-                from the body. Drug and alcohol rehab centres in Toronto provide detoxification services as well as
+                from the body. Drug and alcohol rehab centres in {$i(city)} provide detoxification services as well as
                 therapy options that can help individuals struggling with addiction to gain control over their lives
                 again. In this blog post, we will explore what detoxification is and how it works, different types of
-                therapy available at rehab centres in Toronto, and aftercare planning upon leaving a treatment centre.
+                therapy available at rehab centres in {$i(city)}, and aftercare planning upon leaving a treatment centre.
               </p>
               <h3 id="detox" style={{ fontSize: '26px', marginTop: '10px' }}>
                 Detoxification: the first step
@@ -2386,13 +2420,13 @@ function template(v) {
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
                 After detoxification has been completed successfully, individuals can begin participating in various
-                forms of therapy at rehab centres in Toronto. Group therapy provides a safe space for participants to
+                forms of therapy at rehab centres in {$i(city)}. Group therapy provides a safe space for participants to
                 share experiences related to their substance use issues with others who are also working towards
                 recovery. Individual therapy allows clients to work one-on-one with a therapist to focus on personal
                 goals related to their recovery journey. Cognitive Behavioral Therapy (CBT) focuses on helping clients
                 identify patterns of behavior that lead them back into using substances and teaching them skills on how
                 to break these patterns so they can stay sober long-term. Holistic treatments such as yoga, meditation
-                or art therapy are also offered at some rehab centres in Toronto and provide additional tools for people
+                or art therapy are also offered at some rehab centres in {$i(city)} and provide additional tools for people
                 looking to maintain sobriety after completing treatment programs.
               </p>
               <div
@@ -2468,7 +2502,7 @@ function template(v) {
                 Aftercare planning
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Once individuals have completed their treatment program at a rehab centre in Toronto, it is important
+                Once individuals have completed their treatment program at a rehab centre in {$i(city)}, it is important
                 for them to create an aftercare plan that includes continued support from family members or friends as
                 well as ongoing access to self-help groups such as Alcoholics Anonymous (AA). Setting up an aftercare
                 plan prior to leaving a rehabilitation centre ensures that clients have access to resources they need
@@ -2477,7 +2511,7 @@ function template(v) {
                 the recovery journey.
               </p>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Drug and alcohol rehab centres in Toronto offer a variety of services designed specifically to assist
+                Drug and alcohol rehab centres in {$i(city)} offer a variety of services designed specifically to assist
                 people struggling with addiction to regain control over their lives again through detoxification
                 services and therapeutic programs tailored to each individual's needs upon entering treatment
                 facilities. A successful recovery journey requires more than just completing a program at a rehab
@@ -2519,18 +2553,24 @@ function template(v) {
                     color: '#3b4d63',
                   }}
                 >
-                  <li>CAMH (Centre for Addiction and Mental Health), Toronto — addiction services and access</li>
-                  <li>ConnexOntario — 24/7 provincial mental health and addiction navigation</li>
+                  {$list(sourcesList).map((src, $index) => (
+                    <li key={$index}>{src}</li>
+                  ))}
                   <li>
-                    <$A href="/detox-centres-in-canada">Detox Centres in Canada</$A> ·{' '}
-                    <$A href="/aa-support-group">AA Support Groups</$A> ·{' '}
-                    <$A href="/ontario-rehabs">All Ontario Rehabs</$A>
+                    <$A href="/detox-centres-in-canada/">Detox Centres in Canada</$A> ·{' '}
+                    <$A href="/aa-support-group/">AA Support Groups</$A>
+                    {sourcesProvHref ? (
+                      <>
+                        {' '}
+                        · <$A href={sourcesProvHref}>{sourcesProvLabel}</$A>
+                      </>
+                    ) : null}
                   </li>
                 </ul>
               </div>
               </>
               ) : null}
-              {sample ? null : $list(guideNodes)}
+              {useDesignGuide ? null : $list(guideNodes)}
             </article>
           </div>
         </section>
@@ -2670,7 +2710,7 @@ function template(v) {
                 Nearby
               </span>
               ) : null}
-              <h3 style={{ fontSize: '28px', marginTop: '8px', marginBottom: '20px' }}>{$i(otherHeading)}</h3>
+              <h2 style={{ fontSize: '28px', marginTop: '8px', marginBottom: '20px' }}>{sample ? <>Rehabs near {$i(city)}</> : $i(otherHeading)}</h2>
               <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }} data-cols="1fr 1fr">
                 {$list(nearby).map((loc, $index) => (
                   <Fragment key={$index}>
@@ -2711,7 +2751,7 @@ function template(v) {
                 ))}
               </div>
             </div>
-            {popOn ? (
+            {sample || popOn ? (
             <div>
               {' '}
               <span
@@ -2760,13 +2800,14 @@ function template(v) {
 
 export const ownCss =
   '\nhtml,body{margin:0;padding:0;background:#f7fafd;color:#10233a;font-family:Figtree,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}\n*{box-sizing:border-box}\na{color:#0890E8;text-decoration:none}a:hover{color:#0670b8}\nh1,h2,h3,h4{font-family:Jost,Helvetica,sans-serif;margin:0;font-weight:600;letter-spacing:-0.01em;text-wrap:balance}\np{margin:0;text-wrap:pretty}\nul{margin:0;padding:0;list-style:none}\n@keyframes fadeUp{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}\n';
-export const css = [ownCss, SiteHeader_css].filter(Boolean).join('\n');
+const ctyCss = '@media(max-width:899px){.cty-rank{grid-template-columns:minmax(0,1fr)!important}}@media(max-width:559px){.cty-stats{grid-template-columns:minmax(0,1fr)!important}}';
+export const css = [ownCss, ctyCss, SiteHeader_css].filter(Boolean).join('\n');
 export const defaults = {
   city: 'Toronto',
   year: '2025',
   cityCount: 8,
   authorName: 'Editorial Team',
-  reviewerName: 'Clinical Reviewer (name, credentials)',
+  reviewerName: 'Editorial team',
 };
 const View = createDC('City', Component, template);
 export default View;

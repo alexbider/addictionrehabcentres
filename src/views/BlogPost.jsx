@@ -2143,7 +2143,7 @@ function template(v) {
                     position: 'relative',
                     display: 'block',
                     aspectRatio: '16/10',
-                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                    background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                   }}
                 >
                   {' '}
@@ -2652,7 +2652,7 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/10',
-                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
                       <span
@@ -2917,7 +2917,7 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/9',
-                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
                       {p?.img ? <img src={p.img.src} alt={p.img.alt} width={p.img.width || undefined} height={p.img.height || undefined} loading="lazy" style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}

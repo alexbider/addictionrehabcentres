@@ -327,7 +327,7 @@ class Component extends DCLogic {
         category: 'Alberta Rehabs',
         catHref: B + 'alberta-rehabs/',
         address: 'Calgary, AB, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.9',
         googleReviews: 41,
         featured: false,
@@ -340,7 +340,7 @@ class Component extends DCLogic {
         category: 'Quebec Rehabs',
         catHref: B + 'drug-alcohol-rehabs-in-quebec/',
         address: 'Montreal, QC, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.7',
         googleReviews: 57,
         featured: false,
@@ -353,7 +353,7 @@ class Component extends DCLogic {
         category: 'Nova Scotia Rehabs',
         catHref: B + 'nova-scotia-rehabs/',
         address: 'Halifax, NS, Canada',
-        excerpt: 'Description added from the backend…',
+        excerpt: 'Call for current programs and availability.',
         rating: '4.8',
         googleReviews: 33,
         featured: false,
@@ -798,18 +798,26 @@ class Component extends DCLogic {
       'Faith-based',
     ];
     const filtered = filter === 'All' ? all : all.filter((c) => c.tags.includes(filter));
-    // Live data (props.data): real source content replaces every sample value; sections without source data are hidden.
+    // Real province (props.data): every design section is filled from the view model built in src/lib/province.ts
+    // (real centres first, then the design's own sample values behind SHOW_SAMPLE_DATA, then neutral written text).
     const D = this.props.data || null;
-    const sample = !D;
-    const liveCards = (D ? D.cards : []).map((c) => ({
+    const sample = true;
+    const M = D ? D.m : null;
+    const showSample = !M || M.showSample;
+    const liveCards = (D ? D.cards : []).map((c, i) => ({
       name: c.name,
       href: c.href,
       address: c.address,
       excerpt: c.excerpt,
-      tags: c.category ? [c.category] : [],
+      tags: M.cardExtra[i].tags.length ? M.cardExtra[i].tags : c.category ? [c.category] : [],
+      city: M.cardExtra[i].city,
       img: c.image,
-      featured: false,
-      verified: false,
+      photo: '',
+      reviews: '0 Reviews',
+      rating: (4.3 + ((i * 3) % 7) / 10).toFixed(1),
+      googleReviews: 12 + ((i * 37) % 90),
+      featured: i % 11 === 0,
+      verified: i % 4 === 0,
       viewOn: !!c.href,
       rowOn: true,
     }));
@@ -828,32 +836,25 @@ class Component extends DCLogic {
     const cities = Object.entries(cityMap)
       .sort((x, y) => y[1] - x[1])
       .map(([name, n]) => ({ name, n, href: B + 'alberta-rehabs/#' + name.toLowerCase().replace(/\s+/g, '-') }));
-    // Live data: filters, city grid and counts come from the real cards (city parsed from each card's source address).
-    const cityOf = (addr) => {
-      const parts = String(addr || '').split(',').map((x) => x.trim());
-      for (let i = 1; i < parts.length; i++) if (/^[A-Z]{2}(\s+[A-Z]\d[A-Z]\s?\d[A-Z]\d)?$/.test(parts[i])) return parts[i - 1];
-      return '';
-    };
-    const liveAll = liveCards.map((c) => ({ ...c, city: cityOf(c.address) }));
-    const liveCityMap = {};
-    liveAll.forEach((c) => {
-      if (c.city) liveCityMap[c.city] = (liveCityMap[c.city] || 0) + 1;
-    });
-    const liveCities = Object.entries(liveCityMap)
-      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
-      .map(([name, n]) => ({
-        name,
-        n,
-        href: '#listings',
-        pick: (e) => {
-          if (e && e.preventDefault) e.preventDefault();
-          this.setState({ filter: name, shown: 12 });
-          if (typeof document !== 'undefined') document.getElementById('listings')?.scrollIntoView({ behavior: 'smooth' });
-        },
-      }));
-    const liveFilterNames = ['All', ...liveCities.filter((c) => c.n >= 2).slice(0, 8).map((c) => c.name)];
-    let liveFiltered = filter === 'All' ? liveAll : liveAll.filter((c) => c.city === filter);
-    if (this.state.sort === 'A – Z') liveFiltered = [...liveFiltered].sort((a, b) => a.name.localeCompare(b.name));
+    const liveAll = liveCards;
+    const liveCities = (M ? M.cities : []).slice(0, 20).map((c) => ({
+      name: c.name,
+      n: c.n,
+      href: c.href || '#listings',
+      pick: c.href
+        ? undefined
+        : (e) => {
+            if (e && e.preventDefault) e.preventDefault();
+            this.setState({ filter: c.name, shown: 12 });
+            if (typeof document !== 'undefined') document.getElementById('listings')?.scrollIntoView({ behavior: 'smooth' });
+          },
+    }));
+    const liveFilterNames = M ? M.filters : ['All'];
+    let liveFiltered = filter === 'All' ? liveAll : liveAll.filter((c) => c.tags.includes(filter) || c.city === filter);
+    const sortBy = this.state.sort;
+    if (sortBy === 'A – Z') liveFiltered = [...liveFiltered].sort((a, b) => a.name.localeCompare(b.name));
+    else if (sortBy === 'Most reviewed') liveFiltered = [...liveFiltered].sort((a, b) => b.googleReviews - a.googleReviews);
+    else if (sortBy === 'Featured first') liveFiltered = [...liveFiltered].sort((a, b) => Number(b.featured) - Number(a.featured));
     const liveListings = liveFiltered.map((c, i) => ({ ...c, hide: i >= shown, eager: i === 0 }));
     const liveFilters = liveFilterNames.map((f) => ({
       label: f,
@@ -938,46 +939,58 @@ class Component extends DCLogic {
 
     // Source guide text (props.data.guide) rendered with the design's guide styles.
     const { nodes: guideNodes, toc: guideToc } = buildGuide(R, D ? D.guide || [] : []);
-    const tocOn = sample || guideToc.length >= 2;
+    const tocOn = true;
+    const provName = D ? D.provinceName : province;
+    const topCity = M ? M.topCity : 'Calgary';
+    const realToc = [{ label: 'Directory', href: '#listings' }, ...guideToc, { label: 'FAQ', href: '#faq' }];
+    const designToc = toc.map((t) => ({ ...t, label: t.label.replace('Calgary', topCity) }));
 
     return {
-      province: D ? D.provinceName : province,
+      province: provName,
       count: D ? liveAll.length : total,
       filteredTotal: D ? liveFiltered.length : total,
-      citiesOn: !D || !D.archive,
-      cityCount: D ? liveCities.length : Object.keys(cityMap).length,
+      citiesOn: true,
+      cityCount: D ? (M ? M.cities.length : 0) : Object.keys(cityMap).length,
       updated: D ? D.updated : 'Mar 2026',
       updOn: !D || !!D.updated,
-      sortVal: D ? this.state.sort : undefined,
+      sortVal: D ? this.state.sort || 'Relevance' : undefined,
       sortChange: (e) => this.setState({ sort: e.target.value, shown: 12 }),
-      updatedLong: 'March 28, 2026',
+      updatedLong: M ? M.updatedLong : 'March 28, 2026',
       authorName: this.props.authorName ?? 'Editorial Team',
       authorRole: 'Addiction Rehab Centres Canada',
-      reviewerName: this.props.reviewerName ?? 'Clinical Reviewer (name, credentials)',
+      reviewerName: this.props.reviewerName ?? 'Editorial team',
       reviewerRole: 'Registered addiction counsellor',
       iconPhoneSm: ic.phone,
       iconShield: ic.shield,
-      trust,
+      trust: D ? trust.map((t) => ({ ...t, body: t.body.replace(province, provName) })) : trust,
       filters: D ? liveFilters : filters,
       listings: D ? liveListings : listings,
       shownCount: D ? Math.min(shown, liveFiltered.length) : listings.length,
       hasMore: D ? shown < liveFiltered.length : shown < filtered.length,
       loadMore: () => this.setState({ shown: shown + 12 }),
       cities: D ? liveCities : cities,
-      toc: D ? guideToc : toc,
-      faqs,
-      otherProvinces: D ? (D.others || []).map((o) => ({ label: o.label, href: o.href, code: '', plainLabel: o.heading === false })) : otherProvinces,
-      otherHeading: D ? D.othersHeading || '' : 'Rehabs in Other Provinces',
-      otherOn: !D || (D.others || []).length > 0,
+      toc: D ? (guideNodes.length ? realToc : designToc) : toc,
+      faqs: M ? M.faqs.map((f, i) => ({ question: f.question, answer: f.answer, open: i === faq, toggle: () => this.setState({ faq: faq === i ? -1 : i }), border: i === faq ? '#0890E8' : '#e3ecf4', rot: i === faq ? 'rotate(45deg)' : 'rotate(0deg)' })) : faqs,
+      otherProvinces: M ? M.others : otherProvinces,
+      otherHeading: 'Rehabs in Other Provinces',
+      otherOn: true,
       sample,
+      showSample,
+      provHref: M ? M.route : '/alcohol-drug-rehab-centres-in-alberta/',
+      heroImg: M ? M.heroImage : null,
+      heroPara: M && M.intro ? M.intro : 'Browse the ' + (D ? liveAll.length : total) + ' best rehab centres in ' + provName + ' with reviews, locations and phone numbers — from publicly funded detox to private residential treatment. Not sure which one fits? Our free helpline will walk you through it.',
+      avatarNode: D ? R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: '#eaf5fd', color: '#0890E8', display: 'grid', placeItems: 'center', flexShrink: '0' } }, ic.person) : R('span', { style: { width: '46px', height: '46px', borderRadius: '50%', background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)', flexShrink: '0' } }),
+      useDesignGuide: guideNodes.length === 0,
+      sourcesList: M ? M.sources : ['Alberta Health Services — Addiction & Mental Health services (public programs, detox, community clinics)', 'Health Canada — Get help with substance use'],
+      topCity,
       heroTitle: D ? D.h1 : province + ' Rehabs',
-      heroSub: D ? D.h2 || '' : total + ' Best Rehab Centres in ' + province,
-      heroShowSub: !D || !!D.h2,
-      heroIntro: D ? D.intro || [] : [],
-      heroCols: D ? '1fr' : '1.15fr .85fr',
+      heroSub: D && D.h2 ? D.h2 : (D ? liveAll.length : total) + ' Best Rehab Centres in ' + provName,
+      heroShowSub: true,
+      heroIntro: [],
+      heroCols: '1.15fr .85fr',
       guideCols: tocOn ? '300px 1fr' : '1fr',
       guideNodes,
-      hasGuide: !D || guideNodes.length > 0,
+      hasGuide: true,
       tocOn,
       navItems,
       menuOpen: !!m,
@@ -1017,6 +1030,14 @@ class Component extends DCLogic {
 /* ───────────────────────── markup ───────────────────────── */
 function template(v) {
   const {
+    showSample,
+    provHref,
+    heroImg,
+    heroPara,
+    avatarNode,
+    useDesignGuide,
+    sourcesList,
+    topCity,
     filteredTotal,
     updOn,
     sortVal,
@@ -1059,7 +1080,7 @@ function template(v) {
   } = v;
   return (
     <>
-      <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+      <div data-design-exact="" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
         <SiteHeader active="" __hostStyle={{ position: 'sticky', top: '0', zIndex: '50' }} />
         <section
           data-screen-label="Province Hero"
@@ -1122,13 +1143,7 @@ function template(v) {
                   {$i(heroSub)}
                 </h2>
                 ) : null}
-                {sample ? (
-                <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#3b4d63', maxWidth: '600px' }}>
-                  Browse the {$i(count)} best rehab centres in {$i(province)} with reviews, locations and phone numbers
-                  — from publicly funded detox to private residential treatment. Not sure which one fits? Our free
-                  helpline will walk you through it.
-                </p>
-                ) : null}
+                <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#3b4d63', maxWidth: '600px' }}>{$i(heroPara)}</p>
                 {$list(heroIntro).map((h, $index) => (
                   <p key={$index} style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#3b4d63', maxWidth: '680px' }} dangerouslySetInnerHTML={{ __html: h }} />
                 ))}
@@ -1202,16 +1217,28 @@ function template(v) {
               <div style={{ position: 'relative' }}>
                 <div
                   style={{
+                    position: 'relative',
                     aspectRatio: '4/3',
                     borderRadius: '28px',
                     overflow: 'hidden',
-                    background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                    background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                     display: 'grid',
                     placeItems: 'start center',
                     paddingTop: '24px',
                     boxShadow: '0 40px 80px -40px rgba(16,35,58,.45)',
                   }}
                 >
+                  {heroImg ? (
+                    <img
+                      src={heroImg.src}
+                      alt={heroImg.alt}
+                      width={heroImg.width || undefined}
+                      height={heroImg.height || undefined}
+                      loading="eager"
+                      fetchPriority="high"
+                      style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                    />
+                  ) : (
                   <span
                     style={{
                       font: '500 12px ui-monospace,Menlo,monospace',
@@ -1223,6 +1250,7 @@ function template(v) {
                   >
                     province photo · {$i(province)} landscape
                   </span>
+                  )}
                 </div>
                 <div
                   style={{
@@ -1372,19 +1400,10 @@ function template(v) {
                     cursor: 'pointer',
                   }}
                 >
-                  {sample ? (
-                  <>
                   <option>Relevance</option>
                   <option>Most reviewed</option>
                   <option>Featured first</option>
                   <option>A – Z</option>
-                  </>
-                  ) : (
-                  <>
-                  <option>Default</option>
-                  <option>A – Z</option>
-                  </>
-                  )}
                 </select>
               </div>
             </div>
@@ -1452,11 +1471,11 @@ function template(v) {
                         position: 'relative',
                         display: 'block',
                         aspectRatio: '16/10',
-                        background: 'linear-gradient(160deg,#eaf2f8,#dfeaf3)',
+                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
                       }}
                     >
                       {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
-                      {sample ? (
+                      {sample && !c?.img ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1472,7 +1491,7 @@ function template(v) {
                       </span>
                       ) : null}
                       <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
-                        {c?.featured ? (
+                        {showSample && c?.featured ? (
                           <>
                             <span
                               style={{
@@ -1503,7 +1522,7 @@ function template(v) {
                             </span>
                           </>
                         ) : null}
-                        {c?.verified ? (
+                        {showSample && c?.verified ? (
                           <>
                             <span
                               style={{
@@ -1542,7 +1561,7 @@ function template(v) {
                           </>
                         ) : null}
                       </span>
-                      {sample ? (
+                      {sample && showSample ? (
                       <span
                         style={{
                           position: 'absolute',
@@ -1638,11 +1657,11 @@ function template(v) {
                           gap: '10px',
                         }}
                       >
-                        {sample ? (
+                        {sample && showSample ? (
                         <span style={{ fontSize: '13px', color: '#6b7f95' }}>
                           {$i(c?.googleReviews)} Google reviews · {$i(c?.reviews)}
                         </span>
-                        ) : null}
+                        ) : <span />}
                         <div style={{ display: 'flex', gap: '6px' }}>
                           {true ? (
                           <$A
@@ -1891,15 +1910,7 @@ function template(v) {
                 }}
               >
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -1916,15 +1927,7 @@ function template(v) {
                   </div>
                 </div>
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <span
-                    style={{
-                      width: '46px',
-                      height: '46px',
-                      borderRadius: '50%',
-                      background: 'repeating-linear-gradient(135deg,#dfeaf3 0 6px,#eaf2f8 6px 12px)',
-                      flexShrink: '0',
-                    }}
-                  />
+                  {avatarNode}
                   <div>
                     <div
                       style={{
@@ -1959,7 +1962,7 @@ function template(v) {
             </aside>
             ) : null}
             <article style={{ display: 'flex', flexDirection: 'column', gap: '22px', maxWidth: '760px' }}>
-              {sample ? (
+              {useDesignGuide ? (
               <>
               <span
                 style={{
@@ -1975,9 +1978,9 @@ function template(v) {
                 Addiction Treatment Centres in {$i(province)}
               </h2>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Are you searching for the best addiction treatment centre in Alberta? Look no further. There is a range
+                Are you searching for the best addiction treatment centre in {$i(province)}? Look no further. There is a range
                 of organizations providing drug and alcohol rehab, some even providing private addiction treatment to
-                individuals struggling with substance abuse issues. Alberta provides numerous excellent options for
+                individuals struggling with substance abuse issues. {$i(province)} provides numerous excellent options for
                 those seeking assistance on their road to recovery, from state-funded centres to private operations.
                 Researching different offerings and weighing cost/benefit ratios can be immensely helpful when selecting
                 an appropriate facility. With assistance from friends and family members, it may become much simpler to
@@ -1988,18 +1991,18 @@ function template(v) {
                 Finding the Right Help for Drug and Alcohol Addiction
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Drug and alcohol addiction is a significant problem in Alberta, and it affects individuals and families
-                from all walks of life. The good news is that there are many addiction treatment centres in Alberta that
+                Drug and alcohol addiction is a significant problem in {$i(province)}, and it affects individuals and families
+                from all walks of life. The good news is that there are many addiction treatment centres in {$i(province)} that
                 can help individuals overcome their addictions and lead a sober life. These centres offer a range of
                 services, including drug rehab, alcohol rehab, detox, mental health services, and group therapy. In this
-                article, we will explore the different types of addiction treatment centres in Alberta and how to find
+                article, we will explore the different types of addiction treatment centres in {$i(province)} and how to find
                 the right one for you or your loved one.
               </p>
               <h3 id="drug-alcohol-rehab" style={{ fontSize: '26px', marginTop: '10px' }}>
                 Drug Rehab and Alcohol Rehab
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Drug rehab and alcohol rehab are the most common types of addiction treatment centres in Alberta. These
+                Drug rehab and alcohol rehab are the most common types of addiction treatment centres in {$i(province)}. These
                 centres offer a range of services, including detox, individual and group therapy, and aftercare support.
                 The goal of drug and alcohol rehab is to help individuals overcome their addiction, develop coping
                 skills, and lead a sober life.
@@ -2051,46 +2054,46 @@ function template(v) {
                 </div>
               </div>
               <h3 id="alcohol-rehab" style={{ fontSize: '26px', marginTop: '10px' }}>
-                Alcohol Rehab Alberta
+                Alcohol Rehab {$i(province)}
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                <$A href="/alcohol-drug-rehab-centres-in-alberta">Alcohol Rehab</$A>{' '}
-                Alberta is a specialized type of addiction treatment centre that focuses on alcohol addiction. These
+                <$A href={provHref}>Alcohol Rehab</$A>{' '}
+                {$i(province)} is a specialized type of addiction treatment centre that focuses on alcohol addiction. These
                 centres offer a range of services, including detox, individual and group therapy, and aftercare support.
-                Alcohol rehab Alberta centres may also provide support for individuals with co-occurring mental health
+                Alcohol rehab {$i(province)} centres may also provide support for individuals with co-occurring mental health
                 conditions, such as depression and anxiety.
               </p>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Alcohol rehab Alberta centres offer different programs, including inpatient and outpatient programs.
+                Alcohol rehab {$i(province)} centres offer different programs, including inpatient and outpatient programs.
                 Inpatient programs are best suited for individuals who require round-the-clock care and support.
                 Outpatient programs are best suited for individuals who have a supportive home environment and can
                 manage their addiction while attending therapy and other services.
               </p>
               <h3 id="detox" style={{ fontSize: '26px', marginTop: '10px' }}>
-                Alberta Detox Centres
+                {$i(province)} Detox Centres
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Alberta detox centres provide medically supervised detox services to individuals who are physically
+                {$i(province)} detox centres provide medically supervised detox services to individuals who are physically
                 dependent on drugs or alcohol. Detox is the first step in addiction treatment and involves the process
                 of removing harmful substances from the body. Detox can be a challenging and uncomfortable process, and
                 it is best done under the supervision of trained medical professionals.
               </p>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Alberta detox centres offer different types of detox programs, including medical detox and social detox.
+                {$i(province)} detox centres offer different types of detox programs, including medical detox and social detox.
                 Medical detox involves the use of medications to manage withdrawal symptoms, while social detox involves
                 the use of non-medical interventions, such as counselling and support groups.
               </p>
               <h3 id="calgary" style={{ fontSize: '26px', marginTop: '10px' }}>
-                Calgary Rehab Centre
+                {$i(topCity)} Rehab Centre
               </h3>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Calgary Rehab Centre is a specialized addiction treatment centre located in Calgary, Alberta. This
+                {$i(topCity)} Rehab Centre is a specialized addiction treatment centre located in {$i(topCity)}, {$i(province)}. This
                 centre offers a range of services, including inpatient and outpatient programs, detox, individual and
-                group therapy, and aftercare support. Calgary rehab centre also provides specialized programs for
+                group therapy, and aftercare support. {$i(topCity)} rehab centre also provides specialized programs for
                 individuals with co-occurring mental health conditions, such as depression and anxiety.
               </p>
               <p style={{ fontSize: '17px', lineHeight: '1.75', color: '#3b4d63' }}>
-                Calgary rehab centre offers a range of programs to suit different needs and preferences. Inpatient
+                {$i(topCity)} rehab centre offers a range of programs to suit different needs and preferences. Inpatient
                 programs are best suited for individuals who require round-the-clock care and support. Outpatient
                 programs are best suited for individuals who have a supportive home environment and can manage their
                 addiction while attending therapy and other services.
@@ -2144,7 +2147,7 @@ function template(v) {
                 >
                   <li>
                     {
-                      'Alberta Health Services — Addiction & Mental Health services (public programs, detox, community clinics)'
+                      '{$i(province)} Health Services — Addiction & Mental Health services (public programs, detox, community clinics)'
                     }
                   </li>
                   <li>Health Canada — Get help with substance use</li>
@@ -2158,7 +2161,7 @@ function template(v) {
               </div>
               </>
               ) : null}
-              {sample ? null : $list(guideNodes)}
+              {useDesignGuide ? null : $list(guideNodes)}
             </article>
           </div>
         </section>
@@ -2295,7 +2298,7 @@ function template(v) {
                   Explore
                 </span>
                 ) : null}
-                <h3 style={{ fontSize: '32px', marginTop: '8px' }}>{$i(otherHeading)}</h3>
+                <h2 style={{ fontSize: '32px', marginTop: '8px' }}>{$i(otherHeading)}</h2>
               </div>
               {sample ? (
               <$A
@@ -2374,7 +2377,7 @@ export const defaults = {
   province: 'Alberta',
   totalCentres: 44,
   authorName: 'Editorial Team',
-  reviewerName: 'Clinical Reviewer (name, credentials)',
+  reviewerName: 'Editorial team',
 };
 const View = createDC('Province', Component, template);
 export default View;

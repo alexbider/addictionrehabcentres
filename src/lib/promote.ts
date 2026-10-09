@@ -1,5 +1,7 @@
 import type { Block } from '@/lib/content';
 import { getPageByRoute } from '@/lib/content';
+import { centreByRoute, realCentres, type RealCentre } from '@/lib/centres';
+import { SHOW_SAMPLE_DATA } from '@/lib/rollout';
 
 type Img = { src: string; alt: string; width: number | null; height: number | null };
 export type PromoteData = {
@@ -7,6 +9,9 @@ export type PromoteData = {
   heroImg: Img | null; aboutHeading: string; about: string[]; aboutImg: Img | null;
   whyHeading: string; benefits: { title: string; body: string }[]; whyImg: Img | null;
   progHeading: string; progText: string; progImg: Img | null;
+  /** Real published centres for the design's sample cards (hero card, "Sponsored vs organic" mock-up, testimonial logos). */
+  heroCentre: RealCentre | null; sponsored: RealCentre[]; organic: RealCentre[]; testimonialCentres: Record<string, RealCentre | null>;
+  showSample: boolean;
 };
 const toImg = (b: Block | undefined): Img | null => (b && b.type === 'image' ? { src: b.src, alt: b.alt ?? '', width: Number(b.width) || null, height: Number(b.height) || null } : null);
 
@@ -33,5 +38,19 @@ export function promoteData(): PromoteData | null {
     heroImg: toImg(imgs[0]), aboutHeading: text(b[iAbout]), about: aboutParas, aboutImg: toImg(imgs[1]),
     whyHeading: text(b[iWhy]), benefits, whyImg: toImg(imgs[2]),
     progHeading: text(b[iProg]), progText: text(b.slice(iProg + 1).find((x) => x.type === 'p')), progImg: toImg(imgs[3]),
+    ...mockCentres(),
+    showSample: SHOW_SAMPLE_DATA,
+  };
+}
+
+/** The design's sample cards are Toronto centres: take real Toronto centres that have their own photo (hero card 1, sponsored mock-up 3, organic list 3). */
+function mockCentres() {
+  const t = realCentres({ city: 'Toronto', ownImageOnly: true, minWidth: 500 });
+  const [heroCentre, ...rest] = t;
+  return {
+    heroCentre: heroCentre ?? null,
+    sponsored: rest.slice(0, 3),
+    organic: rest.slice(3, 6),
+    testimonialCentres: Object.fromEntries(['/metamorphosis-centre-for-change/', '/inspire-change-wellness-center/'].map((r) => [r, centreByRoute(r)])),
   };
 }
