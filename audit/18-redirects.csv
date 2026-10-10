@@ -1,11 +1,16 @@
 source,target,reason
 /12-step-group-trinity-united-church/,/listing-location/abbotsford/,thin centre -> city archive
 /4th-dimension-recovery/,/listing-location/burnaby/,thin centre -> city archive
+/6-tips-for-avoiding-relapse/,/addiction-relapse-prevention/,SEO audit: old duplicate -> canonical page
 /7-things-people-recovering-from-an-addiction-wish-you-knew/,/blog/,thin blog post -> blog index
-/acupuncture-chinese-medical-center/,/listing-location/winnipeg/,thin centre -> city archive
 /addiction-centre-toronto/,/listing-location/brantford/,thin centre -> city archive
+/addiction-outpatient-centres/,/inpatient-vs-outpatient-addiction-treatment-programs/,SEO audit: old duplicate -> canonical page
 /afm-starfish-project-for-youth/,/listing-location/winnipeg/,thin centre -> city archive
 /al-anon/,/manitoba-rehabs/,thin centre -> province page
+/alcohol-drug-rehab-centres-in-alberta/,/alberta-rehabs/,SEO audit: old duplicate -> canonical page
+/alcohol-drug-rehab-centres-in-british-columbia/,/british-columbia-rehabs/,SEO audit: old duplicate -> canonical page
+/alcohol-drug-rehab-centres-in-manitoba/,/manitoba-rehabs/,SEO audit: old duplicate -> canonical page
+/alcohol-drug-rehab-centres-in-ontario/,/ontario-rehabs/,SEO audit: old duplicate -> canonical page
 /alcohol-rehab/,/alcohol-addiction-treatment/,"source 301s to Home; the design links to it, so it goes to the alcohol treatment page"
 /alcoholics-anonymous/,/listing-location/thompson/,thin centre -> city archive
 /altona-group/,/manitoba-rehabs/,thin centre -> province page
@@ -13,16 +18,13 @@ source,target,reason
 /any-lengths-group/,/british-columbia-rehabs/,thin centre -> province page
 /bayers-road-centre/,/listing-location/halifax/,thin centre -> city archive
 /bayfield-clinic/,/ontario-rehabs/,thin centre -> province page
-/belmont-house/,/listing-location/dartmouth/,thin centre -> city archive
 /bible-baptist-church/,/manitoba-rehabs/,thin centre -> province page
 /big-book-group-lantzville/,/british-columbia-rehabs/,thin centre -> province page
-/birch-wellness-center/,/listing-location/winnipeg/,thin centre -> city archive
 /breelove-counselling/,/listing-location/moncton/,thin centre -> city archive
 /brenda-gibson-counselling/,/listing-location/fredericton/,thin centre -> city archive
 /canadian-mental-health-association-hope-house/,/listing-location/thompson/,thin centre -> city archive
 /canadian-mental-health-association/,/manitoba-rehabs/,thin centre -> province page
 /cape-breton-community-housing/,/listing-location/sydney/,thin centre -> city archive
-/caritas-project/,/ontario-rehabs/,thin centre -> province page
 /cart/,/contact/,WooCommerce utility page (noindex on source) -> Contact (no content to migrate)
 /category/addiction-remedies/,/blog/,thin blog category (1 post) -> blog index
 /category/alcohol-intervention/,/blog/,thin blog category (1 post) -> blog index
@@ -37,21 +39,16 @@ source,target,reason
 /category/mental-health-wellness/,/blog/,thin blog category (1 post) -> blog index
 /category/outpatient-addiction-treatment/,/blog/,thin blog category (2 post) -> blog index
 /category/porn-addiction/,/blog/,thin blog category (2 post) -> blog index
-/cedar-centre/,/listing-location/windsor/,thin centre -> city archive
-/channal/,/listing-location/st-johns/,thin centre -> city archive
 /checkout/,/contact/,WooCommerce utility page (302 to /cart/ on source) -> Contact (no content to migrate)
 /christian-counselling/,/listing-location/truro/,thin centre -> city archive
 /claim-your-listing/,/claim-listing/,same purpose as the Claim Listing design page -> /claim-listing/
 /cole-harbour-place/,/listing-location/dartmouth/,thin centre -> city archive
-/eden-mental-health/,/manitoba-rehabs/,thin centre -> province page
-/elizabeth-fry-satellite-apartment/,/nova-scotia-rehabs/,thin centre -> province page
-/emmanuel-house/,/listing-location/st-johns/,thin centre -> city archive
+/drug-rehab-centres-in-new-brunswick/,/new-brunswick-rehabs/,SEO audit: old duplicate -> canonical page
 /family-enhancement-centre/,/listing-location/brampton/,thin centre -> city archive
-/forward-house-ministries/,/listing-location/winnipeg/,thin centre -> city archive
+/first-response-keeping-an-overdose-victim-alive-until-help-arrives/,/naloxone-is-it-really-a-wonder-drug/,SEO audit: old duplicate -> canonical page
 /gamblers-anonymous/,/listing-location/brandon/,thin centre -> city archive
-/greenfield-house/,/listing-location/moncton/,thin centre -> city archive
 /habitude/,/listing-location/burlington/,thin centre -> city archive
-/hants-community-hospital/,/listing-location/windsor/,thin centre -> city archive
+/inpatient-vs-outpatient-treatment/,/inpatient-vs-outpatient-addiction-treatment-programs/,SEO audit: old duplicate -> canonical page
 /irecover-newfoundland/,/nova-scotia-rehabs/,out-of-scope centre (approved: skipped) -> province page
 /karapancev-law-professional-corporation/,/listing-location/mississauga/,out-of-scope centre (approved: skipped) -> city archive
 /listing-category/alberta-rehabs/,/alberta-rehabs/,province listing archive duplicates the province page -> province page
@@ -66,7 +63,7 @@ source,target,reason
 /listing-category/ontario-rehabs/,/ontario-rehabs/,province listing archive duplicates the province page -> province page
 /listing-category/prince-edward-island-rehabs/,/nova-scotia-rehabs/,province archive with 1 centre and no PEI page -> nearest Atlantic province page
 /listing-category/quebec-rehabs/,/drug-alcohol-rehabs-in-quebec/,province listing archive duplicates the province page -> province page
-/listing-category/saskatchewan-rehabs/,/saskatchewan-drug-rehab-treatment/,province listing archive duplicates the province page -> province page
+/listing-category/saskatchewan-rehabs/,/saskatchewan-rehabs/,province listing archive duplicates the province page -> province page
 /listing-location/acton/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/agassiz/,/british-columbia-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/ahousaht/,/british-columbia-rehabs/,thin city archive (1 centre) -> province page
@@ -135,7 +132,6 @@ source,target,reason
 /listing-location/kemptville/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/king-city/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/kingsclear-parish/,/new-brunswick-rehabs/,thin city archive (1 centre) -> province page
-/listing-location/kingston/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/kitwanga/,/british-columbia-rehabs/,empty city archive (no centres listed) -> province page
 /listing-location/langley-township/,/british-columbia-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/lantzville/,/british-columbia-rehabs/,thin city archive (1 centre) -> province page
@@ -177,7 +173,7 @@ source,target,reason
 /listing-location/powell-river/,/british-columbia-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/powerview/,/manitoba-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/quebec/,/drug-alcohol-rehabs-in-quebec/,empty city archive (no centres listed) -> province page
-/listing-location/regina/,/saskatchewan-drug-rehab-treatment/,thin city archive (1 centre) -> province page
+/listing-location/regina/,/saskatchewan-rehabs/,SEO audit: old duplicate -> canonical page
 /listing-location/roblin/,/manitoba-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/saint-adolphe/,/manitoba-rehabs/,empty city archive (no centres listed) -> province page
 /listing-location/saint-jean-port-joli/,/nova-scotia-rehabs/,thin city archive (1 centre) -> province page
@@ -220,20 +216,20 @@ source,target,reason
 /listing-location/whitby/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/whitchurch-stouffville/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/wikwemikong/,/ontario-rehabs/,thin city archive (1 centre) -> province page
-/listing-location/wilkie/,/saskatchewan-drug-rehab-treatment/,empty city archive (no centres listed) -> province page
+/listing-location/wilkie/,/saskatchewan-rehabs/,SEO audit: old duplicate -> canonical page
 /listing-location/williams-lake/,/british-columbia-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/winkler/,/manitoba-rehabs/,empty city archive (no centres listed) -> province page
 /listing-location/woodbridge/,/ontario-rehabs/,thin city archive (1 centre) -> province page
 /listing-location/woodstock/,/new-brunswick-rehabs/,thin city archive (1 centre) -> province page
-/maison-fraternite/,/ontario-rehabs/,thin centre -> province page
 /manitoba-addiction-treatment-centres-mbatc/,/listing-location/winnipeg/,thin centre -> city archive
 /mass-tsang-criminal-lawyers/,/ontario-rehabs/,out-of-scope centre (approved: skipped) -> province page
 /mood-disorders-association-of-manitoba/,/listing-location/winnipeg/,thin centre -> city archive
 /my-account/,/contact/,WooCommerce utility page (noindex on source) -> Contact (no content to migrate)
 /mylene-dastous/,/listing-location/moncton/,thin centre -> city archive
 /native-addictions-council/,/listing-location/winnipeg/,thin centre -> city archive
-/nehiley-house/,/listing-location/halifax/,thin centre -> city archive
+/newfoundland-drug-rehab-centers/,/newfoundland-and-labrador-rehabs/,SEO audit: old duplicate -> canonical page
 /north-trauma-and-resource-center/,/listing-location/winnipeg/,thin centre -> city archive
+/nova-scotia-drug-rehab-centers/,/nova-scotia-rehabs/,SEO audit: old duplicate -> canonical page
 /obsessive-compulsive-disorder-centre/,/listing-location/winnipeg/,thin centre -> city archive
 /old-fashioned-aa-group/,/listing-location/vancouver/,thin centre -> city archive
 /pathstone-mental-health/,/listing-location/welland/,thin centre -> city archive
@@ -242,13 +238,13 @@ source,target,reason
 /pricing/,/promote/,pricing plans (64 words) -> Promote page
 /prince-edward-island-rehabs/,/nova-scotia-rehabs/,thin province page (no PEI listings or text page) -> nearest Atlantic province page
 /promote-your-centre/,/promote/,same purpose as the Promote design page -> /promote/
-/railton-house/,/listing-location/dartmouth/,thin centre -> city archive
+/quebec-drug-rehab-centers/,/drug-alcohol-rehabs-in-quebec/,SEO audit: old duplicate -> canonical page
 /rehab/,/search/,"source 301s to Home; the design buttons are rehab finders, so they go to the site search"
 /rehab/search/,/search/,source 301s /rehab/search/ -> /search/; now the site search page
 /rehab/yukon-drug-rehab-treatments/,/yukon-drug-rehab-treatments/,source 301s this URL (design menus link to it)
 /roblin-hero-club/,/manitoba-rehabs/,thin centre -> province page
 /rock-counseling-services/,/listing-location/fredericton/,thin centre -> city archive
-/saskatchewan-rehabs/,/saskatchewan-drug-rehab-treatment/,approved: thin province page -> text page for the same province
+/saskatchewan-drug-rehab-treatment/,/saskatchewan-rehabs/,SEO audit: old duplicate -> canonical page
 /sayulita-wellness-retreat/,/search/,out-of-scope centre (approved: skipped) -> province page
 /search-listing/,/search/,old search listing archive -> site search page
 /search-listing/dr-i-s-bilash/,/manitoba-rehabs/,thin centre -> province page
@@ -256,15 +252,15 @@ source,target,reason
 /search-listing/s-p-e-a-k/,/manitoba-rehabs/,thin centre -> province page
 /search-listing/vitalita-health-network/,/new-brunswick-rehabs/,thin centre -> province page
 /selkirk-interlake-mental-health-support-centre-inc/,/listing-location/lundar/,thin centre -> city archive
-/selkirk-mental-health-centre/,/manitoba-rehabs/,thin centre -> province page
 /shelburne-mental-health-centre/,/listing-location/shelburne/,thin centre -> city archive
 /shop/,/contact/,"empty WooCommerce shop (8 words); no content to migrate, closest page is Contact"
 /southwest-community-options/,/manitoba-rehabs/,thin centre -> province page
-/st-raphael-wellness-centre/,/listing-location/winnipeg/,thin centre -> city archive
-/star-drug-testing-services/,/listing-location/winnipeg/,thin centre -> city archive
+/steps-to-create-your-own-relapse-prevention-plan/,/addiction-relapse-prevention/,SEO audit: old duplicate -> canonical page
 /the-seven-cs-for-helping-your-child-heal-during-your-recovery/,/blog/,thin blog post -> blog index
 /toronto-criminal-and-dui-lawyers/,/listing-location/toronto/,out-of-scope centre (approved: skipped) -> city archive
 /union-gospel-mission/,/listing-location/winnipeg/,thin centre -> city archive
 /user-dashboard/,/contact/,"account dashboard (21 words, needs login); no content to migrate, closest page is Contact"
 /vanier-childrens-services/,/listing-location/london/,thin centre -> city archive
+/what-is-an-outpatient-facility/,/inpatient-vs-outpatient-addiction-treatment-programs/,SEO audit: old duplicate -> canonical page
+/what-is-the-fentanyl/,/what-is-fentanyl/,SEO audit: old duplicate -> canonical page
 /wise-choice-counselling/,/listing-location/fredericton/,thin centre -> city archive

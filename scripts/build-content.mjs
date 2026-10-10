@@ -65,9 +65,34 @@ const hrefSlug = (h) => new URL(h).pathname.split('/').filter(Boolean).pop();
 const LIVE_TYPES = new Set(['drug', 'treatment-support', 'support-service', 'province', 'city', 'city-archive', 'blog-post', 'legal', 'centre', 'alcohol', 'intervention', 'about-info', 'category', 'promote', 'claim']);
 const OUT_OF_SCOPE = new Set(['DUI Lawyers Ontario', 'Mexico', 'Prince Edward Island Rehabs']); // approved: skipped (listed in audit/08-source-issues.md)
 const LIVE_SLUGS = new Set(['blog', 'home']);
+// SEO migration audit (audit/seo/): pages that rank on the old site are published even though they are short (audit/data/restore-keep.json,
+// "RESTORE" and "OPTIONAL" rows); old duplicates that must 301 are unpublished and their links point straight at the target (audit/data/superseded.json).
+const RESTORE = new Set(JSON.parse(fs.readFileSync(path.join(root, 'audit/data/restore-keep.json'), 'utf8')).restore);
+const SUPERSEDED = JSON.parse(fs.readFileSync(path.join(root, 'audit/data/superseded.json'), 'utf8'));
+// Old WordPress image URLs that Google has indexed (audit/seo/ARC_old_image_urls.csv): their files are always published so /wp-content/uploads/... can redirect to them.
+const OLD_IMAGES = new Set(fs.readFileSync(path.join(root, 'audit/seo/ARC_old_image_urls.csv'), 'utf8').split('\n').slice(1).map((l) => l.split(',')[0].trim()).filter(Boolean));
+const IMG_URL_MAP = {}; // original image URL -> published WebP path (written to audit/data/img-url-map.json)
+// SEO audit 1H: image alt "[Centre name] in [City], [Province]"; casing fixes for names the source stored badly; 2025 -> 2026 in the three "best of" titles.
+const PROV_NAMES = { AB: 'Alberta', BC: 'British Columbia', MB: 'Manitoba', NB: 'New Brunswick', NL: 'Newfoundland and Labrador', NS: 'Nova Scotia', NT: 'Northwest Territories', NU: 'Nunavut', ON: 'Ontario', PE: 'Prince Edward Island', QC: 'Quebec', SK: 'Saskatchewan', YT: 'Yukon' };
+const altFor = (name, address) => {
+  const m = String(address || '').replace(/,?\s*Canada\s*$/i, '').match(/,\s*([^,]+?),\s*([A-Z]{2})(?:\s+[A-Z]\d[A-Z]\s?\d[A-Z]\d)?\s*$/);
+  return m && PROV_NAMES[m[2]] ? `${name} in ${m[1].trim()}, ${PROV_NAMES[m[2]]}` : name;
+};
+const CASEFIX = [["St John'S Inter Group", "St John's Inter Group"], ["Bear'S Paw", "Bear's Paw"], ['Clearview Aa Meeting', 'Clearview AA Meeting'], ['Mb Counselling Services', 'MB Counselling Services'], ["Neville'S Counselling", "Neville's Counselling"], ['Old Fashioned Aa Group', 'Old Fashioned AA Group'], ["Ruth And Naomi'S Mission", "Ruth And Naomi's Mission"], ['Teen Challenge Bc', 'Teen Challenge BC'], ["Women'S Centre", "Women's Centre"], ['Women\u2019S Centre', 'Women\u2019s Centre'], ['Naomi\u2019S Mission', 'Naomi\u2019s Mission'], ['St John\u2019S Inter', 'St John\u2019s Inter'], ['Bear\u2019S Paw', 'Bear\u2019s Paw'], ['Neville\u2019S', 'Neville\u2019s']];
+const fixCasing = (json) => CASEFIX.reduce((j, [a, b]) => j.split(a).join(b), json);
+const TITLE_YEAR = new Set(['/7-best-drug-alcohol-rehab-centres-in-vancouver-2025/', '/toronto-rehabs/', '/ottawa-rehabs/']);
+const yearUp = (v) => JSON.parse(JSON.stringify(v ?? null).replace(/(?<![\d/-])2025(?![\d/-])/g, '2026'));
+const rewriteSuperseded = (json) => {
+  for (const [from, to] of Object.entries(SUPERSEDED)) {
+    const re = new RegExp('(["\\\\(\']|https://addictionrehabcenters\\.ca)' + from.replace(/[.*+?^${}()|[\]\\\/]/g, '\\$&') + '(?=["#?\\\\\']|$)', 'g');
+    json = json.replace(re, (m, pre) => (pre.startsWith('http') ? pre : pre) + to);
+  }
+  return json;
+};
 const SKIP_PAGES = new Set(); // (dui-lawyers-in-canada is published: real source content; its lawyer cards are unlinked, their pages are out of scope) // the real blog index
 // Thin-page rules (see audit/07-thin-pages.md) — thin pages are never published until you decide.
 const isThin = (d) => {
+  if (RESTORE.has(d.new_route)) return false;
   if (d.page_type === 'centre') return d.word_count < 60;
   if (d.page_type === 'province') return (d.cards || []).length > 0 && d.cards.length <= 2;
   if (d.page_type === 'city-archive') return (d.cards || []).length <= 1;
@@ -192,7 +217,7 @@ fs.rmSync(OUT, { recursive: true, force: true });
 fs.mkdirSync(OUT, { recursive: true });
 const index = [];
 const published = new Set();
-const PROVINCE = { 'British Columbia Rehabs': '/british-columbia-rehabs/', 'Ontario Rehabs': '/ontario-rehabs/', 'Nova Scotia Rehabs': '/nova-scotia-rehabs/', 'Alberta Rehabs': '/alberta-rehabs/', 'New Brunswick Rehabs': '/new-brunswick-rehabs/', 'Manitoba Rehabs': '/manitoba-rehabs/', 'Newfoundland and Labrador Rehabs': '/newfoundland-and-labrador-rehabs/', 'Quebec Rehabs': '/drug-alcohol-rehabs-in-quebec/', 'Saskatchewan Rehabs': '/saskatchewan-drug-rehab-treatment/', 'Northwest Territories Rehabs': '/northwest-territories-rehabs/' };
+const PROVINCE = { 'British Columbia Rehabs': '/british-columbia-rehabs/', 'Ontario Rehabs': '/ontario-rehabs/', 'Nova Scotia Rehabs': '/nova-scotia-rehabs/', 'Alberta Rehabs': '/alberta-rehabs/', 'New Brunswick Rehabs': '/new-brunswick-rehabs/', 'Manitoba Rehabs': '/manitoba-rehabs/', 'Newfoundland and Labrador Rehabs': '/newfoundland-and-labrador-rehabs/', 'Quebec Rehabs': '/drug-alcohol-rehabs-in-quebec/', 'Saskatchewan Rehabs': '/saskatchewan-rehabs/', 'Northwest Territories Rehabs': '/northwest-territories-rehabs/' };
 const thinRedirects = [];
 const googleReviewCentres = [];
 let reviewSchemaRemoved = 0;
@@ -326,7 +351,7 @@ for (const f of files) {
       seenHref.add(c.href);
       const im = c.image ? byUrl[(c.image.src_original || '').split('?')[0]] : null;
       cards.push({ name: c.name, href: c.href, slug: new URL(c.href).pathname.split('/').filter(Boolean).pop(), address: c.address, excerpt: aboutExcerpt(CENTRE_ABOUT.get(new URL(c.href).pathname)), category: tagsByHref.get(c.href) ?? c.category, reviews: 0,
-        image: c.image && im?.local_path ? { local_path: im.local_path, alt: c.image.alt ?? '', width: c.image.width, height: c.image.height, original_url: c.image.src_original } : null });
+        image: c.image && im?.local_path ? { local_path: im.local_path, alt: altFor(c.name, c.address), width: c.image.width, height: c.image.height, original_url: c.image.src_original } : null });
     }
     const h2 = (d.blocks || []).find((b) => b.type === 'h2');
     d.listing = { cards, source_listing_count: d.cards.length, duplicates_removed: d.cards.length - cards.length };
@@ -335,12 +360,19 @@ for (const f of files) {
       { kind: 'listing', classes: [], background_image: null, columns: [{ classes: [], blocks: [...(h2 ? [{ type: 'h2', text: h2.text, html: h2.html ?? h2.text }] : []), { type: 'cards', hrefs: cards.map((c) => c.href) }] }] },
     ];
   }
+  if (key === 'saskatchewan-rehabs') {
+    // Same province, same URL as the old ranking page: its 2 centre cards plus the text of the (now redirected) Saskatchewan text page.
+    const t = JSON.parse(fs.readFileSync(path.join(SRC, 'saskatchewan-drug-rehab-treatment.json'), 'utf8'));
+    d.rows.push(...t.rows.filter((r) => r.kind !== 'hero-banner' && !(r.classes || []).includes('bottomWidget')));
+    d.images = [...(d.images || []), ...(t.images || [])];
+    d.word_count += t.word_count;
+  }
   if (d.page_type !== 'city-archive' && !d.listing && Array.isArray(d.rows) && d.cards?.length && /cards/.test(JSON.stringify(d.rows))) {
     // Pages that embed centre cards (e.g. /drug-intervention-treatment-centres/): the cards become a centre-cards block (name from the centre page, source order)
     const byH = new Map(d.cards.map((c) => [c.href, c]));
     for (const r of d.rows) for (const c of r.columns) c.blocks = c.blocks.map((b) => {
       if (b.type !== 'cards') return b;
-      return { type: 'centre-cards', items: b.hrefs.map((h) => byH.get(h)).filter(Boolean).map((c) => ({ name: c.name || CENTRE_NAME.get(c.href) || '', href: c.href, address: c.address, excerpt: c.excerpt, category: c.category, image: c.image ? { original_url: c.image.src_original, alt: c.image.alt } : null })) };
+      return { type: 'centre-cards', items: b.hrefs.map((h) => byH.get(h)).filter(Boolean).map((c) => ({ name: c.name || CENTRE_NAME.get(c.href) || '', href: c.href, address: c.address, excerpt: c.excerpt, category: c.category, image: c.image ? { original_url: c.image.src_original, alt: altFor(c.name || CENTRE_NAME.get(c.href) || '', c.address) } : null })) };
     });
   }
   const thin = isThin(d);
@@ -348,7 +380,7 @@ for (const f of files) {
   const isCentre = d.page_type === 'centre';
   const oos = isCentre && OUT_OF_SCOPE.has(d.centre?.categories?.[0]);
   const batchOk = !isCentre || batchSet.has(key);
-  const live = (LIVE_TYPES.has(d.page_type) || LIVE_SLUGS.has(key)) && !thin && !hasCards && !oos && !SKIP_PAGES.has(key) && batchOk;
+  const live = (LIVE_TYPES.has(d.page_type) || LIVE_SLUGS.has(key)) && !thin && !hasCards && !oos && !SKIP_PAGES.has(key) && batchOk && !SUPERSEDED[d.new_route];
   const folder = key.replace(/^(centre|city)__/, '');
   if (isCentre && d.centre?.google_reviews?.items?.length) googleReviewCentres.push({ route: d.new_route, name: d.centre.name, reviews: d.centre.google_reviews.items.length });
   if (isCentre && thin) thinRedirects.push({ old: d.new_route, name: d.centre.name, province: d.centre.categories?.[0] || '', target: PROVINCE[d.centre.categories?.[0]] || '/', words: d.word_count });
@@ -361,9 +393,12 @@ for (const f of files) {
   const cache = {};
   const local = async (u, fold = folder) => {
     const rel = u ? imgMap[u.split('?')[0]] ?? ORIG2REL.get(u.split('?')[0]) : null;
-    if (!rel || !live) return null;
+    const ok = u ? u.split('?')[0] : '';
+    if (!rel || !(live || SUPERSEDED[d.new_route] || OLD_IMAGES.has(ok))) return null;
     const k = rel + '|' + fold;
-    return (cache[k] ??= await publishImage(rel, fold));
+    const r = (cache[k] ??= await publishImage(rel, fold));
+    if (r && OLD_IMAGES.has(ok)) IMG_URL_MAP[ok] = r.web;
+    return r;
   };
   const rows = [];
   const omitted = [];
@@ -395,7 +430,7 @@ for (const f of files) {
       if (!c.image?.local_path && cimg) fallbackLog.push({ page: d.new_route, element: 'listing card', name: c.name, target: new URL(c.href).pathname, source_image: cimg.original_url, cause: 'source listing card has no thumbnail; the centre\'s first gallery image is used' });
       if (cimg?.local_path && live) {
         const im = await publishImage(cimg.local_path, c.slug, CARD_W);
-        if (im) image = { alt: cimg.alt ?? '', ...cimg, local_path: im.web, width: im.width ? String(im.width) : cimg.width, height: im.height ? String(im.height) : cimg.height };
+        if (im) image = { ...cimg, alt: altFor(c.name, c.address), local_path: im.web, width: im.width ? String(im.width) : cimg.width, height: im.height ? String(im.height) : cimg.height };
       }
       cards.push({ ...c, excerpt: finishExcerpt(fixExcerpt(c.slug, c.excerpt), CENTRE_ABOUT.get('/' + c.slug + '/') || CENTRE_ABOUT.get(new URL(c.href).pathname)), excerpt_source: c.excerpt, image });
     }
@@ -405,7 +440,7 @@ for (const f of files) {
   if (isCentre && live) {
     const c = d.centre;
     const gallery = [];
-    for (const g of c.gallery || []) { const im = await local(g.src_original); if (im) gallery.push({ src: im.web, alt: g.alt || '', width: im.width, height: im.height }); else omitted.push(g.src_original); }
+    for (const g of c.gallery || []) { const im = await local(g.src_original); if (im) gallery.push({ src: im.web, alt: altFor(c.name, c.address), width: im.width, height: im.height }); else omitted.push(g.src_original); }
     const faqs = [];
     for (const q of c.faqs || []) faqs.push({ question: q.question, answer_blocks: await procBlocks(q.answer_blocks, imgMap, folder, live, omitted, local) });
     let sponsor = null;
@@ -439,16 +474,24 @@ for (const f of files) {
     rows, listing, centre, post: d.post, faqs: isCentre ? undefined : d.faqs,
     blocks, blog_cards: blogCards, category: d.category,
   };
-  fs.writeFileSync(path.join(OUT, key + '.json'), JSON.stringify(live ? unlinkThinPosts(slim, d.new_route) : slim));
+  if (TITLE_YEAR.has(d.new_route)) { slim.seo = yearUp(slim.seo); slim.head = yearUp(slim.head) ?? undefined; slim.h1 = slim.h1.replace(/(?<![\d/-])2025(?![\d/-])/g, '2026'); }
+  fs.writeFileSync(path.join(OUT, key + '.json'), fixCasing(rewriteSuperseded(JSON.stringify(live ? unlinkThinPosts(slim, d.new_route) : slim))));
   if (live) published.add(key);
-  index.push({ slug: key, route: d.new_route, type: d.page_type, title: d.seo.meta_title, published: live, reason: live ? '' : thin ? 'thin' : oos ? 'out-of-scope (approved: skipped)' : !batchOk ? 'batch pending' : hasCards ? 'embeds centre cards - needs card component' : 'no view yet', modified: d.source.wp_items?.[0]?.modified ?? null, noindex: /noindex/.test(d.source.robots || '') });
+  index.push({ slug: key, route: d.new_route, type: d.page_type, title: d.seo.meta_title, published: live, reason: live ? '' : thin ? 'thin' : oos ? 'out-of-scope (approved: skipped)' : !batchOk ? 'batch pending' : SUPERSEDED[d.new_route] ? 'redirected duplicate (SEO audit: 301 to ' + SUPERSEDED[d.new_route] + ')' : hasCards ? 'embeds centre cards - needs card component' : 'no view yet', modified: d.source.wp_items?.[0]?.modified ?? null, noindex: /noindex/.test(d.source.robots || '') });
+}
+// Old indexed image URLs not reached through a page (thin / redirected pages, card thumbnails …): publish their file too so the URL can redirect.
+for (const u of OLD_IMAGES) {
+  if (IMG_URL_MAP[u]) continue;
+  const rel = ORIG2REL.get(u);
+  if (!rel) continue;
+  try { const r = await publishImage(rel, 'old-uploads'); if (r) IMG_URL_MAP[u] = r.web; } catch {}
 }
 index.sort((a, b) => a.route.localeCompare(b.route));
 fs.writeFileSync(path.join(OUT, '_index.json'), JSON.stringify(index, null, 1));
 const pubFixes = fixes.filter((x) => published.has(index.find((i) => i.route === x.page)?.slug));
 fs.writeFileSync(path.join(root, 'audit/08-mojibake-fixes.json'), JSON.stringify({ published_pages: pubFixes, other_pages_count: fixes.length - pubFixes.length }, null, 1));
 fs.writeFileSync(path.join(root, 'audit/10-omitted-images.json'), JSON.stringify(omittedAll, null, 1));
-const baseRedirects = [{ source: '/saskatchewan-rehabs', destination: '/saskatchewan-drug-rehab-treatment/', note: 'approved: thin province page (2 cards, 2 words) -> text page for the same province' }];
+const baseRedirects = []; // redirects.json is owned by audit/scripts/make_redirects.py
 if (BATCH === Infinity || process.env.WRITE_REDIRECTS) {
   const tr = thinRedirects.map((x) => ({ source: x.old.replace(/\/$/, ''), destination: x.target, note: 'thin centre (' + x.words + ' words) -> province page; pending client approval' }));
   // redirects.json is now owned by audit/scripts/make_redirects.py (all source URLs, city/province targets)
@@ -456,6 +499,7 @@ if (BATCH === Infinity || process.env.WRITE_REDIRECTS) {
   const q = (s) => '"' + String(s).replace(/"/g, '""') + '"';
   fs.writeFileSync(path.join(root, 'audit/thin-centre-redirects.csv'), ['old_url,target,word_count,centre,province', ...thinRedirects.sort((a, b) => a.old.localeCompare(b.old)).map((x) => [q('https://addictionrehabcenters.ca' + x.old), q(x.target), x.words, q(x.name), q(x.province)].join(','))].join('\n') + '\n');
 }
+fs.writeFileSync(path.join(root, 'audit/data/img-url-map.json'), JSON.stringify(IMG_URL_MAP, null, 1));
 fs.writeFileSync(path.join(root, 'audit/11-google-review-centres.json'), JSON.stringify(googleReviewCentres, null, 1));
 fs.writeFileSync(path.join(root, 'audit/11-corrupt-images.json'), JSON.stringify(corrupt, null, 1));
 fs.writeFileSync(path.join(root, 'audit/12-thin-post-links-removed.json'), JSON.stringify(thinPostLinksRemoved, null, 1));

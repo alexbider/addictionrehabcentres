@@ -248,7 +248,7 @@ class Component extends DCLogic {
             items: [
               pv('BC', 'British Columbia', 'british-columbia-rehabs'),
               pv('AB', 'Alberta', 'alberta-rehabs'),
-              pv('SK', 'Saskatchewan', 'saskatchewan-drug-rehab-treatment'),
+              pv('SK', 'Saskatchewan', 'saskatchewan-rehabs'),
               pv('MB', 'Manitoba', 'manitoba-rehabs'),
             ],
           },

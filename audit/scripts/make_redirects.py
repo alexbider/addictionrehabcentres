@@ -5,7 +5,7 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[2]
 idx={e['route']:e for e in json.load(open(R/'content/_index.json'))}
 pub={r for r,e in idx.items() if e['published']}|{'/','/contact/','/intervention/','/blog/','/promote/','/claim-listing/','/search/'}
-PROV={'AB':'/alberta-rehabs/','BC':'/british-columbia-rehabs/','MB':'/manitoba-rehabs/','NB':'/new-brunswick-rehabs/','NL':'/newfoundland-and-labrador-rehabs/','NS':'/nova-scotia-rehabs/','NT':'/northwest-territories-rehabs/','NU':'/nunavut-drug-rehab-centers/','ON':'/ontario-rehabs/','QC':'/drug-alcohol-rehabs-in-quebec/','SK':'/saskatchewan-drug-rehab-treatment/','YT':'/yukon-drug-rehab-treatments/','PE':'/nova-scotia-rehabs/'}
+PROV={'AB':'/alberta-rehabs/','BC':'/british-columbia-rehabs/','MB':'/manitoba-rehabs/','NB':'/new-brunswick-rehabs/','NL':'/newfoundland-and-labrador-rehabs/','NS':'/nova-scotia-rehabs/','NT':'/northwest-territories-rehabs/','NU':'/nunavut-drug-rehab-centers/','ON':'/ontario-rehabs/','QC':'/drug-alcohol-rehabs-in-quebec/','SK':'/saskatchewan-rehabs/','YT':'/yukon-drug-rehab-treatments/','PE':'/nova-scotia-rehabs/'}
 red={}  # source(path with trailing slash) -> (target, reason)
 def add(src,dst,why):
     assert dst in pub,(src,dst)
@@ -46,7 +46,8 @@ for r,e in idx.items():
 # 3. thin posts, thin provinces
 for r,e in idx.items():
     if not e['published'] and e['type']=='blog-post': add(r,'/blog/','thin blog post -> blog index')
-add('/saskatchewan-rehabs/','/saskatchewan-drug-rehab-treatment/','approved: thin province page -> text page for the same province')
+# SEO audit: duplicates the old site 301s (audit/data/superseded.json, from ARC_missing_301s.csv); /saskatchewan-rehabs/ is the live page again.
+for s_,d_ in json.load(open(R/'audit/data/superseded.json')).items(): add(s_,d_,'SEO audit: old duplicate -> canonical page')
 add('/prince-edward-island-rehabs/','/nova-scotia-rehabs/','thin province page (no PEI listings or text page) -> nearest Atlantic province page')
 # 4. /listing-category/ province archives duplicate the province pages
 LC={'alberta-rehabs':'AB','british-columbia-rehabs':'BC','manitoba-rehabs':'MB','new-brunswick-rehabs':'NB','newfoundland-and-labrador-rehabs':'NL','northwest-territories-rehabs':'NT','nova-scotia-rehabs':'NS','ontario-rehabs':'ON','quebec-rehabs':'QC','saskatchewan-rehabs':'SK'}

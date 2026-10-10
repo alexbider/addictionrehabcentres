@@ -7,3 +7,15 @@ next-env.d.ts
 audit/images/
 .claude/skills/
 designs/
+
+# local / private
+audit/shots/
+AGENTS.md
+CLAUDE.md
+.env
+.env.*
+!.env.example
+scripts/scrape/raw/
+audit/import/raw/
+.vercel
+data/scrape/

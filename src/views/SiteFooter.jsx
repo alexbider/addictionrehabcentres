@@ -2,6 +2,7 @@
 // Single site footer — the Home design's footer, used by every page (views and old components).
 import React, { Fragment } from 'react';
 import { $A, $i, $list } from '@/dc/runtime';
+import { BeforeFooterSlot } from '@/components/BeforeFooter';
 
 const R = React.createElement;
 const icon = (paths, extra) =>
@@ -55,6 +56,7 @@ const footerCols = [
       'DUI in Canada|dui-in-canada',
       'DUI Lawyers in Canada|dui-lawyers-in-canada',
       'Prevention & Education Programs|prevention-education-programs',
+      'Add Your Centre|centre-onboarding',
       'Shelter Services in Canada|shelter-services-in-canada',
     ]),
   },
@@ -71,6 +73,7 @@ export default function SiteFooter() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: css }} />
+      <BeforeFooterSlot />
         <div className="rc-page" style={{ background: '#fff', paddingTop: '24px', marginTop: 'auto' }}>
           <footer
             data-screen-label="Footer"

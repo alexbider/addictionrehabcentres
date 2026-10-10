@@ -1,3 +1,5 @@
+import { BeforeFooterProvider } from '@/components/BeforeFooter';
+import { RelatedLinks } from '@/components/RelatedLinks';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Root } from '@/views/Blog';
@@ -25,7 +27,9 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={page} />
-      <Root posts={posts} cats={categoryChips(all)} heading={page.h1} />
+      <BeforeFooterProvider extra={<RelatedLinks page={page} />}>
+        <Root posts={posts} cats={categoryChips(all)} heading={page.h1} />
+      </BeforeFooterProvider>
     </>
   );
 }

@@ -10,19 +10,24 @@
   "note": "thin centre -> city archive"
  },
  {
+  "source": "/6-tips-for-avoiding-relapse",
+  "destination": "/addiction-relapse-prevention/",
+  "note": "SEO audit: old duplicate -> canonical page"
+ },
+ {
   "source": "/7-things-people-recovering-from-an-addiction-wish-you-knew",
   "destination": "/blog/",
   "note": "thin blog post -> blog index"
  },
  {
-  "source": "/acupuncture-chinese-medical-center",
-  "destination": "/listing-location/winnipeg/",
-  "note": "thin centre -> city archive"
- },
- {
   "source": "/addiction-centre-toronto",
   "destination": "/listing-location/brantford/",
   "note": "thin centre -> city archive"
+ },
+ {
+  "source": "/addiction-outpatient-centres",
+  "destination": "/inpatient-vs-outpatient-addiction-treatment-programs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/afm-starfish-project-for-youth",
@@ -33,6 +38,26 @@
   "source": "/al-anon",
   "destination": "/manitoba-rehabs/",
   "note": "thin centre -> province page"
+ },
+ {
+  "source": "/alcohol-drug-rehab-centres-in-alberta",
+  "destination": "/alberta-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
+ },
+ {
+  "source": "/alcohol-drug-rehab-centres-in-british-columbia",
+  "destination": "/british-columbia-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
+ },
+ {
+  "source": "/alcohol-drug-rehab-centres-in-manitoba",
+  "destination": "/manitoba-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
+ },
+ {
+  "source": "/alcohol-drug-rehab-centres-in-ontario",
+  "destination": "/ontario-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/alcohol-rehab",
@@ -70,11 +95,6 @@
   "note": "thin centre -> province page"
  },
  {
-  "source": "/belmont-house",
-  "destination": "/listing-location/dartmouth/",
-  "note": "thin centre -> city archive"
- },
- {
   "source": "/bible-baptist-church",
   "destination": "/manitoba-rehabs/",
   "note": "thin centre -> province page"
@@ -83,11 +103,6 @@
   "source": "/big-book-group-lantzville",
   "destination": "/british-columbia-rehabs/",
   "note": "thin centre -> province page"
- },
- {
-  "source": "/birch-wellness-center",
-  "destination": "/listing-location/winnipeg/",
-  "note": "thin centre -> city archive"
  },
  {
   "source": "/breelove-counselling",
@@ -113,11 +128,6 @@
   "source": "/cape-breton-community-housing",
   "destination": "/listing-location/sydney/",
   "note": "thin centre -> city archive"
- },
- {
-  "source": "/caritas-project",
-  "destination": "/ontario-rehabs/",
-  "note": "thin centre -> province page"
  },
  {
   "source": "/cart",
@@ -190,16 +200,6 @@
   "note": "thin blog category (2 post) -> blog index"
  },
  {
-  "source": "/cedar-centre",
-  "destination": "/listing-location/windsor/",
-  "note": "thin centre -> city archive"
- },
- {
-  "source": "/channal",
-  "destination": "/listing-location/st-johns/",
-  "note": "thin centre -> city archive"
- },
- {
   "source": "/checkout",
   "destination": "/contact/",
   "note": "WooCommerce utility page (302 to /cart/ on source) -> Contact (no content to migrate)"
@@ -220,19 +220,9 @@
   "note": "thin centre -> city archive"
  },
  {
-  "source": "/eden-mental-health",
-  "destination": "/manitoba-rehabs/",
-  "note": "thin centre -> province page"
- },
- {
-  "source": "/elizabeth-fry-satellite-apartment",
-  "destination": "/nova-scotia-rehabs/",
-  "note": "thin centre -> province page"
- },
- {
-  "source": "/emmanuel-house",
-  "destination": "/listing-location/st-johns/",
-  "note": "thin centre -> city archive"
+  "source": "/drug-rehab-centres-in-new-brunswick",
+  "destination": "/new-brunswick-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/family-enhancement-centre",
@@ -240,18 +230,13 @@
   "note": "thin centre -> city archive"
  },
  {
-  "source": "/forward-house-ministries",
-  "destination": "/listing-location/winnipeg/",
-  "note": "thin centre -> city archive"
+  "source": "/first-response-keeping-an-overdose-victim-alive-until-help-arrives",
+  "destination": "/naloxone-is-it-really-a-wonder-drug/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/gamblers-anonymous",
   "destination": "/listing-location/brandon/",
-  "note": "thin centre -> city archive"
- },
- {
-  "source": "/greenfield-house",
-  "destination": "/listing-location/moncton/",
   "note": "thin centre -> city archive"
  },
  {
@@ -260,9 +245,9 @@
   "note": "thin centre -> city archive"
  },
  {
-  "source": "/hants-community-hospital",
-  "destination": "/listing-location/windsor/",
-  "note": "thin centre -> city archive"
+  "source": "/inpatient-vs-outpatient-treatment",
+  "destination": "/inpatient-vs-outpatient-addiction-treatment-programs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/irecover-newfoundland",
@@ -336,7 +321,7 @@
  },
  {
   "source": "/listing-category/saskatchewan-rehabs",
-  "destination": "/saskatchewan-drug-rehab-treatment/",
+  "destination": "/saskatchewan-rehabs/",
   "note": "province listing archive duplicates the province page -> province page"
  },
  {
@@ -680,11 +665,6 @@
   "note": "thin city archive (1 centre) -> province page"
  },
  {
-  "source": "/listing-location/kingston",
-  "destination": "/ontario-rehabs/",
-  "note": "thin city archive (1 centre) -> province page"
- },
- {
   "source": "/listing-location/kitwanga",
   "destination": "/british-columbia-rehabs/",
   "note": "empty city archive (no centres listed) -> province page"
@@ -891,8 +871,8 @@
  },
  {
   "source": "/listing-location/regina",
-  "destination": "/saskatchewan-drug-rehab-treatment/",
-  "note": "thin city archive (1 centre) -> province page"
+  "destination": "/saskatchewan-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/listing-location/roblin",
@@ -1106,8 +1086,8 @@
  },
  {
   "source": "/listing-location/wilkie",
-  "destination": "/saskatchewan-drug-rehab-treatment/",
-  "note": "empty city archive (no centres listed) -> province page"
+  "destination": "/saskatchewan-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/listing-location/williams-lake",
@@ -1128,11 +1108,6 @@
   "source": "/listing-location/woodstock",
   "destination": "/new-brunswick-rehabs/",
   "note": "thin city archive (1 centre) -> province page"
- },
- {
-  "source": "/maison-fraternite",
-  "destination": "/ontario-rehabs/",
-  "note": "thin centre -> province page"
  },
  {
   "source": "/manitoba-addiction-treatment-centres-mbatc",
@@ -1165,14 +1140,19 @@
   "note": "thin centre -> city archive"
  },
  {
-  "source": "/nehiley-house",
-  "destination": "/listing-location/halifax/",
-  "note": "thin centre -> city archive"
+  "source": "/newfoundland-drug-rehab-centers",
+  "destination": "/newfoundland-and-labrador-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/north-trauma-and-resource-center",
   "destination": "/listing-location/winnipeg/",
   "note": "thin centre -> city archive"
+ },
+ {
+  "source": "/nova-scotia-drug-rehab-centers",
+  "destination": "/nova-scotia-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/obsessive-compulsive-disorder-centre",
@@ -1215,9 +1195,9 @@
   "note": "same purpose as the Promote design page -> /promote/"
  },
  {
-  "source": "/railton-house",
-  "destination": "/listing-location/dartmouth/",
-  "note": "thin centre -> city archive"
+  "source": "/quebec-drug-rehab-centers",
+  "destination": "/drug-alcohol-rehabs-in-quebec/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/rehab",
@@ -1245,9 +1225,9 @@
   "note": "thin centre -> city archive"
  },
  {
-  "source": "/saskatchewan-rehabs",
-  "destination": "/saskatchewan-drug-rehab-treatment/",
-  "note": "approved: thin province page -> text page for the same province"
+  "source": "/saskatchewan-drug-rehab-treatment",
+  "destination": "/saskatchewan-rehabs/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/sayulita-wellness-retreat",
@@ -1285,11 +1265,6 @@
   "note": "thin centre -> city archive"
  },
  {
-  "source": "/selkirk-mental-health-centre",
-  "destination": "/manitoba-rehabs/",
-  "note": "thin centre -> province page"
- },
- {
   "source": "/shelburne-mental-health-centre",
   "destination": "/listing-location/shelburne/",
   "note": "thin centre -> city archive"
@@ -1305,14 +1280,9 @@
   "note": "thin centre -> province page"
  },
  {
-  "source": "/st-raphael-wellness-centre",
-  "destination": "/listing-location/winnipeg/",
-  "note": "thin centre -> city archive"
- },
- {
-  "source": "/star-drug-testing-services",
-  "destination": "/listing-location/winnipeg/",
-  "note": "thin centre -> city archive"
+  "source": "/steps-to-create-your-own-relapse-prevention-plan",
+  "destination": "/addiction-relapse-prevention/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/the-seven-cs-for-helping-your-child-heal-during-your-recovery",
@@ -1338,6 +1308,16 @@
   "source": "/vanier-childrens-services",
   "destination": "/listing-location/london/",
   "note": "thin centre -> city archive"
+ },
+ {
+  "source": "/what-is-an-outpatient-facility",
+  "destination": "/inpatient-vs-outpatient-addiction-treatment-programs/",
+  "note": "SEO audit: old duplicate -> canonical page"
+ },
+ {
+  "source": "/what-is-the-fentanyl",
+  "destination": "/what-is-fentanyl/",
+  "note": "SEO audit: old duplicate -> canonical page"
  },
  {
   "source": "/wise-choice-counselling",

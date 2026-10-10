@@ -50,8 +50,13 @@ export function $i(v) {
   return <span className="sc-interp">{String(v)}</span>;
 }
 /** Every <a>: internal paths use next/link (client-side navigation), everything else stays a plain anchor. */
+// Design links are written without the trailing slash the site uses; link straight to the final URL so no click costs a 301 hop.
+const SLASHED = (h) => h.replace(/^([^?#]*?)(?<![/.])(?=([?#]|$))/, (m, path) => (/\.[a-z0-9]{2,5}$/i.test(path) || path === '' ? m : m + '/'));
+const LINK_FIXES = { '/rehab/': '/search/', '/alcohol-rehab/': '/alcohol-addiction-treatment/' };
 export function $A({ href, children, ...rest }) {
   if (typeof href === 'string' && href.startsWith('/') && !href.startsWith('//')) {
+    href = SLASHED(href);
+    href = href.replace(/^[^?#]*/, (p) => LINK_FIXES[p] ?? p);
     // no speculative prefetch: in production Next sometimes prefetches a [slug] segment for static routes like /search/ and logs a 404 in the console; clicking still navigates client-side
     return <Link href={href} prefetch={false} {...rest}>{children}</Link>;
   }

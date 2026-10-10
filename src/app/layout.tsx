@@ -10,6 +10,7 @@ import './globals.css';
 import './dc-pseudo.css';
 import './responsive.css';
 import { SITE_URL } from '@/lib/site';
+import { Analytics } from '@/components/Analytics';
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -29,6 +30,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <style>{'.sc-host.dc-pending{visibility:visible!important}'}</style>
         </noscript>
         <main id="dc-root">{children}</main>
+        <Analytics />
       </body>
     </html>
   );

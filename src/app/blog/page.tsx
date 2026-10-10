@@ -1,3 +1,5 @@
+import { BeforeFooterProvider } from '@/components/BeforeFooter';
+import { RelatedLinks } from '@/components/RelatedLinks';
 import type { Metadata } from 'next';
 import { Root } from '@/views/Blog';
 import { getPage } from '@/lib/content';
@@ -17,7 +19,9 @@ export default function BlogPage() {
   return (
     <>
       <JsonLd page={page} />
-      <Root posts={posts} cats={categoryChips(posts)} heading={page.h1} />
+      <BeforeFooterProvider extra={<RelatedLinks page={page} />}>
+        <Root posts={posts} cats={categoryChips(posts)} heading={page.h1} />
+      </BeforeFooterProvider>
     </>
   );
 }

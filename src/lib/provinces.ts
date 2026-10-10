@@ -23,7 +23,7 @@ export const provinceNav = {
 export const categoryRoute: Record<string, string> = {
   'British Columbia Rehabs': '/british-columbia-rehabs/', 'Ontario Rehabs': '/ontario-rehabs/', 'Nova Scotia Rehabs': '/nova-scotia-rehabs/', 'Alberta Rehabs': '/alberta-rehabs/',
   'New Brunswick Rehabs': '/new-brunswick-rehabs/', 'Manitoba Rehabs': '/manitoba-rehabs/', 'Newfoundland and Labrador Rehabs': '/newfoundland-and-labrador-rehabs/',
-  'Quebec Rehabs': '/drug-alcohol-rehabs-in-quebec/', 'Saskatchewan Rehabs': '/saskatchewan-drug-rehab-treatment/', 'Northwest Territories Rehabs': '/northwest-territories-rehabs/',
+  'Quebec Rehabs': '/drug-alcohol-rehabs-in-quebec/', 'Saskatchewan Rehabs': '/saskatchewan-rehabs/', 'Northwest Territories Rehabs': '/northwest-territories-rehabs/',
 };
 
 /** Province links for the "Drug Rehab Centres By Provinces" blocks: a province whose page does not exist is shown as plain text (no link). */

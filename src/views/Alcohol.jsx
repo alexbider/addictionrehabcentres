@@ -439,9 +439,9 @@ class Component extends DCLogic {
       },
     ];
     const worst = [
-      ['QC', 'Quebec', B + 'quebec-drug-rehab-centers/'],
-      ['SK', 'Saskatchewan', B + 'saskatchewan-drug-rehab-treatment/'],
-      ['AB', 'Alberta', B + 'alcohol-drug-rehab-centres-in-alberta/'],
+      ['QC', 'Quebec', B + 'drug-alcohol-rehabs-in-quebec/'],
+      ['SK', 'Saskatchewan', B + 'saskatchewan-rehabs/'],
+      ['AB', 'Alberta', B + 'alberta-rehabs/'],
     ].map(([code, label, href]) => ({ code, label, href }));
     const effects = [
       'Cancer of the mouth, throat, esophagus, lips and liver',
@@ -1153,19 +1153,19 @@ function template(v) {
                     Quebec, Saskatchewan and Alberta
                   </h2>
                   <p style={{ fontSize: '15.5px', lineHeight: '1.65', color: '#b7c7d8' }}>
-                    <$A href="/quebec-drug-rehab-centers" style={{ color: '#7cc4f5' }}>
+                    <$A href="/drug-alcohol-rehabs-in-quebec" style={{ color: '#7cc4f5' }}>
                       Quebec
                     </$A>
                     ,{' '}
                     <$A
-                      href="/saskatchewan-drug-rehab-treatment"
+                      href="/saskatchewan-rehabs"
                       style={{ color: '#7cc4f5' }}
                     >
                       Saskatchewan
                     </$A>{' '}
                     and{' '}
                     <$A
-                      href="/alcohol-drug-rehab-centres-in-alberta"
+                      href="/alberta-rehabs"
                       style={{ color: '#7cc4f5' }}
                     >
                       Alberta

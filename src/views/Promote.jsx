@@ -270,7 +270,7 @@ class Component extends DCLogic {
             children: [{ label: 'Example article', href: '/blog/how-long-does-alcohol-detox-take' }],
           },
           { label: 'FAQ', href: B + 'faqs/' },
-          { label: 'Promote Your Centre', href: B + 'promote-your-centre/' },
+          { label: 'Promote Your Centre', href: B + 'promote/' },
           { label: 'Contact Us', href: '/contact' },
         ],
       },

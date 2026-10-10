@@ -1,3 +1,5 @@
+import { BeforeFooterProvider } from '@/components/BeforeFooter';
+import { RelatedLinks } from '@/components/RelatedLinks';
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Root as ProvinceView } from '@/views/Province';
@@ -45,7 +47,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={page} />
-      {view}
+      <BeforeFooterProvider extra={<RelatedLinks page={page} />}>{view}</BeforeFooterProvider>
     </>
   );
 }
