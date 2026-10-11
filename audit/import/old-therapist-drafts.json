@@ -1,0 +1,433 @@
+{
+ "generated_by": "audit/scripts/export-therapist-drafts.mjs",
+ "note": "These are the DESIGN SAMPLE cards of the four draft therapist pages (placeholder name \"Therapist name\", sample fees, \"verified: true\" hard-coded in the view). They are not real therapists and are not published.",
+ "files": {
+  "Therapists": {
+   "count": 6,
+   "fields": [
+    "name",
+    "credentials",
+    "city",
+    "session_mode",
+    "bio",
+    "tags",
+    "fee",
+    "availability"
+   ],
+   "records": [
+    {
+     "name": "Therapist name",
+     "credentials": "RP, MA — Registered Psychotherapist (CRPO)",
+     "city": "Toronto, ON",
+     "session_mode": "In person & online",
+     "bio": "Works with adults navigating alcohol and substance use, using CBT and motivational interviewing.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Anxiety",
+      "In person",
+      "Online"
+     ],
+     "fee": "$160",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "R.Psych — Registered Psychologist (CAP)",
+     "city": "Calgary, AB",
+     "session_mode": "Online",
+     "bio": "Trauma-informed care for people in early recovery and their families.",
+     "tags": [
+      "Trauma & PTSD",
+      "Addiction",
+      "Online"
+     ],
+     "fee": "$220",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "MSW, RSW — Registered Social Worker (OCSWSSW)",
+     "city": "Ottawa, ON",
+     "session_mode": "In person & online",
+     "bio": "Couples and family therapy where addiction has strained relationships.",
+     "tags": [
+      "Couples",
+      "Addiction",
+      "In person",
+      "Online"
+     ],
+     "fee": "$150",
+     "availability": "Waitlist · 2 weeks"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "RCC — Registered Clinical Counsellor (BCACC)",
+     "city": "Vancouver, BC",
+     "session_mode": "In person",
+     "bio": "Harm-reduction approach to substance use, anxiety and depression.",
+     "tags": [
+      "Addiction",
+      "Depression",
+      "Anxiety",
+      "In person"
+     ],
+     "fee": "$140",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "CCAC — Canadian Certified Addiction Counsellor",
+     "city": "Winnipeg, MB",
+     "session_mode": "Online",
+     "bio": "Relapse-prevention planning and aftercare support following residential treatment.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Online"
+     ],
+     "fee": "$120",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "Psychologue — OPQ",
+     "city": "Montréal, QC",
+     "session_mode": "In person & online",
+     "bio": "Bilingual therapy (FR/EN) for depression, anxiety and problem drinking.",
+     "tags": [
+      "Depression",
+      "Alcohol use",
+      "In person",
+      "Online"
+     ],
+     "fee": "$180",
+     "availability": "Waitlist · 1 week"
+    }
+   ]
+  },
+  "TherapistsCity": {
+   "count": 6,
+   "fields": [
+    "name",
+    "credentials",
+    "city",
+    "session_mode",
+    "bio",
+    "tags",
+    "fee",
+    "availability"
+   ],
+   "records": [
+    {
+     "name": "Therapist name",
+     "credentials": "RP, MA — Registered Psychotherapist (CRPO)",
+     "city": "Toronto, ON",
+     "session_mode": "In person & online",
+     "bio": "Works with adults navigating alcohol and substance use, using CBT and motivational interviewing.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Anxiety",
+      "In person",
+      "Online"
+     ],
+     "fee": "$160",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "R.Psych — Registered Psychologist (CAP)",
+     "city": "Calgary, AB",
+     "session_mode": "Online",
+     "bio": "Trauma-informed care for people in early recovery and their families.",
+     "tags": [
+      "Trauma & PTSD",
+      "Addiction",
+      "Online"
+     ],
+     "fee": "$220",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "MSW, RSW — Registered Social Worker (OCSWSSW)",
+     "city": "Ottawa, ON",
+     "session_mode": "In person & online",
+     "bio": "Couples and family therapy where addiction has strained relationships.",
+     "tags": [
+      "Couples",
+      "Addiction",
+      "In person",
+      "Online"
+     ],
+     "fee": "$150",
+     "availability": "Waitlist · 2 weeks"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "RCC — Registered Clinical Counsellor (BCACC)",
+     "city": "Vancouver, BC",
+     "session_mode": "In person",
+     "bio": "Harm-reduction approach to substance use, anxiety and depression.",
+     "tags": [
+      "Addiction",
+      "Depression",
+      "Anxiety",
+      "In person"
+     ],
+     "fee": "$140",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "CCAC — Canadian Certified Addiction Counsellor",
+     "city": "Winnipeg, MB",
+     "session_mode": "Online",
+     "bio": "Relapse-prevention planning and aftercare support following residential treatment.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Online"
+     ],
+     "fee": "$120",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "Psychologue — OPQ",
+     "city": "Montréal, QC",
+     "session_mode": "In person & online",
+     "bio": "Bilingual therapy (FR/EN) for depression, anxiety and problem drinking.",
+     "tags": [
+      "Depression",
+      "Alcohol use",
+      "In person",
+      "Online"
+     ],
+     "fee": "$180",
+     "availability": "Waitlist · 1 week"
+    }
+   ]
+  },
+  "TherapistsProvince": {
+   "count": 6,
+   "fields": [
+    "name",
+    "credentials",
+    "city",
+    "session_mode",
+    "bio",
+    "tags",
+    "fee",
+    "availability"
+   ],
+   "records": [
+    {
+     "name": "Therapist name",
+     "credentials": "RP, MA — Registered Psychotherapist (CRPO)",
+     "city": "Toronto, ON",
+     "session_mode": "In person & online",
+     "bio": "Works with adults navigating alcohol and substance use, using CBT and motivational interviewing.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Anxiety",
+      "In person",
+      "Online"
+     ],
+     "fee": "$160",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "R.Psych — Registered Psychologist (CAP)",
+     "city": "Calgary, AB",
+     "session_mode": "Online",
+     "bio": "Trauma-informed care for people in early recovery and their families.",
+     "tags": [
+      "Trauma & PTSD",
+      "Addiction",
+      "Online"
+     ],
+     "fee": "$220",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "MSW, RSW — Registered Social Worker (OCSWSSW)",
+     "city": "Ottawa, ON",
+     "session_mode": "In person & online",
+     "bio": "Couples and family therapy where addiction has strained relationships.",
+     "tags": [
+      "Couples",
+      "Addiction",
+      "In person",
+      "Online"
+     ],
+     "fee": "$150",
+     "availability": "Waitlist · 2 weeks"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "RCC — Registered Clinical Counsellor (BCACC)",
+     "city": "Vancouver, BC",
+     "session_mode": "In person",
+     "bio": "Harm-reduction approach to substance use, anxiety and depression.",
+     "tags": [
+      "Addiction",
+      "Depression",
+      "Anxiety",
+      "In person"
+     ],
+     "fee": "$140",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "CCAC — Canadian Certified Addiction Counsellor",
+     "city": "Winnipeg, MB",
+     "session_mode": "Online",
+     "bio": "Relapse-prevention planning and aftercare support following residential treatment.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Online"
+     ],
+     "fee": "$120",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "Psychologue — OPQ",
+     "city": "Montréal, QC",
+     "session_mode": "In person & online",
+     "bio": "Bilingual therapy (FR/EN) for depression, anxiety and problem drinking.",
+     "tags": [
+      "Depression",
+      "Alcohol use",
+      "In person",
+      "Online"
+     ],
+     "fee": "$180",
+     "availability": "Waitlist · 1 week"
+    }
+   ]
+  },
+  "TherapistProfile": {
+   "count": 6,
+   "fields": [
+    "name",
+    "credentials",
+    "city",
+    "session_mode",
+    "bio",
+    "tags",
+    "fee",
+    "availability"
+   ],
+   "records": [
+    {
+     "name": "Therapist name",
+     "credentials": "RP, MA — Registered Psychotherapist (CRPO)",
+     "city": "Toronto, ON",
+     "session_mode": "In person & online",
+     "bio": "Works with adults navigating alcohol and substance use, using CBT and motivational interviewing.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Anxiety",
+      "In person",
+      "Online"
+     ],
+     "fee": "$160",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "R.Psych — Registered Psychologist (CAP)",
+     "city": "Calgary, AB",
+     "session_mode": "Online",
+     "bio": "Trauma-informed care for people in early recovery and their families.",
+     "tags": [
+      "Trauma & PTSD",
+      "Addiction",
+      "Online"
+     ],
+     "fee": "$220",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "MSW, RSW — Registered Social Worker (OCSWSSW)",
+     "city": "Ottawa, ON",
+     "session_mode": "In person & online",
+     "bio": "Couples and family therapy where addiction has strained relationships.",
+     "tags": [
+      "Couples",
+      "Addiction",
+      "In person",
+      "Online"
+     ],
+     "fee": "$150",
+     "availability": "Waitlist · 2 weeks"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "RCC — Registered Clinical Counsellor (BCACC)",
+     "city": "Vancouver, BC",
+     "session_mode": "In person",
+     "bio": "Harm-reduction approach to substance use, anxiety and depression.",
+     "tags": [
+      "Addiction",
+      "Depression",
+      "Anxiety",
+      "In person"
+     ],
+     "fee": "$140",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "CCAC — Canadian Certified Addiction Counsellor",
+     "city": "Winnipeg, MB",
+     "session_mode": "Online",
+     "bio": "Relapse-prevention planning and aftercare support following residential treatment.",
+     "tags": [
+      "Addiction",
+      "Alcohol use",
+      "Online"
+     ],
+     "fee": "$120",
+     "availability": "Accepting new clients"
+    },
+    {
+     "name": "Therapist name",
+     "credentials": "Psychologue — OPQ",
+     "city": "Montréal, QC",
+     "session_mode": "In person & online",
+     "bio": "Bilingual therapy (FR/EN) for depression, anxiety and problem drinking.",
+     "tags": [
+      "Depression",
+      "Alcohol use",
+      "In person",
+      "Online"
+     ],
+     "fee": "$180",
+     "availability": "Waitlist · 1 week"
+    }
+   ]
+  }
+ },
+ "distinct_records": 6,
+ "fields_present_in_every_record": [
+  "name",
+  "credentials",
+  "city",
+  "session_mode",
+  "bio",
+  "tags",
+  "fee",
+  "availability"
+ ]
+}

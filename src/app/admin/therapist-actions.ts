@@ -17,8 +17,10 @@ export async function setTherapistStatus(fd: FormData) {
     const [p] = await db.select().from(schema.therapistProfiles).where(eq(schema.therapistProfiles.therapistId, id)).limit(1);
     if (!p || p.descriptionStatus === 'needs_review') return; // never publish text nobody has approved
   }
-  await db.update(schema.therapists).set({ status }).where(eq(schema.therapists.id, id));
+  const [row] = await db.update(schema.therapists).set({ status }).where(eq(schema.therapists.id, id)).returning({ slug: schema.therapists.slug });
+  if (row) revalidatePath(`/therapists/${row.slug}`);
   await audit(u.id, 'therapist.status', 'therapist', id, { status });
   revalidatePath('/admin/therapists/');
-  revalidatePath('/therapists/');
+  revalidatePath('/therapists');
+  revalidatePath('/sitemap.xml');
 }

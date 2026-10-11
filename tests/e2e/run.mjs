@@ -12,7 +12,9 @@ const ADMIN = { email: 'admin@example.test', password: 'Admin-Passw0rd-123' };
 const OWNER = { name: 'Test Owner', email: `owner-${Date.now()}@example.test`, password: 'Correct-Horse-9-Battery' };
 const SLUG = 'star-drug-testing-services'; // a restored listing with no pricing / insurance in the export
 fs.rmSync('.data/e2e-db', { recursive: true, force: true });
-const server = spawn('npx', ['next', 'start', '-p', String(PORT)], { env: { ...process.env, ARC_LOCAL_DB: '.data/e2e-db', ENABLE_DEV_OUTBOX: '1', ARC_SEED_ADMIN_EMAIL: ADMIN.email, ARC_SEED_ADMIN_PASSWORD: ADMIN.password, RESEND_API_KEY: '' }, stdio: ['ignore', 'pipe', 'pipe'] });
+fs.rmSync('.next-e2e', { recursive: true, force: true });
+fs.cpSync('.next', '.next-e2e', { recursive: true }); // pages regenerated during the test must not change the real build
+const server = spawn(process.execPath, ['node_modules/next/dist/bin/next', 'start', '-p', String(PORT)], { env: { ...process.env, NEXT_DIST_DIR: '.next-e2e', ARC_LOCAL_DB: '.data/e2e-db', ENABLE_DEV_OUTBOX: '1', ARC_SEED_ADMIN_EMAIL: ADMIN.email, ARC_SEED_ADMIN_PASSWORD: ADMIN.password, RESEND_API_KEY: '' }, stdio: ['ignore', 'pipe', 'pipe'] });
 let log = ''; server.stdout.on('data', (d) => (log += d)); server.stderr.on('data', (d) => (log += d));
 const stop = () => { try { server.kill('SIGTERM'); } catch {} };
 process.on('exit', stop);
@@ -127,6 +129,37 @@ try {
   const noCsrf = await fetch(`${BASE}/api/provider/profile`, { method: 'POST', headers: { 'content-type': 'application/json', origin: 'https://evil.example' }, body: '{}' });
   check('cross-site POST to the profile API is refused', noCsrf.status === 403);
   void ownerAdmin;
+
+  // 9. therapist: sign up → submit a profile → admin approves and publishes → public page shows only what was provided
+  const th = await (await browser.newContext()).newPage();
+  const TH = { name: 'Alex Rivera', email: `therapist-${Date.now()}@example.test`, password: 'Another-Long-Passw0rd' };
+  const sign = await th.request.post(BASE + '/api/auth/signup', { headers: { origin: BASE }, data: { name: TH.name, email: TH.email, password: TH.password, role: 'therapist' } });
+  check('therapist account created', sign.ok());
+  const tv = (await mail(TH.email)).find((m) => /Confirm your email/.test(m.subject));
+  await th.goto(tv.body.match(/https?:\/\/[^\s]+\/api\/auth\/verify\?token=[\w-]+/)[0].replace(/^https?:\/\/[^/]+/, BASE));
+  const sub = await th.request.post(BASE + '/api/forms/therapistOnboarding', { headers: { origin: BASE }, data: { email: TH.email, payload: { name: TH.name, email: TH.email, desig: 'RP', reg: 'SECRET-12345', city: 'Toronto', prov: 'ON', modes: ['Online'], concerns: ['Alcohol use'], tagline: 'Practical support for people changing how they drink.', bio: 'I am a registered psychotherapist. '.repeat(6) + 'This text was written by the therapist.', accepting: true } } });
+  check('therapist profile submission is saved', sub.ok());
+  await admin.goto(BASE + '/admin/onboarding/', { waitUntil: 'load' });
+  await admin.getByRole('button', { name: /Approve \(as draft\)/ }).last().click();
+  await admin.waitForLoadState('networkidle');
+  await admin.goto(BASE + '/admin/therapists/', { waitUntil: 'load' });
+  const before = await fetch(BASE + '/therapists/').then((r) => r.text());
+  check('no therapist is public before an admin publishes', !/Alex Rivera/.test(before) && /No therapist profiles are published yet/.test(before));
+  await admin.getByRole('button', { name: 'Publish' }).first().click();
+  await admin.waitForLoadState('networkidle');
+  let tp = '';
+  for (let i = 0; i < 20 && !/Alex Rivera/.test(tp); i++) { tp = await fetch(BASE + '/therapists/').then((r) => r.text()); await new Promise((r) => setTimeout(r, 600)); }
+  check('the published therapist appears in the directory (shared card)', /Alex Rivera/.test(tp) && /data-therapist-card/.test(tp));
+  const slug = tp.match(/href="\/therapists\/([a-z0-9-]+)\/"/)?.[1];
+  const page = await fetch(`${BASE}/therapists/${slug}/`).then((r) => r.text());
+  check('profile page shows the therapist\'s own text', /This text was written by the therapist/.test(page));
+  check('private fields are not on the page (e-mail, registration number)', !/SECRET-12345/.test(page) && !new RegExp(TH.email.replace('.', '\\.')).test(page));
+  check('fee was not provided, so no fee is shown', !/per session/.test(page));
+  check('a "Request removal" control is on the page', /Request removal of this profile/.test(page));
+  check('Person structured data uses only real fields', /"@type":"Person"/.test(page) && !/"telephone"/.test(page));
+  let sm = '';
+  for (let i = 0; i < 15 && !sm.includes(`/therapists/${slug}/`); i++) { sm = await fetch(BASE + '/sitemap.xml').then((r) => r.text()); await new Promise((r) => setTimeout(r, 600)); }
+  check('the published profile is in the sitemap', sm.includes(`/therapists/${slug}/`));
 } catch (e) {
   failed++;
   console.log('FAIL exception — ' + (e instanceof Error ? e.message.split('\n').slice(0, 4).join(' | ') : e));

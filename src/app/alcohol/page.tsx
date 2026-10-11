@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { assertDesignRoute } from '@/lib/design-routes';
 import { Root } from '@/views/Alcohol';
 
 export const metadata: Metadata = {
@@ -8,5 +9,6 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
+  assertDesignRoute(); // design sample page: 404 in production
   return <Root />;
 }

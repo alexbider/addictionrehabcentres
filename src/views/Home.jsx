@@ -2393,7 +2393,7 @@ function template(v) {
                 Our primary goal is to provide you with the best advice so that you and your family will have a
                 fulfilling life that's free from drugs and alcohol. Today, many addicts and families deal with the
                 traumatic effects of drug and{' '}
-                <$A href="/alcohol">alcohol addiction</$A> and as a result
+                <$A href="/alcohol-addiction-treatment/">alcohol addiction</$A> and as a result
                 they all tend to lose their hope. Significantly, there are many elements that affect hopelessness. For
                 example, an addict may have tried a{' '}
                 <$A href="/about-us">rehab treatment</$A> once or even more but have
@@ -3069,7 +3069,7 @@ function template(v) {
               <p style={{ fontSize: '17px', lineHeight: '1.7', color: '#3b4d63' }}>
                 When someone undergoes a detox procedure this simply means that he is undergoing a procedure wherein he
                 is safely and effectively removed from drug and{' '}
-                <$A href="/alcohol">alcohol addiction</$A>.{' '}
+                <$A href="/alcohol-addiction-treatment/">alcohol addiction</$A>.{' '}
                 <$A href="/detox-centres-in-canada">Detox programs</$A> in the country
                 come in two ways: the regular or standard detox and the medical detox.
               </p>
@@ -3107,7 +3107,7 @@ function template(v) {
                     This particular type of{' '}
                     <$A href="/detox-centres-in-canada">detox</$A> entails getting off
                     someone from certain medications such as pain killers,{' '}
-                    <$A href="/drug">benzodiazepine</$A>, etc.
+                    <$A href="/benzodiazepine-addiction/">benzodiazepine</$A>, etc.
                     Severe cases of alcoholism also need medical attention to help an alcoholic quit drinking.
                   </p>
                 </div>
@@ -3245,7 +3245,7 @@ function template(v) {
                   However, it is important to talk to a trusted authority first before getting into a particular
                   treatment program. To get that hope, it is important to talk to us and we will lead you in the right
                   direction based on what you specifically need – a life free from drugs and{' '}
-                  <$A href="/alcohol">alcohol</$A>.
+                  <$A href="/alcohol-addiction-treatment/">alcohol</$A>.
                 </p>
                 <div
                   style={{

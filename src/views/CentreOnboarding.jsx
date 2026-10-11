@@ -1278,7 +1278,7 @@ function template(v) {
                       </$A>
                       <$A
                         className="scp2"
-                        href="/centre"
+                        href="/twelve-mile-recovery/"
                         style={{
                           display: 'inline-flex',
                           alignItems: 'center',

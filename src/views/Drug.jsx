@@ -925,7 +925,7 @@ function template(v) {
                 ) : null}
                 {sample ? (
                 <p style={{ fontSize: '16.5px', lineHeight: '1.7', color: '#3b4d63', maxWidth: '620px' }}>
-                  <$A href="/drug">Benzodiazepine</$A> is a{' '}
+                  <$A href="/benzodiazepine-addiction/">Benzodiazepine</$A> is a{' '}
                   <$A href="/prescription-drugs-addiction">prescription medicine</$A>{' '}
                   that can cause addiction. A person can become addicted to this kind of drug in two ways: either he
                   gets addicted to it due to its recreational use or he develops benzodiazepine addiction or dependence

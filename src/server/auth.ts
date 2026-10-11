@@ -70,9 +70,17 @@ export const normEmail = (e: string) => e.trim().toLowerCase();
 /** Gives a verified user the centres whose claims an admin already approved for their email address. Called after sign-in and after e-mail confirmation. */
 export async function syncMemberships(userId: string, email: string): Promise<void> {
   const db = await requireDb();
+  await linkTherapistProfile(userId, email);
   const claims = await db.select().from(schema.claims).where(and(eq(schema.claims.email, email), eq(schema.claims.status, 'approved')));
   for (const c of claims) {
     await db.insert(schema.centreMembers).values({ userId, centreSlug: c.centreSlug, role: 'owner' }).onConflictDoNothing();
     if (!c.userId) await db.update(schema.claims).set({ userId }).where(eq(schema.claims.id, c.id));
   }
+}
+
+/** A therapist whose profile was created before they had an account is linked to the account with the same e-mail address. */
+export async function linkTherapistProfile(userId: string, email: string): Promise<void> {
+  const db = await requireDb();
+  const rows = await db.select({ id: schema.therapists.id, userId: schema.therapists.userId, data: schema.therapistProfiles.data }).from(schema.therapists).innerJoin(schema.therapistProfiles, eq(schema.therapistProfiles.therapistId, schema.therapists.id)).where(isNull(schema.therapists.userId));
+  for (const r of rows) if (String((r.data as { email?: string }).email || '').trim().toLowerCase() === email) await db.update(schema.therapists).set({ userId }).where(eq(schema.therapists.id, r.id));
 }

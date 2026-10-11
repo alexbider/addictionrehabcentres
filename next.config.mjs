@@ -4,6 +4,8 @@ const drafts = ['/therapists', '/therapists-province', '/therapists-city', '/the
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // The e2e test serves a throw-away copy of .next (it regenerates pages at run time and must not pollute the real build).
+  ...(process.env.NEXT_DIST_DIR ? { distDir: process.env.NEXT_DIST_DIR } : {}),
   reactStrictMode: true,
   // The footer's copyright year is fixed at build time (no hard-coded year).
   env: { NEXT_PUBLIC_BUILD_YEAR: String(new Date().getFullYear()) },

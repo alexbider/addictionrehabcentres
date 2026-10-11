@@ -69,6 +69,19 @@ class Component extends DCLogic {
       }
     } catch (e) {}
 
+    // /therapist-onboarding/?invite=<token>: an admin invited this person; pre-fill the e-mail and name.
+    try {
+      const tok = new URLSearchParams(window.location.search).get('invite');
+      if (tok) {
+        this.invite = tok;
+        fetch('/api/invite/' + encodeURIComponent(tok))
+          .then((r) => (r.ok ? r.json() : null))
+          .then((j) => {
+            if (j && j.ok) this.setState((st) => ({ d: { ...st.d, email: st.d.email || j.email || '', name: st.d.name || j.name || '' } }));
+          })
+          .catch(() => {});
+      }
+    } catch (e) {}
     try {
       const u = JSON.parse(localStorage.getItem('arc-auth-user') || 'null');
       if (u && u.signedIn) {
@@ -191,7 +204,7 @@ class Component extends DCLogic {
         // Saved on the server (onboarding_submissions) before the confirmation appears. Free; an admin reviews it, and nothing is published until the text is the therapist's own and approved.
         const hp = document.querySelector('input[name=company_website]');
         this.setState({ sending: true, formError: '', formFields: null });
-        postJson('/api/forms/therapistOnboarding', { email: d.email, payload: d, company_website: hp ? hp.value : '' }).then((r) => {
+        postJson('/api/forms/therapistOnboarding', { email: d.email, payload: d, invite: this.invite || undefined, company_website: hp ? hp.value : '' }).then((r) => {
           if (!r.ok) {
             this.setState({ sending: false, formError: r.error || 'Your submission was not sent.', formFields: r.fields || null });
             return;

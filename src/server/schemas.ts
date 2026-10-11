@@ -17,7 +17,8 @@ export const formSchemas = {
   subscribe: z.object({ ...base, email }),
   claim: z.object({ ...base, centreSlug: slug, name: required(120), email, phone, roleTitle: text(120).optional(), message: text(3000).optional() }),
   centreOnboarding: z.object({ ...base, email, payload: z.record(z.string(), z.unknown()) }),
-  therapistOnboarding: z.object({ ...base, email, payload: z.record(z.string(), z.unknown()) }),
+  therapistOnboarding: z.object({ ...base, email, payload: z.record(z.string(), z.unknown()), invite: z.string().max(200).optional() }),
+  enquiry: z.object({ ...base, therapistSlug: slug, name: required(120), email, phone, message: required(3000) }),
   removal: z.object({ ...base, therapistSlug: slug, name: text(120).optional(), email, reason: text(2000).optional() }),
 } as const;
 
@@ -48,3 +49,24 @@ export const profileSchema = z.object({
   photos: z.array(z.object({ url: z.string().url().max(500), alt: text(200).default('') })).max(30).optional(),
 });
 export type CentreProfile = z.infer<typeof profileSchema>;
+
+/** What a therapist may edit on their own profile (same keys as the onboarding form). Empty values are dropped. */
+const tlist = z.array(z.string().trim().min(1).max(80)).max(30);
+export const therapistProfileSchema = z.object({
+  name: z.string().trim().min(1).max(120),
+  phone: phone,
+  website: z.string().trim().url().max(300).optional().or(z.literal('')),
+  desig: z.string().trim().max(20).optional(),
+  years: z.string().trim().max(3).optional(),
+  city: z.string().trim().max(80).optional(),
+  prov: z.string().trim().length(2).optional(),
+  modes: tlist.optional(), langs: tlist.optional(), clients: tlist.optional(), concerns: tlist.optional(), approaches: tlist.optional(), payments: tlist.optional(),
+  accepting: z.boolean().optional(),
+  tagline: z.string().trim().max(200).optional(),
+  bio: z.string().trim().max(6000).optional(),
+  fee: z.string().trim().regex(/^(\d{2,4})?$/, 'Enter whole dollars, e.g. 150').optional(),
+  couples: z.string().trim().regex(/^(\d{2,4})?$/, 'Enter whole dollars, e.g. 200').optional(),
+  sliding: z.boolean().optional(),
+  consult: z.boolean().optional(),
+});
+export type TherapistProfileInput = z.infer<typeof therapistProfileSchema>;

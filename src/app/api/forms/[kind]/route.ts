@@ -5,11 +5,12 @@ import { formSchemas, type FormKind } from '@/server/schemas';
 import { sendEmail, notifyAdmin } from '@/server/email';
 import { rateLimit } from '@/server/ratelimit';
 import { audit } from '@/server/audit';
-import { hmac } from '@/server/crypto';
+import { hmac, sha256 } from '@/server/crypto';
 import { currentUser } from '@/server/auth';
 import { isJson, json, readJson, sameOrigin } from '@/server/request';
 import { verifyTurnstile } from '@/server/turnstile';
 import { getPageByRoute } from '@/lib/content';
+import { getTherapist } from '@/server/therapists';
 import { slugToRoute } from '@/lib/slug';
 
 const UNAVAILABLE = { ok: false, error: 'This form is temporarily unavailable, so nothing was sent. Please call 1-855-885-4747.' };
@@ -70,10 +71,22 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ kind: stri
     if (kind === 'centreOnboarding' || kind === 'therapistOnboarding') {
       const k = kind === 'centreOnboarding' ? 'centre' : 'therapist';
       const [s] = await db.insert(schema.onboardingSubmissions).values({ kind: k, userId: user?.id ?? null, email: d.email!, payload: d.payload as Record<string, unknown> }).returning({ id: schema.onboardingSubmissions.id });
+      if (typeof d.invite === 'string' && d.invite) await db.update(schema.invites).set({ usedAt: new Date() }).where(eq(schema.invites.tokenHash, sha256(d.invite)));
       await audit(user?.id ?? null, 'onboarding.submitted', 'onboarding', s.id, { kind: k });
       await notifyAdmin(`New ${k} submission`, `${d.email} submitted a ${k} profile. Review it in the admin: /admin/onboarding/`);
       await thanks(d.email!, `${k} submission`);
       return json({ ok: true, id: s.id });
+    }
+
+    if (kind === 'enquiry') {
+      const t = await getTherapist(d.therapistSlug as string);
+      if (!t) return json({ ok: false, error: 'This profile is not available.' }, 404);
+      const [l] = await db.insert(schema.leads).values({ type: 'enquiry', name: d.name ?? null, email: d.email ?? null, phone: d.phone || null, message: d.message ?? null, payload: { therapistSlug: t.slug }, sourcePath: d.sourcePath ?? null, ipHash }).returning({ id: schema.leads.id });
+      // Delivered to the therapist's own e-mail address (never shown on the page); the lead row is the record if e-mail is not configured.
+      if (t.data.email) await sendEmail(t.data.email, `New message from ${d.name} via Addiction Rehab Centres Canada`, `${d.name} (${d.email}${d.phone ? ', ' + d.phone : ''}) wrote:\n\n${d.message}\n\nReply to ${d.email}. Please do not share health information by e-mail.`);
+      await notifyAdmin('Therapist enquiry', `Enquiry for ${t.slug} from ${d.email}. Open /admin/leads/`);
+      await thanks(d.email!, 'message');
+      return json({ ok: true, id: l.id });
     }
 
     if (kind === 'removal') {

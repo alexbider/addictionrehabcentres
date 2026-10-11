@@ -138,6 +138,7 @@ export async function saveSeo(fd: FormData) {
   await audit(a.id, 'seo.saved', 'page', path, { noindex });
   revalidatePath(path);
   revalidatePath('/admin/seo/');
+  revalidatePath('/sitemap.xml');
 }
 
 export async function inviteByEmail(fd: FormData) {
