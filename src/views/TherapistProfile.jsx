@@ -818,8 +818,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.check,
-        title: 'Centre-verified details',
-        body: 'Providers claim and update their own listings, addresses and phone numbers.',
+        title: 'Claimable listings',
+        body: 'Centres can claim their listing to correct its address, phone number and details.',
       },
       {
         icon: ic.phone,
@@ -828,8 +828,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.doc,
-        title: 'Reviewed & updated',
-        body: 'Guide content reviewed by a clinical advisor and refreshed regularly.',
+        title: 'Kept current',
+        body: 'Each page shows when it was last updated, and centres can claim a listing to correct it.',
       },
     ];
     const faqData = [
@@ -2341,7 +2341,7 @@ function template(v) {
                 Working with {$i(tpFirst)}
               </h2>
               <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>
-                Reviewed by our clinical advisor. Still unsure? Call — it's free and confidential.
+                Still unsure? Call — it's free and confidential.
               </p>
               <$A
                 className="scp7"

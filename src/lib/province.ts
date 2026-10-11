@@ -23,7 +23,7 @@ export type ProvinceData = {
 export type ProvinceModel = {
   showSample: boolean; route: string; province: string; code: string; count: number; topCity: string;
   updatedLong: string; heroImage: { src: string; alt: string; width: number | null; height: number | null } | null;
-  filters: string[]; cardExtra: { tags: string[]; city: string }[];
+  filters: string[]; cardExtra: { tags: string[]; city: string; phone: string }[];
   cities: { name: string; n: number; href: string }[];
   faqs: { question: string; answer: string }[]; sources: string[];
   others: { label: string; href: string; code: string }[]; intro: string;
@@ -77,7 +77,7 @@ export function provinceModel(page: Page, province: string, cards: ProvinceData[
   const code = Object.entries(PROVINCE_NAMES).find(([, n]) => n === province)?.[0] ?? '';
   const dt = modified ? new Date(modified) : new Date();
   const cityOf = (addr: string) => { const parts = String(addr || '').split(',').map((x) => x.trim()); for (let i = 1; i < parts.length; i++) if (/^[A-Z]{2}(\s+[A-Z]\d[A-Z]\s?\d[A-Z]\d)?$/.test(parts[i])) return parts[i - 1]; return ''; };
-  const cardExtra = cards.map((c) => { const r = c.href ? centreByRoute(c.href) : null; const tags = (r?.tags ?? []).filter((t) => !GENERIC_TAGS.test(t)).slice(0, 2); return { tags: tags.length ? tags : r?.tags.slice(0, 2) ?? [], city: r?.city || cityOf(c.address) }; });
+  const cardExtra = cards.map((c) => { const r = c.href ? centreByRoute(c.href) : null; const tags = (r?.tags ?? []).filter((t) => !GENERIC_TAGS.test(t)).slice(0, 2); return { tags: tags.length ? tags : r?.tags.slice(0, 2) ?? [], city: r?.city || cityOf(c.address), phone: r?.phone ?? '' }; });
   // filters: the most common service tags among this province's centres
   const freq = new Map<string, number>();
   cardExtra.forEach((x) => x.tags.forEach((t) => freq.set(t, (freq.get(t) ?? 0) + 1)));

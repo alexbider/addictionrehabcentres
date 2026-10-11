@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import CentreCard from '@/components/CentreCard';
 import { buildGuide } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -820,6 +821,7 @@ class Component extends DCLogic {
       verified: i % 4 === 0,
       viewOn: !!c.href,
       rowOn: true,
+      phone: M.cardExtra[i].phone,
     }));
     const listings = D ? liveCards : filtered.slice(0, shown);
     const filters = filterNames.map((f) => ({
@@ -871,8 +873,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.check,
-        title: 'Centre-verified details',
-        body: 'Providers claim and update their own listings, addresses and phone numbers.',
+        title: 'Claimable listings',
+        body: 'Centres can claim their listing to correct its address, phone number and details.',
       },
       {
         icon: ic.phone,
@@ -881,8 +883,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.doc,
-        title: 'Reviewed & updated',
-        body: 'Guide content reviewed by a clinical advisor and refreshed regularly.',
+        title: 'Kept current',
+        body: 'Each page shows when it was last updated, and centres can claim a listing to correct it.',
       },
     ];
     const faqData = [
@@ -1401,8 +1403,8 @@ function template(v) {
                   }}
                 >
                   <option>Relevance</option>
-                  <option>Most reviewed</option>
-                  <option>Featured first</option>
+                  {showSample ? <option>Most reviewed</option> : null}
+                  {showSample ? <option>Featured first</option> : null}
                   <option>A – Z</option>
                 </select>
               </div>
@@ -1446,259 +1448,22 @@ function template(v) {
               </span>
             </div>
             ) : null}
-            <div
-              style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '22px' }}
-              data-cols="repeat(3,1fr)"
-            >
+            <div className="cc-grid">
               {$list(listings).map((c, $index) => (
-                <Fragment key={$index}>
-                  <article
-                    className="scpn"
-                    style={{
-                      background: '#fff',
-                      border: '1px solid #e3ecf4',
-                      borderRadius: '22px',
-                      overflow: 'hidden',
-                      display: c?.hide ? 'none' : 'flex',
-                      flexDirection: 'column',
-                      transition: 'transform .2s,box-shadow .2s',
-                    }}
-                  >
-                    <$A
-                      href={c?.href}
-                      aria-label={c?.img && c.img.alt ? undefined : c?.name}
-                      style={{
-                        position: 'relative',
-                        display: 'block',
-                        aspectRatio: '16/10',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
-                      }}
-                    >
-                      {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
-                      {sample && !c?.img ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          inset: '0',
-                          display: 'grid',
-                          placeItems: 'start center',
-                          paddingTop: '52px',
-                          font: '500 11.5px ui-monospace,Menlo,monospace',
-                          color: '#516378',
-                        }}
-                      >
-                        {$i(c?.photo)}
-                      </span>
-                      ) : null}
-                      <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
-                        {showSample && c?.featured ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '6px',
-                                height: '28px',
-                                padding: '0 11px 0 8px',
-                                borderRadius: '999px',
-                                background: 'rgba(16,35,58,.62)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255,255,255,.18)',
-                                color: '#fff',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.5)',
-                              }}
-                            >
-                              <svg width="14" height="14" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"
-                                  style={{ fill: '#F5B83D' }}
-                                />
-                              </svg>
-                              Featured
-                            </span>
-                          </>
-                        ) : null}
-                        {showSample && c?.verified ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '5px',
-                                height: '28px',
-                                padding: '0 11px 0 7px',
-                                borderRadius: '999px',
-                                background: 'rgba(255,255,255,.96)',
-                                color: '#10233a',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.45)',
-                              }}
-                            >
-                              <svg width="16" height="16" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 1.8l2.4 1.8 3-.2.9 2.9 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.9-3-.2L12 20.2l-2.4-1.8-3 .2-.9-2.9-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.9 3 .2z"
-                                  style={{ fill: '#0890E8' }}
-                                />
-                                <path
-                                  d="M8.2 11.3l2.6 2.6 5-5"
-                                  style={{
-                                    fill: 'none',
-                                    stroke: '#fff',
-                                    strokeWidth: '2.2',
-                                    strokeLinecap: 'round',
-                                    strokeLinejoin: 'round',
-                                  }}
-                                />
-                              </svg>
-                              Verified
-                            </span>
-                          </>
-                        ) : null}
-                      </span>
-                      {sample && showSample ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          right: '14px',
-                          bottom: '14px',
-                          background: '#fff',
-                          borderRadius: '10px',
-                          padding: '6px 10px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '7px',
-                          boxShadow: '0 8px 20px -10px rgba(16,35,58,.4)',
-                        }}
-                      >
-                        <span
-                          style={{
-                            font: '700 12px Figtree,sans-serif',
-                            background: 'conic-gradient(#4285F4 0 25%,#34A853 25% 50%,#FBBC05 50% 75%,#EA4335 75%)',
-                            color: 'transparent',
-                            WebkitBackgroundClip: 'text',
-                            backgroundClip: 'text',
-                          }}
-                        >
-                          G
-                        </span>
-                        <span style={{ color: '#F5A623', fontSize: '12px', letterSpacing: '1px' }}>★★★★★</span>
-                        <span style={{ font: '600 13px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
-                      </span>
-                      ) : null}
-                    </$A>
-                    <div
-                      style={{
-                        padding: '20px 20px 22px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '9px',
-                        flex: '1',
-                      }}
-                    >
-                      <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                        {$list(c?.tags).map((tg, $index) => (
-                          <Fragment key={$index}>
-                            <span
-                              style={{
-                                font: '500 11.5px Figtree,sans-serif',
-                                color: '#1f3550',
-                                background: '#eef4f9',
-                                padding: '4px 9px',
-                                borderRadius: '999px',
-                              }}
-                            >
-                              {$i(tg)}
-                            </span>
-                          </Fragment>
-                        ))}
-                      </div>
-                      <h3 style={{ fontSize: '19px', lineHeight: '1.25' }}>
-                        <$A className="scp0" href={c?.href} style={{ color: '#10233a' }}>
-                          {$i(c?.name)}
-                        </$A>
-                      </h3>
-                      <p
-                        style={{
-                          fontSize: '13.5px',
-                          color: '#6b7f95',
-                          display: 'flex',
-                          gap: '7px',
-                          alignItems: 'center',
-                        }}
-                      >
-                        <span
-                          style={{
-                            width: '7px',
-                            height: '7px',
-                            border: '1.5px solid #6b7f95',
-                            borderRadius: '50% 50% 50% 0',
-                            transform: 'rotate(-45deg)',
-                            flexShrink: '0',
-                          }}
-                        />
-                        {$i(c?.address)}
-                      </p>
-                      <p style={{ fontSize: '14.5px', lineHeight: '1.6', color: '#3b4d63' }}>{$i(c?.excerpt)}</p>
-                      {c?.rowOn ? (
-                      <div
-                        style={{
-                          marginTop: 'auto',
-                          paddingTop: '14px',
-                          borderTop: '1px solid #edf2f7',
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          alignItems: 'center',
-                          gap: '10px',
-                        }}
-                      >
-                        {sample && showSample ? (
-                        <span style={{ fontSize: '13px', color: '#6b7f95' }}>
-                          {$i(c?.googleReviews)} Google reviews · {$i(c?.reviews)}
-                        </span>
-                        ) : <span />}
-                        <div style={{ display: 'flex', gap: '6px' }}>
-                          {true ? (
-                          <$A
-                            className="scp7"
-                            href="tel:+18558854747"
-                            style={{
-                              font: '600 13px Jost,sans-serif',
-                              color: '#0890E8',
-                              border: '1.5px solid #0890E8',
-                              padding: '7px 12px',
-                              borderRadius: '9px',
-                            }}
-                          >
-                            Call
-                          </$A>
-                          ) : null}
-                          {c?.viewOn ? (
-                          <$A
-                            className="scp7"
-                            href={c?.href}
-                            style={{
-                              font: '600 13px Jost,sans-serif',
-                              color: '#fff',
-                              background: '#10233a',
-                              padding: '7px 12px',
-                              borderRadius: '9px',
-                            }}
-                          >
-                            View
-                          </$A>
-                          ) : null}
-                        </div>
-                      </div>
-                      ) : null}
-                    </div>
-                  </article>
-                </Fragment>
+                <div key={$index + '-' + (c?.href || c?.name)} style={{ display: c?.hide ? 'none' : 'contents' }}>
+                <CentreCard
+                  name={c?.name}
+                  href={c?.viewOn ? c?.href : null}
+                  image={c?.img}
+                  eager={!!c?.eager}
+                  location={c?.address}
+                  tags={c?.tags}
+                  excerpt={c?.excerpt}
+                  phone={c?.phone}
+                  rating={showSample ? { value: c?.rating, count: c?.googleReviews } : null}
+                  badges={showSample ? [c?.featured ? 'Featured' : '', c?.verified ? 'Verified' : ''].filter(Boolean) : []}
+                />
+                </div>
               ))}
             </div>
             {hasMore ? (
@@ -1926,23 +1691,6 @@ function template(v) {
                     <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>{$i(authorRole)}</div>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  {avatarNode}
-                  <div>
-                    <div
-                      style={{
-                        font: '600 11px Figtree,sans-serif',
-                        letterSpacing: '.1em',
-                        textTransform: 'uppercase',
-                        color: '#6b7f95',
-                      }}
-                    >
-                      Medically reviewed by
-                    </div>
-                    <div style={{ font: '600 14.5px Jost,sans-serif' }}>{$i(reviewerName)}</div>
-                    <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>{$i(reviewerRole)}</div>
-                  </div>
-                </div>
                 <div
                   style={{
                     fontSize: '12.5px',
@@ -1955,7 +1703,6 @@ function template(v) {
                   }}
                 >
                   <span>Last updated {$i(updatedLong)}</span>
-                  <span>Est. reading time 4 minutes</span>
                 </div>
               </div>
               ) : null}

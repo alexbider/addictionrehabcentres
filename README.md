@@ -68,3 +68,26 @@ The site header is `src/views/SiteHeader.jsx`, used by every page.
 * **Fonts** (Jost, Figtree) are self-hosted via `@fontsource`.
 * Pages without a `<title>` in the design use the site name; set per-page titles in each `page.tsx`.
 * HTML `required` / `multiple` now work as written (the design's runtime ignored them).
+
+## Environment variables
+
+Every variable is documented in `.env.example` (no secrets are committed). The ones the public site uses today:
+
+| Variable | Purpose |
+|---|---|
+| `NEXT_PUBLIC_SITE_URL` | Production origin used for canonicals, sitemap and schema (default `https://addictionrehabcenters.ca`). |
+| `REDIRECT_PREVIEW_TO_CANONICAL` | `true` = every `*.vercel.app` request is 301'd to the production domain (turn on once the domain is attached). |
+| `NEXT_PUBLIC_GA_ID`, `NEXT_PUBLIC_META_PIXEL_ID`, `NEXT_PUBLIC_SMARTSUPP_KEY` | Analytics IDs (defaults = the old site's IDs). Scripts only load in a production build on the `.ca` host. |
+| `GOOGLE_PLACES_API_KEY` | **To enable reviews: add `GOOGLE_PLACES_API_KEY`** and a Google `place_id` per centre (`src/data/place-ids.json`, later the admin). Ratings, review counts and review text are shown only when they come from the Places API (cached 24 h, "Powered by Google"). Without them nothing about reviews is rendered. |
+| `SHOW_SAMPLE_DATA` | `true` shows the design's demo ratings/prices/badges (for comparing with the design files only). Default `false`; never set in production. |
+| `ENABLE_DESIGN_ROUTES` | `1` serves `/claim-design/` and `/promote-design/` in a production build (they are 404 otherwise; `next dev` always serves them for `audit/scripts/compare-design.mjs`). |
+
+## Tests
+
+```bash
+npm run build && npm start -- -p 3300
+npm run test:cards      # card heights and "Call now" / "View centre" y-offsets at 1440 / 1024 / 768 / 390
+npm run test:lightbox   # gallery lightbox: click, next, previous, arrows, swipe, Esc, focus trap
+python3 audit/seo/arc_check.py http://localhost:3300      # SEO migration acceptance test
+node audit/scripts/crawl-site.mjs http://localhost:3300   # 404 links, broken images, missing canonical/title/description, orphans
+```

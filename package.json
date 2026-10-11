@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test:cards": "node tests/card-alignment.mjs http://localhost:3300 / /alberta-rehabs/ /toronto-rehabs/ /listing-location/winnipeg/ /benzodiazepine-addiction/ /twelve-mile-recovery/ /search/",
+    "test:lightbox": "node tests/lightbox.mjs http://localhost:3300"
   },
   "dependencies": {
     "@fontsource/figtree": "^5.2.0",

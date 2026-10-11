@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import CentreCard from '@/components/CentreCard';
 import { buildBody, TYPO_DRUG } from '@/dc/guide';
 import { HelpSection, LinkTiles } from '@/dc/parts';
 
@@ -1169,225 +1170,19 @@ function template(v) {
               }}
             >
               {$list(centres).map((c, $index) => (
-                <Fragment key={$index}>
-                  <article
-                    className="scpn"
-                    style={{
-                      scrollSnapAlign: 'start',
-                      background: '#fff',
-                      border: '1px solid #e3ecf4',
-                      borderRadius: '22px',
-                      overflow: 'hidden',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      transition: 'transform .2s,box-shadow .2s',
-                    }}
-                  >
-                    <$A
-                      href={c?.href}
-                      style={{
-                        position: 'relative',
-                        display: 'block',
-                        aspectRatio: '16/10',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
-                      }}
-                    >
-                      {c?.image ? (
-                        <img
-                          src={c.image.src}
-                          alt={c.image.alt}
-                          width={c.image.width || undefined}
-                          height={c.image.height || undefined}
-                          loading="lazy"
-                          style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                        />
-                      ) : (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          inset: '0',
-                          display: 'grid',
-                          placeItems: 'start center',
-                          paddingTop: '52px',
-                          font: '500 11.5px ui-monospace,Menlo,monospace',
-                          color: '#516378',
-                        }}
-                      >
-                        {$i(c?.photo)}
-                      </span>
-                      )}
-                      <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
-                        {showSample && c?.featured ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '6px',
-                                height: '28px',
-                                padding: '0 11px 0 8px',
-                                borderRadius: '999px',
-                                background: 'rgba(16,35,58,.62)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255,255,255,.18)',
-                                color: '#fff',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.5)',
-                              }}
-                            >
-                              <svg width="14" height="14" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"
-                                  style={{ fill: '#F5B83D' }}
-                                />
-                              </svg>
-                              Featured
-                            </span>
-                          </>
-                        ) : null}
-                        {showSample && c?.verified ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '5px',
-                                height: '28px',
-                                padding: '0 11px 0 7px',
-                                borderRadius: '999px',
-                                background: 'rgba(255,255,255,.96)',
-                                color: '#10233a',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.45)',
-                              }}
-                            >
-                              <svg width="16" height="16" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 1.8l2.4 1.8 3-.2.9 2.9 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.9-3-.2L12 20.2l-2.4-1.8-3 .2-.9-2.9-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.9 3 .2z"
-                                  style={{ fill: '#0890E8' }}
-                                />
-                                <path
-                                  d="M8.2 11.3l2.6 2.6 5-5"
-                                  style={{
-                                    fill: 'none',
-                                    stroke: '#fff',
-                                    strokeWidth: '2.2',
-                                    strokeLinecap: 'round',
-                                    strokeLinejoin: 'round',
-                                  }}
-                                />
-                              </svg>
-                              Verified
-                            </span>
-                          </>
-                        ) : null}
-                      </span>
-                      {showSample ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          right: '14px',
-                          bottom: '14px',
-                          background: '#fff',
-                          borderRadius: '10px',
-                          padding: '6px 10px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '7px',
-                          boxShadow: '0 8px 20px -10px rgba(16,35,58,.4)',
-                        }}
-                      >
-                        <span
-                          style={{
-                            font: '700 12px Figtree,sans-serif',
-                            background: 'conic-gradient(#4285F4 0 25%,#34A853 25% 50%,#FBBC05 50% 75%,#EA4335 75%)',
-                            color: 'transparent',
-                            WebkitBackgroundClip: 'text',
-                            backgroundClip: 'text',
-                          }}
-                        >
-                          G
-                        </span>
-                        <span style={{ color: '#F5A623', fontSize: '12px', letterSpacing: '1px' }}>★★★★★</span>
-                        <span style={{ font: '600 13px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
-                      </span>
-                      ) : null}
-                    </$A>
-                    <div
-                      style={{
-                        padding: '22px 22px 24px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '10px',
-                        flex: '1',
-                      }}
-                    >
-                      <$A
-                        href={c?.catHref}
-                        style={{
-                          font: '600 12px Figtree,sans-serif',
-                          letterSpacing: '.1em',
-                          textTransform: 'uppercase',
-                        }}
-                      >
-                        {$i(c?.category)}
-                      </$A>
-                      <h3 style={{ fontSize: '21px', lineHeight: '1.25' }}>
-                        <$A className="scp0" href={c?.href} style={{ color: '#10233a' }}>
-                          {$i(c?.name)}
-                        </$A>
-                      </h3>
-                      <p
-                        style={{
-                          fontSize: '13.5px',
-                          color: '#6b7f95',
-                          display: 'flex',
-                          gap: '7px',
-                          alignItems: 'center',
-                        }}
-                      >
-                        <span
-                          style={{
-                            width: '7px',
-                            height: '7px',
-                            border: '1.5px solid #6b7f95',
-                            borderRadius: '50% 50% 50% 0',
-                            transform: 'rotate(-45deg)',
-                            flexShrink: '0',
-                          }}
-                        />
-                        {$i(c?.address)}
-                      </p>
-                      <p style={{ fontSize: '15px', lineHeight: '1.6', color: '#3b4d63' }}>{$i(c?.excerpt)}</p>
-                      <div
-                        style={{
-                          marginTop: 'auto',
-                          paddingTop: '14px',
-                          borderTop: '1px solid #edf2f7',
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          alignItems: 'center',
-                        }}
-                      >
-                        {showSample ? (
-                        <span style={{ fontSize: '13.5px', color: '#6b7f95' }}>
-                          {$i(c?.googleReviews)} Google reviews
-                        </span>
-                        ) : (
-                        <span />
-                        )}
-                        <$A href={c?.href} style={{ font: '600 14px Jost,sans-serif' }}>
-                          View centre →
-                        </$A>
-                      </div>
-                    </div>
-                  </article>
-                </Fragment>
+                <div key={$index + '-' + (c?.href || '')} style={{ scrollSnapAlign: 'start', display: 'flex', minWidth: 0 }}>
+                  <CentreCard
+                    name={c?.name}
+                    href={c?.href}
+                    image={c?.image}
+                    location={c?.address}
+                    tags={c?.category ? [c.category] : []}
+                    excerpt={c?.excerpt}
+                    phone={c?.phone}
+                    rating={showSample ? { value: c?.rating, count: c?.googleReviews } : null}
+                    badges={showSample ? [c?.featured ? 'Featured' : '', c?.verified ? 'Verified' : ''].filter(Boolean) : []}
+                  />
+                </div>
               ))}
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '24px' }}>
@@ -1497,23 +1292,6 @@ function template(v) {
                     <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>Addiction Rehab Centres Canada</div>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  {avatarNode}
-                  <div>
-                    <div
-                      style={{
-                        font: '600 11px Figtree,sans-serif',
-                        letterSpacing: '.1em',
-                        textTransform: 'uppercase',
-                        color: '#6b7f95',
-                      }}
-                    >
-                      Medically reviewed by
-                    </div>
-                    <div style={{ font: '600 14.5px Jost,sans-serif' }}>{$i(reviewerName)}</div>
-                    <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>Addiction medicine physician</div>
-                  </div>
-                </div>
                 <div
                   style={{
                     fontSize: '12.5px',
@@ -1526,7 +1304,6 @@ function template(v) {
                   }}
                 >
                   <span>Last updated March 3, 2026</span>
-                  <span>Est. reading time 3 minutes</span>
                 </div>
               </div>
               <$A
@@ -2248,7 +2025,7 @@ function template(v) {
                 {$i(submitLabel)}
               </button>
               <p style={{ fontSize: '12.5px', color: '#6b7f95', textAlign: 'center' }}>
-                Confidential · No obligation · A specialist calls back within the hour, 24/7
+                Confidential · No obligation
               </p>
             </form>
           </div>
@@ -2285,7 +2062,7 @@ function template(v) {
                 {$i(faqHeadingText)}
               </h2>
               <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>
-                Reviewed by our clinical advisor. Still unsure? Call — it's free and confidential.
+                Still unsure? Call — it's free and confidential.
               </p>
               <$A
                 className="scp7"

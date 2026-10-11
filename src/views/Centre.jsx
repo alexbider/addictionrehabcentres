@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import CentreCard from '@/components/CentreCard';
+import GalleryGrid from '@/components/GalleryGrid';
 import { buildBody, clean } from '@/dc/guide';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
@@ -958,18 +960,11 @@ class Component extends DCLogic {
     if (D) {
       const imgOf = (x, i, extra) => R('img', { src: x.src, alt: x.alt || '', width: x.width || undefined, height: x.height || undefined, loading: i === 0 ? 'eager' : 'lazy', fetchPriority: i === 0 ? 'high' : undefined, style: { width: '100%', height: '100%', objectFit: 'cover', display: 'block', ...(extra || {}) } });
       // ---- hero gallery: the centre's real photos in the design's 2fr/1fr/1fr grid (fewer than 5 photos: the same grid with fewer tiles)
-      const top = M.images.slice(0, 5);
-      const n = top.length;
-      const cols = n <= 1 ? 'minmax(0,1fr)' : n <= 3 ? '2fr 1fr' : '2fr 1fr 1fr';
-      const place = (i) => (n >= 3 && i === 0 ? { gridRow: '1/3' } : n === 4 && i === 3 ? { gridColumn: '2/4' } : {});
-      const tile = (x, i) => R('div', { key: i, style: { ...place(i), minHeight: '0', borderRadius: '16px', overflow: 'hidden', height: '100%', background: '#eaf2f8' } }, imgOf(x, i));
-      const photoBtn = R('button', { key: 'btn', className: 'scp2', style: { position: 'absolute', right: '16px', bottom: '16px', appearance: 'none', cursor: 'pointer', font: '600 14px Jost,sans-serif', color: '#10233a', background: '#fff', border: '1px solid #dbe6f0', padding: '10px 16px', borderRadius: '10px', display: 'flex', alignItems: 'center', gap: '8px', boxShadow: '0 10px 24px -14px rgba(16,35,58,.5)' } }, ic.dual, 'Show all ' + M.photoCount + ' photos');
-      const unclaimedBadge = R('span', { key: 'badge', style: { position: 'absolute', left: '16px', top: '16px', display: 'flex', gap: '6px' } },
+      // The hero grid and its "Show all photos" button open the lightbox (src/components/GalleryGrid.tsx).
+      const unclaimedBadge = R('span', { key: 'badge', style: { position: 'absolute', left: '16px', top: '16px', display: 'flex', gap: '6px', pointerEvents: 'none' } },
         R('span', { style: { background: '#fff', color: '#6b7f95', font: '600 11px Jost,sans-serif', letterSpacing: '.04em', padding: '6px 10px', borderRadius: '999px', display: 'flex', alignItems: 'center', gap: '5px' } },
           R('span', { style: { width: '6px', height: '6px', borderRadius: '50%', background: '#b7c7d8' } }), 'UNCLAIMED LISTING'));
-      const galleryNode = n
-        ? R('div', { style: { position: 'relative', display: 'grid', gridTemplateColumns: cols, gridTemplateRows: n <= 2 ? '1fr' : '1fr 1fr', gap: '10px', height: '440px' }, 'data-cols': '2fr 1fr 1fr' }, ...top.map(tile), photoBtn, unclaimedBadge)
-        : null;
+      const galleryNode = M.images.length ? R(GalleryGrid, { images: M.images, photoIcon: ic.dual }, unclaimedBadge) : null;
       // ---- body: intro, overview, the rest of the article
       const article = buildBody(R, M.rest, { columns: true }).nodes;
       // ---- video: the centre's own embed when it has one
@@ -1009,10 +1004,10 @@ class Component extends DCLogic {
       // ---- pricing / team / reviews: the design's sample values behind SHOW_SAMPLE_DATA; neutral text without them
       const noSample = !showSample;
       const priceLive = noSample
-        ? { priceTabs: [{ label: 'Pricing', select: () => {}, bg: '#0890E8', color: '#fff' }], priceCols: '1fr 1fr', priceHead: ['Program', 'Cost'], priceCells: [{ v: 'All programs', font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: 'Contact the centre for current fees', font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }], priceNote: 'Fees are set by the centre and depend on the program and length of stay. Call ' + D.name + ' or our free helpline for current pricing.' }
+        ? { priceTabs: [{ label: 'Pricing', select: () => {}, bg: '#0890E8', color: '#fff' }], priceCols: '1fr 1fr', priceHead: ['Item', 'As listed'], priceCells: [{ v: 'Cost', font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: M.fromPrice || '', font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }, ...((M.glance.find((g) => g.k === 'Program length') || {}).v ? [{ v: 'Program length', font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: M.glance.find((g) => g.k === 'Program length').v, font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }] : [])], priceNote: 'Shown as listed for this centre; fees can change, so confirm current pricing with ' + D.name + '.' }
         : { priceNote: active.note + ' Fees depend on the program and length of stay; confirm current fees with ' + D.name + '.' };
       liveBase = {
-        sectionTabs,
+        sectionTabs: sectionTabs.filter((t) => (t.label !== 'Reviews' || !!M.reviews) && (t.label !== 'Programs & Pricing' || showSample || !!M.fromPrice)),
         centres: othersLive,
         slideDots: Array.from({ length: pagesLive }, (_, i) => ({ go: () => this.slideTo(i, othersLive.length), w: i === sl ? '28px' : '8px', bg: i === sl ? '#0890E8' : '#dbe6f0' })),
         slidePos: sl + 1 + ' / ' + pagesLive,
@@ -1022,7 +1017,7 @@ class Component extends DCLogic {
         glance: M.glance,
         serviceGroups: M.serviceGroups.map(toIcon),
         serviceCount: M.serviceCount,
-        pillars: M.pillars.map((pl) => ({ ...pl, cols: 'minmax(160px,.8fr) minmax(0,1.4fr)', dir: 'ltr', photoImg: pl.photo })).map((pl, i) => ({ ...pl, dir: i % 2 ? 'rtl' : 'ltr' })),
+        pillars: [], // the design's three generic paragraphs (setting / aftercare / people) are filler, not centre data
         programSteps: [
           { n: '01', icon: ic.phone, label: 'Reach out', body: 'Call the centre or our free helpline, or request a callback.' },
           { n: '02', icon: ic.person, label: 'Talk it through', body: 'A short, confidential conversation about your situation and goals.' },
@@ -1058,7 +1053,8 @@ class Component extends DCLogic {
         locMapNode: mapNode,
         locSocial,
         directionsHref: M.location.directionsHref,
-        priceCaption: showSample ? 'Example prices in CAD from the design. Confirm current fees directly with ' + D.name + '.' : 'Fees vary by program. Contact ' + D.name + ' for current pricing.',
+        priceOn: showSample || !!M.fromPrice,
+        priceCaption: showSample ? 'Example prices in CAD from the design. Confirm current fees directly with ' + D.name + '.' : 'The cost listed for ' + D.name + '.',
         priceCta: 'Confirm pricing with the centre',
         priceCtaHref: D.phoneHref || 'tel:+18558854747',
         faqIntro: D.faqs && D.faqs.length ? "Answers come from the centre's own listing. Still unsure? Call — it's free and confidential." : "Common questions answered. Still unsure? Call — it's free and confidential.",
@@ -1099,8 +1095,13 @@ class Component extends DCLogic {
       unclaimed: D ? true : !claimed,
       centreProvince: D ? M.provinceName : centreProvince,
       photoCount: D ? M.photoCount : 21,
-      reviewCount: D ? M.reviews.count : null,
-      reviewHref: D ? M.reviews.googleHref : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(this.props.centreName ?? 'Metamorphosis Centre for Change Wasaga Beach'),
+      reviewCount: D ? (M.reviews ? M.reviews.count : null) : null,
+      reviewRating: D && M.reviews ? M.reviews.rating.toFixed(1) : '',
+      reviewsOn: D ? !!M.reviews : true,
+      priceOn: true,
+      reviewItems: D && M.reviews ? M.reviews.reviews : [],
+      reviewWrite: D && M.reviews ? M.reviews.writeReviewUri : '',
+      reviewHref: D ? (M.reviews && M.reviews.mapsUri ? M.reviews.mapsUri : '') : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(this.props.centreName ?? 'Metamorphosis Centre for Change Wasaga Beach'),
       centreUpdated: 'Nov 2025',
       centreUpdatedLong: 'November 27, 2025',
       fromPrice: D ? M.fromPrice || '$19,900' : '$19,900',
@@ -1121,11 +1122,6 @@ class Component extends DCLogic {
           icon: ic.doc,
           title: 'Control your content',
           body: 'Edit programs, pricing, photos, video and team profiles any time.',
-        },
-        {
-          icon: ic.heart,
-          title: 'Respond to reviews',
-          body: 'Reply publicly and flag reviews that break our guidelines.',
         },
         {
           icon: ic.phone,
@@ -1328,6 +1324,11 @@ function template(v) {
     toggleAck,
     reviewCount,
     reviewHref,
+    reviewRating,
+    reviewsOn,
+    priceOn,
+    reviewItems,
+    reviewWrite,
     unclaimed,
     verifyNote,
     whoOptions,
@@ -1716,7 +1717,7 @@ function template(v) {
                     >
                       G
                     </span>
-                    <span style={{ font: '600 14px Jost,sans-serif', color: '#10233a' }}>{$i(reviewCount)}</span>
+                    <span style={{ font: '600 14px Jost,sans-serif', color: '#10233a' }}>{$i(reviewRating ? '★ ' + reviewRating + ' · ' + reviewCount : reviewCount)}</span>
                     <span style={{ fontSize: '12.5px', color: '#6b7f95' }}>Google reviews</span>
                   </span>
                   <span style={{ fontSize: '14px', color: '#516378' }}>·</span>
@@ -1919,8 +1920,7 @@ function template(v) {
                     >
                       <div style={{ font: '600 14px Jost,sans-serif', color: '#10233a' }}>Is this your centre?</div>
                       <p style={{ fontSize: '13px', lineHeight: '1.5', color: '#516378' }}>
-                        Claim this free listing to update details, add photos and pricing, respond to reviews and
-                        receive callbacks directly.
+                        Claim this free listing to update details, add photos and pricing, and see enquiries from this page.
                       </p>
                       <$A
                         className="scpa"
@@ -2180,6 +2180,7 @@ function template(v) {
                 ))}
               </div>
               {afterNodes}
+              {sample ? (
               <div
                 style={{
                   background: '#10233a',
@@ -2253,6 +2254,7 @@ function template(v) {
                   ))}
                 </div>
               </div>
+              ) : null}
               </>
             </article>
             <aside
@@ -2331,6 +2333,7 @@ function template(v) {
                   gap: '14px',
                 }}
               >
+                {sample ? (
                 <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
                   {avatarNode}
                   <div>
@@ -2348,12 +2351,14 @@ function template(v) {
                     <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>Addiction Rehab Centres Canada</div>
                   </div>
                 </div>
+                ) : null}
                 <p style={{ fontSize: '13px', lineHeight: '1.55', color: '#516378' }}>{$i(verifyNote)}</p>
               </div>
             </aside>
           </div>
         </section>
         <>
+        {priceOn ? (
         <section
           id="pricing"
           data-screen-label={'Programs & Pricing'}
@@ -2471,6 +2476,8 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
+        {reviewsOn ? (
         <section
           id="reviews"
           data-screen-label="Reviews"
@@ -2514,11 +2521,12 @@ function template(v) {
                 Reviews
               </span>
               {reviewCount ? (
-                <p style={{ fontSize: '13.5px', color: '#6b7f95' }}>{$i(reviewCount)} Google reviews</p>
+                <p style={{ fontSize: '13.5px', color: '#5d7188' }}>{$i(reviewRating)} ★ · {$i(reviewCount)} Google reviews</p>
               ) : null}
+              {reviewWrite ? (
               <$A
                 className="scp7"
-                href={reviewHref}
+                href={reviewWrite}
                 target="_blank"
                 rel="noopener"
                 style={{
@@ -2533,27 +2541,24 @@ function template(v) {
               >
                 Write a review
               </$A>
-              <p style={{ fontSize: '12px', color: '#6b7f95', lineHeight: '1.5' }}>
-                Reviews are from former clients and families. We moderate reviews for authenticity.
-              </p>
+              ) : null}
+              <p style={{ fontSize: '12px', color: '#5d7188', lineHeight: '1.5' }}>Powered by Google</p>
             </div>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
-              <article
-                style={{
-                  background: '#fff',
-                  border: '1px solid #e3ecf4',
-                  borderRadius: '20px',
-                  padding: '22px 24px',
-                  display: 'flex',
-                  flexDirection: 'column',
-                  gap: '10px',
-                }}
-              >
-                <div style={{ font: '600 17px Jost,sans-serif', color: '#10233a' }}>Be the first to share your experience</div>
-                <p style={{ fontSize: '15px', lineHeight: '1.65', color: '#3b4d63' }}>
-                  Reviews help families choose treatment with confidence. If you or a loved one has been through this centre's program, tell others what it was like. We moderate reviews for authenticity.
-                </p>
-              </article>
+              {$list(reviewItems).map((r, $index) => (
+                <article key={$index} style={{ background: '#fff', border: '1px solid #e3ecf4', borderRadius: '20px', padding: '22px 24px', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', gap: '12px', alignItems: 'baseline', flexWrap: 'wrap' }}>
+                    <span style={{ font: '600 16px Jost,sans-serif', color: '#10233a' }}>
+                      {r.authorUri ? <a href={r.authorUri} target="_blank" rel="noopener noreferrer">{r.author}</a> : r.author}
+                    </span>
+                    <span style={{ fontSize: '13px', color: '#5d7188' }}>
+                      <span style={{ color: '#F5A623' }} aria-label={r.rating + ' out of 5 stars'}>{'★'.repeat(Math.round(r.rating))}</span> {r.when}
+                    </span>
+                  </div>
+                  <p style={{ fontSize: '15px', lineHeight: '1.65', color: '#3b4d63', margin: 0 }}>{r.text}</p>
+                </article>
+              ))}
+              {reviewHref ? (
               <$A
                 href={reviewHref}
                 target="_blank"
@@ -2578,9 +2583,11 @@ function template(v) {
                   }}
                 />
               </$A>
+              ) : null}
             </div>
           </div>
         </section>
+        ) : null}
         <section
           id="location"
           data-screen-label="Location"
@@ -3116,7 +3123,7 @@ function template(v) {
                 {$i(submitLabel)}
               </button>
               <p style={{ fontSize: '12.5px', color: '#6b7f95', textAlign: 'center' }}>
-                Confidential · No obligation · A specialist calls back within the hour, 24/7
+                Confidential · No obligation
               </p>
             </form>
           </div>
@@ -3154,8 +3161,7 @@ function template(v) {
                   </h2>
                   <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#b7c7d8' }}>
                     This page was built from public information and has not been confirmed by the centre. Claiming takes
-                    a few minutes and gives you full control of how {$i(centreName)} appears to the{' '}
-                    {$i(monthlyVisitors)} people who search this site every month.
+                    a few minutes and gives you full control of how {$i(centreName)} appears on this site.
                   </p>
                   <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                     <$A
@@ -3456,225 +3462,19 @@ function template(v) {
               }}
             >
               {$list(centres).map((c, $index) => (
-                <Fragment key={$index}>
-                  <article
-                    className="scpn"
-                    style={{
-                      scrollSnapAlign: 'start',
-                      background: '#fff',
-                      border: '1px solid #e3ecf4',
-                      borderRadius: '22px',
-                      overflow: 'hidden',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      transition: 'transform .2s,box-shadow .2s',
-                    }}
-                  >
-                    <$A
-                      href={c?.href}
-                      style={{
-                        position: 'relative',
-                        display: 'block',
-                        aspectRatio: '16/10',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
-                      }}
-                    >
-                      {c?.image ? (
-                        <img
-                          src={c.image.src}
-                          alt={c.image.alt}
-                          width={c.image.width || undefined}
-                          height={c.image.height || undefined}
-                          loading="lazy"
-                          style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                        />
-                      ) : (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          inset: '0',
-                          display: 'grid',
-                          placeItems: 'start center',
-                          paddingTop: '52px',
-                          font: '500 11.5px ui-monospace,Menlo,monospace',
-                          color: '#516378',
-                        }}
-                      >
-                        {$i(c?.photo)}
-                      </span>
-                      )}
-                      <span style={{ position: 'absolute', top: '14px', left: '14px', display: 'flex', gap: '6px' }}>
-                        {showSample && c?.featured ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '6px',
-                                height: '28px',
-                                padding: '0 11px 0 8px',
-                                borderRadius: '999px',
-                                background: 'rgba(16,35,58,.62)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255,255,255,.18)',
-                                color: '#fff',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.5)',
-                              }}
-                            >
-                              <svg width="14" height="14" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"
-                                  style={{ fill: '#F5B83D' }}
-                                />
-                              </svg>
-                              Featured
-                            </span>
-                          </>
-                        ) : null}
-                        {showSample && c?.verified ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '5px',
-                                height: '28px',
-                                padding: '0 11px 0 7px',
-                                borderRadius: '999px',
-                                background: 'rgba(255,255,255,.96)',
-                                color: '#10233a',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.45)',
-                              }}
-                            >
-                              <svg width="16" height="16" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 1.8l2.4 1.8 3-.2.9 2.9 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.9-3-.2L12 20.2l-2.4-1.8-3 .2-.9-2.9-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.9 3 .2z"
-                                  style={{ fill: '#0890E8' }}
-                                />
-                                <path
-                                  d="M8.2 11.3l2.6 2.6 5-5"
-                                  style={{
-                                    fill: 'none',
-                                    stroke: '#fff',
-                                    strokeWidth: '2.2',
-                                    strokeLinecap: 'round',
-                                    strokeLinejoin: 'round',
-                                  }}
-                                />
-                              </svg>
-                              Verified
-                            </span>
-                          </>
-                        ) : null}
-                      </span>
-                      {showSample ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          right: '14px',
-                          bottom: '14px',
-                          background: '#fff',
-                          borderRadius: '10px',
-                          padding: '6px 10px',
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '7px',
-                          boxShadow: '0 8px 20px -10px rgba(16,35,58,.4)',
-                        }}
-                      >
-                        <span
-                          style={{
-                            font: '700 12px Figtree,sans-serif',
-                            background: 'conic-gradient(#4285F4 0 25%,#34A853 25% 50%,#FBBC05 50% 75%,#EA4335 75%)',
-                            color: 'transparent',
-                            WebkitBackgroundClip: 'text',
-                            backgroundClip: 'text',
-                          }}
-                        >
-                          G
-                        </span>
-                        <span style={{ color: '#F5A623', fontSize: '12px', letterSpacing: '1px' }}>★★★★★</span>
-                        <span style={{ font: '600 13px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
-                      </span>
-                      ) : null}
-                    </$A>
-                    <div
-                      style={{
-                        padding: '22px 22px 24px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '10px',
-                        flex: '1',
-                      }}
-                    >
-                      <$A
-                        href={c?.catHref}
-                        style={{
-                          font: '600 12px Figtree,sans-serif',
-                          letterSpacing: '.1em',
-                          textTransform: 'uppercase',
-                        }}
-                      >
-                        {$i(c?.category)}
-                      </$A>
-                      <h3 style={{ fontSize: '21px', lineHeight: '1.25' }}>
-                        <$A className="scp0" href={c?.href} style={{ color: '#10233a' }}>
-                          {$i(c?.name)}
-                        </$A>
-                      </h3>
-                      <p
-                        style={{
-                          fontSize: '13.5px',
-                          color: '#6b7f95',
-                          display: 'flex',
-                          gap: '7px',
-                          alignItems: 'center',
-                        }}
-                      >
-                        <span
-                          style={{
-                            width: '7px',
-                            height: '7px',
-                            border: '1.5px solid #6b7f95',
-                            borderRadius: '50% 50% 50% 0',
-                            transform: 'rotate(-45deg)',
-                            flexShrink: '0',
-                          }}
-                        />
-                        {$i(c?.address)}
-                      </p>
-                      <p style={{ fontSize: '15px', lineHeight: '1.6', color: '#3b4d63' }}>{$i(c?.excerpt)}</p>
-                      <div
-                        style={{
-                          marginTop: 'auto',
-                          paddingTop: '14px',
-                          borderTop: '1px solid #edf2f7',
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          alignItems: 'center',
-                        }}
-                      >
-                        {showSample ? (
-                        <span style={{ fontSize: '13.5px', color: '#6b7f95' }}>
-                          {$i(c?.googleReviews)} Google reviews
-                        </span>
-                        ) : (
-                        <span />
-                        )}
-                        <$A href={c?.href} style={{ font: '600 14px Jost,sans-serif' }}>
-                          View centre →
-                        </$A>
-                      </div>
-                    </div>
-                  </article>
-                </Fragment>
+                <div key={$index + '-' + (c?.href || '')} style={{ scrollSnapAlign: 'start', display: 'flex', minWidth: 0 }}>
+                  <CentreCard
+                    name={c?.name}
+                    href={c?.href}
+                    image={c?.image}
+                    location={c?.address}
+                    tags={c?.category ? [c.category] : []}
+                    excerpt={c?.excerpt}
+                    phone={c?.phone}
+                    rating={showSample ? { value: c?.rating, count: c?.googleReviews } : null}
+                    badges={showSample ? [c?.featured ? 'Featured' : '', c?.verified ? 'Verified' : ''].filter(Boolean) : []}
+                  />
+                </div>
               ))}
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', gap: '8px', marginTop: '24px' }}>

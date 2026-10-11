@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import TherapistCard from '@/components/TherapistCard';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -818,8 +819,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.check,
-        title: 'Centre-verified details',
-        body: 'Providers claim and update their own listings, addresses and phone numbers.',
+        title: 'Claimable listings',
+        body: 'Centres can claim their listing to correct its address, phone number and details.',
       },
       {
         icon: ic.phone,
@@ -828,8 +829,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.doc,
-        title: 'Reviewed & updated',
-        body: 'Guide content reviewed by a clinical advisor and refreshed regularly.',
+        title: 'Kept current',
+        body: 'Each page shows when it was last updated, and centres can claim a listing to correct it.',
       },
     ];
     const faqData = [
@@ -1738,215 +1739,7 @@ function template(v) {
               data-cols="repeat(auto-fill,minmax(320px,1fr))"
             >
               {$list(therapists).map((th, $index) => (
-                <Fragment key={$index}>
-                  <article
-                    className="scpm"
-                    style={{
-                      background: '#fff',
-                      border: '1px solid #e3ecf4',
-                      borderRadius: '22px',
-                      padding: '22px',
-                      display: 'flex',
-                      flexDirection: 'column',
-                      gap: '14px',
-                      transition: 'transform .2s,box-shadow .2s',
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: 'grid',
-                        gridTemplateColumns: '72px minmax(0,1fr)',
-                        gap: '16px',
-                        alignItems: 'start',
-                      }}
-                      data-cols="72px minmax(0,1fr)"
-                    >
-                      <div
-                        style={{
-                          position: 'relative',
-                          width: '72px',
-                          height: '72px',
-                          borderRadius: '16px',
-                          background: 'repeating-linear-gradient(135deg,#dfeaf3 0 10px,#eaf2f8 10px 20px)',
-                          display: 'grid',
-                          placeItems: 'center',
-                        }}
-                      >
-                        <span style={{ font: '500 10px ui-monospace,Menlo,monospace', color: '#516378' }}>
-                          portrait
-                        </span>
-                        {th?.verified ? (
-                          <>
-                            <span
-                              title="Credentials verified"
-                              style={{
-                                position: 'absolute',
-                                right: '-6px',
-                                bottom: '-6px',
-                                width: '22px',
-                                height: '22px',
-                                borderRadius: '50%',
-                                background: '#2fb46b',
-                                border: '2px solid #fff',
-                                display: 'grid',
-                                placeItems: 'center',
-                              }}
-                            >
-                              <span
-                                style={{
-                                  width: '9px',
-                                  height: '5px',
-                                  borderLeft: '2px solid #fff',
-                                  borderBottom: '2px solid #fff',
-                                  transform: 'rotate(-45deg)',
-                                  marginTop: '-2px',
-                                }}
-                              />
-                            </span>
-                          </>
-                        ) : null}
-                      </div>
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', minWidth: '0' }}>
-                        <h3 style={{ fontSize: '18px', lineHeight: '1.2' }}>
-                          <$A className="scp0" href="#" style={{ color: '#10233a' }}>
-                            {$i(th?.name)}
-                          </$A>
-                        </h3>
-                        <div
-                          style={{
-                            fontSize: '13px',
-                            color: '#0890E8',
-                            fontWeight: '500',
-                            lineHeight: '1.35',
-                            display: '-webkit-box',
-                            WebkitLineClamp: '2',
-                            WebkitBoxOrient: 'vertical',
-                            overflow: 'hidden',
-                          }}
-                        >
-                          {$i(th?.cred)}
-                        </div>
-                        <p
-                          style={{
-                            fontSize: '13px',
-                            color: '#6b7f95',
-                            display: 'flex',
-                            gap: '7px',
-                            alignItems: 'center',
-                            lineHeight: '1.4',
-                          }}
-                        >
-                          <span
-                            style={{
-                              width: '7px',
-                              height: '7px',
-                              border: '1.5px solid #6b7f95',
-                              borderRadius: '50% 50% 50% 0',
-                              transform: 'rotate(-45deg)',
-                              flexShrink: '0',
-                            }}
-                          />
-                          <span>
-                            {$i(th?.city)} · {$i(th?.mode)}
-                          </span>
-                        </p>
-                      </div>
-                    </div>
-                    <p
-                      style={{
-                        fontSize: '14px',
-                        lineHeight: '1.55',
-                        color: '#3b4d63',
-                        minHeight: '44px',
-                        display: '-webkit-box',
-                        WebkitLineClamp: '2',
-                        WebkitBoxOrient: 'vertical',
-                        overflow: 'hidden',
-                      }}
-                    >
-                      {$i(th?.bio)}
-                    </p>
-                    <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap', minHeight: '26px' }}>
-                      {$list(th?.tags).map((tg, $index) => (
-                        <Fragment key={$index}>
-                          <span
-                            style={{
-                              font: '500 11.5px Figtree,sans-serif',
-                              color: '#1f3550',
-                              background: '#eef4f9',
-                              padding: '0 9px',
-                              height: '26px',
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              borderRadius: '999px',
-                            }}
-                          >
-                            {$i(tg)}
-                          </span>
-                        </Fragment>
-                      ))}
-                    </div>
-                    <div
-                      style={{
-                        marginTop: 'auto',
-                        paddingTop: '14px',
-                        borderTop: '1px solid #edf2f7',
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        alignItems: 'center',
-                        gap: '10px',
-                      }}
-                    >
-                      <div style={{ minWidth: '0' }}>
-                        <div style={{ font: '600 15px Jost,sans-serif', lineHeight: '1.2' }}>
-                          {$i(th?.fee)}
-                          <span style={{ font: '400 12px Figtree,sans-serif', color: '#6b7f95' }}> / session</span>
-                        </div>
-                        <div
-                          style={$css(
-                            `font-size:12px;color:${th?.availColor ?? ''};font-weight:500;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis`,
-                          )}
-                        >
-                          {$i(th?.avail)}
-                        </div>
-                      </div>
-                      <div style={{ display: 'flex', gap: '6px', alignItems: 'center', flexShrink: '0' }}>
-                        <$A
-                          className="scp7"
-                          href="#"
-                          style={{
-                            font: '600 13px Jost,sans-serif',
-                            color: '#0890E8',
-                            border: '1.5px solid #0890E8',
-                            height: '36px',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            padding: '0 12px',
-                            borderRadius: '9px',
-                          }}
-                        >
-                          Message
-                        </$A>
-                        <$A
-                          className="scp7"
-                          href="#"
-                          style={{
-                            font: '600 13px Jost,sans-serif',
-                            color: '#fff',
-                            background: '#10233a',
-                            height: '36px',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            padding: '0 12px',
-                            borderRadius: '9px',
-                          }}
-                        >
-                          View
-                        </$A>
-                      </div>
-                    </div>
-                  </article>
-                </Fragment>
+                <TherapistCard key={th?.href || $index} name={th?.name} href={th?.href && th.href !== '#' ? th.href : null} credentials={th?.cred} location={[th?.city, th?.mode].filter(Boolean).join(' · ')} bio={th?.bio} tags={th?.tags} phone={th?.phone} fee={th?.fee ? th.fee + ' / session' : null} note={th?.avail} />
               ))}
             </div>
             <div style={{ display: 'flex', justifyContent: 'center', marginTop: '36px' }}>
@@ -2471,7 +2264,7 @@ function template(v) {
                 Finding a therapist in {$i(locName)}
               </h2>
               <p style={{ fontSize: '16px', lineHeight: '1.65', color: '#516378' }}>
-                Reviewed by our clinical advisor. Still unsure? Call — it's free and confidential.
+                Still unsure? Call — it's free and confidential.
               </p>
               <$A
                 className="scp7"

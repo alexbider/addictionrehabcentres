@@ -69,6 +69,7 @@ export default function SearchClient({ others, othersHeading, suggestProvinces, 
     cards: results.slice(0, shown).map((r) => ({
       name: r.n, href: r.u, address: [r.a].filter(Boolean).join(''), excerpt: r.d, category: r.g.split('|').slice(0, 4).join(' · '), catHref: null,
       image: r.i ? { src: r.i, alt: r.t || r.n, width: r.w ?? null, height: r.h ?? null } : null,
+      phone: r.k ?? '', tags: r.g.split('|').filter(Boolean),
     })),
     search: {
       q: f.q, draft, setDraft, province: f.province, type: f.type, sort: f.sort, count,

@@ -23,7 +23,7 @@ export type CityData = {
 export type CityModel = {
   showSample: boolean; city: string; provinceName: string; year: string; updated: string; updatedLong: string;
   rankedLabel: string; isRanking: boolean; h1: string; h2: string; intro: string;
-  cardExtra: { tags: string[]; price: string; length: string; slug: string }[];
+  cardExtra: { tags: string[]; price: string; length: string; slug: string; phone: string }[];
   faqs: { question: string; answer: string }[];
   nearby: { label: string; href: string; code: string }[];
   sources: { text: string; links?: { label: string; href: string }[] }[];
@@ -142,7 +142,7 @@ export function cityModel(page: Page, d: { cards: CityData['cards']; cat: string
     const rec = slug ? centreByRoute(slug) : null;
     const cp = slug ? getPageByRoute(slug) : null;
     const info = [...new Set((cp?.centre?.info_items ?? []).map((i) => i.value || i.label))];
-    return { tags: (rec?.tags ?? []).slice(0, 3), price: info.find((v) => /\$/.test(v)) ?? 'Contact for pricing', length: info.find((v) => /day|week|month|year/i.test(v)) ?? 'Varies', slug };
+    return { tags: (rec?.tags ?? []).slice(0, 3), price: info.find((v) => /\$/.test(v)) ?? '', length: info.find((v) => /day|week|month|year/i.test(v)) ?? '', slug, phone: rec?.phone ?? '' };
   });
   const faqs = [
     { question: `How many rehab centres are in ${city}?`, answer: `This page lists ${d.cards.length} ${d.cards.length === 1 ? 'centre' : 'centres'} serving ${city}${provinceName ? ', ' + provinceName : ''}. Our ${provinceName || 'Canadian'} directory lists many more \u2014 call us if none of these fit.` },

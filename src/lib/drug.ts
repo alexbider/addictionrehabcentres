@@ -11,7 +11,7 @@ import { legacyData, type LegacyData } from '@/lib/legacy';
 export type DrugModel = {
   showSample: boolean; drug: string; isProvince: boolean; crumbMid: string; tag: string;
   h2: string; heroHtml: string; stats: { v: string; l: string }[]; effects: string[];
-  centres: { name: string; href: string; category: string; catHref: string | null; address: string; excerpt: string; image: { src: string; alt: string; width: number | null; height: number | null } | null; rating: string; googleReviews: number; featured: boolean; verified: boolean }[];
+  centres: { name: string; href: string; category: string; catHref: string | null; address: string; excerpt: string; image: { src: string; alt: string; width: number | null; height: number | null } | null; phone: string; rating: string; googleReviews: number; featured: boolean; verified: boolean }[];
   centresHeading: string; matched: number;
   faqs: { question: string; answer: string }[];
   sources: string[]; residential: string; outpatient: string; helpLine: string;
@@ -70,7 +70,7 @@ export function drugData(page: Page): DrugData {
   const centres = list.map((c, i) => {
     const cat = c.provinceName + ' Rehabs'; const cr = categoryRoute[cat];
     const [rating, googleReviews, featured, verified] = SAMPLE_RATINGS[i % SAMPLE_RATINGS.length];
-    return { name: c.name, href: c.href, category: cat, catHref: cr && isPublishedRoute(cr) ? cr : null, address: c.address, excerpt: wholeWords(c.excerpt, 110), image: c.image, rating, googleReviews, featured, verified };
+    return { name: c.name, href: c.href, category: cat, catHref: cr && isPublishedRoute(cr) ? cr : null, address: c.address, excerpt: wholeWords(c.excerpt, 110), image: c.image, phone: c.phone, rating, googleReviews, featured, verified };
   });
   const D = drug;
   const m: DrugModel = {

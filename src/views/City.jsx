@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import CentreCard from '@/components/CentreCard';
 import { SearchControls, SearchEmpty, SearchMore } from '@/dc/parts';
 import { buildGuide } from '@/dc/guide';
 
@@ -828,8 +829,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.check,
-        title: 'Centre-verified details',
-        body: 'Providers claim and update their own listings, addresses and phone numbers.',
+        title: 'Claimable listings',
+        body: 'Centres can claim their listing to correct its address, phone number and details.',
       },
       {
         icon: ic.phone,
@@ -838,8 +839,8 @@ class Component extends DCLogic {
       },
       {
         icon: ic.doc,
-        title: 'Reviewed & updated',
-        body: 'Guide content reviewed by a clinical advisor and refreshed regularly.',
+        title: 'Kept current',
+        body: 'Each page shows when it was last updated, and centres can claim a listing to correct it.',
       },
     ];
     const faqData = [
@@ -1152,7 +1153,7 @@ class Component extends DCLogic {
     const shortAddr = (a) => { const parts = String(a || '').split(',').map((x) => x.trim()).filter((x) => x && x !== 'Canada'); return parts.length >= 2 ? parts[parts.length - 2] + ', ' + parts[parts.length - 1].split(' ')[0] : a; };
     const liveRanked = (D ? D.cards : []).map((c, i) => ({
       ...designStyle(i, (D ? D.cards : []).length),
-      tags: (M && M.cardExtra[i] ? M.cardExtra[i].tags : []),
+      tags: (M && M.cardExtra[i] ? M.cardExtra[i].tags : c.tags || []),
       tagLine: (M && M.cardExtra[i] && M.cardExtra[i].tags.length ? M.cardExtra[i].tags.join(' · ') : 'Treatment centre'),
       price: M && M.cardExtra[i] ? M.cardExtra[i].price : 'Contact for pricing',
       length: M && M.cardExtra[i] ? M.cardExtra[i].length : 'Varies',
@@ -1160,6 +1161,7 @@ class Component extends DCLogic {
       photo: '',
       cityShort: shortAddr(c.address),
       id: 'centre-' + (i + 1),
+      phone: c.phone || (M && M.cardExtra[i] ? M.cardExtra[i].phone : ''),
       anchor: '#centre-' + (i + 1),
       n: String(i + 1),
       name: c.name,
@@ -1219,6 +1221,10 @@ class Component extends DCLogic {
       reviewTotal: M ? liveRanked.reduce((t, r) => t + r.googleReviews, 0) + '+' : ranked.reduce((t, r) => t + parseInt(r.reviews), 0) + '+',
       // the design switches these grids from a JS width state (900px / 560px); the same breakpoints are applied with CSS (see ctyCss) so the server HTML and the first paint already have the right layout
       rankCols: '340px minmax(0,1fr)',
+      rankBadgeOn: !!(M && M.isRanking),
+      isDesignSample: !D,
+      cmpPriceOn: !M || !!M.showSample || liveRanked.some((r) => r.price && r.price !== 'Contact for pricing'),
+      cmpRatingOn: !M || !!M.showSample,
       rankStatCols: 'repeat(3,minmax(0,1fr))',
       ranked: D ? liveRanked : ranked,
       criteria: criteriaLive,
@@ -1348,6 +1354,10 @@ function template(v) {
     popularTypes,
     provinceHref,
     rankCols,
+    rankBadgeOn,
+    isDesignSample,
+    cmpPriceOn,
+    cmpRatingOn,
     rankCount,
     search,
     glanceOn,
@@ -1606,7 +1616,7 @@ function template(v) {
             </div>
           </div>
         </section>
-        {sample ? (
+        {isDesignSample ? (
         <section data-screen-label="How we ranked" style={{ background: '#fff', borderBottom: '1px solid #e9eff5' }}>
           <div
             style={{
@@ -1697,428 +1707,21 @@ function template(v) {
               ) : null}
             </div>
             {search && search.empty ? <SearchEmpty search={search} /> : null}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+            <div className="cc-grid" id="ranked-list">
               {$list(ranked).map((c, $index) => (
-                <Fragment key={$index}>
-                  <article
-                    className="scp14 cty-rank"
-                    id={c?.id}
-                    style={$css(
-                      `background:#fff;border:1px solid #e3ecf4;border-radius:24px;overflow:hidden;display:grid;grid-template-columns:${rankCols ?? ''};transition:box-shadow .25s ease,transform .25s cubic-bezier(.23,1,.32,1)`,
-                    )}
-                    data-rc-dyn="1"
-                  >
-                    <$A
-                      href={c?.href}
-                      aria-label={c?.img && c.img.alt ? undefined : c?.name}
-                      style={{
-                        position: 'relative',
-                        display: 'block',
-                        minHeight: '260px',
-                        background: 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
-                      }}
-                    >
-                      {c?.img ? <img src={c.img.src} alt={c.img.alt} width={c.img.width || undefined} height={c.img.height || undefined} loading={c.eager ? 'eager' : 'lazy'} fetchPriority={c.eager ? 'high' : undefined} style={{ position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} /> : null}
-                      {sample && !c?.img ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          inset: '0',
-                          display: 'grid',
-                          placeItems: 'end center',
-                          paddingBottom: '14px',
-                          font: '500 11.5px ui-monospace,Menlo,monospace',
-                          color: '#516378',
-                        }}
-                      >
-                        {$i(c?.photo)}
-                      </span>
-                      ) : null}
-                      <span
-                        style={{
-                          position: 'absolute',
-                          inset: '0',
-                          background: 'linear-gradient(180deg,rgba(16,35,58,.28) 0%,rgba(16,35,58,0) 40%)',
-                          pointerEvents: 'none',
-                        }}
-                      />
-                      {sample && showSample ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          top: '16px',
-                          left: '16px',
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          gap: '8px',
-                          height: '44px',
-                          padding: '0 14px 0 6px',
-                          borderRadius: '14px',
-                          background: 'rgba(255,255,255,.94)',
-                          backdropFilter: 'blur(10px)',
-                          WebkitBackdropFilter: 'blur(10px)',
-                          boxShadow: '0 10px 24px -12px rgba(16,35,58,.55)',
-                        }}
-                      >
-                        <span
-                          style={$css(
-                            `width:32px;height:32px;border-radius:10px;background:${c?.rankBg ?? ''};color:${c?.rankInk ?? ''};display:grid;place-items:center;font:700 16px/1 Jost,sans-serif;box-shadow:inset 0 1px 0 rgba(255,255,255,.45),0 4px 10px -4px ${c?.rankGlow ?? ''}`,
-                          )}
-                        >
-                          {$i(c?.n)}
-                        </span>
-                        <span style={{ display: 'flex', flexDirection: 'column', gap: '0', lineHeight: '1.1' }}>
-                          <span
-                            style={{
-                              font: '600 9.5px Figtree,sans-serif',
-                              letterSpacing: '.14em',
-                              textTransform: 'uppercase',
-                              color: '#6b7f95',
-                            }}
-                          >
-                            Rank
-                          </span>
-                          <span style={{ font: '600 13.5px Jost,sans-serif', color: '#10233a', whiteSpace: 'nowrap' }}>
-                            {$i(c?.rankLabel)}
-                          </span>
-                        </span>
-                      </span>
-                      ) : null}
-                      {sample && showSample ? (
-                      <span
-                        style={{
-                          position: 'absolute',
-                          top: '16px',
-                          right: '16px',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          gap: '6px',
-                          alignItems: 'flex-end',
-                        }}
-                      >
-                        {c?.featured ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '6px',
-                                height: '28px',
-                                padding: '0 11px 0 8px',
-                                borderRadius: '999px',
-                                background: 'rgba(16,35,58,.62)',
-                                backdropFilter: 'blur(10px)',
-                                WebkitBackdropFilter: 'blur(10px)',
-                                border: '1px solid rgba(255,255,255,.18)',
-                                color: '#fff',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.5)',
-                              }}
-                            >
-                              <svg width="14" height="14" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 2.8l2.8 5.8 6.4.9-4.6 4.5 1.1 6.3L12 17.3l-5.7 3 1.1-6.3-4.6-4.5 6.4-.9z"
-                                  style={{ fill: '#F5B83D' }}
-                                />
-                              </svg>
-                              Featured
-                            </span>
-                          </>
-                        ) : null}
-                        {c?.verified ? (
-                          <>
-                            <span
-                              style={{
-                                display: 'inline-flex',
-                                alignItems: 'center',
-                                gap: '5px',
-                                height: '28px',
-                                padding: '0 11px 0 7px',
-                                borderRadius: '999px',
-                                background: 'rgba(255,255,255,.96)',
-                                color: '#10233a',
-                                font: '600 12.5px Figtree,sans-serif',
-                                letterSpacing: '.01em',
-                                whiteSpace: 'nowrap',
-                                boxShadow: '0 6px 16px -8px rgba(0,0,0,.45)',
-                              }}
-                            >
-                              <svg width="16" height="16" viewBox="0 0 24 24" style={{ flexShrink: '0' }}>
-                                <path
-                                  d="M12 1.8l2.4 1.8 3-.2.9 2.9 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.9-3-.2L12 20.2l-2.4-1.8-3 .2-.9-2.9-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.9 3 .2z"
-                                  style={{ fill: '#0890E8' }}
-                                />
-                                <path
-                                  d="M8.2 11.3l2.6 2.6 5-5"
-                                  style={{
-                                    fill: 'none',
-                                    stroke: '#fff',
-                                    strokeWidth: '2.2',
-                                    strokeLinecap: 'round',
-                                    strokeLinejoin: 'round',
-                                  }}
-                                />
-                              </svg>
-                              Verified
-                            </span>
-                          </>
-                        ) : null}
-                      </span>
-                      ) : null}
-                    </$A>
-                    <div
-                      style={{
-                        padding: '26px 28px',
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '12px',
-                        minWidth: '0',
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          gap: '16px',
-                          alignItems: 'flex-start',
-                          flexWrap: 'wrap',
-                        }}
-                      >
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', minWidth: '0' }}>
-                          <$A
-                            href={c?.catHref}
-                            style={{
-                              font: '600 12px Figtree,sans-serif',
-                              letterSpacing: '.1em',
-                              textTransform: 'uppercase',
-                            }}
-                          >
-                            {$i(c?.category)}
-                          </$A>
-                          <h3 style={{ fontSize: '24px', lineHeight: '1.2' }}>
-                            <$A className="scp0" href={c?.href} style={{ color: '#10233a' }}>
-                              {$i(c?.name)}
-                            </$A>
-                          </h3>
-                          <p
-                            style={{
-                              fontSize: '13.5px',
-                              color: '#6b7f95',
-                              display: 'flex',
-                              gap: '7px',
-                              alignItems: 'center',
-                            }}
-                          >
-                            <span
-                              style={{
-                                width: '7px',
-                                height: '7px',
-                                border: '1.5px solid #6b7f95',
-                                borderRadius: '50% 50% 50% 0',
-                                transform: 'rotate(-45deg)',
-                                flexShrink: '0',
-                              }}
-                            />
-                            {$i(c?.address)}
-                          </p>
-                        </div>
-                        {sample && showSample ? (
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '8px',
-                            background: '#fff',
-                            border: '1px solid #e6eef6',
-                            borderRadius: '999px',
-                            padding: '7px 14px',
-                            flexShrink: '0',
-                            boxShadow: '0 6px 14px -10px rgba(16,35,58,.25)',
-                          }}
-                        >
-                          <span
-                            style={{
-                              font: '700 13px Figtree,sans-serif',
-                              background: 'conic-gradient(#4285F4 0 25%,#34A853 25% 50%,#FBBC05 50% 75%,#EA4335 75%)',
-                              color: 'transparent',
-                              WebkitBackgroundClip: 'text',
-                              backgroundClip: 'text',
-                            }}
-                          >
-                            G
-                          </span>
-                          <span style={{ color: '#F5A623', fontSize: '13px', letterSpacing: '1px' }}>★★★★★</span>
-                          <span style={{ font: '600 14px Jost,sans-serif', color: '#10233a' }}>{$i(c?.rating)}</span>
-                          <span style={{ fontSize: '12.5px', color: '#6b7f95' }}>({$i(c?.googleReviews)})</span>
-                        </span>
-                        ) : null}
-                      </div>
-                      {sample ? (
-                      <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
-                        {$list(c?.tags).map((tg, $index) => (
-                          <Fragment key={$index}>
-                            <span
-                              style={{
-                                font: '500 12.5px Figtree,sans-serif',
-                                color: '#0a5d96',
-                                background: '#eaf5fd',
-                                border: '1px solid #d6eafa',
-                                padding: '5px 11px',
-                                borderRadius: '999px',
-                              }}
-                            >
-                              {$i(tg)}
-                            </span>
-                          </Fragment>
-                        ))}
-                      </div>
-                      ) : null}
-                      <p style={{ fontSize: '15.5px', lineHeight: '1.65', color: '#3b4d63' }}>{$i(c?.excerpt)}</p>
-                      {sample ? (
-                      <div
-                        className="cty-stats"
-                        style={$css(`display:grid;grid-template-columns:${rankStatCols ?? ''};gap:12px;margin-top:4px`)}
-                        data-rc-dyn="1"
-                      >
-                        <div
-                          style={{ background: '#f7fafd', borderRadius: '12px', padding: '12px 14px', minWidth: '0' }}
-                        >
-                          <div
-                            style={{
-                              font: '600 11px Figtree,sans-serif',
-                              letterSpacing: '.1em',
-                              textTransform: 'uppercase',
-                              color: '#6b7f95',
-                            }}
-                          >
-                            Pricing
-                          </div>
-                          <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '3px' }}>{$i(c?.price)}</div>
-                        </div>
-                        <div
-                          style={{ background: '#f7fafd', borderRadius: '12px', padding: '12px 14px', minWidth: '0' }}
-                        >
-                          <div
-                            style={{
-                              font: '600 11px Figtree,sans-serif',
-                              letterSpacing: '.1em',
-                              textTransform: 'uppercase',
-                              color: '#6b7f95',
-                            }}
-                          >
-                            Program length
-                          </div>
-                          <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '3px' }}>{$i(c?.length)}</div>
-                        </div>
-                        <div
-                          style={{ background: '#f7fafd', borderRadius: '12px', padding: '12px 14px', minWidth: '0' }}
-                        >
-                          <div
-                            style={{
-                              font: '600 11px Figtree,sans-serif',
-                              letterSpacing: '.1em',
-                              textTransform: 'uppercase',
-                              color: '#6b7f95',
-                            }}
-                          >
-                            Site reviews
-                          </div>
-                          <div style={{ font: '600 14.5px Jost,sans-serif', marginTop: '3px' }}>{$i(c?.reviews)}</div>
-                        </div>
-                      </div>
-                      ) : null}
-                      {c?.rowOn ? (
-                      <div
-                        style={{
-                          marginTop: 'auto',
-                          paddingTop: '14px',
-                          borderTop: '1px solid #edf2f7',
-                          display: 'flex',
-                          justifyContent: 'space-between',
-                          alignItems: 'center',
-                          gap: '12px',
-                          flexWrap: 'wrap',
-                        }}
-                      >
-                        {sample && showSample ? (
-                        <span style={{ fontSize: '13px', color: '#6b7f95' }}>
-                          Details verified with the centre · Updated {$i(cityUpdated)}
-                        </span>
-                        ) : <span />}
-                        <div style={{ display: 'flex', gap: '8px' }}>
-                          {true ? (
-                          <$A
-                            className="scp15 scpy"
-                            href="tel:+18558854747"
-                            style={{
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '8px',
-                              height: '42px',
-                              font: '600 14px Jost,sans-serif',
-                              color: '#0a5d96',
-                              background: '#eaf5fd',
-                              padding: '0 16px 0 6px',
-                              borderRadius: '999px',
-                              transition: 'background .15s ease,transform .12s ease-out',
-                            }}
-                          >
-                            <span
-                              style={{
-                                width: '30px',
-                                height: '30px',
-                                borderRadius: '50%',
-                                background: '#D82028',
-                                color: '#fff',
-                                display: 'grid',
-                                placeItems: 'center',
-                              }}
-                            >
-                              {$i(iconPhoneSm)}
-                            </span>
-                            Call for availability
-                          </$A>
-                          ) : null}
-                          {c?.viewOn ? (
-                          <$A
-                            className="scp1 scpy"
-                            href={c?.href}
-                            style={{
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: '8px',
-                              height: '42px',
-                              font: '600 14px Jost,sans-serif',
-                              color: '#fff',
-                              background: '#0890E8',
-                              padding: '0 18px',
-                              borderRadius: '999px',
-                              transition: 'background .15s ease,transform .12s ease-out',
-                            }}
-                          >
-                            View centre
-                            <svg width="15" height="15" viewBox="0 0 24 24">
-                              <path
-                                d="M5 12h14M13 6l6 6-6 6"
-                                style={{
-                                  fill: 'none',
-                                  stroke: 'currentColor',
-                                  strokeWidth: '2.2',
-                                  strokeLinecap: 'round',
-                                  strokeLinejoin: 'round',
-                                }}
-                              />
-                            </svg>
-                          </$A>
-                          ) : null}
-                        </div>
-                      </div>
-                      ) : null}
-                    </div>
-                  </article>
-                </Fragment>
+                <CentreCard
+                  key={$index + '-' + (c?.href || c?.name)}
+                  name={c?.name}
+                  href={c?.viewOn ? c?.href : null}
+                  image={c?.img}
+                  eager={!!c?.eager}
+                  location={c?.address}
+                  tags={c?.tags && c.tags.length ? c.tags : c?.category ? [c.category] : []}
+                  excerpt={c?.excerpt}
+                  phone={c?.phone}
+                  rating={showSample ? { value: c?.rating, count: c?.googleReviews } : null}
+                  badges={rankBadgeOn ? ['#' + c?.n] : []}
+                />
               ))}
             </div>
             {search && search.hasMore ? <SearchMore search={search} /> : null}
@@ -2192,7 +1795,7 @@ function template(v) {
               <div
                 style={{
                   display: 'grid',
-                  gridTemplateColumns: '44px 1.6fr 1.2fr 1.4fr 1fr .8fr',
+                  gridTemplateColumns: (cmpPriceOn ? '44px 1.6fr 1.2fr 1.4fr 1fr' : '44px 1.6fr 1.2fr 1.4fr') + (cmpRatingOn ? ' .8fr' : ''),
                   gap: '16px',
                   padding: '14px 20px',
                   background: '#f7fafd',
@@ -2202,14 +1805,14 @@ function template(v) {
                   textTransform: 'uppercase',
                   color: '#6b7f95',
                 }}
-                data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"
+                data-cols={(cmpPriceOn ? '44px 1.6fr 1.2fr 1.4fr 1fr' : '44px 1.6fr 1.2fr 1.4fr') + (cmpRatingOn ? ' .8fr' : '')}
               >
                 <span>#</span>
                 <span>Centre</span>
                 <span>Location</span>
                 <span>Programs</span>
-                <span>Pricing</span>
-                <span>Rating</span>
+                {cmpPriceOn ? <span>Pricing</span> : null}
+                {cmpRatingOn ? <span>Rating</span> : null}
               </div>
               {$list(ranked).map((c, $index) => (
                 <Fragment key={$index}>
@@ -2218,7 +1821,7 @@ function template(v) {
                     href={c?.href}
                     style={{
                       display: 'grid',
-                      gridTemplateColumns: '44px 1.6fr 1.2fr 1.4fr 1fr .8fr',
+                      gridTemplateColumns: (cmpPriceOn ? '44px 1.6fr 1.2fr 1.4fr 1fr' : '44px 1.6fr 1.2fr 1.4fr') + (cmpRatingOn ? ' .8fr' : ''),
                       gap: '16px',
                       padding: '16px 20px',
                       borderBottom: '1px solid #f0f4f8',
@@ -2226,14 +1829,14 @@ function template(v) {
                       color: '#10233a',
                       fontSize: '14.5px',
                     }}
-                    data-cols="44px 1.6fr 1.2fr 1.4fr 1fr .8fr"
+                    data-cols={(cmpPriceOn ? '44px 1.6fr 1.2fr 1.4fr 1fr' : '44px 1.6fr 1.2fr 1.4fr') + (cmpRatingOn ? ' .8fr' : '')}
                   >
                     <span style={{ font: '600 13px Jost,sans-serif', color: '#0890E8' }}>{$i(c?.n)}</span>
                     <span style={{ font: '600 15px Jost,sans-serif' }}>{$i(c?.name)}</span>
                     <span style={{ color: '#516378' }}>{$i(c?.cityShort)}</span>
                     <span style={{ color: '#516378' }}>{$i(c?.tagLine)}</span>
-                    <span style={{ color: '#516378' }}>{$i(c?.price)}</span>
-                    {showSample ? (
+                    {cmpPriceOn ? <span style={{ color: '#516378' }}>{$i(c?.price && c.price !== 'Contact for pricing' ? c.price : '')}</span> : null}
+                    {cmpRatingOn ? (
                     <span
                       style={{ display: 'flex', alignItems: 'center', gap: '5px', font: '600 14px Jost,sans-serif' }}
                     >
@@ -2243,7 +1846,7 @@ function template(v) {
                         ({$i(c?.googleReviews)})
                       </span>
                     </span>
-                    ) : <span>–</span>}
+                    ) : null}
                   </$A>
                 </Fragment>
               ))}
@@ -2345,23 +1948,6 @@ function template(v) {
                     <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>{$i(authorRole)}</div>
                   </div>
                 </div>
-                <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  {avatarNode}
-                  <div>
-                    <div
-                      style={{
-                        font: '600 11px Figtree,sans-serif',
-                        letterSpacing: '.1em',
-                        textTransform: 'uppercase',
-                        color: '#6b7f95',
-                      }}
-                    >
-                      Medically reviewed by
-                    </div>
-                    <div style={{ font: '600 14.5px Jost,sans-serif' }}>{$i(reviewerName)}</div>
-                    <div style={{ fontSize: '12.5px', color: '#6b7f95' }}>{$i(reviewerRole)}</div>
-                  </div>
-                </div>
                 <div
                   style={{
                     fontSize: '12.5px',
@@ -2374,7 +1960,6 @@ function template(v) {
                   }}
                 >
                   <span>Last updated {$i(cityUpdatedLong)}</span>
-                  <span>Est. reading time 3 minutes</span>
                 </div>
               </div>
               ) : null}

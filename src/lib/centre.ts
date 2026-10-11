@@ -3,7 +3,7 @@ import { categoryRoute } from '@/lib/provinces';
 import { getPublished, isPublishedRoute } from '@/lib/content';
 import { centreByRoute, realCentres, PROVINCE_NAMES, type RealCentre } from '@/lib/centres';
 import { SHOW_SAMPLE_DATA } from '@/lib/rollout';
-import googleReviewCounts from '../../audit/11-google-review-centres.json';
+import type { PlaceReviews } from '@/lib/reviews';
 
 /** Centres on the approved Centre view: the 4 prototypes plus the batches built so far (alphabetical by slug, `centre__` removed). */
 const PROTOTYPES = ['another-road-addiction-recovery-centre', 'peace-country-wilderness-program', 'canadawide-mobile', 'blue-skies-recovery'];
@@ -45,7 +45,7 @@ export type CentreData = {
 /** Centre page JSON → props for the approved Centre view. Only real source fields: name, address, phone, website, category,
  *  email, social, tags, hours, FAQ, info items, specialties/amenities, about body, gallery, videos. Ratings, review counts, Google review
  *  text and the sponsor ad are never passed. */
-export function centreData(page: Page): CentreData {
+export function centreData(page: Page, live: PlaceReviews | null = null): CentreData {
   const c = page.centre!;
   const cat = c.categories[0];
   const catRoute = cat ? categoryRoute[cat] : undefined;
@@ -69,7 +69,7 @@ export function centreData(page: Page): CentreData {
     info: [...new Set(c.info_items.map((i) => i.value || i.label))],
     faqHeading: c.faq_heading,
     faqs: c.faqs.map((q) => ({ question: q.question, answerBlocks: q.answer_blocks })),
-    m: centreModel(page),
+    m: centreModel(page, live),
   };
 }
 
@@ -91,8 +91,9 @@ export type CentreModel = {
   location: { heading: string; intro: string; cells: { k: string; v: string; href?: string }[]; serving: { label: string; href: string }[]; mapQuery: string; directionsHref: string };
   faqs: { question: string; answerBlocks: Block[] | null; answer: string | null }[];
   othersHeading: string;
-  reviews: { count: number | null; googleHref: string };
-  others: { name: string; href: string; category: string; catHref: string | null; address: string; excerpt: string; image: Img | null; rating: string; googleReviews: number; featured: boolean; verified: boolean }[];
+  /** Real Google data only (null = the reviews section, rating chip and review count are hidden). */
+  reviews: PlaceReviews | null;
+  others: { name: string; href: string; category: string; catHref: string | null; address: string; excerpt: string; image: Img | null; phone: string; rating: string; googleReviews: number; featured: boolean; verified: boolean }[];
 };
 
 const HELPLINE = '1-855-885-4747';
@@ -110,7 +111,7 @@ const GROUPS: { title: string; color: string; re: RegExp; icons: string[] }[] = 
   { title: 'Living well', color: '#2fb46b', re: /holistic|yoga|meditat|fitness|nutrition|amenit|luxury|equine|art|recreat|sober living|accommod|residential|outdoor|wellness/i, icons: ['leaf', 'glass'] },
 ];
 
-export function centreModel(page: Page): CentreModel {
+export function centreModel(page: Page, live: PlaceReviews | null = null): CentreModel {
   const c = page.centre!;
   const rec: RealCentre | null = centreByRoute(page.route);
   const city = rec?.city ?? '';
@@ -242,7 +243,7 @@ export function centreModel(page: Page): CentreModel {
   const others = ordered.map((x, i) => {
     const cat = x.provinceName + ' Rehabs'; const cr = categoryRoute[cat];
     const [rating, googleReviews, featured, verified] = SAMPLE_RATINGS[i % SAMPLE_RATINGS.length];
-    return { name: x.name, href: x.href, category: cat, catHref: cr && isPublishedRoute(cr) ? cr : null, address: x.address, excerpt: wholeWords(x.excerpt, 110), image: x.image, rating, googleReviews, featured, verified };
+    return { name: x.name, href: x.href, category: cat, catHref: cr && isPublishedRoute(cr) ? cr : null, address: x.address, excerpt: wholeWords(x.excerpt, 110), image: x.image, phone: x.phone, rating, googleReviews, featured, verified };
   });
 
   return {
@@ -250,7 +251,7 @@ export function centreModel(page: Page): CentreModel {
     catLine: [c.categories[0], typeTag].filter(Boolean).join(' \u00b7 '),
     images, photoCount: images.length, logo, glance, fromPrice: cost ?? null, facility, serviceGroups, serviceCount: chipSet.length, pillars,
     video: vb ? { provider: vb.provider, id: vb.id, url: vb.url } : null, intro, overviewFirst, rest, location, faqs, othersHeading, others,
-    // The source has no review text or rating; a review count exists for a few centres. The Google link is a search for the centre (no place ID in the source).
-    reviews: { count: (googleReviewCounts as { route: string; reviews: number }[]).find((x) => x.route === page.route)?.reviews ?? null, googleHref: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent([name, city].filter(Boolean).join(' ')) },
+    // Google reviews are shown only when they come from the Places API (src/lib/reviews.ts); the old scraped counts are not displayed.
+    reviews: live,
   };
 }

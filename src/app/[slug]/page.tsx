@@ -17,6 +17,7 @@ import { isAlcoholView, isDrugView, isInterventionView, legacyData } from '@/lib
 import { drugData } from '@/lib/drug';
 import { getPageByRoute, getPublished } from '@/lib/content';
 import { JsonLd, pageMetadata } from '@/lib/metadata';
+import { getPlaceReviews, placeIdFor } from '@/lib/reviews';
 
 export const dynamicParams = false;
 
@@ -32,12 +33,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function Page({ params }: { params: Promise<{ slug: string }> }) {
   const page = getPageByRoute(`/${(await params).slug}/`);
   if (!page) notFound();
+  // Real Google reviews (null without GOOGLE_PLACES_API_KEY / place_id): nothing about reviews is rendered then.
+  const live = page.page_type === 'centre' ? await getPlaceReviews(page.centre?.place_id ?? placeIdFor(page.route)) : null;
   // Every page type renders on its approved design view; there is no old-template fallback.
   const view = (() => {
     if (isAlcoholView(page)) return <AlcoholView data={legacyData(page)} />;
     if (isDrugView(page)) return <DrugView data={drugData(page)} />;
     if (isInterventionView(page)) return page.route === '/intervention/' ? <InterventionView /> : <InterventionView data={legacyData(page)} />;
-    if (page.page_type === 'centre') return <CentreView data={centreData(page)} />;
+    if (page.page_type === 'centre') return <CentreView data={centreData(page, live)} />;
     if (page.page_type === 'blog-post') return <PostView data={postData(page)} />;
     if (page.listing && page.page_type === 'province') return <ProvinceView data={provinceData(page)} />;
     if (page.listing && page.page_type === 'city') return <CityView data={cityData(page)} />;
@@ -46,7 +49,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   if (!view) notFound();
   return (
     <>
-      <JsonLd page={page} />
+      <JsonLd page={page} reviews={live} />
       <BeforeFooterProvider extra={<RelatedLinks page={page} />}>{view}</BeforeFooterProvider>
     </>
   );

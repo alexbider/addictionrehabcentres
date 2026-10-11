@@ -1,0 +1,36 @@
+/* One card for every centre listing on the site (province, city, search, home, drug pages, related centres). */
+.cc-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;align-items:stretch}
+@media(max-width:1000px){.cc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.cc-grid{grid-template-columns:minmax(0,1fr)}}
+.cc{background:#fff;border:1px solid #e3ecf4;border-radius:22px;overflow:hidden;display:flex;flex-direction:column;height:100%;min-width:0;box-shadow:0 1px 2px rgba(16,35,58,.04);transition:transform .2s,box-shadow .2s}
+.cc:hover{transform:translateY(-3px);box-shadow:0 18px 36px -22px rgba(16,35,58,.45)}
+.cc-media{position:relative;display:block;aspect-ratio:16/10;background:linear-gradient(135deg,#eaf2f8,#dfeaf3);overflow:hidden}
+.cc-media img.cc-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.cc-media img.cc-fallback{position:absolute;left:50%;top:50%;width:46%;height:auto;transform:translate(-50%,-50%);opacity:.32;filter:grayscale(1)}
+.cc-badges{position:absolute;top:14px;left:14px;display:flex;gap:6px;flex-wrap:wrap}
+.cc-badge{display:inline-flex;align-items:center;height:28px;padding:0 11px;border-radius:999px;background:rgba(16,35,58,.66);color:#fff;font:600 12.5px Figtree,sans-serif;white-space:nowrap}
+.cc-rating{position:absolute;right:14px;bottom:14px;background:#fff;border-radius:10px;padding:6px 10px;display:flex;align-items:center;gap:7px;box-shadow:0 8px 20px -10px rgba(16,35,58,.4);font:600 13px Jost,sans-serif;color:#10233a}
+.cc-body{padding:20px 20px 22px;display:flex;flex-direction:column;gap:9px;flex:1;min-width:0}
+.cc-tags{display:flex;gap:6px;flex-wrap:wrap;min-height:26px;align-content:flex-start}
+.cc-tag{font:500 11.5px Figtree,sans-serif;color:#1f3550;background:#eef4f9;padding:4px 9px;border-radius:999px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cc-name{font-size:19px;line-height:1.25;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;min-height:calc(2*1.25em)}
+.cc-name a{color:#10233a}
+.cc-loc{font-size:13.5px;line-height:1.45;color:#5d7188;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;line-clamp:1;overflow:hidden;min-height:calc(1.45*1em)}
+.cc-text{font-size:14.5px;line-height:1.6;color:#3b4d63;margin:0;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;line-clamp:3;overflow:hidden;min-height:calc(3*1.6em)}
+.cc-meta{font-size:13px;color:#5d7188;margin:0}
+.cc-foot{margin-top:auto;padding-top:14px;border-top:1px solid #edf2f7;display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:nowrap}
+.cc-foot-note{font-size:13px;color:#5d7188;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cc-actions{display:flex;gap:6px;margin-left:auto}
+.cc-btn{font:600 13px Jost,sans-serif;padding:8px 12px;border-radius:9px;white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;min-height:36px;text-decoration:none}
+.cc-btn-call{color:#0670b8;border:1.5px solid #0890E8;background:#fff}
+.cc-btn-view{color:#fff;background:#10233a;border:1.5px solid #10233a}
+.cc-btn:hover{filter:brightness(1.08)}
+@media(max-width:1000px){.cc-btn{min-height:44px;padding:10px 14px}}
+/* Therapist card: same shell as .cc */
+.cc-th{padding:22px;gap:14px}
+.cc-th-head{display:grid;grid-template-columns:72px minmax(0,1fr);gap:16px;align-items:start}
+.cc-th-photo{position:relative;width:72px;height:72px;border-radius:16px;background:linear-gradient(135deg,#eaf2f8,#dfeaf3);overflow:hidden;display:grid;place-items:center;font:600 22px Jost,sans-serif;color:#5d7188}
+.cc-th-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cc-th-name{font-size:18px;line-height:1.2;margin:0}
+.cc-th-name a{color:#10233a}
+.cc-th-cred{font-size:13px;color:#0670b8;font-weight:500;line-height:1.35;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;min-height:calc(2*1.35em)}

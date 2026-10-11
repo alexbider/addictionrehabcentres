@@ -55,6 +55,8 @@ export type Page = {
 
 export type CentreData = {
   name: string; categories: string[]; reviews_count: string;
+  /** Google Places ID (data model field; reviews are fetched only when this and GOOGLE_PLACES_API_KEY exist). */
+  place_id?: string | null;
   phone_text: string; phone_href: string; email: string; website: string; website_text: string; address: string;
   social: Record<string, string>; social_title: string;
   gallery: { src: string; alt: string; width?: number | null; height?: number | null }[];

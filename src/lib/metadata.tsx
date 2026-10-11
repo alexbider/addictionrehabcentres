@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import type { Page } from './content';
 import { SITE_URL, toSite } from './site';
 import { routeExists } from './content';
+import type { PlaceReviews } from './reviews';
 
 const metaOf = (page: Page, name: string) => page.head?.meta.find((m) => m[1] === name)?.[2];
 
@@ -50,7 +51,7 @@ function parseRange(v: string) {
 }
 
 /** MedicalBusiness JSON-LD for a centre page: only fields the centre page really has (no rating, no geo — the export has neither). */
-export function centreSchema(page: Page) {
+export function centreSchema(page: Page, live: PlaceReviews | null = null) {
   const c = page.centre;
   if (!c || !c.name) return null;
   const phone = (c.phone_text || c.phone_href || '').replace(/^tel:/, '');
@@ -74,6 +75,8 @@ export function centreSchema(page: Page) {
     ...(hours.length ? { openingHoursSpecification: hours } : {}),
     ...(sameAs.length ? { sameAs: [...new Set(sameAs)] } : {}),
     ...(img ? { image: img.startsWith('http') ? img : SITE_URL + img } : {}),
+    // Only real Google data (Places API); never the old scraped counts.
+    ...(live ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: live.rating, reviewCount: live.count, bestRating: 5, worstRating: 1 }, review: live.reviews.map((r) => ({ '@type': 'Review', author: { '@type': 'Person', name: r.author }, reviewRating: { '@type': 'Rating', ratingValue: r.rating, bestRating: 5, worstRating: 1 }, reviewBody: r.text, ...(r.published ? { datePublished: r.published.slice(0, 10) } : {}) })) } : {}),
   });
 }
 
@@ -91,14 +94,14 @@ function medicalize(node: unknown, page: Page): unknown {
 }
 
 /** The structured data the live source page carries (Article, BreadcrumbList, FAQPage, …), unchanged apart from the domain variable. */
-export function JsonLd({ page }: { page: Page }) {
+export function JsonLd({ page, reviews = null }: { page: Page; reviews?: PlaceReviews | null }) {
   return (
     <>
       <SeoHead page={page} />
       {page.seo.jsonld_source.map((g, i) => (
         <script key={i} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(toSite(medicalize(g, page))).replace(/</g, '\\u003c') }} />
       ))}
-      {(() => { const b = centreSchema(page); return b ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(b).replace(/</g, '\\u003c') }} /> : null; })()}
+      {(() => { const b = centreSchema(page, reviews); return b ? <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(b).replace(/</g, '\\u003c') }} /> : null; })()}
     </>
   );
 }
