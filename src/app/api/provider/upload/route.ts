@@ -22,8 +22,8 @@ function sniff(b: Buffer): 'jpeg' | 'png' | 'webp' | null {
   return null;
 }
 
-/** Photo upload for a centre: JPEG/PNG/WebP up to 6 MB, re-encoded to WebP (max 1600 px, metadata stripped), stored on Vercel Blob
- *  (BLOB_READ_WRITE_TOKEN) or, in local development / tests only, under public/uploads. */
+/** Photo upload for a centre: JPEG/PNG/WebP up to 6 MB, re-encoded to WebP (max 1600 px, metadata stripped), stored on Supabase Storage
+ *  (SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY), else Vercel Blob (BLOB_READ_WRITE_TOKEN), else, in local development / tests only, under public/uploads. */
 export async function POST(req: NextRequest) {
   if (!sameOrigin(req)) return json({ ok: false, error: 'Request blocked.' }, 403);
   if (!dbConfigured()) return json({ ok: false, error: 'Uploads are not available yet.' }, 503);
@@ -48,7 +48,15 @@ export async function POST(req: NextRequest) {
   try { out = await sharp(raw, { limitInputPixels: 50_000_000 }).rotate().resize({ width: 1600, withoutEnlargement: true }).webp({ quality: 78 }).toBuffer(); } catch { return json({ ok: false, error: 'That image could not be read.' }, 400); }
   const name = `${slug}/${crypto.randomBytes(8).toString('hex')}.webp`;
   let url: string;
-  if (process.env.BLOB_READ_WRITE_TOKEN) {
+  const sbUrl = (process.env.SUPABASE_URL || '').replace(/\/+$/, '');
+  const sbKey = process.env.SUPABASE_SERVICE_ROLE_KEY;
+  if (sbUrl && sbKey) {
+    // Supabase Storage (public bucket): REST upload with the service-role key, which never leaves the server.
+    const bucket = process.env.SUPABASE_STORAGE_BUCKET || 'centre-photos';
+    const res = await fetch(`${sbUrl}/storage/v1/object/${bucket}/${name}`, { method: 'POST', headers: { authorization: `Bearer ${sbKey}`, apikey: sbKey, 'content-type': 'image/webp', 'x-upsert': 'false', 'cache-control': 'public, max-age=31536000, immutable' }, body: new Uint8Array(out), signal: AbortSignal.timeout(20000) });
+    if (!res.ok) { console.error('[upload] supabase storage', res.status, (await res.text()).slice(0, 200)); return json({ ok: false, error: 'The photo could not be stored. Please try again.' }, 502); }
+    url = `${sbUrl}/storage/v1/object/public/${bucket}/${name}`;
+  } else if (process.env.BLOB_READ_WRITE_TOKEN) {
     const { put } = await import('@vercel/blob');
     url = (await put(`centres/${name}`, out, { access: 'public', contentType: 'image/webp', addRandomSuffix: false })).url;
   } else if (process.env.ARC_LOCAL_DB) {
@@ -56,7 +64,7 @@ export async function POST(req: NextRequest) {
     await fs.mkdir(dir, { recursive: true });
     await fs.writeFile(path.join(process.cwd(), 'public', 'uploads', name), out);
     url = `/uploads/${name}`;
-  } else return json({ ok: false, error: 'Photo storage is not configured (BLOB_READ_WRITE_TOKEN).' }, 503);
+  } else return json({ ok: false, error: 'Photo storage is not configured (set SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY).' }, 503);
   const alt = String(form.get('alt') || '').slice(0, 200);
   await db.insert(schema.media).values({ ownerUserId: u.id, centreSlug: slug, url, pathname: name, contentType: 'image/webp', bytes: out.length, alt });
   await audit(u.id, 'media.uploaded', 'centre', slug, { url });

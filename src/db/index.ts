@@ -20,7 +20,9 @@ async function open(): Promise<Db | null> {
   const url = process.env.DATABASE_URL;
   if (url) {
     const [{ drizzle }, { default: postgres }] = await Promise.all([import('drizzle-orm/postgres-js'), import('postgres')]);
-    const client = postgres(url, { max: 5, idle_timeout: 20, connect_timeout: 10, prepare: false });
+    // Supabase: use the pooled (transaction-mode, port 6543) connection string; prepared statements are off for that reason; TLS is required.
+    const ssl = /supabase\.(co|com)/.test(url) && !/sslmode=/.test(url) ? 'require' : undefined;
+    const client = postgres(url, { max: 5, idle_timeout: 20, connect_timeout: 10, prepare: false, ...(ssl ? { ssl } : {}) });
     return drizzle(client, { schema }) as unknown as Db;
   }
   const dir = process.env.ARC_LOCAL_DB;

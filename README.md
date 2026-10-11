@@ -97,7 +97,7 @@ node audit/scripts/crawl-site.mjs http://localhost:3300   # 404 links, broken im
 Everything under `src/server`, `src/db`, `src/app/api`, `src/app/admin` and `src/app/provider-dashboard` needs a database; without one the public site is unchanged and the forms show an honest error. See `audit/22-backend-audit.md`.
 
 ```bash
-# production (Neon / Supabase): set DATABASE_URL, AUTH_SECRET, ADMIN_EMAIL, ADMIN_PASSWORD, RESEND_API_KEY …, then
+# production (Supabase; see audit/23-supabase-setup.md): set DATABASE_URL, DIRECT_URL, SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY, AUTH_SECRET, ADMIN_EMAIL, ADMIN_PASSWORD, RESEND_API_KEY …, then
 npm run db:migrate           # applies drizzle/*.sql and creates the master admin
 # local development without any service (embedded Postgres):
 ARC_LOCAL_DB=.data/dev ARC_SEED_ADMIN_EMAIL=admin@example.test ARC_SEED_ADMIN_PASSWORD='…' ENABLE_DEV_OUTBOX=1 npm run dev

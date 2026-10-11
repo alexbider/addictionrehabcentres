@@ -16,8 +16,8 @@ const nextConfig = {
   // Trailing-slash, case, host, legacy-URL and src/lib/redirects.json redirects are all computed in src/proxy.ts so every URL needs ONE hop at most.
   skipTrailingSlashRedirect: true,
   // Draft design pages: never indexed (also sent as a header, besides the meta tag).
-  // Photos uploaded by centres live on Vercel Blob; next/image (the lightbox) may optimise them.
-  images: { remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }] },
+  // Photos uploaded by centres live on Supabase Storage (or Vercel Blob); next/image (the lightbox) may optimise them.
+  images: { remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }, { protocol: 'https', hostname: '*.supabase.co', pathname: '/storage/v1/object/public/**' }] },
   async headers() {
     const draftHeaders = drafts.flatMap((d) => [d, d + '/']).map((source) => ({ source, headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }));
     // Security headers on every response (CSP is not set: the analytics and design runtime use inline scripts; add one with nonces before enabling it).
