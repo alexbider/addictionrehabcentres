@@ -5,6 +5,58 @@
 Deploy remote: `main` tracks `deploy/main` = `Developer2marketing/addictionrehabcentres` (other remote `origin` = `alexbider/addictionrehabcentres`). Nothing has been pushed; client to confirm in Vercel which repo is connected.
 Not allowed / cancelled: anything from psychologytoday.com (terms prohibit it, server returns 403). Phase 5B scrape is cancelled; a permission request to Sussex Directories is pending.
 
+### Phase 6 — Final QA and handover (2026-10-11)
+**Verified on a local production build** (`npm run build` clean, no type errors; no lint step exists in this project):
+| Check | Result |
+|---|---|
+| `python3 audit/seo/arc_check.py` (1,029 expected URLs + 770 sitemap URLs) | **PASS**, baseline was 69 failures |
+| Crawl (`audit/scripts/crawl-site.mjs`) | 0 broken links, 0 broken images, 0 orphans, 0 wrong/missing canonicals, 0 missing titles, 1 link that hits a 301 (design link to /prince-edward-island-rehabs/), 145 pages without meta description (the old site had none either) |
+| Card alignment (`npm run test:cards`) | aligned at 1440/1024/768/390 on home, 2 province pages, city, drug, centre, search |
+| Lightbox (`npm run test:lightbox`) | 16/16 |
+| Backend e2e (`npm run test:e2e`) | all pass (30 checks: sign-up → claim → edit → approve → public page; therapist flow; access control). One run during Phase 5 reported 4 failures, the immediate re-run passed; treat the test as slightly timing-sensitive |
+| Sitemap | 770 canonical `.ca` URLs, all 200; no redirected, noindex, draft or test URLs (checked by arc_check) |
+| Lighthouse (local, simulated throttling; `audit/out/lh/`) | desktop performance 99–100 on all 6 page types (LCP 0.5–0.9 s); mobile performance: home 85 (LCP 4.1 s, was 3.6 s), city 87, blog 89, province 96, therapists 99, centre 75 (LCP 11.1 s, **same as before our changes: 11.4 s**); accessibility 93–97; best practices 96–100. SEO shows 61–69 only because the local host sends `X-Robots-Tag: noindex` (expected off the .ca host). No published therapist exists yet, so `/therapists/` was measured instead of a profile page. |
+| Design compare (`audit/scripts/run-all.sh`) | Last full run after Phase 2/3 (`compare-phase2b.txt`): only the differences this brief asked for (cards, hidden pricing/reviews, removed claims). Not re-run after the Phase 4/5 form and header changes because it needs `next dev` on :3217; known new difference: the header gains "Sign in" / "Find a Therapist", the footer gains "Add Your Centre". |
+
+**Regressions to know about:** mobile home LCP +0.5 s (simulated) after the shared card and footer block; the centre page's slow mobile LCP is unchanged from before and worth a separate fix (hero image size).
+
+**What is NOT done / not verified**
+- GA4/Meta/Smartsupp firing (needs the .ca host); `call_now` is a new event (the old site had none).
+- Stripe, Resend, Turnstile, Vercel Blob, Google Places code paths (written to spec, fail closed, untested without keys).
+- No Content-Security-Policy.
+- The Google reviews that the six long listings lost (28–38 reviews on some) were not restored (see decision below).
+- Home "Featured Residential Centers" (the old home page's own list) includes a criminal-defence lawyer and an AA meeting.
+- Draft design routes only 404 in production; `/claim-therapist`, `/join-directory`, `/therapist-profile` stay unbuilt.
+
+## NEEDS FROM CLIENT
+1. **Database**: create Neon or Supabase Postgres (Vercel Marketplace), set `DATABASE_URL`, `AUTH_SECRET`, `ADMIN_EMAIL`, `ADMIN_PASSWORD`, run `npm run db:migrate`. Until then every form shows an honest "temporarily unavailable, call 1-855-885-4747" and nothing can be saved.
+2. **Resend** account + verified sending domain (`RESEND_API_KEY`, `EMAIL_FROM`, `ADMIN_NOTIFY_EMAIL`).
+3. **Stripe** account, webhook secret, plan names/prices (`src/config/plans.ts`, `STRIPE_PRICE_*`); then set `PLANS_CONFIRMED=true` in code to show the Promote prices.
+4. **Google Places API key** (`GOOGLE_PLACES_API_KEY`) and a place ID per centre.
+5. **Vercel Blob** token for photo uploads; optional **Cloudflare Turnstile** keys.
+6. **Analytics access check**: confirm GA4 `G-8RYYPCC7ZJ`, Meta pixel and Smartsupp receive data from the preview/production host.
+7. **Decisions**: (a) restore or permanently drop the old Google review text on six listings; (b) moderation: "review first" (current) or "publish immediately"; (c) claiming/listing is free and the card steps were removed: confirm; (d) newsletter box stays hidden; (e) which sources in `audit/import/SOURCES.md` may be imported, and whether to ask regulators for permission; (f) a named medical reviewer if you want "medically reviewed" back (YMYL).
+8. **Sussex Directories (Psychology Today)** permission request is pending; the data model (`data_sources`, `import_runs`, therapist drafts with `description_status`) supports an import later.
+9. **Domain/DNS**: who switches DNS; set `REDIRECT_PREVIEW_TO_CANONICAL=true` after the domain is attached; confirm in Vercel which repo is connected (`main` tracks `deploy/main` = Developer2marketing/addictionrehabcentres).
+
+## Launch checklist (from the audit PDF, plus what we added)
+**Before DNS moves**
+- [ ] Phase 1 passes: `python3 audit/seo/arc_check.py https://addictionrehabcentres.vercel.app` = PASS (it is, locally).
+- [ ] Load the full Redirection-plugin export from WordPress into `src/lib/redirects.json` (the audit's test only covers URLs it could discover).
+- [ ] Items 1–6 above done or consciously deferred; database migrated; admin can sign in.
+- [ ] Analytics, pixel, chat and `call_now` confirmed firing on the preview (GA4 Realtime).
+- [ ] Full WordPress backup taken and the old host kept online for 30 days.
+- [ ] Google Business Profile and directory listings point to working URLs.
+**Launch day**
+- [ ] Attach the domain; set `REDIRECT_PREVIEW_TO_CANONICAL=true`; check http, www and vercel.app each 301 to https://addictionrehabcenters.ca in one hop.
+- [ ] Run `python3 audit/seo/arc_check.py https://addictionrehabcenters.ca --live` (robots allows crawling and lists the sitemap; no noindex header on any page) → must PASS.
+- [ ] Submit `/sitemap.xml` in Search Console, remove the old Yoast sub-sitemaps, request indexing for the home page, the 9 province hubs and the top 20 listings.
+**First 30 days**
+- [ ] Daily: Search Console coverage and 404 report; add a 301 the same day for any new 404.
+- [ ] Weekly: track the top 50 keywords against the 9,670-visits/month baseline.
+- [ ] Week 2: Core Web Vitals turn green in Search Console.
+- [ ] Week 4: start the "outrank" work (schema, internal links, YMYL signals, centre LCP).
+
 ### Phase 1 — SEO migration blockers: DONE (verified locally; see numbers)
 | Item | Result |
 |---|---|
