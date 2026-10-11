@@ -4,6 +4,8 @@ import { getPublished, isPublishedRoute } from '@/lib/content';
 import { centreByRoute, realCentres, PROVINCE_NAMES, type RealCentre } from '@/lib/centres';
 import { SHOW_SAMPLE_DATA } from '@/lib/rollout';
 import type { PlaceReviews } from '@/lib/reviews';
+import type { ProfileExtra } from '@/lib/profile-merge';
+import { routeToSlug } from '@/lib/slug';
 
 /** Centres on the approved Centre view: the 4 prototypes plus the batches built so far (alphabetical by slug, `centre__` removed). */
 const PROTOTYPES = ['another-road-addiction-recovery-centre', 'peace-country-wilderness-program', 'canadawide-mobile', 'blue-skies-recovery'];
@@ -21,6 +23,7 @@ const linkKey = (h: string) => { try { const u = new URL(h); return u.host.repla
 export const centreLinkKey = linkKey;
 
 export type CentreData = {
+  slug: string;
   name: string;
   categories: string[];
   catHref: string | null;
@@ -45,11 +48,12 @@ export type CentreData = {
 /** Centre page JSON → props for the approved Centre view. Only real source fields: name, address, phone, website, category,
  *  email, social, tags, hours, FAQ, info items, specialties/amenities, about body, gallery, videos. Ratings, review counts, Google review
  *  text and the sponsor ad are never passed. */
-export function centreData(page: Page, live: PlaceReviews | null = null): CentreData {
+export function centreData(page: Page, live: PlaceReviews | null = null, extra: ProfileExtra | null = null): CentreData {
   const c = page.centre!;
   const cat = c.categories[0];
   const catRoute = cat ? categoryRoute[cat] : undefined;
   return {
+    slug: routeToSlug(page.route),
     name: c.name,
     categories: c.categories,
     catHref: catRoute && isPublishedRoute(catRoute) ? catRoute : null,
@@ -69,7 +73,7 @@ export function centreData(page: Page, live: PlaceReviews | null = null): Centre
     info: [...new Set(c.info_items.map((i) => i.value || i.label))],
     faqHeading: c.faq_heading,
     faqs: c.faqs.map((q) => ({ question: q.question, answerBlocks: q.answer_blocks })),
-    m: centreModel(page, live),
+    m: centreModel(page, live, extra),
   };
 }
 
@@ -83,6 +87,8 @@ export type CentreModel = {
   images: Img[]; photoCount: number; logo: Img | null;
   glance: { k: string; v: string }[];
   fromPrice: string | null;
+  /** Pricing entered by the centre (never sample data); `updated` is shown next to it. */
+  pricing: { rows: { label: string; price: string; note?: string }[]; updated: string | null } | null;
   facility: { icon: string; k: string; v: string }[];
   serviceGroups: { title: string; color: string; items: { label: string; icon: string }[] }[]; serviceCount: number;
   pillars: { n: string; kicker: string; title: string; body: string; photo: Img | null }[];
@@ -111,7 +117,7 @@ const GROUPS: { title: string; color: string; re: RegExp; icons: string[] }[] = 
   { title: 'Living well', color: '#2fb46b', re: /holistic|yoga|meditat|fitness|nutrition|amenit|luxury|equine|art|recreat|sober living|accommod|residential|outdoor|wellness/i, icons: ['leaf', 'glass'] },
 ];
 
-export function centreModel(page: Page, live: PlaceReviews | null = null): CentreModel {
+export function centreModel(page: Page, live: PlaceReviews | null = null, extra: ProfileExtra | null = null): CentreModel {
   const c = page.centre!;
   const rec: RealCentre | null = centreByRoute(page.route);
   const city = rec?.city ?? '';
@@ -160,7 +166,8 @@ export function centreModel(page: Page, live: PlaceReviews | null = null): Centr
   const groups = GROUPS.map((g) => ({ title: g.title, color: g.color, items: [] as { label: string; icon: string }[], re: g.re, icons: g.icons }));
   const other = { title: 'Programs & services', color: '#516378', items: [] as { label: string; icon: string }[] };
   chipSet.forEach((label) => { const g = groups.find((x) => x.re.test(label)); const t = g ?? null; if (t) t.items.push({ label, icon: t.icons[t.items.length % t.icons.length] }); else other.items.push({ label, icon: 'check' }); });
-  const serviceGroups = [...groups.map(({ title, color, items }) => ({ title, color, items })), other].filter((g) => g.items.length);
+  const owner = [['Programs', extra?.programs], ['Amenities', extra?.amenities], ['Insurance accepted', extra?.insurance]].flatMap(([title, list]) => (list && (list as string[]).length ? [{ title: title as string, color: '#516378', items: (list as string[]).map((label) => ({ label, icon: 'check' })) }] : []));
+  const serviceGroups = [...groups.map(({ title, color, items }) => ({ title, color, items })), other, ...owner].filter((g) => g.items.length);
 
   // ---- design copy that needs the centre's name: neutral, factual text
   const name = c.name; const where = [city, provinceName].filter(Boolean).join(', ');
@@ -174,8 +181,8 @@ export function centreModel(page: Page, live: PlaceReviews | null = null): Centr
 
   // ---- at a glance
   const info = [...new Set(c.info_items.map((i) => i.value || i.label))];
-  const len = info.find((v) => /day|week|month|year/i.test(v));
-  const cost = info.find((v) => /\$/.test(v));
+  const len = extra?.programLength || info.find((v) => /day|week|month|year/i.test(v));
+  const cost = extra?.pricing?.length ? extra.pricing[0].price : info.find((v) => /\$/.test(v));
   const typeTag = chipSet.find((x) => /residential|outpatient|detox|holistic|private|sober living|12[\s-]?step/i.test(x));
   const phone = c.phone_text;
   const glanceAll: { k: string; v: string }[] = [
@@ -249,7 +256,7 @@ export function centreModel(page: Page, live: PlaceReviews | null = null): Centr
   return {
     showSample: SHOW_SAMPLE_DATA, city, provinceName, provinceCrumb, cityCrumb,
     catLine: [c.categories[0], typeTag].filter(Boolean).join(' \u00b7 '),
-    images, photoCount: images.length, logo, glance, fromPrice: cost ?? null, facility, serviceGroups, serviceCount: chipSet.length, pillars,
+    images, photoCount: images.length, logo, glance, fromPrice: cost ?? null, pricing: extra?.pricing?.length ? { rows: extra.pricing, updated: extra.pricingUpdated } : null, facility, serviceGroups, serviceCount: chipSet.length, pillars,
     video: vb ? { provider: vb.provider, id: vb.id, url: vb.url } : null, intro, overviewFirst, rest, location, faqs, othersHeading, others,
     // Google reviews are shown only when they come from the Places API (src/lib/reviews.ts); the old scraped counts are not displayed.
     reviews: live,

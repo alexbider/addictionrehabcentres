@@ -568,6 +568,8 @@ class Component extends DCLogic {
     // Real content from the source page /promote-your-centre/ (props.data). Every slot falls back to the design's own text;
     // see audit/DESIGN-PLACEHOLDERS.csv for what still comes from the design.
     const D = this.props.data || null;
+    // Prices and the founding offer are the design's own numbers; they are shown only after the client confirms them (PLANS_CONFIRMED in src/config/plans.ts).
+    const priceOn = D ? !!D.showPrices : true;
     const T = {
       h1: D?.title || 'Promote Your Rehab Centre',
       intro:
@@ -583,6 +585,7 @@ class Component extends DCLogic {
       ctaText: D?.progText || 'Reach people researching treatment while keeping advertising transparent and measurable.',
       // "Sponsored" / "Verified" labels on real centres are sample values (SHOW_SAMPLE_DATA in src/lib/rollout.ts)
       showSample: D ? D.showSample : true,
+      priceOn,
       hero: D?.heroCentre || null,
       whyHeading: D?.whyHeading || '',
       why: D?.benefits || [],
@@ -700,12 +703,12 @@ class Component extends DCLogic {
     ];
     const plans = planDefs.map(([name, price, per, features, cta, popular]) => ({
       name,
-      price,
-      per,
+      price: priceOn ? price : 'Pricing on request',
+      per: priceOn ? per : '',
       features,
       cta,
       popular,
-      prefix: name === 'National' ? 'From' : '',
+      prefix: priceOn && name === 'National' ? 'From' : '',
       bg: popular ? '#10233a' : '#fff',
       color: popular ? '#fff' : '#10233a',
       border: popular ? '#10233a' : '#e3ecf4',
@@ -724,7 +727,7 @@ class Component extends DCLogic {
       ['Condition', '$350', ic.dual, 'Alongside a condition page, e.g. Dual Diagnosis.'],
       ['Treatment', '$300', ic.leaf, 'On a treatment-type page, e.g. Residential Rehab.'],
       ['Guides', '$200', ic.doc, 'Inside educational guides, e.g. Cost of Rehab.'],
-    ].map(([label, price, icon, body]) => ({ label, price, icon, body }));
+    ].map(([label, price, icon, body]) => ({ label, price: priceOn ? price : '', icon, body }));
     const sel = this.state.sel;
     const layout = {
       Homepage: ['1 / 3', '1 / 3'],
@@ -947,7 +950,7 @@ class Component extends DCLogic {
       founding,
       aboutStats,
       compareHead,
-      compareRows,
+      compareRows: compareRows.filter((r) => priceOn || r.label !== 'Monthly price'),
       promoFaqs,
       navItems,
       menuOpen: !!m,
@@ -1821,10 +1824,12 @@ function template(v) {
                         `margin-top:auto;display:flex;justify-content:space-between;align-items:baseline;gap:8px;padding-top:10px;border-top:1px solid ${pc?.rule ?? ''}`,
                       )}
                     >
+                      {pc?.price ? (
                       <span style={{ font: '600 20px Jost,sans-serif', fontVariantNumeric: 'tabular-nums' }}>
                         From {$i(pc?.price)}
                         <span style={$css(`font:400 12px Figtree,sans-serif;color:${pc?.muted ?? ''}`)}>/mo</span>
                       </span>
+                      ) : <span />}
                       <span style={$css(`font:600 12.5px Jost,sans-serif;color:${pc?.linkColor ?? ''}`)}>
                         {$i(pc?.ctaText)}
                       </span>
@@ -1861,6 +1866,8 @@ function template(v) {
                   </div>
                   <div style={{ font: '600 18px Jost,sans-serif', marginTop: '2px' }}>{$i(selCount)} placements</div>
                 </div>
+                {T.priceOn ? (
+                <>
                 <div style={{ width: '1px', height: '36px', background: 'rgba(255,255,255,.14)' }} />
                 <div>
                   <div
@@ -1880,6 +1887,8 @@ function template(v) {
                     <span style={{ font: '400 13px Figtree,sans-serif', color: '#b7c7d8' }}>/mo + plan</span>
                   </div>
                 </div>
+                </>
+                ) : null}
                 <div style={{ display: 'flex', gap: '6px', flexWrap: 'wrap' }}>
                   {$list(selChips).map((sc, $index) => (
                     <Fragment key={$index}>
@@ -2636,6 +2645,7 @@ function template(v) {
             </div>
           </div>
         </section>
+        {T.priceOn ? (
         <section data-screen-label="Founding Partner" style={{ background: '#fff' }}>
           <div style={{ maxWidth: '1280px', margin: '0 auto', padding: '88px 32px' }} data-rc-wrap="1">
             <div
@@ -2747,6 +2757,7 @@ function template(v) {
             </div>
           </div>
         </section>
+        ) : null}
         <section
           data-screen-label="About the platform"
           style={{ background: '#f7fafd', borderTop: '1px solid #e9eff5' }}

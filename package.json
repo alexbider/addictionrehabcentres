@@ -7,21 +7,31 @@
     "build": "next build",
     "start": "next start",
     "test:cards": "node tests/card-alignment.mjs http://localhost:3300 / /alberta-rehabs/ /toronto-rehabs/ /listing-location/winnipeg/ /benzodiazepine-addiction/ /twelve-mile-recovery/ /search/",
-    "test:lightbox": "node tests/lightbox.mjs http://localhost:3300"
+    "test:lightbox": "node tests/lightbox.mjs http://localhost:3300",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "node scripts/db-migrate.mjs",
+    "test:e2e": "node tests/e2e/run.mjs"
   },
   "dependencies": {
     "@fontsource/figtree": "^5.2.0",
     "@fontsource/jost": "^5.2.0",
+    "@vercel/blob": "^2.8.1",
+    "drizzle-orm": "^0.45.4",
     "next": "^16.3.6",
+    "postgres": "^3.4.9",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "sharp": "^0.35.5",
+    "stripe": "^23.0.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@electric-sql/pglite": "^0.5.8",
     "@types/node": "^22.0.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
+    "drizzle-kit": "^0.31.11",
     "playwright-core": "^1.49.1",
-    "sharp": "^0.35.5",
     "typescript": "^5.6.0"
   }
 }

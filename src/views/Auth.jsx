@@ -3,6 +3,7 @@
 import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -20,6 +21,8 @@ class Component extends DCLogic {
     tried: false,
     busy: false,
     sent: false,
+    serverError: '',
+    notice: '',
   };
   componentDidMount() {
     this.setState({ vw: window.innerWidth });
@@ -27,9 +30,12 @@ class Component extends DCLogic {
     window.addEventListener('resize', this._r);
     try {
       const q = new URLSearchParams(window.location.search);
-      const mode = q.get('mode'),
+      const mode = q.get('mode') || this.props.initialMode || null,
         type = q.get('type');
       const next = {};
+      if (q.get('verified')) next.notice = 'Your email address is confirmed. You can sign in.';
+      if (q.get('verify') === 'invalid') next.serverError = 'That confirmation link is invalid or has expired. Sign in and ask for a new one.';
+      if (q.get('denied')) next.serverError = 'That area needs a different account.';
       if (mode === 'signup' || mode === 'login') next.mode = mode;
       if (type === 'centre' || type === 'therapist') {
         next.type = type;
@@ -61,20 +67,20 @@ class Component extends DCLogic {
     );
   }
   mode(m) {
-    this.setState({ mode: m, tried: false, busy: false, sent: false, pw: '' });
+    this.setState({ mode: m, tried: false, busy: false, sent: false, pw: '', serverError: '', notice: '' });
   }
 
   renderVals() {
-    const { vw, mode, type, name, email, pw, showPw, remember, terms, tried, busy, sent } = this.state;
+    const { vw, mode, type, name, email, pw, showPw, remember, terms, tried, busy, sent, serverError, notice } = this.state;
     const wide = vw >= 980;
     const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     const score = [
-      pw.length >= 8,
+      pw.length >= 10,
       /[A-Z]/.test(pw) && /[a-z]/.test(pw),
       /\d/.test(pw),
       /[^A-Za-z0-9]/.test(pw) || pw.length >= 12,
     ].filter(Boolean).length;
-    const pwOk = pw.length >= 8;
+    const pwOk = pw.length >= 10;
     const barColor = ['#e0787c', '#F5A623', '#0890E8', '#2fb46b'][Math.max(0, score - 1)];
     const bad = (x) => tried && x;
     const isC = type === 'centre',
@@ -115,35 +121,34 @@ class Component extends DCLogic {
       };
     });
 
-    const finish = (user, href) => {
-      this.setState({ busy: true });
-      try {
-        localStorage.setItem(Component.USER, JSON.stringify(user));
-      } catch (e) {}
-      this._t = setTimeout(() => {
-        if (href) window.location.href = href;
-        else this.setState({ busy: false, mode: 'welcome' });
-      }, 700);
-    };
-    const submitLogin = (e) => {
+    const nextParam = (() => { try { const n = new URLSearchParams(window.location.search).get('next'); return n && n.startsWith('/') && !n.startsWith('//') ? n : ''; } catch (e) { return ''; } })();
+    const submitLogin = async (e) => {
       e && e.preventDefault && e.preventDefault();
       if (!emailOk || !pw) {
         this.setState({ tried: true });
         return;
       }
-      let prev = {};
-      try {
-        prev = JSON.parse(localStorage.getItem(Component.USER) || '{}');
-      } catch (err) {}
-      finish({ ...prev, email, signedIn: true });
+      this.setState({ busy: true, serverError: '', notice: '' });
+      const r = await postJson('/api/auth/login', { email, password: pw });
+      if (!r.ok) {
+        this.setState({ busy: false, serverError: r.error || 'Sign-in failed.' });
+        return;
+      }
+      window.location.href = nextParam || r.data.redirect || '/provider-dashboard/';
     };
-    const submitSignup = (e) => {
+    const submitSignup = async (e) => {
       e && e.preventDefault && e.preventDefault();
       if (!type || !name.trim() || !emailOk || !pwOk || !terms) {
         this.setState({ tried: true });
         return;
       }
-      finish({ name: name.trim(), email, type, signedIn: true }, dest);
+      this.setState({ busy: true, serverError: '', notice: '' });
+      const r = await postJson('/api/auth/signup', { name: name.trim(), email, password: pw, role: isT ? 'therapist' : 'provider' });
+      if (!r.ok) {
+        this.setState({ busy: false, serverError: (r.fields && (r.fields.password || r.fields.email)) || r.error || 'Sign-up failed.' });
+        return;
+      }
+      window.location.href = nextParam || dest + '/';
     };
 
     let stored = {};
@@ -259,9 +264,9 @@ class Component extends DCLogic {
       loginPwErrDisplay: bad(!pw) ? 'block' : 'none',
       pwBars: [0, 1, 2, 3].map((i) => ({ bg: pw && i < score ? barColor : '#e6eef6' })),
       pwHint: !pw
-        ? 'Use 8+ characters with a mix of letters, numbers and symbols.'
+        ? 'Use 10+ characters with a mix of letters, numbers and symbols.'
         : !pwOk
-          ? 'Too short — use at least 8 characters.'
+          ? 'Too short — use at least 10 characters.'
           : ['Weak', 'Fair', 'Good', 'Strong'][score - 1] + ' password',
       pwHintColor: bad(!pwOk) ? '#c0262d' : pw && pwOk ? barColor : '#6b7f95',
       toggleRemember: () => this.setState({ remember: !remember }),
@@ -278,13 +283,17 @@ class Component extends DCLogic {
         : 'Enter the email you signed up with and we\u2019ll send you a reset link.',
       forgotForm: !sent,
       forgotSent: sent,
-      sendReset: () => {
+      sendReset: async () => {
         if (!emailOk) {
           this.setState({ tried: true });
           return;
         }
-        this.setState({ sent: true });
+        this.setState({ busy: true, serverError: '' });
+        const r = await postJson('/api/auth/forgot', { email });
+        this.setState(r.ok ? { sent: true, busy: false } : { busy: false, serverError: r.error || 'Could not send the reset link.' });
       },
+      serverError,
+      notice,
       types,
       typeCols: vw >= 420 ? '1fr 1fr' : '1fr',
       typeErrDisplay: bad(!type) ? 'block' : 'none',
@@ -388,6 +397,8 @@ function template(v) {
     remBg,
     remBorder,
     sendReset,
+    serverError,
+    notice,
     setEmail,
     setName,
     setPw,
@@ -588,6 +599,8 @@ function template(v) {
                     onSubmit={submitLogin}
                     style={{ display: 'flex', flexDirection: 'column', gap: '18px', animation: 'auFade .25s ease-out' }}
                   >
+                    {serverError ? <p role="alert" style={{ margin: 0, padding: '12px 14px', borderRadius: '12px', background: '#fdecec', color: '#9b1c1c', fontSize: '14.5px', lineHeight: '1.45' }}>{$i(serverError)}</p> : null}
+                    {notice ? <p role="status" style={{ margin: 0, padding: '12px 14px', borderRadius: '12px', background: '#e9f8ef', color: '#1d6b3f', fontSize: '14.5px', lineHeight: '1.45' }}>{$i(notice)}</p> : null}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                       <h1 style={{ fontSize: '32px' }}>Welcome back</h1>
                       <p style={{ fontSize: '15.5px', color: '#516378' }}>
@@ -762,6 +775,8 @@ function template(v) {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                       <h1 style={{ fontSize: '32px' }}>Reset your password</h1>
                       <p style={{ fontSize: '15.5px', color: '#516378' }}>{$i(forgotSub)}</p>
+                      {serverError ? <p role="alert" style={{ margin: 0, padding: '12px 14px', borderRadius: '12px', background: '#fdecec', color: '#9b1c1c', fontSize: '14.5px', lineHeight: '1.45' }}>{$i(serverError)}</p> : null}
+                      {notice ? <p role="status" style={{ margin: 0, padding: '12px 14px', borderRadius: '12px', background: '#e9f8ef', color: '#1d6b3f', fontSize: '14.5px', lineHeight: '1.45' }}>{$i(notice)}</p> : null}
                     </div>
                     {forgotForm ? (
                       <>
@@ -864,6 +879,8 @@ function template(v) {
                     onSubmit={submitSignup}
                     style={{ display: 'flex', flexDirection: 'column', gap: '18px', animation: 'auFade .25s ease-out' }}
                   >
+                    {serverError ? <p role="alert" style={{ margin: 0, padding: '12px 14px', borderRadius: '12px', background: '#fdecec', color: '#9b1c1c', fontSize: '14.5px', lineHeight: '1.45' }}>{$i(serverError)}</p> : null}
+                    {notice ? <p role="status" style={{ margin: 0, padding: '12px 14px', borderRadius: '12px', background: '#e9f8ef', color: '#1d6b3f', fontSize: '14.5px', lineHeight: '1.45' }}>{$i(notice)}</p> : null}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
                       <h1 style={{ fontSize: '32px' }}>Create your account</h1>
                       <p style={{ fontSize: '15.5px', color: '#516378' }}>
@@ -986,7 +1003,7 @@ function template(v) {
                           autoComplete="new-password"
                           value={$val(pw)}
                           onChange={setPw}
-                          placeholder="At least 8 characters"
+                          placeholder="At least 10 characters"
                           style={{
                             flex: '1',
                             minWidth: '0',

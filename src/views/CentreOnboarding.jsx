@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -42,8 +44,10 @@ class Component extends DCLogic {
     tried: {},
     d: this.blank,
     photos: [],
-    pay: { card: '', exp: '', cvc: '', postal: '' },
     terms: false,
+    sending: false,
+    formError: '',
+    formFields: null,
     done: false,
     saved: false,
   };
@@ -115,7 +119,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const B = '/';
-    const { vw, step, maxStep, tried, d, photos, pay, terms, done, saved } = this.state;
+    const { vw, step, maxStep, tried, d, photos, terms, done, saved, sending, formError, formFields } = this.state;
     const wide = vw >= 1060,
       mid = vw >= 700;
     const provs = [
@@ -136,12 +140,6 @@ class Component extends DCLogic {
     const provName = (provs.find((p) => p[0] === d.prov) || [0, ''])[1];
     const digits = (x) => x.replace(/\D/g, '');
     const emailOk = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(d.email);
-    const payErr = {
-      card: digits(pay.card).length < 15 ? 'Enter a valid card number.' : '',
-      exp: !/^(0[1-9]|1[0-2])\/\d{2}$/.test(pay.exp) ? 'Use MM/YY.' : '',
-      cvc: digits(pay.cvc).length < 3 ? 'Enter the CVC.' : '',
-      postal: pay.postal.trim().length < 3 ? 'Enter your postal code.' : '',
-    };
     const v = {
       1: {
         centre: !d.centre.trim() ? 'Enter your centre\u2019s name.' : '',
@@ -166,7 +164,7 @@ class Component extends DCLogic {
             ? 'Enter a starting price or choose "Call for pricing".'
             : '',
       },
-      6: { ...payErr, terms: !terms ? 'x' : '' },
+      6: { terms: !terms ? 'x' : '' },
     };
     const stepOk = (n) => Object.values(v[n]).every((x) => !x);
     const err = (n, k) => tried[n] && v[n][k];
@@ -180,27 +178,33 @@ class Component extends DCLogic {
         return;
       }
       if (step === 6) {
-        this.setState({ done: true });
-        try {
-          localStorage.removeItem(Component.KEY);
-        } catch (e) {}
-        this.toTop();
+        // Saved on the server (onboarding_submissions) before the confirmation appears; reviewed by an admin, free to list.
+        const hp = document.querySelector('input[name=company_website]');
+        this.setState({ sending: true, formError: '', formFields: null });
+        postJson('/api/forms/centreOnboarding', { email: d.email, payload: d, company_website: hp ? hp.value : '' }).then((r) => {
+          if (!r.ok) {
+            this.setState({ sending: false, formError: r.error || 'Your submission was not sent.', formFields: r.fields || null });
+            return;
+          }
+          this.setState({ sending: false, done: true });
+          try {
+            localStorage.removeItem(Component.KEY);
+          } catch (e) {}
+          this.toTop();
+        });
         return;
       }
       go(step + 1);
     };
 
-    const names = ['Basics', 'Care', 'Services', 'Story & photos', 'Pricing', 'Subscribe'];
+    const names = ['Basics', 'Care', 'Services', 'Your story', 'Pricing', 'Review'];
     const heads = [
       ['Centre basics', 'Where you are and how people reach you. This appears at the top of your listing.'],
       ['Care & programs', 'Help people filter to the right fit. Tap to select — you can change these any time.'],
       ['Services & facility', 'What clients get while they\u2019re with you.'],
-      ['Your story & photos', 'The words and pictures families look at first when choosing a centre.'],
+      ['Your story', 'The words families read first when choosing a centre. You can add photos from your dashboard once the listing is approved.'],
       ['Pricing & accreditation', 'Transparent pricing and credentials build trust with families.'],
-      [
-        'Subscribe & publish',
-        'Your Verified subscription starts today. We verify your centre next \u2014 if we can\u2019t approve it, we refund you in full.',
-      ],
+      ['Review & submit', 'Listing is free. Our team reviews your details before the page is published.'],
     ];
     const steps = names.map((label, i) => {
       const n = i + 1,
@@ -507,46 +511,6 @@ class Component extends DCLogic {
       const val = fmt(e.target.value);
       this.setState((s) => ({ pay: { ...s.pay, [k]: val } }));
     };
-    const payFields = [
-      [
-        'card',
-        'Card number',
-        '1234 1234 1234 1234',
-        'numeric',
-        '1 / -1',
-        (x) =>
-          digits(x)
-            .slice(0, 16)
-            .replace(/(\d{4})(?=\d)/g, '$1 '),
-      ],
-      [
-        'exp',
-        'Expiry',
-        'MM/YY',
-        'numeric',
-        'span 1',
-        (x) => {
-          const q = digits(x).slice(0, 4);
-          return q.length > 2 ? q.slice(0, 2) + '/' + q.slice(2) : q;
-        },
-      ],
-      ['cvc', 'CVC', '123', 'numeric', 'span 1', (x) => digits(x).slice(0, 4)],
-      ['postal', 'Postal code', 'M5V 2C3', 'text', 'span 2', (x) => x.toUpperCase().slice(0, 7)],
-    ].map(([k, label, placeholder, mode, span, fmt]) => {
-      const bad = err(6, k);
-      return {
-        label,
-        placeholder,
-        mode,
-        span,
-        value: pay[k],
-        onChange: setP(k, fmt),
-        err: payErr[k],
-        errDisplay: bad ? 'block' : 'none',
-        border: bad ? '#e0787c' : '#dbe6f0',
-      };
-    });
-    const payBad = payErr.card || payErr.exp || payErr.cvc || payErr.postal;
 
     const muted = '#9aabbd';
     const fmtMoney = (x) => '$' + Number(digits(x)).toLocaleString('en-CA');
@@ -581,7 +545,6 @@ class Component extends DCLogic {
       ['Care & programs', stepOk(2)],
       ['Services', stepOk(3)],
       ['Headline & description', stepOk(4)],
-      ['At least 3 photos', photos.length >= 3],
       ['Pricing', stepOk(5)],
     ];
     const strength = Math.round((checks.filter((c) => c[1]).length / checks.length) * 100);
@@ -630,58 +593,46 @@ class Component extends DCLogic {
         e.target.value = '';
       },
       isS6: step === 6 && !done,
-      planCols: mid ? 'minmax(0,.8fr) minmax(0,1.2fr)' : 'minmax(0,1fr)',
-      featCols: mid ? 'repeat(2,minmax(0,1fr))' : 'minmax(0,1fr)',
-      planFeatures: [
-        'Verified badge',
-        'Enhanced profile',
-        'Provider dashboard',
-        'Photos & video',
-        'Analytics',
-        'Calls & lead tracking',
-      ],
-      payFields,
-      payCols: mid ? 'repeat(4,minmax(0,1fr))' : 'repeat(2,minmax(0,1fr))',
       toggleTerms: () => this.setState({ terms: !terms }),
       termsBg: terms ? '#0890E8' : '#fff',
       termsBorder: terms ? '#0890E8' : err(6, 'terms') ? '#e0787c' : '#cfdceb',
-      payErrDisplay: tried[6] && step === 6 && (payBad || !terms) ? 'block' : 'none',
-      payErrText: payBad ? 'Please complete your payment details.' : 'Please confirm and accept the terms to publish.',
+      payErrDisplay: tried[6] && step === 6 && !terms ? 'block' : 'none',
+      payErrText: 'Please confirm and accept the terms to submit.',
       isDone: done,
       showNav: !done,
       doneTitle: (d.centre.trim() || 'Your centre') + ' is submitted',
       nextSteps: [
         {
           n: '1',
-          t: 'We verify your centre',
-          b: 'Our team confirms your licensing and contact details. If there is any issue, we refund you in full.',
+          t: 'We review your listing',
+          b: 'Our team checks your licensing and contact details.',
         },
         {
           n: '2',
           t: 'Your listing goes live',
-          b: 'Once approved, it appears with the Verified badge on your province and city pages.',
+          b: 'Once approved, it appears on your province and city pages.',
         },
         {
           n: '3',
           t: 'Manage from your dashboard',
-          b: 'Update details, add video and track calls and leads as they come in.',
+          b: 'Update details, add photos and pricing, and see enquiries.',
         },
       ],
       editAgain: () => this.setState({ done: false, step: 1 }),
       back: () => go(Math.max(1, step - 1)),
       backVis: step > 1 ? 'visible' : 'hidden',
       next,
-      nextLabel: step === 6 ? 'Pay $199 & publish' : 'Continue to ' + names[step].toLowerCase(),
+      nextLabel: step === 6 ? (sending ? 'Sending…' : 'Submit for review') : 'Continue to ' + names[step].toLowerCase(),
       nextBg: step === 6 ? '#D82028' : '#0890E8',
       nextShadow: step === 6 ? '0 14px 28px -14px rgba(216,32,40,.7)' : 'none',
-      lockDisplay: step === 6 ? 'flex' : 'none',
+      lockDisplay: 'none',
       strengthPct: strength + '%',
       strengthColor: strength >= 80 ? '#2fb46b' : strength >= 40 ? '#0890E8' : '#F5A623',
       coverBg: photos[0]
         ? 'url(' + photos[0] + ')'
         : 'repeating-linear-gradient(135deg,#dfeaf3 0 14px,#eaf2f8 14px 28px)',
       noCover: !photos[0],
-      pvStatus: done ? 'Pending verification' : 'Draft',
+      pvStatus: done ? 'Waiting for review' : 'Draft',
       pvStatusDot: done ? '#F5B83D' : '#b7c7d8',
       pvPhotos: photos.length + ' photos',
       pvPhotosDisplay: photos.length > 1 ? 'inline-flex' : 'none',
@@ -778,7 +729,6 @@ function template(v) {
     d,
     doneTitle,
     editAgain,
-    featCols,
     fields,
     footGrid,
     footerCols,
@@ -813,12 +763,9 @@ function template(v) {
     payCols,
     payErrDisplay,
     payErrText,
-    payFields,
     photoCols,
     photoCount,
     photoTiles,
-    planCols,
-    planFeatures,
     pvAddress,
     pvCategory,
     pvChips,
@@ -1115,107 +1062,7 @@ function template(v) {
               ) : null}
               {isS4 ? (
                 <>
-                  <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                    <div
-                      style={{ display: 'flex', alignItems: 'baseline', justifyContent: 'space-between', gap: '10px' }}
-                    >
-                      <span style={{ font: '600 13.5px Figtree,sans-serif', color: '#1f3550' }}>Photos</span>
-                      <span style={{ font: '500 12.5px Figtree,sans-serif', color: '#6b7f95' }}>{$i(photoCount)}</span>
-                    </div>
-                    <div style={$css(`display:grid;grid-template-columns:${photoCols ?? ''};gap:10px`)} data-rc-dyn="1">
-                      {$list(photoTiles).map((p, $index) => (
-                        <Fragment key={$index}>
-                          <div
-                            style={$css(
-                              `position:relative;aspect-ratio:4/3;border-radius:16px;overflow:hidden;background:${p?.bg ?? ''};background-size:cover;background-position:center;border:1.5px ${p?.borderStyle ?? ''} ${p?.border ?? ''}`,
-                            )}
-                          >
-                            {p?.isCover ? (
-                              <>
-                                <span
-                                  style={{
-                                    position: 'absolute',
-                                    top: '8px',
-                                    left: '8px',
-                                    height: '22px',
-                                    padding: '0 9px',
-                                    borderRadius: '999px',
-                                    background: 'rgba(16,35,58,.7)',
-                                    color: '#fff',
-                                    font: '600 11px Figtree,sans-serif',
-                                    display: 'inline-flex',
-                                    alignItems: 'center',
-                                  }}
-                                >
-                                  Cover
-                                </span>
-                              </>
-                            ) : null}
-                            {p?.filled ? (
-                              <>
-                                <button
-                                  onClick={p?.remove}
-                                  aria-label="Remove photo"
-                                  style={{
-                                    appearance: 'none',
-                                    border: '0',
-                                    cursor: 'pointer',
-                                    position: 'absolute',
-                                    top: '8px',
-                                    right: '8px',
-                                    width: '26px',
-                                    height: '26px',
-                                    borderRadius: '50%',
-                                    background: 'rgba(255,255,255,.95)',
-                                    color: '#10233a',
-                                    display: 'grid',
-                                    placeItems: 'center',
-                                    font: '600 15px/1 Jost,sans-serif',
-                                  }}
-                                >
-                                  ×
-                                </button>
-                              </>
-                            ) : null}
-                            {p?.empty ? (
-                              <>
-                                <label
-                                  className="scpw"
-                                  style={{
-                                    position: 'absolute',
-                                    inset: '0',
-                                    display: 'flex',
-                                    flexDirection: 'column',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    gap: '6px',
-                                    cursor: 'pointer',
-                                    color: '#0890E8',
-                                    font: '600 13px Jost,sans-serif',
-                                    transition: 'background .15s ease',
-                                  }}
-                                >
-                                  {$i(iconUpload)}
-                                  {$i(p?.label)}
-                                  <input
-                                    type="file"
-                                    accept="image/*"
-                                    multiple
-                                    onChange={onPhotos}
-                                    style={{ display: 'none' }}
-                                  />
-                                </label>
-                              </>
-                            ) : null}
-                          </div>
-                        </Fragment>
-                      ))}
-                    </div>
-                    <span style={{ fontSize: '13px', color: '#6b7f95' }}>
-                      The first photo is your cover. Show rooms, common areas and the grounds — clients want to picture
-                      their stay.
-                    </span>
-                  </div>
+                  <p style={{ fontSize: '14px', color: '#516378', margin: 0 }}>Photos are added from your dashboard after your listing is approved, so they are uploaded to your own account.</p>
                 </>
               ) : null}
               {hasGroups ? (
@@ -1305,262 +1152,29 @@ function template(v) {
               ) : null}
               {isS6 ? (
                 <>
-                  <div
-                    style={{ display: 'flex', flexDirection: 'column', gap: '22px', animation: 'obFade .3s ease-out' }}
-                  >
-                    <div
-                      style={$css(
-                        `position:relative;display:grid;grid-template-columns:${planCols ?? ''};gap:20px;padding:24px;border-radius:24px;border:1.5px solid #0890E8;background:linear-gradient(160deg,#f3f9fe,#fff 60%);box-shadow:0 18px 36px -24px rgba(8,144,232,.55)`,
-                      )}
-                      data-rc-dyn="1"
-                    >
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                        <span
-                          style={{
-                            alignSelf: 'flex-start',
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '6px',
-                            height: '26px',
-                            padding: '0 10px 0 7px',
-                            borderRadius: '999px',
-                            background: '#fff',
-                            border: '1px solid #d6eafa',
-                            color: '#0a5d96',
-                            font: '600 12px Figtree,sans-serif',
-                          }}
-                        >
-                          <svg width="15" height="15" viewBox="0 0 24 24">
-                            <path
-                              d="M12 1.8l2.4 1.8 3-.2.9 2.9 2.5 1.7-.9 2.9.9 2.9-2.5 1.7-.9 2.9-3-.2L12 20.2l-2.4-1.8-3 .2-.9-2.9-2.5-1.7.9-2.9-.9-2.9 2.5-1.7.9-2.9 3 .2z"
-                              style={{ fill: '#0890E8' }}
-                            />
-                            <path
-                              d="M8.2 11.3l2.6 2.6 5-5"
-                              style={{
-                                fill: 'none',
-                                stroke: '#fff',
-                                strokeWidth: '2.2',
-                                strokeLinecap: 'round',
-                                strokeLinejoin: 'round',
-                              }}
-                            />
-                          </svg>
-                          Base plan
-                        </span>
-                        <span style={{ font: '600 24px Jost,sans-serif', color: '#10233a' }}>Verified</span>
-                        <span style={{ display: 'flex', alignItems: 'baseline', gap: '4px' }}>
-                          <span style={{ font: '600 40px/1 Jost,sans-serif', color: '#10233a' }}>$199</span>
-                          <span style={{ fontSize: '15px', color: '#6b7f95' }}>/month</span>
-                        </span>
-                        <span style={{ fontSize: '14px', lineHeight: '1.5', color: '#516378' }}>
-                          Everything you need for a trusted, complete listing.
-                        </span>
-                      </div>
-                      <ul
-                        style={$css(
-                          `display:grid;grid-template-columns:${featCols ?? ''};gap:10px 16px;align-content:center`,
-                        )}
-                        data-rc-dyn="1"
-                      >
-                        {$list(planFeatures).map((ft, $index) => (
-                          <Fragment key={$index}>
-                            <li
-                              style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '10px',
-                                font: '500 14.5px Figtree,sans-serif',
-                                color: '#1f3550',
-                              }}
-                            >
-                              <span
-                                style={{
-                                  width: '24px',
-                                  height: '24px',
-                                  borderRadius: '50%',
-                                  background: '#0890E8',
-                                  color: '#fff',
-                                  display: 'grid',
-                                  placeItems: 'center',
-                                  flexShrink: '0',
-                                }}
-                              >
-                                {$i(iconCheckSm)}
-                              </span>
-                              {$i(ft)}
-                            </li>
-                          </Fragment>
-                        ))}
-                      </ul>
-                    </div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '12px',
-                        padding: '14px 18px',
-                        borderRadius: '18px',
-                        background: '#f7fafd',
-                        border: '1px solid #e6eef6',
-                        flexWrap: 'wrap',
-                      }}
-                    >
-                      <span style={{ fontSize: '14.5px', color: '#3b4d63', flex: '1', minWidth: '220px' }}>
-                        Want sponsored placement on city, substance or treatment pages? Upgrade to Local, Growth or
-                        Premium any time after you're verified.
-                      </span>
-                      <$A
-                        href="/promote"
-                        style={{
-                          font: '600 14.5px Jost,sans-serif',
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          gap: '6px',
-                        }}
-                      >
-                        Compare plans
-                        {$i(iconArrow)}
-                      </$A>
-                    </div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '14px',
-                        padding: '20px',
-                        borderRadius: '22px',
-                        background: '#f7fafd',
-                        border: '1px solid #e6eef6',
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'space-between',
-                          gap: '12px',
-                          flexWrap: 'wrap',
-                        }}
-                      >
-                        <span style={{ font: '600 16px Jost,sans-serif', color: '#10233a' }}>Payment details</span>
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '6px',
-                            font: '500 13px Figtree,sans-serif',
-                            color: '#516378',
-                          }}
-                        >
-                          <span style={{ display: 'flex', color: '#1f8a52' }}>{$i(iconLock)}</span>
-                          Secure, encrypted checkout
-                        </span>
-                      </div>
-                      <div style={$css(`display:grid;grid-template-columns:${payCols ?? ''};gap:12px`)} data-rc-dyn="1">
-                        {$list(payFields).map((f, $index) => (
-                          <Fragment key={$index}>
-                            <label
-                              style={$css(
-                                `display:flex;flex-direction:column;gap:7px;min-width:0;grid-column:${f?.span ?? ''}`,
-                              )}
-                            >
-                              <span style={{ font: '600 13px Figtree,sans-serif', color: '#1f3550' }}>
-                                {$i(f?.label)}
-                              </span>
-                              <input
-                                className="scpf"
-                                value={$val(f?.value)}
-                                onChange={f?.onChange}
-                                placeholder={f?.placeholder}
-                                inputMode={f?.mode}
-                                style={$css(
-                                  `height:50px;padding:0 16px;border-radius:14px;border:1.5px solid ${f?.border ?? ''};background:#fff;font:500 15.5px Figtree,sans-serif;color:#10233a;outline:none`,
-                                )}
-                              />
-                              <span
-                                style={$css(
-                                  `display:${f?.errDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d`,
-                                )}
-                              >
-                                {$i(f?.err)}
-                              </span>
-                            </label>
-                          </Fragment>
-                        ))}
-                      </div>
-                      <div
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '12px',
-                          padding: '14px 16px',
-                          borderRadius: '16px',
-                          background: '#e9f6ef',
-                          border: '1px solid #cfead9',
-                        }}
-                      >
-                        <span
-                          style={{
-                            width: '34px',
-                            height: '34px',
-                            borderRadius: '11px',
-                            background: '#1f8a52',
-                            color: '#fff',
-                            display: 'grid',
-                            placeItems: 'center',
-                            flexShrink: '0',
-                          }}
-                        >
-                          {$i(iconShield)}
-                        </span>
-                        <span style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                          <span style={{ font: '600 14.5px Jost,sans-serif', color: '#10233a' }}>
-                            Full refund if we can't verify your centre
-                          </span>
-                          <span style={{ fontSize: '13.5px', lineHeight: '1.45', color: '#3b5a48' }}>
-                            If there's any issue approving your listing, we return your payment in full.
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '22px', animation: 'obFade .3s ease-out' }}>
+                    <p style={{ fontSize: '15.5px', lineHeight: '1.6', color: '#3b4d63', margin: 0 }}>
+                      Check the details in the preview, then submit. There is nothing to pay. Our team reviews every new listing; once it is approved you can sign in to edit your page, add photos and pricing, and see enquiries.
+                    </p>
                     <button
                       onClick={toggleTerms}
-                      style={{
-                        appearance: 'none',
-                        border: '0',
-                        background: 'transparent',
-                        padding: '0',
-                        cursor: 'pointer',
-                        display: 'flex',
-                        alignItems: 'flex-start',
-                        gap: '12px',
-                        textAlign: 'left',
-                      }}
+                      style={{ appearance: 'none', border: '0', background: 'transparent', padding: '0', cursor: 'pointer', display: 'flex', alignItems: 'flex-start', gap: '12px', textAlign: 'left' }}
                     >
                       <span
                         style={$css(
-                          `width:22px;height:22px;border-radius:7px;border:1.5px solid ${termsBorder ?? ''};background:${termsBg ?? ''};color:#fff;display:grid;place-items:center;flex-shrink:0;margin-top:1px;transition:background .15s ease,border-color .15s ease`,
+                          `width:22px;height:22px;border-radius:7px;border:1.5px solid ${termsBorder ?? ''};background:${termsBg ?? ''};color:#fff;display:grid;place-items:center;flex-shrink:0;margin-top:1px`,
                         )}
                       >
                         {$i(iconCheckSm)}
                       </span>
                       <span style={{ fontSize: '14.5px', lineHeight: '1.5', color: '#3b4d63' }}>
-                        I'm authorized to list this centre, agree to the{' '}
-                        <$A href="/terms-of-use" style={{ fontWeight: '600' }}>
-                          Terms of Use
-                        </$A>
-                        , and authorize a $199/mo charge starting today — refunded in full if the listing isn't
-                        approved.
+                        I'm authorized to list this centre and agree to the{' '}
+                        <$A href="/terms-of-use" style={{ fontWeight: '600' }}>Terms of Use</$A>.
                       </span>
                     </button>
-                    <span
-                      style={$css(
-                        `display:${payErrDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d;margin-top:-14px`,
-                      )}
-                    >
-                      {$i(payErrText)}
-                    </span>
+                    <span style={$css(`display:${payErrDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d;margin-top:-14px`)}>{$i(payErrText)}</span>
+                    <Honeypot />
+                    <FormError message={formError} fields={formFields} />
                   </div>
                 </>
               ) : null}
@@ -1593,8 +1207,8 @@ function template(v) {
                     </span>
                     <h2 style={{ fontSize: '32px' }}>{$i(doneTitle)}</h2>
                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#516378', maxWidth: '540px' }}>
-                      Your Verified subscription is active and your receipt is on its way to {$i(d?.email)}. We're
-                      verifying your centre now — if there's any issue, we'll refund you in full.
+                      We saved your listing and sent a confirmation to {$i(d?.email)}. Our team will review it and
+                      email you the result.
                     </p>
                     <ol
                       style={$css(

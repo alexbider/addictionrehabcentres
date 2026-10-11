@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 import CentreCard from '@/components/CentreCard';
 import GalleryGrid from '@/components/GalleryGrid';
 import { buildBody, clean } from '@/dc/guide';
@@ -23,7 +25,7 @@ class Component extends DCLogic {
   componentWillUnmount() {
     window.removeEventListener('resize', this._hdr);
   }
-  state = { menu: null, tab: 0, slide: 0, faq: 0, who: 'Yourself', funding: 'Self-pay', ack: false, priceTab: 0 };
+  state = { menu: null, tab: 0, slide: 0, faq: 0, who: 'Yourself', funding: 'Self-pay', ack: false, cbSent: false, cbSending: false, cbError: '', cbFields: null, priceTab: 0 };
   sliderRef = React.createRef();
   perView = 3;
   slideTo(i, total) {
@@ -1003,9 +1005,13 @@ class Component extends DCLogic {
       const { slide: sl } = this.state;
       // ---- pricing / team / reviews: the design's sample values behind SHOW_SAMPLE_DATA; neutral text without them
       const noSample = !showSample;
-      const priceLive = noSample
+      const ownerPrice = M.pricing
+        ? { priceTabs: [{ label: 'Pricing', select: () => {}, bg: '#0890E8', color: '#fff' }], priceCols: '1.4fr 1fr', priceHead: ['Program', 'Cost'], priceCells: M.pricing.rows.flatMap((r) => [{ v: r.label, font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: r.price + (r.note ? ' · ' + r.note : ''), font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }]), priceNote: 'Pricing entered by the centre.' + (M.pricing.updated ? ' Updated ' + M.pricing.updated + '.' : '') + ' Confirm current fees with ' + D.name + '.' }
+        : null;
+      const priceLive0 = noSample
         ? { priceTabs: [{ label: 'Pricing', select: () => {}, bg: '#0890E8', color: '#fff' }], priceCols: '1fr 1fr', priceHead: ['Item', 'As listed'], priceCells: [{ v: 'Cost', font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: M.fromPrice || '', font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }, ...((M.glance.find((g) => g.k === 'Program length') || {}).v ? [{ v: 'Program length', font: '600 14.5px Jost,sans-serif', color: '#10233a' }, { v: M.glance.find((g) => g.k === 'Program length').v, font: '500 14.5px Figtree,sans-serif', color: '#3b4d63' }] : [])], priceNote: 'Shown as listed for this centre; fees can change, so confirm current pricing with ' + D.name + '.' }
         : { priceNote: active.note + ' Fees depend on the program and length of stay; confirm current fees with ' + D.name + '.' };
+      const priceLive = ownerPrice && noSample ? ownerPrice : priceLive0;
       liveBase = {
         sectionTabs: sectionTabs.filter((t) => (t.label !== 'Reviews' || !!M.reviews) && (t.label !== 'Programs & Pricing' || showSample || !!M.fromPrice)),
         centres: othersLive,
@@ -1054,7 +1060,7 @@ class Component extends DCLogic {
         locSocial,
         directionsHref: M.location.directionsHref,
         priceOn: showSample || !!M.fromPrice,
-        priceCaption: showSample ? 'Example prices in CAD from the design. Confirm current fees directly with ' + D.name + '.' : 'The cost listed for ' + D.name + '.',
+        priceCaption: showSample ? 'Example prices in CAD from the design. Confirm current fees directly with ' + D.name + '.' : M.pricing ? 'Pricing entered by ' + D.name + '.' : 'The cost listed for ' + D.name + '.',
         priceCta: 'Confirm pricing with the centre',
         priceCtaHref: D.phoneHref || 'tel:+18558854747',
         faqIntro: D.faqs && D.faqs.length ? "Answers come from the centre's own listing. Still unsure? Call — it's free and confidential." : "Common questions answered. Still unsure? Call — it's free and confidential.",
@@ -1099,6 +1105,7 @@ class Component extends DCLogic {
       reviewRating: D && M.reviews ? M.reviews.rating.toFixed(1) : '',
       reviewsOn: D ? !!M.reviews : true,
       priceOn: true,
+      claimHref: D ? '/claim-listing/?centre=' + encodeURIComponent(D.slug || '') : '/claim-listing/',
       reviewItems: D && M.reviews ? M.reviews.reviews : [],
       reviewWrite: D && M.reviews ? M.reviews.writeReviewUri : '',
       reviewHref: D ? (M.reviews && M.reviews.mapsUri ? M.reviews.mapsUri : '') : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(this.props.centreName ?? 'Metamorphosis Centre for Change Wasaga Beach'),
@@ -1172,6 +1179,25 @@ class Component extends DCLogic {
       substance,
       setSubstance: (e) => this.setState({ substance: e.target.value }),
       toggleAck: () => this.setState({ ack: !ack }),
+      cbSent: this.state.cbSent,
+      cbSending: this.state.cbSending,
+      cbError: this.state.cbError,
+      cbFields: this.state.cbFields,
+      // The callback request is saved on the server; the success message only appears after it was saved.
+      onCallback: async (e) => {
+        e.preventDefault();
+        if (!ack) return;
+        const fd = new FormData(e.currentTarget);
+        this.setState({ cbSending: true, cbError: '', cbFields: null });
+        const r = await postJson('/api/forms/callback', {
+          centreSlug: window.location.pathname.replace(/^\/|\/$/g, '').replace(/\//g, '__'),  who: this.state.who, payment: this.state.funding,
+          setting: fd.get('setting') || '', when: fd.get('when') || '', province: fd.get('province') && fd.get('province') !== 'Select a province' ? fd.get('province') : '', substance: fd.get('substance') && fd.get('substance') !== '*' ? fd.get('substance') : '',
+          name: fd.get('name') || '', phone: fd.get('phone') || '', email: fd.get('email') || '', ack: true, company_website: fd.get('company_website') || '',
+        });
+        if (!r.ok) this.setState({ cbSending: false, cbError: r.error || 'Your request was not sent.', cbFields: r.fields || null });
+        else this.setState({ cbSending: false, cbSent: true });
+      },
+
       ackBorder: ack ? '#0890E8' : '#dbe6f0',
       ackBg: ack ? '#eaf5fd' : '#f7fafd',
       ackBoxBorder: ack ? '#0890E8' : '#b7c7d8',
@@ -1322,11 +1348,17 @@ function template(v) {
     substance,
     substanceOptions,
     toggleAck,
+    cbSent,
+    cbSending,
+    cbError,
+    cbFields,
+    onCallback,
     reviewCount,
     reviewHref,
     reviewRating,
     reviewsOn,
     priceOn,
+    claimHref,
     reviewItems,
     reviewWrite,
     unclaimed,
@@ -1924,7 +1956,7 @@ function template(v) {
                       </p>
                       <$A
                         className="scpa"
-                        href="/claim-listing/"
+                        href={claimHref}
                         style={{
                           font: '600 14px Jost,sans-serif',
                           color: '#0890E8',
@@ -2736,7 +2768,15 @@ function template(v) {
                 it isn't the right fit.
               </p>
             </div>
+            {cbSent ? (
+              <div role="status" style={{ background: '#e9f8ef', border: '1px solid #bfe6cf', borderRadius: '24px', padding: '28px', color: '#1d6b3f' }}>
+                <h3 style={{ fontSize: '22px' }}>Thank you. We received your request.</h3>
+                <p style={{ fontSize: '15.5px', marginTop: '8px' }}>We will contact you by phone or email. If this is urgent, call 1-855-885-4747 any time.</p>
+              </div>
+            ) : (
             <form
+              onSubmit={onCallback}
+              data-callback-form
               style={{
                 background: '#fff',
                 border: '1px solid #e3ecf4',
@@ -2748,6 +2788,7 @@ function template(v) {
                 boxShadow: '0 30px 60px -40px rgba(16,35,58,.35)',
               }}
             >
+              <Honeypot />
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px' }}>
                 <h3 style={{ fontSize: '18px' }}>Request a confidential callback</h3>
                 <span
@@ -2890,6 +2931,7 @@ function template(v) {
                     Preferred setting
                   </span>
                   <select
+                    name="setting"
                     style={{
                       appearance: 'none',
                       border: '1px solid #dbe6f0',
@@ -2920,6 +2962,7 @@ function template(v) {
                     When?
                   </span>
                   <select
+                    name="when"
                     style={{
                       appearance: 'none',
                       border: '1px solid #dbe6f0',
@@ -2949,6 +2992,7 @@ function template(v) {
                     Province
                   </span>
                   <select
+                    name="province"
                     style={{
                       appearance: 'none',
                       border: '1px solid #dbe6f0',
@@ -2986,6 +3030,7 @@ function template(v) {
                     Substance <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <select
+                    name="substance"
                     value={$val(substance)}
                     onChange={setSubstance}
                     style={{
@@ -3021,6 +3066,7 @@ function template(v) {
                     First name <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <input
+                    name="name"
                     type="text"
                     required={true}
                     autoComplete="given-name"
@@ -3048,6 +3094,7 @@ function template(v) {
                     Phone <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <input
+                    name="phone"
                     type="tel"
                     required={true}
                     autoComplete="tel"
@@ -3075,6 +3122,7 @@ function template(v) {
                     Email <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <input
+                    name="email"
                     type="email"
                     required={true}
                     autoComplete="email"
@@ -3112,6 +3160,7 @@ function template(v) {
                   centre only after I agree. <span style={{ color: '#D82028' }}>*</span>
                 </span>
               </button>
+              <FormError message={cbError} fields={cbFields} />
               <button
                 className="scpc"
                 type="submit"
@@ -3126,6 +3175,7 @@ function template(v) {
                 Confidential · No obligation
               </p>
             </form>
+            )}
           </div>
         </section>
         {unclaimed ? (
@@ -3166,7 +3216,7 @@ function template(v) {
                   <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '4px' }}>
                     <$A
                       className="scpr"
-                      href="/claim-listing"
+                      href={claimHref}
                       style={{
                         font: '600 16px Jost,sans-serif',
                         color: '#10233a',

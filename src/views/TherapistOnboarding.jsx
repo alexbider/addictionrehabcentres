@@ -4,6 +4,8 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
@@ -40,8 +42,10 @@ class Component extends DCLogic {
     photo: '',
     plan: 'Featured',
     annual: false,
-    pay: { card: '', exp: '', cvc: '', postal: '' },
     terms: false,
+    sending: false,
+    formError: '',
+    formFields: null,
     done: false,
     saved: false,
   };
@@ -118,7 +122,7 @@ class Component extends DCLogic {
 
   renderVals() {
     const B = '/';
-    const { vw, step, maxStep, tried, d, photo, plan, annual, pay, terms, done, saved } = this.state;
+    const { vw, step, maxStep, tried, d, photo, plan, annual, terms, done, saved, sending, formError, formFields } = this.state;
     const wide = vw >= 1060,
       mid = vw >= 700;
     const planLimit = plan === 'Professional' ? 8 : 20;
@@ -169,13 +173,7 @@ class Component extends DCLogic {
       4: { fee: !/^\d{2,4}$/.test(d.fee.trim()) ? 'Enter your fee for an individual session.' : '' },
     };
     const digits = (x) => x.replace(/\D/g, '');
-    const payErr = {
-      card: digits(pay.card).length < 15 ? 'Enter a valid card number.' : '',
-      exp: !/^(0[1-9]|1[0-2])\/\d{2}$/.test(pay.exp) ? 'Use MM/YY.' : '',
-      cvc: digits(pay.cvc).length < 3 ? 'Enter the CVC.' : '',
-      postal: pay.postal.trim().length < 3 ? 'Enter your postal code.' : '',
-    };
-    v[5] = { ...payErr, terms: !terms ? 'x' : '' };
+    v[5] = { terms: !terms ? 'x' : '' };
     const stepOk = (n) => Object.values(v[n]).every((x) => !x);
     const t = tried[step];
     const err = (n, k) => tried[n] && v[n][k];
@@ -190,17 +188,26 @@ class Component extends DCLogic {
         return;
       }
       if (step === 5) {
-        this.setState({ done: true });
-        try {
-          localStorage.removeItem(Component.KEY);
-        } catch (e) {}
-        this.toTop();
+        // Saved on the server (onboarding_submissions) before the confirmation appears. Free; an admin reviews it, and nothing is published until the text is the therapist's own and approved.
+        const hp = document.querySelector('input[name=company_website]');
+        this.setState({ sending: true, formError: '', formFields: null });
+        postJson('/api/forms/therapistOnboarding', { email: d.email, payload: d, company_website: hp ? hp.value : '' }).then((r) => {
+          if (!r.ok) {
+            this.setState({ sending: false, formError: r.error || 'Your submission was not sent.', formFields: r.fields || null });
+            return;
+          }
+          this.setState({ sending: false, done: true });
+          try {
+            localStorage.removeItem(Component.KEY);
+          } catch (e) {}
+          this.toTop();
+        });
         return;
       }
       go(step + 1);
     };
 
-    const names = ['About you', 'Practice', 'Profile', 'Fees', 'Plan & pay'];
+    const names = ['About you', 'Practice', 'Profile', 'Fees', 'Review'];
     const steps = names.map((label, i) => {
       const n = i + 1,
         cur = n === step && !done,
@@ -403,114 +410,6 @@ class Component extends DCLogic {
       },
     ];
 
-    const planDefs = [
-      [
-        'Professional',
-        19.95,
-        [
-          'Credential-verified profile',
-          'Province & city page listing',
-          'Message, call and website buttons',
-          'Up to 8 specialties',
-        ],
-      ],
-      [
-        'Featured',
-        49.95,
-        [
-          'Everything in Professional',
-          'Featured placement at the top of your city',
-          'Video introduction',
-          'Monthly analytics report',
-        ],
-      ],
-      [
-        'Featured Plus',
-        79.95,
-        [
-          'Everything in Featured',
-          'Province + up to 3 cities',
-          'Rehab & substance page placements',
-          'Client reviews module',
-        ],
-      ],
-    ];
-    const money = (n) => '$' + n.toFixed(2);
-    const plans = planDefs.map(([name, price, features]) => {
-      const on = plan === name;
-      const shown = annual ? (price * 10) / 12 : price;
-      return {
-        name,
-        features,
-        price: money(shown),
-        billedNote: annual ? 'Billed ' + money(price * 10) + ' yearly' : 'Billed monthly',
-        popular: name === 'Featured',
-        pressed: on ? 'true' : 'false',
-        select: () => this.setState({ plan: name }),
-        border: on ? '#0890E8' : '#e6eef6',
-        bg: on ? '#f3f9fe' : '#fff',
-        shadow: on ? '0 18px 36px -24px rgba(8,144,232,.55)' : 'none',
-        radioBorder: on ? '#0890E8' : '#cfdceb',
-        radioFill: on ? '#0890E8' : 'transparent',
-      };
-    });
-    const pObj = planDefs.find((p) => p[0] === plan);
-    const charge = annual ? money(pObj[1] * 10) + '/yr' : money(pObj[1]) + '/mo';
-    const billing = [
-      ['Monthly', false],
-      ['Annual', true],
-    ].map(([label, a]) => ({
-      label,
-      save: a,
-      select: () => this.setState({ annual: a }),
-      bg: annual === a ? '#fff' : 'transparent',
-      color: annual === a ? '#10233a' : '#6b7f95',
-      shadow: annual === a ? '0 4px 10px -4px rgba(16,35,58,.25)' : 'none',
-    }));
-    const setP = (k, fmt) => (e) => {
-      const val = fmt(e.target.value);
-      this.setState((s) => ({ pay: { ...s.pay, [k]: val } }));
-    };
-    const payFields = [
-      [
-        'card',
-        'Card number',
-        '1234 1234 1234 1234',
-        'numeric',
-        '1 / -1',
-        (x) =>
-          digits(x)
-            .slice(0, 16)
-            .replace(/(\d{4})(?=\d)/g, '$1 '),
-      ],
-      [
-        'exp',
-        'Expiry',
-        'MM/YY',
-        'numeric',
-        'span 1',
-        (x) => {
-          const q = digits(x).slice(0, 4);
-          return q.length > 2 ? q.slice(0, 2) + '/' + q.slice(2) : q;
-        },
-      ],
-      ['cvc', 'CVC', '123', 'numeric', 'span 1', (x) => digits(x).slice(0, 4)],
-      ['postal', 'Postal code', 'M5V 2C3', 'text', 'span 2', (x) => x.toUpperCase().slice(0, 7)],
-    ].map(([k, label, placeholder, mode, span, fmt]) => {
-      const bad = err(5, k);
-      return {
-        label,
-        placeholder,
-        mode,
-        span,
-        value: pay[k],
-        onChange: setP(k, fmt),
-        err: payErr[k],
-        errDisplay: bad ? 'block' : 'none',
-        border: bad ? '#e0787c' : '#dbe6f0',
-      };
-    });
-    const payBad = payErr.card || payErr.exp || payErr.cvc || payErr.postal;
 
     const initials = d.name.trim()
       ? d.name
@@ -635,48 +534,38 @@ class Component extends DCLogic {
       feeFields,
       feeToggles,
       s4Groups,
-      billing,
-      plans,
-      planCols: mid ? 'repeat(3,minmax(0,1fr))' : 'minmax(0,1fr)',
-      payFields,
-      payCols: mid ? 'repeat(4,minmax(0,1fr))' : 'repeat(2,minmax(0,1fr))',
-      chargeLabel: charge,
       toggleTerms: () => this.setState({ terms: !terms }),
       termsBg: terms ? '#0890E8' : '#fff',
       termsBorder: terms ? '#0890E8' : err(5, 'terms') ? '#e0787c' : '#cfdceb',
-      payErrDisplay: t && step === 5 && (payBad || !terms) ? 'block' : 'none',
-      payErrText: payBad ? 'Please complete your payment details.' : 'Please accept the terms to publish.',
+      payErrDisplay: t && step === 5 && !terms ? 'block' : 'none',
+      payErrText: 'Please accept the terms to submit.',
       back: () => go(Math.max(1, step - 1)),
       backVis: step > 1 ? 'visible' : 'hidden',
       next,
-      nextLabel:
-        step === 5
-          ? 'Pay ' + charge.replace('/mo', '').replace('/yr', '') + ' & publish'
-          : 'Continue to ' + names[step].toLowerCase(),
+      nextLabel: step === 5 ? (sending ? 'Sending…' : 'Submit for review') : 'Continue to ' + names[step].toLowerCase(),
       nextBg: step === 5 ? '#D82028' : '#0890E8',
       nextShadow: step === 5 ? '0 14px 28px -14px rgba(216,32,40,.7)' : 'none',
-      lockDisplay: step === 5 ? 'flex' : 'none',
+      lockDisplay: 'none',
       firstName: d.name.trim().split(' ')[0] || 'there',
-      planName: plan,
       nextSteps: [
         {
           n: '1',
           t: 'We verify your registration',
-          b: 'We check your number with your regulator. If there is any issue, we refund you in full.',
+          b: 'We check your registration number with your regulator.',
         },
         {
           n: '2',
           t: 'Your profile goes live',
           b: 'Once approved, your profile appears on your province and city pages.',
         },
-        { n: '3', t: 'Start receiving enquiries', b: 'Clients can message or call you directly from your profile.' },
+        { n: '3', t: 'Keep your profile up to date', b: 'Sign in any time to change or remove your details.' },
       ],
       editAgain: () => this.setState({ done: false, step: 1 }),
       strengthPct: strength + '%',
       strengthColor: strength >= 80 ? '#2fb46b' : strength >= 40 ? '#0890E8' : '#F5A623',
-      pvStatus: done ? 'Pending verification' : 'Draft',
+      pvStatus: done ? 'Waiting for review' : 'Draft',
       pvStatusDot: done ? '#F5B83D' : '#b7c7d8',
-      pvFeatured: plan !== 'Professional',
+      pvFeatured: false,
       pvName: d.name.trim() || 'Your name',
       pvNameColor: d.name.trim() ? '#10233a' : muted,
       pvCred: dObj ? dObj[0] + ' — ' + dObj[1] + (d.reg ? ' · #' + d.reg : '') : 'Your designation',
@@ -765,14 +654,12 @@ function template(v) {
     authCta,
     back,
     backVis,
-    billing,
     bioBorder,
     bioCount,
     bioCountColor,
     bioErrDisplay,
     bodyCols,
     bodyPad,
-    chargeLabel,
     checklist,
     cityBorder,
     cityErrDisplay,
@@ -817,12 +704,8 @@ function template(v) {
     payCols,
     payErrDisplay,
     payErrText,
-    payFields,
     photoBg,
     photoBtn,
-    planCols,
-    planName,
-    plans,
     provOpts,
     pvChips,
     pvConsult,
@@ -1616,299 +1499,29 @@ function template(v) {
               ) : null}
               {isS5 ? (
                 <>
-                  <div
-                    style={{ display: 'flex', flexDirection: 'column', gap: '24px', animation: 'obFade .3s ease-out' }}
-                  >
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                      <span
-                        style={{
-                          font: '600 12px Figtree,sans-serif',
-                          letterSpacing: '.12em',
-                          textTransform: 'uppercase',
-                          color: '#0890E8',
-                        }}
-                      >
-                        Step 5 of 5
-                      </span>
-                      <h2 style={{ fontSize: '28px' }}>{'Choose a plan & publish'}</h2>
-                      <p style={{ fontSize: '15.5px', color: '#516378' }}>
-                        Your subscription starts today. We check your registration next — if we can't approve your
-                        profile, we refund you in full.
-                      </p>
-                    </div>
-                    <div
-                      style={{
-                        alignSelf: 'flex-start',
-                        display: 'inline-flex',
-                        padding: '4px',
-                        borderRadius: '999px',
-                        background: '#f1f5f9',
-                        border: '1px solid #e6eef6',
-                      }}
-                    >
-                      {$list(billing).map((b, $index) => (
-                        <Fragment key={$index}>
-                          <button
-                            onClick={b?.select}
-                            style={$css(
-                              `appearance:none;border:0;cursor:pointer;height:38px;padding:0 16px;border-radius:999px;background:${b?.bg ?? ''};color:${b?.color ?? ''};box-shadow:${b?.shadow ?? ''};font:600 14px Figtree,sans-serif;display:inline-flex;align-items:center;gap:8px;transition:background .2s ease,color .2s ease`,
-                            )}
-                          >
-                            {$i(b?.label)}
-                            {b?.save ? (
-                              <>
-                                <span
-                                  style={{
-                                    font: '600 11px Figtree,sans-serif',
-                                    padding: '3px 7px',
-                                    borderRadius: '999px',
-                                    background: '#e6f4ec',
-                                    color: '#1f8a52',
-                                  }}
-                                >
-                                  2 months free
-                                </span>
-                              </>
-                            ) : null}
-                          </button>
-                        </Fragment>
-                      ))}
-                    </div>
-                    <div style={$css(`display:grid;grid-template-columns:${planCols ?? ''};gap:12px`)} data-rc-dyn="1">
-                      {$list(plans).map((p, $index) => (
-                        <Fragment key={$index}>
-                          <button
-                            className="scp18 scpg"
-                            onClick={p?.select}
-                            aria-pressed={p?.pressed}
-                            style={$css(
-                              `appearance:none;cursor:pointer;text-align:left;position:relative;display:flex;flex-direction:column;gap:12px;padding:20px;border-radius:22px;border:1.5px solid ${p?.border ?? ''};background:${p?.bg ?? ''};box-shadow:${p?.shadow ?? ''};transition:border-color .2s ease,background .2s ease,box-shadow .2s ease,transform .15s ease-out`,
-                            )}
-                          >
-                            {p?.popular ? (
-                              <>
-                                <span
-                                  style={{
-                                    position: 'absolute',
-                                    top: '-11px',
-                                    right: '16px',
-                                    height: '22px',
-                                    padding: '0 10px',
-                                    borderRadius: '999px',
-                                    background: '#D82028',
-                                    color: '#fff',
-                                    font: '600 11px Figtree,sans-serif',
-                                    letterSpacing: '.06em',
-                                    textTransform: 'uppercase',
-                                    display: 'inline-flex',
-                                    alignItems: 'center',
-                                  }}
-                                >
-                                  Most popular
-                                </span>
-                              </>
-                            ) : null}
-                            <span
-                              style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'space-between',
-                                gap: '8px',
-                              }}
-                            >
-                              <span style={{ font: '600 17px Jost,sans-serif', color: '#10233a' }}>{$i(p?.name)}</span>
-                              <span
-                                style={$css(
-                                  `width:20px;height:20px;border-radius:50%;border:1.5px solid ${p?.radioBorder ?? ''};display:grid;place-items:center`,
-                                )}
-                              >
-                                <span
-                                  style={$css(
-                                    `width:10px;height:10px;border-radius:50%;background:${p?.radioFill ?? ''}`,
-                                  )}
-                                />
-                              </span>
-                            </span>
-                            <span style={{ display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                              <span style={{ display: 'flex', alignItems: 'baseline', gap: '3px' }}>
-                                <span style={{ font: '600 30px/1 Jost,sans-serif', color: '#10233a' }}>
-                                  {$i(p?.price)}
-                                </span>
-                                <span style={{ fontSize: '14px', color: '#6b7f95' }}>/mo</span>
-                              </span>
-                              <span style={{ fontSize: '12.5px', color: '#6b7f95' }}>{$i(p?.billedNote)}</span>
-                            </span>
-                            <ul
-                              style={{
-                                display: 'flex',
-                                flexDirection: 'column',
-                                gap: '7px',
-                                borderTop: '1px solid #edf2f7',
-                                paddingTop: '12px',
-                              }}
-                            >
-                              {$list(p?.features).map((ft, $index) => (
-                                <Fragment key={$index}>
-                                  <li
-                                    style={{
-                                      display: 'flex',
-                                      alignItems: 'flex-start',
-                                      gap: '8px',
-                                      fontSize: '13.5px',
-                                      lineHeight: '1.4',
-                                      color: '#3b4d63',
-                                    }}
-                                  >
-                                    <span style={{ display: 'flex', color: '#0890E8', marginTop: '1px' }}>
-                                      {$i(iconCheckSm)}
-                                    </span>
-                                    {$i(ft)}
-                                  </li>
-                                </Fragment>
-                              ))}
-                            </ul>
-                          </button>
-                        </Fragment>
-                      ))}
-                    </div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '14px',
-                        padding: '20px',
-                        borderRadius: '22px',
-                        background: '#f7fafd',
-                        border: '1px solid #e6eef6',
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'space-between',
-                          gap: '12px',
-                          flexWrap: 'wrap',
-                        }}
-                      >
-                        <span style={{ font: '600 16px Jost,sans-serif', color: '#10233a' }}>Payment details</span>
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '6px',
-                            font: '500 13px Figtree,sans-serif',
-                            color: '#516378',
-                          }}
-                        >
-                          <span style={{ display: 'flex', color: '#1f8a52' }}>{$i(iconLock)}</span>
-                          Secure, encrypted checkout
-                        </span>
-                      </div>
-                      <div style={$css(`display:grid;grid-template-columns:${payCols ?? ''};gap:12px`)} data-rc-dyn="1">
-                        {$list(payFields).map((f, $index) => (
-                          <Fragment key={$index}>
-                            <label
-                              style={$css(
-                                `display:flex;flex-direction:column;gap:7px;min-width:0;grid-column:${f?.span ?? ''}`,
-                              )}
-                            >
-                              <span style={{ font: '600 13px Figtree,sans-serif', color: '#1f3550' }}>
-                                {$i(f?.label)}
-                              </span>
-                              <input
-                                className="scpf"
-                                value={$val(f?.value)}
-                                onChange={f?.onChange}
-                                placeholder={f?.placeholder}
-                                inputMode={f?.mode}
-                                style={$css(
-                                  `height:50px;padding:0 16px;border-radius:14px;border:1.5px solid ${f?.border ?? ''};background:#fff;font:500 15.5px Figtree,sans-serif;color:#10233a;outline:none`,
-                                )}
-                              />
-                              <span
-                                style={$css(
-                                  `display:${f?.errDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d`,
-                                )}
-                              >
-                                {$i(f?.err)}
-                              </span>
-                            </label>
-                          </Fragment>
-                        ))}
-                      </div>
-                      <div
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '12px',
-                          padding: '14px 16px',
-                          borderRadius: '16px',
-                          background: '#e9f6ef',
-                          border: '1px solid #cfead9',
-                        }}
-                      >
-                        <span
-                          style={{
-                            width: '34px',
-                            height: '34px',
-                            borderRadius: '11px',
-                            background: '#1f8a52',
-                            color: '#fff',
-                            display: 'grid',
-                            placeItems: 'center',
-                            flexShrink: '0',
-                          }}
-                        >
-                          {$i(iconShield)}
-                        </span>
-                        <span style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                          <span style={{ font: '600 14.5px Jost,sans-serif', color: '#10233a' }}>
-                            Full refund if we can't verify you
-                          </span>
-                          <span style={{ fontSize: '13.5px', lineHeight: '1.45', color: '#3b5a48' }}>
-                            If there's any issue approving your registration, we return your payment in full.
-                          </span>
-                        </span>
-                      </div>
-                    </div>
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '22px', animation: 'obFade .3s ease-out' }}>
+                    <p style={{ fontSize: '15.5px', lineHeight: '1.6', color: '#3b4d63', margin: 0 }}>
+                      Check the preview, then submit. There is nothing to pay. Your profile is shown only with the details you provided, and it is published after our team has reviewed it. Your own words are never changed without you knowing.
+                    </p>
                     <button
                       onClick={toggleTerms}
-                      style={{
-                        appearance: 'none',
-                        border: '0',
-                        background: 'transparent',
-                        padding: '0',
-                        cursor: 'pointer',
-                        display: 'flex',
-                        alignItems: 'flex-start',
-                        gap: '12px',
-                        textAlign: 'left',
-                      }}
+                      style={{ appearance: 'none', border: '0', background: 'transparent', padding: '0', cursor: 'pointer', display: 'flex', alignItems: 'flex-start', gap: '12px', textAlign: 'left' }}
                     >
                       <span
                         style={$css(
-                          `width:22px;height:22px;border-radius:7px;border:1.5px solid ${termsBorder ?? ''};background:${termsBg ?? ''};color:#fff;display:grid;place-items:center;flex-shrink:0;margin-top:1px;transition:background .15s ease,border-color .15s ease`,
+                          `width:22px;height:22px;border-radius:7px;border:1.5px solid ${termsBorder ?? ''};background:${termsBg ?? ''};color:#fff;display:grid;place-items:center;flex-shrink:0;margin-top:1px`,
                         )}
                       >
                         {$i(iconCheckSm)}
                       </span>
                       <span style={{ fontSize: '14.5px', lineHeight: '1.5', color: '#3b4d63' }}>
-                        I agree to the{' '}
-                        <$A href="/terms-of-use" style={{ fontWeight: '600' }}>
-                          Terms of Use
-                        </$A>{' '}
-                        and authorize a {$i(chargeLabel)} charge starting today, refunded in full if my profile isn't
-                        approved.
+                        The details are accurate and are mine to publish. I agree to the{' '}
+                        <$A href="/terms-of-use" style={{ fontWeight: '600' }}>Terms of Use</$A>.
                       </span>
                     </button>
-                    <span
-                      style={$css(
-                        `display:${payErrDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d;margin-top:-14px`,
-                      )}
-                    >
-                      {$i(payErrText)}
-                    </span>
+                    <span style={$css(`display:${payErrDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d;margin-top:-14px`)}>{$i(payErrText)}</span>
+                    <Honeypot />
+                    <FormError message={formError} fields={formFields} />
                   </div>
                 </>
               ) : null}
@@ -1941,8 +1554,8 @@ function template(v) {
                     </span>
                     <h2 style={{ fontSize: '32px' }}>You're in, {$i(firstName)}</h2>
                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#516378', maxWidth: '520px' }}>
-                      Your {$i(planName)} subscription is active and your receipt is on its way to {$i(d?.email)}. We're
-                      checking your registration now — if there's any issue, we'll refund you in full.
+                      We saved your profile and sent a confirmation to {$i(d?.email)}. Our team will review it and
+                      email you the result.
                     </p>
                     <ol
                       style={$css(

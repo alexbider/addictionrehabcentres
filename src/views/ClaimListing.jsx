@@ -4,11 +4,12 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
   state = {
-    pay: { card: '', exp: '', cvc: '', postal: '' },
     tried4b: false,
     vw: 390,
     query: '',
@@ -21,6 +22,9 @@ class Component extends DCLogic {
     terms: false,
     tried2: false,
     tried4: false,
+    sending: false,
+    formError: '',
+    formFields: null,
     form: { name: '', role: '', email: '', phone: '' },
   };
   flowRef = React.createRef();
@@ -28,6 +32,13 @@ class Component extends DCLogic {
     this.setState({ vw: window.innerWidth });
     this._r = () => this.setState({ vw: window.innerWidth });
     window.addEventListener('resize', this._r);
+    // /claim-listing/?centre=<slug> (from a centre page or an invite) opens with that listing selected.
+    try {
+      const c = new URLSearchParams(window.location.search).get('centre');
+      const list = this.props.centres || [];
+      const i = c ? list.findIndex((x) => x.href === '/' + c.replace(/__/g, '/') + '/') : -1;
+      if (i >= 0) this.setState({ sel: i, step: 2 });
+    } catch (e) {}
   }
   componentWillUnmount() {
     window.removeEventListener('resize', this._r);
@@ -120,38 +131,6 @@ class Component extends DCLogic {
     const results = match.slice(0, 5).map(row);
     const s = sel != null ? listings[sel] : null;
 
-    const planDefs = [
-      ['Verified', '$199', ['Verified badge', 'Enhanced profile', 'Photos & video', 'Calls & lead tracking']],
-      [
-        'Local',
-        '$399',
-        ['Everything in Verified', '1 City sponsorship', '1 Substance sponsorship', '1 Treatment sponsorship'],
-      ],
-      ['Growth', '$699', ['1 Province, 2 Cities', '2 Substances', '2 Treatment/Condition pages', 'Advanced analytics']],
-      [
-        'Premium',
-        '$1,299',
-        ['Up to 4 cities', '4 substances', '5 content placements', 'Priority sponsorship visibility'],
-      ],
-    ];
-    const plans = planDefs.map(([name, price, features]) => {
-      const on = plan === name;
-      return {
-        name,
-        price,
-        features,
-        popular: name === 'Growth',
-        pressed: on ? 'true' : 'false',
-        select: () => this.setState({ plan: name }),
-        border: on ? '#0890E8' : '#e6eef6',
-        bg: on ? '#f3f9fe' : '#fff',
-        shadow: on ? '0 18px 36px -24px rgba(8,144,232,.55)' : 'none',
-        radioBorder: on ? '#0890E8' : '#cfdceb',
-        radioFill: on ? '#0890E8' : 'transparent',
-      };
-    });
-    const planObj = planDefs.find((p) => p[0] === plan);
-
     const setF = (k) => (e) => {
       const v = e.target.value;
       this.setState((st) => ({ form: { ...st.form, [k]: v } }));
@@ -219,67 +198,17 @@ class Component extends DCLogic {
       method
     ];
 
-    const pay = this.state.pay;
-    const setP = (k, fmt) => (e) => {
-      const v = fmt(e.target.value);
-      this.setState((st) => ({ pay: { ...st.pay, [k]: v } }));
-    };
-    const digits = (v) => v.replace(/\D/g, '');
-    const payErr = {
-      card: digits(pay.card).length < 15 ? 'Enter a valid card number.' : '',
-      exp: !/^(0[1-9]|1[0-2])\/\d{2}$/.test(pay.exp) ? 'Use MM/YY.' : '',
-      cvc: digits(pay.cvc).length < 3 ? 'Enter the CVC.' : '',
-      postal: pay.postal.trim().length < 3 ? 'Enter your postal code.' : '',
-    };
-    const payFields = [
-      [
-        'card',
-        'Card number',
-        '1234 1234 1234 1234',
-        'numeric',
-        '1 / -1',
-        (v) =>
-          digits(v)
-            .slice(0, 16)
-            .replace(/(\d{4})(?=\d)/g, '$1 '),
-      ],
-      [
-        'exp',
-        'Expiry',
-        'MM/YY',
-        'numeric',
-        'span 1',
-        (v) => {
-          const d = digits(v).slice(0, 4);
-          return d.length > 2 ? d.slice(0, 2) + '/' + d.slice(2) : d;
-        },
-      ],
-      ['cvc', 'CVC', '123', 'numeric', 'span 1', (v) => digits(v).slice(0, 4)],
-      ['postal', 'Postal code', 'M5V 2C3', 'text', 'span 2', (v) => v.toUpperCase().slice(0, 7)],
-    ].map(([k, label, placeholder, mode, span, fmt]) => {
-      const bad = this.state.tried4 && payErr[k];
-      return {
-        label,
-        placeholder,
-        mode,
-        span,
-        value: pay[k],
-        onChange: setP(k, fmt),
-        err: payErr[k],
-        errDisplay: bad ? 'block' : 'none',
-        border: bad ? '#e0787c' : '#dbe6f0',
-      };
-    });
     const done = step === 5;
-    const stepNames = ['Find listing', 'Your details', 'Plan', 'Pay'];
-    const steps = stepNames.map((label, i) => {
-      const n = i + 1,
+    // Plan and payment steps are gone: claiming is free; plans are chosen later in the provider dashboard (src/config/plans.ts).
+    const stepNames = [['Find listing', 1], ['Your details', 2], ['Confirm', 4]];
+    const steps = stepNames.map(([label, id], i) => {
+      const n = id,
         cur = n === step,
         past = n < step || done,
         reach = n <= step && !done && (n === 1 || s);
       return {
         label,
-        mark: past ? '✓' : String(n),
+        mark: past ? '✓' : String(i + 1),
         go: () => {
           if (reach && n < step) this.go(n);
         },
@@ -299,7 +228,7 @@ class Component extends DCLogic {
         this.setState({ tried2: true });
         return;
       }
-      this.go(3);
+      this.go(4);
     };
     const review = [
       ['Listing', s ? s.name + ' · ' + s.address : '', 1],
@@ -307,7 +236,6 @@ class Component extends DCLogic {
       ['Email', form.email, 2],
       ['Phone', form.phone || 'Not provided', 2],
       ['Verification', methodLabel, 2],
-      ['Subscription', plan + ' · ' + (planObj ? planObj[1] : '') + '/mo', 3],
     ].map(([k, v, st], i) => ({ k, v, edit: () => this.go(st), line: i ? '#edf2f7' : 'transparent' }));
     const unlockDefs = [
       ['Verified badge', ic.badge],
@@ -380,14 +308,14 @@ class Component extends DCLogic {
       results,
       noResults: q.length > 0 && match.length === 0,
       resultsLabel: match.length + (match.length === 1 ? ' listing' : ' listings') + ' found',
-      perks: ['Get the Verified badge', 'Edit your centre details', 'Full refund if not verified'],
+      perks: ['Edit your centre details', 'Add photos and pricing', 'See enquiries from your page'],
       pvImg: s && s.image ? s.image.src : this.props.centres && this.props.centres.length ? '/assets/img/home/addiction-rehab-centers-canada.webp' : '/assets/img/home-hero.jpg',
       pvImgAlt: s && s.image ? s.image.alt || s.name : '',
       pvImgW: s && s.image && s.image.width ? s.image.width : 970,
       pvImgH: s && s.image && s.image.height ? s.image.height : 920,
       pvName: s ? s.name : 'Your centre name',
       pvAddress: s ? s.address : 'City, Province',
-      pvBadge: done ? 'Verified' : 'Unclaimed listing',
+      pvBadge: done ? 'Claim received' : 'Unclaimed listing',
       pvBadgeBg: done ? 'rgba(255,255,255,.96)' : 'rgba(255,255,255,.85)',
       pvBadgeColor: done ? '#10233a' : '#516378',
       pvSealDisplay: done ? 'flex' : 'none',
@@ -402,7 +330,6 @@ class Component extends DCLogic {
       steps,
       isStep1: step === 1,
       isStep2: step === 2 && !!s,
-      isStep3: step === 3,
       isStep4: step === 4,
       isDone: done,
       allResults: match.slice(0, 8).map(row),
@@ -419,33 +346,40 @@ class Component extends DCLogic {
       authErrDisplay: tried2 && !auth ? 'block' : 'none',
       back: () => this.go(Math.max(1, step - 1)),
       next2,
-      next3: () => this.go(4),
-      plans,
-      planCols: vw >= 1180 ? 'repeat(4,minmax(0,1fr))' : mid ? 'repeat(2,minmax(0,1fr))' : 'minmax(0,1fr)',
       review,
       reviewCols: mid ? '150px minmax(0,1fr)' : 'minmax(0,1fr)',
       toggleTerms: () => this.setState({ terms: !terms }),
       termsBg: terms ? '#0890E8' : '#fff',
       termsBorder: terms ? '#0890E8' : tried4 && !terms ? '#e0787c' : '#cfdceb',
-      termsErrDisplay:
-        tried4 && (!terms || payErr.card || payErr.exp || payErr.cvc || payErr.postal) ? 'block' : 'none',
-      submit: () => {
-        const payBad = payErr.card || payErr.exp || payErr.cvc || payErr.postal;
-        if (!terms || payBad) {
+      termsErrDisplay: tried4 && !terms ? 'block' : 'none',
+      submit: async () => {
+        if (!terms) {
           this.setState({ tried4: true });
           return;
         }
-        this.go(5);
+        if (!s || !s.href) return;
+        const hp = document.querySelector('input[name=company_website]');
+        this.setState({ sending: true, formError: '', formFields: null });
+        const r = await postJson('/api/forms/claim', {
+          centreSlug: s.href.replace(/^\/|\/$/g, '').replace(/\//g, '__'), name: form.name.trim(), email: form.email.trim(), phone: form.phone.trim(), roleTitle: form.role.trim(),
+          message: 'Verification method: ' + methodLabel, company_website: hp ? hp.value : '',
+        });
+        if (!r.ok) this.setState({ sending: false, formError: r.error || 'Your claim was not sent.', formFields: r.fields || null });
+        else {
+          this.setState({ sending: false });
+          this.go(5);
+        }
       },
-      payFields,
-      payCols: mid ? 'repeat(4,minmax(0,1fr))' : 'repeat(2,minmax(0,1fr))',
-      termsErr: !terms ? 'Please accept the terms to pay.' : 'Please complete your payment details.',
+      sending: this.state.sending,
+      formError: this.state.formError,
+      formFields: this.state.formFields,
+      termsErr: 'Please accept the terms to continue.',
       iconLock: this.icon(
         [{ t: 'rect', a: { x: 5, y: 11, width: 14, height: 10, rx: 2 } }, 'M8 11V8a4 4 0 0 1 8 0v3'],
         { width: 15, height: 15, strokeWidth: 2 },
       ),
       firstName: form.name.trim().split(' ')[0] || 'there',
-      planName: plan,
+      planName: '',
       form,
       nextSteps: [
         {
@@ -455,19 +389,18 @@ class Component extends DCLogic {
         },
         {
           n: '2',
-          t: 'Approved or refunded',
-          b: 'Once approved, we email you access. If there is any issue, we refund your payment in full.',
+          t: 'We email you the result',
+          b: 'Once approved, create your account with this email address to manage the page.',
         },
         {
           n: '3',
-          t: 'Your listing goes Verified',
-          b: 'Update your profile, add photos and start tracking calls and leads.',
+          t: 'Update your page',
+          b: 'Edit your details, add photos and pricing, and see enquiries.',
         },
       ],
       nextCols: mid ? 'repeat(3,minmax(0,1fr))' : 'minmax(0,1fr)',
       restart: () => {
         this.setState({
-          pay: { card: '', exp: '', cvc: '', postal: '' },
           step: 1,
           sel: null,
           query: '',
@@ -484,8 +417,6 @@ class Component extends DCLogic {
       asInitials: s ? s.initials : '?',
       asTileBg: s ? '#eaf5fd' : '#f5f8fb',
       asTileColor: s ? '#0890E8' : '#9aabbd',
-      asPlan: plan,
-      asPrice: planObj ? planObj[1] : '',
       footerCols,
       footGrid: wide ? 'minmax(0,1.25fr) repeat(3,minmax(0,1fr))' : mid ? 'repeat(2,minmax(0,1fr))' : 'minmax(0,1fr)',
       iconSearch: this.icon([{ t: 'circle', a: { cx: 11, cy: 11, r: 7 } }, 'M20 20l-3.5-3.5']),
@@ -527,8 +458,6 @@ function template(v) {
     asAddress,
     asInitials,
     asName,
-    asPlan,
-    asPrice,
     asTileBg,
     asTileColor,
     asidePos,
@@ -559,14 +488,15 @@ function template(v) {
     iconShield,
     iconShieldSm,
     isDone,
+    sending,
+    formError,
+    formFields,
     isStep1,
     isStep2,
-    isStep3,
     isStep4,
     methodCols,
     methods,
     next2,
-    next3,
     nextCols,
     nextSteps,
     noAll,
@@ -577,12 +507,8 @@ function template(v) {
     onSearchFocus,
     onSearchGo,
     panelPad,
-    payCols,
-    payFields,
     perks,
-    planCols,
     planName,
-    plans,
     pvAddress,
     pvImg,
     pvImgAlt,
@@ -974,9 +900,9 @@ function template(v) {
                           {$i(iconShield)}
                         </span>
                         <span style={{ display: 'flex', flexDirection: 'column', gap: '1px', minWidth: '0' }}>
-                          <span style={{ font: '600 14px Jost,sans-serif' }}>Verified by our team after payment</span>
+                          <span style={{ font: '600 14px Jost,sans-serif' }}>Reviewed by our team</span>
                           <span style={{ font: '500 12px Figtree,sans-serif', color: '#b7c7d8' }}>
-                            Full refund if we can't approve your claim
+                            Claiming a listing is free
                           </span>
                         </span>
                       </div>
@@ -1374,193 +1300,7 @@ function template(v) {
                           transition: 'background .15s ease,transform .12s ease-out',
                         }}
                       >
-                        Continue to plans
-                        {$i(iconArrow)}
-                      </button>
-                    </div>
-                  </div>
-                </>
-              ) : null}
-              {isStep3 ? (
-                <>
-                  <div
-                    style={{ display: 'flex', flexDirection: 'column', gap: '22px', animation: 'clFade .3s ease-out' }}
-                  >
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                      <h2 style={{ fontSize: '28px' }}>Choose your subscription</h2>
-                      <p style={{ fontSize: '15.5px', color: '#516378' }}>
-                        A subscription is required to claim and manage a listing. Pick the plan that fits your centre.
-                      </p>
-                    </div>
-                    <div style={$css(`display:grid;grid-template-columns:${planCols ?? ''};gap:12px`)} data-rc-dyn="1">
-                      {$list(plans).map((p, $index) => (
-                        <Fragment key={$index}>
-                          <button
-                            className="scp18 scpg"
-                            onClick={p?.select}
-                            aria-pressed={p?.pressed}
-                            style={$css(
-                              `appearance:none;cursor:pointer;text-align:left;position:relative;display:flex;flex-direction:column;gap:14px;padding:20px;border-radius:22px;border:1.5px solid ${p?.border ?? ''};background:${p?.bg ?? ''};box-shadow:${p?.shadow ?? ''};transition:border-color .2s ease,background .2s ease,box-shadow .2s ease,transform .15s ease-out`,
-                            )}
-                          >
-                            {p?.popular ? (
-                              <>
-                                <span
-                                  style={{
-                                    position: 'absolute',
-                                    top: '-11px',
-                                    right: '16px',
-                                    height: '22px',
-                                    padding: '0 10px',
-                                    borderRadius: '999px',
-                                    background: '#D82028',
-                                    color: '#fff',
-                                    font: '600 11px Figtree,sans-serif',
-                                    letterSpacing: '.06em',
-                                    textTransform: 'uppercase',
-                                    display: 'inline-flex',
-                                    alignItems: 'center',
-                                  }}
-                                >
-                                  Most popular
-                                </span>
-                              </>
-                            ) : null}
-                            <span
-                              style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'space-between',
-                                gap: '8px',
-                              }}
-                            >
-                              <span style={{ font: '600 17px Jost,sans-serif', color: '#10233a' }}>{$i(p?.name)}</span>
-                              <span
-                                style={$css(
-                                  `width:20px;height:20px;border-radius:50%;border:1.5px solid ${p?.radioBorder ?? ''};display:grid;place-items:center`,
-                                )}
-                              >
-                                <span
-                                  style={$css(
-                                    `width:10px;height:10px;border-radius:50%;background:${p?.radioFill ?? ''}`,
-                                  )}
-                                />
-                              </span>
-                            </span>
-                            <span style={{ display: 'flex', alignItems: 'baseline', gap: '3px' }}>
-                              <span style={{ font: '600 32px/1 Jost,sans-serif', color: '#10233a' }}>
-                                {$i(p?.price)}
-                              </span>
-                              <span style={{ fontSize: '14px', color: '#6b7f95' }}>/mo</span>
-                            </span>
-                            <ul
-                              style={{
-                                display: 'flex',
-                                flexDirection: 'column',
-                                gap: '7px',
-                                borderTop: '1px solid #edf2f7',
-                                paddingTop: '14px',
-                              }}
-                            >
-                              {$list(p?.features).map((ft, $index) => (
-                                <Fragment key={$index}>
-                                  <li
-                                    style={{
-                                      display: 'flex',
-                                      alignItems: 'flex-start',
-                                      gap: '8px',
-                                      fontSize: '13.5px',
-                                      lineHeight: '1.4',
-                                      color: '#3b4d63',
-                                    }}
-                                  >
-                                    <span style={{ display: 'flex', color: '#0890E8', marginTop: '1px' }}>
-                                      {$i(iconCheckSm)}
-                                    </span>
-                                    {$i(ft)}
-                                  </li>
-                                </Fragment>
-                              ))}
-                            </ul>
-                          </button>
-                        </Fragment>
-                      ))}
-                    </div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '12px',
-                        padding: '14px 18px',
-                        borderRadius: '18px',
-                        background: '#f7fafd',
-                        border: '1px solid #e6eef6',
-                        flexWrap: 'wrap',
-                      }}
-                    >
-                      <span style={{ fontSize: '14.5px', color: '#3b4d63', flex: '1', minWidth: '220px' }}>
-                        Multiple locations or national reach? The National plan starts from $2,500/mo.
-                      </span>
-                      <$A
-                        href="/promote"
-                        style={{
-                          font: '600 14.5px Jost,sans-serif',
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          gap: '6px',
-                        }}
-                      >
-                        Talk to our team
-                        {$i(iconArrow)}
-                      </$A>
-                    </div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        justifyContent: 'space-between',
-                        gap: '12px',
-                        flexWrap: 'wrap',
-                        paddingTop: '6px',
-                        borderTop: '1px solid #edf2f7',
-                      }}
-                    >
-                      <button
-                        className="scp2"
-                        onClick={back}
-                        style={{
-                          appearance: 'none',
-                          cursor: 'pointer',
-                          height: '48px',
-                          padding: '0 20px',
-                          borderRadius: '999px',
-                          border: '1.5px solid #dbe6f0',
-                          background: '#fff',
-                          color: '#1f3550',
-                          font: '600 15px Jost,sans-serif',
-                        }}
-                      >
-                        Back
-                      </button>
-                      <button
-                        className="scpc scpy"
-                        onClick={next3}
-                        style={{
-                          appearance: 'none',
-                          border: '0',
-                          cursor: 'pointer',
-                          display: 'inline-flex',
-                          alignItems: 'center',
-                          gap: '8px',
-                          height: '48px',
-                          padding: '0 22px',
-                          borderRadius: '999px',
-                          background: '#0890E8',
-                          color: '#fff',
-                          font: '600 15px Jost,sans-serif',
-                          transition: 'background .15s ease,transform .12s ease-out',
-                        }}
-                      >
-                        Continue to payment
+                        Review your claim
                         {$i(iconArrow)}
                       </button>
                     </div>
@@ -1573,10 +1313,10 @@ function template(v) {
                     style={{ display: 'flex', flexDirection: 'column', gap: '22px', animation: 'clFade .3s ease-out' }}
                   >
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                      <h2 style={{ fontSize: '28px' }}>{'Review & pay'}</h2>
+                      <h2 style={{ fontSize: '28px' }}>{'Review & submit'}</h2>
                       <p style={{ fontSize: '15.5px', color: '#516378' }}>
-                        Your subscription starts today. Our team then verifies your ownership — if we can't approve the
-                        claim, we refund your payment in full.
+                        Claiming a listing is free. Our team checks your details with the verification method you chose,
+                        then emails you the result.
                       </p>
                     </div>
                     <div style={{ border: '1px solid #e6eef6', borderRadius: '20px', overflow: 'hidden' }}>
@@ -1637,107 +1377,6 @@ function template(v) {
                         </Fragment>
                       ))}
                     </div>
-                    <div
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        gap: '14px',
-                        padding: '20px',
-                        borderRadius: '22px',
-                        background: '#f7fafd',
-                        border: '1px solid #e6eef6',
-                      }}
-                    >
-                      <div
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'space-between',
-                          gap: '12px',
-                          flexWrap: 'wrap',
-                        }}
-                      >
-                        <span style={{ font: '600 16px Jost,sans-serif', color: '#10233a' }}>Payment details</span>
-                        <span
-                          style={{
-                            display: 'inline-flex',
-                            alignItems: 'center',
-                            gap: '6px',
-                            font: '500 13px Figtree,sans-serif',
-                            color: '#516378',
-                          }}
-                        >
-                          <span style={{ display: 'flex', color: '#1f8a52' }}>{$i(iconLock)}</span>
-                          Secure, encrypted checkout
-                        </span>
-                      </div>
-                      <div style={$css(`display:grid;grid-template-columns:${payCols ?? ''};gap:12px`)} data-rc-dyn="1">
-                        {$list(payFields).map((f, $index) => (
-                          <Fragment key={$index}>
-                            <label
-                              style={$css(
-                                `display:flex;flex-direction:column;gap:7px;min-width:0;grid-column:${f?.span ?? ''}`,
-                              )}
-                            >
-                              <span style={{ font: '600 13px Figtree,sans-serif', color: '#1f3550' }}>
-                                {$i(f?.label)}
-                              </span>
-                              <input
-                                className="scpf"
-                                value={$val(f?.value)}
-                                onChange={f?.onChange}
-                                placeholder={f?.placeholder}
-                                inputMode={f?.mode}
-                                style={$css(
-                                  `height:50px;padding:0 16px;border-radius:14px;border:1.5px solid ${f?.border ?? ''};background:#fff;font:500 15.5px Figtree,sans-serif;color:#10233a;outline:none;transition:border-color .15s ease,box-shadow .15s ease`,
-                                )}
-                              />
-                              <span
-                                style={$css(
-                                  `display:${f?.errDisplay ?? ''};font:500 12.5px Figtree,sans-serif;color:#c0262d`,
-                                )}
-                              >
-                                {$i(f?.err)}
-                              </span>
-                            </label>
-                          </Fragment>
-                        ))}
-                      </div>
-                      <div
-                        style={{
-                          display: 'flex',
-                          alignItems: 'center',
-                          gap: '12px',
-                          padding: '14px 16px',
-                          borderRadius: '16px',
-                          background: '#e9f6ef',
-                          border: '1px solid #cfead9',
-                        }}
-                      >
-                        <span
-                          style={{
-                            width: '34px',
-                            height: '34px',
-                            borderRadius: '11px',
-                            background: '#1f8a52',
-                            color: '#fff',
-                            display: 'grid',
-                            placeItems: 'center',
-                            flexShrink: '0',
-                          }}
-                        >
-                          {$i(iconShield)}
-                        </span>
-                        <span style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
-                          <span style={{ font: '600 14.5px Jost,sans-serif', color: '#10233a' }}>
-                            Full refund if we can't verify you
-                          </span>
-                          <span style={{ fontSize: '13.5px', lineHeight: '1.45', color: '#3b5a48' }}>
-                            If there's any issue approving your claim, we return your payment in full.
-                          </span>
-                        </span>
-                      </div>
-                    </div>
                     <button
                       onClick={toggleTerms}
                       style={{
@@ -1764,8 +1403,7 @@ function template(v) {
                         <$A href="/terms-of-use" style={{ fontWeight: '600' }}>
                           Terms of Use
                         </$A>{' '}
-                        and authorize a {$i(asPrice)}
-                        /mo subscription charge starting today, refunded in full if the claim isn't approved.
+                        and confirm that I am allowed to manage this listing.
                       </span>
                     </button>
                     <span
@@ -1775,6 +1413,8 @@ function template(v) {
                     >
                       {$i(termsErr)}
                     </span>
+                    <Honeypot />
+                    <FormError message={formError} fields={formFields} />
                     <div
                       style={{
                         display: 'flex',
@@ -1822,8 +1462,7 @@ function template(v) {
                           transition: 'background .15s ease,transform .12s ease-out',
                         }}
                       >
-                        <span style={{ display: 'flex' }}>{$i(iconLock)}</span>
-                        Pay {$i(asPrice)} {'& submit claim'}
+                        {$i(sending ? 'Sending…' : 'Submit claim')}
                       </button>
                     </div>
                   </div>
@@ -1856,11 +1495,11 @@ function template(v) {
                     >
                       {$i(iconCheckLg)}
                     </span>
-                    <h2 style={{ fontSize: '32px' }}>Payment received — claim under review</h2>
+                    <h2 style={{ fontSize: '32px' }}>Claim received</h2>
                     <p style={{ fontSize: '16px', lineHeight: '1.6', color: '#516378', maxWidth: '520px' }}>
-                      Thanks, {$i(firstName)}. Your {$i(planName)} subscription for{' '}
-                      <strong style={{ color: '#10233a' }}>{$i(selName)}</strong> is active and your receipt has been
-                      sent to {$i(form?.email)}. If we can't verify your ownership, we'll refund you in full.
+                      Thanks, {$i(firstName)}. We received your claim for{' '}
+                      <strong style={{ color: '#10233a' }}>{$i(selName)}</strong> and sent a confirmation to {$i(form?.email)}.
+                      We will email you once it has been reviewed.
                     </p>
                     <ol
                       style={$css(
@@ -1961,45 +1600,6 @@ function template(v) {
                   <span style={{ display: 'flex', flexDirection: 'column', gap: '2px', minWidth: '0' }}>
                     <span style={{ font: '600 15.5px Jost,sans-serif', color: '#10233a' }}>{$i(asName)}</span>
                     <span style={{ fontSize: '13px', color: '#6b7f95' }}>{$i(asAddress)}</span>
-                  </span>
-                </div>
-                <div style={{ display: 'flex', flexDirection: 'column', borderTop: '1px solid #edf2f7' }}>
-                  <div
-                    style={{
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      gap: '10px',
-                      padding: '12px 0',
-                      borderBottom: '1px solid #edf2f7',
-                      fontSize: '14px',
-                    }}
-                  >
-                    <span style={{ color: '#6b7f95' }}>Plan</span>
-                    <span style={{ font: '600 14.5px Jost,sans-serif', color: '#10233a' }}>{$i(asPlan)}</span>
-                  </div>
-                  <div
-                    style={{
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      gap: '10px',
-                      padding: '12px 0 4px',
-                      fontSize: '14px',
-                    }}
-                  >
-                    <span style={{ color: '#6b7f95' }}>Due today</span>
-                    <span style={{ font: '600 20px Jost,sans-serif', color: '#10233a' }}>{$i(asPrice)}</span>
-                  </div>
-                  <span
-                    style={{
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '7px',
-                      font: '500 12.5px Figtree,sans-serif',
-                      color: '#1f8a52',
-                    }}
-                  >
-                    <span style={{ display: 'flex' }}>{$i(iconShieldSm)}</span>
-                    Refunded in full if not verified
                   </span>
                 </div>
               </div>

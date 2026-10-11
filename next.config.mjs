@@ -14,8 +14,20 @@ const nextConfig = {
   // Trailing-slash, case, host, legacy-URL and src/lib/redirects.json redirects are all computed in src/proxy.ts so every URL needs ONE hop at most.
   skipTrailingSlashRedirect: true,
   // Draft design pages: never indexed (also sent as a header, besides the meta tag).
+  // Photos uploaded by centres live on Vercel Blob; next/image (the lightbox) may optimise them.
+  images: { remotePatterns: [{ protocol: 'https', hostname: '*.public.blob.vercel-storage.com' }] },
   async headers() {
-    return drafts.flatMap((d) => [d, d + '/']).map((source) => ({ source, headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }));
+    const draftHeaders = drafts.flatMap((d) => [d, d + '/']).map((source) => ({ source, headers: [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }] }));
+    // Security headers on every response (CSP is not set: the analytics and design runtime use inline scripts; add one with nonces before enabling it).
+    const security = [
+      { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+      { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+      { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=(), payment=(self)' },
+      { key: 'Cross-Origin-Opener-Policy', value: 'same-origin-allow-popups' },
+      { key: 'Strict-Transport-Security', value: 'max-age=63072000; includeSubDomains' },
+    ];
+    return [{ source: '/:path*', headers: security }, ...draftHeaders];
   },
 };
 

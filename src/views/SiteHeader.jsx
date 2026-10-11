@@ -963,6 +963,20 @@ function template(v) {
                 ))}
               </nav>
               <$A
+                className="scpy"
+                href="/therapists/"
+                style={{ flexShrink: '0', font: '500 14.5px Figtree,sans-serif', color: '#10233a', height: '46px', display: 'inline-flex', alignItems: 'center', padding: '0 10px', whiteSpace: 'nowrap' }}
+              >
+                Find a Therapist
+              </$A>
+              <$A
+                className="scpy"
+                href="/login/"
+                style={{ flexShrink: '0', font: '500 14.5px Figtree,sans-serif', color: '#10233a', height: '46px', display: 'inline-flex', alignItems: 'center', padding: '0 10px', whiteSpace: 'nowrap' }}
+              >
+                Sign in
+              </$A>
+              <$A
                 className="scp1 scpy"
                 href="/search/"
                 style={{
@@ -1612,6 +1626,10 @@ function template(v) {
                     }}
                   />
                 </form>
+                <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: '6px' }}>
+                  <$A href="/therapists/" style={{ flex: '1', minWidth: '140px', textAlign: 'center', padding: '14px 16px', borderRadius: '16px', border: '1px solid #ece3d6', background: '#fff', font: '600 15px Jost,sans-serif', color: '#10233a', minHeight: '48px' }}>Find a Therapist</$A>
+                  <$A href="/login/" style={{ flex: '1', minWidth: '140px', textAlign: 'center', padding: '14px 16px', borderRadius: '16px', border: '1px solid #ece3d6', background: '#fff', font: '600 15px Jost,sans-serif', color: '#10233a', minHeight: '48px' }}>Sign in</$A>
+                </div>
                 {$list(mobSections).map((s, $index) => (
                   <Fragment key={$index}>
                     <div

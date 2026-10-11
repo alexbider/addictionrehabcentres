@@ -4,10 +4,12 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, topic: 0, sent: false, faq: 0, w: 390 };
+  state = { menu: null, topic: 0, sent: false, faq: 0, w: 390, sending: false, formError: '', formFields: null };
   componentDidMount() {
     this._ro = new ResizeObserver(() => {
       const w = document.documentElement.clientWidth;
@@ -499,10 +501,22 @@ class Component extends DCLogic {
       msgPlaceholder: cur.ph,
       sent,
       notSent: !sent,
-      submit: (e) => {
+      // Nothing is reported as sent unless the server saved it (src/app/api/forms/[kind]/route.ts).
+      submit: async (e) => {
         e.preventDefault();
-        this.setState({ sent: true });
+        const fd = new FormData(e.currentTarget);
+        this.setState({ sending: true, formError: '', formFields: null });
+        const r = await postJson('/api/forms/contact', {
+          name: fd.get('name') || '', email: fd.get('email') || '', phone: fd.get('phone') || '', topic: cur.label, org: fd.get('org') || '',
+          message: [fd.get('message') || '', fd.get('province') && fd.get('province') !== 'Province' ? '\nProvince: ' + fd.get('province') : '', fd.get('callback') ? '\nOK to call back: yes' : ''].join(''),
+          company_website: fd.get('company_website') || '',
+        });
+        if (!r.ok) this.setState({ sending: false, formError: r.error || 'Your message was not sent.', formFields: r.fields || null });
+        else this.setState({ sending: false, sent: true });
       },
+      sending: this.state.sending,
+      formError: this.state.formError,
+      formFields: this.state.formFields,
       reset: () => this.setState({ sent: false }),
       heroCols: narrow ? '1fr' : '1.1fr .9fr',
       h1Size: mobile ? '40px' : narrow ? '48px' : '56px',
@@ -544,6 +558,9 @@ function template(v) {
     pathCols,
     quickPaths,
     reset,
+    sending,
+    formError,
+    formFields,
     sent,
     showOrg,
     showUrgent,
@@ -884,6 +901,7 @@ function template(v) {
                     }}
                   >
                     <div style={{ font: '600 19px Jost,sans-serif' }}>Send us a message</div>
+                    <Honeypot />
                     <div style={$css(`display:grid;grid-template-columns:${fieldCols ?? ''};gap:10px`)} data-rc-dyn="1">
                       <input
                         required
@@ -1007,9 +1025,11 @@ function template(v) {
                       />
                       It's okay to call me back. Calls are discreet — we never leave details in a voicemail.
                     </label>
+                    <FormError message={formError} fields={formFields} />
                     <button
                       className="scpc"
                       type="submit"
+                      disabled={sending}
                       style={{
                         appearance: 'none',
                         border: '0',
@@ -1022,7 +1042,7 @@ function template(v) {
                         marginTop: '4px',
                       }}
                     >
-                      Send message
+                      {sending ? 'Sending…' : 'Send message'}
                     </button>
                     <p style={{ fontSize: '12px', color: '#6b7f95', lineHeight: '1.5', textAlign: 'center' }}>
                       Confidential — never shared with treatment centres without your consent.{' '}

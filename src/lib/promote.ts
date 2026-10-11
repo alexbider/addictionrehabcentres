@@ -2,6 +2,7 @@ import type { Block } from '@/lib/content';
 import { getPageByRoute } from '@/lib/content';
 import { centreByRoute, realCentres, type RealCentre } from '@/lib/centres';
 import { SHOW_SAMPLE_DATA } from '@/lib/rollout';
+import { PLANS_CONFIRMED } from '@/config/plans';
 
 type Img = { src: string; alt: string; width: number | null; height: number | null };
 export type PromoteData = {
@@ -12,6 +13,8 @@ export type PromoteData = {
   /** Real published centres for the design's sample cards (hero card, "Sponsored vs organic" mock-up, testimonial logos). */
   heroCentre: RealCentre | null; sponsored: RealCentre[]; organic: RealCentre[]; testimonialCentres: Record<string, RealCentre | null>;
   showSample: boolean;
+  /** Plan and placement prices are shown only once the client has confirmed them (src/config/plans.ts). */
+  showPrices: boolean;
 };
 const toImg = (b: Block | undefined): Img | null => (b && b.type === 'image' ? { src: b.src, alt: b.alt ?? '', width: Number(b.width) || null, height: Number(b.height) || null } : null);
 
@@ -40,6 +43,7 @@ export function promoteData(): PromoteData | null {
     progHeading: text(b[iProg]), progText: text(b.slice(iProg + 1).find((x) => x.type === 'p')), progImg: toImg(imgs[3]),
     ...mockCentres(),
     showSample: SHOW_SAMPLE_DATA,
+    showPrices: PLANS_CONFIRMED,
   };
 }
 

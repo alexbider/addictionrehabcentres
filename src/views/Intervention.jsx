@@ -4,12 +4,14 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 import { buildBody, TYPO_INTERVENTION } from '@/dc/guide';
 import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, who: 1, sent: false, active: 'what', w: 390 };
+  state = { menu: null, who: 1, sent: false, sending: false, formError: '', formFields: null, active: 'what', w: 390 };
   componentDidMount() {
     this._ro = new ResizeObserver(() => {
       const w = document.documentElement.clientWidth;
@@ -420,10 +422,21 @@ class Component extends DCLogic {
         : ['Connect you with a trained interventionist', 'Match your loved one to a rehab centre', 'Help plan the conversation and next steps', 'Free, confidential guidance — 24/7'],
       sent,
       notSent: !sent,
-      submit: (e) => {
+      // Saved on the server first; the thank-you only appears after that succeeded.
+      submit: async (e) => {
         e.preventDefault();
-        this.setState({ sent: true });
+        const fd = new FormData(e.currentTarget);
+        this.setState({ sending: true, formError: '', formFields: null });
+        const r = await postJson('/api/forms/callback', {
+          who: forWho[who] ? forWho[who].label : '', province: fd.get('province') && fd.get('province') !== 'Province' ? fd.get('province') : '',
+          name: fd.get('name') || '', phone: fd.get('phone') || '', email: fd.get('email') || '', ack: true, company_website: fd.get('company_website') || '',
+        });
+        if (!r.ok) this.setState({ sending: false, formError: r.error || 'Your request was not sent.', formFields: r.fields || null });
+        else this.setState({ sending: false, sent: true });
       },
+      sending: this.state.sending,
+      formError: this.state.formError,
+      formFields: this.state.formFields,
       showToc: !narrow && (this.props.showToc ?? true),
       heroCols: mid ? '1fr' : '1.05fr .95fr',
       h1Size: mobile ? '44px' : '64px',
@@ -465,6 +478,9 @@ function template(v) {
     footCols,
     footerCols,
     forWho,
+    sending,
+    formError,
+    formFields,
     h1Size,
     helpCols,
     helpPad,
@@ -1427,6 +1443,7 @@ function template(v) {
                       boxShadow: '0 40px 80px -40px rgba(16,35,58,.6)',
                     }}
                   >
+                    <Honeypot />
                     <div style={{ font: '600 19px Jost,sans-serif' }}>Request a call back</div>
                     <div
                       style={{
@@ -1526,9 +1543,11 @@ function template(v) {
                         <option>Yukon</option>
                       </select>
                     </div>
+                    <FormError message={formError} fields={formFields} />
                     <button
                       className="scpc"
                       type="submit"
+                      disabled={sending}
                       style={{
                         appearance: 'none',
                         border: '0',

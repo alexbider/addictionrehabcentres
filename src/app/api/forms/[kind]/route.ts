@@ -1,0 +1,96 @@
+import { NextRequest } from 'next/server';
+import { eq } from 'drizzle-orm';
+import { dbConfigured, getDb, schema } from '@/db';
+import { formSchemas, type FormKind } from '@/server/schemas';
+import { sendEmail, notifyAdmin } from '@/server/email';
+import { rateLimit } from '@/server/ratelimit';
+import { audit } from '@/server/audit';
+import { hmac } from '@/server/crypto';
+import { currentUser } from '@/server/auth';
+import { isJson, json, readJson, sameOrigin } from '@/server/request';
+import { verifyTurnstile } from '@/server/turnstile';
+import { getPageByRoute } from '@/lib/content';
+import { slugToRoute } from '@/lib/slug';
+
+const UNAVAILABLE = { ok: false, error: 'This form is temporarily unavailable, so nothing was sent. Please call 1-855-885-4747.' };
+const ip = (req: NextRequest) => (req.headers.get('x-forwarded-for') || 'unknown').split(',')[0].trim();
+const fieldErrors = (e: { issues: { path: PropertyKey[]; message: string }[] }) => Object.fromEntries(e.issues.map((i) => [String(i.path[0] ?? 'form'), i.message]));
+
+/** A real, published centre page for this slug (claims and callbacks must point at one). */
+function centreFor(slug: string) {
+  const page = getPageByRoute(slugToRoute(slug));
+  return page?.page_type === 'centre' && page.centre ? page : null;
+}
+
+async function ensureCentre(slug: string) {
+  const db = (await getDb())!;
+  const page = centreFor(slug);
+  if (!page) return null;
+  const [row] = await db.select().from(schema.centres).where(eq(schema.centres.slug, slug)).limit(1);
+  if (!row) await db.insert(schema.centres).values({ slug, name: page.centre!.name, source: 'static', status: 'published' }).onConflictDoNothing();
+  return page;
+}
+
+const thanks = (to: string, what: string) => sendEmail(to, `We received your ${what}`, `Thank you. We received your ${what} and will follow up by email or phone.\n\nIf this was not you, you can ignore this message.\n\nAddiction Rehab Centres Canada\n1-855-885-4747`);
+
+/** Public forms. Nothing is reported as sent unless the database write succeeded. */
+export async function POST(req: NextRequest, ctx: { params: Promise<{ kind: string }> }) {
+  const { kind } = await ctx.params;
+  if (!(kind in formSchemas)) return json({ ok: false }, 404);
+  if (!sameOrigin(req) || !isJson(req)) return json({ ok: false, error: 'Request blocked.' }, 403);
+  if (!dbConfigured()) return json(UNAVAILABLE, 503);
+  const db = await getDb();
+  if (!db) return json(UNAVAILABLE, 503);
+
+  let body: unknown;
+  try { body = await readJson(req, 128 * 1024); } catch { return json({ ok: false, error: 'That message is too large or invalid.' }, 400); }
+  const parsed = formSchemas[kind as FormKind].safeParse(body);
+  if (!parsed.success) return json({ ok: false, error: 'Please check the highlighted fields.', fields: fieldErrors(parsed.error) }, 400);
+  const d = parsed.data as Record<string, unknown> & { email?: string; name?: string; phone?: string; message?: string; centreSlug?: string; sourcePath?: string; company_website?: string; turnstile?: string };
+  if (d.company_website) return json({ ok: true }); // honeypot filled: a bot, silently dropped
+  if (!(await verifyTurnstile(d.turnstile, ip(req)))) return json({ ok: false, error: 'Verification failed. Please try again.' }, 400);
+  if (!(await rateLimit(`form:${kind}:ip:${ip(req)}`, 6, 600))) return json({ ok: false, error: 'Too many submissions. Please wait a few minutes or call 1-855-885-4747.' }, 429, { 'retry-after': '600' });
+
+  const ipHash = hmac(ip(req)).slice(0, 24);
+  const { company_website: _h, turnstile: _t, ...clean } = d;
+  void _h; void _t;
+  const user = await currentUser();
+
+  try {
+    if (kind === 'claim') {
+      const page = await ensureCentre(d.centreSlug!);
+      if (!page) return json({ ok: false, error: 'We could not find that centre.', fields: { centreSlug: 'Unknown centre' } }, 400);
+      const [c] = await db.insert(schema.claims).values({ centreSlug: d.centreSlug!, userId: user?.id ?? null, claimantName: d.name!, email: d.email!, phone: d.phone || null, roleTitle: (d.roleTitle as string) || null, message: d.message || null }).returning({ id: schema.claims.id });
+      await audit(user?.id ?? null, 'claim.submitted', 'claim', c.id, { centre: d.centreSlug });
+      await notifyAdmin(`New claim: ${page.centre!.name}`, `${d.name} (${d.email}) asks to manage ${page.centre!.name}.\nReview it in the admin: /admin/claims/`);
+      await thanks(d.email!, 'claim request');
+      return json({ ok: true, id: c.id, message: 'Claim received. We will verify it and email you.' });
+    }
+
+    if (kind === 'centreOnboarding' || kind === 'therapistOnboarding') {
+      const k = kind === 'centreOnboarding' ? 'centre' : 'therapist';
+      const [s] = await db.insert(schema.onboardingSubmissions).values({ kind: k, userId: user?.id ?? null, email: d.email!, payload: d.payload as Record<string, unknown> }).returning({ id: schema.onboardingSubmissions.id });
+      await audit(user?.id ?? null, 'onboarding.submitted', 'onboarding', s.id, { kind: k });
+      await notifyAdmin(`New ${k} submission`, `${d.email} submitted a ${k} profile. Review it in the admin: /admin/onboarding/`);
+      await thanks(d.email!, `${k} submission`);
+      return json({ ok: true, id: s.id });
+    }
+
+    if (kind === 'removal') {
+      await db.insert(schema.removalRequests).values({ therapistSlug: d.therapistSlug as string, name: (d.name as string) || null, email: d.email!, reason: (d.reason as string) || null });
+      await notifyAdmin('Therapist profile removal request', `${d.email} asks to remove the profile "${d.therapistSlug}".`);
+      await thanks(d.email!, 'removal request');
+      return json({ ok: true });
+    }
+
+    // contact / callback / promote / subscribe → leads
+    if (kind === 'callback' && d.centreSlug && !(await ensureCentre(d.centreSlug))) return json({ ok: false, error: 'We could not find that centre.' }, 400);
+    const [l] = await db.insert(schema.leads).values({ type: kind, centreSlug: d.centreSlug ?? null, name: d.name ?? null, email: d.email ?? null, phone: d.phone || null, message: d.message ?? null, payload: clean, sourcePath: d.sourcePath ?? null, ipHash }).returning({ id: schema.leads.id });
+    await notifyAdmin(`New ${kind} request`, `${d.name ?? ''} ${d.email ?? ''} ${d.phone ?? ''}\n${d.message ?? ''}\nFrom: ${d.sourcePath ?? ''}\nOpen /admin/leads/`);
+    if (d.email && kind !== 'subscribe') await thanks(d.email, kind === 'callback' ? 'callback request' : 'message');
+    return json({ ok: true, id: l.id });
+  } catch (e) {
+    console.error('[forms]', kind, e);
+    return json({ ok: false, error: 'Something went wrong and your request was not saved. Please try again or call 1-855-885-4747.' }, 500);
+  }
+}

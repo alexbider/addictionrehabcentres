@@ -4,13 +4,15 @@ import React, { Fragment } from 'react';
 import { DCLogic, createDC, DCRoot, $A, $i, $css, $list, $val, $chk, $styleVal, $hostStyle } from '@/dc/runtime';
 import SiteHeader, { css as SiteHeader_css } from './SiteHeader';
 import SiteFooter from './SiteFooter';
+import { postJson } from '@/lib/form-client';
+import { Honeypot, FormError } from '@/components/FormBits';
 import CentreCard from '@/components/CentreCard';
 import { buildBody, TYPO_DRUG } from '@/dc/guide';
 import { HelpSection, LinkTiles } from '@/dc/parts';
 
 /* ───────────────────────── component logic (state, handlers, data) ───────────────────────── */
 class Component extends DCLogic {
-  state = { menu: null, tab: 0, slide: 0, faq: 0, who: 'Yourself', funding: 'Self-pay', ack: false };
+  state = { menu: null, tab: 0, slide: 0, faq: 0, who: 'Yourself', funding: 'Self-pay', ack: false, cbSent: false, cbSending: false, cbError: '', cbFields: null };
   sliderRef = React.createRef();
   perView = 3;
   slideTo(i, total) {
@@ -704,6 +706,25 @@ class Component extends DCLogic {
       substance,
       setSubstance: (e) => this.setState({ substance: e.target.value }),
       toggleAck: () => this.setState({ ack: !ack }),
+      cbSent: this.state.cbSent,
+      cbSending: this.state.cbSending,
+      cbError: this.state.cbError,
+      cbFields: this.state.cbFields,
+      // The callback request is saved on the server; the success message only appears after it was saved.
+      onCallback: async (e) => {
+        e.preventDefault();
+        if (!ack) return;
+        const fd = new FormData(e.currentTarget);
+        this.setState({ cbSending: true, cbError: '', cbFields: null });
+        const r = await postJson('/api/forms/callback', {
+           who: this.state.who, payment: this.state.funding,
+          setting: fd.get('setting') || '', when: fd.get('when') || '', province: fd.get('province') && fd.get('province') !== 'Select a province' ? fd.get('province') : '', substance: fd.get('substance') && fd.get('substance') !== '*' ? fd.get('substance') : '',
+          name: fd.get('name') || '', phone: fd.get('phone') || '', email: fd.get('email') || '', ack: true, company_website: fd.get('company_website') || '',
+        });
+        if (!r.ok) this.setState({ cbSending: false, cbError: r.error || 'Your request was not sent.', cbFields: r.fields || null });
+        else this.setState({ cbSending: false, cbSent: true });
+      },
+
       ackBorder: ack ? '#0890E8' : '#dbe6f0',
       ackBg: ack ? '#eaf5fd' : '#f7fafd',
       ackBoxBorder: ack ? '#0890E8' : '#b7c7d8',
@@ -818,6 +839,11 @@ function template(v) {
     substance,
     substanceOptions,
     toggleAck,
+    cbSent,
+    cbSending,
+    cbError,
+    cbFields,
+    onCallback,
     whoOptions,
   } = v;
   return (
@@ -1638,7 +1664,15 @@ function template(v) {
               <p style={{ fontSize: '16.5px', lineHeight: '1.65', color: '#516378' }}>{$i(helpLine)}</p>
               {helpExtra}
             </div>
+            {cbSent ? (
+              <div role="status" style={{ background: '#e9f8ef', border: '1px solid #bfe6cf', borderRadius: '24px', padding: '28px', color: '#1d6b3f' }}>
+                <h3 style={{ fontSize: '22px' }}>Thank you. We received your request.</h3>
+                <p style={{ fontSize: '15.5px', marginTop: '8px' }}>We will contact you by phone or email. If this is urgent, call 1-855-885-4747 any time.</p>
+              </div>
+            ) : (
             <form
+              onSubmit={onCallback}
+              data-callback-form
               style={{
                 background: '#fff',
                 border: '1px solid #e3ecf4',
@@ -1650,6 +1684,7 @@ function template(v) {
                 boxShadow: '0 30px 60px -40px rgba(16,35,58,.35)',
               }}
             >
+              <Honeypot />
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px' }}>
                 <h3 style={{ fontSize: '18px' }}>Request a confidential callback</h3>
                 <span
@@ -1792,6 +1827,7 @@ function template(v) {
                     Preferred setting
                   </span>
                   <select
+                    name="setting"
                     style={{
                       appearance: 'none',
                       border: '1px solid #dbe6f0',
@@ -1822,6 +1858,7 @@ function template(v) {
                     When?
                   </span>
                   <select
+                    name="when"
                     style={{
                       appearance: 'none',
                       border: '1px solid #dbe6f0',
@@ -1851,6 +1888,7 @@ function template(v) {
                     Province
                   </span>
                   <select
+                    name="province"
                     style={{
                       appearance: 'none',
                       border: '1px solid #dbe6f0',
@@ -1888,6 +1926,7 @@ function template(v) {
                     Substance <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <select
+                    name="substance"
                     value={$val(substance)}
                     onChange={setSubstance}
                     style={{
@@ -1923,6 +1962,7 @@ function template(v) {
                     First name <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <input
+                    name="name"
                     type="text"
                     required={true}
                     autoComplete="given-name"
@@ -1950,6 +1990,7 @@ function template(v) {
                     Phone <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <input
+                    name="phone"
                     type="tel"
                     required={true}
                     autoComplete="tel"
@@ -1977,6 +2018,7 @@ function template(v) {
                     Email <span style={{ color: '#D82028' }}>*</span>
                   </span>
                   <input
+                    name="email"
                     type="email"
                     required={true}
                     autoComplete="email"
@@ -2014,6 +2056,7 @@ function template(v) {
                   centre only after I agree. <span style={{ color: '#D82028' }}>*</span>
                 </span>
               </button>
+              <FormError message={cbError} fields={cbFields} />
               <button
                 className="scpc"
                 type="submit"
@@ -2028,6 +2071,7 @@ function template(v) {
                 Confidential · No obligation
               </p>
             </form>
+            )}
           </div>
         </section>
         ) : null}
