@@ -6,6 +6,42 @@ import { SHOW_SAMPLE_DATA } from '@/lib/rollout';
 import type { PlaceReviews } from '@/lib/reviews';
 import type { ProfileExtra } from '@/lib/profile-merge';
 import { routeToSlug } from '@/lib/slug';
+import fs from 'node:fs';
+import path from 'node:path';
+
+/** Hand-written design profile for one centre (content/centre-profiles/<slug>.json). When present, the Centre view renders
+ *  every section of the design from it: original listing copy, verified facts, pricing tabs, team, steps, FAQ. */
+export type CentreProfile = {
+  verified?: boolean; verifiedLabel?: string; updated?: string; catLine?: string;
+  address?: string; addressShort?: string; town?: string; phone?: string; placeId?: string;
+  google?: { rating: number; count: number; asOf?: string; mapsUrl?: string; writeUrl?: string } | null;
+  fromPrice?: string; fromSub?: string; privateNote?: string;
+  glance?: { k: string; v: string }[];
+  aboutH2?: string; intro?: string[];
+  facility?: { icon: string; k: string; v: string }[];
+  reviewer?: { name: string; org?: string } | null; verifyNote?: string;
+  pillars?: { n: string; kicker: string; title: string; body: string; photo?: number; photoImg?: Img | null }[];
+  video?: { provider: string; id: string; url: string } | null;
+  overviewH2?: string; overview?: string[];
+  services?: { title: string; color: string; items: [string, string][] }[]; serviceCaption?: string;
+  afterOverview?: string[];
+  steps?: { title: string; sub: string; items: { icon: string; label: string; body: string }[] } | null;
+  details?: { title: string; caption?: string; groups: { title: string; color: string; items: string[] }[] } | null;
+  pricing?: { caption?: string; tabs: { label: string; cols: string; head: string[]; rows: string[][]; note?: string }[] } | null;
+  team?: { kicker?: string; title: string; sub?: string; moreHref?: string; moreLabel?: string; members: { name: string; role: string; cred?: string; photo?: string }[] } | null;
+  location?: { heading: string; intro: string; cells: { k: string; v: string; href?: string }[]; serving: [string, string][] } | null;
+  faqIntro?: string; faqs?: { q: string; a: string }[];
+  othersSub?: string; othersLink?: { label: string; href: string } | null;
+};
+const profileCache = new Map<string, CentreProfile | null>();
+export function centreProfile(slug: string): CentreProfile | null {
+  const key = slug.replace(/^centre__/, '');
+  if (!profileCache.has(key)) {
+    const f = path.join(process.cwd(), 'content/centre-profiles', key + '.json');
+    profileCache.set(key, fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, 'utf8')) as CentreProfile) : null);
+  }
+  return profileCache.get(key) ?? null;
+}
 
 /** Centres on the approved Centre view: the 4 prototypes plus the batches built so far (alphabetical by slug, `centre__` removed). */
 const PROTOTYPES = ['another-road-addiction-recovery-centre', 'peace-country-wilderness-program', 'canadawide-mobile', 'blue-skies-recovery'];
@@ -99,6 +135,8 @@ export type CentreModel = {
   othersHeading: string;
   /** Real Google data only (null = the reviews section, rating chip and review count are hidden). */
   reviews: PlaceReviews | null;
+  /** Design profile (content/centre-profiles); null = generic rendering from the listing data. */
+  profile: CentreProfile | null;
   others: { name: string; href: string; category: string; catHref: string | null; address: string; excerpt: string; image: Img | null; phone: string; rating: string; googleReviews: number; featured: boolean; verified: boolean }[];
 };
 
@@ -260,5 +298,11 @@ export function centreModel(page: Page, live: PlaceReviews | null = null, extra:
     video: vb ? { provider: vb.provider, id: vb.id, url: vb.url } : null, intro, overviewFirst, rest, location, faqs, othersHeading, others,
     // Google reviews are shown only when they come from the Places API (src/lib/reviews.ts); the old scraped counts are not displayed.
     reviews: live,
+    profile: (() => {
+      const pr = centreProfile(routeToSlug(page.route));
+      if (!pr) return null;
+      // pillar photos are gallery indexes in the profile
+      return { ...pr, pillars: (pr.pillars ?? []).map((p) => ({ ...p, photoImg: typeof p.photo === 'number' ? images[p.photo % Math.max(1, images.length)] ?? null : null })) };
+    })(),
   };
 }
