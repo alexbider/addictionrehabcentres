@@ -8,7 +8,13 @@
   "town": "Innisfil",
   "phone": "647-697-8076",
   "placeId": "ChIJj4uJzKqxKogRnH2gsqPdy34",
-  "google": null,
+  "google": {
+    "rating": 5.0,
+    "count": 6,
+    "asOf": "Oct 2026",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=HOPE%20Be%20The%20Cure%20Innisfil&query_place_id=ChIJj4uJzKqxKogRnH2gsqPdy34",
+    "writeUrl": "https://search.google.com/local/writereview?placeid=ChIJj4uJzKqxKogRnH2gsqPdy34"
+  },
   "fromPrice": "",
   "fromSub": "",
   "privateNote": "Private, fee-based residential program",
