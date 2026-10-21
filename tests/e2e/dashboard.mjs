@@ -15,7 +15,8 @@ const mail = async (to) => (await (await fetch(`${BASE}/api/dev/outbox?to=${enco
 const post = (page, url, data) => page.request.post(BASE + url, { headers: { origin: BASE, 'content-type': 'application/json' }, data }).then(async (r) => ({ status: r.status(), body: await r.json().catch(() => ({})) }));
 const browser = await chromium.launch({ executablePath: CHROME });
 const errors = [];
-const newPage = async (w = 1440) => { const p = await (await browser.newContext({ viewport: { width: w, height: 900 } })).newPage(); p.on('pageerror', (e) => errors.push(e.message)); return p; };
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36';
+const newPage = async (w = 1440) => { const p = await (await browser.newContext({ viewport: { width: w, height: 900 }, userAgent: UA })).newPage(); p.on('pageerror', (e) => errors.push(e.message)); return p; };
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 async function signupVerify(page, u, role) {
   await page.goto(BASE + '/login/');
@@ -24,7 +25,7 @@ async function signupVerify(page, u, role) {
   const v = (await mail(u.email)).find((m) => /Confirm your email/.test(m.subject));
   const link = v?.body.match(/\/api\/auth\/verify\?token=[\w-]+/)?.[0];
   await page.goto(BASE + link);
-  check(`${role}: email confirmed`, /verified=1/.test(page.url()), page.url());
+  check(`${role}: email confirmed`, /verified=1|-dashboard\//.test(page.url()), page.url());
 }
 async function login(page, u) {
   await page.goto(BASE + '/login/');
@@ -62,7 +63,7 @@ try {
   check('centre: overview shows the centre name', /Star Drug Testing/i.test(t));
   check('centre: no demo labels', !/Fictional example data|Demo data|Lakeside|Jane/.test(t));
   check('centre: hot lead is the real lead', /Sam Lead/.test(t));
-  check('centre: profile views counted', /Profile views\s*\n?\s*[1-9]/.test(t), (t.match(/Profile views[\s\S]{0,30}/) || [''])[0]);
+  check('centre: profile views counted', /Profile views\s*\n(?:[^\n]*\n)?\s*[1-9]/.test(t), (t.match(/Profile views[\s\S]{0,30}/) || [''])[0]);
   await c.screenshot({ path: '/tmp/claude-0/c-overview.png', fullPage: true });
 
   // leads

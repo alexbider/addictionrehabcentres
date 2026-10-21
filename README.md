@@ -103,3 +103,15 @@ npm run db:migrate           # applies drizzle/*.sql and creates the master admi
 ARC_LOCAL_DB=.data/dev ARC_SEED_ADMIN_EMAIL=admin@example.test ARC_SEED_ADMIN_PASSWORD='…' ENABLE_DEV_OUTBOX=1 npm run dev
 npm run test:e2e             # sign-up → claim → edit → approve → public page (needs `npm run build` first)
 ```
+
+## Provider dashboards
+
+`/provider-dashboard/` (centre accounts) and `/therapist-dashboard/` (therapist accounts) are the *Provider Dashboard* design with real data.
+`/dashboard/` and sign-in send each account to its own dashboard; approving an onboarding submission sets the account type.
+
+* Markup is generated from the design; the logic class is the design's own, wired to `src/server/dashboard-data.ts` (first paint) and
+  `/api/dashboard/workspace` (facilities, partners, reports, tasks, campaigns, calendar; therapist clients, appointments, waitlist, invoices),
+  `/api/dashboard/leads` (stages, notes, e-mail replies, bookings, manual leads), `/api/dashboard/team`, `/api/provider/*`, `/api/therapist/profile`, Stripe.
+* Listing analytics come from `/api/track` (anonymous daily counters on centre and therapist pages; bots ignored).
+* Run `npm run db:migrate` once after deploying (migration `0002_dashboard`).
+* Test: start a server with the embedded database (see above), then `node tests/e2e/dashboard.mjs http://localhost:3400`.
