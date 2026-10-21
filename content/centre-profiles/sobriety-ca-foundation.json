@@ -309,7 +309,7 @@
   "team": null,
   "location": {
     "heading": "Sobriety.ca Foundation in Godmanchester, Quebec",
-    "intro": "The foundation answers calls and handles admissions from an office at 343 Preston Street in Ottawa, while treatment happens at its residence on Route 138 in Godmanchester, Quebec, near Huntingdon and Salaberry-de-Valleyfield. The centre puts the drive from Ottawa at under two hours; Montreal is about an hour away, and Toronto is roughly five and a half hours by the 401.",
+    "intro": "Treatment happens at the residence on Route 138 in Godmanchester, a farming township near Huntingdon in the Haut-Saint-Laurent part of Montérégie. Downtown Montreal is about an hour and ten minutes away by car, Salaberry-de-Valleyfield about half an hour, and the centre puts Ottawa at under two hours; admissions calls go through the foundation's office at 343 Preston Street in Ottawa.",
     "cells": [
       {
         "k": "Address",
@@ -331,8 +331,8 @@
         "href": "https://www.sobriety.ca/"
       },
       {
-        "k": "From Toronto",
-        "v": "≈ 5 hr 30 min by car"
+        "k": "From Montreal",
+        "v": "about 1 hr 10 min by car"
       },
       {
         "k": "Admissions",
@@ -341,19 +341,23 @@
     ],
     "serving": [
       [
-        "Ottawa",
-        "/ottawa-rehabs/"
-      ],
-      [
-        "Cornwall",
-        "/ontario-rehabs/"
-      ],
-      [
-        "Eastern Ontario",
-        "/ontario-rehabs/"
-      ],
-      [
         "Montreal",
+        "/montreal-rehabs/"
+      ],
+      [
+        "West Island",
+        "/montreal-rehabs/"
+      ],
+      [
+        "Châteauguay & the South Shore",
+        "/montreal-rehabs/"
+      ],
+      [
+        "Vaudreuil-Soulanges",
+        "/montreal-rehabs/"
+      ],
+      [
+        "Valleyfield & Huntingdon",
         "/drug-alcohol-rehabs-in-quebec/"
       ],
       [
@@ -361,12 +365,8 @@
         "/drug-alcohol-rehabs-in-quebec/"
       ],
       [
-        "Valleyfield & Huntingdon",
-        "/drug-alcohol-rehabs-in-quebec/"
-      ],
-      [
-        "Toronto",
-        "/toronto-rehabs/"
+        "Ottawa",
+        "/ottawa-rehabs/"
       ],
       [
         "Across Canada",
@@ -383,6 +383,10 @@
     {
       "q": "Is Sobriety.ca Foundation residential or outpatient?",
       "a": "It is a residential program: you live at the Godmanchester house for the length of your stay. Detox happens on site, and aftercare after discharge is online. The centre's recent articles also mention online therapy and outpatient options, so ask admissions what is available if you cannot leave home."
+    },
+    {
+      "q": "Is Sobriety.ca Foundation connected to Heritage Home Foundation?",
+      "a": "Yes, they share one residence. Both official websites give 2678 Route 138 in Godmanchester as the treatment facility, and sobriety.ca itself describes Heritage Home Foundation as the non-profit residential centre in Godmanchester. Heritage takes Montreal enquiries through an office at 1200 McGill College Avenue and calls the residence one of the few English-speaking rehabs in Quebec. Sobriety.ca handles admissions from its Ottawa office."
     },
     {
       "q": "Is Sobriety.ca Foundation the same as Sobriety House in Ottawa?",
@@ -423,11 +427,11 @@
   ],
   "othersSub": "Comparing options is normal. Every centre below is listed independently; call us and we will help you weigh them.",
   "othersLink": {
-    "label": "See all Ontario rehab centres",
-    "href": "/ontario-rehabs/"
+    "label": "See all Montreal rehab centres",
+    "href": "/montreal-rehabs/"
   },
   "seo": {
-    "title": "Sobriety.ca Foundation | Residential Rehab near Ottawa",
-    "description": "Small residential rehab for up to 12 adults in Godmanchester, Quebec, under 2 hours from Ottawa. On-site detox, private rooms, online aftercare. Call us."
+    "title": "Sobriety.ca Foundation | Rehab in Godmanchester, QC",
+    "description": "Residential rehab for up to 12 adults in Godmanchester, Montérégie, about an hour from Montreal. On-site detox, private rooms, online aftercare. Call us."
   }
 }
