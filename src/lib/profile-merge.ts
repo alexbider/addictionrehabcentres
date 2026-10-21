@@ -9,6 +9,7 @@ export type ProfileExtra = {
   amenities: string[];
   insurance: string[];
   programLength: string | null;
+  availability: 'available' | 'waitlist' | 'full' | null;
 };
 
 const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -36,7 +37,7 @@ export function mergeProfile(page: Page, profile: { data: CentreProfile; pricing
   const extra: ProfileExtra = {
     pricing: p.pricing ?? [],
     pricingUpdated: p.pricing?.length && profile.pricingUpdatedAt ? fmt(profile.pricingUpdatedAt) : null,
-    programs: p.programs ?? [], amenities: p.amenities ?? [], insurance: p.insurance ?? [], programLength: p.programLength ?? null,
+    programs: p.programs ?? [], amenities: p.amenities ?? [], insurance: p.insurance ?? [], programLength: p.programLength ?? null, availability: p.availability ?? null,
   };
   return { page: { ...page, centre: c }, extra };
 }

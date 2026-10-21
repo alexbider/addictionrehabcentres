@@ -47,6 +47,8 @@ export const profileSchema = z.object({
   pricing: z.array(z.object({ label: required(120), price: required(80), note: text(200).optional() })).max(20).optional(),
   hours: z.array(z.object({ day: z.enum(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']), hours: required(60) })).max(7).optional(),
   photos: z.array(z.object({ url: z.string().url().max(500), alt: text(200).default('') })).max(30).optional(),
+  /** Intake status chosen in the dashboard; shown on the public page. */
+  availability: z.enum(['available', 'waitlist', 'full']).optional(),
 });
 export type CentreProfile = z.infer<typeof profileSchema>;
 

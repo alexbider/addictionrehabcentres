@@ -21,6 +21,7 @@ import { getPlaceReviews, placeIdFor } from '@/lib/reviews';
 import { getApprovedProfile } from '@/server/profile';
 import { getPageSeo } from '@/server/seo';
 import { mergeProfile } from '@/lib/profile-merge';
+import TrackListing from '@/components/TrackListing';
 import { routeToSlug } from '@/lib/slug';
 
 export const dynamicParams = true; // must stay true: with false, Next cannot regenerate a page after revalidatePath() (NoFallbackError); unknown slugs still 404 via notFound()
@@ -60,6 +61,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   return (
     <>
       <JsonLd page={merged} reviews={live} />
+      {page.page_type === 'centre' ? <TrackListing entity="centre" slug={routeToSlug(page.route)} /> : null}
       <BeforeFooterProvider extra={<RelatedLinks page={page} />}>{view}</BeforeFooterProvider>
     </>
   );

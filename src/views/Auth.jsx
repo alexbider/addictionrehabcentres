@@ -134,7 +134,7 @@ class Component extends DCLogic {
         this.setState({ busy: false, serverError: r.error || 'Sign-in failed.' });
         return;
       }
-      window.location.href = nextParam || r.data.redirect || '/provider-dashboard/';
+      window.location.href = nextParam || r.data.redirect || '/dashboard/';
     };
     const submitSignup = async (e) => {
       e && e.preventDefault && e.preventDefault();
@@ -195,7 +195,7 @@ class Component extends DCLogic {
     destinations.unshift({
       title: 'Go to your dashboard',
       body: 'Leads, calendar, analytics and your listing.',
-      href: '/provider-dashboard',
+      href: '/dashboard',
       icon: ic.home,
     });
     destinations.push({ title: 'Go to the homepage', body: 'Browse the directory.', href: '/', icon: ic.home });

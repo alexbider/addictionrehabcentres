@@ -166,7 +166,8 @@ export function centreModel(page: Page, live: PlaceReviews | null = null, extra:
   const groups = GROUPS.map((g) => ({ title: g.title, color: g.color, items: [] as { label: string; icon: string }[], re: g.re, icons: g.icons }));
   const other = { title: 'Programs & services', color: '#516378', items: [] as { label: string; icon: string }[] };
   chipSet.forEach((label) => { const g = groups.find((x) => x.re.test(label)); const t = g ?? null; if (t) t.items.push({ label, icon: t.icons[t.items.length % t.icons.length] }); else other.items.push({ label, icon: 'check' }); });
-  const owner = [['Programs', extra?.programs], ['Amenities', extra?.amenities], ['Insurance accepted', extra?.insurance]].flatMap(([title, list]) => (list && (list as string[]).length ? [{ title: title as string, color: '#516378', items: (list as string[]).map((label) => ({ label, icon: 'check' })) }] : []));
+  const avail = extra?.availability ? [{ title: 'Current availability', color: extra.availability === 'available' ? '#1f8a52' : extra.availability === 'waitlist' ? '#a46407' : '#516378', items: [{ label: extra.availability === 'available' ? 'Beds available now' : extra.availability === 'waitlist' ? 'Waitlist open' : 'Currently full (enquiries welcome for future dates)', icon: 'check' }] }] : [];
+  const owner = [...avail, ...[['Programs', extra?.programs], ['Amenities', extra?.amenities], ['Insurance accepted', extra?.insurance]].flatMap(([title, list]) => (list && (list as string[]).length ? [{ title: title as string, color: '#516378', items: (list as string[]).map((label) => ({ label, icon: 'check' })) }] : []))];
   const serviceGroups = [...groups.map(({ title, color, items }) => ({ title, color, items })), other, ...owner].filter((g) => g.items.length);
 
   // ---- design copy that needs the centre's name: neutral, factual text

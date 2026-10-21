@@ -6,6 +6,7 @@ import { getPublishedTherapists, getTherapist, therapistCredential, therapistFee
 import { SITE_URL } from '@/lib/site';
 import EnquiryForm from './EnquiryForm';
 import RemovalLink from './RemovalLink';
+import TrackListing from '@/components/TrackListing';
 
 export const dynamicParams = true; // required so a profile published later can be rendered / regenerated on demand
 
@@ -48,6 +49,7 @@ export default async function Page({ params }: { params: Promise<{ slug: string 
   const breadcrumb = { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL + '/' }, { '@type': 'ListItem', position: 2, name: 'Find a therapist', item: SITE_URL + '/therapists/' }, { '@type': 'ListItem', position: 3, name: d.name }] };
   return (
     <PageShell active="">
+      <TrackListing entity="therapist" slug={t.slug} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld).replace(/</g, '\\u003c') }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumb).replace(/</g, '\\u003c') }} />
       <main style={{ background: '#f7fafd', padding: '40px 16px 80px', flex: 1 }}>

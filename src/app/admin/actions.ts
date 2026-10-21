@@ -105,11 +105,20 @@ export async function approveOnboarding(fd: FormData) {
     let slug = slugify(name) || 'new-centre';
     if (getPageByRoute(slugToRoute(slug))) slug += '-new';
     await db.insert(schema.centres).values({ slug, name, source: 'onboarding', status: 'draft' }).onConflictDoNothing();
-    if (s.userId) await db.insert(schema.centreMembers).values({ userId: s.userId, centreSlug: slug }).onConflictDoNothing();
+    if (s.userId) {
+      await db.insert(schema.centreMembers).values({ userId: s.userId, centreSlug: slug }).onConflictDoNothing();
+      // the account becomes a centre account, so signing in opens the centre dashboard
+      await db.update(schema.users).set({ role: 'provider' }).where(and(eq(schema.users.id, s.userId), eq(schema.users.role, 'therapist')));
+    }
     await db.update(schema.onboardingSubmissions).set({ status: 'approved', centreSlug: slug, reviewedBy: a.id, reviewedAt: new Date() }).where(eq(schema.onboardingSubmissions.id, id));
   } else {
     const slug = slugify(name) + '-' + randomToken().slice(0, 4).toLowerCase();
     const [t] = await db.insert(schema.therapists).values({ slug, userId: s.userId, status: 'draft', source: 'self' }).returning({ id: schema.therapists.id });
+    // the account becomes a therapist account (unless it already manages centres), so signing in opens the therapist dashboard
+    if (s.userId) {
+      const [m] = await db.select({ c: schema.centreMembers.centreSlug }).from(schema.centreMembers).where(eq(schema.centreMembers.userId, s.userId)).limit(1);
+      if (!m) await db.update(schema.users).set({ role: 'therapist' }).where(and(eq(schema.users.id, s.userId), eq(schema.users.role, 'provider')));
+    }
     await db.insert(schema.therapistProfiles).values({ therapistId: t.id, data: payload, descriptionStatus: 'owner' });
     await db.update(schema.onboardingSubmissions).set({ status: 'approved', therapistId: t.id, reviewedBy: a.id, reviewedAt: new Date() }).where(eq(schema.onboardingSubmissions.id, id));
   }

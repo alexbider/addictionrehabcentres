@@ -1260,7 +1260,7 @@ function template(v) {
                     >
                       <$A
                         className="scp1"
-                        href="/provider-dashboard"
+                        href="/dashboard"
                         style={{
                           display: 'inline-flex',
                           alignItems: 'center',

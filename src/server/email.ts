@@ -4,13 +4,13 @@ const FROM = () => process.env.EMAIL_FROM || 'Addiction Rehab Centres Canada <no
 
 /** Sends through Resend when RESEND_API_KEY is set; otherwise the message is only written to the outbox table (local development / no e-mail provider yet).
  *  Never throws: callers decide what a failed e-mail means (a saved form stays saved). Returns true when Resend accepted it. */
-export async function sendEmail(to: string, subject: string, text: string, html?: string): Promise<boolean> {
+export async function sendEmail(to: string, subject: string, text: string, html?: string, replyTo?: string): Promise<boolean> {
   const db = await getDb();
   const key = process.env.RESEND_API_KEY;
   let status = 'logged'; let error: string | null = null;
   if (key) {
     try {
-      const res = await fetch('https://api.resend.com/emails', { method: 'POST', headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' }, body: JSON.stringify({ from: FROM(), to: [to], subject, text, ...(html ? { html } : {}) }), signal: AbortSignal.timeout(10000) });
+      const res = await fetch('https://api.resend.com/emails', { method: 'POST', headers: { authorization: `Bearer ${key}`, 'content-type': 'application/json' }, body: JSON.stringify({ from: FROM(), to: [to], subject, text, ...(html ? { html } : {}), ...(replyTo ? { reply_to: replyTo } : {}) }), signal: AbortSignal.timeout(10000) });
       status = res.ok ? 'sent' : 'failed';
       if (!res.ok) error = `${res.status} ${(await res.text()).slice(0, 300)}`;
     } catch (e) { status = 'failed'; error = e instanceof Error ? e.message : String(e); }

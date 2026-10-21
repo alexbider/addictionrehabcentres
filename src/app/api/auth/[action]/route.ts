@@ -90,7 +90,7 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ action: st
     await createSession(u.id);
     if (u.emailVerifiedAt) await syncMemberships(u.id, u.email);
     await audit(u.id, 'login', 'user', u.id, {}, ip(req));
-    return json({ ok: true, role: u.role, verified: !!u.emailVerifiedAt, redirect: u.role === 'master_admin' ? '/admin/' : '/provider-dashboard/' });
+    return json({ ok: true, role: u.role, verified: !!u.emailVerifiedAt, redirect: u.role === 'master_admin' ? '/admin/' : u.role === 'therapist' ? '/therapist-dashboard/' : '/provider-dashboard/' });
   }
 
   if (action === 'forgot') {

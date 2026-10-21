@@ -255,3 +255,23 @@ export const outbox = pgTable('outbox', {
   error: text('error'),
   createdAt: createdAt(),
 });
+
+/** Everything a provider or therapist keeps in their dashboard that has no table of its own (facilities, referral partners, monthly reports,
+ *  tasks, campaigns, calendar slots; for therapists: clients, appointments, waitlist, invoices, practice tasks), plus their dashboard settings.
+ *  One JSON document per user, written by /api/dashboard/workspace. Aggregate business data only: the forms tell users not to enter patient details. */
+export const providerWorkspaces = pgTable('provider_workspaces', {
+  userId: uuid('user_id').primaryKey().references(() => users.id, { onDelete: 'cascade' }),
+  kind: text('kind').notNull(), // 'centre' | 'therapist'
+  data: jsonb('data').notNull().default({}),
+  updatedAt: timestamp('updated_at', { withTimezone: true }).notNull().defaultNow(),
+});
+
+/** Daily counters for public listing pages (views, call clicks, contact clicks, referring pages, search terms). Written by /api/track. */
+export const listingStats = pgTable('listing_stats', {
+  entity: text('entity').notNull(), // 'centre' | 'therapist'
+  slug: text('slug').notNull(),
+  kind: text('kind').notNull(), // 'view' | 'call' | 'click' | 'ref' | 'term'
+  key: text('key').notNull().default(''),
+  day: text('day').notNull(), // YYYY-MM-DD (UTC)
+  count: integer('count').notNull().default(0),
+}, (t) => [primaryKey({ columns: [t.entity, t.slug, t.kind, t.key, t.day] }), index('listing_stats_slug_idx').on(t.entity, t.slug, t.day)]);

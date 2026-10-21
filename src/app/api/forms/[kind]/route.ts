@@ -32,6 +32,24 @@ async function ensureCentre(slug: string) {
   return page;
 }
 
+/** E-mails a new callback request to the people who manage the centre (unless they switched "Email me new leads" off in their dashboard). */
+async function notifyCentreOwners(slug: string, d: { name?: string; phone?: string; email?: string; message?: string; when?: unknown; setting?: unknown; substance?: unknown }) {
+  try {
+    const db = (await getDb())!;
+    const rows = await db.select({ email: schema.users.email, ws: schema.providerWorkspaces.data }).from(schema.centreMembers)
+      .innerJoin(schema.users, eq(schema.users.id, schema.centreMembers.userId))
+      .leftJoin(schema.providerWorkspaces, eq(schema.providerWorkspaces.userId, schema.users.id))
+      .where(eq(schema.centreMembers.centreSlug, slug));
+    const name = getPageByRoute(slugToRoute(slug))?.centre?.name ?? slug;
+    for (const r of rows) {
+      const n = (r.ws as { notifs?: { email?: boolean } } | null)?.notifs;
+      if (n && n.email === false) continue;
+      const details = [d.setting, d.substance, d.when].filter(Boolean).join(' · ');
+      await sendEmail(r.email, `New callback request for ${name}`, `${d.name ?? 'Someone'} asked ${name} to call them back.\n\nPhone: ${d.phone ?? ''}${d.email ? '\nEmail: ' + d.email : ''}${details ? '\nLooking for: ' + details : ''}\n\nOpen your dashboard to reply and track this lead: ${process.env.APP_ORIGIN || process.env.NEXT_PUBLIC_SITE_URL || ''}/provider-dashboard/?view=leads`);
+    }
+  } catch (e) { console.error('[forms] owner notify', e); }
+}
+
 const thanks = (to: string, what: string) => sendEmail(to, `We received your ${what}`, `Thank you. We received your ${what} and will follow up by email or phone.\n\nIf this was not you, you can ignore this message.\n\nAddiction Rehab Centres Canada\n1-855-885-4747`);
 
 /** Public forms. Nothing is reported as sent unless the database write succeeded. */
@@ -99,6 +117,7 @@ export async function POST(req: NextRequest, ctx: { params: Promise<{ kind: stri
     // contact / callback / promote / subscribe → leads
     if (kind === 'callback' && d.centreSlug && !(await ensureCentre(d.centreSlug))) return json({ ok: false, error: 'We could not find that centre.' }, 400);
     const [l] = await db.insert(schema.leads).values({ type: kind, centreSlug: d.centreSlug ?? null, name: d.name ?? null, email: d.email ?? null, phone: d.phone || null, message: d.message ?? null, payload: clean, sourcePath: d.sourcePath ?? null, ipHash }).returning({ id: schema.leads.id });
+    if (kind === 'callback' && d.centreSlug) await notifyCentreOwners(d.centreSlug, d);
     await notifyAdmin(`New ${kind} request`, `${d.name ?? ''} ${d.email ?? ''} ${d.phone ?? ''}\n${d.message ?? ''}\nFrom: ${d.sourcePath ?? ''}\nOpen /admin/leads/`);
     if (d.email && kind !== 'subscribe') await thanks(d.email, kind === 'callback' ? 'callback request' : 'message');
     return json({ ok: true, id: l.id });

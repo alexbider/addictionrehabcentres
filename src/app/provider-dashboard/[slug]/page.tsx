@@ -7,7 +7,7 @@ import { centreTitle, staticCentre } from '@/server/dashboard';
 import { getApprovedProfile, getModerationMode } from '@/server/profile';
 import { Notice, Shell, fmtDate } from '@/components/backend/ui';
 import ProfileEditor from '../ProfileEditor';
-import { NAV } from '../page';
+import { NAV } from '../nav';
 import { slugToRoute, SLUG_RE } from '@/lib/slug';
 
 export const metadata: Metadata = { title: 'Edit your page', robots: { index: false, follow: false } };

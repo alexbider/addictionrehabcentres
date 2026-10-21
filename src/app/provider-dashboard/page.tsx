@@ -1,41 +1,19 @@
 import type { Metadata } from 'next';
+import { redirect } from 'next/navigation';
 import { dbConfigured } from '@/db';
 import { requireRole } from '@/server/auth';
-import { myCentres, myClaims, mySubscriptions } from '@/server/dashboard';
-import { Card, Notice, Shell, Table, btn, fmtDate } from '@/components/backend/ui';
-import SignOut from '@/components/backend/SignOut';
-import { slugToRoute } from '@/lib/slug';
+import { centreDashboard } from '@/server/dashboard-data';
+import { Notice, Shell } from '@/components/backend/ui';
+import { Root as Dashboard } from '@/views/ProviderDashboard';
 
-export const metadata: Metadata = { title: 'Provider dashboard', robots: { index: false, follow: false } };
+export const metadata: Metadata = { title: 'Centre dashboard', robots: { index: false, follow: false } };
 export const dynamic = 'force-dynamic';
 
-export const NAV = (current: string) => [
-  { href: '/provider-dashboard/', label: 'Overview', current: current === 'overview' },
-  { href: '/provider-dashboard/leads/', label: 'Enquiries', current: current === 'leads' },
-  { href: '/provider-dashboard/billing/', label: 'Plan & billing', current: current === 'billing' },
-];
-
-export default async function Page() {
-  if (!dbConfigured()) return <Shell title="Provider dashboard"><Notice kind="error">The dashboard needs the database to be connected (DATABASE_URL). It is not available yet.</Notice></Shell>;
-  const u = await requireRole(['provider'], '/provider-dashboard/');
-  const [centres, claims, subs] = await Promise.all([myCentres(u.id), myClaims(u.id, u.email), mySubscriptions(u.id)]);
-  return (
-    <Shell title="Provider dashboard" subtitle={`Signed in as ${u.email}`} nav={NAV('overview')}>
-      {!u.verified ? <Notice kind="info">Confirm your email address to edit your centres. We sent a link to {u.email}.</Notice> : null}
-      <div style={{ display: 'grid', gap: 22 }}>
-        <Card title="Your centres">
-          <Table head={['Centre', 'Public page', '']} empty="You do not manage a centre yet. Claim your listing to get started."
-            rows={centres.map((c) => [<strong key="n">{c.name}</strong>, <a key="p" href={slugToRoute(c.slug)}>{slugToRoute(c.slug)}</a>, <a key="e" href={`/provider-dashboard/${c.slug}/`} style={{ ...btn('ghost'), display: 'inline-flex', alignItems: 'center' }}>Edit page</a>])} />
-          <p style={{ marginTop: 14 }}><a href="/claim-listing/">Claim another listing</a> · <a href="/centre-onboarding/">Add a new centre</a></p>
-        </Card>
-        <Card title="Claims">
-          <Table head={['Centre', 'Status', 'Submitted']} empty="No claims yet." rows={claims.map((c) => [c.centreSlug, c.status === 'pending' ? 'Waiting for review' : c.status === 'approved' ? 'Approved' : 'Not approved', fmtDate(c.createdAt)])} />
-        </Card>
-        <Card title="Subscription">
-          <Table head={['Plan', 'Status', 'Renews']} empty="No active plan. Plans are not open for purchase yet." rows={subs.map((s) => [s.planKey, s.status, fmtDate(s.currentPeriodEnd)])} />
-        </Card>
-        <div><SignOut /></div>
-      </div>
-    </Shell>
-  );
+/** The centre (provider) dashboard: the Provider Dashboard design with real data. Therapists are sent to their own dashboard. */
+export default async function Page({ searchParams }: { searchParams: Promise<{ centre?: string }> }) {
+  if (!dbConfigured()) return <Shell title="Centre dashboard"><Notice kind="error">The dashboard needs the database to be connected (DATABASE_URL). It is not available yet.</Notice></Shell>;
+  const u = await requireRole(['provider', 'therapist'], '/provider-dashboard/');
+  if (u.role === 'therapist') redirect('/therapist-dashboard/');
+  const data = await centreDashboard(u, (await searchParams).centre);
+  return <Dashboard providerType="centre" initial={data} />;
 }
